@@ -1,0 +1,1242 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.1 SP3
+Microsemi Corporation - Microsemi Libero Software Release v11.1 SP3 (Version 11.1.3.1)
+Copyright (c) 1989-2013
+Date: Thu Jan 16 17:33:34 2014
+
+
+Design: TOPLEVEL
+Family: SmartFusion
+Die: A2F500M3G
+Package: 484 FBGA
+Temperature: -40 25 100
+Voltage: COM
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               MAC_CLK_IN
+Period (ns):                25.000
+Frequency (MHz):            40.000
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_aclk
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_fabric_interface_clock
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_pclk1
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_ccc_gla0
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_ccc_glb
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               MSS_CORE2_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               imaging_0/stonyman_0/clkAdc:Q
+Period (ns):                39.077
+Frequency (MHz):            25.591
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        2.096
+External Hold (ns):         -0.392
+Min Clock-To-Out (ns):      3.691
+Max Clock-To-Out (ns):      15.385
+
+Clock Domain:               imaging_0/stonyman_1/clkAdc:Q
+Period (ns):                36.981
+Frequency (MHz):            27.041
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               MSS_CORE_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       50.000
+Required Frequency (MHz):   20.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               CLK50
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               MSS_CORE_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:MACCLK
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain MAC_CLK_IN
+
+Info: The maximum frequency of this clock domain is limited by the period of pin MSS_CORE2_0/MSS_ADLIB_INST/U_CORE:MACCLK
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_aclk
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_fabric_interface_clock
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_pclk1
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_gla0
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_glb
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain MSS_CORE2_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain imaging_0/stonyman_0/clkAdc:Q
+
+SET Register to Register
+
+Path 1
+  From:                        imaging_0/stonyman_0/counterPixelsCaptured[14]:CLK
+  To:                          imaging_0/stonyman_0/substate[0]:D
+  Delay (ns):                  38.607
+  Slack (ns):
+  Arrival (ns):                41.383
+  Required (ns):
+  Setup (ns):                  0.498
+  Minimum Period (ns):         39.077
+
+Path 2
+  From:                        imaging_0/stonyman_0/counterPixelsCaptured[14]:CLK
+  To:                          imaging_0/stonyman_0/substate[1]:D
+  Delay (ns):                  38.012
+  Slack (ns):
+  Arrival (ns):                40.788
+  Required (ns):
+  Setup (ns):                  0.498
+  Minimum Period (ns):         38.473
+
+Path 3
+  From:                        imaging_0/stonyman_0/counterPixelsCaptured[14]:CLK
+  To:                          imaging_0/stonyman_0/state[11]:D
+  Delay (ns):                  37.738
+  Slack (ns):
+  Arrival (ns):                40.514
+  Required (ns):
+  Setup (ns):                  0.530
+  Minimum Period (ns):         38.245
+
+Path 4
+  From:                        imaging_0/stonyman_0/counterPixelsCaptured[14]:CLK
+  To:                          imaging_0/stonyman_0/state[12]:D
+  Delay (ns):                  37.779
+  Slack (ns):
+  Arrival (ns):                40.555
+  Required (ns):
+  Setup (ns):                  0.498
+  Minimum Period (ns):         38.240
+
+Path 5
+  From:                        imaging_0/stonyman_0/counterPixelsCaptured[13]:CLK
+  To:                          imaging_0/stonyman_0/substate[0]:D
+  Delay (ns):                  37.243
+  Slack (ns):
+  Arrival (ns):                40.029
+  Required (ns):
+  Setup (ns):                  0.498
+  Minimum Period (ns):         37.723
+
+
+Expanded Path 1
+  From: imaging_0/stonyman_0/counterPixelsCaptured[14]:CLK
+  To: imaging_0/stonyman_0/substate[0]:D
+  data required time                             N/C
+  data arrival time                          -   41.383
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        imaging_0/stonyman_0/clkAdc:Q
+               +     0.000          Clock source
+  0.000                        imaging_0/stonyman_0/clkAdc:Q (r)
+               +     1.414          net: imaging_0/stonyman_0/clkAdc_i
+  1.414                        imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:A (r)
+               +     0.710          cell: ADLIB:CLKSRC
+  2.124                        imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:Y (r)
+               +     0.652          net: imaging_0/stonyman_0_clkAdc
+  2.776                        imaging_0/stonyman_0/counterPixelsCaptured[14]:CLK (r)
+               +     0.681          cell: ADLIB:DFN1
+  3.457                        imaging_0/stonyman_0/counterPixelsCaptured[14]:Q (f)
+               +     4.952          net: imaging_0/stonyman_0/counterPixelsCaptured[14]
+  8.409                        imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un61_sum_ADD_9x9_fast_I11_Y_a0_0:A (f)
+               +     0.583          cell: ADLIB:NOR2A
+  8.992                        imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un61_sum_ADD_9x9_fast_I11_Y_a0_0:Y (f)
+               +     1.609          net: imaging_0/stonyman_0/ADD_9x9_fast_I11_Y_a0_0
+  10.601                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un61_sum_ADD_9x9_fast_I11_Y_0:B (f)
+               +     0.588          cell: ADLIB:AO1
+  11.189                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un61_sum_ADD_9x9_fast_I11_Y_0:Y (f)
+               +     0.319          net: imaging_0/stonyman_0/N146_2
+  11.508                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un68_sum_ADD_9x9_fast_I15_Y:C (f)
+               +     0.695          cell: ADLIB:XOR3
+  12.203                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un68_sum_ADD_9x9_fast_I15_Y:Y (r)
+               +     1.612          net: imaging_0/stonyman_0/mult1_un68_sum[5]
+  13.815                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un75_sum_ADD_9x9_fast_I2_P0N:B (r)
+               +     0.475          cell: ADLIB:OR2A
+  14.290                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un75_sum_ADD_9x9_fast_I2_P0N:Y (r)
+               +     0.302          net: imaging_0/stonyman_0/N129_0
+  14.592                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un75_sum_ADD_9x9_fast_I11_un1_Y:C (r)
+               +     0.694          cell: ADLIB:NOR3C
+  15.286                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un75_sum_ADD_9x9_fast_I11_un1_Y:Y (r)
+               +     1.604          net: imaging_0/stonyman_0/I11_un1_Y_0
+  16.890                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m5_0_a3:A (r)
+               +     0.909          cell: ADLIB:OA1
+  17.799                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m5_0_a3:Y (r)
+               +     0.312          net: imaging_0/stonyman_0/ADD_N_6
+  18.111                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m5_0:B (r)
+               +     0.475          cell: ADLIB:OR2
+  18.586                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m5_0:Y (r)
+               +     1.639          net: imaging_0/stonyman_0/ADD_i2_mux_0
+  20.225                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un89_sum_ADD_m4_0_0:A (r)
+               +     0.716          cell: ADLIB:XA1C
+  20.941                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un89_sum_ADD_m4_0_0:Y (f)
+               +     0.311          net: imaging_0/stonyman_0/ADD_m4_0_0
+  21.252                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un89_sum_ADD_m4_0:A (f)
+               +     0.580          cell: ADLIB:NOR2A
+  21.832                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un89_sum_ADD_m4_0:Y (f)
+               +     0.321          net: imaging_0/stonyman_0/ADD_N_8_mux
+  22.153                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un89_sum_ADD_m5:B (f)
+               +     0.614          cell: ADLIB:MX2A
+  22.767                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un89_sum_ADD_m5:Y (f)
+               +     3.445          net: imaging_0/stonyman_0/ADD_i2_mux
+  26.212                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un96_sum_ADD_9x9_fast_I12_Y_0:C (f)
+               +     0.450          cell: ADLIB:OA1A
+  26.662                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un96_sum_ADD_9x9_fast_I12_Y_0:Y (f)
+               +     0.302          net: imaging_0/stonyman_0/ADD_9x9_fast_I12_Y_0
+  26.964                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un96_sum_ADD_9x9_fast_I12_Y:C (f)
+               +     0.585          cell: ADLIB:AO1A
+  27.549                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un96_sum_ADD_9x9_fast_I12_Y:Y (f)
+               +     1.137          net: imaging_0/stonyman_0/N148
+  28.686                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un96_sum_ADD_9x9_fast_I17_Y:C (f)
+               +     0.695          cell: ADLIB:XNOR3
+  29.381                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un96_sum_ADD_9x9_fast_I17_Y:Y (r)
+               +     0.532          net: imaging_0/stonyman_0/mult1_un96_sum[7]
+  29.913                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un103_sum_ADD_9x9_fast_I15_Y:C (r)
+               +     1.081          cell: ADLIB:XNOR3
+  30.994                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un103_sum_ADD_9x9_fast_I15_Y:Y (r)
+               +     3.328          net: imaging_0/stonyman_0/mult1_un103_sum[5]
+  34.322                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un110_sum_ADD_9x9_fast_I11_Y_0:A (r)
+               +     0.863          cell: ADLIB:OA1
+  35.185                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un110_sum_ADD_9x9_fast_I11_Y_0:Y (r)
+               +     0.300          net: imaging_0/stonyman_0/ADD_9x9_fast_I11_Y_0
+  35.485                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un110_sum_ADD_9x9_fast_I11_Y:A (r)
+               +     0.336          cell: ADLIB:OR2
+  35.821                       imaging_0/stonyman_0/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un110_sum_ADD_9x9_fast_I11_Y:Y (r)
+               +     1.965          net: imaging_0/stonyman_0/N146_1
+  37.786                       imaging_0/stonyman_0/substate_RNO_5[0]:B (r)
+               +     0.869          cell: ADLIB:XA1
+  38.655                       imaging_0/stonyman_0/substate_RNO_5[0]:Y (r)
+               +     0.291          net: imaging_0/stonyman_0/substate_N_7_mux_0
+  38.946                       imaging_0/stonyman_0/substate_RNO_0[0]:S (r)
+               +     0.432          cell: ADLIB:MX2
+  39.378                       imaging_0/stonyman_0/substate_RNO_0[0]:Y (f)
+               +     0.851          net: imaging_0/stonyman_0/substate_m11_0_a4_1
+  40.229                       imaging_0/stonyman_0/substate_RNO[0]:A (f)
+               +     0.842          cell: ADLIB:AOI1
+  41.071                       imaging_0/stonyman_0/substate_RNO[0]:Y (r)
+               +     0.312          net: imaging_0/stonyman_0/substate_N_18_mux
+  41.383                       imaging_0/stonyman_0/substate[0]:D (r)
+                                    
+  41.383                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          imaging_0/stonyman_0/clkAdc:Q
+               +     0.000          Clock source
+  N/C                          imaging_0/stonyman_0/clkAdc:Q (r)
+               +     1.414          net: imaging_0/stonyman_0/clkAdc_i
+  N/C                          imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:A (r)
+               +     0.710          cell: ADLIB:CLKSRC
+  N/C                          imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:Y (r)
+               +     0.680          net: imaging_0/stonyman_0_clkAdc
+  N/C                          imaging_0/stonyman_0/substate[0]:CLK (r)
+               -     0.498          Library setup time: ADLIB:DFN1P0
+  N/C                          imaging_0/stonyman_0/substate[0]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        px0_adc_din
+  To:                          imaging_0/adcxx1s101_0/dataout[0]:D
+  Delay (ns):                  4.386
+  Slack (ns):
+  Arrival (ns):                4.386
+  Required (ns):
+  Setup (ns):                  0.530
+  External Setup (ns):         2.096
+
+
+Expanded Path 1
+  From: px0_adc_din
+  To: imaging_0/adcxx1s101_0/dataout[0]:D
+  data required time                             N/C
+  data arrival time                          -   4.386
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        px0_adc_din (r)
+               +     0.000          net: px0_adc_din
+  0.000                        px0_adc_din_pad/U0/U0:PAD (r)
+               +     0.992          cell: ADLIB:IOPAD_IN
+  0.992                        px0_adc_din_pad/U0/U0:Y (r)
+               +     0.000          net: px0_adc_din_pad/U0/NET1
+  0.992                        px0_adc_din_pad/U0/U1:YIN (r)
+               +     0.040          cell: ADLIB:IOIN_IB
+  1.032                        px0_adc_din_pad/U0/U1:Y (r)
+               +     0.288          net: px0_adc_din_c
+  1.320                        imaging_0/adcxx1s101_0/dataout_RNO[0]:A (r)
+               +     0.430          cell: ADLIB:INV
+  1.750                        imaging_0/adcxx1s101_0/dataout_RNO[0]:Y (f)
+               +     2.636          net: imaging_0/adcxx1s101_0/px0_adc_din_c_i
+  4.386                        imaging_0/adcxx1s101_0/dataout[0]:D (f)
+                                    
+  4.386                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          imaging_0/stonyman_0/clkAdc:Q
+               +     0.000          Clock source
+  N/C                          imaging_0/stonyman_0/clkAdc:Q (r)
+               +     1.414          net: imaging_0/stonyman_0/clkAdc_i
+  N/C                          imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:A (r)
+               +     0.710          cell: ADLIB:CLKSRC
+  N/C                          imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:Y (r)
+               +     0.696          net: imaging_0/stonyman_0_clkAdc
+  N/C                          imaging_0/adcxx1s101_0/dataout[0]:CLK (r)
+               -     0.530          Library setup time: ADLIB:DFN1E1
+  N/C                          imaging_0/adcxx1s101_0/dataout[0]:D
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        imaging_0/stonyman_0/substate[9]:CLK
+  To:                          led[0]
+  Delay (ns):                  12.576
+  Slack (ns):
+  Arrival (ns):                15.385
+  Required (ns):
+  Clock to Out (ns):           15.385
+
+Path 2
+  From:                        imaging_0/stonyman_0/substate[6]:CLK
+  To:                          led[0]
+  Delay (ns):                  12.469
+  Slack (ns):
+  Arrival (ns):                15.274
+  Required (ns):
+  Clock to Out (ns):           15.274
+
+Path 3
+  From:                        imaging_0/stonyman_0/state[7]:CLK
+  To:                          led[6]
+  Delay (ns):                  12.323
+  Slack (ns):
+  Arrival (ns):                15.146
+  Required (ns):
+  Clock to Out (ns):           15.146
+
+Path 4
+  From:                        imaging_0/stonyman_0/state[2]:CLK
+  To:                          led[5]
+  Delay (ns):                  12.191
+  Slack (ns):
+  Arrival (ns):                14.999
+  Required (ns):
+  Clock to Out (ns):           14.999
+
+Path 5
+  From:                        imaging_0/stonyman_0/substate[3]:CLK
+  To:                          led[1]
+  Delay (ns):                  11.924
+  Slack (ns):
+  Arrival (ns):                14.741
+  Required (ns):
+  Clock to Out (ns):           14.741
+
+
+Expanded Path 1
+  From: imaging_0/stonyman_0/substate[9]:CLK
+  To: led[0]
+  data required time                             N/C
+  data arrival time                          -   15.385
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        imaging_0/stonyman_0/clkAdc:Q
+               +     0.000          Clock source
+  0.000                        imaging_0/stonyman_0/clkAdc:Q (r)
+               +     1.414          net: imaging_0/stonyman_0/clkAdc_i
+  1.414                        imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:A (r)
+               +     0.710          cell: ADLIB:CLKSRC
+  2.124                        imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:Y (r)
+               +     0.685          net: imaging_0/stonyman_0_clkAdc
+  2.809                        imaging_0/stonyman_0/substate[9]:CLK (r)
+               +     0.536          cell: ADLIB:DFN1C0
+  3.345                        imaging_0/stonyman_0/substate[9]:Q (r)
+               +     2.336          net: imaging_0/stonyman_0/substate[9]
+  5.681                        imaging_0/stonyman_0/substate_RNIVQ5G[11]:B (r)
+               +     0.475          cell: ADLIB:NOR2
+  6.156                        imaging_0/stonyman_0/substate_RNIVQ5G[11]:Y (f)
+               +     1.030          net: imaging_0/stonyman_0/N_1208
+  7.186                        imaging_0/stonyman_0/substate_RNI5RQT[4]:A (f)
+               +     0.580          cell: ADLIB:NOR2A
+  7.766                        imaging_0/stonyman_0/substate_RNI5RQT[4]:Y (f)
+               +     0.312          net: imaging_0/stonyman_0/led_2_c_2[0]
+  8.078                        imaging_0/stonyman_0/substate_RNI3BRB2[15]:B (f)
+               +     0.593          cell: ADLIB:NOR3B
+  8.671                        imaging_0/stonyman_0/substate_RNI3BRB2[15]:Y (f)
+               +     2.767          net: led_2_c[0]
+  11.438                       led_pad[0]/U0/U1:D (f)
+               +     0.609          cell: ADLIB:IOTRI_OB_EB
+  12.047                       led_pad[0]/U0/U1:DOUT (f)
+               +     0.000          net: led_pad[0]/U0/NET1
+  12.047                       led_pad[0]/U0/U0:D (f)
+               +     3.338          cell: ADLIB:IOPAD_TRI
+  15.385                       led_pad[0]/U0/U0:PAD (f)
+               +     0.000          net: led[0]
+  15.385                       led[0] (f)
+                                    
+  15.385                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          imaging_0/stonyman_0/clkAdc:Q
+               +     0.000          Clock source
+  N/C                          imaging_0/stonyman_0/clkAdc:Q (r)
+                                    
+  N/C                          led[0] (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain imaging_0/stonyman_1/clkAdc:Q
+
+SET Register to Register
+
+Path 1
+  From:                        imaging_0/stonyman_1/counterPixelsCaptured[14]:CLK
+  To:                          imaging_0/stonyman_1/substate[1]:D
+  Delay (ns):                  36.483
+  Slack (ns):
+  Arrival (ns):                38.905
+  Required (ns):
+  Setup (ns):                  0.498
+  Minimum Period (ns):         36.981
+
+Path 2
+  From:                        imaging_0/stonyman_1/counterPixelsCaptured[15]:CLK
+  To:                          imaging_0/stonyman_1/substate[1]:D
+  Delay (ns):                  35.995
+  Slack (ns):
+  Arrival (ns):                38.417
+  Required (ns):
+  Setup (ns):                  0.498
+  Minimum Period (ns):         36.493
+
+Path 3
+  From:                        imaging_0/stonyman_1/counterPixelsCaptured[14]:CLK
+  To:                          imaging_0/stonyman_1/state[11]:D
+  Delay (ns):                  35.863
+  Slack (ns):
+  Arrival (ns):                38.285
+  Required (ns):
+  Setup (ns):                  0.498
+  Minimum Period (ns):         36.340
+
+Path 4
+  From:                        imaging_0/stonyman_1/counterPixelsCaptured[15]:CLK
+  To:                          imaging_0/stonyman_1/state[11]:D
+  Delay (ns):                  35.375
+  Slack (ns):
+  Arrival (ns):                37.797
+  Required (ns):
+  Setup (ns):                  0.498
+  Minimum Period (ns):         35.852
+
+Path 5
+  From:                        imaging_0/stonyman_1/counterPixelsCaptured[13]:CLK
+  To:                          imaging_0/stonyman_1/substate[1]:D
+  Delay (ns):                  35.276
+  Slack (ns):
+  Arrival (ns):                37.693
+  Required (ns):
+  Setup (ns):                  0.498
+  Minimum Period (ns):         35.769
+
+
+Expanded Path 1
+  From: imaging_0/stonyman_1/counterPixelsCaptured[14]:CLK
+  To: imaging_0/stonyman_1/substate[1]:D
+  data required time                             N/C
+  data arrival time                          -   38.905
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        imaging_0/stonyman_1/clkAdc:Q
+               +     0.000          Clock source
+  0.000                        imaging_0/stonyman_1/clkAdc:Q (r)
+               +     1.026          net: imaging_0/stonyman_1/clkAdc_i
+  1.026                        imaging_0/stonyman_1/clkAdc_RNIIRMA/U_CLKSRC:A (r)
+               +     0.710          cell: ADLIB:CLKSRC
+  1.736                        imaging_0/stonyman_1/clkAdc_RNIIRMA/U_CLKSRC:Y (r)
+               +     0.686          net: imaging_0/stonyman_1_clkAdc
+  2.422                        imaging_0/stonyman_1/counterPixelsCaptured[14]:CLK (r)
+               +     0.536          cell: ADLIB:DFN1
+  2.958                        imaging_0/stonyman_1/counterPixelsCaptured[14]:Q (r)
+               +     1.266          net: imaging_0/stonyman_1/counterPixelsCaptured[14]
+  4.224                        imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un68_sum_ADD_9x9_fast_I17_Y_a0_0:B (r)
+               +     0.475          cell: ADLIB:NOR2A
+  4.699                        imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un68_sum_ADD_9x9_fast_I17_Y_a0_0:Y (f)
+               +     2.990          net: imaging_0/stonyman_1/ADD_9x9_fast_I17_Y_a1_0
+  7.689                        imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un68_sum_ADD_9x9_fast_I17_Y_a0:B (f)
+               +     0.583          cell: ADLIB:NOR2B
+  8.272                        imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un68_sum_ADD_9x9_fast_I17_Y_a0:Y (f)
+               +     0.921          net: imaging_0/stonyman_1/ADD_9x9_fast_I17_Y_a0
+  9.193                        imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un68_sum_ADD_9x9_fast_I17_Y_4_0:C (f)
+               +     0.652          cell: ADLIB:AO1
+  9.845                        imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un68_sum_ADD_9x9_fast_I17_Y_4_0:Y (f)
+               +     0.355          net: imaging_0/stonyman_1/ADD_9x9_fast_I17_Y_4_0
+  10.200                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m2_0_a2:C (f)
+               +     0.694          cell: ADLIB:NOR3
+  10.894                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m2_0_a2:Y (r)
+               +     2.937          net: imaging_0/stonyman_1/ADD_m2_0_a2
+  13.831                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m7:B (r)
+               +     0.912          cell: ADLIB:AO16
+  14.743                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m7:Y (f)
+               +     0.312          net: imaging_0/stonyman_1/ADD_N_8
+  15.055                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m8:B (f)
+               +     0.912          cell: ADLIB:XOR2
+  15.967                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m8:Y (f)
+               +     0.302          net: imaging_0/stonyman_1/ADD_N_9
+  16.269                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m9:B (f)
+               +     0.528          cell: ADLIB:MX2C
+  16.797                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un82_sum_ADD_m9:Y (r)
+               +     0.343          net: imaging_0/stonyman_1/ADD_m9
+  17.140                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un89_sum_ADD_9x9_fast_I3_P0N_0:A (r)
+               +     0.469          cell: ADLIB:OR2A
+  17.609                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un89_sum_ADD_9x9_fast_I3_P0N_0:Y (f)
+               +     3.240          net: imaging_0/stonyman_1/N146_0
+  20.849                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un89_sum_ADD_9x9_fast_I11_un1_Y_0:A (f)
+               +     0.588          cell: ADLIB:AOI1D
+  21.437                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un89_sum_ADD_9x9_fast_I11_un1_Y_0:Y (f)
+               +     0.339          net: r_m1_e_0
+  21.776                       r_m1_e:C (f)
+               +     0.374          cell: ADLIB:OA1A
+  22.150                       r_m1_e:Y (f)
+               +     1.585          net: r_N_3_mux
+  23.735                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un96_sum_ADD_9x9_fast_I9_Y_0:B (f)
+               +     0.564          cell: ADLIB:MX2B
+  24.299                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un96_sum_ADD_9x9_fast_I9_Y_0:Y (r)
+               +     0.377          net: imaging_0/stonyman_1/N150
+  24.676                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un96_sum_ADD_9x9_fast_I16_Y:C (r)
+               +     0.911          cell: ADLIB:XNOR3
+  25.587                       imaging_0/stonyman_1/un1_counterPixelsCaptured_13_if_generate_plus.mult1_un96_sum_ADD_9x9_fast_I16_Y:Y (f)
+               +     2.772          net: imaging_0/stonyman_1/mult1_un96_sum[6]
+  28.359                       imaging_0/stonyman_1/un1_m1_0_a2_0:C (f)
+               +     0.651          cell: ADLIB:OAI1
+  29.010                       imaging_0/stonyman_1/un1_m1_0_a2_0:Y (r)
+               +     0.397          net: imaging_0/stonyman_1/un1_m1_0_a2_0
+  29.407                       imaging_0/stonyman_1/un1_m1_0_a2:C (r)
+               +     0.485          cell: ADLIB:AOI1B
+  29.892                       imaging_0/stonyman_1/un1_m1_0_a2:Y (r)
+               +     1.693          net: imaging_0/stonyman_1/un1_m1_0_a2
+  31.585                       imaging_0/stonyman_1/counterPixelsCaptured_RNIL46UPK3_1[5]:C (r)
+               +     0.593          cell: ADLIB:NOR3A
+  32.178                       imaging_0/stonyman_1/counterPixelsCaptured_RNIL46UPK3_1[5]:Y (f)
+               +     0.360          net: imaging_0/stonyman_1/un1_N_8
+  32.538                       imaging_0/stonyman_1/counterPixelsCaptured_RNIPLS8K12[5]:A (f)
+               +     0.535          cell: ADLIB:MX2
+  33.073                       imaging_0/stonyman_1/counterPixelsCaptured_RNIPLS8K12[5]:Y (f)
+               +     0.302          net: imaging_0/stonyman_1/un1_N_11
+  33.375                       imaging_0/stonyman_1/counterPixelsCaptured_RNI1JLN3I1[5]:A (f)
+               +     0.535          cell: ADLIB:MX2
+  33.910                       imaging_0/stonyman_1/counterPixelsCaptured_RNI1JLN3I1[5]:Y (f)
+               +     0.299          net: imaging_0/stonyman_1/un1_N_14
+  34.209                       imaging_0/stonyman_1/counterPixelsCaptured_RNIM29O862[4]:B (f)
+               +     0.528          cell: ADLIB:MX2
+  34.737                       imaging_0/stonyman_1/counterPixelsCaptured_RNIM29O862[4]:Y (f)
+               +     0.847          net: imaging_0/stonyman_1/un1_N_15
+  35.584                       imaging_0/stonyman_1/substate_RNO_2[1]:B (f)
+               +     0.580          cell: ADLIB:NOR2B
+  36.164                       imaging_0/stonyman_1/substate_RNO_2[1]:Y (f)
+               +     1.815          net: imaging_0/stonyman_1/N_178
+  37.979                       imaging_0/stonyman_1/substate_RNO[1]:C (f)
+               +     0.614          cell: ADLIB:OR3
+  38.593                       imaging_0/stonyman_1/substate_RNO[1]:Y (f)
+               +     0.312          net: imaging_0/stonyman_1/substate_ns[1]
+  38.905                       imaging_0/stonyman_1/substate[1]:D (f)
+                                    
+  38.905                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          imaging_0/stonyman_1/clkAdc:Q
+               +     0.000          Clock source
+  N/C                          imaging_0/stonyman_1/clkAdc:Q (r)
+               +     1.026          net: imaging_0/stonyman_1/clkAdc_i
+  N/C                          imaging_0/stonyman_1/clkAdc_RNIIRMA/U_CLKSRC:A (r)
+               +     0.710          cell: ADLIB:CLKSRC
+  N/C                          imaging_0/stonyman_1/clkAdc_RNIIRMA/U_CLKSRC:Y (r)
+               +     0.686          net: imaging_0/stonyman_1_clkAdc
+  N/C                          imaging_0/stonyman_1/substate[1]:CLK (r)
+               -     0.498          Library setup time: ADLIB:DFN1C0
+  N/C                          imaging_0/stonyman_1/substate[1]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain MSS_CORE_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain CLK50
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain MSS_CORE_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:MACCLK
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+No Path
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

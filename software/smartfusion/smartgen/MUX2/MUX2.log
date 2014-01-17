@@ -1,0 +1,59 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Tue Jul 30 14:24:25 2013
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : MUX2
+Family                          : PA3SOC2
+Output Format                   : VERILOG
+Type                            : Multiplexor
+Sel0                            : Active High
+Sel1                            : None
+Sel2                            : None
+Sel3                            : None
+Sel4                            : None
+Sel5                            : None
+Output Bus Width                : 1
+No Of Input Buses               : 2
+Placement Info                  : yes
+
+*************
+Fanin Control
+*************
+
+Signal      Buffering   Max Load   Signal Width
+------      ---------   --------   ------------
+Sel0          Auto         6
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:      1  Total:  11520   (0.01%)
+    Fabric IO (W/ clocks)      Used:      0  Total:    128   (0.00%)
+    Fabric Differential IO     Used:      0  Total:     64   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     43   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     15   (0.00%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    Fabric CCC                 Used:      0  Total:      1   (0.00%)
+    MSS CCC                    Used:      0  Total:      1   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     24   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote Verilog netlist to Z:/russ/private/research/senseye/git/sw/smartfusion/impl/libero/insight/smartgen\MUX2\MUX2.v.
+
+ ** Log Ended:   Tue Jul 30 14:24:26 2013
+

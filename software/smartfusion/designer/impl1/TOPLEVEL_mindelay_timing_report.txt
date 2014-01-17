@@ -1,0 +1,1064 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.1 SP3
+Microsemi Corporation - Microsemi Libero Software Release v11.1 SP3 (Version 11.1.3.1)
+Copyright (c) 1989-2013
+Date: Thu Jan 16 17:33:35 2014
+
+
+Design: TOPLEVEL
+Family: SmartFusion
+Die: A2F500M3G
+Package: 484 FBGA
+Temperature: -40 25 100
+Voltage: COM
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               MAC_CLK_IN
+Period (ns):                25.000
+Frequency (MHz):            40.000
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_aclk
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_fabric_interface_clock
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_pclk1
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_ccc_gla0
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               mss_ccc_glb
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               MSS_CORE2_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               imaging_0/stonyman_0/clkAdc:Q
+Period (ns):                39.077
+Frequency (MHz):            25.591
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        2.096
+External Hold (ns):         -0.392
+Min Clock-To-Out (ns):      3.691
+Max Clock-To-Out (ns):      15.385
+
+Clock Domain:               imaging_0/stonyman_1/clkAdc:Q
+Period (ns):                36.981
+Frequency (MHz):            27.041
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               MSS_CORE_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       50.000
+Required Frequency (MHz):   20.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               CLK50
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       20.000
+Required Frequency (MHz):   50.000
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+Clock Domain:               MSS_CORE_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:MACCLK
+Period (ns):                N/A
+Frequency (MHz):            N/A
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        N/A
+External Hold (ns):         N/A
+Min Clock-To-Out (ns):      N/A
+Max Clock-To-Out (ns):      N/A
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain MAC_CLK_IN
+
+Info: The maximum frequency of this clock domain is limited by the period of pin MSS_CORE2_0/MSS_ADLIB_INST/U_CORE:MACCLK
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_aclk
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_fabric_interface_clock
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_pclk1
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_gla0
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain mss_ccc_glb
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain MSS_CORE2_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain imaging_0/stonyman_0/clkAdc:Q
+
+SET Register to Register
+
+Path 1
+  From:                        imaging_0/adcxx1s101_0/dataout[6]:CLK
+  To:                          imaging_0/adcxx1s101_0/dataout[7]:D
+  Delay (ns):                  0.373
+  Slack (ns):
+  Arrival (ns):                1.643
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        imaging_0/adcxx1s101_0/dataout[4]:CLK
+  To:                          imaging_0/adcxx1s101_0/dataout[5]:D
+  Delay (ns):                  0.373
+  Slack (ns):
+  Arrival (ns):                1.643
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        imaging_0/adcxx1s101_0/dataout[7]:CLK
+  To:                          imaging_0/stonyman_0/px0_out[7]:D
+  Delay (ns):                  0.373
+  Slack (ns):
+  Arrival (ns):                1.643
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        imaging_0/adcxx1s101_0/dataout[5]:CLK
+  To:                          imaging_0/adcxx1s101_0/dataout[6]:D
+  Delay (ns):                  0.398
+  Slack (ns):
+  Arrival (ns):                1.668
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        imaging_0/adcxx1s101_0/dataout[5]:CLK
+  To:                          imaging_0/stonyman_0/px0_out[5]:D
+  Delay (ns):                  0.398
+  Slack (ns):
+  Arrival (ns):                1.668
+  Required (ns):
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: imaging_0/adcxx1s101_0/dataout[6]:CLK
+  To: imaging_0/adcxx1s101_0/dataout[7]:D
+  data arrival time                              1.643
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        imaging_0/stonyman_0/clkAdc:Q
+               +     0.000          Clock source
+  0.000                        imaging_0/stonyman_0/clkAdc:Q (r)
+               +     0.639          net: imaging_0/stonyman_0/clkAdc_i
+  0.639                        imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:A (r)
+               +     0.312          cell: ADLIB:CLKSRC
+  0.951                        imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:Y (r)
+               +     0.319          net: imaging_0/stonyman_0_clkAdc
+  1.270                        imaging_0/adcxx1s101_0/dataout[6]:CLK (r)
+               +     0.236          cell: ADLIB:DFN1E1
+  1.506                        imaging_0/adcxx1s101_0/dataout[6]:Q (r)
+               +     0.137          net: imaging_0/adc081s101_0_dataout[6]
+  1.643                        imaging_0/adcxx1s101_0/dataout[7]:D (r)
+                                    
+  1.643                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          imaging_0/stonyman_0/clkAdc:Q
+               +     0.000          Clock source
+  N/C                          imaging_0/stonyman_0/clkAdc:Q (r)
+               +     0.639          net: imaging_0/stonyman_0/clkAdc_i
+  N/C                          imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:A (r)
+               +     0.312          cell: ADLIB:CLKSRC
+  N/C                          imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:Y (r)
+               +     0.337          net: imaging_0/stonyman_0_clkAdc
+  N/C                          imaging_0/adcxx1s101_0/dataout[7]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1
+  N/C                          imaging_0/adcxx1s101_0/dataout[7]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        px0_adc_din
+  To:                          imaging_0/adcxx1s101_0/dataout[0]:D
+  Delay (ns):                  1.913
+  Slack (ns):
+  Arrival (ns):                1.913
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          -0.392
+
+
+Expanded Path 1
+  From: px0_adc_din
+  To: imaging_0/adcxx1s101_0/dataout[0]:D
+  data arrival time                              1.913
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        px0_adc_din (f)
+               +     0.000          net: px0_adc_din
+  0.000                        px0_adc_din_pad/U0/U0:PAD (f)
+               +     0.280          cell: ADLIB:IOPAD_IN
+  0.280                        px0_adc_din_pad/U0/U0:Y (f)
+               +     0.000          net: px0_adc_din_pad/U0/NET1
+  0.280                        px0_adc_din_pad/U0/U1:YIN (f)
+               +     0.016          cell: ADLIB:IOIN_IB
+  0.296                        px0_adc_din_pad/U0/U1:Y (f)
+               +     0.137          net: px0_adc_din_c
+  0.433                        imaging_0/adcxx1s101_0/dataout_RNO[0]:A (f)
+               +     0.219          cell: ADLIB:INV
+  0.652                        imaging_0/adcxx1s101_0/dataout_RNO[0]:Y (r)
+               +     1.261          net: imaging_0/adcxx1s101_0/px0_adc_din_c_i
+  1.913                        imaging_0/adcxx1s101_0/dataout[0]:D (r)
+                                    
+  1.913                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          imaging_0/stonyman_0/clkAdc:Q
+               +     0.000          Clock source
+  N/C                          imaging_0/stonyman_0/clkAdc:Q (r)
+               +     0.768          net: imaging_0/stonyman_0/clkAdc_i
+  N/C                          imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:A (r)
+               +     0.375          cell: ADLIB:CLKSRC
+  N/C                          imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:Y (r)
+               +     0.378          net: imaging_0/stonyman_0_clkAdc
+  N/C                          imaging_0/adcxx1s101_0/dataout[0]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1
+  N/C                          imaging_0/adcxx1s101_0/dataout[0]:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        imaging_0/stonyman_0/resv:CLK
+  To:                          resv
+  Delay (ns):                  2.432
+  Slack (ns):
+  Arrival (ns):                3.691
+  Required (ns):
+  Clock to Out (ns):           3.691
+
+Path 2
+  From:                        imaging_0/stonyman_0/incp:CLK
+  To:                          incp
+  Delay (ns):                  2.666
+  Slack (ns):
+  Arrival (ns):                3.926
+  Required (ns):
+  Clock to Out (ns):           3.926
+
+Path 3
+  From:                        imaging_0/adcxx1s101_0/cs:CLK
+  To:                          CS
+  Delay (ns):                  2.937
+  Slack (ns):
+  Arrival (ns):                4.198
+  Required (ns):
+  Clock to Out (ns):           4.198
+
+Path 4
+  From:                        imaging_0/stonyman_0/incv:CLK
+  To:                          incv
+  Delay (ns):                  2.940
+  Slack (ns):
+  Arrival (ns):                4.206
+  Required (ns):
+  Clock to Out (ns):           4.206
+
+Path 5
+  From:                        imaging_0/stonyman_0/startAdcCapture:CLK
+  To:                          TP_ADCSTARTCAP
+  Delay (ns):                  2.991
+  Slack (ns):
+  Arrival (ns):                4.261
+  Required (ns):
+  Clock to Out (ns):           4.261
+
+
+Expanded Path 1
+  From: imaging_0/stonyman_0/resv:CLK
+  To: resv
+  data arrival time                              3.691
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        imaging_0/stonyman_0/clkAdc:Q
+               +     0.000          Clock source
+  0.000                        imaging_0/stonyman_0/clkAdc:Q (r)
+               +     0.639          net: imaging_0/stonyman_0/clkAdc_i
+  0.639                        imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:A (r)
+               +     0.312          cell: ADLIB:CLKSRC
+  0.951                        imaging_0/stonyman_0/clkAdc_RNIHK17/U_CLKSRC:Y (r)
+               +     0.308          net: imaging_0/stonyman_0_clkAdc
+  1.259                        imaging_0/stonyman_0/resv:CLK (r)
+               +     0.236          cell: ADLIB:DFN1E0C0
+  1.495                        imaging_0/stonyman_0/resv:Q (r)
+               +     0.892          net: resv_c
+  2.387                        resv_pad/U0/U1:D (r)
+               +     0.265          cell: ADLIB:IOTRI_OB_EB
+  2.652                        resv_pad/U0/U1:DOUT (r)
+               +     0.000          net: resv_pad/U0/NET1
+  2.652                        resv_pad/U0/U0:D (r)
+               +     1.039          cell: ADLIB:IOPAD_TRI
+  3.691                        resv_pad/U0/U0:PAD (r)
+               +     0.000          net: resv
+  3.691                        resv (r)
+                                    
+  3.691                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          imaging_0/stonyman_0/clkAdc:Q
+               +     0.000          Clock source
+  N/C                          imaging_0/stonyman_0/clkAdc:Q (r)
+                                    
+  N/C                          resv (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain imaging_0/stonyman_1/clkAdc:Q
+
+SET Register to Register
+
+Path 1
+  From:                        imaging_0/stonyman_1/state[10]:CLK
+  To:                          imaging_0/stonyman_1/startAdcCapture:E
+  Delay (ns):                  0.488
+  Slack (ns):
+  Arrival (ns):                1.579
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        imaging_0/stonyman_1/cachedPOINTER[2]:CLK
+  To:                          imaging_0/stonyman_1/cachedValue_cachedValue_ram1_[4]:E
+  Delay (ns):                  0.718
+  Slack (ns):
+  Arrival (ns):                1.802
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        imaging_0/stonyman_1/cachedPOINTER[0]:CLK
+  To:                          imaging_0/stonyman_1/cachedPOINTER[0]:D
+  Delay (ns):                  0.676
+  Slack (ns):
+  Arrival (ns):                1.769
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        imaging_0/stonyman_1/busy:CLK
+  To:                          imaging_0/stonyman_1/busy:D
+  Delay (ns):                  0.675
+  Slack (ns):
+  Arrival (ns):                1.762
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        imaging_0/stonyman_1/cachedPOINTER[1]:CLK
+  To:                          imaging_0/stonyman_1/cachedPOINTER[1]:D
+  Delay (ns):                  0.677
+  Slack (ns):
+  Arrival (ns):                1.770
+  Required (ns):
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: imaging_0/stonyman_1/state[10]:CLK
+  To: imaging_0/stonyman_1/startAdcCapture:E
+  data arrival time                              1.579
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        imaging_0/stonyman_1/clkAdc:Q
+               +     0.000          Clock source
+  0.000                        imaging_0/stonyman_1/clkAdc:Q (r)
+               +     0.464          net: imaging_0/stonyman_1/clkAdc_i
+  0.464                        imaging_0/stonyman_1/clkAdc_RNIIRMA/U_CLKSRC:A (r)
+               +     0.312          cell: ADLIB:CLKSRC
+  0.776                        imaging_0/stonyman_1/clkAdc_RNIIRMA/U_CLKSRC:Y (r)
+               +     0.315          net: imaging_0/stonyman_1_clkAdc
+  1.091                        imaging_0/stonyman_1/state[10]:CLK (r)
+               +     0.236          cell: ADLIB:DFN1C0
+  1.327                        imaging_0/stonyman_1/state[10]:Q (r)
+               +     0.252          net: imaging_0/stonyman_1/state[10]
+  1.579                        imaging_0/stonyman_1/startAdcCapture:E (r)
+                                    
+  1.579                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          imaging_0/stonyman_1/clkAdc:Q
+               +     0.000          Clock source
+  N/C                          imaging_0/stonyman_1/clkAdc:Q (r)
+               +     0.464          net: imaging_0/stonyman_1/clkAdc_i
+  N/C                          imaging_0/stonyman_1/clkAdc_RNIIRMA/U_CLKSRC:A (r)
+               +     0.312          cell: ADLIB:CLKSRC
+  N/C                          imaging_0/stonyman_1/clkAdc_RNIIRMA/U_CLKSRC:Y (r)
+               +     0.332          net: imaging_0/stonyman_1_clkAdc
+  N/C                          imaging_0/stonyman_1/startAdcCapture:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1P0
+  N/C                          imaging_0/stonyman_1/startAdcCapture:E
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain MSS_CORE_0/MSS_CCC_0/I_XTLOSC:CLKOUT
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain CLK50
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Clock Domain MSS_CORE_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:MACCLK
+
+SET Register to Register
+
+No Path
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+No Path
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+No Path
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

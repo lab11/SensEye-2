@@ -1,0 +1,87 @@
+@N|Running in 64-bit mode
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":13:0:13:6|Synthesizing module CAHBLTO
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v":13:0:13:8|Synthesizing module CAHBLTO10
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":13:0:13:9|Synthesizing module CAHBLTO0OI
+@N: CL177 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Sharing sequential element CAHBLTI0lI.
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":13:0:13:6|Synthesizing module CAHBLTO
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":13:0:13:9|Synthesizing module CAHBLTO0OI
+@N: CL177 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Sharing sequential element CAHBLTI0lI.
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":13:0:13:8|Synthesizing module CAHBLTlI1
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":13:0:13:9|Synthesizing module CAHBLTl0Il
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":13:0:13:9|Synthesizing module CAHBLTOl0l
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v":13:0:13:9|Synthesizing module CAHBLTllO0
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":13:0:13:9|Synthesizing module CAHBLTlOl0
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":13:0:13:10|Synthesizing module CoreAHBLite
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":8:0:8:10|Synthesizing module CAHBtoAPB3O
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v":8:0:8:12|Synthesizing module CAHBtoAPB3IOl
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":8:0:8:12|Synthesizing module CAHBtoAPB3O1I
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v":8:0:8:12|Synthesizing module COREAHBTOAPB3
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3O
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":2092:8:2092:13|Synthesizing module RAM4K9
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\smartgen\FIFO_PIXEL_SELECT\FIFO_PIXEL_SELECT.v":5:7:5:23|Synthesizing module FIFO_PIXEL_SELECT
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\heartbeat.v":13:7:13:15|Synthesizing module heartbeat
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\adcxx1s101.v":41:7:41:16|Synthesizing module adcxx1s101
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":957:7:957:14|Synthesizing module DFN1E1C0
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1289:7:1289:9|Synthesizing module INV
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":79:7:79:9|Synthesizing module AO1
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":2:7:2:10|Synthesizing module AND2
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":17:7:17:10|Synthesizing module AND3
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1931:7:1931:10|Synthesizing module XOR2
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1908:7:1908:11|Synthesizing module XNOR2
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":909:7:909:12|Synthesizing module DFN1C0
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":97:7:97:10|Synthesizing module AO1C
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1462:7:1462:10|Synthesizing module OR2A
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1411:7:1411:11|Synthesizing module NOR3A
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1456:7:1456:9|Synthesizing module OR2
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1373:7:1373:12|Synthesizing module NAND3A
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1473:7:1473:9|Synthesizing module OR3
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1353:7:1353:11|Synthesizing module NAND2
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":7:7:7:11|Synthesizing module AND2A
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":114:7:114:10|Synthesizing module AOI1
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":981:7:981:12|Synthesizing module DFN1P0
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1394:7:1394:11|Synthesizing module NOR2A
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":103:7:103:10|Synthesizing module AO1D
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\smartgen\fifo_px\fifo_px.v":5:7:5:13|Synthesizing module fifo_px
+@N: CG364 :"C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\lib\proasic\smartfusion.v":1329:7:1329:9|Synthesizing module MX2
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\smartgen\MUX2\MUX2.v":5:7:5:10|Synthesizing module MUX2
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman.v":157:7:157:14|Synthesizing module stonyman
+@N: CL134 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman.v":247:0:247:5|Found RAM cachedValue, depth=8, width=8
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":395:7:395:20|Synthesizing module stonyman_ioreg
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":102:7:102:19|Synthesizing module stonyman_apb3
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\imaging\imaging.v":9:7:9:13|Synthesizing module imaging
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\MSS_CORE2\mss_tshell.v":1:7:1:13|Synthesizing module MSS_AHB
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":1:7:1:16|Synthesizing module MSS_XTLOSC
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\MSS_CORE2\MSS_CCC_0\MSS_CORE2_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:37|Synthesizing module MSS_CORE2_tmp_MSS_CCC_0_MSS_CCC
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":67:7:67:15|Synthesizing module BIBUF_MSS
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":145:7:145:12|Synthesizing module MSSINT
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\MSS_CORE2\MSS_CORE2.v":9:7:9:15|Synthesizing module MSS_CORE2
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\ahb.v":12:7:12:9|Synthesizing module AHB
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\cr_int.v":12:7:12:12|Synthesizing module cr_int
+@N: CG179 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\cr_int.v":217:43:217:50|Removing redundant assignment
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\psram_cr.v":12:7:12:14|Synthesizing module psram_cr
+@N: CG364 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\TOPLEVEL\TOPLEVEL.v":9:7:9:14|Synthesizing module TOPLEVEL
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[3][3]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[3][2]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[3][1]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[3][0]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[2][3]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[2][2]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[2][1]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[2][0]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[1][3]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[1][2]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[1][1]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[1][0]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[0][3]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[0][2]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[0][1]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v":649:0:649:5|Trying to extract state machine for register fifoRdenState[0][0]
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman.v":247:0:247:5|Trying to extract state machine for register substate
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman.v":247:0:247:5|Trying to extract state machine for register state
+@N: CL201 :"\\vmware-host\Shared Folders\lab11 On My Mac\wo

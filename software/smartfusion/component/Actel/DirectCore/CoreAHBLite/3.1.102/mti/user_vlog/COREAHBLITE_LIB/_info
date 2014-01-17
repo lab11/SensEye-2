@@ -1,0 +1,61 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Actelprj\SVN_checkout_work\CoreAHBLite\trunk\mti\user_vlog
+vBFM_AHBL
+Ino;0H<UI^IIkooEIJ[`Ea0
+VTdbZ<mT17e4JAiZ]_cWlA1
+Z1 w1233754464
+8../../rtl/vlog/amba_bfm/bfm_ahbl.v
+F../../rtl/vlog/amba_bfm/bfm_ahbl.v
+L0 12
+Z2 OW;L;6.4a;39
+r1
+31
+Z3 o-work COREAHBLITE_LIB +incdir+../../rtl/vlog/amba_bfm -O0
+n@b@f@m_@a@h@b@l
+!s100 jC:mKJH]OiRgdL9]R<9Gj3
+!s85 0
+vBFM_AHBSLAVE
+!s100 7Zlk0If2;NI0C^1l7lmj72
+Ijh<EVXI8hLf>ZeJ`hVK[E2
+VNTViIJb5d291YdVl5h6>Z3
+R1
+8../../rtl/vlog/amba_bfm/bfm_ahbslave.v
+F../../rtl/vlog/amba_bfm/bfm_ahbslave.v
+L0 12
+R2
+r1
+!s85 0
+31
+R3
+n@b@f@m_@a@h@b@s@l@a@v@e
+vBFM_AHBSLAVEEXT
+I?71Y:2V;iUB_?PBE@UCcc2
+Vn=F[;0CU;UGnU<b^3LMlG2
+R1
+8../../rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+F../../rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+L0 12
+R2
+r1
+31
+R3
+n@b@f@m_@a@h@b@s@l@a@v@e@e@x@t
+!s100 Q>baMGA4Yj6:fTX[?8:GD0
+!s85 0
+vBFM_MAIN
+IbHg@KS]NDG;KIMlzkFJ9K2
+ViVZ69EDnGSWVneR><jY:O3
+R1
+8../../rtl/vlog/amba_bfm/bfm_main.v
+F../../rtl/vlog/amba_bfm/bfm_main.v
+L0 12
+R2
+r1
+31
+R3
+n@b@f@m_@m@a@i@n
+!s100 G`^Z<Pffb2MK7`5KM68NU3
+!s85 0

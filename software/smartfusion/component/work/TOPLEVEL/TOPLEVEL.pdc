@@ -1,0 +1,164 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.1 SP3 11.1.3.1
+# Family: SmartFusion , Die: A2F500M3G , Package: 484 FBGA
+# Date generated: Wed Jan 15 15:37:14 2014 
+
+
+# 
+# User Groups
+# 
+
+define_group -name UART_0_PADs
+
+define_group -name MAC_RMII_PHY_MGMT_PADs
+
+define_group -name MAC_RMII_DATA_PADs
+
+define_group -name UART_0
+
+define_group -name afull
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+set_io MAC_CRSDV          \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -DIRECTION INPUT
+
+
+set_io MAC_MDC         \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_MDIO           \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -DIRECTION INOUT
+
+
+set_io {MAC_RXD[0]}       \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_RXD[1]}       \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -DIRECTION INPUT
+
+
+set_io MAC_RXER           \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_TXD[0]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_TXD[1]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_TXEN        \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -DIRECTION OUTPUT
+
+
+set_io MSS_RESET_N        \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -DIRECTION INPUT
+
+
+# User Group UART_0_PADs
+
+set_io UART_0_RXD            \
+    -iostd LVTTL             \
+    -RES_PULL None           \
+    -SCHMITT_TRIGGER Off     \
+    -GROUP_NAME UART_0_PADs  \
+    -DIRECTION INPUT
+
+
+set_io UART_0_TXD            \
+    -iostd LVTTL             \
+    -OUT_LOAD 35             \
+    -RES_PULL None           \
+    -SKEW Off                \
+    -SLEW High               \
+    -GROUP_NAME UART_0_PADs  \
+    -DIRECTION OUTPUT
+
+
+
+#
+# Non IO constraints
+#
+
+
+#
+# Old IO constraints, commented out for reference
+#
+
+# set_io UART_0_RXD -GROUP_NAME UART_0_PADs -DIRECTION INPUT 
+# set_io UART_0_TXD -GROUP_NAME UART_0_PADs -DIRECTION OUTPUT 

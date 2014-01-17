@@ -1,0 +1,51 @@
+Software Version: 9.1.3.4
+Driver : 3.0.0 build 1
+programmer '51857' : FlashPro3
+Opened 'C:\Actelprj\a2f-actel-dev-brd-F\pdb_project\pdb_project.pro'
+PDB file 'C:\Actelprj\a2f-actel-dev-brd-F\a2f-actel-dev-brd-F.pdb' has been loaded successfully.
+DESIGN : TOPLEVEL;  CHECKSUM : 16C3;  PDB_VERSION : 1.6
+Warning: One or more programming or configuration files have changed since generation.
+         To view details and update a PDB, you may click on Modify PDB button for the target
+         device.
+         To update a STAPL file, you may reload the file or reload the project.
+Warning: One or more programming or configuration files have changed since generation.
+         To view details and update a PDB, you may click on Modify PDB button for the target
+         device.
+         To update a STAPL file, you may reload the file or reload the project.
+         
+         --------------------------------------------------------------------------------------\
+         -----
+         Audit Status of Programming file 'a2f-actel-dev-brd-F.pdb'
+         --------------------------------------------------------------------------------------\
+         -----
+         The following original file[s] have changed:
+                 'C:\Actelprj\a2f-actel-dev-brd-F\designer\impl1\TOPLEVEL.fdb'
+
+         'C:\Actelprj\a2f-actel-dev-brd-F\component\work\MSS_CORE\MSS_ENVM_0\MSS_ENVM_0.efc'
+         The following original file[s] could not be located from the disk and will not be
+         monitored for changes:
+                 '\\Ocean\psl\SF\release\1.2.1\u-boot-actel.hex'
+         
+         
+         Do you want to Continue Programming? [YES]
+programmer '51857' : Scan Chain...
+Warning: programmer '51857' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '51857' : Scan Chain PASSED.
+programmer '51857' : Executing action PROGRAM
+programmer '51857' : EXPORT FSN[48] = 0113b4181464
+programmer '51857' : Erase ...
+programmer '51857' : Completed erase
+programmer '51857' : Programming FPGA Array
+programmer '51857' : Verifying FPGA Array
+programmer '51857' :         Verifying FPGA Array -- pass
+programmer '51857' : Program System Init and Boot Clients...
+programmer '51857' : Program Embedded Flash Memory Module ALL....
+programmer '51857' : Verify System Init and Boot Clients...
+programmer '51857' : Verify Embedded Flash Memory Module ALL...
+programmer '51857' : Finished: Mon Dec 05 17:05:48 2011 (Elapsed time 00:01:02)
+programmer '51857' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'pdb_project' has been modified. Do you want to save it? [NO]

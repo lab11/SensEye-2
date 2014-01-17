@@ -1,0 +1,14 @@
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\m_proasic.exe  -prodtype synplify_pro -encrypt  -pro  -part A2F500M3G  -package FBGA484  -grade Std   -globalthreshold 50 -maxfan 3000 -opcond COMWC     -report_path 0       -top_level_module  TOPLEVEL  -mp 1 -prjfile  C:\Actelprj\SDRv2_Linux_AHB\synthesis\scratchproject.prs  -implementation synthesis -licensetype  synplifypro_actel  -oedif C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.edn  -freq 80.000  -tcl  C:\Actelprj\SDRv2_Linux_AHB\constraint\synthesis.sdc  C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.srs  -sap  C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.sap  -otap  C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.tap  -omap  C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.map  -devicelib  C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\smartfusion.v  -sap  C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.sap  -ologparam  C:\Actelprj\SDRv2_Linux_AHB\synthesis\syntmp\TOPLEVEL.plg  -osyn  C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.srm  -prjdir C:\Actelprj\SDRv2_Linux_AHB\synthesis\  -log  C:\Actelprj\SDRv2_Linux_AHB\synthesis\synlog\TOPLEVEL_SmartFusion_Mapper.srr 
+rc:1 success:1
+C:\Actelprj\SDRv2_Linux_AHB\synthesis\scratchproject.prs|o|1347635275
+C:\Actelprj\SDRv2_Linux_AHB\constraint\synthesis.sdc|i|1347561123
+C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.srs|i|1347635276
+C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.sap|o|1304535740
+C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.tap|o|0
+C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.map|o|1347635279
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\smartfusion.v|i|1286463104
+C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.sap|o|1304535740
+C:\Actelprj\SDRv2_Linux_AHB\synthesis\syntmp\TOPLEVEL.plg|o|1347635279
+C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.srm|o|1347635278
+C:\Actelprj\SDRv2_Linux_AHB\synthesis\synlog\TOPLEVEL_SmartFusion_Mapper.srr|o|1347635279
+C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\m_proasic.exe|i|1286463082

@@ -1,0 +1,86 @@
+@P:  Worst Slack : -21.320
+@P:  FAB_CLK - Estimated Frequency : 39.8 MHz
+@P:  FAB_CLK - Requested Frequency : 40.0 MHz
+@P:  FAB_CLK - Estimated Period : 25.119
+@P:  FAB_CLK - Requested Period : 25.000
+@P:  FAB_CLK - Slack : -0.119
+@P:  FCLK - Estimated Frequency : NA
+@P:  FCLK - Requested Frequency : 40.0 MHz
+@P:  FCLK - Estimated Period : NA
+@P:  FCLK - Requested Period : 25.000
+@P:  FCLK - Slack : NA
+@P:  stonyman_stonyman_0|clkAdc_inferred_clock - Estimated Frequency : 29.6 MHz
+@P:  stonyman_stonyman_0|clkAdc_inferred_clock - Requested Frequency : 80.0 MHz
+@P:  stonyman_stonyman_0|clkAdc_inferred_clock - Estimated Period : 33.820
+@P:  stonyman_stonyman_0|clkAdc_inferred_clock - Requested Period : 12.500
+@P:  stonyman_stonyman_0|clkAdc_inferred_clock - Slack : -21.320
+@P:  stonyman_stonyman_1|clkAdc_inferred_clock - Estimated Frequency : 30.3 MHz
+@P:  stonyman_stonyman_1|clkAdc_inferred_clock - Requested Frequency : 80.0 MHz
+@P:  stonyman_stonyman_1|clkAdc_inferred_clock - Estimated Period : 32.994
+@P:  stonyman_stonyman_1|clkAdc_inferred_clock - Requested Period : 12.500
+@P:  stonyman_stonyman_1|clkAdc_inferred_clock - Slack : -20.494
+@P:  System - Estimated Frequency : 171.5 MHz
+@P:  System - Requested Frequency : 80.0 MHz
+@P:  System - Estimated Period : 5.831
+@P:  System - Requested Period : 12.500
+@P:  System - Slack : 6.669
+@P:  Worst Slack(min analysis) : 0.225
+@P:  FAB_CLK - Estimated Frequency(min analysis) : 39.8 MHz
+@P:  FAB_CLK - Requested Frequency(min analysis) : 40.0 MHz
+@P:  FAB_CLK - Estimated Period(min analysis) : 25.119
+@P:  FAB_CLK - Requested Period(min analysis) : 25.000
+@P:  FAB_CLK - Slack(min analysis) : -0.119
+@P:  FCLK - Estimated Frequency(min analysis) : NA
+@P:  FCLK - Requested Frequency(min analysis) : 40.0 MHz
+@P:  FCLK - Estimated Period(min analysis) : NA
+@P:  FCLK - Requested Period(min analysis) : 25.000
+@P:  FCLK - Slack(min analysis) : NA
+@P:  stonyman_stonyman_0|clkAdc_inferred_clock - Estimated Frequency(min analysis) : 29.6 MHz
+@P:  stonyman_stonyman_0|clkAdc_inferred_clock - Requested Frequency(min analysis) : 80.0 MHz
+@P:  stonyman_stonyman_0|clkAdc_inferred_clock - Estimated Period(min analysis) : 33.820
+@P:  stonyman_stonyman_0|clkAdc_inferred_clock - Requested Period(min analysis) : 12.500
+@P:  stonyman_stonyman_0|clkAdc_inferred_clock - Slack(min analysis) : -21.320
+@P:  stonyman_stonyman_1|clkAdc_inferred_clock - Estimated Frequency(min analysis) : 30.3 MHz
+@P:  stonyman_stonyman_1|clkAdc_inferred_clock - Requested Frequency(min analysis) : 80.0 MHz
+@P:  stonyman_stonyman_1|clkAdc_inferred_clock - Estimated Period(min analysis) : 32.994
+@P:  stonyman_stonyman_1|clkAdc_inferred_clock - Requested Period(min analysis) : 12.500
+@P:  stonyman_stonyman_1|clkAdc_inferred_clock - Slack(min analysis) : -20.494
+@P:  System - Estimated Frequency(min analysis) : 171.5 MHz
+@P:  System - Requested Frequency(min analysis) : 80.0 MHz
+@P:  System - Estimated Period(min analysis) : 5.831
+@P:  System - Requested Period(min analysis) : 12.500
+@P:  System - Slack(min analysis) : 6.669
+@P:  Total Area : 4953.0
+@P:  Total Area : 835.0
+@P:  Total Area : 300.0
+@P:  Total Area : 535.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 3432.0
+@P:  Total Area : 548.0
+@P:  Total Area : 545.0
+@P:  Total Area : 966.0
+@P:  Total Area : 1072.0
+@P:  Total Area : 1.0
+@P:  Total Area : 364.0
+@P:  Total Area : 365.0
+@P:  Total Area : 53.0
+@P:  Total Area : 63.0
+@P:  Total Area : 150.0
+@P:  Total Area : 36.0
+@P:  Total Area : 33.0
+@P:  Total Area : 122.0
+@P:  Total Area : 70.0
+@P:  Total Area : 5.0
+@P:  Total Area : 47.0
+@P:  Total Area : 376.0
+@P:  Total Area : 376.0
+@P:  Total Area : 50.0
+@P:  Total Area : 46.0
+@P:  Total Area : 79.0
+@P:  Total Area : 44.0
+@P:  Total Area : 247.0
+@P:  Total Area : 12.0
+@P:  Total Area : 7.0
+@P:  Total Area : 4953.0
+@P:  CPU Time : 0h:00m:46s

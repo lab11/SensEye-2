@@ -1,0 +1,44 @@
+Actel Designer Software
+Version: 10.1.3.1
+Release: v10.1 SP3
+
+Created a new design.
+'BA_NAME' set to 'TOPLEVEL_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to
+'Z:\russ\private\research\senseye\git\sw\smartfusion\impl\libero\insight\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+'DESDIR' set to
+'Z:/russ/private/research/senseye/git/sw/smartfusion/impl/libero/insight/designer/impl1'
+'BA_DIR' set to
+'Z:/russ/private/research/senseye/git/sw/smartfusion/impl/libero/insight/designer/impl1'
+'BA_NETLIST_ALSO' set to '1'
+'EDNINFLAVOR' set to 'GENERIC'
+'NETLIST_NAMING_STYLE' set to 'VERILOG'
+'EXPORT_STATUS_REPORT' set to '1'
+'EXPORT_STATUS_REPORT_FILENAME' set to 'TOPLEVEL.rpt'
+'AUDIT_NETLIST_FILE' set to '1'
+'AUDIT_DCF_FILE' set to '1'
+'AUDIT_PIN_FILE' set to '1'
+'AUDIT_ADL_FILE' set to '1'
+
+ Netlist Reading Time = 1.0 seconds
+Imported the files:
+
+Z:\russ\private\research\senseye\git\sw\smartfusion\impl\libero\insight\synthesis\TOPLEVEL.edn
+
+Z:\russ\private\research\senseye\git\sw\smartfusion\impl\libero\insight\component\work\TOPLEVEL\
+\TOPLEVEL.pdc
+
+The Import command succeeded ( 00:00:03 )
+Wrote to the file: ..\..\synthesis\TOPLEVEL.v
+
+The Export command succeeded ( 00:00:02 )
+
+The Execute Script command succeeded ( 00:00:06 )
+Warning: The database was closed without a save, modifications are lost
+Design closed.
+

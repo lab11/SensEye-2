@@ -1,0 +1,9 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Work\!Projects\67511_Actels_kit\a2f200-db-fpga\a2f200-db-fpga\designer\impl1\INBUF_LVDS_MCCC.adb"
+LIST SOURCE_FILES
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Work\!Projects\67511_Actels_kit\a2f200-db-fpga\a2f200-db-fpga\synthesis\INBUF_LVDS_MCCC_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

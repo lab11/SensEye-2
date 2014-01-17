@@ -1,0 +1,43 @@
+library verilog;
+use verilog.vl_types.all;
+entity stonyman_apb3 is
+    port(
+        PCLK            : in     vl_logic;
+        PRESERN         : in     vl_logic;
+        PSEL            : in     vl_logic;
+        PENABLE         : in     vl_logic;
+        PREADY          : out    vl_logic;
+        PSLVERR         : out    vl_logic;
+        PWRITE          : in     vl_logic;
+        PADDR           : in     vl_logic_vector(31 downto 0);
+        PWDATA          : in     vl_logic_vector(31 downto 0);
+        PRDATA          : out    vl_logic_vector(31 downto 0);
+        BUSY            : in     vl_logic;
+        CAM0_FIFO_EMPTY : in     vl_logic;
+        CAM1_FIFO_EMPTY : in     vl_logic;
+        CAM2_FIFO_EMPTY : in     vl_logic;
+        CAM3_FIFO_EMPTY : in     vl_logic;
+        CAM0_FIFO_FULL  : in     vl_logic;
+        CAM1_FIFO_FULL  : in     vl_logic;
+        CAM2_FIFO_FULL  : in     vl_logic;
+        CAM3_FIFO_FULL  : in     vl_logic;
+        CAM0_FIFO_AFULL : in     vl_logic;
+        CAM1_FIFO_AFULL : in     vl_logic;
+        CAM2_FIFO_AFULL : in     vl_logic;
+        CAM3_FIFO_AFULL : in     vl_logic;
+        CAM0_FIFO_OVERFLOW: in     vl_logic;
+        CAM1_FIFO_OVERFLOW: in     vl_logic;
+        CAM2_FIFO_OVERFLOW: in     vl_logic;
+        CAM3_FIFO_OVERFLOW: in     vl_logic;
+        CAM0_FIFO_RDEN  : out    vl_logic;
+        CAM1_FIFO_RDEN  : out    vl_logic;
+        CAM2_FIFO_RDEN  : out    vl_logic;
+        CAM3_FIFO_RDEN  : out    vl_logic;
+        CAM0_PIXELSIN   : in     vl_logic_vector(31 downto 0);
+        CAM1_PIXELSIN   : in     vl_logic_vector(31 downto 0);
+        CAM2_PIXELSIN   : in     vl_logic_vector(31 downto 0);
+        CAM3_PIXELSIN   : in     vl_logic_vector(31 downto 0);
+        START_CAPTURE   : out    vl_logic;
+        TP_REG_OFFSET_UPPER_NIBBLE: out    vl_logic_vector(3 downto 0)
+    );
+end stonyman_apb3;

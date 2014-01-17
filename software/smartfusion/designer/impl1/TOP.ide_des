@@ -1,0 +1,33 @@
+KEY IDE_DES_TOOL "Designer"
+KEY IDE_DES_FAMILY "SmartFusion"
+KEY IDE_DES_DIE "IP4X3M1"
+KEY IDE_DES_PACKAGE "fg484"
+KEY IDE_DES_SPEED "-1"
+KEY IDE_DES_VOLTAGE "1.5"
+KEY IDE_DES_TEMPRANGE "COM"
+KEY IDE_DES_VOLTRANGE "COM"
+KEY IDE_DES_IOSTD "LVTTL"
+KEY IDE_DES_TOP_CELL_NAME "TOP"
+KEY IDE_DES_KEEP_PHY_CONSTR "FALSE"
+KEY IDE_DES_KEEP_TIME_CONSTR "TRUE"
+KEY IDE_DES_LAYOUT_DONE "FALSE"
+KEY IDE_DES_COMPILE_DONE "FALSE"
+KEY IDE_DES_IOCONSTRAINTS_PRESENT "FALSE"
+KEY IDE_DES_TIMINGCONSTRAINTS_PRESENT "FALSE"
+KEY IDE_DES_TIMING_VIOLATION "-1"
+KEY IDE_DES_BITSGEN_DONE "FALSE"
+KEY IDE_DES_BLOCK_PUBLISH "FALSE"
+KEY IDE_DES_BA_EXPORTED "FALSE"
+KEY IDE_DES_INTERACTIVE "FALSE"
+KEY IDE_DES_ERROR_FOUND "FALSE"
+KEY IDE_DES_ADB_PATH "Z:\russ\private\research\insight\git\hw\impl\smartfusion\capture_linux\designer\impl1\TOP.adb"
+LIST SOURCE_FILES
+VALUE "Z:\russ\private\research\insight\git\hw\impl\smartfusion\capture_linux\synthesis\TOP.edn;edn"
+VALUE "Z:\russ\private\research\insight\git\hw\impl\smartfusion\capture_linux\component\work\TOP\TOP.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "Z:\russ\private\research\insight\git\hw\impl\smartfusion\capture_linux\synthesis\TOP_sdc.sdc;Skipped"
+VALUE "Z:\russ\private\research\insight\git\hw\impl\smartfusion\capture_linux\component\work\TOP\TOP.pdc;Used"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

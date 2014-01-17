@@ -1,0 +1,13 @@
+#-- Synopsys, Inc.
+#-- Version E-2010.09A-1
+#-- Project file C:\Actelprj\a2f_dev_brd_linux\synthesis\TOPLEVEL_syn.prd
+#-- Written on Wed Dec 07 10:34:38 2011
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

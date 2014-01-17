@@ -1,0 +1,313 @@
+// ********************************************************************
+// Actel Corporation Proprietary and Confidential
+//  Copyright 2010 Actel Corporation.  All rights reserved.
+//
+// ANY USE OR REDISTRIBUTION IN PART OR IN WHOLE MUST BE HANDLED IN
+// ACCORDANCE WITH THE ACTEL LICENSE AGREEMENT AND MUST BE APPROVED
+// IN ADVANCE IN WRITING.
+//
+// Description:	User testbench AHBLite master 0 BFM script for CoreAHBLite
+//
+// Revision Information:
+// Date     Description
+// 10Feb10		Production Release Version 3.1
+//
+// SVN Revision Information:
+// SVN $Revision: 11955 $
+// SVN $Date: 2010-01-30 15:35:13 -0800 (Sat, 30 Jan 2010) $
+//
+// Resolved SARs
+// SAR      Date     Who   Description
+//
+// Notes:
+// 1. best viewed with tabstops set to "4"
+// 2. Most of the behavior is driven from the BFM script for the AHBLite master.
+//    Consult the Actel AMBA BFM documentation for more information.
+// 3. All procedures, variables, and constants used by the 'main' procedure
+//    are declared in the include file "coreahblite_usertb_include.bfm"
+//
+// History:		11/05/08  - TFB created
+//
+// *********************************************************************
+
+// include constants, and miscellaneous procedures used in this main file
+include "coreahblite_usertb_include.bfm"
+
+
+procedure main
+	int i
+	int j
+	int k
+	int dtmp[4]
+	int atmp
+	int cond[2]
+
+	header "User Testbench for CoreAHBLite: BFM AHBLite Master 0 Test Harness"
+	print "(c) Copyright 2010 Actel Corporation. All rights reserved."
+	call pr_underscores
+
+	debug 1			// only text strings printed
+	timeout 2000	// timeout in cycles, in case BFM stalls
+	wait 1
+
+	// initialize local variables passed from testbench HDL to the
+	// ARGVALUE* BFM parameters
+	call init_parameter_vars
+
+	wait 2
+
+# test byte/halfword/word writes and reads for all enabled slots for mode 0
+// mode 0 (legacy): 16 256MB slaves, no InitCfg clients, no huge slave
+set cond[0] MODE_CFG == 0
+if cond[0]
+	call pr_underscores
+	print "Master 0, MODE 0 (Legacy mode) testing beginning at: %0d ns." $TIME
+	call pr_underscores
+	loop i 0 15 1
+		if M0_AHBSLOTENABLE[i]
+			call pr_underscores
+			print "Master 0 testing AHBLite slot:%0d at: %0d ns." i $TIME
+			call pr_underscores
+			// write/read 32-bit word
+			set atmp i * mode0_slot_incr + 0x0
+			set dtmp[0] 0x12345678
+			print "Master 0 writes:%08x to AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+			write w BASE atmp dtmp[0]
+			print "Master 0 verifying (reading):%08x from AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+			readcheck w BASE atmp dtmp[0]
+			wait 8
+			// write/read 16-bit halfwords
+			set dtmp[0] 0xdead
+			set dtmp[1] 0xbeef
+			loop j 0 1 1
+				set k j * 2
+				set atmp i * mode0_slot_incr + k
+				print "Master 0 writes:%04x to AHBLite slave:%0d at: %0d ns." dtmp[j] i $TIME
+				write h BASE atmp dtmp[j]
+			endloop
+			loop j 0 1 1
+				set k j * 2
+				set atmp i * mode0_slot_incr + k
+				print "Master 0 verifying (reading):%04x from AHBLite slave:%0d at: %0d ns." dtmp[j] i $TIME
+				readcheck h BASE atmp dtmp[j]
+			endloop
+			wait 8
+			// write/read 8-bit bytes
+			set dtmp[0] 0x9a
+			set dtmp[1] 0x56
+			set dtmp[2] 0x34
+			set dtmp[3] 0x12
+			loop j 0 3 1
+				set k j * 1
+				set atmp i * mode0_slot_incr + k
+				print "Master 0 writes:%02x to AHBLite slave:%0d at: %0d ns." dtmp[j] i $TIME
+				write b BASE atmp dtmp[j]
+			endloop
+			loop j 0 3 1
+				set k j * 1
+				set atmp i * mode0_slot_incr + k
+				print "Master 0 verifying (reading):%02x from AHBLite slave:%0d at: %0d ns." dtmp[j] i $TIME
+				readcheck b BASE atmp dtmp[j]
+			endloop
+			wait 8
+			// write/read 32-bit word 0xaaaaaaaa
+			set atmp i * mode0_slot_incr + 0x0
+			set dtmp[0] 0xaaaaaaaa
+			print "Master 0 writes:%08x to AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+			write w BASE atmp dtmp[0]
+			print "Master 0 verifying (reading):%08x from AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+			readcheck w BASE atmp dtmp[0]
+			wait 8
+			// write/read 32-bit word 0x55555555
+			set atmp i * mode0_slot_incr + 0x0
+			set dtmp[0] 0x55555555
+			print "Master 0 writes:%08x to AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+			write w BASE atmp dtmp[0]
+			print "Master 0 verifying (reading):%08x from AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+			readcheck w BASE atmp dtmp[0]
+			wait 8
+			print "Master 0 done testing AHBLite slot:%0d at: %0d ns." i $TIME
+			call pr_underscores
+		else
+			call pr_underscores
+			print "Master 0 skipping test of AHBLite slot:%0d at: %0d ns." i $TIME
+			call pr_underscores
+		endif
+		// wait here between loops
+	endloop
+endif
+// mode 1: 15 64KB slaves, 16 4KB InitCfg clients, 1 huge slave
+set cond[0] MODE_CFG == 1
+if cond[0]
+	call pr_underscores
+	print "Master 0, MODE 1 testing beginning at: %0d ns." $TIME
+	call pr_underscores
+	loop i 0 15 1
+		// slot 4 reserved for Init/Config clients
+		set cond[1] i == 4
+		if cond[1]
+			print "MASTER 0 SLOT 4 RESERVED FOR INITCFG CLIENTS"
+			print "Master 0 testing InitCfg clients at: %0d ns." $TIME
+			// only writing to last address of each InitCfg client
+			loop j 0 15 1
+				if M0_INITCFGENABLE[j]
+					set atmp j + 1 * mode1_client_incr
+					set atmp atmp - 4
+					set atmp 4 * mode1_slot_incr + atmp
+					set dtmp[0] 2 ** j
+					print "Master 0 writes:%04x to InitCfg client:%0d at: %0d ns." dtmp[0] j $TIME
+					write w BASE atmp dtmp[0]
+				else
+					call pr_underscores
+					print "Master 0 skipping write to InitCfg client:%0d at: %0d ns." j $TIME
+					call pr_underscores
+				endif
+			endloop
+			wait 10
+			print "Master 0 done testing InitCfg clients at: %0d ns." $TIME
+		else
+			if M0_AHBSLOTENABLE[i]
+				call pr_underscores
+				print "Master 0 testing AHBLite slot:%0d at: %0d ns." i $TIME
+				call pr_underscores
+				// write/read 32-bit word
+				set atmp i * mode1_slot_incr + 0x0
+				set dtmp[0] 0x12345678
+				print "Master 0 writes:%08x to AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+				write w BASE atmp dtmp[0]
+				print "Master 0 verifying (reading):%08x from AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+				readcheck w BASE atmp dtmp[0]
+				wait 8
+				// write/read 16-bit halfwords
+				set dtmp[0] 0xdead
+				set dtmp[1] 0xbeef
+				loop j 0 1 1
+					set k j * 2
+					set atmp i * mode1_slot_incr + k
+					print "Master 0 writes:%04x to AHBLite slave:%0d at: %0d ns." dtmp[j] i $TIME
+					write h BASE atmp dtmp[j]
+				endloop
+				loop j 0 1 1
+					set k j * 2
+					set atmp i * mode1_slot_incr + k
+					print "Master 0 verifying (reading):%04x from AHBLite slave:%0d at: %0d ns." dtmp[j] i $TIME
+					readcheck h BASE atmp dtmp[j]
+				endloop
+				wait 8
+				// write/read 8-bit bytes
+				set dtmp[0] 0x9a
+				set dtmp[1] 0x56
+				set dtmp[2] 0x34
+				set dtmp[3] 0x12
+				loop j 0 3 1
+					set k j * 1
+					set atmp i * mode1_slot_incr + k
+					print "Master 0 writes:%02x to AHBLite slave:%0d at: %0d ns." dtmp[j] i $TIME
+					write b BASE atmp dtmp[j]
+				endloop
+				loop j 0 3 1
+					set k j * 1
+					set atmp i * mode1_slot_incr + k
+					print "Master 0 verifying (reading):%02x from AHBLite slave:%0d at: %0d ns." dtmp[j] i $TIME
+					readcheck b BASE atmp dtmp[j]
+				endloop
+				wait 8
+				// write/read 32-bit word 0xaaaaaaaa
+				set atmp i * mode1_slot_incr + 0x0
+				set dtmp[0] 0xaaaaaaaa
+				print "Master 0 writes:%08x to AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+				write w BASE atmp dtmp[0]
+				print "Master 0 verifying (reading):%08x from AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+				readcheck w BASE atmp dtmp[0]
+				wait 8
+				// write/read 32-bit word 0x55555555
+				set atmp i * mode1_slot_incr + 0x0
+				set dtmp[0] 0x55555555
+				print "Master 0 writes:%08x to AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+				write w BASE atmp dtmp[0]
+				print "Master 0 verifying (reading):%08x from AHBLite slave:%0d at: %0d ns." dtmp[0] i $TIME
+				readcheck w BASE atmp dtmp[0]
+				wait 8
+				print "Master 0 done testing AHBLite slot:%0d at: %0d ns." i $TIME
+				call pr_underscores
+			else
+				call pr_underscores
+				print "Master 0 skipping test of AHBLite slot:%0d at: %0d ns." i $TIME
+				call pr_underscores
+			endif
+		endif
+
+		wait 8
+
+	endloop
+
+	// test huge slave
+	if M0_HUGESLOTENABLE
+		call pr_underscores
+		print "Master 0 testing Huge AHBLite slot at: %0d ns." $TIME
+		call pr_underscores
+		// write/read 32-bit word
+		set atmp huge_slotsize + 0x0
+		set dtmp[0] 0x12345678
+		print "Master 0 writes:%08x to Huge AHBLite slot at: %0d ns." dtmp[0] $TIME
+		write w BASE atmp dtmp[0]
+		print "Master 0 verifying (reading):%08x from Huge AHBLite slave at: %0d ns." dtmp[0] $TIME
+		readcheck w BASE atmp dtmp[0]
+		wait 8
+		// write/read 16-bit halfwords
+		set dtmp[0] 0xdead
+		set dtmp[1] 0xbeef
+		loop j 0 1 1
+			set k j * 2
+			set atmp huge_slotsize + k
+			print "Master 0 writes:%04x to Huge AHBLite slave at: %0d ns." dtmp[j] $TIME
+			write h BASE atmp dtmp[j]
+		endloop
+		loop j 0 1 1
+			set k j * 2
+			set atmp huge_slotsize + k
+			print "Master 0 verifying (reading):%04x from Huge AHBLite slave at: %0d ns." dtmp[j] $TIME
+			readcheck h BASE atmp dtmp[j]
+		endloop
+		wait 8
+		// write/read 8-bit bytes
+		set dtmp[0] 0x9a
+		set dtmp[1] 0x56
+		set dtmp[2] 0x34
+		set dtmp[3] 0x12
+		loop j 0 3 1
+			set k j * 1
+			set atmp huge_slotsize + k
+			print "Master 0 writes:%02x to Huge AHBLite slave at: %0d ns." dtmp[j] $TIME
+			write b BASE atmp dtmp[j]
+		endloop
+		loop j 0 3 1
+			set k j * 1
+			set atmp huge_slotsize + k
+			print "Master 0 verifying (reading):%02x from Huge AHBLite slave at: %0d ns." dtmp[j] $TIME
+			readcheck b BASE atmp dtmp[j]
+		endloop
+		wait 8
+		// write/read 32-bit word 0xaaaaaaaa
+		set atmp huge_slotsize + 0x0
+		set dtmp[0] 0xaaaaaaaa
+		print "Master 0 writes:%08x to Huge AHBLite slave at: %0d ns." dtmp[0] $TIME
+		write w BASE atmp dtmp[0]
+		print "Master 0 verifying (reading):%08x from Huge AHBLite slave at: %0d ns." dtmp[0] $TIME
+		readcheck w BASE atmp dtmp[0]
+		wait 8
+		// write/read 32-bit word 0x55555555
+		set atmp huge_slotsize + 0x0
+		set dtmp[0] 0x55555555
+		print "Master 0 writes:%08x to Huge AHBLite slave at: %0d ns." dtmp[0] $TIME
+		write w BASE atmp dtmp[0]
+		print "Master 0 verifying (reading):%08x from Huge AHBLite slave at: %0d ns." dtmp[0] $TIME
+		readcheck w BASE atmp dtmp[0]
+		wait 8
+		print "Master 0 done testing Huge AHBLite slot at: %0d ns." $TIME
+		call pr_underscores
+	endif
+endif
+
+return
+

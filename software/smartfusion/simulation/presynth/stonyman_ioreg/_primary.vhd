@@ -1,0 +1,41 @@
+library verilog;
+use verilog.vl_types.all;
+entity stonyman_ioreg is
+    port(
+        clk             : in     vl_logic;
+        rst             : in     vl_logic;
+        wren            : in     vl_logic;
+        rden            : in     vl_logic;
+        addr            : in     vl_logic_vector(31 downto 0);
+        ready           : out    vl_logic;
+        cam0fifoRden    : out    vl_logic;
+        cam1fifoRden    : out    vl_logic;
+        cam2fifoRden    : out    vl_logic;
+        cam3fifoRden    : out    vl_logic;
+        datain          : in     vl_logic_vector(31 downto 0);
+        dataout         : out    vl_logic_vector(31 downto 0);
+        busy            : in     vl_logic;
+        cam0empty       : in     vl_logic;
+        cam1empty       : in     vl_logic;
+        cam2empty       : in     vl_logic;
+        cam3empty       : in     vl_logic;
+        cam0full        : in     vl_logic;
+        cam1full        : in     vl_logic;
+        cam2full        : in     vl_logic;
+        cam3full        : in     vl_logic;
+        cam0afull       : in     vl_logic;
+        cam1afull       : in     vl_logic;
+        cam2afull       : in     vl_logic;
+        cam3afull       : in     vl_logic;
+        cam0overflow    : in     vl_logic;
+        cam1overflow    : in     vl_logic;
+        cam2overflow    : in     vl_logic;
+        cam3overflow    : in     vl_logic;
+        cam0pxDatain    : in     vl_logic_vector(31 downto 0);
+        cam1pxDatain    : in     vl_logic_vector(31 downto 0);
+        cam2pxDatain    : in     vl_logic_vector(31 downto 0);
+        cam3pxDatain    : in     vl_logic_vector(31 downto 0);
+        startCapture    : out    vl_logic;
+        tp_regOffsetUpperNibble: out    vl_logic_vector(3 downto 0)
+    );
+end stonyman_ioreg;

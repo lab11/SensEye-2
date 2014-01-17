@@ -1,0 +1,24 @@
+Microsemi Libero Software
+Version: 11.1.3.1
+Release: v11.1 SP3
+
+Info: The design //vmware-host/Shared Folders/lab11 On My
+      Mac/workspace/senseye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb was last modified
+      by software version 11.1.3.1.
+Opened an existing Libero design //vmware-host/Shared Folders/lab11 On My
+Mac/workspace/senseye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb.
+Warning: Overwriting the existing file: //vmware-host/Shared Folders/lab11 On My
+         Mac/workspace/senseye-2/software/smartfusion/designer/impl1/TOPLEVEL.fdb.
+
+The Export-map command succeeded ( 00:00:16 )
+CHECKSUM: 6B76
+Wrote to the file: \\vmware-host\Shared Folders\lab11 On My
+Mac\workspace\senseye-2\software\smartfusion\designer\impl1\TOPLEVEL.fdb
+
+The Export command succeeded ( 00:00:19 )
+Design saved to file //vmware-host/Shared Folders/lab11 On My
+Mac/workspace/senseye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb.
+
+The Execute Script command succeeded ( 00:00:24 )
+Design closed.
+

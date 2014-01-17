@@ -1,0 +1,99 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Tue Mar 05 15:05:33 2013
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : FIFO_TEST_COUNTER
+Family                          : PA3SOC2
+Output Format                   : VERILOG
+Type                            : SOFTFIFO
+Write Enable                    : Active Low
+Read Clock                      : Rising
+Write Clock                     : Rising
+Reset                           : Active Low
+Read Enable                     : Active Low
+Write Depth                     : 128
+Write Width                     : 32
+Read Depth                      : 128
+Read Width                      : 32
+Almost Full                     : 65536
+Almost Empty                    : 65536
+Clocks                          : Single Read/Write Clock
+AEFlag                          : None
+AFFlag                          : None
+Read Pipe Mode1                 : No Pipe
+Optimized for                   : Speed
+Prevent Read When Empty         : Yes
+Prevent Write When Full         : Yes
+Write Acknowledge               : No
+Data Valid                      : No
+Overflow                        : No
+Underflow                       : No
+Read Data Count                 : No
+Write Data Count                : No
+Standalone Controller           : False
+Initialize RAM                  : False
+Portname DataIn                 : DATA
+Portname DataOut                : Q
+Portname AE Port                : AEVAL
+Portname AF Port                : AFVAL
+Portname Write En               : WE
+Portname Read En                : RE
+Portname WClock                 :
+Portname RClock                 :
+Portname AE Flag                : AEMPTY
+Portname AF Flag                : AFULL
+Portname Full Flag              : FULL
+Portname Empty Flag             : EMPTY
+Portname Reset                  : RESET
+Portname Write Acknowledge      : WACK
+Portname Data Valid             : DVLD
+Portname Overflow               : OVERFLOW
+Portname Underflow              : UNDERFLOW
+Portname Read Count             : RDCNT
+Portname Write Count            : WRCNT
+Portname Memory Write Address   :
+Portname Memory Read Address    :
+Portname Memory Write Enable    :
+Portname Memory Read Enable     :
+Portname Clock                  : CLK
+
+Cascade Configuration:
+     Write Port configuration   : 256x18
+     Read Port configuration    : 256x18
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 2
+
+**************
+Compile Report
+**************
+
+Warning:  CMP503: Remapped 32 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE pin on the enable flip-flop is not being driven by a global net.
+
+Netlist Resource Report
+=======================
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:    196  Total:  11520   (1.70%)
+    Fabric IO (W/ clocks)      Used:      0  Total:    128   (0.00%)
+    Fabric Differential IO     Used:      0  Total:     64   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     43   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     15   (0.00%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    Fabric CCC                 Used:      0  Total:      1   (0.00%)
+    MSS CCC                    Used:      0  Total:      1   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      2  Total:     24   (8.33%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote Verilog netlist to Z:/russ/private/research/insight/git/sw/smartfusion/impl/libero/insight/smartgen\FIFO_TEST_COUNTER\FIFO_TEST_COUNTER.v.
+
+ ** Log Ended:   Tue Mar 05 15:05:34 2013
+

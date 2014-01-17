@@ -1,0 +1,44 @@
+
+Starting:    C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\mbin\synplify.exe
+Install:     C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+Date:        Fri Sep 14 11:07:54 2012
+Version:     E-2010.09A-1
+
+Arguments:   -product synplify_pro TOPLEVEL_syn.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Feature: actel_oem
+
+
+
+"maxfan_hard3" is unrecognized option for current device
+
+Running synthesis on TOPLEVEL_syn:synthesis
+
+log file: "C:\Actelprj\SDRv2_Linux_AHB\synthesis\TOPLEVEL.srr"
+
+
+
+Running HDL Compiler...
+
+
+Compiler Completed with warnings
+Return Code: 1
+Run Time:00:00:02
+
+
+Running SmartFusion Mapper...
+
+
+SmartFusion Mapper Completed with warnings
+Return Code: 1
+Run Time:00:00:02
+
+exit status=0
+
+
+License checkin: synplifypro_actel
+

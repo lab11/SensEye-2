@@ -1,0 +1,291 @@
+# Actel Physical design constraints file
+# Generated file
+
+# Version: 9.1 9.1.0.18
+# Family: SmartFusion , Die: A2F500M3G , Package: 484 FBGA
+# Date generated: Fri Aug 05 18:35:25 2011 
+
+
+# 
+# IO banks setting
+# 
+
+
+# 
+# I/O constraints
+# 
+
+set_io ADCDirectInput_0  \
+    -pinname Y9          \
+    -fixed yes           \
+    -DIRECTION Input
+
+
+set_io CurrentMonitor_0  \
+    -pinname Y7          \
+    -fixed yes           \
+    -DIRECTION Input
+
+
+set_io CurrentMonitor_0_V  \
+    -pinname W8            \
+    -fixed yes             \
+    -DIRECTION Input
+
+
+set_io GNDTM0         \
+    -pinname Y8       \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io I2C_0_SCL      \
+    -pinname U21      \
+    -fixed yes        \
+    -DIRECTION Inout
+
+
+set_io I2C_0_SDA      \
+    -pinname V21      \
+    -fixed yes        \
+    -DIRECTION Inout
+
+
+set_io I2C_1_SCL      \
+    -pinname U20      \
+    -fixed yes        \
+    -DIRECTION Inout
+
+
+set_io I2C_1_SDA      \
+    -pinname V22      \
+    -fixed yes        \
+    -DIRECTION Inout
+
+
+set_io MAC_CRSDV      \
+    -pinname W4       \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io MAC_MDC         \
+    -pinname AA3       \
+    -fixed yes         \
+    -DIRECTION Output
+
+
+set_io MAC_MDIO       \
+    -pinname V4       \
+    -fixed yes        \
+    -DIRECTION Inout
+
+
+set_io {MAC_RXD[0]}   \
+    -pinname V5       \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io {MAC_RXD[1]}   \
+    -pinname U5       \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io MAC_RXER       \
+    -pinname AA4      \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io {MAC_TXD[0]}    \
+    -pinname AA5       \
+    -fixed yes         \
+    -DIRECTION Output
+
+
+set_io {MAC_TXD[1]}    \
+    -pinname W5        \
+    -fixed yes         \
+    -DIRECTION Output
+
+
+set_io MAC_TXEN        \
+    -pinname Y4        \
+    -fixed yes         \
+    -DIRECTION Output
+
+
+set_io MSS_RESET_N    \
+    -pinname R1       \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io SDD_0           \
+    -pinname V7        \
+    -fixed yes         \
+    -DIRECTION Output
+
+
+set_io SPI_0_CLK      \
+    -pinname W19      \
+    -fixed yes        \
+    -DIRECTION Inout
+
+
+set_io SPI_0_DI       \
+    -pinname V18      \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io SPI_0_DO        \
+    -pinname U17       \
+    -fixed yes         \
+    -DIRECTION Output
+
+
+set_io SPI_0_SS       \
+    -pinname Y20      \
+    -fixed yes        \
+    -DIRECTION Inout
+
+
+set_io SPI_1_CLK      \
+    -pinname AA22     \
+    -fixed yes        \
+    -DIRECTION Inout
+
+
+set_io SPI_1_DI       \
+    -pinname V19      \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io SPI_1_DO        \
+    -pinname T17       \
+    -fixed yes         \
+    -DIRECTION Output
+
+
+set_io SPI_1_SS       \
+    -pinname W21      \
+    -fixed yes        \
+    -DIRECTION Inout
+
+
+set_io TemperatureMonitor_0  \
+    -pinname AA7             \
+    -fixed yes               \
+    -DIRECTION Input
+
+
+set_io UART_0_RXD     \
+    -pinname U18      \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io UART_0_TXD      \
+    -pinname Y22       \
+    -fixed yes         \
+    -DIRECTION Output
+
+
+set_io UART_1_RXD     \
+    -pinname W22      \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+set_io UART_1_TXD      \
+    -pinname V20       \
+    -fixed yes         \
+    -DIRECTION Output
+
+
+set_io VAREF0         \
+    -pinname U10      \
+    -fixed yes        \
+    -DIRECTION Input
+
+
+
+#
+# Non IO constraints
+#
+
+
+#
+# Old IO constraints, commented out for reference
+#
+
+# set_io ADCDirectInput_0 -pinname Y9 -fixed yes -DIRECTION Input 
+# set_io CurrentMonitor_0 -pinname Y7 -fixed yes -DIRECTION Input 
+# set_io CurrentMonitor_0_V -pinname W8 -fixed yes -DIRECTION Input 
+# set_io GNDTM0 -pinname Y8 -fixed yes -DIRECTION Input 
+# set_io I2C_0_SCL -pinname U21 -fixed yes -DIRECTION Inout 
+# set_io I2C_0_SDA -pinname V21 -fixed yes -DIRECTION Inout 
+# set_io I2C_1_SCL -pinname U20 -fixed yes -DIRECTION Inout 
+# set_io I2C_1_SDA -pinname V22 -fixed yes -DIRECTION Inout 
+# set_io MAC_CRSDV -pinname W4 -fixed yes -DIRECTION Input 
+# set_io MAC_MDC -pinname AA3 -fixed yes -DIRECTION Output 
+# set_io MAC_MDIO -pinname V4 -fixed yes -DIRECTION Inout 
+# set_io {MAC_RXD[0]} -pinname V5 -fixed yes -DIRECTION Input 
+# set_io {MAC_RXD[1]} -pinname U5 -fixed yes -DIRECTION Input 
+# set_io MAC_RXER -pinname AA4 -fixed yes -DIRECTION Input 
+# set_io {MAC_TXD[0]} -pinname AA5 -fixed yes -DIRECTION Output 
+# set_io {MAC_TXD[1]} -pinname W5 -fixed yes -DIRECTION Output 
+# set_io MAC_TXEN -pinname Y4 -fixed yes -DIRECTION Output 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io SDD_0 -pinname V7 -fixed yes -DIRECTION Output 
+# set_io SPI_0_CLK -pinname W19 -fixed yes -DIRECTION Inout 
+# set_io SPI_0_DI -pinname V18 -fixed yes -DIRECTION Input 
+# set_io SPI_0_DO -pinname U17 -fixed yes -DIRECTION Output 
+# set_io SPI_0_SS -pinname Y20 -fixed yes -DIRECTION Inout 
+# set_io SPI_1_CLK -pinname AA22 -fixed yes -DIRECTION Inout 
+# set_io SPI_1_DI -pinname V19 -fixed yes -DIRECTION Input 
+# set_io SPI_1_DO -pinname T17 -fixed yes -DIRECTION Output 
+# set_io SPI_1_SS -pinname W21 -fixed yes -DIRECTION Inout 
+# set_io TemperatureMonitor_0 -pinname AA7 -fixed yes -DIRECTION Input 
+# set_io UART_0_RXD -pinname U18 -fixed yes -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -DIRECTION Output 
+# set_io VAREF0 -pinname U10 -fixed yes -DIRECTION Input 
+# set_io ADCDirectInput_0 -pinname Y9 -fixed yes -DIRECTION Input 
+# set_io CurrentMonitor_0 -pinname Y7 -fixed yes -DIRECTION Input 
+# set_io CurrentMonitor_0_V -pinname W8 -fixed yes -DIRECTION Input 
+# set_io GNDTM0 -pinname Y8 -fixed yes -DIRECTION Input 
+# set_io I2C_0_SCL -pinname U21 -fixed yes -DIRECTION Inout 
+# set_io I2C_0_SDA -pinname V21 -fixed yes -DIRECTION Inout 
+# set_io I2C_1_SCL -pinname U20 -fixed yes -DIRECTION Inout 
+# set_io I2C_1_SDA -pinname V22 -fixed yes -DIRECTION Inout 
+# set_io MAC_CRSDV -pinname W4 -fixed yes -DIRECTION Input 
+# set_io MAC_MDC -pinname AA3 -fixed yes -DIRECTION Output 
+# set_io MAC_MDIO -pinname V4 -fixed yes -DIRECTION Inout 
+# set_io {MAC_RXD[0]} -pinname V5 -fixed yes -DIRECTION Input 
+# set_io {MAC_RXD[1]} -pinname U5 -fixed yes -DIRECTION Input 
+# set_io MAC_RXER -pinname AA4 -fixed yes -DIRECTION Input 
+# set_io {MAC_TXD[0]} -pinname AA5 -fixed yes -DIRECTION Output 
+# set_io {MAC_TXD[1]} -pinname W5 -fixed yes -DIRECTION Output 
+# set_io MAC_TXEN -pinname Y4 -fixed yes -DIRECTION Output 
+# set_io MSS_RESET_N -pinname R1 -fixed yes -DIRECTION Input 
+# set_io SDD_0 -pinname V7 -fixed yes -DIRECTION Output 
+# set_io SPI_0_CLK -pinname W19 -fixed yes -DIRECTION Inout 
+# set_io SPI_0_DI -pinname V18 -fixed yes -DIRECTION Input 
+# set_io SPI_0_DO -pinname U17 -fixed yes -DIRECTION Output 
+# set_io SPI_0_SS -pinname Y20 -fixed yes -DIRECTION Inout 
+# set_io SPI_1_CLK -pinname AA22 -fixed yes -DIRECTION Inout 
+# set_io SPI_1_DI -pinname V19 -fixed yes -DIRECTION Input 
+# set_io SPI_1_DO -pinname T17 -fixed yes -DIRECTION Output 
+# set_io SPI_1_SS -pinname W21 -fixed yes -DIRECTION Inout 
+# set_io TemperatureMonitor_0 -pinname AA7 -fixed yes -DIRECTION Input 
+# set_io UART_0_RXD -pinname U18 -fixed yes -DIRECTION Input 
+# set_io UART_0_TXD -pinname Y22 -fixed yes -DIRECTION Output 
+# set_io UART_1_RXD -pinname W22 -fixed yes -DIRECTION Input 
+# set_io UART_1_TXD -pinname V20 -fixed yes -DIRECTION Output 
+# set_io VAREF0 -pinname U10 -fixed yes -DIRECTION Input 

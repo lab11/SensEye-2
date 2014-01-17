@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye-2\software\smartfusion\synthesis\synlog\TOPLEVEL_fpga_mapper.srr</data>
+<title>##### START OF TIMING REPORT #####[</title>
+</report_link>
+<row>
+<data>Clock Name</data>
+<data>Req Freq</data>
+<data>Est Freq</data>
+<data>Slack</data>
+</row>
+<row>
+<data>FAB_CLK</data>
+<data>40.0 MHz</data>
+<data>39.8 MHz</data>
+<data>-0.119</data>
+</row>
+<row>
+<data>FCLK</data>
+<data>40.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>stonyman_stonyman_0|clkAdc_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>29.6 MHz</data>
+<data>-21.320</data>
+</row>
+<row>
+<data>stonyman_stonyman_1|clkAdc_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>30.3 MHz</data>
+<data>-20.494</data>
+</row>
+<row>
+<data>System</data>
+<data>80.0 MHz</data>
+<data>171.5 MHz</data>
+<data>6.669</data>
+</row>
+</report_table>

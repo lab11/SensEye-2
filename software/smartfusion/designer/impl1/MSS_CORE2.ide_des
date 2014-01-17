@@ -1,0 +1,10 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\designer\impl1\MSS_CORE2.adb"
+LIST SOURCE_FILES
+VALUE "\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\MSS_CORE2\MSS_CORE2.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\MSS_CORE2\MSS_CORE2.pdc;Used"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

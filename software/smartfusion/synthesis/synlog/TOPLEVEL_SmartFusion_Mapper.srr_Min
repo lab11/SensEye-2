@@ -1,0 +1,60 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Sep 14 11:07:59 2012
+#
+
+
+Top view:               TOPLEVEL
+Operating conditions:   smartfusion.COMWC-2
+Requested Frequency:    40.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    C:\Actelprj\SDRv2_Linux_AHB\constraint\synthesis.sdc
+                       
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+                                                                       Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                                         Frequency     Frequency     Period        Period        Slack     Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORE2_0.MSS_CCC_0.FAB_CLK                                          40.0 MHz      47.2 MHz      25.000        21.166        3.834     declared     default_clkgroup_0 
+MSS_CORE2_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock     80.0 MHz      NA            12.500        NA            NA        inferred     Inferred_clkgroup_1
+=========================================================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                            Ending                                                              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORE2_0.MSS_CCC_0.FAB_CLK                                       MSS_CORE2_0.MSS_CCC_0.FAB_CLK                                       |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
+MSS_CORE2_0.MSS_CCC_0.FAB_CLK                                       MSS_CORE2_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+MSS_CORE2_tmp_MSS_CCC_0_MSS_CCC|MSS_ADLIB_INST_FCLK_inferred_clock  MSS_CORE2_0.MSS_CCC_0.FAB_CLK                                       |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+

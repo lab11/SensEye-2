@@ -1,0 +1,1605 @@
+######## 
+#### SYMBOL TABLE ####
+PPE_ADCDirectInput_0:LC_FLAG_DATA                                                : 236
+PPE_ADCDirectInput_0:LC_FLAG_HYSTERESIS_VALUE                                                : 160
+PPE_ADCDirectInput_0:LC_FLAG_THRESHOLD_VALUE                                                : 2080
+PPE_ADCDirectInput_0:LNC_FLAG_DATA                                                : 228
+PPE_ADCDirectInput_0:LNC_FLAG_HYSTERESIS_VALUE                                                : 160
+PPE_ADCDirectInput_0:LNC_FLAG_THRESHOLD_VALUE                                                : 2400
+PPE_ADCDirectInput_0:LNR_FLAG_DATA                                                : 244
+PPE_ADCDirectInput_0:LNR_FLAG_HYSTERESIS_VALUE                                                : 160
+PPE_ADCDirectInput_0:LNR_FLAG_THRESHOLD_VALUE                                                : 1760
+PPE_ADCDirectInput_0:UC_FLAG_DATA                                                : 212
+PPE_ADCDirectInput_0:UC_FLAG_HYSTERESIS_VALUE                                                : 160
+PPE_ADCDirectInput_0:UC_FLAG_THRESHOLD_VALUE                                                : 3520
+PPE_ADCDirectInput_0:UNC_FLAG_DATA                                                : 204
+PPE_ADCDirectInput_0:UNC_FLAG_HYSTERESIS_VALUE                                                : 160
+PPE_ADCDirectInput_0:UNC_FLAG_THRESHOLD_VALUE                                                : 3200
+PPE_ADCDirectInput_0:UNR_FLAG_DATA                                                : 220
+PPE_ADCDirectInput_0:UNR_FLAG_HYSTERESIS_VALUE                                                : 160
+PPE_ADCDirectInput_0:UNR_FLAG_THRESHOLD_VALUE                                                : 3840
+PPE_ADCDirectInput_0_LPF_DATA                                                : 168
+PPE_ADCDirectInput_0_LT_OPERATION_BOFFSET                                                : 45
+PPE_ADCDirectInput_0_LT_OPERATION_BVAL                                                : 0
+PPE_ADCDirectInput_0_LT_OPERATION_MOFFSET                                                : 44
+PPE_ADCDirectInput_0_LT_OPERATION_MVAL                                                : 16384
+PPE_ADCDirectInput_0_PPE_EXECUTION_START                                                : 172
+PPE_CurrentMonitor_0_LPF_DATA                                                : 56
+PPE_CurrentMonitor_0_LT_OPERATION_BOFFSET                                                : 17
+PPE_CurrentMonitor_0_LT_OPERATION_BVAL                                                : 0
+PPE_CurrentMonitor_0_LT_OPERATION_MOFFSET                                                : 16
+PPE_CurrentMonitor_0_LT_OPERATION_MVAL                                                : 16384
+PPE_CurrentMonitor_0_PPE_EXECUTION_START                                                : 60
+PPE_SDD_0_LT_OPERATION_BOFFSET                                                : 66
+PPE_SDD_0_LT_OPERATION_BVAL                                                : 0
+PPE_SDD_0_LT_OPERATION_MOFFSET                                                : 65
+PPE_SDD_0_LT_OPERATION_MVAL                                                : 16384
+PPE_SDD_0_PPE_EXECUTION_START                                                : 256
+PPE_TemperatureMonitor_0:UC_FLAG_DATA                                                : 148
+PPE_TemperatureMonitor_0:UC_FLAG_HYSTERESIS_VALUE                                                : 1104
+PPE_TemperatureMonitor_0:UC_FLAG_THRESHOLD_VALUE                                                : 1252
+PPE_TemperatureMonitor_0:UNC_FLAG_DATA                                                : 140
+PPE_TemperatureMonitor_0:UNC_FLAG_HYSTERESIS_VALUE                                                : 1104
+PPE_TemperatureMonitor_0:UNC_FLAG_THRESHOLD_VALUE                                                : 1212
+PPE_TemperatureMonitor_0:UNR_FLAG_DATA                                                : 156
+PPE_TemperatureMonitor_0:UNR_FLAG_HYSTERESIS_VALUE                                                : 1104
+PPE_TemperatureMonitor_0:UNR_FLAG_THRESHOLD_VALUE                                                : 1292
+PPE_TemperatureMonitor_0_LPF_DATA                                                : 92
+PPE_TemperatureMonitor_0_LT_OPERATION_BOFFSET                                                : 26
+PPE_TemperatureMonitor_0_LT_OPERATION_BVAL                                                : 0
+PPE_TemperatureMonitor_0_LT_OPERATION_MOFFSET                                                : 25
+PPE_TemperatureMonitor_0_LT_OPERATION_MVAL                                                : 16384
+PPE_TemperatureMonitor_0_PPE_EXECUTION_START                                                : 96
+SSE_ADC0_MAIN_PROCEDURE_LOOP_START                                                : 12
+SSE_ADC0_MAIN_PROCEDURE_START                                                : 0
+SSE_ADC0_MAIN_PROCEDURE_WORD_COUNT                                                : 24
+SSE_ADC1_MAIN_PROCEDURE_LOOP_START                                                : 104
+SSE_ADC1_MAIN_PROCEDURE_START                                                : 96
+SSE_ADC1_MAIN_PROCEDURE_WORD_COUNT                                                : 3
+SSE_ADC2_MAIN_PROCEDURE_LOOP_START                                                : 116
+SSE_ADC2_MAIN_PROCEDURE_START                                                : 108
+SSE_ADC2_MAIN_PROCEDURE_WORD_COUNT                                                : 3
+SSE_PC0_START                                                : 0
+SSE_PC1_START                                                : 96
+SSE_PC2_START                                                : 108
+
+
+#### ANALOG PADS ####
+CurrentMonitor_0 ADC:0  QUAD:0  Logical:3  Pin:Y7
+CurrentMonitor_0_V ADC:0  QUAD:0  Logical:4  Pin:W8
+TemperatureMonitor_0 ADC:0  QUAD:1  Logical:8  Pin:AA7
+ADCDirectInput_0 ADC:0  QUAD:-1  Logical:9  Pin:Y9
+SDD_0 ADC:0  QUAD:-1  Logical:15  Pin:V7
+
+
+
+#ACE_ACB_AQ0 = 0x40020204
+#  ABPS1_TRIM0:0x0
+#    OFFSET_TRIM[7:0] = 0x0
+0x0
+#  ABPS1_TRIM1:0x4
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  ABPS2_TRIM0:0x8
+#    DAC_TRIM[7:0] = 0x0
+0x0
+#  ABPS2_TRIM1:0xc
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  OBD_TRIM:0x10
+#    INCR_DECRB[8:8] = 0x0
+#    OBD_TRIM[6:0] = 0x0
+0x0
+#  IREF:0x14
+#    IREF_TRIM[3:0] = 0x0
+0x0
+#  OBD_CONFIGURATION:0x18
+# - SDD_0 
+#    ANA_SEL[3:2] = 0x0
+#    CUR_VOLB[0:0] = 0x0
+#    NO_CHOPPING[1:1] = 0x1
+#    QUAD_DACOUT_SEL[4:4] = 0x0
+0x2
+#  CURRMON_SIMUL_STROBES:0x1c
+#    CM_STB_G0[0:0] = 0x0
+#    CM_STB_G1[1:1] = 0x0
+#    CM_STB_G2[2:2] = 0x0
+#    CM_STB_G3[3:3] = 0x0
+#    CM_STB_G4[4:4] = 0x0
+#    CM_STB_G5[5:5] = 0x0
+0x0
+#  PRESCALE_CFG:0x20
+#    PS1_ENABLE[0:0] = 0x0
+#    PS1_GAIN_SELECT[2:1] = 0x0
+#    PS2_ENABLE[4:4] = 0x0
+#    PS2_GAIN_SELECT[6:5] = 0x0
+0x0
+#  CURRMON:0x24
+# - CurrentMonitor_0 
+#    CM_ENABLE[2:2] = 0x1
+#    CM_STROBE[3:3] = 0x0
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+0x4
+#  TEMPMON:0x28
+# - CurrentMonitor_0_V 
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x1
+#    TM_ENABLE[2:2] = 0x0
+#    TM_STROBE[3:3] = 0x0
+#    VREF_SWITCH[5:5] = 0x0
+0x1
+#  ATCOMP:0x2c
+#    DAC_INPUT_SELECT[1:0] = 0x0
+#    PDVC_ENABLE[7:7] = 0x1
+#    VREFSEL[4:4] = 0x0
+0x80
+
+
+#ACE_ACB_AQ = 0x40020234
+#  ABPS1_TRIM0:0x0
+#    OFFSET_TRIM[7:0] = 0x0
+0x0
+#  ABPS1_TRIM1:0x4
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  ABPS2_TRIM0:0x8
+#    DAC_TRIM[7:0] = 0x0
+0x0
+#  ABPS2_TRIM1:0xc
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  OBD_TRIM:0x10
+#    INCR_DECRB[8:8] = 0x0
+#    OBD_TRIM[6:0] = 0x0
+0x0
+#  OBD_CONFIGURATION:0x18
+#    ANA_SEL[3:2] = 0x0
+#    CUR_VOLB[0:0] = 0x0
+#    NO_CHOPPING[1:1] = 0x0
+#    QUAD_DACOUT_SEL[4:4] = 0x0
+0x0
+#  PRESCALE_CFG:0x20
+#    PS1_ENABLE[0:0] = 0x0
+#    PS1_GAIN_SELECT[2:1] = 0x0
+#    PS2_ENABLE[4:4] = 0x0
+#    PS2_GAIN_SELECT[6:5] = 0x0
+0x0
+#  CURRMON:0x24
+#    CM_ENABLE[2:2] = 0x0
+#    CM_STROBE[3:3] = 0x0
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+0x0
+#  TEMPMON:0x28
+# - TemperatureMonitor_0 
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+#    TM_ENABLE[2:2] = 0x1
+#    TM_STROBE[3:3] = 0x0
+#    VREF_SWITCH[5:5] = 0x0
+0x4
+#  ATCOMP:0x2c
+#    DAC_INPUT_SELECT[1:0] = 0x0
+0x0
+
+
+#ACE_ACB_AQ = 0x40020264
+#  ABPS1_TRIM0:0x0
+#    OFFSET_TRIM[7:0] = 0x0
+0x0
+#  ABPS1_TRIM1:0x4
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  ABPS2_TRIM0:0x8
+#    DAC_TRIM[7:0] = 0x0
+0x0
+#  ABPS2_TRIM1:0xc
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  OBD_TRIM:0x10
+#    INCR_DECRB[8:8] = 0x0
+#    OBD_TRIM[6:0] = 0x0
+0x0
+#  OBD_CONFIGURATION:0x18
+#    ANA_SEL[3:2] = 0x0
+#    CUR_VOLB[0:0] = 0x0
+#    NO_CHOPPING[1:1] = 0x0
+#    QUAD_DACOUT_SEL[4:4] = 0x0
+0x0
+#  PRESCALE_CFG:0x20
+#    PS1_ENABLE[0:0] = 0x0
+#    PS1_GAIN_SELECT[2:1] = 0x0
+#    PS2_ENABLE[4:4] = 0x0
+#    PS2_GAIN_SELECT[6:5] = 0x0
+0x0
+#  CURRMON:0x24
+#    CM_ENABLE[2:2] = 0x0
+#    CM_STROBE[3:3] = 0x0
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+0x0
+#  TEMPMON:0x28
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+#    TM_ENABLE[2:2] = 0x0
+#    TM_STROBE[3:3] = 0x0
+#    VREF_SWITCH[5:5] = 0x0
+0x0
+#  ATCOMP:0x2c
+#    DAC_INPUT_SELECT[1:0] = 0x0
+0x0
+
+
+#ACE_ACB_AQ = 0x40020294
+#  ABPS1_TRIM0:0x0
+#    OFFSET_TRIM[7:0] = 0x0
+0x0
+#  ABPS1_TRIM1:0x4
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  ABPS2_TRIM0:0x8
+#    DAC_TRIM[7:0] = 0x0
+0x0
+#  ABPS2_TRIM1:0xc
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  OBD_TRIM:0x10
+#    INCR_DECRB[8:8] = 0x0
+#    OBD_TRIM[6:0] = 0x0
+0x0
+#  OBD_CONFIGURATION:0x18
+#    ANA_SEL[3:2] = 0x0
+#    CUR_VOLB[0:0] = 0x0
+#    NO_CHOPPING[1:1] = 0x0
+#    QUAD_DACOUT_SEL[4:4] = 0x0
+0x0
+#  PRESCALE_CFG:0x20
+#    PS1_ENABLE[0:0] = 0x0
+#    PS1_GAIN_SELECT[2:1] = 0x0
+#    PS2_ENABLE[4:4] = 0x0
+#    PS2_GAIN_SELECT[6:5] = 0x0
+0x0
+#  CURRMON:0x24
+#    CM_ENABLE[2:2] = 0x0
+#    CM_STROBE[3:3] = 0x0
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+0x0
+#  TEMPMON:0x28
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+#    TM_ENABLE[2:2] = 0x0
+#    TM_STROBE[3:3] = 0x0
+#    VREF_SWITCH[5:5] = 0x0
+0x0
+#  ATCOMP:0x2c
+#    DAC_INPUT_SELECT[1:0] = 0x0
+0x0
+
+
+#ACE_ACB_AQ = 0x400202c4
+#  ABPS1_TRIM0:0x0
+#    OFFSET_TRIM[7:0] = 0x0
+0x0
+#  ABPS1_TRIM1:0x4
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  ABPS2_TRIM0:0x8
+#    DAC_TRIM[7:0] = 0x0
+0x0
+#  ABPS2_TRIM1:0xc
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  OBD_TRIM:0x10
+#    INCR_DECRB[8:8] = 0x0
+#    OBD_TRIM[6:0] = 0x0
+0x0
+#  OBD_CONFIGURATION:0x18
+#    ANA_SEL[3:2] = 0x0
+#    CUR_VOLB[0:0] = 0x0
+#    NO_CHOPPING[1:1] = 0x0
+#    QUAD_DACOUT_SEL[4:4] = 0x0
+0x0
+#  PRESCALE_CFG:0x20
+#    PS1_ENABLE[0:0] = 0x0
+#    PS1_GAIN_SELECT[2:1] = 0x0
+#    PS2_ENABLE[4:4] = 0x0
+#    PS2_GAIN_SELECT[6:5] = 0x0
+0x0
+#  CURRMON:0x24
+#    CM_ENABLE[2:2] = 0x0
+#    CM_STROBE[3:3] = 0x0
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+0x0
+#  TEMPMON:0x28
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+#    TM_ENABLE[2:2] = 0x0
+#    TM_STROBE[3:3] = 0x0
+#    VREF_SWITCH[5:5] = 0x0
+0x0
+#  ATCOMP:0x2c
+#    DAC_INPUT_SELECT[1:0] = 0x0
+0x0
+
+
+#ACE_ACB_AQ = 0x400202f4
+#  ABPS1_TRIM0:0x0
+#    OFFSET_TRIM[7:0] = 0x0
+0x0
+#  ABPS1_TRIM1:0x4
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  ABPS2_TRIM0:0x8
+#    DAC_TRIM[7:0] = 0x0
+0x0
+#  ABPS2_TRIM1:0xc
+#    GAIN_TRIM[5:2] = 0x0
+#    NEG_TRIM[0:0] = 0x0
+#    PER4_PER3B[1:1] = 0x0
+0x0
+#  OBD_TRIM:0x10
+#    INCR_DECRB[8:8] = 0x0
+#    OBD_TRIM[6:0] = 0x0
+0x0
+#  OBD_CONFIGURATION:0x18
+#    ANA_SEL[3:2] = 0x0
+#    CUR_VOLB[0:0] = 0x0
+#    NO_CHOPPING[1:1] = 0x0
+#    QUAD_DACOUT_SEL[4:4] = 0x0
+0x0
+#  PRESCALE_CFG:0x20
+#    PS1_ENABLE[0:0] = 0x0
+#    PS1_GAIN_SELECT[2:1] = 0x0
+#    PS2_ENABLE[4:4] = 0x0
+#    PS2_GAIN_SELECT[6:5] = 0x0
+0x0
+#  CURRMON:0x24
+#    CM_ENABLE[2:2] = 0x0
+#    CM_STROBE[3:3] = 0x0
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+0x0
+#  TEMPMON:0x28
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+#    TM_ENABLE[2:2] = 0x0
+#    TM_STROBE[3:3] = 0x0
+#    VREF_SWITCH[5:5] = 0x0
+0x0
+#  ATCOMP:0x2c
+#    DAC_INPUT_SELECT[1:0] = 0x0
+0x0
+
+
+#ACE_INIT0 = 0x40020000
+#  SSE_TS_CTRL:0x4
+#    SSE_SRAM_ENABLE[1:1] = 0x1
+#    TS_ENABLE[0:0] = 0x0
+0x2
+
+
+#ACE_INIT = 0x40020000
+#  PC0_CTRL:0x48
+#    PC0_EN[0:0] = 0x1
+0x1
+#  PC1_CTRL:0x88
+#    PC1_EN[0:0] = 0x1
+0x1
+#  PC2_CTRL:0xc8
+#    PC2_EN[0:0] = 0x1
+0x1
+#  SSE_PC0:0x410
+#    PC[8:0] = 0x0
+0x0
+#  SSE_PC1:0x414
+#    PC[8:0] = 0x18
+0x18
+#  SSE_PC2:0x418
+#    PC[8:0] = 0x1b
+0x1b
+#  FPGA_FLAGS_SEL:0x1260
+#    FIFO_AFULL0_SEL[3:3] = 0x0
+#    FIFO_AFULL1_SEL[4:4] = 0x0
+#    FIFO_AFULL2_SEL[5:5] = 0x0
+#    FIFO_EMPTY0_SEL[0:0] = 0x0
+#    FIFO_EMPTY1_SEL[1:1] = 0x0
+#    FIFO_EMPTY2_SEL[2:2] = 0x0
+#    FIFO_FULL0_SEL[6:6] = 0x0
+#    FIFO_FULL1_SEL[7:7] = 0x0
+#    FIFO_FULL2_SEL[8:8] = 0x0
+#    PPE_BUSY_SEL[9:9] = 0x0
+0x0
+#  PPE_ALU_CTRL:0x1418
+#    NSAT_EN[1:1] = 0x1
+#    PSAT_EN[0:0] = 0x1
+0x3
+#  ADC0_FIFO_CTRL:0x1490
+#    AFULL_WT_EN[0:0] = 0x1
+#    CLR[0:0] = 0x1
+#    FULL_WT_EN[0:0] = 0x1
+0x1
+#  ADC1_FIFO_CTRL:0x149c
+#    AFULL_WT_EN[0:0] = 0x1
+#    CLR[0:0] = 0x1
+#    FULL_WT_EN[0:0] = 0x1
+0x1
+#  ADC2_FIFO_CTRL:0x14a8
+#    AFULL_WT_EN[0:0] = 0x1
+#    CLR[0:0] = 0x1
+#    FULL_WT_EN[0:0] = 0x1
+0x1
+
+
+#ACE_INIT2 = 0x40020000
+#  SSE_TS_CTRL:0x4
+#    SSE_SRAM_ENABLE[1:1] = 0x1
+#    TS_ENABLE[0:0] = 0x1
+0x3
+#  ANA_COMM_CTRL:0xc
+#    ABPOWERON[3:3] = 0x1
+#    ACB_RESETN[4:4] = 0x0
+#    ADCRESET[1:1] = 0x1
+#    PWRDWN[2:2] = 0x0
+#    VREFSEL[0:0] = 0x0
+0xa
+#  PPE_CTRL:0x1404
+#    PPE_EN[0:0] = 0x1
+#    PPE_RRDIS0[14:14] = 0x0
+#    PPE_RRDIS1[15:15] = 0x0
+#    PPE_RRDIS2[16:16] = 0x0
+0x1
+
+
+#ACE_PPE_RAM = 0x40021800
+#  CHAN_JUMP_ADDRESS:0x0
+######## Jump Addresses for Channel0
+#    ADC0[9:0] = 0x0
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x0
+#  CHAN_JUMP_ADDRESS:0x4
+######## Jump Addresses for Channel1
+#    ADC0[9:0] = 0x0
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x0
+#  CHAN_JUMP_ADDRESS:0x8
+######## Jump Addresses for Channel2
+#    ADC0[9:0] = 0x0
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x0
+#  CHAN_JUMP_ADDRESS:0xc
+######## Jump Addresses for Channel3
+#    ADC0[9:0] = 0xf
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0xf
+#  CHAN_JUMP_ADDRESS:0x10
+######## Jump Addresses for Channel4
+#    ADC0[9:0] = 0x0
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x0
+#  CHAN_JUMP_ADDRESS:0x14
+######## Jump Addresses for Channel5
+#    ADC0[9:0] = 0x0
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x0
+#  CHAN_JUMP_ADDRESS:0x18
+######## Jump Addresses for Channel6
+#    ADC0[9:0] = 0x0
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x0
+#  CHAN_JUMP_ADDRESS:0x1c
+######## Jump Addresses for Channel7
+#    ADC0[9:0] = 0x0
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x0
+#  CHAN_JUMP_ADDRESS:0x20
+######## Jump Addresses for Channel8
+#    ADC0[9:0] = 0x18
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x18
+#  CHAN_JUMP_ADDRESS:0x24
+######## Jump Addresses for Channel9
+#    ADC0[9:0] = 0x2b
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x2b
+#  CHAN_JUMP_ADDRESS:0x28
+######## Jump Addresses for Channel10
+#    ADC0[9:0] = 0x0
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x0
+#  CHAN_JUMP_ADDRESS:0x2c
+######## Jump Addresses for Channel11
+#    ADC0[9:0] = 0x0
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x0
+#  CHAN_JUMP_ADDRESS:0x30
+######## Jump Addresses for Channel12
+#    ADC0[9:0] = 0x0
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x0
+#  CHAN_JUMP_ADDRESS:0x34
+######## Jump Addresses for Channel15
+#    ADC0[9:0] = 0x40
+#    ADC1[19:10] = 0x0
+#    ADC2[29:20] = 0x0
+0x40
+#  DATA:0x38
+# - Low Pass Filter Data, Initial Value:  0.000000000 A ( 0 ) 
+#    DATA[31:0] = 0x0
+0x0
+#  MOVE_REG_TO_REG:0x3c
+# - Move ADC Result from FIFO to ALUD register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    DEST_REG[29:24] = 0xf
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    SRC_REG[5:0] = 0x22
+#    SRC_TYPE[12:11] = 0x0
+#    XFER_CTRL[31:30] = 0x1
+0x4f000022
+#  LOAD_CONSTANT_TO_REG_ALU_DE:0x40
+######## Linear Transformation Function:  CurrentMonitor_0
+# - Load M factor to ALUE = 1 ( 16384 ) 
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    CONSTANT_VALUE[15:0] = 0x4000
+#    DEST_REG[29:24] = 0x10
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    XFER_CTRL[31:30] = 0x0
+0x10004000
+#  LOAD_CONSTANT_TO_REG:0x44
+# - Load upper 24-bits of B value to ALUA = 0 ( 0 ) 
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x9
+#    XFER_CTRL[31:30] = 0x0
+0x9000000
+#  LOAD_CONSTANT_TO_REG:0x48
+# - NOP to allow y=mx+b result to load into ALUC
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x0
+#    XFER_CTRL[31:30] = 0x0
+0x0
+#  MOVE_REG_TO_REG:0x4c
+######## Low Pass Filter Function:  CurrentMonitor_0
+# - Move transformed data from previous calculation ALUC to ALUB register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    DEST_REG[29:24] = 0xb
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    SRC_REG[5:0] = 0xd
+#    SRC_TYPE[12:11] = 0x0
+#    XFER_CTRL[31:30] = 0x1
+0x4b00000d
+#  COPY_REG_TO_SRAM32:0x50
+# - Factor=1, Skip Averaging
+#    DEST_SRAM_ADDR[10:0] = 0x38
+#    DEST_TYPE[12:11] = 0x3
+#    SRC_REG[29:24] = 0xa
+#    WRITEMODE[13:13] = 0x1
+#    XFER_CTRL[31:30] = 0x2
+0x8a003838
+#  LOAD_CONSTANT_TO_REG:0x54
+# - Clear A register in preparation of threshold comparison (optional)
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x8
+#    XFER_CTRL[31:30] = 0x0
+0x8000000
+#  LOAD_CONSTANT_TO_REG:0x58
+# - CurrentMonitor_0 PPE Done
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x3f
+#    XFER_CTRL[31:30] = 0x0
+0x3f000000
+#  DATA:0x5c
+# - Low Pass Filter Data, Initial Value:  0.000 C ( 71565312 ) 
+#    DATA[31:0] = 0x4440000
+0x4440000
+#  MOVE_REG_TO_REG:0x60
+# - Move ADC Result from FIFO to ALUD register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    DEST_REG[29:24] = 0xf
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    SRC_REG[5:0] = 0x22
+#    SRC_TYPE[12:11] = 0x0
+#    XFER_CTRL[31:30] = 0x1
+0x4f000022
+#  LOAD_CONSTANT_TO_REG_ALU_DE:0x64
+######## Linear Transformation Function:  TemperatureMonitor_0
+# - Load M factor to ALUE = 1 ( 16384 ) 
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    CONSTANT_VALUE[15:0] = 0x4000
+#    DEST_REG[29:24] = 0x10
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    XFER_CTRL[31:30] = 0x0
+0x10004000
+#  LOAD_CONSTANT_TO_REG:0x68
+# - Load upper 24-bits of B value to ALUA = 0 ( 0 ) 
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x9
+#    XFER_CTRL[31:30] = 0x0
+0x9000000
+#  LOAD_CONSTANT_TO_REG:0x6c
+# - NOP to allow y=mx+b result to load into ALUC
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x0
+#    XFER_CTRL[31:30] = 0x0
+0x0
+#  MOVE_REG_TO_REG:0x70
+######## Low Pass Filter Function:  TemperatureMonitor_0
+# - Move transformed data from previous calculation ALUC to ALUB register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    DEST_REG[29:24] = 0xb
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    SRC_REG[5:0] = 0xd
+#    SRC_TYPE[12:11] = 0x0
+#    XFER_CTRL[31:30] = 0x1
+0x4b00000d
+#  MOVE_SRAM_TO_REG:0x74
+# - Move previous LPF value to ALUA register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    DEST_REG[29:24] = 0x9
+#    NEGA[23:23] = 0x1
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x1
+#    S2B_DLY[17:17] = 0x0
+#    SRC_SRAM_ADDR[10:0] = 0x5c
+#    SRC_TYPE[12:11] = 0x3
+#    XFER_CTRL[31:30] = 0x1
+0x49a0185c
+#  LOAD_CONSTANT_TO_REG_ALU_DE:0x78
+# - Load inverse of filtering factor '8192'( 1/8) to ALUE register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x1
+#    C2D_DLY[16:16] = 0x0
+#    CONSTANT_VALUE[15:0] = 0x2000
+#    DEST_REG[29:24] = 0x10
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    XFER_CTRL[31:30] = 0x0
+0x10102000
+#  LOAD_CONSTANT_TO_REG:0x7c
+# - NOP to allow ( In - Outn-1 ) / s to store into ALUB
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x0
+#    XFER_CTRL[31:30] = 0x0
+0x0
+#  LOAD_CONSTANT_TO_REG:0x80
+# - Clear A register in preparation of threshold comparison (optional)
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x8
+#    XFER_CTRL[31:30] = 0x0
+0x8000000
+#  COPY_REG_TO_SRAM32:0x84
+#    DEST_SRAM_ADDR[10:0] = 0x5c
+#    DEST_TYPE[12:11] = 0x3
+#    SRC_REG[29:24] = 0xc
+#    WRITEMODE[13:13] = 0x1
+#    XFER_CTRL[31:30] = 0x2
+0x8c00385c
+#  MOVE_SRAM_TO_REG:0x88
+######## Threshold Detection Function:  TemperatureMonitor_0
+# - Move ADC Result from SRAM location to ALUB register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    DEST_REG[29:24] = 0xa
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    SRC_SRAM_ADDR[10:0] = 0x5c
+#    SRC_TYPE[12:11] = 0x3
+#    XFER_CTRL[31:30] = 0x1
+0x4a00185c
+#  LOAD_CONSTANT_TO_REG:0x8c
+# - FLAG( UNC ): OVER 30.000 C ( 1212 )  State Filter( Assert: 0 Deassert: 0 )   Bank:0 Bit:6  Hysteresis ( 3.000 C, HIGH:1224, LOW: 1200 )
+#    CONSTANT_VALUE[23:0] = 0x8604c8
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c8604c8
+#  LOAD_CONSTANT_TO_REG:0x90
+#    CONSTANT_VALUE[23:0] = 0x4604b0
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c4604b0
+#  LOAD_CONSTANT_TO_REG:0x94
+# - FLAG( UC ): OVER 40.000 C ( 1252 )  State Filter( Assert: 0 Deassert: 0 )   Bank:0 Bit:7  Hysteresis ( 3.000 C, HIGH:1264, LOW: 1240 )
+#    CONSTANT_VALUE[23:0] = 0x8704f0
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c8704f0
+#  LOAD_CONSTANT_TO_REG:0x98
+#    CONSTANT_VALUE[23:0] = 0x4704d8
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c4704d8
+#  LOAD_CONSTANT_TO_REG:0x9c
+# - FLAG( UNR ): OVER 50.000 C ( 1292 )  State Filter( Assert: 0 Deassert: 0 )   Bank:0 Bit:8  Hysteresis ( 3.000 C, HIGH:1304, LOW: 1280 )
+#    CONSTANT_VALUE[23:0] = 0x880518
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c880518
+#  LOAD_CONSTANT_TO_REG:0xa0
+#    CONSTANT_VALUE[23:0] = 0x480500
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c480500
+#  LOAD_CONSTANT_TO_REG:0xa4
+# - TemperatureMonitor_0 PPE Done
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x3f
+#    XFER_CTRL[31:30] = 0x0
+0x3f000000
+#  DATA:0xa8
+# - Low Pass Filter Data, Initial Value:  0.000 V ( 0 ) 
+#    DATA[31:0] = 0x0
+0x0
+#  MOVE_REG_TO_REG:0xac
+# - Move ADC Result from FIFO to ALUD register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    DEST_REG[29:24] = 0xf
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    SRC_REG[5:0] = 0x22
+#    SRC_TYPE[12:11] = 0x0
+#    XFER_CTRL[31:30] = 0x1
+0x4f000022
+#  LOAD_CONSTANT_TO_REG_ALU_DE:0xb0
+######## Linear Transformation Function:  ADCDirectInput_0
+# - Load M factor to ALUE = 1 ( 16384 ) 
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    CONSTANT_VALUE[15:0] = 0x4000
+#    DEST_REG[29:24] = 0x10
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    XFER_CTRL[31:30] = 0x0
+0x10004000
+#  LOAD_CONSTANT_TO_REG:0xb4
+# - Load upper 24-bits of B value to ALUA = 0 ( 0 ) 
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x9
+#    XFER_CTRL[31:30] = 0x0
+0x9000000
+#  LOAD_CONSTANT_TO_REG:0xb8
+# - NOP to allow y=mx+b result to load into ALUC
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x0
+#    XFER_CTRL[31:30] = 0x0
+0x0
+#  MOVE_REG_TO_REG:0xbc
+######## Low Pass Filter Function:  ADCDirectInput_0
+# - Move transformed data from previous calculation ALUC to ALUB register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    DEST_REG[29:24] = 0xb
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    SRC_REG[5:0] = 0xd
+#    SRC_TYPE[12:11] = 0x0
+#    XFER_CTRL[31:30] = 0x1
+0x4b00000d
+#  COPY_REG_TO_SRAM32:0xc0
+# - Factor=1, Skip Averaging
+#    DEST_SRAM_ADDR[10:0] = 0xa8
+#    DEST_TYPE[12:11] = 0x3
+#    SRC_REG[29:24] = 0xa
+#    WRITEMODE[13:13] = 0x1
+#    XFER_CTRL[31:30] = 0x2
+0x8a0038a8
+#  LOAD_CONSTANT_TO_REG:0xc4
+# - Clear A register in preparation of threshold comparison (optional)
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x8
+#    XFER_CTRL[31:30] = 0x0
+0x8000000
+#  MOVE_SRAM_TO_REG:0xc8
+######## Threshold Detection Function:  ADCDirectInput_0
+# - Move ADC Result from SRAM location to ALUB register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    DEST_REG[29:24] = 0xa
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    SRC_SRAM_ADDR[10:0] = 0xa8
+#    SRC_TYPE[12:11] = 0x3
+#    XFER_CTRL[31:30] = 0x1
+0x4a0018a8
+#  LOAD_CONSTANT_TO_REG:0xcc
+# - FLAG( UNC ): OVER 2.000 V ( 3200 )  State Filter( Assert: 0 Deassert: 0 )   Bank:0 Bit:0  Hysteresis ( 0.100 V, HIGH:3360, LOW: 3040 )
+#    CONSTANT_VALUE[23:0] = 0x800d20
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c800d20
+#  LOAD_CONSTANT_TO_REG:0xd0
+#    CONSTANT_VALUE[23:0] = 0x400be0
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c400be0
+#  LOAD_CONSTANT_TO_REG:0xd4
+# - FLAG( UC ): OVER 2.200 V ( 3520 )  State Filter( Assert: 0 Deassert: 0 )   Bank:0 Bit:1  Hysteresis ( 0.100 V, HIGH:3680, LOW: 3360 )
+#    CONSTANT_VALUE[23:0] = 0x810e60
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c810e60
+#  LOAD_CONSTANT_TO_REG:0xd8
+#    CONSTANT_VALUE[23:0] = 0x410d20
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c410d20
+#  LOAD_CONSTANT_TO_REG:0xdc
+# - FLAG( UNR ): OVER 2.400 V ( 3840 )  State Filter( Assert: 0 Deassert: 0 )   Bank:0 Bit:2  Hysteresis ( 0.100 V, HIGH:4000, LOW: 3680 )
+#    CONSTANT_VALUE[23:0] = 0x820fa0
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c820fa0
+#  LOAD_CONSTANT_TO_REG:0xe0
+#    CONSTANT_VALUE[23:0] = 0x420e60
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c420e60
+#  LOAD_CONSTANT_TO_REG:0xe4
+# - FLAG( LNC ): UNDER 1.500 V ( 2400 )  State Filter( Assert: 0 Deassert: 0 )   Bank:0 Bit:3  Hysteresis ( 0.100 V, HIGH:2560, LOW: 2240 )
+#    CONSTANT_VALUE[23:0] = 0x30a00
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c030a00
+#  LOAD_CONSTANT_TO_REG:0xe8
+#    CONSTANT_VALUE[23:0] = 0xc308c0
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1cc308c0
+#  LOAD_CONSTANT_TO_REG:0xec
+# - FLAG( LC ): UNDER 1.300 V ( 2080 )  State Filter( Assert: 0 Deassert: 0 )   Bank:0 Bit:4  Hysteresis ( 0.100 V, HIGH:2240, LOW: 1920 )
+#    CONSTANT_VALUE[23:0] = 0x408c0
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c0408c0
+#  LOAD_CONSTANT_TO_REG:0xf0
+#    CONSTANT_VALUE[23:0] = 0xc40780
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1cc40780
+#  LOAD_CONSTANT_TO_REG:0xf4
+# - FLAG( LNR ): UNDER 1.100 V ( 1760 )  State Filter( Assert: 0 Deassert: 0 )   Bank:0 Bit:5  Hysteresis ( 0.100 V, HIGH:1920, LOW: 1600 )
+#    CONSTANT_VALUE[23:0] = 0x50780
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1c050780
+#  LOAD_CONSTANT_TO_REG:0xf8
+#    CONSTANT_VALUE[23:0] = 0xc50640
+#    DEST_REG[29:24] = 0x1c
+#    XFER_CTRL[31:30] = 0x0
+0x1cc50640
+#  LOAD_CONSTANT_TO_REG:0xfc
+# - ADCDirectInput_0 PPE Done
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x3f
+#    XFER_CTRL[31:30] = 0x0
+0x3f000000
+#  MOVE_REG_TO_REG:0x100
+# - Move ADC Result from FIFO to ALUD register
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    DEST_REG[29:24] = 0xf
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    SRC_REG[5:0] = 0x22
+#    SRC_TYPE[12:11] = 0x0
+#    XFER_CTRL[31:30] = 0x1
+0x4f000022
+#  LOAD_CONSTANT_TO_REG_ALU_DE:0x104
+######## Linear Transformation Function:  SDD_0
+# - Load M factor to ALUE = 1 ( 16384 ) 
+#    C2A[22:22] = 0x0
+#    C2A_DLY[18:18] = 0x0
+#    C2D[20:20] = 0x0
+#    C2D_DLY[16:16] = 0x0
+#    CONSTANT_VALUE[15:0] = 0x4000
+#    DEST_REG[29:24] = 0x10
+#    NEGA[23:23] = 0x0
+#    NEGA_DLY[19:19] = 0x0
+#    S2B[21:21] = 0x0
+#    S2B_DLY[17:17] = 0x0
+#    XFER_CTRL[31:30] = 0x0
+0x10004000
+#  LOAD_CONSTANT_TO_REG:0x108
+# - Load upper 24-bits of B value to ALUA = 0 ( 0 ) 
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x9
+#    XFER_CTRL[31:30] = 0x0
+0x9000000
+#  LOAD_CONSTANT_TO_REG:0x10c
+# - NOP to allow y=mx+b result to load into ALUC
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x0
+#    XFER_CTRL[31:30] = 0x0
+0x0
+#  LOAD_CONSTANT_TO_REG:0x110
+# - SDD_0 PPE Done
+#    CONSTANT_VALUE[23:0] = 0x0
+#    DEST_REG[29:24] = 0x3f
+#    XFER_CTRL[31:30] = 0x0
+0x3f000000
+
+
+#ACE_SSE_RAM = 0x40020800
+#  ADC0_MISC_CTRL:0x0
+######## ADC0 setup and configuration 
+#    ADCRESET[4:4] = 0x0
+#    MODE[3:0] = 0x4
+#    PWRDWN[5:5] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x17
+0x1704
+#  ADC0_TVC:0x4
+#    SSE_INT_ADDR[15:8] = 0x16
+#    TVC[7:0] = 0x0
+0x1600
+#  DAC0_CTRL:0x8
+#    DACRES[3:2] = 0x0
+#    DACSEL[1:0] = 0x0
+#    EN[5:5] = 0x1
+#    REG_SEL[6:6] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x18
+#    SW_OBD[4:4] = 0x0
+0x1820
+#  ADC0_STC:0xc
+######## User Instruction: Sample TemperatureMonitor_0
+#    SSE_INT_ADDR[15:8] = 0x15
+#    STC[7:0] = 0x62
+0x1562
+#  SSE_RAM_ACB_AQ1_TEMPMON:0x10
+# - Enable Strobe
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x97
+#    TM_ENABLE[2:2] = 0x1
+#    TM_STROBE[3:3] = 0x1
+#    VREF_SWITCH[5:5] = 0x0
+0x970c
+#  PC0_DLY:0x14
+######## Satisfy strobe to start delay requirements
+# - Wait for 25 clocks
+#    DLY[7:0] = 0x19
+#    SSE_INT_ADDR[15:8] = 0x13
+0x1319
+#  NOP:0x18
+# - NOP:  Wait for delay counter
+#    NOP[7:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x0
+0x0
+#  ADC0_CONV_CTRL:0x1c
+#    ADCSTART[7:7] = 0x1
+#    AMUXSEL[4:0] = 0x8
+#    CONVWAIT[6:6] = 0x1
+#    SSE_INT_ADDR[15:8] = 0x14
+0x14c8
+#  NOP:0x20
+# - Wait for DataValid
+#    NOP[7:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x0
+0x0
+#  SSE_RAM_ACB_AQ1_TEMPMON:0x24
+# - Disable Strobe
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x97
+#    TM_ENABLE[2:2] = 0x1
+#    TM_STROBE[3:3] = 0x0
+#    VREF_SWITCH[5:5] = 0x0
+0x9704
+#  ADC0_STC:0x28
+######## User Instruction: Sample ADCDirectInput_0
+#    SSE_INT_ADDR[15:8] = 0x15
+#    STC[7:0] = 0x62
+0x1562
+#  ADC0_CONV_CTRL:0x2c
+#    ADCSTART[7:7] = 0x1
+#    AMUXSEL[4:0] = 0x9
+#    CONVWAIT[6:6] = 0x1
+#    SSE_INT_ADDR[15:8] = 0x14
+0x14c9
+#  NOP:0x30
+# - Wait for DataValid
+#    NOP[7:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x0
+0x0
+#  ADC0_STC:0x34
+######## User Instruction: Sample CurrentMonitor_0
+#    SSE_INT_ADDR[15:8] = 0x15
+#    STC[7:0] = 0x30
+0x1530
+#  SSE_RAM_ACB_AQ0_CURRMON:0x38
+# - Enable Strobe
+#    CM_ENABLE[2:2] = 0x1
+#    CM_STROBE[3:3] = 0x1
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x8a
+0x8a0c
+#  PC0_DLY:0x3c
+######## Satisfy strobe to start delay requirements
+# - Wait for 5 clocks
+#    DLY[7:0] = 0x5
+#    SSE_INT_ADDR[15:8] = 0x13
+0x1305
+#  NOP:0x40
+# - NOP:  Wait for delay counter
+#    NOP[7:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x0
+0x0
+#  ADC0_CONV_CTRL:0x44
+#    ADCSTART[7:7] = 0x1
+#    AMUXSEL[4:0] = 0x3
+#    CONVWAIT[6:6] = 0x1
+#    SSE_INT_ADDR[15:8] = 0x14
+0x14c3
+#  NOP:0x48
+# - Wait for DataValid
+#    NOP[7:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x0
+0x0
+#  SSE_RAM_ACB_AQ0_CURRMON:0x4c
+# - Disable Strobe
+#    CM_ENABLE[2:2] = 0x1
+#    CM_STROBE[3:3] = 0x0
+#    COMPARATOR_ENABLE[4:4] = 0x0
+#    DIRECT_INPUT_SWITCH[1:1] = 0x0
+#    HYSTERESIS_SELECT[7:6] = 0x0
+#    MUX_SELECT[0:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x8a
+0x8a04
+#  ADC0_STC:0x50
+######## User Instruction: Sample SDD_0
+#    SSE_INT_ADDR[15:8] = 0x15
+#    STC[7:0] = 0x62
+0x1562
+#  ADC0_CONV_CTRL:0x54
+#    ADCSTART[7:7] = 0x1
+#    AMUXSEL[4:0] = 0xf
+#    CONVWAIT[6:6] = 0x1
+#    SSE_INT_ADDR[15:8] = 0x14
+0x14cf
+#  NOP:0x58
+# - Wait for DataValid
+#    NOP[7:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x0
+0x0
+#  PC0_LO:0x5c
+######## User Instruction: Restarts the execution sequence for this timeslot  Jump to program counter 3
+#    PC[7:0] = 0x3
+#    SSE_INT_ADDR[15:8] = 0x10
+0x1003
+#  ADC1_MISC_CTRL:0x60
+######## ADC1 setup and configuration 
+#    ADCRESET[4:4] = 0x0
+#    MODE[3:0] = 0x4
+#    PWRDWN[5:5] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x27
+0x2704
+#  ADC1_TVC:0x64
+#    SSE_INT_ADDR[15:8] = 0x26
+#    TVC[7:0] = 0x0
+0x2600
+#  PC1_CTRL:0x68
+######## User Instruction: Stop Execution in this timeslot.  No operations to execute.
+#    PC1_EN[0:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x22
+0x2200
+#  ADC2_MISC_CTRL:0x6c
+######## ADC2 setup and configuration 
+#    ADCRESET[4:4] = 0x0
+#    MODE[3:0] = 0x4
+#    PWRDWN[5:5] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x37
+0x3704
+#  ADC2_TVC:0x70
+#    SSE_INT_ADDR[15:8] = 0x36
+#    TVC[7:0] = 0x0
+0x3600
+#  PC2_CTRL:0x74
+######## User Instruction: Stop Execution in this timeslot.  No operations to execute.
+#    PC2_EN[0:0] = 0x0
+#    SSE_INT_ADDR[15:8] = 0x32
+0x3200
+
+
+#PPE_MERGE_CONFIG = 0x0
+#  MERGE_DATA_BLOCK_WORD0:0x0
+######## CurrentMonitor_0 : Merge Operation for M value = M2 * M1 
+# - Word0:  PPE_SCRATCH64_1 <- M2(PPE_RAM)
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x300
+#    OPERAND_WIDTH[23:16] = 0x0
+0x300
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x4
+# - Word1:  PPE_SCRATCH64_1 <- M2(PPE_RAM)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x10
+#    OPERATION_LOCATION[9:0] = 0x10
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x10100010
+#  MERGE_DATA_BLOCK_WORD0:0x8
+# - Word0:  PPE_SCRATCH64_1 <- PPE_SCRATCH64_1 * M1
+#    MERGE_OPERATION[31:24] = 0x2
+#    OPERAND_LOCATION[15:0] = 0x300
+#    OPERAND_WIDTH[23:16] = 0x10
+0x2100300
+#  MERGE_DATA_BLOCK_CHANNEL_WORD1:0xc
+# - Word1:  PPE_SCRATCH64_1 <- PPE_SCRATCH64_1 * M1
+#    ADC_NUMBER[5:4] = 0x0
+#    CALIB_CHOICE[6:6] = 0x0
+#    CHANNEL_NUMBER[3:0] = 0x3
+#    OPERAND_TYPE[10:10] = 0x1
+#    OPERAND_WIDTH[23:16] = 0x10
+#    RESERVED1[9:7] = 0x0
+#    RESERVED2[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x20
+0x20100403
+#  MERGE_DATA_BLOCK_WORD0:0x10
+######## CurrentMonitor_0 : Merge Operation for C value = ( M2 * C1 ) + ( C2 )
+# - Word0:  PPE_SCRATCH64_2 <- M2(PPE_RAM)
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x301
+#    OPERAND_WIDTH[23:16] = 0x40
+0x400301
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x14
+# - Word1:  PPE_SCRATCH64_2 <- M2(PPE_RAM)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x10
+#    OPERATION_LOCATION[9:0] = 0x10
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x10100010
+#  MERGE_DATA_BLOCK_WORD0:0x18
+# - Word0:  PPE_SCRATCH64_2 <- M2(PPE_SCRATCH64_2) * C1
+#    MERGE_OPERATION[31:24] = 0x2
+#    OPERAND_LOCATION[15:0] = 0x301
+#    OPERAND_WIDTH[23:16] = 0x10
+0x2100301
+#  MERGE_DATA_BLOCK_CHANNEL_WORD1:0x1c
+# - Word1:  PPE_SCRATCH64_2 <- M2(PPE_SCRATCH64_2) * C1
+#    ADC_NUMBER[5:4] = 0x0
+#    CALIB_CHOICE[6:6] = 0x1
+#    CHANNEL_NUMBER[3:0] = 0x3
+#    OPERAND_TYPE[10:10] = 0x1
+#    OPERAND_WIDTH[23:16] = 0x10
+#    RESERVED1[9:7] = 0x0
+#    RESERVED2[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x20
+0x20100443
+#  MERGE_DATA_BLOCK_WORD0:0x20
+# - Word0:  PPE_RAM <- [ C2 ](in PPE_RAM) + [ M2*C1 ](in PPE_SCRATCH64_2)
+#    MERGE_OPERATION[31:24] = 0x1
+#    OPERAND_LOCATION[15:0] = 0x11
+#    OPERAND_WIDTH[23:16] = 0x18
+0x1180011
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x24
+# - Word1:  PPE_RAM <- [ C2 ](in PPE_RAM) + [ M2*C1 ](in PPE_SCRATCH64_2)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x20
+#    OPERATION_LOCATION[9:0] = 0x301
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x18
+0x18200301
+#  MERGE_DATA_BLOCK_WORD0:0x28
+# - Word0:  PPE_RAM <- PPE_SCRATCH64_1(result of M merge) - delay storage so C merge operation can use original M value
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x10
+#    OPERAND_WIDTH[23:16] = 0x10
+0x100010
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x2c
+# - Word1:  PPE_RAM <- PPE_SCRATCH64_1(result of M merge) - delay storage so C merge operation can use original M value
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x20
+#    OPERATION_LOCATION[9:0] = 0x300
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x10200300
+#  MERGE_DATA_BLOCK_WORD0:0x30
+######## TemperatureMonitor_0 : Merge Operation for M value = M2 * M1 
+# - Word0:  PPE_SCRATCH64_1 <- M2(PPE_RAM)
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x300
+#    OPERAND_WIDTH[23:16] = 0x0
+0x300
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x34
+# - Word1:  PPE_SCRATCH64_1 <- M2(PPE_RAM)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x10
+#    OPERATION_LOCATION[9:0] = 0x19
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x10100019
+#  MERGE_DATA_BLOCK_WORD0:0x38
+# - Word0:  PPE_SCRATCH64_1 <- PPE_SCRATCH64_1 * M1
+#    MERGE_OPERATION[31:24] = 0x2
+#    OPERAND_LOCATION[15:0] = 0x300
+#    OPERAND_WIDTH[23:16] = 0x10
+0x2100300
+#  MERGE_DATA_BLOCK_CHANNEL_WORD1:0x3c
+# - Word1:  PPE_SCRATCH64_1 <- PPE_SCRATCH64_1 * M1
+#    ADC_NUMBER[5:4] = 0x0
+#    CALIB_CHOICE[6:6] = 0x0
+#    CHANNEL_NUMBER[3:0] = 0x8
+#    OPERAND_TYPE[10:10] = 0x1
+#    OPERAND_WIDTH[23:16] = 0x10
+#    RESERVED1[9:7] = 0x0
+#    RESERVED2[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x20
+0x20100408
+#  MERGE_DATA_BLOCK_WORD0:0x40
+######## TemperatureMonitor_0 : Merge Operation for C value = ( M2 * C1 ) + ( C2 )
+# - Word0:  PPE_SCRATCH64_2 <- M2(PPE_RAM)
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x301
+#    OPERAND_WIDTH[23:16] = 0x40
+0x400301
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x44
+# - Word1:  PPE_SCRATCH64_2 <- M2(PPE_RAM)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x10
+#    OPERATION_LOCATION[9:0] = 0x19
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x10100019
+#  MERGE_DATA_BLOCK_WORD0:0x48
+# - Word0:  PPE_SCRATCH64_2 <- M2(PPE_SCRATCH64_2) * C1
+#    MERGE_OPERATION[31:24] = 0x2
+#    OPERAND_LOCATION[15:0] = 0x301
+#    OPERAND_WIDTH[23:16] = 0x10
+0x2100301
+#  MERGE_DATA_BLOCK_CHANNEL_WORD1:0x4c
+# - Word1:  PPE_SCRATCH64_2 <- M2(PPE_SCRATCH64_2) * C1
+#    ADC_NUMBER[5:4] = 0x0
+#    CALIB_CHOICE[6:6] = 0x1
+#    CHANNEL_NUMBER[3:0] = 0x8
+#    OPERAND_TYPE[10:10] = 0x1
+#    OPERAND_WIDTH[23:16] = 0x10
+#    RESERVED1[9:7] = 0x0
+#    RESERVED2[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x20
+0x20100448
+#  MERGE_DATA_BLOCK_WORD0:0x50
+# - Word0:  PPE_RAM <- [ C2 ](in PPE_RAM) + [ M2*C1 ](in PPE_SCRATCH64_2)
+#    MERGE_OPERATION[31:24] = 0x1
+#    OPERAND_LOCATION[15:0] = 0x1a
+#    OPERAND_WIDTH[23:16] = 0x18
+0x118001a
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x54
+# - Word1:  PPE_RAM <- [ C2 ](in PPE_RAM) + [ M2*C1 ](in PPE_SCRATCH64_2)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x20
+#    OPERATION_LOCATION[9:0] = 0x301
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x18
+0x18200301
+#  MERGE_DATA_BLOCK_WORD0:0x58
+# - Word0:  PPE_RAM <- PPE_SCRATCH64_1(result of M merge) - delay storage so C merge operation can use original M value
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x19
+#    OPERAND_WIDTH[23:16] = 0x10
+0x100019
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x5c
+# - Word1:  PPE_RAM <- PPE_SCRATCH64_1(result of M merge) - delay storage so C merge operation can use original M value
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x20
+#    OPERATION_LOCATION[9:0] = 0x300
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x10200300
+#  MERGE_DATA_BLOCK_WORD0:0x60
+######## ADCDirectInput_0 : Merge Operation for M value = M2 * M1 
+# - Word0:  PPE_SCRATCH64_1 <- M2(PPE_RAM)
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x300
+#    OPERAND_WIDTH[23:16] = 0x0
+0x300
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x64
+# - Word1:  PPE_SCRATCH64_1 <- M2(PPE_RAM)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x10
+#    OPERATION_LOCATION[9:0] = 0x2c
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x1010002c
+#  MERGE_DATA_BLOCK_WORD0:0x68
+# - Word0:  PPE_SCRATCH64_1 <- PPE_SCRATCH64_1 * M1
+#    MERGE_OPERATION[31:24] = 0x2
+#    OPERAND_LOCATION[15:0] = 0x300
+#    OPERAND_WIDTH[23:16] = 0x10
+0x2100300
+#  MERGE_DATA_BLOCK_CHANNEL_WORD1:0x6c
+# - Word1:  PPE_SCRATCH64_1 <- PPE_SCRATCH64_1 * M1
+#    ADC_NUMBER[5:4] = 0x0
+#    CALIB_CHOICE[6:6] = 0x0
+#    CHANNEL_NUMBER[3:0] = 0x9
+#    OPERAND_TYPE[10:10] = 0x1
+#    OPERAND_WIDTH[23:16] = 0x10
+#    RESERVED1[9:7] = 0x0
+#    RESERVED2[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x20
+0x20100409
+#  MERGE_DATA_BLOCK_WORD0:0x70
+######## ADCDirectInput_0 : Merge Operation for C value = ( M2 * C1 ) + ( C2 )
+# - Word0:  PPE_SCRATCH64_2 <- M2(PPE_RAM)
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x301
+#    OPERAND_WIDTH[23:16] = 0x40
+0x400301
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x74
+# - Word1:  PPE_SCRATCH64_2 <- M2(PPE_RAM)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x10
+#    OPERATION_LOCATION[9:0] = 0x2c
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x1010002c
+#  MERGE_DATA_BLOCK_WORD0:0x78
+# - Word0:  PPE_SCRATCH64_2 <- M2(PPE_SCRATCH64_2) * C1
+#    MERGE_OPERATION[31:24] = 0x2
+#    OPERAND_LOCATION[15:0] = 0x301
+#    OPERAND_WIDTH[23:16] = 0x10
+0x2100301
+#  MERGE_DATA_BLOCK_CHANNEL_WORD1:0x7c
+# - Word1:  PPE_SCRATCH64_2 <- M2(PPE_SCRATCH64_2) * C1
+#    ADC_NUMBER[5:4] = 0x0
+#    CALIB_CHOICE[6:6] = 0x1
+#    CHANNEL_NUMBER[3:0] = 0x9
+#    OPERAND_TYPE[10:10] = 0x1
+#    OPERAND_WIDTH[23:16] = 0x10
+#    RESERVED1[9:7] = 0x0
+#    RESERVED2[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x20
+0x20100449
+#  MERGE_DATA_BLOCK_WORD0:0x80
+# - Word0:  PPE_RAM <- [ C2 ](in PPE_RAM) + [ M2*C1 ](in PPE_SCRATCH64_2)
+#    MERGE_OPERATION[31:24] = 0x1
+#    OPERAND_LOCATION[15:0] = 0x2d
+#    OPERAND_WIDTH[23:16] = 0x18
+0x118002d
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x84
+# - Word1:  PPE_RAM <- [ C2 ](in PPE_RAM) + [ M2*C1 ](in PPE_SCRATCH64_2)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x20
+#    OPERATION_LOCATION[9:0] = 0x301
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x18
+0x18200301
+#  MERGE_DATA_BLOCK_WORD0:0x88
+# - Word0:  PPE_RAM <- PPE_SCRATCH64_1(result of M merge) - delay storage so C merge operation can use original M value
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x2c
+#    OPERAND_WIDTH[23:16] = 0x10
+0x10002c
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x8c
+# - Word1:  PPE_RAM <- PPE_SCRATCH64_1(result of M merge) - delay storage so C merge operation can use original M value
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x20
+#    OPERATION_LOCATION[9:0] = 0x300
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x10200300
+#  MERGE_DATA_BLOCK_WORD0:0x90
+######## SDD_0 : Merge Operation for M value = M2 * M1 
+# - Word0:  PPE_SCRATCH64_1 <- M2(PPE_RAM)
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x300
+#    OPERAND_WIDTH[23:16] = 0x0
+0x300
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0x94
+# - Word1:  PPE_SCRATCH64_1 <- M2(PPE_RAM)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x10
+#    OPERATION_LOCATION[9:0] = 0x41
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x10100041
+#  MERGE_DATA_BLOCK_WORD0:0x98
+# - Word0:  PPE_SCRATCH64_1 <- PPE_SCRATCH64_1 * M1
+#    MERGE_OPERATION[31:24] = 0x2
+#    OPERAND_LOCATION[15:0] = 0x300
+#    OPERAND_WIDTH[23:16] = 0x10
+0x2100300
+#  MERGE_DATA_BLOCK_CHANNEL_WORD1:0x9c
+# - Word1:  PPE_SCRATCH64_1 <- PPE_SCRATCH64_1 * M1
+#    ADC_NUMBER[5:4] = 0x0
+#    CALIB_CHOICE[6:6] = 0x0
+#    CHANNEL_NUMBER[3:0] = 0xf
+#    OPERAND_TYPE[10:10] = 0x1
+#    OPERAND_WIDTH[23:16] = 0x10
+#    RESERVED1[9:7] = 0x0
+#    RESERVED2[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x20
+0x2010040f
+#  MERGE_DATA_BLOCK_WORD0:0xa0
+######## SDD_0 : Merge Operation for C value = ( M2 * C1 ) + ( C2 )
+# - Word0:  PPE_SCRATCH64_2 <- M2(PPE_RAM)
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x301
+#    OPERAND_WIDTH[23:16] = 0x40
+0x400301
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0xa4
+# - Word1:  PPE_SCRATCH64_2 <- M2(PPE_RAM)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x10
+#    OPERATION_LOCATION[9:0] = 0x41
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x10100041
+#  MERGE_DATA_BLOCK_WORD0:0xa8
+# - Word0:  PPE_SCRATCH64_2 <- M2(PPE_SCRATCH64_2) * C1
+#    MERGE_OPERATION[31:24] = 0x2
+#    OPERAND_LOCATION[15:0] = 0x301
+#    OPERAND_WIDTH[23:16] = 0x10
+0x2100301
+#  MERGE_DATA_BLOCK_CHANNEL_WORD1:0xac
+# - Word1:  PPE_SCRATCH64_2 <- M2(PPE_SCRATCH64_2) * C1
+#    ADC_NUMBER[5:4] = 0x0
+#    CALIB_CHOICE[6:6] = 0x1
+#    CHANNEL_NUMBER[3:0] = 0xf
+#    OPERAND_TYPE[10:10] = 0x1
+#    OPERAND_WIDTH[23:16] = 0x10
+#    RESERVED1[9:7] = 0x0
+#    RESERVED2[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x20
+0x2010044f
+#  MERGE_DATA_BLOCK_WORD0:0xb0
+# - Word0:  PPE_RAM <- [ C2 ](in PPE_RAM) + [ M2*C1 ](in PPE_SCRATCH64_2)
+#    MERGE_OPERATION[31:24] = 0x1
+#    OPERAND_LOCATION[15:0] = 0x42
+#    OPERAND_WIDTH[23:16] = 0x18
+0x1180042
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0xb4
+# - Word1:  PPE_RAM <- [ C2 ](in PPE_RAM) + [ M2*C1 ](in PPE_SCRATCH64_2)
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x20
+#    OPERATION_LOCATION[9:0] = 0x301
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x18
+0x18200301
+#  MERGE_DATA_BLOCK_WORD0:0xb8
+# - Word0:  PPE_RAM <- PPE_SCRATCH64_1(result of M merge) - delay storage so C merge operation can use original M value
+#    MERGE_OPERATION[31:24] = 0x0
+#    OPERAND_LOCATION[15:0] = 0x41
+#    OPERAND_WIDTH[23:16] = 0x10
+0x100041
+#  MERGE_DATA_BLOCK_GENERIC_WORD1:0xbc
+# - Word1:  PPE_RAM <- PPE_SCRATCH64_1(result of M merge) - delay storage so C merge operation can use original M value
+#    OPERAND_TYPE[10:10] = 0x0
+#    OPERAND_WIDTH[23:16] = 0x20
+#    OPERATION_LOCATION[9:0] = 0x300
+#    RESERVED[15:11] = 0x0
+#    RESULT_WIDTH[31:24] = 0x10
+0x10200300
+
+

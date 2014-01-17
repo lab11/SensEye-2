@@ -1,0 +1,105 @@
+*****************************************************************
+Pin Report - Date: Wed Jan 15 15:43:48 2014 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.1 SP3
+Version: 11.1.3.1
+Design Name: TOPLEVEL
+Family: SmartFusion
+Die: A2F500M3G
+Package: 484 FBGA
+*****************************************************************
+Port               |Pin  |Fixed |Function                     |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------------------|-----|------|-----------------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+CS                  K4    Yes    IO74PPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+incp                L1    Yes    IO73PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+incv                G2    Yes    GFB0/IO82NPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+inphi               K17   Yes    IO37NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+led[0]              J21   Yes    GCC1/IO35PPB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+led[1]              E22   Yes    IO32NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+led[2]              H20   Yes    GCC0/IO35NPB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+led[3]              M4    Yes    IO72NPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+led[4]              J22   Yes    GCB1/IO34PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+led[5]              L3    Yes    IO72PPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+led[6]              J19   Yes    GCA0/IO36NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+led[7]              G4    Yes    GFC1/IO83PPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+MAC_CLK_IN          T6    Yes    MAC_CLK                       LVTTL    ---                ---   None           No               ---   ---               No           Yes
+MAC_CRSDV           W4    Yes    MAC_CRSDV/IO60RSB4V0          LVTTL    ---                ---   None           No               ---   ---               No           Yes
+MAC_MDC             AA3   Yes    MAC_MDC/IO57RSB4V0            LVTTL    8                  High  None           ---              No    35                No           Yes
+MAC_MDIO            V4    Yes    MAC_MDIO/IO58RSB4V0           LVTTL    8                  High  None           No               No    35                No           Yes
+MAC_RXD[0]          V5    Yes    MAC_RXD[0]/IO63RSB4V0         LVTTL    ---                ---   None           No               ---   ---               No           Yes
+MAC_RXD[1]          U5    Yes    MAC_RXD[1]/IO62RSB4V0         LVTTL    ---                ---   None           No               ---   ---               No           Yes
+MAC_RXER            AA4   Yes    MAC_RXER/IO59RSB4V0           LVTTL    ---                ---   None           No               ---   ---               No           Yes
+MAC_TXD[0]          AA5   Yes    MAC_TXD[0]/IO65RSB4V0         LVTTL    8                  High  None           ---              No    35                No           Yes
+MAC_TXD[1]          W5    Yes    MAC_TXD[1]/IO64RSB4V0         LVTTL    8                  High  None           ---              No    35                No           Yes
+MAC_TXEN            Y4    Yes    MAC_TXEN/IO61RSB4V0           LVTTL    8                  High  None           ---              No    35                No           Yes
+MAINXIN             AA16  Fixed  MAINXIN
+MSS_RESET_N         R1    Yes    MSS_RESET_N                   LVTTL    ---                ---   None           No               ---   ---               No           Yes
+psram_address[0]    A8    Yes    EMC_AB[0]/IO06NDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[1]    A9    Yes    EMC_AB[1]/IO06PDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[2]    B10   Yes    EMC_AB[2]/IO09NDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[3]    B11   Yes    EMC_AB[3]/IO09PDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[4]    E11   Yes    EMC_AB[4]/IO10NDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[5]    E12   Yes    EMC_AB[5]/IO10PDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[6]    B12   Yes    EMC_AB[6]/IO12NDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[7]    A12   Yes    EMC_AB[7]/IO12PDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[8]    C13   Yes    EMC_AB[8]/IO13NDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[9]    D13   Yes    EMC_AB[9]/IO13PDB0V0          LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[10]   D11   Yes    EMC_AB[10]/IO11NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[11]   D12   Yes    EMC_AB[11]/IO11PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[12]   A14   Yes    EMC_AB[12]/IO14NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[13]   A15   Yes    EMC_AB[13]/IO14PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[14]   B13   Yes    EMC_AB[14]/IO15NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[15]   B14   Yes    EMC_AB[15]/IO15PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[16]   C14   Yes    EMC_AB[16]/IO17NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[17]   C15   Yes    EMC_AB[17]/IO17PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[18]   B16   Yes    EMC_AB[18]/IO18NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[19]   B17   Yes    EMC_AB[19]/IO18PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[20]   F13   Yes    EMC_AB[20]/IO21NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[21]   F14   Yes    EMC_AB[21]/IO21PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[22]   C17   Yes    EMC_AB[22]/IO19NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[23]   C18   Yes    EMC_AB[23]/IO19PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_address[24]   C16   Yes    EMC_AB[24]/IO20NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_data[0]       K2    Yes    EMC_DB[0]/GEA2/IO76NDB5V0     LVTTL    12                 High  None           No               No    35                No           No
+psram_data[1]       K3    Yes    EMC_DB[1]/GEB2/IO76PDB5V0     LVTTL    12                 High  None           No               No    35                No           No
+psram_data[2]       K5    Yes    EMC_DB[2]/IO77NPB5V0          LVTTL    12                 High  None           No               No    35                No           No
+psram_data[3]       J4    Yes    EMC_DB[3]/GEC2/IO77PPB5V0     LVTTL    12                 High  None           No               No    35                No           No
+psram_data[4]       J3    Yes    EMC_DB[4]/GEA0/IO78NDB5V0     LVTTL    12                 High  None           No               No    35                No           No
+psram_data[5]       J2    Yes    EMC_DB[5]/GEA1/IO78PDB5V0     LVTTL    12                 High  None           No               No    35                No           No
+psram_data[6]       J1    Yes    EMC_DB[6]/GEB0/IO79NDB5V0     LVTTL    12                 High  None           No               No    35                No           No
+psram_data[7]       H1    Yes    EMC_DB[7]/GEB1/IO79PDB5V0     LVTTL    12                 High  None           No               No    35                No           No
+psram_data[8]       H3    Yes    EMC_DB[8]/GEC0/IO80NDB5V0     LVTTL    12                 High  None           No               No    35                No           No
+psram_data[9]       G3    Yes    EMC_DB[9]/GEC1/IO80PDB5V0     LVTTL    12                 High  None           No               No    35                No           No
+psram_data[10]      F4    Yes    EMC_DB[10]/IO86NPB5V0         LVTTL    12                 High  None           No               No    35                No           No
+psram_data[11]      G5    Yes    EMC_DB[11]/IO86PPB5V0         LVTTL    12                 High  None           No               No    35                No           No
+psram_data[12]      D2    Yes    EMC_DB[12]/IO87NDB5V0         LVTTL    12                 High  None           No               No    35                No           No
+psram_data[13]      D3    Yes    EMC_DB[13]/GAC2/IO87PDB5V0    LVTTL    12                 High  None           No               No    35                No           No
+psram_data[14]      C1    Yes    EMC_DB[14]/GAB2/IO88NDB5V0    LVTTL    12                 High  None           No               No    35                No           No
+psram_data[15]      B1    Yes    EMC_DB[15]/GAA2/IO88PDB5V0    LVTTL    12                 High  None           No               No    35                No           No
+psram_nbyte_en[0]   B9    Yes    EMC_BYTEN[0]/GAC0/IO07NDB0V0  LVTTL    12                 High  None           ---              No    35                No           No
+psram_nbyte_en[1]   C9    Yes    EMC_BYTEN[1]/GAC1/IO07PDB0V0  LVTTL    12                 High  None           ---              No    35                No           No
+psram_ncs0          A5    Yes    EMC_CS0_N/GAB0/IO05NDB0V0     LVTTL    12                 High  None           ---              No    35                No           No
+psram_ncs1          A6    Yes    EMC_CS1_N/GAB1/IO05PDB0V0     LVTTL    12                 High  None           ---              No    35                No           No
+psram_noe0          D10   Yes    EMC_OEN0_N/IO08NDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_noe1          C10   Yes    EMC_OEN1_N/IO08PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
+psram_nwe           B6    Yes    EMC_RW_N/GAA1/IO02PDB0V0      LVTTL    12                 High  None           ---              No    35                No           No
+pulse_out           M1    Yes    IO71PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+px0_adc_din         K6    Yes    IO75PDB5V0                    LVTTL    ---                ---   None           No               ---   ---               No           No
+resp                L2    Yes    IO73NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+resv                J17   Yes    IO37PDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+SCLK                L6    Yes    IO75NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_ADCCONVCOMPLETE  B19   Yes    GBB0/IO24NDB0V0               LVTTL    12                 High  None           ---              No    35                No           No
+TP_ADCSTARTCAP      D7    Yes    IO00NPB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_BUSY             D15   Yes    GBC1/IO22PPB0V0               LVTTL    12                 High  None           ---              No    35                No           No
+TP_EMPTY            C4    Yes    IO01NDB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_FULL             E14   Yes    GBC0/IO22NPB0V0               LVTTL    12                 High  None           ---              No    35                No           No
+TP_PADDR_BIT2       D8    Yes    IO03NPB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_PENABLE          C7    Yes    IO03PPB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_PREADY           A17   Yes    IO16NDB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_PSEL             B7    Yes    IO04PPB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_PWRITE           C8    Yes    IO04NPB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_RDEN             A18   Yes    IO16PDB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_START_CAPTURE    E8    Yes    IO00PPB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_WREN             C5    Yes    IO01PDB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
+TP_WRITEPENDING     C19   Yes    GBA0/IO23NPB0V0               LVTTL    12                 High  None           ---              No    35                No           No
+UART_0_RXD          U18   Yes    UART_0_RXD/GPIO_21            LVTTL    ---                ---   None           No               ---   ---               No           Yes
+UART_0_TXD          Y22   Yes    UART_0_TXD/GPIO_20            LVTTL    8                  High  None           ---              No    35                No           Yes
