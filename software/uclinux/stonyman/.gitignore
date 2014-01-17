@@ -2,3 +2,7 @@ stonyman
 .tmp_versions
 Module.symvers
 modules.order
+stonyman.ko
+stonyman.mod.*
+stonyman.o
+.stonyman.*
