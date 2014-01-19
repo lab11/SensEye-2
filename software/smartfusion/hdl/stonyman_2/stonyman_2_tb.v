@@ -3,7 +3,8 @@
 //
 // File: stonyman_2_tb.v
 //
-// Description: 
+// Description:
+//  TESTBENCH
 //      Controller for the CentEye Stonyman imager.
 //
 // Targeted device: <Family::SmartFusion> <Die::A2F500M3G> <Package::484 FBGA>
@@ -40,7 +41,6 @@ module stonyman_tb();
 
     integer adc_count;
 
-    // Implicit connections
     stonyman uut (
         .clk                    (clk),
         .reset                  (reset),
@@ -62,7 +62,7 @@ module stonyman_tb();
         .inphi                  (inphi),
         .pixel_row              (pixel_row),
         .pixel_col              (pixel_col)
-        );
+    );
 
     initial begin
         // creates data file for gtkwave

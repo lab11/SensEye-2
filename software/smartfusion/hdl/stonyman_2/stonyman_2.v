@@ -416,6 +416,9 @@ module stonyman (
                         end
                     end
                     `WAIT_ADC: begin
+                        // Wait until the ADC has captured the data
+                        //  If the FIFO is full, the ADC will stall and so
+                        //      will we
                         adc_capture_start = 0;
                         if (adc_capture_done) begin
                             // Completed ADC capture, go to next pixel
