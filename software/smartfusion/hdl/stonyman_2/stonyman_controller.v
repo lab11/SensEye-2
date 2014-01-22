@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 // Company: University of Michigan
 //
-// File: stonyman_2.v
+// File: stonyman_controller.v
 //
 // Description: 
 //      Controller for the CentEye Stonyman imager.
@@ -78,7 +78,7 @@ module stonyman (
     input wire [5:0] aobias_value,
 
     // Frame mask input
-    input wire capture_pixel,
+    input wire mask_capture_pixel,
 
     // Status signals
     output reg frame_capture_done,
@@ -92,8 +92,8 @@ module stonyman (
     output reg inphi,
 
     // Frame mask address
-    output reg [6:0] pixel_row,
-    output reg [6:0] pixel_col
+    output reg [6:0] mask_pixel_row,
+    output reg [6:0] mask_pixel_col
     );
 
     // State registers
@@ -109,8 +109,8 @@ module stonyman (
     reg [`TIMER_BITS-1:0] timer_nxt;
 
     // Frame mask signals
-    reg [6:0] pixel_row_nxt;
-    reg [6:0] pixel_col_nxt;
+    reg [6:0] mask_pixel_row_nxt;
+    reg [6:0] mask_pixel_col_nxt;
 
     // Stonyman model
     reg [2:0] ptr_value;
@@ -278,18 +278,18 @@ module stonyman (
     begin
         if (reg_value_nxt[`COLSEL_PTR] < (`COL_RESOLUTION-1)) begin
             // Continue iterating across the row
-            pixel_col_nxt = pixel_col+1;
+            mask_pixel_col_nxt = mask_pixel_col+1;
             sub_state_nxt = `SET_COL_VAL;
         end else begin
             if (reg_value_nxt[`ROWSEL_PTR] < (`ROW_RESOLUTION-1)) begin
                 // Move to next row
-                pixel_col_nxt = 0;
-                pixel_row_nxt = pixel_row+1;
+                mask_pixel_col_nxt = 0;
+                mask_pixel_row_nxt = mask_pixel_row+1;
                 sub_state_nxt = `SET_ROW_PTR;
             end else begin
                 // Finished!
-                pixel_col_nxt = 0;
-                pixel_row_nxt = 0;
+                mask_pixel_col_nxt = 0;
+                mask_pixel_row_nxt = 0;
                 main_state_nxt = `IDLE;
                 frame_capture_done = 1;
             end
@@ -304,8 +304,8 @@ module stonyman (
 
         timer_nxt = timer;
 
-        pixel_row_nxt = pixel_row;
-        pixel_col_nxt = pixel_col;
+        mask_pixel_row_nxt = mask_pixel_row;
+        mask_pixel_col_nxt = mask_pixel_col;
 
         ptr_value_nxt = ptr_value;
         reg_value_nxt[0] = reg_value[0];
@@ -389,8 +389,8 @@ module stonyman (
             end
             `IDLE: begin
                 if (frame_capture_start) begin
-                    pixel_col_nxt = 0;
-                    pixel_row_nxt = 0;
+                    mask_pixel_col_nxt = 0;
+                    mask_pixel_row_nxt = 0;
                     main_state_nxt = `CAPTURE;
                 end else begin
                     frame_capture_done = 0;
@@ -400,12 +400,12 @@ module stonyman (
             `CAPTURE: begin
                 case (sub_state)
                     `SET_ROW_PTR: SET_PTR(`ROWSEL_PTR, `SET_ROW_PTR, `SET_ROW_VAL, sub_state_nxt);
-                    `SET_ROW_VAL: SET_VAL(pixel_row, `SET_ROW_VAL, `SET_COL_PTR, sub_state_nxt);
+                    `SET_ROW_VAL: SET_VAL(mask_pixel_row, `SET_ROW_VAL, `SET_COL_PTR, sub_state_nxt);
                     `SET_COL_PTR: SET_PTR(`COLSEL_PTR, `SET_COL_PTR, `SET_COL_VAL, sub_state_nxt);
                     `SET_COL_VAL: begin
-                        SET_VAL(pixel_col, `SET_COL_VAL, `WAIT_ADC, sub_state_nxt);
+                        SET_VAL(mask_pixel_col, `SET_COL_VAL, `WAIT_ADC, sub_state_nxt);
                         if (sub_state_nxt == `WAIT_ADC) begin
-                            if (capture_pixel) begin
+                            if (mask_capture_pixel) begin
                                 // Signal ADC to being capture
                                 adc_capture_start = 1;
                             end else begin
@@ -453,8 +453,8 @@ module stonyman (
 
             timer <= 0;
 
-            pixel_row <= 0;
-            pixel_col <= 0;
+            mask_pixel_row <= 0;
+            mask_pixel_col <= 0;
 
             ptr_value <= 0;
             reg_value[0] <= 0;
@@ -473,8 +473,8 @@ module stonyman (
             
             timer <= timer_nxt;
 
-            pixel_row <= pixel_row_nxt;
-            pixel_col <= pixel_col_nxt;
+            mask_pixel_row <= mask_pixel_row_nxt;
+            mask_pixel_col <= mask_pixel_col_nxt;
 
             ptr_value <= ptr_value_nxt;
             reg_value[0] <= reg_value_nxt[0];

@@ -20,8 +20,8 @@ module adc_controller_tb ();
     reg sdata;
 
     wire adc_capture_done;
-    wire write_enable;
-    wire [7:0] pixel_data;
+    wire fifo_write_enable;
+    wire [7:0] fifo_write_data;
     wire sclk;
     wire cs_n;
 
@@ -32,8 +32,8 @@ module adc_controller_tb ();
         .fifo_full          (fifo_full),
         .sdata              (sdata),
         .adc_capture_done   (adc_capture_done),
-        .write_enable       (write_enable),
-        .pixel_data         (pixel_data),
+        .fifo_write_enable  (fifo_write_enable),
+        .fifo_write_data    (fifo_write_data),
         .sclk               (sclk),
         .cs_n               (cs_n)
     );
@@ -59,7 +59,7 @@ module adc_controller_tb ();
 
     always @(posedge clk) begin
         $display ("\t%4d\t%b\t%b\t%b\t%b\t%b\t%d\t%d",
-            $time, reset, sclk, cs_n, adc_capture_done, write_enable, pixel_data, uut.adc_state);
+            $time, reset, sclk, cs_n, adc_capture_done, fifo_write_enable, fifo_write_data, uut.adc_state);
     end
 
     initial begin
@@ -79,10 +79,10 @@ module adc_controller_tb ();
         #10; 
         adc_capture_start = 0;
 
-        @(posedge write_enable);
+        @(posedge fifo_write_enable);
         sdata = 0;
 
-        @(posedge write_enable);
+        @(posedge fifo_write_enable);
         #10;
         $finish;
     end

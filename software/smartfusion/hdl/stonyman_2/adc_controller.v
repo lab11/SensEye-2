@@ -7,7 +7,7 @@
 //  Controller for the TI ADCXX1S101 reading stonyman pixel data
 //
 // Targeted device: <Family::SmartFusion> <Die::A2F500M3G> <Package::484 FBGA>
-// Author: Branen Ghena
+// Author: Branden Ghena
 //
 /////////////////////////////////////////////////////////////////////////////////////////////////// 
 
@@ -40,8 +40,8 @@ module adc_controller (
 
     // Status signal
     output reg adc_capture_done,
-    output reg write_enable,
-    output reg [7:0] pixel_data,
+    output reg fifo_write_enable,
+    output reg [7:0] fifo_write_data,
 
     // ADC Control
     output reg sclk,
@@ -61,12 +61,12 @@ module adc_controller (
     reg [11:0] adc_data;
     reg [11:0] adc_data_nxt;
 
-    reg write_enable_nxt;
+    reg fifo_write_enable_nxt;
 
     task FIFO;
     begin
         if (~fifo_full) begin
-            write_enable_nxt = 1;
+            fifo_write_enable_nxt = 1;
 
             if (capture_requested) begin
                 // Skip the idle state if there is a new request already
@@ -83,25 +83,18 @@ module adc_controller (
     end
     endtask
 
-    // TRACK Time, 350 ns
-    //  want to perform sample with CS high and SCLK off
-    // HOLD Time, ?16 SCLK cycles?
-    //  grab all the data here, then send CS high and SCLK off
-    //  signal capture_done at the start of hold (allows pixel iteration to
-    //      overlab with sampling time)
-
     always @(*) begin
         adc_state_nxt = adc_state;
 
         adc_capture_done = 0;
-        pixel_data = adc_data[7:0];
+        fifo_write_data = adc_data[7:0];
         cs_n = 1;
         sclk = 1;
 
         capture_requested_nxt = capture_requested;
         adc_data_nxt = adc_data;
         adc_clk_nxt = ~adc_clk;
-        write_enable_nxt = 0;
+        fifo_write_enable_nxt = 0;
 
         if (adc_capture_start) begin
             capture_requested_nxt = 1;
@@ -182,7 +175,7 @@ module adc_controller (
             capture_requested <= 0;
             adc_data <= 12'b0;
 
-            write_enable <= 0;
+            fifo_write_enable <= 0;
 
         end else begin
             adc_state <= adc_state_nxt;
@@ -193,7 +186,7 @@ module adc_controller (
             timer <= timer_nxt;
             adc_data <= adc_data_nxt;
 
-            write_enable <= write_enable_nxt;
+            fifo_write_enable <= fifo_write_enable_nxt;
         end
     end
 

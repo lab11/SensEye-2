@@ -17,22 +17,24 @@ module framemask (
     input wire clk,
     input wire reset,
 
+    input wire write_enable,
+    input wire [9:0] addr,
+    input wire [15:0] data,
+
     input wire [6:0] pixel_row,
     input wire [6:0] pixel_col,
-
-    input wire mask_write,
-    input wire [31:0] mask_data,
-    input wire [1:0]  mask_col,
-    input wire [6:0]  mask_row,
-        //in mask_data from RAM
-
-    //output reg capture_pixel,
-        //out mask_addr to RAM
-    
-        output reg [6:0] next_row,
-        output reg [6:0] next_col,
-        output reg pixel_valid
+    output reg capture_pixel
     );
+
+    always @(posedge clk) begin
+        if (reset) begin  
+            capture_pixel <= 0;
+        end else begin
+            capture_pixel <= 1;
+        end
+    end
+
+    /*
 
     // NOTE: there are two ways to create this module
     // the desired way is to keep an array of 112x112 bits internally
@@ -88,5 +90,6 @@ module framemask (
             mask <= mask_nxt;
         end
     end
+    */
 endmodule
 

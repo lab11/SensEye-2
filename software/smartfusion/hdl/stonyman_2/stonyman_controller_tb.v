@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 // Company: University of Michigan
 //
-// File: stonyman_2_tb.v
+// File: stonyman_conroller_tb.v
 //
 // Description:
 //  TESTBENCH
@@ -25,7 +25,7 @@ module stonyman_tb();
     reg [5:0] nbias_value;
     reg [5:0] aobias_value;
 
-    reg capture_pixel;
+    reg mask_capture_pixel;
     
     wire frame_capture_done;
     wire adc_capture_start;
@@ -36,8 +36,8 @@ module stonyman_tb();
     wire incv;
     wire inphi;
     
-    wire [6:0] pixel_row;
-    wire [6:0] pixel_col;
+    wire [6:0] mask_pixel_row;
+    wire [6:0] mask_pixel_col;
 
     integer adc_count;
 
@@ -52,7 +52,7 @@ module stonyman_tb();
         .config_value           (config_value),
         .nbias_value            (nbias_value),
         .aobias_value           (aobias_value),
-        .capture_pixel          (capture_pixel),
+        .mask_capture_pixel     (mask_capture_pixel),
         .frame_capture_done     (frame_capture_done),
         .adc_capture_start      (adc_capture_start),
         .resp                   (resp),
@@ -60,8 +60,8 @@ module stonyman_tb();
         .resv                   (resv),
         .incv                   (incv),
         .inphi                  (inphi),
-        .pixel_row              (pixel_row),
-        .pixel_col              (pixel_col)
+        .mask_pixel_row              (mask_pixel_row),
+        .mask_pixel_col              (mask_pixel_col)
     );
 
     initial begin
@@ -78,7 +78,7 @@ module stonyman_tb();
         frame_capture_start = 0;
         adc_capture_done = 0;
 
-        capture_pixel = 1;
+        mask_capture_pixel = 1;
 
         vsw_value = 1;
         hsw_value = 2;
