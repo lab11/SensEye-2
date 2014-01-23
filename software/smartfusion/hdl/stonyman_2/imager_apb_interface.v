@@ -106,7 +106,7 @@ module imager_apb_interface (
     input wire [31:0] PADDR,
     input wire [31:0] PWDATA,
     
-    output wire       PREADY,
+    output reg        PREADY,
     output reg [31:0] PRDATA,
     output reg        PSLVERR,
 
@@ -174,7 +174,8 @@ module imager_apb_interface (
     wire bus_write;
     wire bus_read;
     assign bus_write = (PENABLE && PWRITE && PSEL); // read data now
-    assign bus_read  = (~PWRITE && PSEL); // have data ready for next cycle
+    // have data ready for next cycle, unless you're already responding
+    assign bus_read  = (~PWRITE && PSEL && !(PENABLE && PREADY));
 
     wire cam0_request_data;
     wire cam1_request_data;
@@ -185,18 +186,11 @@ module imager_apb_interface (
                                 (bus_read && (PADDR[7:0] == `CAM1_PXDATA) &&
                                 (cam1_have_data || cam1_fifo_data_valid)));
 
-    wire waiting_on_fifo;
-    assign waiting_on_fifo = (bus_read &&
-            (((PADDR[7:0] == `CAM0_PXDATA) && !(cam0_have_data || cam0_fifo_data_valid)) ||
-             ((PADDR[7:0] == `CAM1_PXDATA) && !(cam1_have_data || cam1_fifo_data_valid))));
-    
-    // Ready unless waiting for pixel data from the FIFOs
-    assign PREADY = (PENABLE && !waiting_on_fifo);
-
     always @(posedge clk) begin
         if (reset) begin
             PSLVERR <= 0;
             PRDATA <= 32'b0;
+            PREADY <= 0;
             
             cam0_frame_capture_start <= 0;
             cam1_frame_capture_start <= 0;
@@ -238,6 +232,7 @@ module imager_apb_interface (
         end else begin
             PSLVERR <= 0; // No errors
             PRDATA <= 32'b0;
+            PREADY <= 1;
             
             cam0_frame_capture_start <= 0;
             cam1_frame_capture_start <= 0;
@@ -278,7 +273,7 @@ module imager_apb_interface (
                 cam0_busy <= 0;
             end
             if (cam1_frame_capture_done) begin
-                cam1_busy <= 1;
+                cam1_busy <= 0;
             end
 
             // Read data from the FIFO
@@ -376,6 +371,9 @@ module imager_apb_interface (
                             PRDATA <= cam0_fifo_read_data;
                             cam0_have_data <= 0;
                             cam0_requested_data <= 0;
+                        end else begin
+                            // Not ready yet...
+                            PREADY <= 0;
                         end
                     end
                     `CAM1_STATUS: begin
@@ -393,6 +391,9 @@ module imager_apb_interface (
                             PRDATA <= cam1_fifo_read_data;
                             cam1_have_data <= 0;
                             cam1_requested_data <= 0;
+                        end else begin
+                            // Not ready yet...
+                            PREADY <= 0;
                         end
                     end
                     default : begin
@@ -403,11 +404,11 @@ module imager_apb_interface (
         end
 
         // Request more data from FIFO
-        if (cam0_request_data && !cam0_fifo_empty) begin
+        if (!reset && cam0_request_data && !cam0_fifo_empty) begin
             cam0_fifo_read_enable <= 1;
             cam0_requested_data <= 1;
         end
-        if (cam1_request_data && !cam1_fifo_empty) begin
+        if (!reset && cam1_request_data && !cam1_fifo_empty) begin
             cam1_fifo_read_enable <= 1;
             cam1_requested_data <= 1;
         end

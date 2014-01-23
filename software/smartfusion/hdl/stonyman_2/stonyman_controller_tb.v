@@ -60,8 +60,8 @@ module stonyman_tb();
         .resv                   (resv),
         .incv                   (incv),
         .inphi                  (inphi),
-        .mask_pixel_row              (mask_pixel_row),
-        .mask_pixel_col              (mask_pixel_col)
+        .mask_pixel_row         (mask_pixel_row),
+        .mask_pixel_col         (mask_pixel_col)
     );
 
     initial begin
