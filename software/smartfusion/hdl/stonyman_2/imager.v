@@ -40,7 +40,14 @@ module imager (
 
     // Interrupts
     output wire cam0_fifo_afull,
-    output wire cam0_frame_capture_done
+    output wire cam0_frame_capture_done,
+
+    // Test points
+    //output wire cam0_adc_capture_start,
+    //output wire cam0_adc_capture_done,
+    output wire cam0_fifo_empty,
+    output wire cam0_fifo_full,
+    output wire cam0_fifo_overflow
     );
 
     // Control signals
@@ -51,10 +58,10 @@ module imager (
     //wire cam0_frame_capture_done;
     
     // FIFO control
-    wire cam0_fifo_empty;
+    //wire cam0_fifo_empty;
     //wire cam0_fifo_afull;
-    wire cam0_fifo_full;
-    wire cam0_fifo_overflow;
+    //wire cam0_fifo_full;
+    //wire cam0_fifo_overflow;
     wire cam0_fifo_write_enable;
     wire [7:0] cam0_fifo_write_data;
     wire [31:0] cam0_fifo_read_data;

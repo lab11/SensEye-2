@@ -234,7 +234,9 @@ module imager_apb_interface (
             PRDATA <= 32'b0;
             PREADY <= 1;
             
-            cam0_frame_capture_start <= 0;
+            //XXX: Hack to allow original image grabbing method. FIX
+            cam0_frame_capture_start <= cam0_frame_capture_start;
+            //cam0_frame_capture_start <= 0;
             cam1_frame_capture_start <= 0;
             cam0_reset <= 0;
             cam1_reset <= 0;
