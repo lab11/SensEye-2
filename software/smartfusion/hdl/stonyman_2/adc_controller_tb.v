@@ -83,7 +83,7 @@ module adc_controller_tb ();
         sdata = 0;
 
         @(posedge fifo_write_enable);
-        #10;
+        #100;
         $finish;
     end
 endmodule

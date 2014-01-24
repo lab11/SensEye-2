@@ -80,12 +80,12 @@ module stonyman_tb();
 
         mask_capture_pixel = 1;
 
-        vsw_value = 1;
-        hsw_value = 2;
-        vref_value = 3;
-        config_value = 4;
-        nbias_value = 5;
-        aobias_value = 6;
+        vsw_value = 0;
+        hsw_value = 0;
+        vref_value = 41;
+        config_value = 17;
+        nbias_value = 50;
+        aobias_value = 50;
     end
 
     always begin
@@ -122,9 +122,10 @@ module stonyman_tb();
         #50;
         reset = 0;
 
-        #1000;
+        #4000;
         SHOW_MODEL();
 
+        $finish;
         frame_capture_start = 1;
         #10;
         frame_capture_start = 0;

@@ -118,15 +118,24 @@ module stonyman (
     reg [7:0] reg_value [7:0];
     reg [7:0] reg_value_nxt [7:0];
 
+    // Register thine outputs
+    reg frame_capture_done_nxt;
+    reg adc_capture_start_nxt;
+    reg resp_nxt;
+    reg incp_nxt;
+    reg resv_nxt;
+    reg incv_nxt;
+    reg inphi_nxt;
+    
     // Signal Error task
     task SIGNAL_ERROR;
     begin
         // Set output signals so that the error can be probed and narowed down
-        resp  = main_state[0];
-        incp  = main_state[1];
-        resv  = main_state[2];
-        incv  = sub_state[0];
-        inphi = sub_state[1];
+        resp_nxt  = main_state[0];
+        incp_nxt  = main_state[1];
+        resv_nxt  = main_state[2];
+        incv_nxt  = sub_state[0];
+        inphi_nxt = sub_state[1];
     end
     endtask
 
@@ -173,7 +182,7 @@ module stonyman (
         input  [`STATE_BITS-1:0] new_state;
         output [`STATE_BITS-1:0] state_nxt;
     begin
-        PULSE_PIN(cur_state, new_state, state_nxt, resp);
+        PULSE_PIN(cur_state, new_state, state_nxt, resp_nxt);
         if (state_nxt != cur_state) begin
             ptr_value_nxt = 0;
         end
@@ -186,7 +195,7 @@ module stonyman (
         input  [`STATE_BITS-1:0] new_state;
         output [`STATE_BITS-1:0] state_nxt;
     begin
-        PULSE_PIN(cur_state, new_state, state_nxt, resv);
+        PULSE_PIN(cur_state, new_state, state_nxt, resv_nxt);
         if (state_nxt != cur_state) begin
             reg_value_nxt[ptr_value] = 0;
         end
@@ -199,7 +208,7 @@ module stonyman (
         input  [`STATE_BITS-1:0] new_state;
         output [`STATE_BITS-1:0] state_nxt;
     begin
-        PULSE_PIN(cur_state, new_state, state_nxt, incp);
+        PULSE_PIN(cur_state, new_state, state_nxt, incp_nxt);
         if (state_nxt != cur_state) begin
             ptr_value_nxt = ptr_value+1;
         end
@@ -212,7 +221,7 @@ module stonyman (
         input  [`STATE_BITS-1:0] new_state;
         output [`STATE_BITS-1:0] state_nxt;
     begin
-        PULSE_PIN(cur_state, new_state, state_nxt, incv);
+        PULSE_PIN(cur_state, new_state, state_nxt, incv_nxt);
         if (state_nxt != cur_state) begin
             reg_value_nxt[ptr_value] = reg_value[ptr_value]+1;
         end
@@ -291,7 +300,7 @@ module stonyman (
                 mask_pixel_col_nxt = 0;
                 mask_pixel_row_nxt = 0;
                 main_state_nxt = `IDLE;
-                frame_capture_done = 1;
+                frame_capture_done_nxt = 1;
             end
         end
     end
@@ -317,13 +326,13 @@ module stonyman (
         reg_value_nxt[6] = reg_value[6];
         reg_value_nxt[7] = reg_value[7];
 
-        resp  = 0;
-        incp  = 0;
-        resv  = 0;
-        incv  = 0;
-        inphi = 0;
-        frame_capture_done = 0;
-        adc_capture_start  = 0;
+        frame_capture_done_nxt = 0;
+        adc_capture_start_nxt  = 0;
+        resp_nxt  = 0;
+        incp_nxt  = 0;
+        resv_nxt  = 0;
+        incv_nxt  = 0;
+        inphi_nxt = 0;
     
         case (main_state)
             `INIT_RESET: begin
@@ -393,7 +402,7 @@ module stonyman (
                     mask_pixel_row_nxt = 0;
                     main_state_nxt = `CAPTURE;
                 end else begin
-                    frame_capture_done = 0;
+                    frame_capture_done_nxt = 0;
                     main_state_nxt = `IDLE;
                 end
             end
@@ -407,7 +416,7 @@ module stonyman (
                         if (sub_state_nxt == `WAIT_ADC) begin
                             if (mask_capture_pixel) begin
                                 // Signal ADC to being capture
-                                adc_capture_start = 1;
+                                adc_capture_start_nxt = 1;
                             end else begin
                                 // This pixel doesn't need to be captured,
                                 //  move on
@@ -419,7 +428,7 @@ module stonyman (
                         // Wait until the ADC has captured the data
                         //  If the FIFO is full, the ADC will stall and so
                         //      will we
-                        adc_capture_start = 0;
+                        adc_capture_start_nxt = 0;
                         if (adc_capture_done) begin
                             // Completed ADC capture, go to next pixel
                             NEXT_PIXEL();
@@ -452,6 +461,14 @@ module stonyman (
             pulse_pin_state <= `START;
 
             timer <= 0;
+        
+            frame_capture_done <= 0;
+            adc_capture_start  <= 0;
+            resp  <= 0;
+            incp  <= 0;
+            resv  <= 0;
+            incv  <= 0;
+            inphi <= 0;
 
             mask_pixel_row <= 0;
             mask_pixel_col <= 0;
@@ -473,6 +490,14 @@ module stonyman (
             
             timer <= timer_nxt;
 
+            frame_capture_done <= frame_capture_done_nxt;
+            adc_capture_start  <= adc_capture_start_nxt;
+            resp  <= resp_nxt;
+            incp  <= incp_nxt;
+            resv  <= resv_nxt;
+            incv  <= incv_nxt;
+            inphi <= inphi_nxt;
+            
             mask_pixel_row <= mask_pixel_row_nxt;
             mask_pixel_col <= mask_pixel_col_nxt;
 
