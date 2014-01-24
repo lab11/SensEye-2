@@ -124,6 +124,21 @@ module imager (
         );
 
     // FIFO
+    //TODO: Play with depth and almost full threshold
+    //TODO: Attempt to add fifo internally...
+    fifo_pixel_data fifo_pixel_data_0(
+        .clk                    (clk),
+        .reset                  (reset | cam0_reset),
+        .cam0_fifo_write_data   (cam0_fifo_write_data),
+        .cam0_fifo_write_enable (cam0_fifo_write_enable),
+        .cam0_fifo_read_enable  (cam0_fifo_read_enable),
+        .cam0_fifo_read_data    (cam0_fifo_read_data),
+        .cam0_fifo_data_valid   (cam0_fifo_data_valid),
+        .cam0_fifo_empty        (cam0_fifo_empty),
+        .cam0_fifo_afull        (cam0_fifo_afull),
+        .cam0_fifo_full         (cam0_fifo_full),
+        .cam0_fifo_overflow     (cam0_fifo_overflow) 
+        );
 
     // Bus Interface
     imager_apb_interface img_apb0 (
