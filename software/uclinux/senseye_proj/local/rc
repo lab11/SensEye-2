@@ -8,6 +8,6 @@ ifconfig lo 127.0.0.1
 # ifconfig eth0 172.17.0.199
 
 # Auto-start the SensEye Server
-/load-stonyman.sh
-/senseye-serv
+/load_stonyman.sh
+/senseye_serv
 

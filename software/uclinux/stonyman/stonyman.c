@@ -487,8 +487,8 @@ static ssize_t stonyman_read(struct file *filp, char __user *buff, size_t count,
    tmp_irq_flags=0;
    spin_lock_irqsave(stonyman_spinlock[0], tmp_irq_flags);
 
-printk(KERN_INFO "\n\tstonyman_read: head_idx=%d\ttail_idx=%d\thead_bufpos=%d\ttail_bufpos=%d\t\tlocking=%d\n", g_img_buf_head_idx[0], g_img_buf_tail_idx[0], g_img_buf_head_bufpos[0], g_img_buf_tail_bufpos[0], g_locking);
-printk(KERN_INFO "\n\tstonyman_read: CTRL=0x%X\tFLAG=0x%X\tCAM0_STATUS=0x%X\tCAM0_PXDATA=0x%X\n", REG_CTRL, REG_FLAGS, REG_CAMX_STATUS(0), REG_CAMX_PXDATA(0));
+//printk(KERN_INFO "\n\tstonyman_read: head_idx=%d\ttail_idx=%d\thead_bufpos=%d\ttail_bufpos=%d\t\tlocking=%d\n", g_img_buf_head_idx[0], g_img_buf_tail_idx[0], g_img_buf_head_bufpos[0], g_img_buf_tail_bufpos[0], g_locking);
+//printk(KERN_INFO "\n\tstonyman_read: CTRL=0x%X\tFLAG=0x%X\tCAM0_STATUS=0x%X\n", REG_CTRL, REG_FLAGS, REG_CAMX_STATUS(0));
 
    if(g_img_buf_head_idx[0] == g_img_buf_tail_idx[0])
    {
@@ -508,7 +508,10 @@ printk(KERN_INFO "\n\tstonyman_read: CTRL=0x%X\tFLAG=0x%X\tCAM0_STATUS=0x%X\tCAM
          {
             // no data yet
 // Need to unlock before we return
-spin_unlock_irqrestore(stonyman_spinlock[0], tmp_irq_flags);
+printk(KERN_INFO "\n\tstonyman_read: head_idx=%d\ttail_idx=%d\thead_bufpos=%d\ttail_bufpos=%d\t\tlocking=%d\n", g_img_buf_head_idx[0], g_img_buf_tail_idx[0], g_img_buf_head_bufpos[0], g_img_buf_tail_bufpos[0], g_locking);
+printk(KERN_INFO "\n\tstonyman_read: CTRL=0x%X\tFLAG=0x%X\tCAM0_STATUS=0x%X\n", REG_CTRL, REG_FLAGS, REG_CAMX_STATUS(0));
+
+            spin_unlock_irqrestore(stonyman_spinlock[0], tmp_irq_flags);
             return -EAGAIN;
          }
       }
