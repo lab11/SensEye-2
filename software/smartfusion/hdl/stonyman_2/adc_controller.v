@@ -75,7 +75,7 @@ module adc_controller (
             if (capture_requested) begin
                 // Skip the idle state if there is a new request already
                 adc_state_nxt = `TRACK;
-                timer_nxt = `TRACK_COUNTS-1;
+                timer_nxt = 0;
                 capture_requested_nxt = 0; // Reset request
             end else begin
                 adc_state_nxt = `IDLE;
@@ -95,6 +95,8 @@ module adc_controller (
         cs_n_nxt = 1;
         sclk_nxt = 1;
 
+        timer_nxt = timer;
+
         capture_requested_nxt = capture_requested;
         adc_data_nxt = adc_data;
         fifo_write_enable_nxt = 0;
@@ -107,7 +109,7 @@ module adc_controller (
             `IDLE: begin
                 if (adc_capture_start) begin
                     adc_state_nxt = `TRACK;
-                    timer_nxt = `TRACK_COUNTS-1;
+                    timer_nxt = 0;
                     capture_requested_nxt = 0; // Reset request
                 end else begin
                     adc_state_nxt = `IDLE;
@@ -116,10 +118,10 @@ module adc_controller (
             `TRACK: begin
                 // Track state allows us to sample the signal without
                 //  crosstalk from the SCLK line
-                timer_nxt = timer-1;
-                if (timer == 0) begin
+                timer_nxt = timer+1;
+                if (timer >= (`TRACK_COUNTS-1)) begin
                     adc_state_nxt = `ZEROS;
-                    timer_nxt = `ZEROS_COUNTS-1;
+                    timer_nxt = 0;
                     cs_n_nxt = 0;
                     sclk_nxt = 0; // Need to start the clock off with a
                                      //     falling edge
@@ -132,10 +134,10 @@ module adc_controller (
             `ZEROS: begin
                 cs_n_nxt = 0;
                 sclk_nxt = ~sclk;
-                timer_nxt = timer-1;
-                if (timer == 0) begin
+                timer_nxt = timer+1;
+                if (timer >= (`ZEROS_COUNTS-1)) begin
                     adc_state_nxt = `READ_BITS;
-                    timer_nxt = `READ_BITS_COUNTS-1;
+                    timer_nxt = 0;
                 end else begin
                     adc_state_nxt = `ZEROS;
                 end
@@ -145,16 +147,17 @@ module adc_controller (
                 sclk_nxt = ~sclk;
 
                 if (sclk == 1) begin
-                    timer_nxt = timer-1;
-                    adc_data_nxt[timer] = sdata;
+                    timer_nxt = timer+1;
+                    adc_data_nxt[(11-timer)] = sdata;
                     
-                    if (timer == 0) begin
+                    if (timer >= (`READ_BITS_COUNTS-1)) begin
                         // Try to hand data off to FIFO
                         FIFO();
                     end else begin
                         adc_state_nxt = `READ_BITS;
                     end
                 end else begin
+                    timer_nxt = timer; // don't increment
                     adc_state_nxt = `READ_BITS;
                 end
             end
