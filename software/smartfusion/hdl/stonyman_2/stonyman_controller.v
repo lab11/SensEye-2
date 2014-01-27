@@ -55,8 +55,8 @@
 
 // Timing definitions
 //TODO: define me based on clock and nanoseconds...
-`define COUNTS_PIN_HIGH 0
-`define TIMER_BITS 6
+//`define COUNTS_PIN_HIGH 100
+`define TIMER_BITS 8
 
 
 module stonyman (
@@ -66,6 +66,9 @@ module stonyman (
     // Control signals
     input wire frame_capture_start,
     input wire adc_capture_done,
+
+    // Timing
+    input wire [7:0] pulse_counts,
 
     // Register settings
     //  settings are configured by the user through a kernel ioctl, but are
@@ -150,7 +153,8 @@ module stonyman (
             `START: begin
                 // Begin pulse
                 pin = 1;
-                timer_nxt = `COUNTS_PIN_HIGH;
+                //timer_nxt = `COUNTS_PIN_HIGH;
+                timer_nxt = pulse_counts;
                 pulse_pin_state_nxt = `WAIT;
                 state_nxt = cur_state;
             end

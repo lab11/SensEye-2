@@ -21,19 +21,22 @@
 
 // Timers
 // Note that these are running at 40 MHz, while the adc is running at 20 MHz
-`define TRACK_COUNTS (14)
+//`define TRACK_COUNTS (14)
 `define ZEROS_COUNTS (6)
 // Number of bits to be read, not number of cycles
 `define READ_BITS_COUNTS (12)
-`define TIMER_BITS 4
+`define TIMER_BITS 8
 
 module adc_controller (
     input wire clk,
     input wire reset,
 
-    // Control signal
+    // Control signals
     input wire adc_capture_start,
     input wire fifo_full,
+
+    // Timing signal
+    input wire [7:0] track_counts,
  
     // ADC Data
     input wire sdata,
@@ -45,16 +48,20 @@ module adc_controller (
 
     // ADC Control
     output reg sclk,
-    output reg cs_n
+    output reg cs_n,
+
+    // Test points
+    output reg capture_requested,
+    output reg [2:0] adc_state
     );
 
-    reg [`STATE_BITS-1:0] adc_state;
+    //reg [`STATE_BITS-1:0] adc_state;
     reg [`STATE_BITS-1:0] adc_state_nxt;
 
     reg [`TIMER_BITS-1:0] timer;
     reg [`TIMER_BITS-1:0] timer_nxt;
 
-    reg capture_requested;
+    //reg capture_requested;
     reg capture_requested_nxt;
     reg [11:0] adc_data;
     reg [11:0] adc_data_nxt;
@@ -72,7 +79,7 @@ module adc_controller (
             sclk_nxt = 1;
             cs_n_nxt = 1;
 
-            if (capture_requested) begin
+            if (capture_requested || adc_capture_start) begin
                 // Skip the idle state if there is a new request already
                 adc_state_nxt = `TRACK;
                 timer_nxt = 0;
@@ -107,7 +114,7 @@ module adc_controller (
 
         case (adc_state) 
             `IDLE: begin
-                if (adc_capture_start) begin
+                if (adc_capture_start || capture_requested) begin
                     adc_state_nxt = `TRACK;
                     timer_nxt = 0;
                     capture_requested_nxt = 0; // Reset request
@@ -119,7 +126,8 @@ module adc_controller (
                 // Track state allows us to sample the signal without
                 //  crosstalk from the SCLK line
                 timer_nxt = timer+1;
-                if (timer >= (`TRACK_COUNTS-1)) begin
+                //if (timer >= (`TRACK_COUNTS-1)) begin
+                if (timer >= (track_counts-1)) begin
                     adc_state_nxt = `ZEROS;
                     timer_nxt = 0;
                     cs_n_nxt = 0;

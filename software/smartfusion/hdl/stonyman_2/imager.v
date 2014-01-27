@@ -43,19 +43,25 @@ module imager (
     output wire cam0_frame_capture_done,
 
     // Test points
-    //output wire cam0_adc_capture_start,
-    //output wire cam0_adc_capture_done,
+    output wire cam0_adc_capture_start,
+    output wire cam0_adc_capture_done,
     output wire cam0_fifo_empty,
     output wire cam0_fifo_full,
-    output wire cam0_fifo_overflow
+    output wire cam0_fifo_overflow,
+    output wire capture_requested,
+    output wire [2:0] adc_state
     );
 
     // Control signals
     wire cam0_reset;
-    wire cam0_adc_capture_start;
-    wire cam0_adc_capture_done;
+    //wire cam0_adc_capture_start;
+    //wire cam0_adc_capture_done;
     wire cam0_frame_capture_start;
     //wire cam0_frame_capture_done;
+
+    // Timing signals
+    wire [7:0] pulse_counts;
+    wire [7:0] track_counts;
     
     // FIFO control
     //wire cam0_fifo_empty;
@@ -88,6 +94,7 @@ module imager (
     adc_controller adc0 (
         .clk                (clk),
         .reset              (reset | cam0_reset),
+        .track_counts       (track_counts),
         .adc_capture_start  (cam0_adc_capture_start),
         .fifo_full          (cam0_fifo_full),
         .sdata              (cam0_sdata),
@@ -95,13 +102,16 @@ module imager (
         .fifo_write_enable  (cam0_fifo_write_enable),
         .fifo_write_data    (cam0_fifo_write_data),
         .sclk               (cam0_sclk),
-        .cs_n               (cam0_cs_n)
+        .cs_n               (cam0_cs_n),
+        .capture_requested  (capture_requested),
+        .adc_state          (adc_state)
     );
 
     // Stonyman controller
     stonyman stonyman0 (
         .clk                    (clk),
         .reset                  (reset | cam0_reset),
+        .pulse_counts           (pulse_counts),
         .frame_capture_start    (cam0_frame_capture_start),
         .adc_capture_done       (cam0_adc_capture_done),
         .vsw_value              (cam0_vsw_value),
@@ -153,17 +163,20 @@ module imager (
 
     // Bus Interface
     imager_apb_interface img_apb0 (
-    .clk                    (clk),
-    .reset                  (reset),
-    .PSEL                   (PSEL),
-    .PENABLE                (PENABLE),
-    .PWRITE                 (PWRITE),
-    .PADDR                  (PADDR),
-    .PWDATA                 (PWDATA),
-    .PREADY                 (PREADY),
-    .PRDATA                 (PRDATA),
-    .PSLVERR                (PSLVERR),
+    .clk        (clk),
+    .reset      (reset),
+    .PSEL       (PSEL),
+    .PENABLE    (PENABLE),
+    .PWRITE     (PWRITE),
+    .PADDR      (PADDR),
+    .PWDATA     (PWDATA),
+    .PREADY     (PREADY),
+    .PRDATA     (PRDATA),
+    .PSLVERR    (PSLVERR),
     
+    .pulse_counts   (pulse_counts),
+    .track_counts   (track_counts),
+
     .cam0_frame_capture_done    (cam0_frame_capture_done),
     .cam0_frame_capture_start   (cam0_frame_capture_start),
     .cam0_reset                 (cam0_reset),

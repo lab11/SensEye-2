@@ -18,9 +18,11 @@
 // offset       behavior  name           fields (msb...lsb)
 // -----------  --------  -------------  ----------------------------
 // 0x0000_0000  w         GLOB_START     xxxxxxxx _ xxxxxxxx _ xxxxxxxx _ xxxxxx cam1_start cam0_start
-// 0x0000_0000  r         GLOB_STATUS    00000000 _ 00000000 _ 00000000 _ 00000000
+// 0x0000_0000  r         GLOB_STATUS    00000000 _ 00000000 _ 00000000 _ 000000 cam1_busy cam0_busy
 // 0x0000_0004  w         GLOB_RESET     xxxxxxxx _ xxxxxxxx _ xxxxxxxx _ xxxxxx cam1_reset cam0_reset
 // 0x0000_0004  r         RESERVED
+// 0x0000_0008  w         GLOB_TIMING    xxxxxxxx _ xxxxxxxx _ track_counts[7:1] _ pulse_counts[7:0]
+// 0x0000_0008  r         RESERVED
 // ...          n/a       RESERVED
 // 0x0000_007C  n/a       RESERVED
 // 0x0000_0080  w         CAM0_FRAMEMASK x row[6:0] _ xxxxx col[2:0] _ data[15:0]
@@ -78,10 +80,14 @@
 `define CAM1_HSW_VALUE    (0)
 `define CAM1_CONFIG_VALUE (17)
 
+`define PULSE_COUNTS (100)
+`define TRACK_COUNTS (14)
+
 // Register Map Definitions
 // writing
 `define GLOB_START     8'h00
 `define GLOB_RESET     8'h04
+`define GLOB_TIMING    8'h08
 `define CAM0_FRAMEMASK 8'h80
 `define CAM0_SETTINGS1 8'h84
 `define CAM0_SETTINGS2 8'h88
@@ -109,6 +115,10 @@ module imager_apb_interface (
     output reg        PREADY,
     output reg [31:0] PRDATA,
     output reg        PSLVERR,
+
+    /* Global Timing Settings */
+    output reg [7:0] pulse_counts,
+    output reg [7:0] track_counts,
 
     /* CAM0 Interface */
     input wire cam0_frame_capture_done,
@@ -192,6 +202,9 @@ module imager_apb_interface (
             PRDATA <= 32'b0;
             PREADY <= 0;
             
+            pulse_counts <= `PULSE_COUNTS;
+            track_counts <= `TRACK_COUNTS;
+     
             cam0_frame_capture_start <= 0;
             cam1_frame_capture_start <= 0;
             cam0_reset <= 0;
@@ -234,9 +247,10 @@ module imager_apb_interface (
             PRDATA <= 32'b0;
             PREADY <= 1;
             
-            //XXX: Hack to allow original image grabbing method. FIX
-            cam0_frame_capture_start <= cam0_frame_capture_start;
-            //cam0_frame_capture_start <= 0;
+            pulse_counts <= pulse_counts;
+            track_counts <= track_counts;
+            
+            cam0_frame_capture_start <= 0;
             cam1_frame_capture_start <= 0;
             cam0_reset <= 0;
             cam1_reset <= 0;
@@ -319,6 +333,10 @@ module imager_apb_interface (
                             cam1_requested_data <= 0;
                         end
                     end
+                    `GLOB_TIMING: begin
+                        pulse_counts <= PWDATA[7:0];
+                        track_counts <= PWDATA[15:8];
+                    end
                     `CAM0_FRAMEMASK: begin
                         cam0_mask_write_enable <= 1;
                         cam0_mask_addr <= {PWDATA[30:24], PWDATA[18:16]};
@@ -359,7 +377,7 @@ module imager_apb_interface (
                         PRDATA[1:0] <= {cam1_busy, cam0_busy};
                     end
                     `CAM0_STATUS: begin
-                        PRDATA[0] <= cam0_fifo_empty;
+                        PRDATA[0] <= (cam0_fifo_empty && !cam0_have_data);
                         PRDATA[1] <= cam0_fifo_afull;
                         PRDATA[2] <= cam0_fifo_full;
                         PRDATA[3] <= cam0_fifo_overflow;
@@ -379,7 +397,7 @@ module imager_apb_interface (
                         end
                     end
                     `CAM1_STATUS: begin
-                        PRDATA[0] <= cam1_fifo_empty;
+                        PRDATA[0] <= (cam1_fifo_empty && !cam1_have_data);
                         PRDATA[1] <= cam1_fifo_afull;
                         PRDATA[2] <= cam1_fifo_full;
                         PRDATA[3] <= cam1_fifo_overflow;
