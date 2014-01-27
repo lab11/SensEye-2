@@ -306,7 +306,7 @@ static void request_handler(int sd)
          }
 
          // send data!
-fprintf(stderr, "Everything good so far, sending data\n");
+//fprintf(stderr, "Everything good so far, sending data\n");
          while(1)
          {
             request_send_data(sd);
@@ -340,7 +340,7 @@ static void request_send_data(int sd)
 
 
    // send header
-fprintf(stderr, "Sending header\n");
+//fprintf(stderr, "Sending header\n");
    send_len_ret = send(sd, (const void*)(&RESP_FRAME_HEADER), sizeof(RESP_FRAME_HEADER), 0);
    //fprintf(stderr,"send_len: %d\n",send_len_ret);
    if(sizeof(RESP_FRAME_HEADER) != send_len_ret)
@@ -352,23 +352,23 @@ fprintf(stderr, "Sending header\n");
 
 
    // stonyman driver
-fprintf(stderr, "Interacting with driver\n");
+//fprintf(stderr, "Interacting with driver\n");
    ioctl(stony_fd,STONYMAN_IOC_START_CAPTURE);
 
    // read from stonyman device file
    tmp_px_read=0;
    pixelcount[0]=0;
-fprintf(stderr, "Reading pixels\n");
-char print_once = 0;
+//fprintf(stderr, "Reading pixels\n");
+//char print_once = 0;
    while(RESOLUTION>pixelcount[0])
    {
-      if (print_once==1) fprintf(stderr, "Reading again\tread:%d\tremaining:%d\n", pixelcount[0], (RESOLUTION-pixelcount[0]));
-      print_once++;
+//      if (print_once==1) fprintf(stderr, "Reading again\tread:%d\tremaining:%d\n", pixelcount[0], (RESOLUTION-pixelcount[0]));
+//      print_once++;
       tmp_px_read = read(stony_fd, img_buf[0], RESOLUTION-pixelcount[0]);
       if((0 > tmp_px_read) && ((EAGAIN == errno) || (EWOULDBLOCK == errno)))
       {
-if (print_once==2)
-fprintf(stderr, "tmp_px_read=%d\terrno=%s\n", tmp_px_read, (errno == EAGAIN) ? "EAGAIN" : (errno == EWOULDBLOCK) ? "EWOULDBLOCK" : "???"); 
+//if (print_once==2)
+//fprintf(stderr, "tmp_px_read=%d\terrno=%s\n", tmp_px_read, (errno == EAGAIN) ? "EAGAIN" : (errno == EWOULDBLOCK) ? "EWOULDBLOCK" : "???"); 
         // do nothing, just try again
       }
       else if(0 > tmp_px_read)
@@ -386,7 +386,7 @@ fprintf(stderr, "tmp_px_read=%d\terrno=%s\n", tmp_px_read, (errno == EAGAIN) ? "
    }
 
    // remove the fixed pattern noise
-fprintf(stderr, "Removing fixed noise\n");
+//fprintf(stderr, "Removing fixed noise\n");
    int i;
    for (i=0; i<RESOLUTION; i++)
    {
@@ -443,7 +443,7 @@ fprintf(stderr, "Removing fixed noise\n");
 #endif
 
    // transmit data
-fprintf(stderr, "transmitting data\n");
+//fprintf(stderr, "transmitting data\n");
 #define MIMIC_MULTIPLE_CAMS_WITH_CAM0  (1)
 #if (0!=(MIMIC_MULTIPLE_CAMS_WITH_CAM0)) // code for single camera (CAM0)
    // mimic 3 cameras
