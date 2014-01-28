@@ -121,6 +121,7 @@ module imager_apb_interface (
     output reg [7:0] track_counts,
 
     /* CAM0 Interface */
+    input wire cam0_controller_busy,
     input wire cam0_frame_capture_done,
     output reg cam0_frame_capture_start,
     output reg cam0_reset,
@@ -146,6 +147,7 @@ module imager_apb_interface (
     output reg [15:0] cam0_mask_data,
 
     /* CAM1 Interface */
+    input wire cam1_controller_busy,
     input wire cam1_frame_capture_done,
     output reg cam1_frame_capture_start,
     output reg cam1_reset,
@@ -170,9 +172,6 @@ module imager_apb_interface (
     output reg [9:0] cam1_mask_addr,
     output reg [15:0] cam1_mask_data
     );
-
-    reg cam0_busy;
-    reg cam1_busy;
 
     reg [31:0] cam0_pixel_data;
     reg [31:0] cam1_pixel_data;
@@ -209,8 +208,6 @@ module imager_apb_interface (
             cam1_frame_capture_start <= 0;
             cam0_reset <= 0;
             cam1_reset <= 0;
-            cam0_busy  <= 0;
-            cam1_busy  <= 0;
             
             cam0_vsw_value    <= `CAM0_VSW_VALUE;
             cam0_hsw_value    <= `CAM0_HSW_VALUE;
@@ -263,8 +260,6 @@ module imager_apb_interface (
             cam1_mask_addr <= 0;
             cam1_mask_data <= 0;
 
-            cam0_busy <= cam0_busy;
-            cam1_busy <= cam1_busy;
             cam0_vsw_value    <= cam0_vsw_value;
             cam0_hsw_value    <= cam0_hsw_value;
             cam0_vref_value   <= cam0_vref_value;
@@ -284,14 +279,6 @@ module imager_apb_interface (
             cam0_requested_data <= cam0_requested_data;
             cam1_requested_data <= cam1_requested_data;
 
-            // Monitor the stonyman controller
-            if (cam0_frame_capture_done) begin
-                cam0_busy <= 0;
-            end
-            if (cam1_frame_capture_done) begin
-                cam1_busy <= 0;
-            end
-
             // Read data from the FIFO
             if (cam0_fifo_data_valid) begin
                 cam0_pixel_data <= cam0_fifo_read_data;
@@ -309,26 +296,17 @@ module imager_apb_interface (
                 case (PADDR[7:0])
                     `GLOB_START: begin
                         cam0_frame_capture_start <= PWDATA[0];
-                        if (PWDATA[0]) begin
-                            cam0_busy <= 1;
-                        end
-
                         cam1_frame_capture_start <= PWDATA[1];
-                        if (PWDATA[1]) begin
-                            cam1_busy <= 1;
-                        end
                     end
                     `GLOB_RESET: begin
                         cam0_reset <= PWDATA[0];
                         if (PWDATA[0]) begin
-                            cam0_busy <= 0;
                             cam0_have_data <= 0;
                             cam0_requested_data <= 0;
                         end
 
                         cam1_reset <= PWDATA[1];
                         if (PWDATA[1]) begin
-                            cam1_busy <= 0;
                             cam1_have_data <= 0;
                             cam1_requested_data <= 0;
                         end
@@ -374,7 +352,7 @@ module imager_apb_interface (
             end else if (bus_read) begin
                 case (PADDR[7:0])
                     `GLOB_STATUS: begin
-                        PRDATA[1:0] <= {cam1_busy, cam0_busy};
+                        PRDATA[1:0] <= {cam1_controller_busy, cam0_controller_busy};
                     end
                     `CAM0_STATUS: begin
                         PRDATA[0] <= (cam0_fifo_empty && !cam0_have_data);
