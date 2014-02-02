@@ -2,5 +2,5 @@
 <SynplifyOutput>
 	<result>Success</result>
 	<design>TOPLEVEL</design>
-	<target_edif>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\synthesis\TOPLEVEL.edn</target_edif>
-</Synpl
+	<target_edif>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.edn</target_edif>
+</SynplifyOutput>

@@ -1,3 +1,1 @@
-CKID0001:@|S:imaging_0.stonyman_0.clkAdc@|E:imaging_0.stonyman_0.state[12]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001
-CKID0002:@|S:imaging_0.stonyman_1.clkAdc@|E:imaging_0.stonyman_1.state[12]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002
-CKID0003:@|S:MSS_CORE2_0@|E:heartbeat_0.pulse_out@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003
+CKID0001:@|S:MSS_CORE3_MSS_0@|E:heartbeat_0.pulse_out@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!-- 
   Synopsys, Inc.
-  Version H-2013.03M-1 
-  Project file \\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\synthesis\syntmp\run_option.xml
-  Written on Wed Jan 15 15:37:36 2014
+  Version H-2013.03M-SP1-1 
+  Project file C:\Users\brghena\workspace\SensEye-2\software\smartfusion\synthesis\syntmp\run_option.xml
+  Written on Sun Feb 02 15:02:02 2014
 
 
 --> 
@@ -16,4 +16,5 @@
      <option name="maxfan" display_name="Fanout Guide">3000</option>
      <option name="disable_io_insertion" display_name="Disable I/O Insertion">0</option>
      <option name="symbolic_fsm_compiler" display_name="FSM Compiler">1</option>
-</project_attribu
+</project_attribute_list>
+

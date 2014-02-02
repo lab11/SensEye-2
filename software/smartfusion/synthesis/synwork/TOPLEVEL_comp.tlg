@@ -1,0 +1,937 @@
+Selecting top level module TOPLEVEL
+@W: CG775 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":13:0:13:10|Found Component CoreAHBLite in library COREAHBLITE_LIB
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":13:0:13:6|Synthesizing module CAHBLTO
+
+	MODE_CFG=1'b1
+	CAHBLTI=17'b00000000000000000
+	CAHBLTl=16'b0000000000000000
+	CAHBLTO0=16'b0000000000000001
+	CAHBLTI0=16'b0000000000000010
+	CAHBLTl0=16'b0000000000000100
+	CAHBLTO1=16'b0000000000001000
+	CAHBLTI1=16'b0000000000010000
+	CAHBLTl1=16'b0000000000100000
+	CAHBLTOOI=16'b0000000001000000
+	CAHBLTIOI=16'b0000000010000000
+	CAHBLTlOI=16'b0000000100000000
+	CAHBLTOII=16'b0000001000000000
+	CAHBLTIII=16'b0000010000000000
+	CAHBLTlII=16'b0000100000000000
+	CAHBLTOlI=16'b0001000000000000
+	CAHBLTIlI=16'b0010000000000000
+	CAHBLTllI=16'b0100000000000000
+	CAHBLTO0I=16'b1000000000000000
+	CAHBLTI0I=16'b0000000000000001
+	CAHBLTl0I=16'b0000000000000010
+	CAHBLTO1I=16'b0000000000000100
+	CAHBLTI1I=16'b0000000000001000
+	CAHBLTl1I=16'b0000000000010000
+	CAHBLTOOl=16'b0000000000100000
+	CAHBLTIOl=16'b0000000001000000
+	CAHBLTlOl=16'b0000000010000000
+	CAHBLTOIl=16'b0000000100000000
+	CAHBLTIIl=16'b0000001000000000
+	CAHBLTlIl=16'b0000010000000000
+	CAHBLTOll=16'b0000100000000000
+	CAHBLTIll=16'b0001000000000000
+	CAHBLTlll=16'b0010000000000000
+	CAHBLTO0l=16'b0100000000000000
+	CAHBLTI0l=16'b1000000000000000
+	CAHBLTl0l=16'b0000000000000000
+   Generated name = CAHBLTO_Z1
+
+@W: CG133 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":327:0:327:8|No assignment to CAHBLTI1l
+@W: CG133 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":329:0:329:8|No assignment to CAHBLTl1l
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v":13:0:13:8|Synthesizing module CAHBLTO10
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":13:0:13:9|Synthesizing module CAHBLTO0OI
+
+	MODE_CFG=1'b1
+	CAHBLTI=17'b00000000000000000
+	CAHBLTl=16'b0000000000000000
+	CAHBLTIO1=1'b0
+	CAHBLTOllI=1'b1
+	CAHBLTIllI=17'b00000000000000000
+	CAHBLTlllI=16'b0000000000000000
+   Generated name = CAHBLTO0OI_1_0_0_0_1_0_0
+
+@N: CL177 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Sharing sequential element CAHBLTI0lI.
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":13:0:13:6|Synthesizing module CAHBLTO
+
+	MODE_CFG=1'b1
+	CAHBLTI=17'b00000000001100000
+	CAHBLTl=16'b0000000000000000
+	CAHBLTO0=16'b0000000000000001
+	CAHBLTI0=16'b0000000000000010
+	CAHBLTl0=16'b0000000000000100
+	CAHBLTO1=16'b0000000000001000
+	CAHBLTI1=16'b0000000000010000
+	CAHBLTl1=16'b0000000000100000
+	CAHBLTOOI=16'b0000000001000000
+	CAHBLTIOI=16'b0000000010000000
+	CAHBLTlOI=16'b0000000100000000
+	CAHBLTOII=16'b0000001000000000
+	CAHBLTIII=16'b0000010000000000
+	CAHBLTlII=16'b0000100000000000
+	CAHBLTOlI=16'b0001000000000000
+	CAHBLTIlI=16'b0010000000000000
+	CAHBLTllI=16'b0100000000000000
+	CAHBLTO0I=16'b1000000000000000
+	CAHBLTI0I=16'b0000000000000001
+	CAHBLTl0I=16'b0000000000000010
+	CAHBLTO1I=16'b0000000000000100
+	CAHBLTI1I=16'b0000000000001000
+	CAHBLTl1I=16'b0000000000010000
+	CAHBLTOOl=16'b0000000000100000
+	CAHBLTIOl=16'b0000000001000000
+	CAHBLTlOl=16'b0000000010000000
+	CAHBLTOIl=16'b0000000100000000
+	CAHBLTIIl=16'b0000001000000000
+	CAHBLTlIl=16'b0000010000000000
+	CAHBLTOll=16'b0000100000000000
+	CAHBLTIll=16'b0001000000000000
+	CAHBLTlll=16'b0010000000000000
+	CAHBLTO0l=16'b0100000000000000
+	CAHBLTI0l=16'b1000000000000000
+	CAHBLTl0l=16'b0000000000000000
+   Generated name = CAHBLTO_Z2
+
+@W: CG133 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":327:0:327:8|No assignment to CAHBLTI1l
+@W: CG133 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":329:0:329:8|No assignment to CAHBLTl1l
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":13:0:13:9|Synthesizing module CAHBLTO0OI
+
+	MODE_CFG=1'b1
+	CAHBLTI=17'b00000000001100000
+	CAHBLTl=16'b0000000000000000
+	CAHBLTIO1=1'b0
+	CAHBLTOllI=1'b1
+	CAHBLTIllI=17'b00000000000000000
+	CAHBLTlllI=16'b0000000000000000
+   Generated name = CAHBLTO0OI_1_96_0_0_1_0_0
+
+@N: CL177 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Sharing sequential element CAHBLTI0lI.
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":13:0:13:8|Synthesizing module CAHBLTlI1
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":13:0:13:9|Synthesizing module CAHBLTl0Il
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":13:0:13:9|Synthesizing module CAHBLTOl0l
+
+	MODE_CFG=1'b1
+	CAHBLTl1ll=2'b00
+	CAHBLTO10l=2'b01
+	CAHBLTI10l=2'b10
+	CAHBLTl10l=2'b11
+	CAHBLTOO1l=1'b0
+	CAHBLTIO1l=1'b1
+	CAHBLTlO1l=3'b000
+	CAHBLTOI1l=3'b001
+	CAHBLTII1l=3'b010
+   Generated name = CAHBLTOl0l_1_0_1_2_3_0_1_0_1_2
+
+@W: CL169 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":349:0:349:5|Pruning register CAHBLTIl1l 
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v":13:0:13:9|Synthesizing module CAHBLTllO0
+
+	MODE_CFG=1'b1
+	CAHBLTO0O0=16'b0000000000000000
+	CAHBLTI0O0=16'b0000000000000000
+	CAHBLTI1O0=5'b10000
+	CAHBLTl1ll=1'b0
+	CAHBLTOlOI=2'b00
+   Generated name = CAHBLTllO0_1_0_0_4294967280s_0_0
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":13:0:13:9|Synthesizing module CAHBLTlOl0
+
+	MODE_CFG=1'b1
+	CAHBLTOIl0=17'b00000000000000000
+	CAHBLTIIl0=17'b00000000001100000
+	CAHBLTO0O0=16'b0000000000000000
+	CAHBLTI0O0=16'b0000000000000000
+   Generated name = CAHBLTlOl0_1_0_96_0_0
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":13:0:13:10|Synthesizing module CoreAHBLite
+
+	FAMILY=6'b001111
+	MODE_CFG=1'b1
+	M0_AHBSLOT0ENABLE=1'b0
+	M0_AHBSLOT1ENABLE=1'b0
+	M0_AHBSLOT2ENABLE=1'b0
+	M0_AHBSLOT3ENABLE=1'b0
+	M0_AHBSLOT4ENABLE=1'b0
+	M0_AHBSLOT5ENABLE=1'b0
+	M0_AHBSLOT6ENABLE=1'b0
+	M0_AHBSLOT7ENABLE=1'b0
+	M0_AHBSLOT8ENABLE=1'b0
+	M0_AHBSLOT9ENABLE=1'b0
+	M0_AHBSLOT10ENABLE=1'b0
+	M0_AHBSLOT11ENABLE=1'b0
+	M0_AHBSLOT12ENABLE=1'b0
+	M0_AHBSLOT13ENABLE=1'b0
+	M0_AHBSLOT14ENABLE=1'b0
+	M0_AHBSLOT15ENABLE=1'b0
+	M1_AHBSLOT0ENABLE=1'b0
+	M1_AHBSLOT1ENABLE=1'b0
+	M1_AHBSLOT2ENABLE=1'b0
+	M1_AHBSLOT3ENABLE=1'b0
+	M1_AHBSLOT4ENABLE=1'b0
+	M1_AHBSLOT5ENABLE=1'b1
+	M1_AHBSLOT6ENABLE=1'b1
+	M1_AHBSLOT7ENABLE=1'b0
+	M1_AHBSLOT8ENABLE=1'b0
+	M1_AHBSLOT9ENABLE=1'b0
+	M1_AHBSLOT10ENABLE=1'b0
+	M1_AHBSLOT11ENABLE=1'b0
+	M1_AHBSLOT12ENABLE=1'b0
+	M1_AHBSLOT13ENABLE=1'b0
+	M1_AHBSLOT14ENABLE=1'b0
+	M1_AHBSLOT15ENABLE=1'b0
+	M0_HUGESLOTENABLE=1'b0
+	M1_HUGESLOTENABLE=1'b0
+	HADDR_SHG_CFG=1'b1
+	M0_INITCFG0ENABLE=1'b0
+	M0_INITCFG1ENABLE=1'b0
+	M0_INITCFG2ENABLE=1'b0
+	M0_INITCFG3ENABLE=1'b0
+	M0_INITCFG4ENABLE=1'b0
+	M0_INITCFG5ENABLE=1'b0
+	M0_INITCFG6ENABLE=1'b0
+	M0_INITCFG7ENABLE=1'b0
+	M0_INITCFG8ENABLE=1'b0
+	M0_INITCFG9ENABLE=1'b0
+	M0_INITCFG10ENABLE=1'b0
+	M0_INITCFG11ENABLE=1'b0
+	M0_INITCFG12ENABLE=1'b0
+	M0_INITCFG13ENABLE=1'b0
+	M0_INITCFG14ENABLE=1'b0
+	M0_INITCFG15ENABLE=1'b0
+	M1_INITCFG0ENABLE=1'b0
+	M1_INITCFG1ENABLE=1'b0
+	M1_INITCFG2ENABLE=1'b0
+	M1_INITCFG3ENABLE=1'b0
+	M1_INITCFG4ENABLE=1'b0
+	M1_INITCFG5ENABLE=1'b0
+	M1_INITCFG6ENABLE=1'b0
+	M1_INITCFG7ENABLE=1'b0
+	M1_INITCFG8ENABLE=1'b0
+	M1_INITCFG9ENABLE=1'b0
+	M1_INITCFG10ENABLE=1'b0
+	M1_INITCFG11ENABLE=1'b0
+	M1_INITCFG12ENABLE=1'b0
+	M1_INITCFG13ENABLE=1'b0
+	M1_INITCFG14ENABLE=1'b0
+	M1_INITCFG15ENABLE=1'b0
+	CAHBLTOIl0=17'b00000000000000000
+	CAHBLTIIl0=17'b00000000001100000
+	CAHBLTO0O0=16'b0000000000000000
+	CAHBLTI0O0=16'b0000000000000000
+   Generated name = CoreAHBLite_Z3
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":8:0:8:10|Synthesizing module CAHBtoAPB3O
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v":8:0:8:12|Synthesizing module CAHBtoAPB3IOl
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":8:0:8:12|Synthesizing module CAHBtoAPB3O1I
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v":8:0:8:12|Synthesizing module COREAHBTOAPB3
+
+	FAMILY=32'b00000000000000000000000000001111
+   Generated name = COREAHBTOAPB3_15s
+
+@W: CG775 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3O
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
+
+	APB_DWIDTH=6'b100000
+	RANGESIZE=21'b000000000000100000000
+	IADDR_ENABLE=1'b0
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b0
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	CAPB3O1I=32'b00000000000000000000000000001000
+	CAPB3I1I=32'b00000000000000000000000000001000
+	CAPB3l1I=8'b00001100
+	CAPB3OOl=8'b00001000
+	CAPB3IOl=8'b00000100
+	CAPB3lOl=8'b00000000
+	CAPB3OIl=8'b00000100
+	CAPB3IIl=8'b00000000
+	CAPB3lIl=8'b00000000
+	CAPB3Oll=16'b0000000000000001
+	CAPB3Ill=16'b0000000000000000
+	CAPB3lll=16'b0000000000000000
+	CAPB3O0l=16'b0000000000000000
+	CAPB3I0l=16'b0000000000000000
+	CAPB3l0l=16'b0000000000000000
+	CAPB3O1l=16'b0000000000000000
+	CAPB3I1l=16'b0000000000000000
+	CAPB3l1l=16'b0000000000000000
+	CAPB3OO0=16'b0000000000000000
+	CAPB3IO0=16'b0000000000000000
+	CAPB3lO0=16'b0000000000000000
+	CAPB3OI0=16'b0000000000000000
+	CAPB3II0=16'b0000000000000000
+	CAPB3lI0=16'b0000000000000000
+	CAPB3Ol0=16'b0000000000000000
+   Generated name = CoreAPB3_Z4
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\heartbeat.v":13:7:13:15|Synthesizing module heartbeat
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\adc_controller.v":30:7:30:20|Synthesizing module adc_controller
+
+@W: CL271 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\adc_controller.v":183:4:183:9|Pruning bits 11 to 8 of adc_data[11:0] -- not in use ...
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":62:7:62:14|Synthesizing module stonyman
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\framemask.v":16:7:16:15|Synthesizing module framemask
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1289:7:1289:9|Synthesizing module INV
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":79:7:79:9|Synthesizing module AO1
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1329:7:1329:9|Synthesizing module MX2
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":957:7:957:14|Synthesizing module DFN1E1C0
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":2:7:2:10|Synthesizing module AND2
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":17:7:17:10|Synthesizing module AND3
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1931:7:1931:10|Synthesizing module XOR2
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1908:7:1908:11|Synthesizing module XNOR2
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":909:7:909:12|Synthesizing module DFN1C0
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":97:7:97:10|Synthesizing module AO1C
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":2092:8:2092:13|Synthesizing module RAM4K9
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1462:7:1462:10|Synthesizing module OR2A
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1456:7:1456:9|Synthesizing module OR2
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1411:7:1411:11|Synthesizing module NOR3A
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":981:7:981:12|Synthesizing module DFN1P0
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1373:7:1373:12|Synthesizing module NAND3A
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1954:7:1954:10|Synthesizing module BUFF
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1473:7:1473:9|Synthesizing module OR3
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1353:7:1353:11|Synthesizing module NAND2
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":7:7:7:11|Synthesizing module AND2A
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":114:7:114:10|Synthesizing module AOI1
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1394:7:1394:11|Synthesizing module NOR2A
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":103:7:103:10|Synthesizing module AO1D
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":5:7:5:21|Synthesizing module fifo_pixel_data
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1182:9:1182:15|Pruning instance XOR2_71 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1178:8:1178:12|Pruning instance MX2_1 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1169:9:1169:15|Pruning instance XOR2_74 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1167:9:1167:15|Pruning instance XOR2_36 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1165:8:1165:13|Pruning instance AO1_21 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1149:9:1149:15|Pruning instance XOR2_70 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1142:11:1142:25|Pruning instance DFN1C0_WGRY[4] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1140:9:1140:15|Pruning instance AND2_21 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1136:11:1136:25|Pruning instance DFN1C0_RGRY[0] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1113:9:1113:15|Pruning instance AND2_53 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1110:9:1110:15|Pruning instance XOR2_17 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1102:9:1102:15|Pruning instance AND2_56 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1065:9:1065:15|Pruning instance AND2_80 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1061:9:1061:14|Pruning instance AND2_8 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1059:9:1059:15|Pruning instance XOR2_39 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1054:11:1054:25|Pruning instance DFN1C0_RGRY[3] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1046:8:1046:12|Pruning instance MX2_4 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1044:11:1044:25|Pruning instance DFN1C0_WGRY[8] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1043:9:1043:15|Pruning instance AND2_42 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1035:9:1035:15|Pruning instance OR2A_11 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1031:8:1031:13|Pruning instance AO1_39 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1023:11:1023:26|Pruning instance DFN1C0_RGRY[10] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1022:9:1022:15|Pruning instance AND2_59 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1007:9:1007:14|Pruning instance OR2A_0 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":1001:8:1001:13|Pruning instance AO1_33 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":998:9:998:15|Pruning instance AND2_81 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":978:9:978:15|Pruning instance AND2_54 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":976:11:976:26|Pruning instance DFN1C0_WGRY[12] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":975:9:975:15|Pruning instance AND2_77 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":963:9:963:14|Pruning instance AND2_0 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":962:9:962:15|Pruning instance AND2_41 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":928:11:928:25|Pruning instance DFN1C0_WGRY[1] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":894:11:894:25|Pruning instance DFN1C0_RGRY[7] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":890:11:890:26|Pruning instance DFN1C0_WGRY[10] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":876:11:876:25|Pruning instance DFN1C0_RGRY[5] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":874:13:874:22|Pruning instance DFN1E1C0_1 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":872:9:872:14|Pruning instance XOR2_2 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":866:9:866:15|Pruning instance XOR2_29 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":860:11:860:25|Pruning instance DFN1C0_WGRY[2] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":822:8:822:12|Pruning instance MX2_3 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":818:9:818:15|Pruning instance AND2_27 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":815:11:815:25|Pruning instance DFN1C0_RGRY[6] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":808:9:808:15|Pruning instance AND2_39 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":804:8:804:12|Pruning instance MX2_7 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":803:9:803:15|Pruning instance AND2_92 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":797:9:797:15|Pruning instance XOR2_43 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":795:9:795:15|Pruning instance XOR2_58 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":792:9:792:15|Pruning instance AND2_90 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":791:9:791:15|Pruning instance XOR2_65 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":788:8:788:12|Pruning instance MX2_6 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":772:9:772:15|Pruning instance XOR2_67 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":768:8:768:13|Pruning instance AO1_41 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":767:9:767:15|Pruning instance AND2_66 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":766:9:766:15|Pruning instance AND2_34 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":749:9:749:15|Pruning instance AND2_52 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":734:9:734:15|Pruning instance AND2_50 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":731:9:731:15|Pruning instance XOR2_14 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":729:9:729:15|Pruning instance XOR2_56 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":716:9:716:15|Pruning instance XOR2_88 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":713:11:713:25|Pruning instance DFN1C0_RGRY[4] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":711:8:711:12|Pruning instance MX2_2 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":709:9:709:15|Pruning instance AND2_55 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":705:9:705:15|Pruning instance XOR2_10 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":696:11:696:25|Pruning instance DFN1C0_WGRY[9] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":674:9:674:15|Pruning instance AND2_51 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":647:8:647:12|Pruning instance MX2_0 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":642:11:642:25|Pruning instance DFN1C0_RGRY[8] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":635:9:635:15|Pruning instance XOR2_59 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":629:9:629:15|Pruning instance AND2_26 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":626:11:626:25|Pruning instance DFN1C0_WGRY[0] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":619:9:619:15|Pruning instance XOR2_46 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":611:9:611:14|Pruning instance OR2A_1 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":608:9:608:15|Pruning instance AND2_74 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":595:9:595:15|Pruning instance AND2_30 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":590:9:590:14|Pruning instance AND2_3 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":588:9:588:15|Pruning instance XOR2_31 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":575:9:575:15|Pruning instance AND2_29 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":547:11:547:26|Pruning instance DFN1C0_WGRY[11] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":543:9:543:15|Pruning instance AND2_35 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":542:9:542:15|Pruning instance AND2_38 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":531:11:531:25|Pruning instance DFN1C0_WGRY[3] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":529:11:529:25|Pruning instance DFN1C0_RGRY[1] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":475:9:475:15|Pruning instance XOR2_72 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":472:9:472:15|Pruning instance XOR2_55 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":454:9:454:15|Pruning instance XOR2_49 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":421:9:421:15|Pruning instance XOR2_33 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":418:11:418:25|Pruning instance DFN1C0_RGRY[2] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":413:9:413:15|Pruning instance AND2_60 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":378:9:378:15|Pruning instance AND2_46 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":352:9:352:15|Pruning instance XOR2_24 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":350:9:350:15|Pruning instance XOR2_85 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":345:11:345:25|Pruning instance DFN1C0_WGRY[7] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":342:8:342:12|Pruning instance MX2_5 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":338:9:338:15|Pruning instance AND2_72 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":330:9:330:15|Pruning instance XOR2_52 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":323:11:323:25|Pruning instance DFN1C0_WGRY[5] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":312:9:312:15|Pruning instance XOR2_20 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":277:9:277:15|Pruning instance AND2_49 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":258:9:258:15|Pruning instance AND2_75 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":253:9:253:15|Pruning instance AND2_84 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":249:11:249:25|Pruning instance DFN1C0_WGRY[6] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":238:9:238:15|Pruning instance XOR2_38 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":226:8:226:13|Pruning instance AO1_31 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":223:9:223:15|Pruning instance AND2_44 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":221:9:221:15|Pruning instance XOR2_19 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":187:11:187:25|Pruning instance DFN1C0_RGRY[9] -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":186:9:186:15|Pruning instance AND2_22 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":181:9:181:15|Pruning instance AND2_11 -- not in use ...
+
+@W: CL168 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":175:9:175:15|Pruning instance XOR2_82 -- not in use ...
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":104:7:104:26|Synthesizing module imager_apb_interface
+
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":250:28:250:39|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":251:28:251:39|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":266:25:266:33|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":267:25:267:33|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":268:33:268:46|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":269:33:269:46|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":270:33:270:47|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":271:33:271:49|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":272:33:272:48|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":273:33:273:49|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":274:33:274:46|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":275:33:275:46|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":276:33:276:47|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":277:33:277:49|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":278:33:278:48|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":279:33:279:49|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":280:31:280:45|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":281:31:281:45|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":282:31:282:44|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":283:31:283:44|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":284:35:284:53|Removing redundant assignment
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":285:35:285:53|Removing redundant assignment
+@W: CL189 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":199:4:199:9|Register bit PSLVERR is always 0, optimizing ...
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v":15:7:15:12|Synthesizing module imager
+
+@W: CG781 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v":200:32:200:32|Undriven input cam1_frame_capture_done on instance img_apb0, tying to 0
+@W: CG781 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v":209:32:209:32|Undriven input cam1_fifo_empty on instance img_apb0, tying to 0
+@W: CG781 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v":210:32:210:32|Undriven input cam1_fifo_afull on instance img_apb0, tying to 0
+@W: CG781 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v":211:32:211:32|Undriven input cam1_fifo_full on instance img_apb0, tying to 0
+@W: CG781 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v":212:32:212:32|Undriven input cam1_fifo_overflow on instance img_apb0, tying to 0
+@W: CG781 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v":213:32:213:32|Undriven input cam1_fifo_read_data on instance img_apb0, tying to 0
+@W: CG781 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v":214:32:214:32|Undriven input cam1_fifo_data_valid on instance img_apb0, tying to 0
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_AHB
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":1:7:1:16|Synthesizing module MSS_XTLOSC
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:41|Synthesizing module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":67:7:67:15|Synthesizing module BIBUF_MSS
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":145:7:145:12|Synthesizing module MSSINT
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v":9:7:9:19|Synthesizing module MSS_CORE3_MSS
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\ahb.v":12:7:12:9|Synthesizing module AHB
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\cr_int.v":12:7:12:12|Synthesizing module cr_int
+
+@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\cr_int.v":217:43:217:50|Removing redundant assignment
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\psram_cr.v":12:7:12:14|Synthesizing module psram_cr
+
+@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":9:7:9:14|Synthesizing module TOPLEVEL
+
+@W: CG360 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":178:14:178:26|No assignment to wire TP_PADDR_BIT2
+
+@W: CG360 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":206:14:206:28|No assignment to wire PADDRS0_slice_0
+
+@W: CG360 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":207:14:207:28|No assignment to wire PADDRS0_slice_1
+
+@W: CL260 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\cr_int.v":170:0:170:5|Pruning register bit 1 of nbyte_en[1:0] 
+
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\cr_int.v":24:13:24:20|Input port bits 31 to 25 of max_addr[31:0] are unused
+
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\cr_int.v":25:13:25:20|Input port bits 31 to 16 of reg_addr[31:0] are unused
+
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\ahb.v":17:15:17:19|Input port bits 31 to 10 of HADDR[31:0] are unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\ahb.v":20:14:20:19|Input port bit 0 of HTRANS[1:0] is unused
+
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\ahb.v":16:23:16:31|Input HMASTLOCK is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\ahb.v":18:21:18:26|Input HBURST is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\ahb.v":19:14:19:18|Input HPROT is unused
+@W: CL157 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":112:22:112:26|Input port bits 31 to 8 of PADDR[31:0] are unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":113:22:113:27|Input port bit 31 of PWDATA[31:0] is unused
+
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":113:22:113:27|Input port bits 23 to 22 of PWDATA[31:0] are unused
+
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\framemask.v":20:15:20:26|Input write_enable is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\framemask.v":21:21:21:24|Input addr is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\framemask.v":22:22:22:25|Input data is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\framemask.v":24:21:24:29|Input pixel_row is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\framemask.v":25:21:25:29|Input pixel_col is unused
+@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":460:4:460:9|Trying to extract state machine for register sub_state
+@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":460:4:460:9|Trying to extract state machine for register main_state
+@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\adc_controller.v":183:4:183:9|Trying to extract state machine for register adc_state
+Extracted state machine for register adc_state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":217:0:217:4|Input port bits 23 to 12 of PADDR[23:0] are unused
+
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":208:0:208:6|Input PRESETN is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":210:0:210:3|Input PCLK is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":356:0:356:7|Input PRDATAS1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":363:0:363:7|Input PRDATAS2 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":370:0:370:7|Input PRDATAS3 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":377:0:377:7|Input PRDATAS4 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":384:0:384:7|Input PRDATAS5 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":391:0:391:7|Input PRDATAS6 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:7|Input PRDATAS7 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":405:0:405:7|Input PRDATAS8 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":412:0:412:7|Input PRDATAS9 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":419:0:419:8|Input PRDATAS10 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":426:0:426:8|Input PRDATAS11 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":433:0:433:8|Input PRDATAS12 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":440:0:440:8|Input PRDATAS13 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":447:0:447:8|Input PRDATAS14 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":454:0:454:8|Input PRDATAS15 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":458:0:458:7|Input PREADYS1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":460:0:460:7|Input PREADYS2 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":462:0:462:7|Input PREADYS3 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":464:0:464:7|Input PREADYS4 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":466:0:466:7|Input PREADYS5 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":468:0:468:7|Input PREADYS6 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":470:0:470:7|Input PREADYS7 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":472:0:472:7|Input PREADYS8 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":474:0:474:7|Input PREADYS9 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":476:0:476:8|Input PREADYS10 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":478:0:478:8|Input PREADYS11 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":480:0:480:8|Input PREADYS12 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":482:0:482:8|Input PREADYS13 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":484:0:484:8|Input PREADYS14 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":486:0:486:8|Input PREADYS15 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":490:0:490:8|Input PSLVERRS1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":492:0:492:8|Input PSLVERRS2 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":494:0:494:8|Input PSLVERRS3 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":496:0:496:8|Input PSLVERRS4 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":498:0:498:8|Input PSLVERRS5 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":500:0:500:8|Input PSLVERRS6 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":502:0:502:8|Input PSLVERRS7 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":504:0:504:8|Input PSLVERRS8 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":506:0:506:8|Input PSLVERRS9 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":508:0:508:9|Input PSLVERRS10 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":510:0:510:9|Input PSLVERRS11 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":512:0:512:9|Input PSLVERRS12 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":514:0:514:9|Input PSLVERRS13 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":516:0:516:9|Input PSLVERRS14 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":518:0:518:9|Input PSLVERRS15 is unused
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v":40:0:40:5|Input port bit 0 of HTRANS[1:0] is unused
+
+@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v":152:0:152:5|Trying to extract state machine for register CAHBtoAPB3OIl
+Extracted state machine for register CAHBtoAPB3OIl
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":646:0:646:5|Trying to extract state machine for register CAHBtoAPB3IOI
+Extracted state machine for register CAHBtoAPB3IOI
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":735:0:735:8|Input port bit 0 of HTRANS_M0[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":800:0:800:8|Input port bit 0 of HTRANS_M1[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":858:0:858:7|Input port bit 1 of HRESP_S0[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":934:0:934:7|Input port bit 1 of HRESP_S1[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1010:0:1010:7|Input port bit 1 of HRESP_S2[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1086:0:1086:7|Input port bit 1 of HRESP_S3[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1162:0:1162:7|Input port bit 1 of HRESP_S4[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1238:0:1238:7|Input port bit 1 of HRESP_S5[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1314:0:1314:7|Input port bit 1 of HRESP_S6[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1390:0:1390:7|Input port bit 1 of HRESP_S7[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1466:0:1466:7|Input port bit 1 of HRESP_S8[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1542:0:1542:7|Input port bit 1 of HRESP_S9[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1618:0:1618:8|Input port bit 1 of HRESP_S10[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1694:0:1694:8|Input port bit 1 of HRESP_S11[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1770:0:1770:8|Input port bit 1 of HRESP_S12[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1846:0:1846:8|Input port bit 1 of HRESP_S13[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1922:0:1922:8|Input port bit 1 of HRESP_S14[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":1998:0:1998:8|Input port bit 1 of HRESP_S15[1:0] is unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":2074:0:2074:8|Input port bit 1 of HRESP_SHG[1:0] is unused
+
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":751:0:751:8|Input HBURST_M0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":758:0:758:7|Input HPROT_M0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":816:0:816:8|Input HBURST_M1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":823:0:823:7|Input HPROT_M1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":111:0:111:8|Input HWDATA_M0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":173:0:173:8|Input HRDATA_S0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":175:0:175:11|Input HREADYOUT_S0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":177:0:177:7|Input HRESP_S0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":223:0:223:8|Input HRDATA_S1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":225:0:225:11|Input HREADYOUT_S1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":227:0:227:7|Input HRESP_S1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":273:0:273:8|Input HRDATA_S2 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":275:0:275:11|Input HREADYOUT_S2 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":277:0:277:7|Input HRESP_S2 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":323:0:323:8|Input HRDATA_S3 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":325:0:325:11|Input HREADYOUT_S3 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":327:0:327:7|Input HRESP_S3 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":373:0:373:8|Input HRDATA_S4 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":375:0:375:11|Input HREADYOUT_S4 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":377:0:377:7|Input HRESP_S4 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":523:0:523:8|Input HRDATA_S7 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":525:0:525:11|Input HREADYOUT_S7 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":527:0:527:7|Input HRESP_S7 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":573:0:573:8|Input HRDATA_S8 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":575:0:575:11|Input HREADYOUT_S8 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":577:0:577:7|Input HRESP_S8 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":623:0:623:8|Input HRDATA_S9 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":625:0:625:11|Input HREADYOUT_S9 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":627:0:627:7|Input HRESP_S9 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":673:0:673:9|Input HRDATA_S10 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":675:0:675:12|Input HREADYOUT_S10 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":677:0:677:8|Input HRESP_S10 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":723:0:723:9|Input HRDATA_S11 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":725:0:725:12|Input HREADYOUT_S11 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":727:0:727:8|Input HRESP_S11 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":773:0:773:9|Input HRDATA_S12 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":775:0:775:12|Input HREADYOUT_S12 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":777:0:777:8|Input HRESP_S12 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":823:0:823:9|Input HRDATA_S13 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":825:0:825:12|Input HREADYOUT_S13 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":827:0:827:8|Input HRESP_S13 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":873:0:873:9|Input HRDATA_S14 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":875:0:875:12|Input HREADYOUT_S14 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":877:0:877:8|Input HRESP_S14 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":923:0:923:9|Input HRDATA_S15 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":925:0:925:12|Input HREADYOUT_S15 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":927:0:927:8|Input HRESP_S15 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":973:0:973:9|Input HRDATA_SHG is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":975:0:975:12|Input HREADYOUT_SHG is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":977:0:977:8|Input HRESP_SHG is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v":60:0:60:9|Input CAHBLTl0O0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v":67:0:67:9|Input CAHBLTO1O0 is unused
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":37:0:37:9|Input port bits 31 to 12 of CAHBLTI0OI[31:0] are unused
+
+@W: CL247 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":60:0:60:9|Input port bit 0 of CAHBLTI1OI[1:0] is unused
+
+@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Trying to extract state machine for register CAHBLTllOI
+Extracted state machine for register CAHBLTllOI
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":106:0:106:9|Input port bits 16 to 7 of CAHBLTIIII[16:0] are unused
+
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":106:0:106:9|Input port bits 4 to 0 of CAHBLTIIII[16:0] are unused
+
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":113:0:113:9|Input port bits 16 to 7 of CAHBLTlIII[16:0] are unused
+
+@W: CL246 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":113:0:113:9|Input port bits 4 to 0 of CAHBLTlIII[16:0] are unused
+
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":117:0:117:9|Input CAHBLTIlII is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":119:0:119:9|Input CAHBLTllII is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":184:0:184:8|Input HRDATA_S0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":186:0:186:11|Input HREADYOUT_S0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":193:0:193:8|Input HRDATA_S1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":195:0:195:11|Input HREADYOUT_S1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":202:0:202:8|Input HRDATA_S2 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":204:0:204:11|Input HREADYOUT_S2 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":211:0:211:8|Input HRDATA_S3 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":213:0:213:11|Input HREADYOUT_S3 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":220:0:220:8|Input HRDATA_S4 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":222:0:222:11|Input HREADYOUT_S4 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":247:0:247:8|Input HRDATA_S7 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":249:0:249:11|Input HREADYOUT_S7 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":256:0:256:8|Input HRDATA_S8 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":258:0:258:11|Input HREADYOUT_S8 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":265:0:265:8|Input HRDATA_S9 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":267:0:267:11|Input HREADYOUT_S9 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":274:0:274:9|Input HRDATA_S10 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":276:0:276:12|Input HREADYOUT_S10 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":283:0:283:9|Input HRDATA_S11 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":285:0:285:12|Input HREADYOUT_S11 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":292:0:292:9|Input HRDATA_S12 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":294:0:294:12|Input HREADYOUT_S12 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":301:0:301:9|Input HRDATA_S13 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":303:0:303:12|Input HREADYOUT_S13 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":310:0:310:9|Input HRDATA_S14 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":312:0:312:12|Input HREADYOUT_S14 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":319:0:319:9|Input HRDATA_S15 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":321:0:321:12|Input HREADYOUT_S15 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":328:0:328:9|Input HRDATA_SHG is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":330:0:330:12|Input HREADYOUT_SHG is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":332:0:332:9|Input CAHBLTlIlI is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":106:0:106:9|Input CAHBLTIIII is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":113:0:113:9|Input CAHBLTlIII is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":117:0:117:9|Input CAHBLTIlII is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":119:0:119:9|Input CAHBLTllII is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":184:0:184:8|Input HRDATA_S0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":186:0:186:11|Input HREADYOUT_S0 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":193:0:193:8|Input HRDATA_S1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":195:0:195:11|Input HREADYOUT_S1 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":202:0:202:8|Input HRDATA_S2 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":204:0:204:11|Input HREADYOUT_S2 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":211:0:211:8|Input HRDATA_S3 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":213:0:213:11|Input HREADYOUT_S3 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":220:0:220:8|Input HRDATA_S4 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":222:0:222:11|Input HREADYOUT_S4 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":229:0:229:8|Input HRDATA_S5 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":231:0:231:11|Input HREADYOUT_S5 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":238:0:238:8|Input HRDATA_S6 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":240:0:240:11|Input HREADYOUT_S6 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":247:0:247:8|Input HRDATA_S7 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":249:0:249:11|Input HREADYOUT_S7 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":256:0:256:8|Input HRDATA_S8 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":258:0:258:11|Input HREADYOUT_S8 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":265:0:265:8|Input HRDATA_S9 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":267:0:267:11|Input HREADYOUT_S9 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":274:0:274:9|Input HRDATA_S10 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":276:0:276:12|Input HREADYOUT_S10 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":283:0:283:9|Input HRDATA_S11 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":285:0:285:12|Input HREADYOUT_S11 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":292:0:292:9|Input HRDATA_S12 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":294:0:294:12|Input HREADYOUT_S12 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":301:0:301:9|Input HRDATA_S13 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":303:0:303:12|Input HREADYOUT_S13 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":310:0:310:9|Input HRDATA_S14 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":312:0:312:12|Input HREADYOUT_S14 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":319:0:319:9|Input HRDATA_S15 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":321:0:321:12|Input HREADYOUT_S15 is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":328:0:328:9|Input HRDATA_SHG is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":330:0:330:12|Input HREADYOUT_SHG is unused
+@W: CL159 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":332:0:332:9|Input CAHBLTlIlI is unused

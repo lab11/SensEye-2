@@ -1,420 +1,78 @@
 
-fsm_encoding {27494049421} onehot
+fsm_encoding {2649404944} onehot
 
-fsm_state_encoding {27494049421} CAHBLTl01 {00000001}
+fsm_state_encoding {2649404944} CAHBLTl01 {00000001}
 
-fsm_state_encoding {27494049421} CAHBLTO11 {00000010}
+fsm_state_encoding {2649404944} CAHBLTO11 {00000010}
 
-fsm_state_encoding {27494049421} CAHBLTI11 {00000100}
+fsm_state_encoding {2649404944} CAHBLTI11 {00000100}
 
-fsm_state_encoding {27494049421} CAHBLTl11 {00001000}
+fsm_state_encoding {2649404944} CAHBLTl11 {00001000}
 
-fsm_state_encoding {27494049421} CAHBLTOOOI {00010000}
+fsm_state_encoding {2649404944} CAHBLTOOOI {00010000}
 
-fsm_state_encoding {27494049421} CAHBLTIOOI {00100000}
+fsm_state_encoding {2649404944} CAHBLTIOOI {00100000}
 
-fsm_state_encoding {27494049421} CAHBLTlOOI {01000000}
+fsm_state_encoding {2649404944} CAHBLTlOOI {01000000}
 
-fsm_state_encoding {27494049421} CAHBLTOIOI {10000000}
+fsm_state_encoding {2649404944} CAHBLTOIOI {10000000}
 
-fsm_registers {27494049421} {CAHBLTllOI[7]}  {CAHBLTllOI[6]}  {CAHBLTllOI[5]}  {CAHBLTllOI[4]}  {CAHBLTllOI[3]}  {CAHBLTllOI[2]}  {CAHBLTllOI[1]}  {CAHBLTllOI[0]} 
+fsm_registers {2649404944} {CAHBLTllOI[7]}  {CAHBLTllOI[6]}  {CAHBLTllOI[5]}  {CAHBLTllOI[4]}  {CAHBLTllOI[3]}  {CAHBLTllOI[2]}  {CAHBLTllOI[1]}  {CAHBLTllOI[0]} 
 
-fsm_encoding {27494049421} onehot
+fsm_encoding {2649404944} onehot
 
-fsm_state_encoding {27494049421} CAHBLTl01 {00000001}
+fsm_state_encoding {2649404944} CAHBLTl01 {00000001}
 
-fsm_state_encoding {27494049421} CAHBLTO11 {00000010}
+fsm_state_encoding {2649404944} CAHBLTO11 {00000010}
 
-fsm_state_encoding {27494049421} CAHBLTI11 {00000100}
+fsm_state_encoding {2649404944} CAHBLTI11 {00000100}
 
-fsm_state_encoding {27494049421} CAHBLTl11 {00001000}
+fsm_state_encoding {2649404944} CAHBLTl11 {00001000}
 
-fsm_state_encoding {27494049421} CAHBLTOOOI {00010000}
+fsm_state_encoding {2649404944} CAHBLTOOOI {00010000}
 
-fsm_state_encoding {27494049421} CAHBLTIOOI {00100000}
+fsm_state_encoding {2649404944} CAHBLTIOOI {00100000}
 
-fsm_state_encoding {27494049421} CAHBLTlOOI {01000000}
+fsm_state_encoding {2649404944} CAHBLTlOOI {01000000}
 
-fsm_state_encoding {27494049421} CAHBLTOIOI {10000000}
+fsm_state_encoding {2649404944} CAHBLTOIOI {10000000}
 
-fsm_registers {27494049421} {CAHBLTllOI[7]}  {CAHBLTllOI[6]}  {CAHBLTllOI[5]}  {CAHBLTllOI[4]}  {CAHBLTllOI[3]}  {CAHBLTllOI[2]}  {CAHBLTllOI[1]}  {CAHBLTllOI[0]} 
+fsm_registers {2649404944} {CAHBLTllOI[7]}  {CAHBLTllOI[6]}  {CAHBLTllOI[5]}  {CAHBLTllOI[4]}  {CAHBLTllOI[3]}  {CAHBLTllOI[2]}  {CAHBLTllOI[1]}  {CAHBLTllOI[0]} 
 
-fsm_encoding {5646064620} onehot
+fsm_encoding {564606463} onehot
 
-fsm_state_encoding {5646064620} CAHBtoAPB3l0 {00001}
+fsm_state_encoding {564606463} CAHBtoAPB3l0 {00001}
 
-fsm_state_encoding {5646064620} CAHBtoAPB3O1 {00010}
+fsm_state_encoding {564606463} CAHBtoAPB3O1 {00010}
 
-fsm_state_encoding {5646064620} CAHBtoAPB3I1 {00100}
+fsm_state_encoding {564606463} CAHBtoAPB3I1 {00100}
 
-fsm_state_encoding {5646064620} CAHBtoAPB3l1 {01000}
+fsm_state_encoding {564606463} CAHBtoAPB3l1 {01000}
 
-fsm_state_encoding {5646064620} CAHBtoAPB3OOI {10000}
+fsm_state_encoding {564606463} CAHBtoAPB3OOI {10000}
 
-fsm_registers {5646064620} {CAHBtoAPB3IOI[4]}  {CAHBtoAPB3IOI[3]}  {CAHBtoAPB3IOI[2]}  {CAHBtoAPB3IOI[1]}  {CAHBtoAPB3IOI[0]} 
+fsm_registers {564606463} {CAHBtoAPB3IOI[4]}  {CAHBtoAPB3IOI[3]}  {CAHBtoAPB3IOI[2]}  {CAHBtoAPB3IOI[1]}  {CAHBtoAPB3IOI[0]} 
 
-fsm_encoding {6152015219} sequential
+fsm_encoding {615201522} sequential
 
-fsm_state_encoding {6152015219} CAHBtoAPB3l0 {00}
+fsm_state_encoding {615201522} CAHBtoAPB3l0 {00}
 
-fsm_state_encoding {6152015219} CAHBtoAPB3OOI {01}
+fsm_state_encoding {615201522} CAHBtoAPB3OOI {01}
 
-fsm_state_encoding {6152015219} CAHBtoAPB3lOl {10}
+fsm_state_encoding {615201522} CAHBtoAPB3lOl {10}
 
-fsm_registers {6152015219} {CAHBtoAPB3OIl[1]}  {CAHBtoAPB3OIl[0]} 
+fsm_registers {615201522} {CAHBtoAPB3OIl[1]}  {CAHBtoAPB3OIl[0]} 
 
-fsm_encoding {14247024717} onehot
+fsm_encoding {1018341831} onehot
 
-fsm_state_encoding {14247024717} 00000 {0000000000000001}
+fsm_state_encoding {1018341831} 000 {00000}
 
-fsm_state_encoding {14247024717} 00001 {0000000000000010}
+fsm_state_encoding {1018341831} 001 {00011}
 
-fsm_state_encoding {14247024717} 00010 {0000000000000100}
+fsm_state_encoding {1018341831} 010 {00101}
 
-fsm_state_encoding {14247024717} 00011 {0000000000001000}
+fsm_state_encoding {1018341831} 011 {01001}
 
-fsm_state_encoding {14247024717} 00101 {0000000000010000}
+fsm_state_encoding {1018341831} 100 {10001}
 
-fsm_state_encoding {14247024717} 00110 {0000000000100000}
-
-fsm_state_encoding {14247024717} 00111 {0000000001000000}
-
-fsm_state_encoding {14247024717} 01000 {0000000010000000}
-
-fsm_state_encoding {14247024717} 01010 {0000000100000000}
-
-fsm_state_encoding {14247024717} 01011 {0000001000000000}
-
-fsm_state_encoding {14247024717} 01100 {0000010000000000}
-
-fsm_state_encoding {14247024717} 01101 {0000100000000000}
-
-fsm_state_encoding {14247024717} 01110 {0001000000000000}
-
-fsm_state_encoding {14247024717} 01111 {0010000000000000}
-
-fsm_state_encoding {14247024717} 10000 {0100000000000000}
-
-fsm_state_encoding {14247024717} 10001 {1000000000000000}
-
-fsm_registers {14247024717} {substate[15]}  {substate[14]}  {substate[13]}  {substate[12]}  {substate[11]}  {substate[10]}  {substate[9]}  {substate[8]}  {substate[7]}  {substate[6]}  {substate[5]}  {substate[4]}  {substate[3]}  {substate[2]}  {substate[1]}  {substate[0]} 
-
-fsm_encoding {14247024718} onehot
-
-fsm_state_encoding {14247024718} 0000 {0000000000001}
-
-fsm_state_encoding {14247024718} 0001 {0000000000010}
-
-fsm_state_encoding {14247024718} 0010 {0000000000100}
-
-fsm_state_encoding {14247024718} 0011 {0000000001000}
-
-fsm_state_encoding {14247024718} 0100 {0000000010000}
-
-fsm_state_encoding {14247024718} 0101 {0000000100000}
-
-fsm_state_encoding {14247024718} 0110 {0000001000000}
-
-fsm_state_encoding {14247024718} 0111 {0000010000000}
-
-fsm_state_encoding {14247024718} 1000 {0000100000000}
-
-fsm_state_encoding {14247024718} 1001 {0001000000000}
-
-fsm_state_encoding {14247024718} 1010 {0010000000000}
-
-fsm_state_encoding {14247024718} 1011 {0100000000000}
-
-fsm_state_encoding {14247024718} 1100 {1000000000000}
-
-fsm_registers {14247024718} {state[12]}  {state[11]}  {state[10]}  {state[9]}  {state[8]}  {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
-
-fsm_encoding {14247024717} onehot
-
-fsm_state_encoding {14247024717} 00000 {0000000000000001}
-
-fsm_state_encoding {14247024717} 00001 {0000000000000010}
-
-fsm_state_encoding {14247024717} 00010 {0000000000000100}
-
-fsm_state_encoding {14247024717} 00011 {0000000000001000}
-
-fsm_state_encoding {14247024717} 00101 {0000000000010000}
-
-fsm_state_encoding {14247024717} 00110 {0000000000100000}
-
-fsm_state_encoding {14247024717} 00111 {0000000001000000}
-
-fsm_state_encoding {14247024717} 01000 {0000000010000000}
-
-fsm_state_encoding {14247024717} 01010 {0000000100000000}
-
-fsm_state_encoding {14247024717} 01011 {0000001000000000}
-
-fsm_state_encoding {14247024717} 01100 {0000010000000000}
-
-fsm_state_encoding {14247024717} 01101 {0000100000000000}
-
-fsm_state_encoding {14247024717} 01110 {0001000000000000}
-
-fsm_state_encoding {14247024717} 01111 {0010000000000000}
-
-fsm_state_encoding {14247024717} 10000 {0100000000000000}
-
-fsm_state_encoding {14247024717} 10001 {1000000000000000}
-
-fsm_registers {14247024717} {substate[15]}  {substate[14]}  {substate[13]}  {substate[12]}  {substate[11]}  {substate[10]}  {substate[9]}  {substate[8]}  {substate[7]}  {substate[6]}  {substate[5]}  {substate[4]}  {substate[3]}  {substate[2]}  {substate[1]}  {substate[0]} 
-
-fsm_encoding {14247024718} onehot
-
-fsm_state_encoding {14247024718} 0000 {0000000000001}
-
-fsm_state_encoding {14247024718} 0001 {0000000000010}
-
-fsm_state_encoding {14247024718} 0010 {0000000000100}
-
-fsm_state_encoding {14247024718} 0011 {0000000001000}
-
-fsm_state_encoding {14247024718} 0100 {0000000010000}
-
-fsm_state_encoding {14247024718} 0101 {0000000100000}
-
-fsm_state_encoding {14247024718} 0110 {0000001000000}
-
-fsm_state_encoding {14247024718} 0111 {0000010000000}
-
-fsm_state_encoding {14247024718} 1000 {0000100000000}
-
-fsm_state_encoding {14247024718} 1001 {0001000000000}
-
-fsm_state_encoding {14247024718} 1010 {0010000000000}
-
-fsm_state_encoding {14247024718} 1011 {0100000000000}
-
-fsm_state_encoding {14247024718} 1100 {1000000000000}
-
-fsm_registers {14247024718} {state[12]}  {state[11]}  {state[10]}  {state[9]}  {state[8]}  {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
-
-fsm_encoding {15649064916} onehot
-
-fsm_state_encoding {15649064916} 000 {00000}
-
-fsm_state_encoding {15649064916} 001 {00011}
-
-fsm_state_encoding {15649064916} 010 {00101}
-
-fsm_state_encoding {15649064916} 011 {01001}
-
-fsm_state_encoding {15649064916} 100 {10001}
-
-fsm_registers {15649064916} {fifoRdenState€0›€0›[4]}  {fifoRdenState€0›€0›[3]}  {fifoRdenState€0›€0›[2]}  {fifoRdenState€0›€0›[1]}  {fifoRdenState€0›€0›_i[0]} 
-
-fsm_encoding {15649064915} onehot
-
-fsm_state_encoding {15649064915} 000 {00000}
-
-fsm_state_encoding {15649064915} 001 {00011}
-
-fsm_state_encoding {15649064915} 010 {00101}
-
-fsm_state_encoding {15649064915} 011 {01001}
-
-fsm_state_encoding {15649064915} 100 {10001}
-
-fsm_registers {15649064915} {fifoRdenState€0›€1›[4]}  {fifoRdenState€0›€1›[3]}  {fifoRdenState€0›€1›[2]}  {fifoRdenState€0›€1›[1]}  {fifoRdenState€0›€1›_i[0]} 
-
-fsm_encoding {15649064914} onehot
-
-fsm_state_encoding {15649064914} 000 {00000}
-
-fsm_state_encoding {15649064914} 001 {00011}
-
-fsm_state_encoding {15649064914} 010 {00101}
-
-fsm_state_encoding {15649064914} 011 {01001}
-
-fsm_state_encoding {15649064914} 100 {10001}
-
-fsm_registers {15649064914} {fifoRdenState€0›€2›[4]}  {fifoRdenState€0›€2›[3]}  {fifoRdenState€0›€2›[2]}  {fifoRdenState€0›€2›[1]}  {fifoRdenState€0›€2›_i[0]} 
-
-fsm_encoding {15649064913} onehot
-
-fsm_state_encoding {15649064913} 000 {00000}
-
-fsm_state_encoding {15649064913} 001 {00011}
-
-fsm_state_encoding {15649064913} 010 {00101}
-
-fsm_state_encoding {15649064913} 011 {01001}
-
-fsm_state_encoding {15649064913} 100 {10001}
-
-fsm_registers {15649064913} {fifoRdenState€0›€3›[4]}  {fifoRdenState€0›€3›[3]}  {fifoRdenState€0›€3›[2]}  {fifoRdenState€0›€3›[1]}  {fifoRdenState€0›€3›_i[0]} 
-
-fsm_encoding {15649064912} onehot
-
-fsm_state_encoding {15649064912} 000 {00000}
-
-fsm_state_encoding {15649064912} 001 {00011}
-
-fsm_state_encoding {15649064912} 010 {00101}
-
-fsm_state_encoding {15649064912} 011 {01001}
-
-fsm_state_encoding {15649064912} 100 {10001}
-
-fsm_registers {15649064912} {fifoRdenState€1›€0›[4]}  {fifoRdenState€1›€0›[3]}  {fifoRdenState€1›€0›[2]}  {fifoRdenState€1›€0›[1]}  {fifoRdenState€1›€0›_i[0]} 
-
-fsm_encoding {15649064911} onehot
-
-fsm_state_encoding {15649064911} 000 {00000}
-
-fsm_state_encoding {15649064911} 001 {00011}
-
-fsm_state_encoding {15649064911} 010 {00101}
-
-fsm_state_encoding {15649064911} 011 {01001}
-
-fsm_state_encoding {15649064911} 100 {10001}
-
-fsm_registers {15649064911} {fifoRdenState€1›€1›[4]}  {fifoRdenState€1›€1›[3]}  {fifoRdenState€1›€1›[2]}  {fifoRdenState€1›€1›[1]}  {fifoRdenState€1›€1›_i[0]} 
-
-fsm_encoding {15649064910} onehot
-
-fsm_state_encoding {15649064910} 000 {00000}
-
-fsm_state_encoding {15649064910} 001 {00011}
-
-fsm_state_encoding {15649064910} 010 {00101}
-
-fsm_state_encoding {15649064910} 011 {01001}
-
-fsm_state_encoding {15649064910} 100 {10001}
-
-fsm_registers {15649064910} {fifoRdenState€1›€2›[4]}  {fifoRdenState€1›€2›[3]}  {fifoRdenState€1›€2›[2]}  {fifoRdenState€1›€2›[1]}  {fifoRdenState€1›€2›_i[0]} 
-
-fsm_encoding {1564906499} onehot
-
-fsm_state_encoding {1564906499} 000 {00000}
-
-fsm_state_encoding {1564906499} 001 {00011}
-
-fsm_state_encoding {1564906499} 010 {00101}
-
-fsm_state_encoding {1564906499} 011 {01001}
-
-fsm_state_encoding {1564906499} 100 {10001}
-
-fsm_registers {1564906499} {fifoRdenState€1›€3›[4]}  {fifoRdenState€1›€3›[3]}  {fifoRdenState€1›€3›[2]}  {fifoRdenState€1›€3›[1]}  {fifoRdenState€1›€3›_i[0]} 
-
-fsm_encoding {1564906498} onehot
-
-fsm_state_encoding {1564906498} 000 {00000}
-
-fsm_state_encoding {1564906498} 001 {00011}
-
-fsm_state_encoding {1564906498} 010 {00101}
-
-fsm_state_encoding {1564906498} 011 {01001}
-
-fsm_state_encoding {1564906498} 100 {10001}
-
-fsm_registers {1564906498} {fifoRdenState€2›€0›[4]}  {fifoRdenState€2›€0›[3]}  {fifoRdenState€2›€0›[2]}  {fifoRdenState€2›€0›[1]}  {fifoRdenState€2›€0›_i[0]} 
-
-fsm_encoding {1564906497} onehot
-
-fsm_state_encoding {1564906497} 000 {00000}
-
-fsm_state_encoding {1564906497} 001 {00011}
-
-fsm_state_encoding {1564906497} 010 {00101}
-
-fsm_state_encoding {1564906497} 011 {01001}
-
-fsm_state_encoding {1564906497} 100 {10001}
-
-fsm_registers {1564906497} {fifoRdenState€2›€1›[4]}  {fifoRdenState€2›€1›[3]}  {fifoRdenState€2›€1›[2]}  {fifoRdenState€2›€1›[1]}  {fifoRdenState€2›€1›_i[0]} 
-
-fsm_encoding {1564906496} onehot
-
-fsm_state_encoding {1564906496} 000 {00000}
-
-fsm_state_encoding {1564906496} 001 {00011}
-
-fsm_state_encoding {1564906496} 010 {00101}
-
-fsm_state_encoding {1564906496} 011 {01001}
-
-fsm_state_encoding {1564906496} 100 {10001}
-
-fsm_registers {1564906496} {fifoRdenState€2›€2›[4]}  {fifoRdenState€2›€2›[3]}  {fifoRdenState€2›€2›[2]}  {fifoRdenState€2›€2›[1]}  {fifoRdenState€2›€2›_i[0]} 
-
-fsm_encoding {1564906495} onehot
-
-fsm_state_encoding {1564906495} 000 {00000}
-
-fsm_state_encoding {1564906495} 001 {00011}
-
-fsm_state_encoding {1564906495} 010 {00101}
-
-fsm_state_encoding {1564906495} 011 {01001}
-
-fsm_state_encoding {1564906495} 100 {10001}
-
-fsm_registers {1564906495} {fifoRdenState€2›€3›[4]}  {fifoRdenState€2›€3›[3]}  {fifoRdenState€2›€3›[2]}  {fifoRdenState€2›€3›[1]}  {fifoRdenState€2›€3›_i[0]} 
-
-fsm_encoding {1564906494} onehot
-
-fsm_state_encoding {1564906494} 000 {00000}
-
-fsm_state_encoding {1564906494} 001 {00011}
-
-fsm_state_encoding {1564906494} 010 {00101}
-
-fsm_state_encoding {1564906494} 011 {01001}
-
-fsm_state_encoding {1564906494} 100 {10001}
-
-fsm_registers {1564906494} {fifoRdenState€3›€0›[4]}  {fifoRdenState€3›€0›[3]}  {fifoRdenState€3›€0›[2]}  {fifoRdenState€3›€0›[1]}  {fifoRdenState€3›€0›_i[0]} 
-
-fsm_encoding {1564906493} onehot
-
-fsm_state_encoding {1564906493} 000 {00000}
-
-fsm_state_encoding {1564906493} 001 {00011}
-
-fsm_state_encoding {1564906493} 010 {00101}
-
-fsm_state_encoding {1564906493} 011 {01001}
-
-fsm_state_encoding {1564906493} 100 {10001}
-
-fsm_registers {1564906493} {fifoRdenState€3›€1›[4]}  {fifoRdenState€3›€1›[3]}  {fifoRdenState€3›€1›[2]}  {fifoRdenState€3›€1›[1]}  {fifoRdenState€3›€1›_i[0]} 
-
-fsm_encoding {1564906492} onehot
-
-fsm_state_encoding {1564906492} 000 {00000}
-
-fsm_state_encoding {1564906492} 001 {00011}
-
-fsm_state_encoding {1564906492} 010 {00101}
-
-fsm_state_encoding {1564906492} 011 {01001}
-
-fsm_state_encoding {1564906492} 100 {10001}
-
-fsm_registers {1564906492} {fifoRdenState€3›€2›[4]}  {fifoRdenState€3›€2›[3]}  {fifoRdenState€3›€2›[2]}  {fifoRdenState€3›€2›[1]}  {fifoRdenState€3›€2›_i[0]} 
-
-fsm_encoding {1564906491} onehot
-
-fsm_state_encoding {1564906491} 000 {00000}
-
-fsm_state_encoding {1564906491} 001 {00011}
-
-fsm_state_encoding {1564906491} 010 {00101}
-
-fsm_state_encoding {1564906491} 011 {01001}
-
-fsm_state_encoding {1564906491} 100 {10001}
-
-fsm_registers {1564906491} {fifoRdenState€3›€3›[4]}  {fifoRdenState€3›€3›[3]}  {fifoRdenState€3›€3›[2]}  {fifoRdenState€3›€3›[1]}  {fifoRdenState€3›€3›_i[0]} 
+fsm_registers {1018341831} {adc_state_1[4]}  {adc_state_1[3]}  {adc_state_1[2]}  {adc_state_1[1]}  {adc_state_1_i[0]} 

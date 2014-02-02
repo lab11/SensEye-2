@@ -2,7 +2,7 @@
 <device>
   <name>TOPLEVEL</name>
   <version>1.0</version>
-  <description>CMSIS description for TOPLEVEL.  Created by Actel SmartDesign on Wed Jan 15 15:37:21 2014</description>
+  <description>CMSIS description for TOPLEVEL.  Created by Actel SmartDesign on Sun Feb 02 15:01:54 2014</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>
@@ -1855,7 +1855,7 @@
       <baseAddress>0x40050000</baseAddress>
     </peripheral>
     <peripheral>
-      <name>stonyman_apb3_0</name>
+      <name>imager_0</name>
       <baseAddress>0x40060000</baseAddress>
     </peripheral>
     <peripheral>

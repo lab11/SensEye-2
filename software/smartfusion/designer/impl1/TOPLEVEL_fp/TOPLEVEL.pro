@@ -1,17 +1,17 @@
 <project name="TOPLEVEL" version="1.1">
     <ProjectDirectory>
-        \\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp
+        C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
     </View>
     <LogFile>
-        \\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp\TOPLEVEL.log
+        C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp\TOPLEVEL.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
-    <programmer status="enable" type="" revision="UndefRev" connection="usb2.0">
+    <programmer status="enable" type="FlashPro4" revision="UndefRev" connection="usb2.0">
         <name>
             81466
         </name>
@@ -59,7 +59,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                \\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pdb
+                C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pdb
             </filename>
             <local>
                 projectData\TOPLEVEL.pdb

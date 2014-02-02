@@ -1,0 +1,928 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.2 SP1 11.2.1.8
+# Family: SmartFusion , Die: A2F500M3G , Package: 484 FBGA
+# Date generated: Sun Feb 02 12:17:42 2014 
+
+
+# 
+# User Groups
+# 
+
+define_group -name EMC
+
+define_group -name UART_1
+
+define_group -name UART_0
+
+define_group -name I2C_0
+
+define_group -name SPI_1
+
+define_group -name SPI_0
+
+define_group -name I2C_1
+
+define_group -name MAC_RMII_PHY_MGMT_PADs
+
+define_group -name MAC_RMII_DATA_PADs
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+set_io MSS_RESET_N        \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -DIRECTION INPUT
+
+
+# User Group EMC
+
+set_io {EMC_AB[0]}     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[1]}     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[2]}     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[3]}     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[4]}     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[5]}     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[6]}     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[7]}     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[8]}     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[9]}     \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[10]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[11]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[12]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[13]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[14]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[15]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[16]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[17]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[18]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[19]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[20]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[21]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[22]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[23]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[24]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_AB[25]}    \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_BYTEN[0]}  \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_BYTEN[1]}  \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io EMC_CLK         \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io EMC_CS0_N       \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io EMC_CS1_N       \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io {EMC_DB[0]}        \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[1]}        \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[2]}        \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[3]}        \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[4]}        \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[5]}        \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[6]}        \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[7]}        \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[8]}        \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[9]}        \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[10]}       \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[11]}       \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[12]}       \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[13]}       \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[14]}       \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io {EMC_DB[15]}       \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME EMC       \
+    -DIRECTION INOUT
+
+
+set_io EMC_OEN0_N      \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io EMC_OEN1_N      \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+set_io EMC_RW_N        \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME EMC    \
+    -DIRECTION OUTPUT
+
+
+# User Group I2C_0
+
+set_io I2C_0_SCL          \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME I2C_0     \
+    -DIRECTION INOUT
+
+
+set_io I2C_0_SDA          \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME I2C_0     \
+    -DIRECTION INOUT
+
+
+# User Group I2C_1
+
+set_io I2C_1_SCL          \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME I2C_1     \
+    -DIRECTION INOUT
+
+
+set_io I2C_1_SDA          \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME I2C_1     \
+    -DIRECTION INOUT
+
+
+# User Group MAC_RMII_DATA_PADs
+
+set_io MAC_CRSDV                    \
+    -iostd LVTTL                    \
+    -RES_PULL None                  \
+    -SCHMITT_TRIGGER Off            \
+    -GROUP_NAME MAC_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_RXD[0]}                 \
+    -iostd LVTTL                    \
+    -RES_PULL None                  \
+    -SCHMITT_TRIGGER Off            \
+    -GROUP_NAME MAC_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_RXD[1]}                 \
+    -iostd LVTTL                    \
+    -RES_PULL None                  \
+    -SCHMITT_TRIGGER Off            \
+    -GROUP_NAME MAC_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io MAC_RXER                     \
+    -iostd LVTTL                    \
+    -RES_PULL None                  \
+    -SCHMITT_TRIGGER Off            \
+    -GROUP_NAME MAC_RMII_DATA_PADs  \
+    -DIRECTION INPUT
+
+
+set_io {MAC_TXD[0]}                 \
+    -iostd LVTTL                    \
+    -OUT_LOAD 35                    \
+    -RES_PULL None                  \
+    -SKEW Off                       \
+    -SLEW High                      \
+    -GROUP_NAME MAC_RMII_DATA_PADs  \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_TXD[1]}                 \
+    -iostd LVTTL                    \
+    -OUT_LOAD 35                    \
+    -RES_PULL None                  \
+    -SKEW Off                       \
+    -SLEW High                      \
+    -GROUP_NAME MAC_RMII_DATA_PADs  \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_TXEN                     \
+    -iostd LVTTL                    \
+    -OUT_LOAD 35                    \
+    -RES_PULL None                  \
+    -SKEW Off                       \
+    -SLEW High                      \
+    -GROUP_NAME MAC_RMII_DATA_PADs  \
+    -DIRECTION OUTPUT
+
+
+# User Group MAC_RMII_PHY_MGMT_PADs
+
+set_io MAC_MDC                          \
+    -iostd LVTTL                        \
+    -OUT_LOAD 35                        \
+    -RES_PULL None                      \
+    -SKEW Off                           \
+    -SLEW High                          \
+    -GROUP_NAME MAC_RMII_PHY_MGMT_PADs  \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_MDIO                         \
+    -iostd LVTTL                        \
+    -OUT_LOAD 35                        \
+    -RES_PULL None                      \
+    -SCHMITT_TRIGGER Off                \
+    -SKEW Off                           \
+    -SLEW High                          \
+    -GROUP_NAME MAC_RMII_PHY_MGMT_PADs  \
+    -DIRECTION INOUT
+
+
+# User Group SPI_0
+
+set_io SPI_0_CLK          \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME SPI_0     \
+    -DIRECTION INOUT
+
+
+set_io SPI_0_DI           \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -GROUP_NAME SPI_0     \
+    -DIRECTION INPUT
+
+
+set_io SPI_0_DO        \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME SPI_0  \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_0_SS           \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME SPI_0     \
+    -DIRECTION INOUT
+
+
+# User Group SPI_1
+
+set_io SPI_1_CLK          \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME SPI_1     \
+    -DIRECTION INOUT
+
+
+set_io SPI_1_DI           \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -GROUP_NAME SPI_1     \
+    -DIRECTION INPUT
+
+
+set_io SPI_1_DO        \
+    -iostd LVTTL       \
+    -OUT_LOAD 35       \
+    -RES_PULL None     \
+    -SKEW Off          \
+    -SLEW High         \
+    -GROUP_NAME SPI_1  \
+    -DIRECTION OUTPUT
+
+
+set_io SPI_1_SS           \
+    -iostd LVTTL          \
+    -OUT_LOAD 35          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -SKEW Off             \
+    -SLEW High            \
+    -GROUP_NAME SPI_1     \
+    -DIRECTION INOUT
+
+
+# User Group UART_0
+
+set_io UART_0_RXD         \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -GROUP_NAME UART_0    \
+    -DIRECTION INPUT
+
+
+set_io UART_0_TXD       \
+    -iostd LVTTL        \
+    -OUT_LOAD 35        \
+    -RES_PULL None      \
+    -SKEW Off           \
+    -SLEW High          \
+    -GROUP_NAME UART_0  \
+    -DIRECTION OUTPUT
+
+
+# User Group UART_1
+
+set_io UART_1_RXD         \
+    -iostd LVTTL          \
+    -RES_PULL None        \
+    -SCHMITT_TRIGGER Off  \
+    -GROUP_NAME UART_1    \
+    -DIRECTION INPUT
+
+
+set_io UART_1_TXD       \
+    -iostd LVTTL        \
+    -OUT_LOAD 35        \
+    -RES_PULL None      \
+    -SKEW Off           \
+    -SLEW High          \
+    -GROUP_NAME UART_1  \
+    -DIRECTION OUTPUT
+
+
+
+#
+# Non IO constraints
+#
+
+
+#
+# Old IO constraints, commented out for reference
+#
+
+# set_io EMC_CLK -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io EMC_CS0_N -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io EMC_CS1_N -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io EMC_OEN0_N -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io EMC_OEN1_N -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io EMC_RW_N -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io I2C_0_SCL -GROUP_NAME I2C_0 -DIRECTION INOUT 
+# set_io I2C_0_SDA -GROUP_NAME I2C_0 -DIRECTION INOUT 
+# set_io I2C_1_SCL -GROUP_NAME I2C_1 -DIRECTION INOUT 
+# set_io I2C_1_SDA -GROUP_NAME I2C_1 -DIRECTION INOUT 
+# set_io MAC_CRSDV -GROUP_NAME MAC_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io MAC_RXER -GROUP_NAME MAC_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io MAC_TXEN -GROUP_NAME MAC_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io MAC_MDC -GROUP_NAME MAC_RMII_PHY_MGMT_PADs -DIRECTION OUTPUT 
+# set_io MAC_MDIO -GROUP_NAME MAC_RMII_PHY_MGMT_PADs -DIRECTION INOUT 
+# set_io SPI_0_CLK -GROUP_NAME SPI_0 -DIRECTION INOUT 
+# set_io SPI_0_DI -GROUP_NAME SPI_0 -DIRECTION INPUT 
+# set_io SPI_0_DO -GROUP_NAME SPI_0 -DIRECTION OUTPUT 
+# set_io SPI_0_SS -GROUP_NAME SPI_0 -DIRECTION INOUT 
+# set_io SPI_1_CLK -GROUP_NAME SPI_1 -DIRECTION INOUT 
+# set_io SPI_1_DI -GROUP_NAME SPI_1 -DIRECTION INPUT 
+# set_io SPI_1_DO -GROUP_NAME SPI_1 -DIRECTION OUTPUT 
+# set_io SPI_1_SS -GROUP_NAME SPI_1 -DIRECTION INOUT 
+# set_io UART_0_RXD -GROUP_NAME UART_0 -DIRECTION INPUT 
+# set_io UART_0_TXD -GROUP_NAME UART_0 -DIRECTION OUTPUT 
+# set_io UART_1_RXD -GROUP_NAME UART_1 -DIRECTION INPUT 
+# set_io UART_1_TXD -GROUP_NAME UART_1 -DIRECTION OUTPUT 
+# set_io {EMC_AB[0]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[1]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[2]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[3]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[4]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[5]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[6]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[7]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[8]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[9]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[10]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[11]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[12]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[13]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[14]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[15]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[16]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[17]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[18]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[19]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[20]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[21]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[22]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[23]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[24]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_AB[25]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_BYTEN[0]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_BYTEN[1]} -GROUP_NAME EMC -DIRECTION OUTPUT 
+# set_io {EMC_DB[0]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[1]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[2]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[3]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[4]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[5]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[6]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[7]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[8]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[9]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[10]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[11]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[12]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[13]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[14]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {EMC_DB[15]} -GROUP_NAME EMC -DIRECTION INOUT 
+# set_io {MAC_RXD[0]} -GROUP_NAME MAC_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_RXD[1]} -GROUP_NAME MAC_RMII_DATA_PADs -DIRECTION INPUT 
+# set_io {MAC_TXD[0]} -GROUP_NAME MAC_RMII_DATA_PADs -DIRECTION OUTPUT 
+# set_io {MAC_TXD[1]} -GROUP_NAME MAC_RMII_DATA_PADs -DIRECTION OUTPUT 

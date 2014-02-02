@@ -1,26 +1,28 @@
 FlashPro
-Version: 11.1.3.1
-Release: v11.1 SP3
+Version: 11.2.1.8
+Release: v11.2 SP1
 
-Software Version: 11.1.3.1
-PDB file '\\vmware-host\Shared Folders\lab11 On My
-Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pd\
-b' has been loaded successfully.
-DESIGN : TOPLEVEL;  CHECKSUM : FF1F;  PDB_VERSION : 1.7
+Software Version: 11.2.1.8
+PDB file
+'C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp\TOPLEVEL.\
+pdb' has been loaded successfully.
+DESIGN : TOPLEVEL;  CHECKSUM : 85F2;  PDB_VERSION : 1.7
 Driver : 3.0.0 build 1
-programmer '81466' : Para2Buff
-Opened '\\vmware-host\Shared Folders\lab11 On My
-Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pr\
-o'
-Info: Updating Flash Memory data from file \\vmware-host\Shared Folders\lab11 On My
-      Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\MSS_CORE2\MSS_ENV\
-      M_0\MSS_ENVM_0.efc.
-Info: Updating FPGA Array data from file \\vmware-host\Shared Folders\lab11 On My
-      Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\designer\impl1\TOPLEVEL.fdb.
-PDB file '\\vmware-host\Shared Folders\lab11 On My
-Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pd\
-b' has been loaded successfully.
-DESIGN : TOPLEVEL;  CHECKSUM : 6B76;  PDB_VERSION : 1.7
+programmer '81466' : FlashPro4
+Opened
+'C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp\TOPLEVEL.\
+pro'
+Info: Updating Flash Memory data from file
+      C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MS\
+      S_ENVM_0\MSS_ENVM_0.efc.
+Info: Updating FPGA Array data from file
+      C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.fdb.
+PDB file
+'C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp\TOPLEVEL.\
+pdb' has been loaded successfully.
+DESIGN : TOPLEVEL;  CHECKSUM : 42B7;  PDB_VERSION : 1.7
+Checking for software updates...
+This software version is up to date.
 programmer '81466' : Scan Chain...
 Warning: programmer '81466' : Vpump has been selected on programmer AND an externally provided
          Vpump has also been detected. Using externally provided Vpump voltage source.
@@ -29,7 +31,7 @@ programmer '81466' : Executing action PROGRAM
 programmer '81466' : EXPORT FSN[48] = 01216710307c
 programmer '81466' : Erase ...
 programmer '81466' : Completed erase
-programmer '81466' : EXPORT CHECKSUM: [16] = 6b76
+programmer '81466' : EXPORT CHECKSUM: [16] = 42b7
 programmer '81466' : Programming FPGA Array
 programmer '81466' : Verifying FPGA Array
 programmer '81466' :         Verifying FPGA Array -- pass
@@ -37,7 +39,7 @@ programmer '81466' : Program System Init and Boot Clients...
 programmer '81466' : Program Embedded Flash Memory Module ALL....
 programmer '81466' : Verify System Init and Boot Clients...
 programmer '81466' : Verify Embedded Flash Memory Module ALL...
-programmer '81466' : Finished: Mon Jan 13 12:46:51 2014 (Elapsed time 00:02:28)
+programmer '81466' : Finished: Sun Feb 02 13:35:30 2014 (Elapsed time 00:00:54)
 programmer '81466' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o

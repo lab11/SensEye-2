@@ -1,1 +1,0 @@
-@W: MO111 :"\\vmware-host\shared folders\lab11 on my mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\toplevel\toplevel.v":198:14:198:32|Tristate driver TP_PADDR_BIT2 on net TP_PADDR_BIT2 has its enable tied to GND (module 

@@ -1,3 +1,3 @@
-project -load "//vmware-host/Shared Folders/lab11 On My Mac/workspace/senseye/sw/smartfusion/impl/libero/senseye/synthesis/TOPLEVEL_syn.prj"
+project -load "C:/Users/brghena/workspace/SensEye-2/software/smartfusion/synthesis/TOPLEVEL_syn.prj"
 project -run -clean
-pro
+project -save
