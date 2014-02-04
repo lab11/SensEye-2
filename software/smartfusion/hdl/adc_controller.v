@@ -98,7 +98,9 @@ module adc_controller (
         adc_state_nxt = adc_state;
 
         adc_capture_done_nxt = 0;
-        fifo_write_data = adc_data[7:0];
+        // modified to capture the range 20 mv to 400 mv better
+        fifo_write_data = ~(adc_data[8:1]);
+        //fifo_write_data = adc_data[7:0];
         cs_n_nxt = 1;
         sclk_nxt = 1;
 

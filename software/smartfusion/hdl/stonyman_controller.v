@@ -84,6 +84,7 @@ module stonyman (
     input wire mask_capture_pixel,
 
     // Status signals
+    output reg controller_busy,
     output reg frame_capture_done,
     output reg adc_capture_start,
     
@@ -337,6 +338,8 @@ module stonyman (
         resv_nxt  = 0;
         incv_nxt  = 0;
         inphi_nxt = 0;
+
+        controller_busy = (main_state != `IDLE);
     
         case (main_state)
             `INIT_RESET: begin
