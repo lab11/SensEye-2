@@ -1,32 +1,14 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Russ Bielawski (russ)
+////////////////////////////////////////////////////////////////////////////////
+//
 // University of Michigan
 //
-// stonyman.c
-//
-// VER   DATE        AUTHOR        DESC
-// 0.01  2013-07-23  russ          created.  supports starting and stopping capture, and reading
-//                                 from the FIFO in the interrupt (although data is merely
-//                                 discarded).  there is some code for multiple cameras, but the
-//                                 functional code supports a single camera only.
-// 0.02  2013-07-25  russ          implemented stonyman_read.  a user-space program can now read
-//                                 from the device file.  THERE IS NO CONCURRENCY PROTECTION.
-// 0.03  2013-07-29  russ          added spinlocks to address the glaring race condition between
-//                                 stonyman_read and stonyman_interrupt.
-// 0.04  2013-07-30  russ          added support for seperate AFULL and 'capture done' interrupts,
-//                                 both of which map to stonyman_interrupt.
-// 0.05  2013-08-15  russ          added support for reading partial images in stonyman_read.
-// 0.06  2013-08-15  russ          added auto-delay mode (enabling requires recompilation)
-// 1.00a 2013-08-21  russ          multi-camera support
-//
-// Stonyman linux device driver (LKM).
-////////////////////////////////////////////////////////////////////////////////////////////////////
+// stonyman_2.c
+//  Stonyman linux device driver (LKM).
+////////////////////////////////////////////////////////////////////////////////
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////////
 // includes
-//
-#include "stonyman.h"
+#include "stonyman_2.h"
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/fs.h>
@@ -37,10 +19,29 @@
 #include <linux/slab.h>
 #include <asm/uaccess.h>
 
+typedef unsigned int uint32;
 
-////////////////////////////////////////////////////////////////////////////////////////////////////
+// Device registers
+// For register map, see imager_apb_interface.v
+#define CAM_BASE_ADDR       (0x40060000)
+#define CAM_DEV_OFFSET      (0x00000080)
+#define CAM_DEV_WIDTH       (0x00000010)
+#define CAM_DEV_ADDR(id)    (CAM_BASE_ADDR+CAM_DEV_OFFSET+CAM_DEV_WIDTH*id)
+
+#define REG_R_GLOB_STATUS   (*((volatile uint32*)(CAM_BASE_ADDR+0x00)))
+#define REG_W_GLOB_START    (*((volatile uint32*)(CAM_BASE_ADDR+0x00)))
+#define REG_W_GLOB_RESET    (*((volatile uint23*)(CAM_BASE_ADDR+0x04)))
+#define REG_W_GLOB_TIMING   (*((volatile uint32*)(CAM_BASE_ADDR+0x08)))
+
+#define REG_R_CAM_STATUS(id)    (*((volatile uint32*)(CAM_DEV_ADDR(id)+0x00)))
+#define REG_R_CAM_PXDATA(id)    (*((volatile uint32*)(CAM_DEV_ADDR(id)+0x04)))
+#define REG_W_CAM_FRAMEMASK(id) (*((volatile uint32*)(CAM_DEV_ADDR(id)+0x00)))
+#define REG_W_CAM_SETTINGS1(id) (*((volatile uint32*)(CAM_DEV_ADDR(id)+0x04)))
+#define REG_W_CAM_SETTINGS2(id) (*((volatile uint32*)(CAM_DEV_ADDR(id)+0x08)))
+
+
+
 // defines / constants
-//
 typedef  unsigned        uint32;
 typedef  unsigned short  uint16;
 typedef  unsigned char   uint8;
