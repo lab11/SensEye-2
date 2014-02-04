@@ -3,21 +3,19 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-1 non-gated/non-generated clock tree(s) driving 676 clock pin(s) of sequential element(s)
-2 gated/generated clock tree(s) driving 339 clock pin(s) of sequential element(s)
-0 instances converted, 339 sequential instances remain driven by gated/generated clocks
+1 non-gated/non-generated clock tree(s) driving 769 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ============================== Non-Gated/Non-Generated Clocks ===============================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance      
 ---------------------------------------------------------------------------------------------
-@K:CKID0003       MSS_CORE2_0         hierarchy              676        heartbeat_0.pulse_out
+@K:CKID0001       MSS_CORE3_MSS_0     hierarchy              769        heartbeat_0.pulse_out
 =============================================================================================
-=================================================================================== Gated/Generated Clocks ====================================================================================
-Clock Tree ID     Driving Element                 Drive Element Type     Fanout     Sample Instance                    Explanation                                                             
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       imaging_0.stonyman_0.clkAdc     DFN1C0                 180        imaging_0.stonyman_0.state[12]     No generated or derived clock directive on output of sequential instance
-@K:CKID0002       imaging_0.stonyman_1.clkAdc     DFN1C0                 159        imaging_0.stonyman_1.state[12]     No generated or derived clock directive on output of sequential instance
-===============================================================================================================================================================================================
+===== Gated/Generated Clocks =====
+************** None **************
+----------------------------------
+==================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]

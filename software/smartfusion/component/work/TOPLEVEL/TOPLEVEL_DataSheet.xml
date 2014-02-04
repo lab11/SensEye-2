@@ -11,103 +11,51 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>\\vmware-host/Shared Folders/lab11 On My Mac/workspace/senseye/sw/smartfusion/impl/libero/senseye/component/work/TOPLEVEL</location>
-    <state>GENERATED ( Wed Jan 15 15:37:23 2014 )</state>
-    <swide-toolchain>SoftConsole workspace generated to \\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\SoftConsole</swide-toolchain>
+    <location>C:/Users/brghena/workspace/SensEye-2/software/smartfusion/component/work/TOPLEVEL</location>
+    <state>GENERATED ( Sun Feb 02 15:01:54 2014 )</state>
+    <swide-toolchain>SoftConsole workspace generated to C:\Users\brghena\workspace\SensEye-2\software\smartfusion\SoftConsole</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\imaging\imaging.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\MSS_CORE2\MSS_CCC_0\MSS_CORE2_tmp_MSS_CCC_0_MSS_CCC.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\MSS_CORE2\MSS_CORE2.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\MSS_CORE2\mss_tshell.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\TOPLEVEL\TOPLEVEL.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\adcxx1s101.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\ahb.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\apb.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\clkgenerator.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\counter.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\cr_int.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\fifo_32bit_apb3.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\heartbeat.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\inputConditioner.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\led.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\psram_cr.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\stonyman_apb3.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\hdl\VersionROM.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\smartgen\FIFO_PIXEL\FIFO_PIXEL.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\smartgen\FIFO_PIXEL_SELECT\FIFO_PIXEL_SELECT.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\smartgen\fifo_px\fifo_px.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\smartgen\FIFO_TEST_COUNTER\FIFO_TEST_COUNTER.v</file>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\smartgen\MUX2\MUX2.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\adc_controller.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\ahb.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\cr_int.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\framemask.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\heartbeat.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\psram_cr.v</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\stonyman_controller.v</file>
   </fileset>
   <fileset>
     <name>Flash Memory File(s)</name>
-    <file>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\component\work\\vmware-host/Shared Folders/lab11 On My Mac/workspace/senseye/sw/smartfusion/impl/libero/senseye/component/work/MSS_CORE2/MSS_ENVM_0/MSS_ENVM_0.efc</file>
+    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\C:/Users/brghena/workspace/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_ENVM_0/MSS_ENVM_0.efc</file>
   </fileset>
   <io>
-    <port-name>TP_WREN</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>TP_ADCCONVCOMPLETE</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[4]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[20]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[24]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>TP_ADCSTARTCAP</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>SCLK</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>led[5]</port-name>
+    <port-name>cam0_adc_capture_start</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -119,32 +67,38 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>TP_WRITEPENDING</port-name>
+    <port-name>psram_address[12]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>psram_address[0]</port-name>
+    <port-name>psram_address[16]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>led[0]</port-name>
+    <port-name>psram_data[10]</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>MSS_RESET_N</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_resp</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>resp</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>UART_0_TXD</port-name>
-    <direction>OUT</direction>
+    <port-name>psram_data[3]</port-name>
+    <direction>INOUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
@@ -155,19 +109,13 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>led[1]</port-name>
-    <direction>OUT</direction>
+    <port-name>MAC_RXD[0]</port-name>
+    <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>psram_noe1</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[11]</port-name>
+    <port-name>cam0_inphi</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -179,325 +127,7 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>psram_address[6]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_nbyte_en[1]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>MAC_CRSDV</port-name>
-    <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[5]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_nbyte_en[0]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[6]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[14]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>TP_PENABLE</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[13]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[7]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[0]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[15]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>led[2]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>MAC_TXD[1]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>led[6]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>MAC_RXD[0]</port-name>
-    <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>MAC_MDIO</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>MAC_RXD[1]</port-name>
-    <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_ncs1</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[21]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>px0_adc_din</port-name>
-    <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[16]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[15]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>CS</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>inphi</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>TP_PREADY</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>TP_PWRITE</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>MSS_RESET_N</port-name>
-    <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>MAC_TXEN</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>TP_START_CAPTURE</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[2]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[22]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[7]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[1]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[17]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>led[7]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>TP_EMPTY</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>pulse_out</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>UART_0_RXD</port-name>
-    <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[8]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[1]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>TP_BUSY</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>incp</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>incv</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[9]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[2]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[14]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[9]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[8]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[12]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>led[3]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_ncs0</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>MAINXIN</port-name>
-    <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>TP_PADDR_BIT2</port-name>
+    <port-name>psram_noe1</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -515,26 +145,8 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>psram_data[10]</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>led[4]</port-name>
+    <port-name>MAC_TXD[0]</port-name>
     <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_address[10]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[3]</port-name>
-    <direction>INOUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
@@ -545,32 +157,38 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>MAC_CLK_IN</port-name>
-    <direction>IN</direction>
+    <port-name>MAC_MDIO</port-name>
+    <direction>INOUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>psram_noe0</port-name>
+    <port-name>psram_address[17]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>TP_FULL</port-name>
+    <port-name>psram_nbyte_en[0]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>psram_nwe</port-name>
+    <port-name>psram_address[6]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>MAC_MDC</port-name>
+    <port-name>cam0_fifo_empty</port-name>
     <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_data[5]</port-name>
+    <direction>INOUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
@@ -581,19 +199,73 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>MAC_TXD[0]</port-name>
+    <port-name>psram_data[7]</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>UART_0_TXD</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>TP_RDEN</port-name>
+    <port-name>psram_ncs1</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>resv</port-name>
+    <port-name>psram_address[13]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_data[13]</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[8]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[7]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_sclk</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>MAC_CLK</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>MAC_TXEN</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_fifo_full</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_fifo_afull</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -605,20 +277,242 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>psram_address[13]</port-name>
-    <direction>OUT</direction>
+    <port-name>MAC_CRSDV</port-name>
+    <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>TP_PSEL</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>psram_data[5]</port-name>
+    <port-name>psram_data[14]</port-name>
     <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[14]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_nbyte_en[1]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[9]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_cs_n</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_data[8]</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>MAC_RXD[1]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[0]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[20]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_data[15]</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>MAINXIN</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[1]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[21]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_data[6]</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_data[1]</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_data[0]</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[4]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_ncs0</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_frame_capture_done</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[15]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_data[2]</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[2]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[22]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[10]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_data[9]</port-name>
+    <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_noe0</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_incp</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>MAC_TXD[1]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_nwe</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_sdata</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>UART_0_RXD</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[11]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_resv</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_incv</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pulse_out</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>MAC_MDC</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[5]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>cam0_adc_capture_done</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>psram_address[24]</port-name>
+    <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
@@ -1284,29 +1178,20 @@ There is one APB3 Master interface.
     </core-param>
     <core-name>CoreAPB3_0</core-name>
   </core>
-  <core type="ComponentModule">
-    <core-type>ComponentModule</core-type>
-    <core-exttype>SmartGen</core-exttype>
-    <core-location>\\vmware-host/Shared Folders/lab11 On My Mac/workspace/senseye/sw/smartfusion/impl/libero/senseye/smartgen/FIFO_PIXEL_SELECT</core-location>
-    <core-name>FIFO_PIXEL_SELECT_0</core-name>
-  </core>
   <core type="HdlModule">
     <core-type>HdlModule</core-type>
     <core-exttype>heartbeat</core-exttype>
     <core-location>hdl\heartbeat.v</core-location>
     <core-name>heartbeat_0</core-name>
   </core>
-  <core type="ComponentModule">
-    <core-type>ComponentModule</core-type>
-    <core-exttype>SmartDesign</core-exttype>
-    <core-location>\\vmware-host/Shared Folders/lab11 On My Mac/workspace/senseye/sw/smartfusion/impl/libero/senseye/component/work/imaging</core-location>
-    <core-name>imaging_0</core-name>
+  <core>
+    <core-name>imager_0</core-name>
   </core>
   <core type="ComponentModule">
     <core-type>ComponentModule</core-type>
     <core-exttype>HierSpiritDesign</core-exttype>
-    <core-location>\\vmware-host/Shared Folders/lab11 On My Mac/workspace/senseye/sw/smartfusion/impl/libero/senseye/component/work/MSS_CORE2</core-location>
-    <core-name>MSS_CORE2_0</core-name>
+    <core-location>C:/Users/brghena/workspace/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS</core-location>
+    <core-name>MSS_CORE3_MSS_0</core-name>
   </core>
   <core type="HdlModule">
     <core-type>HdlModule</core-type>
@@ -1314,201 +1199,6 @@ There is one APB3 Master interface.
     <core-location>hdl\psram_cr.v</core-location>
     <core-name>psram_cr_0</core-name>
   </core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>HAL</core-intname>
-    <core-ver>2.2.102</core-ver>
-    <core-desc>The Hardware Abstraction Layer is used by drivers to access the hardware. It also allows the control of interrupts. The HAL is normally required when using bare metal drivers as part of your application.</core-desc>
-    <core-param>
-      <param-name>Memory Model:</param-name>
-      <param-value>Small</param-value>
-      <param-hdlname>MemoryModel</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Processor:</param-name>
-      <param-value>Cortex-M3</param-value>
-      <param-hdlname>Processor</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Software Tool Chain:</param-name>
-      <param-value>SoftConsole</param-value>
-      <param-hdlname>ToolChain</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-name>HAL_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_Ethernet_MAC_Driver</core-intname>
-    <core-ver>2.0.103</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) Ethernet  MAC bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.
-</core-desc>
-    <core-param>
-      <param-name>Bus arbitration scheme:</param-name>
-      <param-value>Receive has priority</param-value>
-      <param-hdlname>BUS_ARBITRATION_SCHEME</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Maximum DMA burst length:</param-name>
-      <param-value>Unlimited</param-value>
-      <param-hdlname>PROGRAMMABLE_BURST_LENGTH</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Receive ring size:</param-name>
-      <param-value>4</param-value>
-      <param-hdlname>RX_RING_SIZE</param-hdlname>
-      <param-hdlvalue>4</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Setup frame timeout (ms):</param-name>
-      <param-value>10000</param-value>
-      <param-hdlname>SETUP_FRAME_TIME_OUT</param-hdlname>
-      <param-hdlvalue>10000</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>State change timeout (ms):</param-name>
-      <param-value>10000</param-value>
-      <param-hdlname>STATE_CHANGE_TIME_OUT</param-hdlname>
-      <param-hdlvalue>10000</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Transmit buffer ring size:</param-name>
-      <param-value>2</param-value>
-      <param-hdlname>TX_RING_SIZE</param-hdlname>
-      <param-hdlvalue>2</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-name>MSS_Ethernet_MAC_Driver_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_GPIO_Driver</core-intname>
-    <core-ver>2.0.105</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) GPIO bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
-    <core-name>MSS_GPIO_Driver_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_NVM_Driver</core-intname>
-    <core-ver>2.2.102</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) eNVM bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
-    <core-name>MSS_NVM_Driver_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_PDMA_Driver</core-intname>
-    <core-ver>2.0.102</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS)  Peripheral DMA bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
-    <core-name>MSS_PDMA_Driver_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_RTC_Driver</core-intname>
-    <core-ver>2.0.100</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) RTC bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
-    <core-name>MSS_RTC_Driver_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_Timer_Driver</core-intname>
-    <core-ver>2.1.101</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) Timer bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
-    <core-name>MSS_Timer_Driver_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_UART_Driver</core-intname>
-    <core-ver>2.3.101</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) UART bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
-    <core-name>MSS_UART_Driver_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_Watchdog_Driver</core-intname>
-    <core-ver>2.0.107</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) Watchdog bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
-    <core-name>MSS_Watchdog_Driver_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>SmartFusion_CMSIS_PAL</core-intname>
-    <core-ver>2.3.103</core-ver>
-    <core-desc>SmartFusion Cortex Microcontroller Software Interface Standard - Peripheral Access Layer (CMSIS-PAL).
-
-The CMSIS provides:
-- startup code.
-- standard naming for exception and interrupt handlers.
-- standard functions for controlling the Cortex-M3 Nested Vectored Interrupt Controller (NVIC).
-- peripherals registers description.
-
-These files are required by the SmartFusion bare metal peripheral drivers to build correctly.</core-desc>
-    <core-param>
-      <param-name>Software Tool Chain</param-name>
-      <param-value>SoftConsole</param-value>
-      <param-hdlname>ToolChain</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-name>SmartFusion_CMSIS_PAL_0</core-name>
-  </firmware_core>
   <memorysystem>
     <title>Memory Map for TOPLEVEL</title>
     <description>The project contains the following subsystems:</description>
@@ -3401,8 +3091,8 @@ These files are required by the SmartFusion bare metal peripheral drivers to bui
           <range>0x00010000</range>
         </slave>
         <slave>
-          <name>stonyman_apb3_0</name>
-          <fullPinName>imaging_0:BIF_1</fullPinName>
+          <name>imager_0</name>
+          <fullPinName>imager_0:BIF_1</fullPinName>
           <remapAddress name="NoRemap">0x40060000</remapAddress>
           <fullAddressSpace name="NoRemap">0x40060000 - 0x400600FF</fullAddressSpace>
           <remapAddress name="M0_SwapSlots0and1">0x40060000</remapAddress>

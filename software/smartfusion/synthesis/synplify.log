@@ -1,8 +1,8 @@
 
-Starting:    C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1\win64\mbin\synbatch.exe
-Install:     C:\Microsemi\Libero_v11.1\Synopsys\synplify_H201303M1
-Date:        Thu Jan 16 17:29:18 2014
-Version:     H-2013.03M-1 
+Starting:    C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\win64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1
+Date:        Sun Feb 02 15:02:02 2014
+Version:     H-2013.03M-SP1-1 
 
 Arguments:   -product synplify_pro  -licensetype synplifypro_actel -batch -log synplify.log TOPLEVEL_syn.tcl
 ProductType: synplify_pro
@@ -16,7 +16,7 @@ Running in Vendor Mode
 
 
 
-log file: "\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye-2\software\smartfusion\synthesis\TOPLEVEL.srr"
+log file: "C:\Users\brghena\workspace\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srr"
 
 
 
@@ -33,11 +33,11 @@ Running: Compile Process on TOPLEVEL_syn|synthesis
 
 Running: Compile Input on TOPLEVEL_syn|synthesis
 
-Copied \\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_compiler.srs to \\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye-2\software\smartfusion\synthesis\TOPLEVEL.srs
+Copied C:\Users\brghena\workspace\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_comp.srs to C:\Users\brghena\workspace\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srs
 
 compiler Completed with warnings
 Return Code: 1
-Run Time:0h:00m:11s
+Run Time:0h:00m:19s
 
 
 Complete: Compile Process on TOPLEVEL_syn|synthesis
@@ -45,9 +45,9 @@ Complete: Compile Process on TOPLEVEL_syn|synthesis
 
 Running: Premap on TOPLEVEL_syn|synthesis
 
-premap Completed with warnings
-Return Code: 1
-Run Time:0h:00m:11s
+premap Completed
+Return Code: 0
+Run Time:0h:00m:01s
 
 
 Complete: Compile on TOPLEVEL_syn|synthesis
@@ -60,7 +60,7 @@ Running: Map & Optimize on TOPLEVEL_syn|synthesis
 
 fpga_mapper Completed with warnings
 Return Code: 1
-Run Time:0h:00m:51s
+Run Time:0h:00m:52s
 
 
 Complete: Map on TOPLEVEL_syn|synthesis
@@ -71,4 +71,9 @@ TCL script complete: "TOPLEVEL_syn.tcl"
 
 exit status=0
 
+
+exit status=0
+
+
+License checkin: synplifypro_actel
 

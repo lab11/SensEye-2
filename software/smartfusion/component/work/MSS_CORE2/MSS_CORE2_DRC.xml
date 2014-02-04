@@ -3,10 +3,73 @@
 <drcreport>
   <header>MSS_CORE2_tmp</header>
   <drc>
-    <status>C:\Microsemi\Libero_v11.1\Designer/data/drcreport\error.png</status>
+    <status>C:\Microsemi\Libero_v11.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MSS_CORE2:MAC_CRSDV</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/pins/MSS_CORE2:MAC_CRSDV</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.2\Designer/data/drcreport\error.png</status>
     <StatusMessage>Error</StatusMessage>
-    <message>Core Validation</message>
-    <detail>The eNVM configuration has errors. Please correct these errors using the eNVM configurator.</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/instances/MSS_CORE2</crossprobe>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port MSS_CORE2:MAC_MDC</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/pins/MSS_CORE2:MAC_MDC</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port MSS_CORE2:MAC_MDIO</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/pins/MSS_CORE2:MAC_MDIO</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin MSS_CORE2:MAC_RXD[0:1]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/pins/MSS_CORE2:MAC_RXD</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MSS_CORE2:MAC_RXER</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/pins/MSS_CORE2:MAC_RXER</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port MSS_CORE2:MAC_TXD[0:1]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/pins/MSS_CORE2:MAC_TXD</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port MSS_CORE2:MAC_TXEN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/pins/MSS_CORE2:MAC_TXEN</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MSS_CORE2:MSS_RESET_N</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/pins/MSS_CORE2:MSS_RESET_N</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MSS_CORE2:UART_0_RXD</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/pins/MSS_CORE2:UART_0_RXD</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected top level output port MSS_CORE2:UART_0_TXD</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MSS_CORE2/pins/MSS_CORE2:UART_0_TXD</crossprobe>
   </drc>
 </drcreport>

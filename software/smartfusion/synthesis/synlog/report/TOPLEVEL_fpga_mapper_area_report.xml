@@ -5,15 +5,15 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye-2\software\smartfusion\synthesis\synlog\report\TOPLEVEL_fpga_mapper_resourceusage.rpt</data>
+<data>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\synthesis\synlog\report\TOPLEVEL_fpga_mapper_resourceusage.rpt</data>
 </report_link>
 <parameter tooltip="Total Core Cells used" name="Core Cells">
-<data>4953</data>
+<data>7018</data>
 </parameter>
 <parameter tooltip="Total IO Cells used" name="IO Cells">
-<data>93</data>
+<data>77</data>
 </parameter>
 <parameter tooltip="Total Block RAMs used" name="Block RAMs">
-<data>16</data>
+<data>8</data>
 </parameter>
 </report_table>

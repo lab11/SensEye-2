@@ -1,12 +1,22 @@
 Microsemi Libero Software
-Version: 11.1.3.1
-Release: v11.1 SP3
+Version: 11.2.1.8
+Release: v11.2 SP1
 
-'IDE_DESIGNERVIEW_ROOTDIR' set to '\\vmware-host\Shared Folders\lab11 On My
-Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\designer'
-Info: The design TOPLEVEL.adb was last modified by software version 11.1.3.1.
+'IDE_DESIGNERVIEW_ROOTDIR' set to
+'C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer'
+Info: The design TOPLEVEL.adb was last modified by software version 11.2.1.8.
 Opened an existing Libero design TOPLEVEL.adb.
+WARNING: DEFUSR table not loaded - file: C:\Users\brghena\AppData\Roaming\Actel/designer.def
 
-The Execute Script command succeeded ( 00:00:41 )
+The Execute Script command succeeded ( 00:00:19 )
+This program can detect if an updated version of the software is available by
+checking the Actel web-site.
+
+Would you like to have this check automatically done when you startup the program?
+
+(To change this setting later, go to the File menu and select Preferences.
+From the Updates tab, you can change your selection.) [YES]
+Checking for software updates...
+This software version is up to date.
 Design closed.
 

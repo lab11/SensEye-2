@@ -1,2 +1,2 @@
-report -type "pin" -listby  "name" {\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\designer\impl1\TOPLEVEL_report_pin_byname.txt}
-report -type "pin" -listby  "number" {\\vmware-host\Shared Folders\lab11 On My Mac\workspace\senseye\sw\smartfusion\impl\libero\senseye\designer\impl1\TOPLEVEL_re
+report -type "pin" -listby  "name" {C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_report_pin_byname.txt}
+report -type "pin" -listby  "number" {C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_report_pin_bynumber.txt}
