@@ -98,9 +98,9 @@ slink /usr/bin/[[ ../../bin/busybox 777 0 0
 slink /bin/clear busybox 777 0 0
 file /senseye_serv ${SENSEYE_DIR}/../senseye_serv/senseye_serv 755 0 0
 file /senseye_serv_nomask ${SENSEYE_DIR}/../senseye_serv/senseye_serv_nomask 755 0 0
-file /stonyman.ko ${SENSEYE_DIR}/../stonyman/stonyman.ko 755 0 0
-file /load_stonyman.sh ${SENSEYE_DIR}/../stonyman/load_stonyman.sh 755 0 0
-file /unload_stonyman.sh ${SENSEYE_DIR}/../stonyman/unload_stonyman.sh 755 0 0
+file /stonyman_2.ko ${SENSEYE_DIR}/../stonyman/stonyman_2.ko 755 0 0
+file /load_stonyman.sh ${SENSEYE_DIR}/scripts/load_stonyman.sh 755 0 0
+file /unload_stonyman.sh ${SENSEYE_DIR}/scripts/unload_stonyman.sh 755 0 0
 file /nfs.sh ${SENSEYE_DIR}/scripts/nfs.sh 755 0 0
 
 #file /app ${INSTALL_ROOT}/projects/${SAMPLE}/app/app 755 0 0

@@ -1,4 +1,4 @@
-NAME=stonyman
+NAME=stonyman_2
 
 # Makefile for a custom application comprised of 
 # a loable kernel module and a user space program

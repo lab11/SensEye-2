@@ -33,7 +33,7 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <fcntl.h>
-#include "stonyman.h"
+#include "stonyman_2.h"
 // camera calibration mask
 //#include "mask.h"
 #include "stonymask_nomask.h"
@@ -307,6 +307,11 @@ static void request_handler(int sd)
 
          // send data!
 //fprintf(stderr, "Everything good so far, sending data\n");
+//img_buf[0][0] = SYMBOL_SOF;
+//img_buf[0][1] = OPCODE_FRAME;
+ioctl(stony_fd, STONYMAN_IOC_STATISTICS);
+// start the stonyman controller so it preloads a buffer
+ioctl(stony_fd, STONYMAN_IOC_START_CAPTURE);
          while(1)
          {
             request_send_data(sd);
@@ -341,34 +346,34 @@ static void request_send_data(int sd)
 
    // send header
 //fprintf(stderr, "Sending header\n");
-   send_len_ret = send(sd, (const void*)(&RESP_FRAME_HEADER), sizeof(RESP_FRAME_HEADER), 0);
+   send_len_ret = send(sd, (const void*)(&RESP_FRAME_HEADER), sizeof(RESP_FRAME_HEADER), MSG_NOSIGNAL);
    //fprintf(stderr,"send_len: %d\n",send_len_ret);
    if(sizeof(RESP_FRAME_HEADER) != send_len_ret)
    {
       fprintf(stderr, "request_send_data: send call returns wrong length (%d)\n",send_len_ret);
       fflush(stderr);
+      ioctl(stony_fd, STONYMAN_IOC_STOP_CAPTURE);
+      ioctl(stony_fd, STONYMAN_IOC_STATISTICS);
       exit(1);
    }
 
-
    // stonyman driver
 //fprintf(stderr, "Interacting with driver\n");
-   ioctl(stony_fd,STONYMAN_IOC_START_CAPTURE);
+   //ioctl(stony_fd, STONYMAN_IOC_START_CAPTURE);
 
    // read from stonyman device file
    tmp_px_read=0;
    pixelcount[0]=0;
 //fprintf(stderr, "Reading pixels\n");
-//char print_once = 0;
+
    while(RESOLUTION>pixelcount[0])
    {
-//      if (print_once==1) fprintf(stderr, "Reading again\tread:%d\tremaining:%d\n", pixelcount[0], (RESOLUTION-pixelcount[0]));
-//      print_once++;
+//fprintf(stderr, "Reading again\tread:%d\tremaining:%d\n", pixelcount[0], (RESOLUTION-pixelcount[0]));
+
       tmp_px_read = read(stony_fd, img_buf[0], RESOLUTION-pixelcount[0]);
+      //tmp_px_read = read(stony_fd, img_buf[0], RESOLUTION-pixelcount[0]);
       if((0 > tmp_px_read) && ((EAGAIN == errno) || (EWOULDBLOCK == errno)))
       {
-//if (print_once==2)
-//fprintf(stderr, "tmp_px_read=%d\terrno=%s\n", tmp_px_read, (errno == EAGAIN) ? "EAGAIN" : (errno == EWOULDBLOCK) ? "EWOULDBLOCK" : "???"); 
         // do nothing, just try again
       }
       else if(0 > tmp_px_read)
@@ -387,6 +392,8 @@ static void request_send_data(int sd)
 
    // remove the fixed pattern noise
 //fprintf(stderr, "Removing fixed noise\n");
+
+/*
    int i;
    for (i=0; i<RESOLUTION; i++)
    {
@@ -397,6 +404,7 @@ static void request_send_data(int sd)
          img_buf[0][i] = img_buf[0][i] - stonymask[i];
        }
    }
+*/
 
 #if 0
 #define FORCE_SINGLE_CAM_READ  (1)
@@ -451,12 +459,15 @@ static void request_send_data(int sd)
    // FIXME: only captures from 2 cameras, not three
    for(ii=0;ii<2;++ii)
    {
-      send_len_ret = send(sd, (const void*)(img_buf[0]), RESOLUTION, 0);
+      send_len_ret = send(sd, (const void*)(img_buf[0]), RESOLUTION, MSG_NOSIGNAL);
       //fprintf(stderr,"send_len: %d\n",send_len_ret);
       if(RESOLUTION != send_len_ret)
       {
+
          fprintf(stderr, "request_send_data: send call returns wrong length (%d)\n",send_len_ret);
          fflush(stderr);
+         ioctl(stony_fd, STONYMAN_IOC_STOP_CAPTURE);
+         ioctl(stony_fd, STONYMAN_IOC_STATISTICS);
          exit(1);
       }
    }
@@ -465,17 +476,20 @@ static void request_send_data(int sd)
    // FIXME: only captures from 2 cameras, not three
    for(ii=0;ii<1;++ii)
    {
-      send_len_ret = send(sd, (const void*)(img_buf[ii]), RESOLUTION, 0);
+      send_len_ret = send(sd, (const void*)(img_buf[ii]), RESOLUTION, MSG_NOSIGNAL);
       //fprintf(stderr,"send_len: %d\n",send_len_ret);
       if(RESOLUTION != send_len_ret)
       {
          fprintf(stderr, "request_send_data: send call returns wrong length (%d)\n",send_len_ret);
          fflush(stderr);
+         ioctl(stony_fd, STONYMAN_IOC_STOP_CAPTURE);
+         ioctl(stony_fd, STONYMAN_IOC_STATISTICS);
          exit(1);
       }
    }
 #endif
 
+//ioctl(stony_fd, STONYMAN_IOC_STATISTICS);
    fprintf(stderr,"frame complete\n");
 }
 

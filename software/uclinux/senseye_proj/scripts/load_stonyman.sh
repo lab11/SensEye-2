@@ -2,7 +2,7 @@
 
 numcams=1
 
-module="stonyman"
+module="stonyman_2"
 device="stonyman"
 mode="0664"
 
