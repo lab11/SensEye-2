@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 // Company: University of Michigan
 //
 // File: imager_apb_interface.v
@@ -10,9 +10,9 @@
 // Targeted device: <Family::SmartFusion> <Die::A2F500M3G> <Package::484 FBGA>
 // Author: Branden Ghena
 //
-///////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 
-///////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 // REGISTER LAYOUT
 /////////////////////////////////////////////////
 // offset       behavior  name           fields (msb...lsb)
@@ -45,7 +45,7 @@
 // 0x0000_00A0  n/a       RESERVED
 // ...          n/a       RESERVED
 // 0x0000_00FC  n/a       RESERVED
-///////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 
 // Default camera settings
 `define VIN_3V3
@@ -78,12 +78,12 @@
 
 `define CAM0_VSW_VALUE    (0)
 `define CAM0_HSW_VALUE    (0)
-`define CAM0_CONFIG_VALUE (17)
+`define CAM0_CONFIG_VALUE (16)
 `define CAM1_VSW_VALUE    (0)
 `define CAM1_HSW_VALUE    (0)
-`define CAM1_CONFIG_VALUE (17)
+`define CAM1_CONFIG_VALUE (16)
 
-`define PULSE_COUNTS (100)
+`define PULSE_COUNTS (1)
 `define TRACK_COUNTS (14)
 
 // Register Map Definitions
@@ -107,14 +107,14 @@
 module imager_apb_interface (
     input wire        clk,
     input wire        reset,
-    
+
     /* APB SIGNALS */
     input wire        PSEL,
     input wire        PENABLE,
     input wire        PWRITE,
     input wire [31:0] PADDR,
     input wire [31:0] PWDATA,
-    
+
     output reg        PREADY,
     output reg [31:0] PRDATA,
     output reg        PSLVERR,
@@ -203,15 +203,15 @@ module imager_apb_interface (
             PSLVERR <= 0;
             PRDATA <= 32'b0;
             PREADY <= 0;
-            
+
             pulse_counts <= `PULSE_COUNTS;
             track_counts <= `TRACK_COUNTS;
-     
+
             cam0_frame_capture_start <= 0;
             cam1_frame_capture_start <= 0;
             cam0_reset <= 0;
             cam1_reset <= 0;
-            
+
             cam0_vsw_value    <= `CAM0_VSW_VALUE;
             cam0_hsw_value    <= `CAM0_HSW_VALUE;
             cam0_vref_value   <= `CAM0_VREF_VALUE;
@@ -224,7 +224,7 @@ module imager_apb_interface (
             cam1_config_value <= `CAM1_CONFIG_VALUE;
             cam1_nbias_value  <= `CAM1_NBIAS_VALUE;
             cam1_aobias_value <= `CAM1_AOBIAS_VALUE;
-            
+
             cam0_fifo_read_enable <= 0;
             cam1_fifo_read_enable <= 0;
 
@@ -246,10 +246,10 @@ module imager_apb_interface (
             PSLVERR <= 0; // No errors
             PRDATA <= 32'b0;
             PREADY <= 1;
-            
+
             pulse_counts <= pulse_counts;
             track_counts <= track_counts;
-            
+
             cam0_frame_capture_start <= 0;
             cam1_frame_capture_start <= 0;
             cam0_reset <= 0;

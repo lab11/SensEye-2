@@ -3,13 +3,13 @@
 //
 // File: imager.v
 //
-// Description: 
+// Description:
 //  Toplevel connections for the imager subsystem
 //
 // Targeted device: <Family::SmartFusion> <Die::A2F500M3G> <Package::484 FBGA>
 // Author: Branden Ghena
 //
-/////////////////////////////////////////////////////////////////////////////////////////////////// 
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 module imager (
@@ -62,7 +62,7 @@ module imager (
     // Timing signals
     wire [7:0] pulse_counts;
     wire [7:0] track_counts;
-    
+
     // FIFO control
     //wire cam0_fifo_empty;
     //wire cam0_fifo_afull;
@@ -81,7 +81,7 @@ module imager (
     wire [5:0] cam0_config_value;
     wire [5:0] cam0_nbias_value;
     wire [5:0] cam0_aobias_value;
-    
+
     // Framemask signals
     wire [6:0] cam0_mask_pixel_row;
     wire [6:0] cam0_mask_pixel_col;
@@ -159,7 +159,7 @@ module imager (
         .cam0_fifo_empty        (cam0_fifo_empty),
         .cam0_fifo_afull        (cam0_fifo_afull),
         .cam0_fifo_full         (cam0_fifo_full),
-        .cam0_fifo_overflow     (cam0_fifo_overflow) 
+        .cam0_fifo_overflow     (cam0_fifo_overflow)
     );
 
     // Bus Interface
@@ -174,7 +174,7 @@ module imager (
         .PREADY     (PREADY),
         .PRDATA     (PRDATA),
         .PSLVERR    (PSLVERR),
-        
+
         .pulse_counts   (pulse_counts),
         .track_counts   (track_counts),
 
@@ -199,8 +199,8 @@ module imager (
         .cam0_mask_addr             (cam0_mask_addr),
         .cam0_mask_data             (cam0_mask_data),
 
-        .cam1_controller_busy       (),
-        .cam1_frame_capture_done    (),
+        .cam1_controller_busy       (0),
+        .cam1_frame_capture_done    (0),
         .cam1_frame_capture_start   (),
         .cam1_reset                 (),
         .cam1_vsw_value             (),
@@ -209,12 +209,12 @@ module imager (
         .cam1_config_value          (),
         .cam1_nbias_value           (),
         .cam1_aobias_value          (),
-        .cam1_fifo_empty            (),
-        .cam1_fifo_afull            (),
-        .cam1_fifo_full             (),
-        .cam1_fifo_overflow         (),
-        .cam1_fifo_read_data        (),
-        .cam1_fifo_data_valid       (),
+        .cam1_fifo_empty            (0),
+        .cam1_fifo_afull            (0),
+        .cam1_fifo_full             (0),
+        .cam1_fifo_overflow         (0),
+        .cam1_fifo_read_data        (0),
+        .cam1_fifo_data_valid       (0),
         .cam1_fifo_read_enable      (),
         .cam1_mask_write_enable     (),
         .cam1_mask_addr             (),

@@ -114,7 +114,7 @@ set_io cam0_adc_capture_start  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW Hig
 set_io cam0_adc_capture_done   -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname A17 -fixed yes
 set_io cam0_fifo_empty         -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname D8  -fixed yes
 set_io cam0_fifo_full          -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname A18 -fixed yes
-# set_io TP_EMPTY           -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C4  -fixed yes
+# set_io FAB_CLK	           -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C4  -fixed yes
 # set_io TP_BUSY            -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname D15 -fixed yes
 # set_io TP_FULL            -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname E14 -fixed yes
 # set_io TP_WREN            -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C5  -fixed yes

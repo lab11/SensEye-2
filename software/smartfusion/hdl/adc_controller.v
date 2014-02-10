@@ -3,13 +3,13 @@
 //
 // File: adc_controller.v
 //
-// Description: 
+// Description:
 //  Controller for the TI ADCXX1S101 reading stonyman pixel data
 //
 // Targeted device: <Family::SmartFusion> <Die::A2F500M3G> <Package::484 FBGA>
 // Author: Branden Ghena
 //
-/////////////////////////////////////////////////////////////////////////////////////////////////// 
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 // States
 `define IDLE      0
@@ -37,7 +37,7 @@ module adc_controller (
 
     // Timing signal
     input wire [7:0] track_counts,
- 
+
     // ADC Data
     input wire sdata,
 
@@ -65,6 +65,7 @@ module adc_controller (
     reg capture_requested_nxt;
     reg [11:0] adc_data;
     reg [11:0] adc_data_nxt;
+	reg [11:0] tmp_data;
 
     // Register thine outputs
     reg fifo_write_enable_nxt;
@@ -98,8 +99,9 @@ module adc_controller (
         adc_state_nxt = adc_state;
 
         adc_capture_done_nxt = 0;
-        // modified to capture the range 20 mv to 400 mv better
-        fifo_write_data = ~(adc_data[8:1]);
+        // modified to capture the range 0.600 V to 1.2 V better (powered at 5v)
+		tmp_data = adc_data - 485;
+        fifo_write_data = ~(tmp_data[8:1]);
         //fifo_write_data = adc_data[7:0];
         cs_n_nxt = 1;
         sclk_nxt = 1;
@@ -114,7 +116,7 @@ module adc_controller (
             capture_requested_nxt = 1;
         end
 
-        case (adc_state) 
+        case (adc_state)
             `IDLE: begin
                 if (adc_capture_start || capture_requested) begin
                     adc_state_nxt = `TRACK;
@@ -159,7 +161,7 @@ module adc_controller (
                 if (sclk == 1) begin
                     timer_nxt = timer+1;
                     adc_data_nxt[(11-timer)] = sdata;
-                    
+
                     if (timer >= (`READ_BITS_COUNTS-1)) begin
                         // Try to hand data off to FIFO
                         FIFO();
@@ -185,7 +187,7 @@ module adc_controller (
     always @(posedge clk) begin
         if (reset) begin
             adc_state <= `IDLE;
-            
+
             timer <= 0;
 
             capture_requested <= 0;
@@ -198,7 +200,7 @@ module adc_controller (
 
         end else begin
             adc_state <= adc_state_nxt;
-            
+
             capture_requested <= capture_requested_nxt;
 
             timer <= timer_nxt;
