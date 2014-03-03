@@ -3,7 +3,7 @@
 //
 // File: stonyman_controller.v
 //
-// Description: 
+// Description:
 //      Controller for the CentEye Stonyman imager.
 //      Note: the on-chip amplifier is slow and this code does not use it
 //
@@ -62,7 +62,7 @@
 module stonyman (
     input wire clk,
     input wire reset,
-    
+
     // Control signals
     input wire frame_capture_start,
     input wire adc_capture_done,
@@ -87,7 +87,7 @@ module stonyman (
     output reg controller_busy,
     output reg frame_capture_done,
     output reg adc_capture_start,
-    
+
     // Digital control lines
     output reg resp,
     output reg incp,
@@ -130,7 +130,7 @@ module stonyman (
     reg resv_nxt;
     reg incv_nxt;
     reg inphi_nxt;
-    
+
     // Signal Error task
     task SIGNAL_ERROR;
     begin
@@ -232,7 +232,7 @@ module stonyman (
         end
     end
     endtask
-    
+
     // Set Pointer task
     task SET_PTR;
         input  [2:0] new_ptr_val;
@@ -340,7 +340,7 @@ module stonyman (
         inphi_nxt = 0;
 
         controller_busy = (main_state != `IDLE);
-    
+
         case (main_state)
             `INIT_RESET: begin
                 // Do nothing until we are out of reset
@@ -459,7 +459,7 @@ module stonyman (
             sub_state_nxt = 0;
         end
     end
-    
+
     always @(posedge clk) begin
         if (reset) begin
             // Initialize states
@@ -468,7 +468,7 @@ module stonyman (
             pulse_pin_state <= `START;
 
             timer <= 0;
-        
+
             frame_capture_done <= 0;
             adc_capture_start  <= 0;
             resp  <= 0;
@@ -494,7 +494,7 @@ module stonyman (
             main_state      <= main_state_nxt;
             sub_state       <= sub_state_nxt;
             pulse_pin_state <= pulse_pin_state_nxt;
-            
+
             timer <= timer_nxt;
 
             frame_capture_done <= frame_capture_done_nxt;
@@ -504,7 +504,7 @@ module stonyman (
             resv  <= resv_nxt;
             incv  <= incv_nxt;
             inphi <= inphi_nxt;
-            
+
             mask_pixel_row <= mask_pixel_row_nxt;
             mask_pixel_col <= mask_pixel_col_nxt;
 
@@ -521,4 +521,3 @@ module stonyman (
     end
 
 endmodule
-

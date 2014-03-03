@@ -27,6 +27,13 @@
 `define READ_BITS_COUNTS (12)
 `define TIMER_BITS 8
 
+// Bit offset
+// Number of bits to offset the reading by. This is important because we read a
+//  12 bit value and then only use 8 bits of it. The 8 MSbs of valid data should
+//  be what we are using
+// Probably don't need to modify unless you aren't running at 5v
+`define BIT_OFFSET 1
+
 module adc_controller (
     input wire clk,
     input wire reset,
@@ -38,6 +45,9 @@ module adc_controller (
     // Timing signal
     input wire [7:0] track_counts,
 
+    // Pixel offset signal
+    input wire [11:0] val_offset,
+
     // ADC Data
     input wire sdata,
 
@@ -48,20 +58,16 @@ module adc_controller (
 
     // ADC Control
     output reg sclk,
-    output reg cs_n,
-
-    // Test points
-    output reg capture_requested,
-    output reg [2:0] adc_state
+    output reg cs_n
     );
 
-    //reg [`STATE_BITS-1:0] adc_state;
+    reg [`STATE_BITS-1:0] adc_state;
     reg [`STATE_BITS-1:0] adc_state_nxt;
 
     reg [`TIMER_BITS-1:0] timer;
     reg [`TIMER_BITS-1:0] timer_nxt;
 
-    //reg capture_requested;
+    reg capture_requested;
     reg capture_requested_nxt;
     reg [11:0] adc_data;
     reg [11:0] adc_data_nxt;
@@ -98,11 +104,22 @@ module adc_controller (
     always @(*) begin
         adc_state_nxt = adc_state;
 
+        // Remove the voltage offset from the data, and limit to 8 bits
+        //if (tmp_data < val_offset) begin
+        //    tmp_data = 12'h000;
+        //end else if (tmp_data > (val_offset+512)) begin
+        //    tmp_data = 12'hFFF;
+        //end else begin
+        //    tmp_data = adc_data - val_offset;
+        //end
+
+        tmp_data = (adc_data - val_offset);
+        fifo_write_data = ~(tmp_data[7+`BIT_OFFSET:0+`BIT_OFFSET]);
+
+        //tmp_data = adc_data - 485;
+        //fifo_write_data = ~(tmp_data[8:1]);
+
         adc_capture_done_nxt = 0;
-        // modified to capture the range 0.600 V to 1.2 V better (powered at 5v)
-		tmp_data = adc_data - 485;
-        fifo_write_data = ~(tmp_data[8:1]);
-        //fifo_write_data = adc_data[7:0];
         cs_n_nxt = 1;
         sclk_nxt = 1;
 

@@ -95,14 +95,33 @@ set_io psram_nbyte_en\[1\] -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -R
 # All connections after this point are GPIO. Choices were made to make hooking the camera up to the emcraft board easier
 
 # Camera Connections
-set_io cam0_sdata -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -pinname K6 -fixed yes
-set_io cam0_sclk  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname L6  -fixed yes
-set_io cam0_cs_n  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname K4  -fixed yes
-set_io cam0_resp  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname L2  -fixed yes
-set_io cam0_incp  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname L1  -fixed yes
-set_io cam0_resv  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname J17 -fixed yes
-set_io cam0_incv  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname G2  -fixed yes
-set_io cam0_inphi -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname K17 -fixed yes
+set_io cam1_sdata -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -pinname K6 -fixed yes
+set_io cam1_sclk  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname L6  -fixed yes
+set_io cam1_cs_n  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname K4  -fixed yes
+set_io cam1_resp  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname L2  -fixed yes
+set_io cam1_incp  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname L1  -fixed yes
+set_io cam1_resv  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname J17 -fixed yes
+set_io cam1_incv  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname G2  -fixed yes
+set_io cam1_inphi -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname K17 -fixed yes
+
+set_io cam0_sdata -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -pinname J22 -fixed yes
+set_io cam0_sclk  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname J19 -fixed yes
+set_io cam0_cs_n  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname J21 -fixed yes
+set_io cam0_resp  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname F21 -fixed yes
+set_io cam0_incp  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname F20 -fixed yes
+set_io cam0_resv  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname E22 -fixed yes
+set_io cam0_incv  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname L3  -fixed yes
+set_io cam0_inphi -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname G4  -fixed yes
+
+# set_io cam0_sdata -iostd LVTTL -REGISTER No -RES_PULL None -SCHMITT_TRIGGER Off -pinname M1  -fixed yes
+# set_io cam0_sclk  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname M2  -fixed yes
+# set_io cam0_cs_n  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname D7  -fixed yes
+# set_io cam0_resp  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C5  -fixed yes
+# set_io cam0_incp  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C4  -fixed yes
+# set_io cam0_resv  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname B19 -fixed yes
+# set_io cam0_incv  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname B20 -fixed yes
+# set_io cam0_inphi -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname E18 -fixed yes
+
 
 # Heartbeat Pulse
 set_io pulse_out -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname M1 -fixed yes
@@ -114,11 +133,9 @@ set_io cam0_adc_capture_start  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW Hig
 set_io cam0_adc_capture_done   -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname A17 -fixed yes
 set_io cam0_fifo_empty         -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname D8  -fixed yes
 set_io cam0_fifo_full          -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname A18 -fixed yes
-# set_io FAB_CLK	           -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C4  -fixed yes
-# set_io TP_BUSY            -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname D15 -fixed yes
-# set_io TP_FULL            -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname E14 -fixed yes
-# set_io TP_WREN            -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C5  -fixed yes
-# set_io TP_START_CAPTURE   -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname E8  -fixed yes
-# set_io TP_WRITEPENDING    -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C19 -fixed yes
-# set_io TP_ADCSTARTCAP     -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname D7  -fixed yes
-# set_io TP_ADCCONVCOMPLETE -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname B19 -fixed yes
+set_io cam1_fifo_afull         -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C5  -fixed yes
+set_io cam1_frame_capture_done -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname E14 -fixed yes
+set_io cam1_adc_capture_start  -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C4  -fixed yes
+set_io cam1_adc_capture_done   -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname D15 -fixed yes
+set_io cam1_fifo_empty         -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname E8  -fixed yes
+set_io cam1_fifo_full          -iostd LVTTL -REGISTER No -OUT_DRIVE 12 -SLEW High -RES_PULL None -SKEW Off -OUT_LOAD 35 -pinname C19 -fixed yes

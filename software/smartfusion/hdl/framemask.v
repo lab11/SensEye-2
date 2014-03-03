@@ -3,13 +3,13 @@
 //
 // File: framemask.v
 //
-// Description: 
+// Description:
 //  Controller for selecting which pixels of an image frame to grab
 //
 // Targeted device: <Family::SmartFusion> <Die::A2F500M3G> <Package::484 FBGA>
 // Author: Branden Ghena
 //
-/////////////////////////////////////////////////////////////////////////////////////////////////// 
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 `define RESOLUTION 112
 
@@ -27,7 +27,7 @@ module framemask (
     );
 
     always @(posedge clk) begin
-        if (reset) begin  
+        if (reset) begin
             capture_pixel <= 0;
         end else begin
             capture_pixel <= 1;
@@ -54,7 +54,7 @@ module framemask (
     // Set mask data
     always @(*) begin
         mask_nxt = mask;
-        
+
         if (mask_write) begin
             mask_nxt = mask | ({12544{1'b1}} & (mask_data << mask_row*`RESOLUTION+32*mask_col));
         end

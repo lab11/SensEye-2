@@ -30,7 +30,7 @@
 // 0x0000_0080  r         CAM0_STATUS    00000000 _ 00000000 _ 00000000 _ 0000 overflow afull full empty
 // 0x0000_0084  w         CAM0_SETTINGS1 xx vref[5:0] _ xx config[5:0] _ xx nbias[5:0] _ xx aobias[5:0]
 // 0x0000_0084  r         CAM0_PXDATA    data[31:0]
-// 0x0000_0088  w         CAM0_SETTINGS2 xxxxxxxx _ xxxxxxxx _ vsw[7:0] _ hsw[7:0]
+// 0x0000_0088  w         CAM0_SETTINGS2 xxxx val_offset[11:0] _ vsw[7:0] _ hsw[7:0]
 // 0x0000_0088  r         RESERVED
 // 0x0000_008C  n/a       RESERVED
 // ---
@@ -38,7 +38,7 @@
 // 0x0000_0090  r         CAM1_STATUS    00000000 _ 00000000 _ 00000000 _ 0000 overflow afull full empty
 // 0x0000_0094  w         CAM1_SETTINGS1 xx vref[5:0] _ xx config[5:0] _ xx nbias[5:0] _ xx aobias[5:0]
 // 0x0000_0094  r         CAM1_PXDATA    data[31:0]
-// 0x0000_0098  w         CAM1_SETTINGS2 xxxxxxxx _ xxxxxxxx _ vsw[7:0] _ hsw[7:0]
+// 0x0000_0098  w         CAM1_SETTINGS2 xxxx val_offset[11:0] _ vsw[7:0] _ hsw[7:0]
 // 0x0000_0098  r         RESERVED
 // 0x0000_009C  n/a       RESERVED
 // ---
@@ -48,32 +48,38 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 // Default camera settings
-`define VIN_3V3
-//`define VIN_5V0
+//`define VIN_3V3
+`define VIN_5V0
 
 `define VAL_VREF_5V0   (40)
 `define VAL_NBIAS_5V0  (55)
 `define VAL_AOBIAS_5V0 (55)
+`define VAL_OFFSET_5V0 (628)
 
 `define VAL_VREF_3V3   (41)
 `define VAL_NBIAS_3V3  (50)
 `define VAL_AOBIAS_3V3 (50)
+`define VAL_OFFSET_3V3 (212)
 
 `ifdef VIN_5V0
  `define CAM0_VREF_VALUE   (`VAL_VREF_5V0)
  `define CAM0_NBIAS_VALUE  (`VAL_NBIAS_5V0)
  `define CAM0_AOBIAS_VALUE (`VAL_AOBIAS_5V0)
+ `define CAM0_OFFSET_VALUE (`VAL_OFFSET_5V0)
  `define CAM1_VREF_VALUE   (`VAL_VREF_5V0)
  `define CAM1_NBIAS_VALUE  (`VAL_NBIAS_5V0)
  `define CAM1_AOBIAS_VALUE (`VAL_AOBIAS_5V0)
+ `define CAM1_OFFSET_VALUE (`VAL_OFFSET_5V0)
 `endif // VIN_5V0
 `ifdef VIN_3V3
  `define CAM0_VREF_VALUE   (`VAL_VREF_3V3)
  `define CAM0_NBIAS_VALUE  (`VAL_NBIAS_3V3)
  `define CAM0_AOBIAS_VALUE (`VAL_AOBIAS_3V3)
+ `define CAM0_OFFSET_VALUE (`VAL_OFFSET_3V3)
  `define CAM1_VREF_VALUE   (`VAL_VREF_3V3)
  `define CAM1_NBIAS_VALUE  (`VAL_NBIAS_3V3)
  `define CAM1_AOBIAS_VALUE (`VAL_AOBIAS_3V3)
+ `define CAM1_OFFSET_VALUE (`VAL_OFFSET_3V3)
 `endif // VIN_3V3
 
 `define CAM0_VSW_VALUE    (0)
@@ -134,6 +140,7 @@ module imager_apb_interface (
     output reg [5:0] cam0_config_value,
     output reg [5:0] cam0_nbias_value,
     output reg [5:0] cam0_aobias_value,
+    output reg [11:0] cam0_val_offset,
 
     /* CAM0 FIFO */
     input wire cam0_fifo_empty,
@@ -160,6 +167,7 @@ module imager_apb_interface (
     output reg [5:0] cam1_config_value,
     output reg [5:0] cam1_nbias_value,
     output reg [5:0] cam1_aobias_value,
+    output reg [11:0] cam1_val_offset,
 
     /* CAM1 FIFO */
     input wire cam1_fifo_empty,
@@ -218,12 +226,14 @@ module imager_apb_interface (
             cam0_config_value <= `CAM0_CONFIG_VALUE;
             cam0_nbias_value  <= `CAM0_NBIAS_VALUE;
             cam0_aobias_value <= `CAM0_AOBIAS_VALUE;
+            cam0_val_offset   <= `CAM0_OFFSET_VALUE;
             cam1_vsw_value    <= `CAM1_VSW_VALUE;
             cam1_hsw_value    <= `CAM1_HSW_VALUE;
             cam1_vref_value   <= `CAM1_VREF_VALUE;
             cam1_config_value <= `CAM1_CONFIG_VALUE;
             cam1_nbias_value  <= `CAM1_NBIAS_VALUE;
             cam1_aobias_value <= `CAM1_AOBIAS_VALUE;
+            cam1_val_offset   <= `CAM1_OFFSET_VALUE;
 
             cam0_fifo_read_enable <= 0;
             cam1_fifo_read_enable <= 0;
@@ -269,12 +279,14 @@ module imager_apb_interface (
             cam0_config_value <= cam0_config_value;
             cam0_nbias_value  <= cam0_nbias_value;
             cam0_aobias_value <= cam0_aobias_value;
+            cam0_val_offset   <= cam0_val_offset;
             cam1_vsw_value    <= cam1_vsw_value;
             cam1_hsw_value    <= cam1_hsw_value;
             cam1_vref_value   <= cam1_vref_value;
             cam1_config_value <= cam1_config_value;
             cam1_nbias_value  <= cam1_nbias_value;
             cam1_aobias_value <= cam1_aobias_value;
+            cam1_val_offset   <= cam1_val_offset;
             cam0_pixel_data <= cam0_pixel_data;
             cam1_pixel_data <= cam1_pixel_data;
             cam0_have_data  <= cam0_have_data;
@@ -330,8 +342,9 @@ module imager_apb_interface (
                         cam0_aobias_value <= PWDATA[5:0];
                     end
                     `CAM0_SETTINGS2: begin
-                        cam0_vsw_value <= PWDATA[15:8];
-                        cam0_hsw_value <= PWDATA[7:0];
+                        cam0_val_offset <= PWDATA[27:16];
+                        cam0_vsw_value  <= PWDATA[15:8];
+                        cam0_hsw_value  <= PWDATA[7:0];
                     end
                     `CAM1_FRAMEMASK: begin
                         cam1_mask_write_enable <= 1;
@@ -345,8 +358,9 @@ module imager_apb_interface (
                         cam1_aobias_value <= PWDATA[5:0];
                     end
                     `CAM1_SETTINGS2: begin
-                        cam1_vsw_value <= PWDATA[15:8];
-                        cam1_hsw_value <= PWDATA[7:0];
+                        cam1_val_offset <= PWDATA[27:16];
+                        cam1_vsw_value  <= PWDATA[15:8];
+                        cam1_hsw_value  <= PWDATA[7:0];
                     end
                     default: begin
                         // Do nothing!!
@@ -416,4 +430,3 @@ module imager_apb_interface (
     end
 
 endmodule
-
