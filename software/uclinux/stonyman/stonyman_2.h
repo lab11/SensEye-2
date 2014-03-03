@@ -19,8 +19,9 @@
 #define STONYMAN_IOC_STOP_CAPTURE   _IO(STONYMAN_IOC_MAGIC, 1)
 #define STONYMAN_IOC_RESET_IMAGER   _IO(STONYMAN_IOC_MAGIC, 2)
 #define STONYMAN_IOC_GLOBAL_START   _IO(STONYMAN_IOC_MAGIC, 3)
-#define STONYMAN_IOC_STATISTICS     _IO(STONYMAN_IOC_MAGIC, 4)
-#define STONYMAN_IOC_CMD_CNT        (5)
+#define STONYMAN_IOC_GLOBAL_STOP    _IO(STONYMAN_IOC_MAGIC, 4)
+#define STONYMAN_IOC_STATISTICS     _IO(STONYMAN_IOC_MAGIC, 5)
+#define STONYMAN_IOC_CMD_CNT        (6)
 
 // configuration defines (determined empirically)
 #define IMG_TRACK_COUNTS 16
@@ -31,5 +32,6 @@
 #define IMG_AOBIAS  55
 #define IMG_VSW     0
 #define IMG_HSW     0
+#define IMG_OFFSET  628
 
 #endif

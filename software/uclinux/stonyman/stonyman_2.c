@@ -19,9 +19,6 @@
 #include <linux/slab.h>
 #include <asm/uaccess.h>
 
-typedef unsigned int  uint32;
-typedef unsigned char uint8;
-
 #define NUM_CAMS           (2)
 //TODO: Chosen arbitrarily, maybe put some thought into this...?
 #define NUM_BUFFER_FRAMES  (3)
@@ -34,27 +31,27 @@ typedef unsigned char uint8;
 #define CAM_DEV_WIDTH       (0x00000010)
 #define CAM_DEV_ADDR(id)    (CAM_BASE_ADDR+CAM_DEV_OFFSET+CAM_DEV_WIDTH*id)
 
-#define REG_R_GLOB_STATUS   (*((volatile uint32*)(CAM_BASE_ADDR+0x00)))
-#define REG_W_GLOB_START    (*((volatile uint32*)(CAM_BASE_ADDR+0x00)))
-#define REG_W_GLOB_RESET    (*((volatile uint32*)(CAM_BASE_ADDR+0x04)))
-#define REG_W_GLOB_TIMING   (*((volatile uint32*)(CAM_BASE_ADDR+0x08)))
+#define REG_R_GLOB_STATUS   (*((volatile uint32_t*)(CAM_BASE_ADDR+0x00)))
+#define REG_W_GLOB_START    (*((volatile uint32_t*)(CAM_BASE_ADDR+0x00)))
+#define REG_W_GLOB_RESET    (*((volatile uint32_t*)(CAM_BASE_ADDR+0x04)))
+#define REG_W_GLOB_TIMING   (*((volatile uint32_t*)(CAM_BASE_ADDR+0x08)))
 
-#define REG_R_CAM_STATUS(id)    (*((volatile uint32*)(CAM_DEV_ADDR(id)+0x00)))
-#define REG_R_CAM_PXDATA(id)    (*((volatile uint32*)(CAM_DEV_ADDR(id)+0x04)))
-#define REG_W_CAM_FRAMEMASK(id) (*((volatile uint32*)(CAM_DEV_ADDR(id)+0x00)))
-#define REG_W_CAM_SETTINGS1(id) (*((volatile uint32*)(CAM_DEV_ADDR(id)+0x04)))
-#define REG_W_CAM_SETTINGS2(id) (*((volatile uint32*)(CAM_DEV_ADDR(id)+0x08)))
+#define REG_R_CAM_STATUS(id)    (*((volatile uint32_t*)(CAM_DEV_ADDR(id)+0x00)))
+#define REG_R_CAM_PXDATA(id)    (*((volatile uint32_t*)(CAM_DEV_ADDR(id)+0x04)))
+#define REG_W_CAM_FRAMEMASK(id) (*((volatile uint32_t*)(CAM_DEV_ADDR(id)+0x00)))
+#define REG_W_CAM_SETTINGS1(id) (*((volatile uint32_t*)(CAM_DEV_ADDR(id)+0x04)))
+#define REG_W_CAM_SETTINGS2(id) (*((volatile uint32_t*)(CAM_DEV_ADDR(id)+0x08)))
 
 // GPIO registers
 #define GPIO_BASE_ADDR           (0x40013000)
-#define GPIO_PIN_ADDR(pin)       (GPIO_BASE_ADDR+(pin*sizeof(uint32)))
+#define GPIO_PIN_ADDR(pin)       (GPIO_BASE_ADDR+(pin*sizeof(uint32_t)))
 #define GPIO_IRQ_OFFSET          (0x80)
 #define GPIO_IRQ_ADDR            (GPIO_BASE_ADDR+GPIO_IRQ_OFFSET)
-#define REG_W_GPIO_PIN_CFG(pin)  (*((volatile uint32*)(GPIO_PIN_ADDR(pin)+0x00)))
+#define REG_W_GPIO_PIN_CFG(pin)  (*((volatile uint32_t*)(GPIO_PIN_ADDR(pin)+0x00)))
 #define GPIO_PIN_FRAME_DONE(id)  (2*(id))
 #define GPIO_PIN_AFULL(id)       (2*(id)+1)
 
-#define REG_W_GPIO_IRQ             (*((volatile uint32*)(GPIO_IRQ_ADDR)))
+#define REG_W_GPIO_IRQ             (*((volatile uint32_t*)(GPIO_IRQ_ADDR)))
 #define GPIO_IRQ_NUM(pin)           ((pin)+32)
 #define GPIO_IRQ_NUM_FRAME_DONE(id) GPIO_IRQ_NUM(GPIO_PIN_FRAME_DONE(id))
 #define GPIO_IRQ_NUM_AFULL(id)      GPIO_IRQ_NUM(GPIO_PIN_AFULL(id))
@@ -66,7 +63,7 @@ typedef unsigned char uint8;
 #define MINOR_START        (0)
 
 // Inlineable function that configures and enables interrupts on GPIO
-static inline void gpio_enable_irq(uint8 pin) {
+static inline void gpio_enable_irq(uint8_t pin) {
    // Herein I explain the magic from top to bottom:
    //    interrupt type set to positive edge triggered (neg edge is 3)
    //    interrupt enabled
@@ -82,7 +79,7 @@ static inline void gpio_enable_irq(uint8 pin) {
 }
 
 // Inlineable function that disables interrupts on GPIO
-static inline void gpio_disable_irq(uint8 pin) {
+static inline void gpio_disable_irq(uint8_t pin) {
    // Herein I explain the magic from top to bottom:
    //    interrupt type set to positive edge triggered (neg edge is 3)
    //    interrupt disabled
@@ -98,25 +95,26 @@ static inline void gpio_disable_irq(uint8 pin) {
 }
 
 // Inlineable function that clears interrupts on GPIO
-static inline void gpio_clear_irq(uint8 pin) {
+static inline void gpio_clear_irq(uint8_t pin) {
    REG_W_GPIO_IRQ |= (1 << pin);
 }
 
 // Inlineable function that applies settings to a camera
-static inline void apply_settings(uint8 cam_id, uint8 vref, uint8 config,
-         uint8 nbias, uint8 aobias, uint8 vsw, uint8 hsw) {
+static inline void apply_settings(uint8_t cam_id, uint8_t vref, uint8_t config,
+         uint8_t nbias, uint8_t aobias, uint8_t vsw, uint8_t hsw, uint16_t val_offset) {
 
    REG_W_CAM_SETTINGS1(cam_id) = (((vref   & 0x3F) << 24) |
                                   ((config & 0x3F) << 16) |
                                   ((nbias  & 0x3F) <<  8) |
                                   ((aobias & 0x3F) <<  0));
 
-   REG_W_CAM_SETTINGS2(cam_id) = (((vsw & 0xFF) << 8) |
-                                  ((hsw & 0xFF) << 0));
+   REG_W_CAM_SETTINGS2(cam_id) = (((val_offset & 0xFFF) << 16) |
+                                  ((vsw        & 0xFF)  <<  8) |
+                                  ((hsw        & 0xFF)  <<  0));
 }
 
 // Inlineable function that applies timing settings to the verilog controller
-static inline void apply_timing(uint8 track_counts, uint8 pulse_counts) {
+static inline void apply_timing(uint8_t track_counts, uint8_t pulse_counts) {
    REG_W_GLOB_TIMING = (((track_counts & 0xFF) << 8) |
                         ((pulse_counts & 0xFF) << 0));
 }
@@ -143,7 +141,7 @@ static const struct file_operations stonyman_fops = {
    .ioctl=stonyman_ioctl
 };
 static unsigned char    initialization_status;
-static uint8            irq_count;
+static uint8_t          irq_count;
 static dev_t            stonyman_dev_num;
 static struct cdev      stonyman_cdev;
 static struct class*    stonyman_class;
@@ -152,16 +150,16 @@ static struct device*   stonyman_device [NUM_CAMS];
 // device variables
 // buffer for holding image data. Stores multiple frames for each camera
 static spinlock_t* img_buf_lock;
-static uint8* img_buf [NUM_CAMS][NUM_BUFFER_FRAMES];
-static uint8  img_buf_has_data [NUM_CAMS][NUM_BUFFER_FRAMES];
-static uint32 img_buf_head_pos [NUM_CAMS];
-static uint32 img_buf_tail_pos [NUM_CAMS];
-static uint32 img_buf_head_idx [NUM_CAMS];
-static uint32 img_buf_tail_idx [NUM_CAMS];
-static uint8 imager_capturing [NUM_CAMS];
-static uint32 frames_captured;
-static uint32 frames_read;
-static uint32 frames_overrun;
+static uint8_t* img_buf [NUM_CAMS][NUM_BUFFER_FRAMES];
+static uint8_t  img_buf_has_data [NUM_CAMS][NUM_BUFFER_FRAMES];
+static uint32_t img_buf_head_pos [NUM_CAMS];
+static uint32_t img_buf_tail_pos [NUM_CAMS];
+static uint32_t img_buf_head_idx [NUM_CAMS];
+static uint32_t img_buf_tail_idx [NUM_CAMS];
+static uint8_t  imager_capturing [NUM_CAMS];
+static uint32_t frames_captured;
+static uint32_t frames_read;
+static uint32_t frames_overrun;
 
 static int stonyman_init(void) {
    int i, j;
@@ -226,7 +224,7 @@ static int stonyman_init(void) {
    initialization_status++;
    for (i=0; i<NUM_CAMS; i++) {
       for (j=0; j<NUM_BUFFER_FRAMES; j++) {
-         img_buf[i][j] = (uint8*)kmalloc(RESOLUTION*sizeof(uint8), GFP_KERNEL);
+         img_buf[i][j] = (uint8_t*)kmalloc(RESOLUTION*sizeof(uint8_t), GFP_KERNEL);
          if (img_buf[i][j] == NULL) {
             printk(KERN_ALERT "stonyman: couldn't malloc bytes for the image buffer\n");
             stonyman_exit();
@@ -241,7 +239,8 @@ static int stonyman_init(void) {
    // apply configuration settings to cameras
    for (i=0; i<NUM_CAMS; i++) {
       // currently assumes that all cameras can use the same settings
-      apply_settings(i, IMG_VREF, IMG_CONFIG, IMG_NBIAS, IMG_AOBIAS, IMG_VSW, IMG_HSW);
+      apply_settings(i, IMG_VREF, IMG_CONFIG, IMG_NBIAS, IMG_AOBIAS,
+            IMG_VSW, IMG_HSW, IMG_OFFSET);
    }
 
    // restart the stonyman controller
@@ -394,18 +393,14 @@ static int stonyman_open(struct inode* inode, struct file* filp) {
 
    // record device id
    if (filp->private_data == NULL) {
-      filp->private_data = (void*)kmalloc(sizeof(uint8), GFP_KERNEL);
+      filp->private_data = (void*)kmalloc(sizeof(uint8_t), GFP_KERNEL);
       if (filp->private_data == NULL) {
          printk(KERN_ALERT "stonyman: ERROR could not allocate memory for open\n");
          return -1;
       }
 
-      *(uint8*)(filp->private_data) = (uint8)MINOR(inode->i_rdev);
+      *(uint8_t*)(filp->private_data) = (uint8_t)MINOR(inode->i_rdev);
    }
-
-   //XXX: REMOVE
-   // increment use count for device
-   //MOD_INC_USE_COUNT;
 
    // success
    return 0;
@@ -419,10 +414,6 @@ static int stonyman_release(struct inode* inode, struct file* filp) {
       filp->private_data = NULL;
    }
 
-   //XXX: REMOVE
-   // decrement device use
-   //MOD_DEC_USE_COUNT;
-
    return 0;
 }
 
@@ -430,7 +421,7 @@ static int stonyman_ioctl(struct inode* inode, struct file* filp,
       unsigned int cmd, unsigned long arg) {
 
    int i, j;
-   uint8 cam_id = 0;
+   uint8_t cam_id = 0;
    unsigned long irq_flags = 0;
 
    // check cmd parameter
@@ -445,13 +436,14 @@ static int stonyman_ioctl(struct inode* inode, struct file* filp,
    }
 
    // get device number
+   cam_id = 0;
    if (filp->private_data != NULL) {
-      cam_id = (uint8)(*(uint8*)(filp->private_data));
+      cam_id = (uint8_t)(*(uint8_t*)(filp->private_data));
    }
 
    switch(cmd) {
       case STONYMAN_IOC_START_CAPTURE:
-         //printk(KERN_INFO "stonyman: ioctl start capture\n");
+         //printk(KERN_INFO "stonyman: ioctl start capture cam[%d]\n", cam_id);
          if (imager_capturing[cam_id]) {
             //printk(KERN_ALERT "stonyman: ERROR already capturing\n");
             return -EALREADY;
@@ -508,10 +500,8 @@ static int stonyman_ioctl(struct inode* inode, struct file* filp,
          img_buf_tail_pos[cam_id] = 0;
          img_buf_head_idx[cam_id] = 0;
          img_buf_tail_idx[cam_id] = 0;
-         for (i=0; i<NUM_CAMS; i++) {
-            for (j=0; j<NUM_BUFFER_FRAMES; j++) {
-               img_buf_has_data[i][j] = 0;
-            }
+         for (j=0; j<NUM_BUFFER_FRAMES; j++) {
+            img_buf_has_data[cam_id][j] = 0;
          }
 
          // do not return until they are finished resetting
@@ -525,12 +515,12 @@ static int stonyman_ioctl(struct inode* inode, struct file* filp,
          //printk(KERN_INFO "stonyman: ioctl global start capture\n");
         
          for (i=0; i<NUM_CAMS; i++) {
-            if (imager_capturing[cam_id]) {
-               //printk(KERN_ALERT "stonyman: ERROR already capturing\n");
+            if (imager_capturing[i]) {
+               printk(KERN_ALERT "stonyman: ERROR cam[%d] already capturing\n", i);
                return -EALREADY;
             }
 
-            if ((REG_R_GLOB_STATUS & (1 << cam_id)) != 0) {
+            if ((REG_R_GLOB_STATUS & (1 << i)) != 0) {
                printk(KERN_ALERT "stonyman: ERROR busy\n");
                return -EBUSY;
             }
@@ -540,6 +530,35 @@ static int stonyman_ioctl(struct inode* inode, struct file* filp,
 
          // start all cameras
          REG_W_GLOB_START = 0xFFFFFFFF;
+         break;
+
+      case STONYMAN_IOC_GLOBAL_STOP:
+         //printk(KERN_INFO "stonyman: ioctl global stop capture\n");
+
+         for (i=0; i<NUM_CAMS; i++) {
+            imager_capturing[i] = 0;
+         }
+
+         // these two are split into two loops so the cameras stop more quickly
+         for (i=0; i<NUM_CAMS; i++) {
+            // do not return until they are finished with the current frame
+            while ((REG_R_GLOB_STATUS & (1 << i)) != 0);
+
+            // wait for any running interrupt to complete
+            spin_lock_irqsave(img_buf_lock, irq_flags);
+
+            // reset buffer status
+            img_buf_head_pos[i] = 0;
+            img_buf_tail_pos[i] = 0;
+            img_buf_head_idx[i] = 0;
+            img_buf_tail_idx[i] = 0;
+            for (j=0; j<NUM_BUFFER_FRAMES; j++) {
+               img_buf_has_data[i][j] = 0;
+            }
+
+            // unlock
+            spin_unlock_irqrestore(img_buf_lock, irq_flags);
+         }
          break;
 
       case STONYMAN_IOC_STATISTICS:
@@ -559,14 +578,13 @@ static int stonyman_ioctl(struct inode* inode, struct file* filp,
 
 static ssize_t stonyman_read(struct file* filp, char __user* buff,
          size_t count, loff_t* offp) {
-
    ssize_t return_count = 0;
    unsigned long irq_flags;
 
    // get device number
-   uint8 cam_id = 0;
+   uint8_t cam_id = 0;
    if (filp->private_data != NULL) {
-      cam_id = (*(uint8*)(filp->private_data));
+      cam_id = (*(uint8_t*)(filp->private_data));
    }
 
    if (RESOLUTION - img_buf_tail_pos[cam_id] < count) {
@@ -588,6 +606,7 @@ static ssize_t stonyman_read(struct file* filp, char __user* buff,
    }
 
    if (return_count != 0) {
+
       int error_code = copy_to_user(buff,
             (const void*)(&img_buf[cam_id][img_buf_tail_idx[cam_id]][img_buf_tail_pos[cam_id]]),
             return_count);
@@ -624,9 +643,9 @@ static ssize_t stonyman_write(struct file* filp, const char __user* buff,
          size_t count, loff_t* offp) {
 
    // get device number
-   uint8 cam_id = 0;
+   uint8_t cam_id = 0;
    if (filp->private_data != NULL) {
-      cam_id = (*(uint8*)(filp->private_data));
+      cam_id = (*(uint8_t*)(filp->private_data));
    }
 
    //TODO: Implement frame masks!
@@ -646,7 +665,7 @@ irqreturn_t stonyman_interrupt(int irq, void* dev_id, struct pt_regs* regs) {
 
    // read from pixel fifo
    while ((REG_R_CAM_STATUS(cam_id) & 0x01) == 0) {
-      uint32 tmpdata = REG_R_CAM_PXDATA(cam_id);
+      uint32_t tmpdata = REG_R_CAM_PXDATA(cam_id);
       img_buf[cam_id][img_buf_head_idx[cam_id]][img_buf_head_pos[cam_id]+0] = ((tmpdata >>  0) & 0xFF);
       img_buf[cam_id][img_buf_head_idx[cam_id]][img_buf_head_pos[cam_id]+1] = ((tmpdata >>  8) & 0xFF);
       img_buf[cam_id][img_buf_head_idx[cam_id]][img_buf_head_pos[cam_id]+2] = ((tmpdata >> 16) & 0xFF);

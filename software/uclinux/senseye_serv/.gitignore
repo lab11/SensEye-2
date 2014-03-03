@@ -2,3 +2,7 @@ senseye_serv
 senseye_serv_nomask
 senseye_serv.gdb
 senseye_serv.o
+senseye_serv_2
+senseye_serv_2_nomask
+senseye_serv_2.gdb
+senseye_serv_2.o
