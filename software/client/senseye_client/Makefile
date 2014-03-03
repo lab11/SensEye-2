@@ -1,7 +1,6 @@
-# Russ Bielawski
-# 2012-11-15
+# Branden Ghena
 
-NAME=senseye_display
+NAME=senseye_client
 
 CC=gcc
 CFLAGS=-O2 -Wall -g
@@ -12,17 +11,11 @@ OPENCV_LIBS=-lopencv_core -lopencv_highgui -lopencv_imgproc
 
 SENSEYE_DEFS_INC=../../uclinux/senseye_serv/
 
-LIBGLASSES_INC=../libglasses
-LIBGLASSES_SRC=$(LIBGLASSES_INC)/glasses.c
-
-#INC=-I$(OPENCV_INC) -I$(LIBGLASSES_INC)
-INC=-I$(OPENCV_INC) -I$(SENSEYE_DEFS_INC) -I$(LIBGLASSES_INC)
-SRC=$(NAME).c $(LIBGLASSES_SRC)
+INC=-I$(OPENCV_INC) -I$(SENSEYE_DEFS_INC)
+SRC=$(NAME).c
 BIN=$(NAME)
 
-#LIBDIR=-L/usr/local/lib
 LIBS=$(OPENCV_LIBS)
-
 
 all:	$(NAME)
 
@@ -31,4 +24,3 @@ $(NAME):	$(SRC)
 
 clean:
 	rm -f $(BIN)
-

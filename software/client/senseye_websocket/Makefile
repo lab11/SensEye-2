@@ -10,11 +10,15 @@ CFLAGS=-O2 -Wall -g
 OPENCV_INC=/usr/local/include/opencv
 OPENCV_LIBS=-lopencv_core -lopencv_highgui -lopencv_imgproc
 
-LIBGLASSES_INC=../libglasses
-LIBGLASSES_SRC=$(LIBGLASSES_INC)/glasses.c
+SENSEYE_DEFS_INC=../../uclinux/senseye_serv/
 
-INC=-I$(OPENCV_INC) -I$(LIBGLASSES_INC)
-SRC=$(NAME).c $(LIBGLASSES_SRC)
+#LIBGLASSES_INC=../libglasses
+#LIBGLASSES_SRC=$(LIBGLASSES_INC)/glasses.c
+
+#INC=-I$(OPENCV_INC) -I$(LIBGLASSES_INC)
+INC=-I$(OPENCV_INC) -I$(SENSEYE_DEFS_INC)
+SRC=$(NAME).c
+#SRC=$(NAME).c $(LIBGLASSES_SRC)
 BIN=$(NAME)
 
 #LIBDIR=-L/usr/local/lib

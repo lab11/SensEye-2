@@ -27,6 +27,7 @@
 #include <opencv/highgui.h>
 
 #include "glasses.h"
+#include "senseye_defs.h"
 
 
 //**************************************************************************************************
@@ -219,7 +220,7 @@ int main(int argc, char** argv)
 
    readuntilchar(stdin,SYMBOL_SOF);
    indat[0] = readchar(stdin);
-   assert(OPCODE_RESP_NUM_CAMS == (unsigned char)indat[0]);
+   assert(OPCODE_NUM_CAMS == (unsigned char)indat[0]);
    numcams = (unsigned)readchar(stdin);
    assert((0 < numcams) && (MAX_CAMS >= numcams));
    printf("Num cameras: %d\n", numcams);
@@ -230,8 +231,8 @@ int main(int argc, char** argv)
       readuntilchar(stdin,SYMBOL_SOF);
       indat[0] = readchar(stdin);
       assert( (OPCODE_FRAME == (unsigned char)indat[0]) ||
-              (SYMBOL_EXIT  == (unsigned char)indat[0]) );
-      if(SYMBOL_EXIT == (unsigned char)indat[0])
+              (OPCODE_EXIT  == (unsigned char)indat[0]) );
+      if(OPCODE_EXIT == (unsigned char)indat[0])
       {
          break;
       }
@@ -245,7 +246,7 @@ int main(int argc, char** argv)
          indatloc+=readcnt;
       }
       *indatloc = '\0';
-      fprintf(stderr,"received %d bytes\n",totallen);
+      //fprintf(stderr,"received %d bytes\n",totallen);
 
 
       // calculate FPS
@@ -280,9 +281,9 @@ int main(int argc, char** argv)
                                           + 2*(frametrip->widthStep/3) );
             for(jj=0; jj<FRAME_X_Y; ++jj)
             {
-               frametriploc1[jj]=(unsigned char)indat[0*FRAME_X_Y*2 + ii*FRAME_X_Y+jj];
-               frametriploc2[jj]=(unsigned char)indat[1*FRAME_X_Y*2 + ii*FRAME_X_Y+jj];
-               frametriploc3[jj]=(unsigned char)indat[2*FRAME_X_Y*2 + ii*FRAME_X_Y+jj];
+               frametriploc1[jj]=(unsigned char)indat[0*FRAME_LEN*2 + ii*FRAME_X_Y+jj];
+               frametriploc2[jj]=(unsigned char)indat[1*FRAME_LEN*2 + ii*FRAME_X_Y+jj];
+               frametriploc3[jj]=(unsigned char)indat[2*FRAME_LEN*2 + ii*FRAME_X_Y+jj];
             }
          }
          // create scaled up image
@@ -290,18 +291,33 @@ int main(int argc, char** argv)
       }
       else if(2==numcams)
       {
+         /*
          for(ii=0; ii<FRAME_X_Y; ++ii)
          {
             framedoubleloc1 = (uchar*)(framedouble->imageData + (ii*framedouble->widthStep));
-            framedoubleloc2 = (uchar*)( framedouble->imageData
-                                          + (ii*framedouble->widthStep)
-                                          + (framedouble->widthStep/2) );
+            framedoubleloc2 = (uchar*)(framedouble->imageData + (ii*framedouble->widthStep) + (framedouble->widthStep/2));
             for(jj=0; jj<FRAME_X_Y; ++jj)
             {
-               framedoubleloc1[jj]=(unsigned char)indat[0*FRAME_X_Y + ii*FRAME_X_Y+jj];
-               framedoubleloc2[jj]=(unsigned char)indat[1*FRAME_X_Y + ii*FRAME_X_Y+jj];
+               //framedoubleloc1[jj]=(unsigned char)indat[0*FRAME_X_Y + ii*FRAME_X_Y+jj];
+               framedoubleloc1[jj]=(unsigned char)indat[0*FRAME_LEN + ii*FRAME_X_Y+jj];
+               //framedoubleloc2[jj]=(unsigned char)indat[1*FRAME_X_Y + ii*FRAME_X_Y+jj];
+               framedoubleloc2[jj]=(unsigned char)indat[1*FRAME_LEN + ii*FRAME_X_Y+jj];
             }
          }
+         */
+
+         // Reverse X and Reverse Y so the image is aligned as you would expect
+         for(ii=0; ii<FRAME_X_Y; ++ii) {
+            framedoubleloc1 = (uchar*)(framedouble->imageData + (ii*framedouble->widthStep));
+            framedoubleloc2 = (uchar*)(framedouble->imageData + (ii*framedouble->widthStep) + (framedouble->widthStep/2));
+            for(jj=0; jj<FRAME_X_Y; ++jj) {
+               // world on the left
+               framedoubleloc1[jj]=(unsigned char)indat[1*FRAME_LEN + (FRAME_X_Y*FRAME_X_Y-ii*FRAME_X_Y-1*FRAME_X_Y)+(FRAME_X_Y-jj-1)];
+               // eye on the right
+               framedoubleloc2[jj]=(unsigned char)indat[0*FRAME_LEN + (FRAME_X_Y*FRAME_X_Y-ii*FRAME_X_Y-1*FRAME_X_Y)+(FRAME_X_Y-jj-1)];
+            }
+         }
+
          // create scaled up image
          cvResize(framedouble,framedoublescaledup,CV_INTER_LINEAR);
       }
@@ -371,31 +387,36 @@ int main(int argc, char** argv)
           printf("Saving mask file\n");
 
           // Only create a mask for the first camera
-          FILE* mask_file = fopen("mask.h", "w");
-          if(0 == mask_file)
+          FILE* mask_left_file = fopen("mask_left.h", "w");
+          FILE* mask_right_file = fopen("mask_right.h", "w");
+          if(0 == mask_left_file || 0 == mask_right_file)
           {
              fprintf(stderr, "Could not open mask file\n");
              exit(1);
           }
 
           // Output initial c code
-          fprintf(mask_file, "const char stonymask[112*112]={");
+          fprintf(mask_left_file, "const char mask_left[112*112]={");
+          fprintf(mask_right_file, "const char mask_right[112*112]={");
 
-          // Output pixel data
-          int i, j;
-          for (i=0; i<FRAME_X_Y; i++)
-          {
-              for (j=0; j<FRAME_X_Y; j++)
-              {
-                fprintf(mask_file, "%u", (unsigned char)indat[0*FRAME_X_Y + i*FRAME_X_Y+j]);
-                if (j == FRAME_X_Y-1 && i == FRAME_X_Y-1)
-                {
-                    fprintf(mask_file, "};\n");
-                } else {
-                    fprintf(mask_file, ",");
-                }
-              }
-          }
+         // Output pixel data
+         int i, j;
+         for(i=0; i<FRAME_X_Y; ++i) {
+            for(j=0; j<FRAME_X_Y; ++j) {
+               // world on the left
+               fprintf(mask_left_file, "%u", (unsigned char)indat[1*FRAME_LEN + (FRAME_X_Y*FRAME_X_Y-i*FRAME_X_Y-1*FRAME_X_Y)+(FRAME_X_Y-j-1)]);
+               // eye on the right
+               fprintf(mask_right_file, "%u", (unsigned char)indat[0*FRAME_LEN + (FRAME_X_Y*FRAME_X_Y-i*FRAME_X_Y-1*FRAME_X_Y)+(FRAME_X_Y-j-1)]);
+
+               if (j == FRAME_X_Y-1 && i == FRAME_X_Y-1) {
+                  fprintf(mask_left_file, "};\n");
+                  fprintf(mask_right_file, "};\n");
+               } else {
+                  fprintf(mask_left_file, ",");
+                  fprintf(mask_right_file, ",");
+               }
+            }
+         }
       }
    }
 
