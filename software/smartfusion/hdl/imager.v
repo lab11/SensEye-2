@@ -100,7 +100,7 @@ module imager (
     wire [5:0] cam0_aobias_value;
 
     // ADC settings
-    wire [11:0] cam0_offset_val;
+    wire [11:0] cam0_val_offset;
 
     // Framemask signals
     wire [6:0] cam0_mask_pixel_row;
@@ -117,7 +117,7 @@ module imager (
         .adc_capture_start  (cam0_adc_capture_start),
         .fifo_full          (cam0_fifo_full),
         .track_counts       (track_counts),
-        .val_offset         (cam0_offset_val),
+        .val_offset         (cam0_val_offset),
         .sdata              (cam0_sdata),
         .adc_capture_done   (cam0_adc_capture_done),
         .fifo_write_enable  (cam0_fifo_write_enable),
@@ -207,8 +207,7 @@ module imager (
     wire [5:0] cam1_aobias_value;
 
     // ADC settings
-    wire [11:0] cam1_val_offset;
-    wire [11:0] cam1_offset_val;
+    wire [11:0] cam11_val_offset;
 
     // Framemask signals
     wire [6:0] cam1_mask_pixel_row;
@@ -225,7 +224,7 @@ module imager (
         .adc_capture_start  (cam1_adc_capture_start),
         .fifo_full          (cam1_fifo_full),
         .track_counts       (track_counts),
-        .val_offset         (cam1_val_offset),
+        .val_offset         (cam11_val_offset),
         .sdata              (cam1_sdata),
         .adc_capture_done   (cam1_adc_capture_done),
         .fifo_write_enable  (cam1_fifo_write_enable),
@@ -314,7 +313,7 @@ module imager (
         .cam0_config_value          (cam0_config_value),
         .cam0_nbias_value           (cam0_nbias_value),
         .cam0_aobias_value          (cam0_aobias_value),
-        .cam0_val_offset            (cam0_offset_val),
+        .cam0_val_offset            (cam0_val_offset),
         .cam0_fifo_empty            (cam0_fifo_empty),
         .cam0_fifo_afull            (cam0_fifo_afull),
         .cam0_fifo_full             (cam0_fifo_full),
@@ -336,7 +335,7 @@ module imager (
         .cam1_config_value          (cam1_config_value),
         .cam1_nbias_value           (cam1_nbias_value),
         .cam1_aobias_value          (cam1_aobias_value),
-        .cam1_val_offset            (cam1_offset_val),
+        .cam1_val_offset            (cam11_val_offset),
         .cam1_fifo_empty            (cam1_fifo_empty),
         .cam1_fifo_afull            (cam1_fifo_afull),
         .cam1_fifo_full             (cam1_fifo_full),

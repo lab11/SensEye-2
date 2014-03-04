@@ -56,7 +56,7 @@
 // Timing definitions
 //TODO: define me based on clock and nanoseconds...
 //`define COUNTS_PIN_HIGH 100
-`define TIMER_BITS 8
+//`define TIMER_BITS 8
 
 
 module stonyman (
@@ -108,10 +108,6 @@ module stonyman (
     reg [`PIN_STATE_BITS-1:0] pulse_pin_state;
     reg [`PIN_STATE_BITS-1:0] pulse_pin_state_nxt;
 
-    //TODO: If this stays unused, remove it
-    reg [`TIMER_BITS-1:0] timer;
-    reg [`TIMER_BITS-1:0] timer_nxt;
-
     // Frame mask signals
     reg [6:0] mask_pixel_row_nxt;
     reg [6:0] mask_pixel_col_nxt;
@@ -154,24 +150,14 @@ module stonyman (
             `START: begin
                 // Begin pulse
                 pin = 1;
-                //timer_nxt = `COUNTS_PIN_HIGH;
-                timer_nxt = pulse_counts;
                 pulse_pin_state_nxt = `WAIT;
                 state_nxt = cur_state;
             end
             `WAIT: begin
-                timer_nxt = timer-1;
-                if (timer == 0) begin
-                    // Pulse complete
-                    pin = 0;
-                    pulse_pin_state_nxt = `START;
-                    state_nxt = new_state;
-                end else begin
-                    // Hold signal high
-                    pin = 1;
-                    pulse_pin_state_nxt = `WAIT;
-                    state_nxt = cur_state;
-                end
+                // Pulse complete
+                pin = 0;
+                pulse_pin_state_nxt = `START;
+                state_nxt = new_state;
             end
             default: begin
                 // Something has gone wrong
@@ -270,6 +256,26 @@ module stonyman (
         if (reg_value[ptr_value] < new_reg_val) begin
             // Increment the val
             INCR_VAL(cur_state, new_state, state_nxt);
+            state_nxt = cur_state;
+        end else begin
+            // They are already equal!
+            reg_value_nxt[ptr_value] = reg_value[ptr_value];
+            state_nxt = new_state;
+        end
+    end
+    endtask
+
+    // Goto Value task
+    //  This task can reset the Value, while SET_VAL cannot
+    task GOTO_VAL;
+        input  [7:0] new_reg_val;
+        input  [`STATE_BITS-1:0] cur_state;
+        input  [`STATE_BITS-1:0] new_state;
+        output [`STATE_BITS-1:0] state_nxt;
+    begin
+        if (reg_value[ptr_value] < new_reg_val) begin
+            // Increment the val
+            INCR_VAL(cur_state, new_state, state_nxt);
         end else if (reg_value[ptr_value] > new_reg_val) begin
             // Val needs to be reset, this will automatically transition us to
             //  incrementing the val
@@ -280,7 +286,7 @@ module stonyman (
             state_nxt = new_state;
         end
 
-        // Don't exit SET_VAL until we reach the desired value
+        // Don't exit GOTO_VAL until we reach the desired value
         if (reg_value_nxt[ptr_value] != new_reg_val) begin
             state_nxt = cur_state;
         end
@@ -315,8 +321,6 @@ module stonyman (
         main_state_nxt = main_state;
         sub_state_nxt  = sub_state;
         pulse_pin_state_nxt = pulse_pin_state;
-
-        timer_nxt = timer;
 
         mask_pixel_row_nxt = mask_pixel_row;
         mask_pixel_col_nxt = mask_pixel_col;
@@ -416,10 +420,10 @@ module stonyman (
             `CAPTURE: begin
                 case (sub_state)
                     `SET_ROW_PTR: SET_PTR(`ROWSEL_PTR, `SET_ROW_PTR, `SET_ROW_VAL, sub_state_nxt);
-                    `SET_ROW_VAL: SET_VAL(mask_pixel_row, `SET_ROW_VAL, `SET_COL_PTR, sub_state_nxt);
+                    `SET_ROW_VAL: GOTO_VAL(mask_pixel_row, `SET_ROW_VAL, `SET_COL_PTR, sub_state_nxt);
                     `SET_COL_PTR: SET_PTR(`COLSEL_PTR, `SET_COL_PTR, `SET_COL_VAL, sub_state_nxt);
                     `SET_COL_VAL: begin
-                        SET_VAL(mask_pixel_col, `SET_COL_VAL, `WAIT_ADC, sub_state_nxt);
+                        GOTO_VAL(mask_pixel_col, `SET_COL_VAL, `WAIT_ADC, sub_state_nxt);
                         if (sub_state_nxt == `WAIT_ADC) begin
                             if (mask_capture_pixel) begin
                                 // Signal ADC to being capture
@@ -460,14 +464,12 @@ module stonyman (
         end
     end
 
-    always @(posedge clk) begin
+    always @(posedge clk or posedge reset) begin
         if (reset) begin
             // Initialize states
             main_state      <= `INIT_RESET;
             sub_state       <= 0;
             pulse_pin_state <= `START;
-
-            timer <= 0;
 
             frame_capture_done <= 0;
             adc_capture_start  <= 0;
@@ -494,8 +496,6 @@ module stonyman (
             main_state      <= main_state_nxt;
             sub_state       <= sub_state_nxt;
             pulse_pin_state <= pulse_pin_state_nxt;
-
-            timer <= timer_nxt;
 
             frame_capture_done <= frame_capture_done_nxt;
             adc_capture_start  <= adc_capture_start_nxt;

@@ -105,19 +105,14 @@ module adc_controller (
         adc_state_nxt = adc_state;
 
         // Remove the voltage offset from the data, and limit to 8 bits
-        //if (tmp_data < val_offset) begin
-        //    tmp_data = 12'h000;
-        //end else if (tmp_data > (val_offset+512)) begin
-        //    tmp_data = 12'hFFF;
-        //end else begin
-        //    tmp_data = adc_data - val_offset;
-        //end
-
         tmp_data = (adc_data - val_offset);
-        fifo_write_data = ~(tmp_data[7+`BIT_OFFSET:0+`BIT_OFFSET]);
-
-        //tmp_data = adc_data - 485;
-        //fifo_write_data = ~(tmp_data[8:1]);
+        if (tmp_data[11]) begin
+            fifo_write_data = ~(8'h00);
+        end else if (tmp_data[9] || tmp_data[10]) begin
+            fifo_write_data = ~(8'hFF);
+        end else begin
+            fifo_write_data = ~(tmp_data[7+`BIT_OFFSET:0+`BIT_OFFSET]);
+        end
 
         adc_capture_done_nxt = 0;
         cs_n_nxt = 1;
