@@ -32,6 +32,6 @@
 #define IMG_AOBIAS  55
 #define IMG_VSW     0
 #define IMG_HSW     0
-#define IMG_OFFSET  628
+#define IMG_OFFSET  510
 
 #endif

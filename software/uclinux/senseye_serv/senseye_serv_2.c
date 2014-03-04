@@ -226,6 +226,9 @@ void terminate(int signum) {
       ioctl(stony_fd[0], STONYMAN_IOC_GLOBAL_STOP);
    }
 
+   // Print off statistics
+   ioctl(stony_fd[0], STONYMAN_IOC_STATISTICS);
+
    // Close descriptors
    for (i=0; i<NUM_CAMS; i++) {
       if (stony_fd[i] != -1) {

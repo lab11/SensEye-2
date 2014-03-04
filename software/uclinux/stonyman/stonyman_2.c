@@ -157,6 +157,8 @@ static uint32_t img_buf_tail_pos [NUM_CAMS];
 static uint32_t img_buf_head_idx [NUM_CAMS];
 static uint32_t img_buf_tail_idx [NUM_CAMS];
 static uint8_t  imager_capturing [NUM_CAMS];
+
+// Debugging statistics
 static uint32_t frames_captured;
 static uint32_t frames_read;
 static uint32_t frames_overrun;
