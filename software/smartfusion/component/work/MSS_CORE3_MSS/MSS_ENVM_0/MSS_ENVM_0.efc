@@ -14,11 +14,11 @@
             484 FBGA
         </package>
         <version>
-            11.2.1.8
+            11.5.0.26
         </version>
     </header>
     <nvm>
-        <region name="Program" address="0x000000" retrieveAddressFromFile="false" size="94324" format="HEX" type="Data Storage" wordSize="8" numberWords="94324" memFile="C:\Users\brghena\workspace\SensEye-2\software\smartfusion\Emcraft_Firmware\u-boot.hex" memType="INTELHEX" memFileTimeStamp="1391120130" clientType="public" program="true">
+        <region name="Program" address="0x000000" retrieveAddressFromFile="false" size="94324" format="HEX" type="Data Storage" wordSize="8" numberWords="94324" memFile="C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\Emcraft_Firmware\u-boot.hex" memType="INTELHEX" memFileTimeStamp="1423521050" clientType="public" program="true">
             0000012075030000a1020000a1020000a1020000a1020000a1020000a102
             0000a1020000a1020000a1020000a1020000a1020000a1020000a1020000
             a1020000a1020000a1020000a1020000a1020000a1020000a1020000a102
@@ -3364,13 +3364,13 @@
         <region name="ACTEL_AB_MSS_CONFIG" address="0x103e00" retrieveAddressFromFile="false" size="208" format="HEX" type="Data Storage" wordSize="32" numberWords="52" memFile="" memType="" memFileTimeStamp="" clientType="private" program="true">
             00000000000000000000000000000000000000000000000000010000261d
             45e082498180c00002000018200100b4c404010000d2000000000000001e
-            1e0707000500100005001000000000002bacb0c20a1828b0c20a2bacb0c2
-            0a2bacb0c20a1860a080021828a0000018acb0c20a2bacb0c20a2bacb0c2
-            0a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c2
-            0a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb002
-            0000000068bf080090d0030000ff070080ff17000000038c000004fd
+            1e070700050010000500100000000000abacb2ca2a1828b0ca2aabacb2ca
+            2aabacb2ca2a1860a080021828a0000018acb2ca2aabacb2ca2aabacb2ca
+            2aabacb2ca2aabacb2ca2aabacb2ca2aabacb2ca2aabacb2ca2aabacb2ca
+            2aabacb2ca2aabacb2ca2aabacb2ca2aabacb2ca2aabacb2ca2aabacb20a
+            0000000068bf080090d0030000ff070080ff17000000038c000050b4
             <crc>
-                d8a8
+                3564
             </crc>
         </region>
         <region name="ACTEL_INIT_CONFIG" address="0x0ffe00" retrieveAddressFromFile="false" size="136" format="HEX" type="Data Storage" wordSize="32" numberWords="34" memFile="" memType="" memFileTimeStamp="" clientType="private" program="true">

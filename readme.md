@@ -50,6 +50,8 @@ Click the Generate Programming Data button in the Design Flow area (green arrow)
 
 Project should build appropriately
 
+Note: Ensure reset line into imager is inverted (in toplevel)
+
 
 ### uCLinux Build Environment
 Open the Linux Cortex M User Manual available from emcraft's Smartfusion webpage  

@@ -1,95 +1,95 @@
 @N|Running in 64-bit mode
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":13:0:13:6|Synthesizing module CAHBLTO
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v":13:0:13:8|Synthesizing module CAHBLTO10
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":13:0:13:9|Synthesizing module CAHBLTO0OI
-@N: CL177 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Sharing sequential element CAHBLTI0lI.
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":13:0:13:6|Synthesizing module CAHBLTO
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":13:0:13:9|Synthesizing module CAHBLTO0OI
-@N: CL177 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Sharing sequential element CAHBLTI0lI.
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":13:0:13:8|Synthesizing module CAHBLTlI1
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":13:0:13:9|Synthesizing module CAHBLTl0Il
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":13:0:13:9|Synthesizing module CAHBLTOl0l
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v":13:0:13:9|Synthesizing module CAHBLTllO0
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":13:0:13:9|Synthesizing module CAHBLTlOl0
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":13:0:13:10|Synthesizing module CoreAHBLite
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":8:0:8:10|Synthesizing module CAHBtoAPB3O
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v":8:0:8:12|Synthesizing module CAHBtoAPB3IOl
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":8:0:8:12|Synthesizing module CAHBtoAPB3O1I
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v":8:0:8:12|Synthesizing module COREAHBTOAPB3
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3O
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\heartbeat.v":13:7:13:15|Synthesizing module heartbeat
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\adc_controller.v":30:7:30:20|Synthesizing module adc_controller
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":62:7:62:14|Synthesizing module stonyman
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\framemask.v":16:7:16:15|Synthesizing module framemask
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1289:7:1289:9|Synthesizing module INV
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":79:7:79:9|Synthesizing module AO1
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1329:7:1329:9|Synthesizing module MX2
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":957:7:957:14|Synthesizing module DFN1E1C0
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":2:7:2:10|Synthesizing module AND2
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":17:7:17:10|Synthesizing module AND3
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1931:7:1931:10|Synthesizing module XOR2
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1908:7:1908:11|Synthesizing module XNOR2
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":909:7:909:12|Synthesizing module DFN1C0
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":97:7:97:10|Synthesizing module AO1C
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":2092:8:2092:13|Synthesizing module RAM4K9
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1462:7:1462:10|Synthesizing module OR2A
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1456:7:1456:9|Synthesizing module OR2
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1411:7:1411:11|Synthesizing module NOR3A
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":981:7:981:12|Synthesizing module DFN1P0
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1373:7:1373:12|Synthesizing module NAND3A
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1954:7:1954:10|Synthesizing module BUFF
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1473:7:1473:9|Synthesizing module OR3
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1353:7:1353:11|Synthesizing module NAND2
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":7:7:7:11|Synthesizing module AND2A
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":114:7:114:10|Synthesizing module AOI1
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1394:7:1394:11|Synthesizing module NOR2A
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":103:7:103:10|Synthesizing module AO1D
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
-@N: CG364 :"C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":5:7:5:21|Synthesizing module fifo_pixel_data
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":104:7:104:26|Synthesizing module imager_apb_interface
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":250:28:250:39|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":251:28:251:39|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":266:25:266:33|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":267:25:267:33|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":268:33:268:46|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":269:33:269:46|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":270:33:270:47|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":271:33:271:49|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":272:33:272:48|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":273:33:273:49|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":274:33:274:46|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":275:33:275:46|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":276:33:276:47|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":277:33:277:49|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":278:33:278:48|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":279:33:279:49|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":280:31:280:45|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":281:31:281:45|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":282:31:282:44|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":283:31:283:44|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":284:35:284:53|Removing redundant assignment
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":285:35:285:53|Removing redundant assignment
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v":15:7:15:12|Synthesizing module imager
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_AHB
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":1:7:1:16|Synthesizing module MSS_XTLOSC
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:41|Synthesizing module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":67:7:67:15|Synthesizing module BIBUF_MSS
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":145:7:145:12|Synthesizing module MSSINT
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v":9:7:9:19|Synthesizing module MSS_CORE3_MSS
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\ahb.v":12:7:12:9|Synthesizing module AHB
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\cr_int.v":12:7:12:12|Synthesizing module cr_int
-@N: CG179 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\cr_int.v":217:43:217:50|Removing redundant assignment
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\psram_cr.v":12:7:12:14|Synthesizing module psram_cr
-@N: CG364 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":9:7:9:14|Synthesizing module TOPLEVEL
-@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":460:4:460:9|Trying to extract state machine for register sub_state
-@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":460:4:460:9|Trying to extract state machine for register main_state
-@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\adc_controller.v":183:4:183:9|Trying to extract state machine for register adc_state
-@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v":152:0:152:5|Trying to extract state machine for register CAHBtoAPB3OIl
-@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":646:0:646:5|Trying to extract state machine for register CAHBtoAPB3IOI
-@N: CL201 :"C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Trying to extract state machine for register CAHBLTllOI
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":13:0:13:6|Synthesizing module CAHBLTO
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v":13:0:13:8|Synthesizing module CAHBLTO10
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":13:0:13:9|Synthesizing module CAHBLTO0OI
+@N: CL177 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Sharing sequential element CAHBLTI0lI.
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":13:0:13:6|Synthesizing module CAHBLTO
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":13:0:13:9|Synthesizing module CAHBLTO0OI
+@N: CL177 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":4185:0:4185:5|Sharing sequential element CAHBLTI0lI.
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":13:0:13:8|Synthesizing module CAHBLTlI1
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":13:0:13:9|Synthesizing module CAHBLTl0Il
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":13:0:13:9|Synthesizing module CAHBLTOl0l
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v":13:0:13:9|Synthesizing module CAHBLTllO0
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":13:0:13:9|Synthesizing module CAHBLTlOl0
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v":13:0:13:10|Synthesizing module CoreAHBLite
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":8:0:8:10|Synthesizing module CAHBtoAPB3O
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v":8:0:8:12|Synthesizing module CAHBtoAPB3IOl
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":8:0:8:12|Synthesizing module CAHBtoAPB3O1I
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v":8:0:8:12|Synthesizing module COREAHBTOAPB3
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:5|Synthesizing module CAPB3O
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\heartbeat.v":13:7:13:15|Synthesizing module heartbeat
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":37:7:37:20|Synthesizing module adc_controller
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":62:7:62:14|Synthesizing module stonyman
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\framemask.v":16:7:16:15|Synthesizing module framemask
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1289:7:1289:9|Synthesizing module INV
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1405:7:1405:10|Synthesizing module NOR3
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":957:7:957:14|Synthesizing module DFN1E1C0
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":2:7:2:10|Synthesizing module AND2
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":17:7:17:10|Synthesizing module AND3
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1908:7:1908:11|Synthesizing module XNOR2
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":79:7:79:9|Synthesizing module AO1
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1931:7:1931:10|Synthesizing module XOR2
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":909:7:909:12|Synthesizing module DFN1C0
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":97:7:97:10|Synthesizing module AO1C
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":7:7:7:11|Synthesizing module AND2A
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1411:7:1411:11|Synthesizing module NOR3A
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":981:7:981:12|Synthesizing module DFN1P0
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1456:7:1456:9|Synthesizing module OR2
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1462:7:1462:10|Synthesizing module OR2A
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":2092:8:2092:13|Synthesizing module RAM4K9
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1373:7:1373:12|Synthesizing module NAND3A
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1446:7:1446:10|Synthesizing module OA1C
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1473:7:1473:9|Synthesizing module OR3
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1353:7:1353:11|Synthesizing module NAND2
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1434:7:1434:10|Synthesizing module OA1A
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":114:7:114:10|Synthesizing module AOI1
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1394:7:1394:11|Synthesizing module NOR2A
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+@N: CG364 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":5:7:5:21|Synthesizing module fifo_pixel_data
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":113:7:113:26|Synthesizing module imager_apb_interface
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":260:28:260:39|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":261:28:261:39|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":276:33:276:46|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":277:33:277:46|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":278:33:278:47|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":279:33:279:49|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":280:33:280:48|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":281:33:281:49|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":282:33:282:47|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":283:33:283:46|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":284:33:284:46|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":285:33:285:47|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":286:33:286:49|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":287:33:287:48|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":288:33:288:49|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":289:33:289:47|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":290:31:290:45|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":291:31:291:45|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":292:31:292:44|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":293:31:293:44|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":294:35:294:53|Removing redundant assignment
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":295:35:295:53|Removing redundant assignment
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager.v":15:7:15:12|Synthesizing module imager
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_AHB
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":1:7:1:16|Synthesizing module MSS_XTLOSC
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:41|Synthesizing module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":67:7:67:15|Synthesizing module BIBUF_MSS
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":145:7:145:12|Synthesizing module MSSINT
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v":9:7:9:19|Synthesizing module MSS_CORE3_MSS
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\ahb.v":12:7:12:9|Synthesizing module AHB
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\cr_int.v":12:7:12:12|Synthesizing module cr_int
+@N: CG179 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\cr_int.v":217:43:217:50|Removing redundant assignment
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\psram_cr.v":12:7:12:14|Synthesizing module psram_cr
+@N: CG364 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":9:7:9:14|Synthesizing module TOPLEVEL
+@N: CL201 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Trying to extract state machine for register sub_state
+@N: CL201 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Trying to extract state machine for register main_state
+@N: CL201 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":199:4:199:9|Trying to extract state machine for register adc_state
+@N: CL201 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v":152:0:152:5|Trying to extract state machine for register CAHBtoAPB3OIl
+@N: CL201 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":646:0:646:5|Trying to extract state machine for register CAHBtoAPB3IOI
+@N: CL201 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Trying to extract state machine for register CAHBLTllOI
 

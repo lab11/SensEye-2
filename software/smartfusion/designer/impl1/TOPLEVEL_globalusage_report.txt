@@ -3,9 +3,9 @@
 ********************************************************************
   
 Product: Designer
-Release: v11.2 SP1
-Version: 11.2.1.8
-Date: Sun Feb 02 15:06:11 2014
+Release: v11.5
+Version: 11.5.0.26
+Date: Wed Mar 18 18:47:57 2015
 Design Name: TOPLEVEL  Family: SmartFusion  Die: A2F500M3G  Package: 484 FBGA
 Design State: Post-Layout
 
@@ -13,14 +13,14 @@ The following nets have been routed to a chip global resource:
 
     Fanout            Name
     ----------------------
-    770               Net   : FAB_CLK
+    1047              Net   : FAB_CLK
                       Driver: MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2
-    490               Net   : MSS_CORE3_MSS_0_M2F_RESET_N
+    554               Net   : reset_c
                       Driver: MSS_CORE3_MSS_0/MSS_ADLIB_INST_RNI81B9/U_CLKSRC/U_GL
-    214               Net   : imager_0/stonyman0/ptr_value[1]
-                      Driver: imager_0/stonyman0/ptr_value_RNI42C6[1]/U_CLKSRC/U_GL
-    323               Net   : imager_0/stonyman0/ptr_value[2]
-                      Driver: imager_0/stonyman0/ptr_value_RNI53C6[2]/U_CLKSRC/U_GL
+    191               Net   : imager_0/cam0_reset_RNIQ7UG_0
+                      Driver: imager_0/img_apb/cam0_reset_RNIQ7UG_0/U_CLKSRC/U_GL
+    186               Net   : imager_0/cam1_reset_RNIRDDL_0
+                      Driver: imager_0/img_apb/cam1_reset_RNIRDDL_0/U_CLKSRC/U_GL
 
 Instance MSS_CORE3_MSS_0/MSS_ADLIB_INST_RNI81B9/U_CLKSRC/U_GL is using the A2F500M3G fabric CCC/PLL GLA output.
 This resource is using the glitchless mux (NGMUX) connected to the GLA output of the fabric CCC/PLL. In order for the NGMUX to operate correctly, the signal driving this instance must be a free-running clock signal.

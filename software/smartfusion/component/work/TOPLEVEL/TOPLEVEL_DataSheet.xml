@@ -11,48 +11,48 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>C:/Users/brghena/workspace/SensEye-2/software/smartfusion/component/work/TOPLEVEL</location>
-    <state>GENERATED ( Sun Feb 02 15:01:54 2014 )</state>
-    <swide-toolchain>SoftConsole workspace generated to C:\Users\brghena\workspace\SensEye-2\software\smartfusion\SoftConsole</swide-toolchain>
+    <location>C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/TOPLEVEL</location>
+    <state>GENERATED ( Wed Mar 18 18:42:35 2015 )</state>
+    <swide-toolchain>SoftConsole workspace generated to C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\SoftConsole</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\adc_controller.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\ahb.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\cr_int.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\framemask.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\heartbeat.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\psram_cr.v</file>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\hdl\stonyman_controller.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\ahb.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\cr_int.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\framemask.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\heartbeat.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\psram_cr.v</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v</file>
   </fileset>
   <fileset>
     <name>Flash Memory File(s)</name>
-    <file>C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\C:/Users/brghena/workspace/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_ENVM_0/MSS_ENVM_0.efc</file>
+    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_ENVM_0/MSS_ENVM_0.efc</file>
   </fileset>
   <io>
     <port-name>cam0_adc_capture_start</port-name>
@@ -289,6 +289,12 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
+    <port-name>clock</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
     <port-name>psram_address[14]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
@@ -392,6 +398,12 @@
   </io>
   <io>
     <port-name>cam0_frame_capture_done</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>reset</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -1190,15 +1202,207 @@ There is one APB3 Master interface.
   <core type="ComponentModule">
     <core-type>ComponentModule</core-type>
     <core-exttype>HierSpiritDesign</core-exttype>
-    <core-location>C:/Users/brghena/workspace/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS</core-location>
+    <core-location>C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS</core-location>
     <core-name>MSS_CORE3_MSS_0</core-name>
   </core>
-  <core type="HdlModule">
-    <core-type>HdlModule</core-type>
-    <core-exttype>psram_cr</core-exttype>
-    <core-location>hdl\psram_cr.v</core-location>
+  <core>
     <core-name>psram_cr_0</core-name>
   </core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>HAL</core-intname>
+    <core-ver>2.2.102</core-ver>
+    <core-desc>The Hardware Abstraction Layer is used by drivers to access the hardware. It also allows the control of interrupts. The HAL is normally required when using bare metal drivers as part of your application.</core-desc>
+    <core-param>
+      <param-name>Memory Model:</param-name>
+      <param-value>Small</param-value>
+      <param-hdlname>MemoryModel</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>actel-cc:variantParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Processor:</param-name>
+      <param-value>Cortex-M3</param-value>
+      <param-hdlname>Processor</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>actel-cc:variantParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Software Tool Chain:</param-name>
+      <param-value>SoftConsole</param-value>
+      <param-hdlname>ToolChain</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>actel-cc:variantParameter</param-tag>
+    </core-param>
+    <core-name>HAL_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>MSS_Ethernet_MAC_Driver</core-intname>
+    <core-ver>2.0.103</core-ver>
+    <core-desc>SmartFusion microcontroller subsystem (MSS) Ethernet  MAC bare metal software driver.
+
+This driver requires the SmartFusion CMSIS-PAL to build correctly.
+</core-desc>
+    <core-param>
+      <param-name>Bus arbitration scheme:</param-name>
+      <param-value>Receive has priority</param-value>
+      <param-hdlname>BUS_ARBITRATION_SCHEME</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>actel-cc:variantParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Maximum DMA burst length:</param-name>
+      <param-value>Unlimited</param-value>
+      <param-hdlname>PROGRAMMABLE_BURST_LENGTH</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>actel-cc:variantParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Receive ring size:</param-name>
+      <param-value>4</param-value>
+      <param-hdlname>RX_RING_SIZE</param-hdlname>
+      <param-hdlvalue>4</param-hdlvalue>
+      <param-tag>actel-cc:variantParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Setup frame timeout (ms):</param-name>
+      <param-value>10000</param-value>
+      <param-hdlname>SETUP_FRAME_TIME_OUT</param-hdlname>
+      <param-hdlvalue>10000</param-hdlvalue>
+      <param-tag>actel-cc:variantParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>State change timeout (ms):</param-name>
+      <param-value>10000</param-value>
+      <param-hdlname>STATE_CHANGE_TIME_OUT</param-hdlname>
+      <param-hdlvalue>10000</param-hdlvalue>
+      <param-tag>actel-cc:variantParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Transmit buffer ring size:</param-name>
+      <param-value>2</param-value>
+      <param-hdlname>TX_RING_SIZE</param-hdlname>
+      <param-hdlvalue>2</param-hdlvalue>
+      <param-tag>actel-cc:variantParameter</param-tag>
+    </core-param>
+    <core-name>MSS_Ethernet_MAC_Driver_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>MSS_GPIO_Driver</core-intname>
+    <core-ver>2.0.105</core-ver>
+    <core-desc>SmartFusion microcontroller subsystem (MSS) GPIO bare metal software driver.
+
+This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
+    <core-name>MSS_GPIO_Driver_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>MSS_NVM_Driver</core-intname>
+    <core-ver>2.2.102</core-ver>
+    <core-desc>SmartFusion microcontroller subsystem (MSS) eNVM bare metal software driver.
+
+This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
+    <core-name>MSS_NVM_Driver_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>MSS_PDMA_Driver</core-intname>
+    <core-ver>2.0.102</core-ver>
+    <core-desc>SmartFusion microcontroller subsystem (MSS)  Peripheral DMA bare metal software driver.
+
+This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
+    <core-name>MSS_PDMA_Driver_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>MSS_RTC_Driver</core-intname>
+    <core-ver>2.0.100</core-ver>
+    <core-desc>SmartFusion microcontroller subsystem (MSS) RTC bare metal software driver.
+
+This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
+    <core-name>MSS_RTC_Driver_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>MSS_Timer_Driver</core-intname>
+    <core-ver>2.1.101</core-ver>
+    <core-desc>SmartFusion microcontroller subsystem (MSS) Timer bare metal software driver.
+
+This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
+    <core-name>MSS_Timer_Driver_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>MSS_UART_Driver</core-intname>
+    <core-ver>2.3.101</core-ver>
+    <core-desc>SmartFusion microcontroller subsystem (MSS) UART bare metal software driver.
+
+This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
+    <core-name>MSS_UART_Driver_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>MSS_Watchdog_Driver</core-intname>
+    <core-ver>2.0.107</core-ver>
+    <core-desc>SmartFusion microcontroller subsystem (MSS) Watchdog bare metal software driver.
+
+This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
+    <core-name>MSS_Watchdog_Driver_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>SmartFusion_CMSIS_PAL</core-intname>
+    <core-ver>2.3.103</core-ver>
+    <core-desc>SmartFusion Cortex Microcontroller Software Interface Standard - Peripheral Access Layer (CMSIS-PAL).
+
+The CMSIS provides:
+- startup code.
+- standard naming for exception and interrupt handlers.
+- standard functions for controlling the Cortex-M3 Nested Vectored Interrupt Controller (NVIC).
+- peripherals registers description.
+
+These files are required by the SmartFusion bare metal peripheral drivers to build correctly.</core-desc>
+    <core-param>
+      <param-name>Software Tool Chain</param-name>
+      <param-value>SoftConsole</param-value>
+      <param-hdlname>ToolChain</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>actel-cc:variantParameter</param-tag>
+    </core-param>
+    <core-name>SmartFusion_CMSIS_PAL_0</core-name>
+  </firmware_core>
   <memorysystem>
     <title>Memory Map for TOPLEVEL</title>
     <description>The project contains the following subsystems:</description>
@@ -3131,7 +3335,7 @@ There is one APB3 Master interface.
               <register>
                 <name>COUNTER0</name>
                 <addressOffset>0x100</addressOffset>
-                <absoluteAddress>0x40010100</absoluteAddress>
+                <absoluteAddress>0x40014100</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3146,7 +3350,7 @@ There is one APB3 Master interface.
               <register>
                 <name>COUNTER1</name>
                 <addressOffset>0x104</addressOffset>
-                <absoluteAddress>0x40010104</absoluteAddress>
+                <absoluteAddress>0x40014104</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3161,7 +3365,7 @@ There is one APB3 Master interface.
               <register>
                 <name>COUNTER2</name>
                 <addressOffset>0x108</addressOffset>
-                <absoluteAddress>0x40010108</absoluteAddress>
+                <absoluteAddress>0x40014108</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3176,7 +3380,7 @@ There is one APB3 Master interface.
               <register>
                 <name>COUNTER3</name>
                 <addressOffset>0x10C</addressOffset>
-                <absoluteAddress>0x4001010C</absoluteAddress>
+                <absoluteAddress>0x4001410C</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3191,7 +3395,7 @@ There is one APB3 Master interface.
               <register>
                 <name>COUNTER4</name>
                 <addressOffset>0x110</addressOffset>
-                <absoluteAddress>0x40010110</absoluteAddress>
+                <absoluteAddress>0x40014110</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3206,7 +3410,7 @@ There is one APB3 Master interface.
               <register>
                 <name>MATCHREG0</name>
                 <addressOffset>0x120</addressOffset>
-                <absoluteAddress>0x40010120</absoluteAddress>
+                <absoluteAddress>0x40014120</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3221,7 +3425,7 @@ There is one APB3 Master interface.
               <register>
                 <name>MATCHREG1</name>
                 <addressOffset>0x124</addressOffset>
-                <absoluteAddress>0x40010124</absoluteAddress>
+                <absoluteAddress>0x40014124</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3236,7 +3440,7 @@ There is one APB3 Master interface.
               <register>
                 <name>MATCHREG2</name>
                 <addressOffset>0x128</addressOffset>
-                <absoluteAddress>0x40010128</absoluteAddress>
+                <absoluteAddress>0x40014128</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3251,7 +3455,7 @@ There is one APB3 Master interface.
               <register>
                 <name>MATCHREG3</name>
                 <addressOffset>0x12C</addressOffset>
-                <absoluteAddress>0x4001012C</absoluteAddress>
+                <absoluteAddress>0x4001412C</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3266,7 +3470,7 @@ There is one APB3 Master interface.
               <register>
                 <name>MATCHREG4</name>
                 <addressOffset>0x130</addressOffset>
-                <absoluteAddress>0x40010130</absoluteAddress>
+                <absoluteAddress>0x40014130</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3281,7 +3485,7 @@ There is one APB3 Master interface.
               <register>
                 <name>MATCHBITS0</name>
                 <addressOffset>0x140</addressOffset>
-                <absoluteAddress>0x40010140</absoluteAddress>
+                <absoluteAddress>0x40014140</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3296,7 +3500,7 @@ There is one APB3 Master interface.
               <register>
                 <name>MATCHBITS1</name>
                 <addressOffset>0x144</addressOffset>
-                <absoluteAddress>0x40010144</absoluteAddress>
+                <absoluteAddress>0x40014144</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3311,7 +3515,7 @@ There is one APB3 Master interface.
               <register>
                 <name>MATCHBITS2</name>
                 <addressOffset>0x148</addressOffset>
-                <absoluteAddress>0x40010148</absoluteAddress>
+                <absoluteAddress>0x40014148</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3326,7 +3530,7 @@ There is one APB3 Master interface.
               <register>
                 <name>MATCHBITS3</name>
                 <addressOffset>0x14C</addressOffset>
-                <absoluteAddress>0x4001014C</absoluteAddress>
+                <absoluteAddress>0x4001414C</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3341,7 +3545,7 @@ There is one APB3 Master interface.
               <register>
                 <name>MATCHBITS4</name>
                 <addressOffset>0x150</addressOffset>
-                <absoluteAddress>0x40010150</absoluteAddress>
+                <absoluteAddress>0x40014150</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3356,7 +3560,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CTRL_STAT</name>
                 <addressOffset>0x160</addressOffset>
-                <absoluteAddress>0x40010160</absoluteAddress>
+                <absoluteAddress>0x40014160</absoluteAddress>
                 <size>8</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3429,7 +3633,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_0</name>
                 <addressOffset>0x0</addressOffset>
-                <absoluteAddress>0x40010000</absoluteAddress>
+                <absoluteAddress>0x40013000</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3472,7 +3676,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_1</name>
                 <addressOffset>0x4</addressOffset>
-                <absoluteAddress>0x40010004</absoluteAddress>
+                <absoluteAddress>0x40013004</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3515,7 +3719,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_2</name>
                 <addressOffset>0x8</addressOffset>
-                <absoluteAddress>0x40010008</absoluteAddress>
+                <absoluteAddress>0x40013008</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3558,7 +3762,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_3</name>
                 <addressOffset>0xC</addressOffset>
-                <absoluteAddress>0x4001000C</absoluteAddress>
+                <absoluteAddress>0x4001300C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3601,7 +3805,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_4</name>
                 <addressOffset>0x10</addressOffset>
-                <absoluteAddress>0x40010010</absoluteAddress>
+                <absoluteAddress>0x40013010</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3644,7 +3848,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_5</name>
                 <addressOffset>0x14</addressOffset>
-                <absoluteAddress>0x40010014</absoluteAddress>
+                <absoluteAddress>0x40013014</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3687,7 +3891,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_6</name>
                 <addressOffset>0x18</addressOffset>
-                <absoluteAddress>0x40010018</absoluteAddress>
+                <absoluteAddress>0x40013018</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3730,7 +3934,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_7</name>
                 <addressOffset>0x1C</addressOffset>
-                <absoluteAddress>0x4001001C</absoluteAddress>
+                <absoluteAddress>0x4001301C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3773,7 +3977,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_8</name>
                 <addressOffset>0x20</addressOffset>
-                <absoluteAddress>0x40010020</absoluteAddress>
+                <absoluteAddress>0x40013020</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3816,7 +4020,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_9</name>
                 <addressOffset>0x24</addressOffset>
-                <absoluteAddress>0x40010024</absoluteAddress>
+                <absoluteAddress>0x40013024</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3859,7 +4063,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_10</name>
                 <addressOffset>0x28</addressOffset>
-                <absoluteAddress>0x40010028</absoluteAddress>
+                <absoluteAddress>0x40013028</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3902,7 +4106,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_11</name>
                 <addressOffset>0x2C</addressOffset>
-                <absoluteAddress>0x4001002C</absoluteAddress>
+                <absoluteAddress>0x4001302C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3945,7 +4149,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_12</name>
                 <addressOffset>0x30</addressOffset>
-                <absoluteAddress>0x40010030</absoluteAddress>
+                <absoluteAddress>0x40013030</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -3988,7 +4192,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_13</name>
                 <addressOffset>0x34</addressOffset>
-                <absoluteAddress>0x40010034</absoluteAddress>
+                <absoluteAddress>0x40013034</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4031,7 +4235,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_14</name>
                 <addressOffset>0x38</addressOffset>
-                <absoluteAddress>0x40010038</absoluteAddress>
+                <absoluteAddress>0x40013038</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4074,7 +4278,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_15</name>
                 <addressOffset>0x3C</addressOffset>
-                <absoluteAddress>0x4001003C</absoluteAddress>
+                <absoluteAddress>0x4001303C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4117,7 +4321,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_16</name>
                 <addressOffset>0x40</addressOffset>
-                <absoluteAddress>0x40010040</absoluteAddress>
+                <absoluteAddress>0x40013040</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4160,7 +4364,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_17</name>
                 <addressOffset>0x44</addressOffset>
-                <absoluteAddress>0x40010044</absoluteAddress>
+                <absoluteAddress>0x40013044</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4203,7 +4407,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_18</name>
                 <addressOffset>0x48</addressOffset>
-                <absoluteAddress>0x40010048</absoluteAddress>
+                <absoluteAddress>0x40013048</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4246,7 +4450,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_19</name>
                 <addressOffset>0x4C</addressOffset>
-                <absoluteAddress>0x4001004C</absoluteAddress>
+                <absoluteAddress>0x4001304C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4289,7 +4493,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_20</name>
                 <addressOffset>0x50</addressOffset>
-                <absoluteAddress>0x40010050</absoluteAddress>
+                <absoluteAddress>0x40013050</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4332,7 +4536,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_21</name>
                 <addressOffset>0x54</addressOffset>
-                <absoluteAddress>0x40010054</absoluteAddress>
+                <absoluteAddress>0x40013054</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4375,7 +4579,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_22</name>
                 <addressOffset>0x58</addressOffset>
-                <absoluteAddress>0x40010058</absoluteAddress>
+                <absoluteAddress>0x40013058</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4418,7 +4622,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_23</name>
                 <addressOffset>0x5C</addressOffset>
-                <absoluteAddress>0x4001005C</absoluteAddress>
+                <absoluteAddress>0x4001305C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4461,7 +4665,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_24</name>
                 <addressOffset>0x60</addressOffset>
-                <absoluteAddress>0x40010060</absoluteAddress>
+                <absoluteAddress>0x40013060</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4504,7 +4708,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_25</name>
                 <addressOffset>0x64</addressOffset>
-                <absoluteAddress>0x40010064</absoluteAddress>
+                <absoluteAddress>0x40013064</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4547,7 +4751,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_26</name>
                 <addressOffset>0x68</addressOffset>
-                <absoluteAddress>0x40010068</absoluteAddress>
+                <absoluteAddress>0x40013068</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4590,7 +4794,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_27</name>
                 <addressOffset>0x6C</addressOffset>
-                <absoluteAddress>0x4001006C</absoluteAddress>
+                <absoluteAddress>0x4001306C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4633,7 +4837,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_28</name>
                 <addressOffset>0x70</addressOffset>
-                <absoluteAddress>0x40010070</absoluteAddress>
+                <absoluteAddress>0x40013070</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4676,7 +4880,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_29</name>
                 <addressOffset>0x74</addressOffset>
-                <absoluteAddress>0x40010074</absoluteAddress>
+                <absoluteAddress>0x40013074</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4719,7 +4923,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_30</name>
                 <addressOffset>0x78</addressOffset>
-                <absoluteAddress>0x40010078</absoluteAddress>
+                <absoluteAddress>0x40013078</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4762,7 +4966,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CONFIG_31</name>
                 <addressOffset>0x7C</addressOffset>
-                <absoluteAddress>0x4001007C</absoluteAddress>
+                <absoluteAddress>0x4001307C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4805,7 +5009,7 @@ There is one APB3 Master interface.
               <register>
                 <name>GPIO_IRQ</name>
                 <addressOffset>0x80</addressOffset>
-                <absoluteAddress>0x40010080</absoluteAddress>
+                <absoluteAddress>0x40013080</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4820,7 +5024,7 @@ There is one APB3 Master interface.
               <register>
                 <name>GPIO_IN</name>
                 <addressOffset>0x84</addressOffset>
-                <absoluteAddress>0x40010084</absoluteAddress>
+                <absoluteAddress>0x40013084</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4835,7 +5039,7 @@ There is one APB3 Master interface.
               <register>
                 <name>GPIO_OUT</name>
                 <addressOffset>0x88</addressOffset>
-                <absoluteAddress>0x40010088</absoluteAddress>
+                <absoluteAddress>0x40013088</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -4866,7 +5070,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt0_Enable</name>
                 <addressOffset>0x0</addressOffset>
-                <absoluteAddress>0x40000000</absoluteAddress>
+                <absoluteAddress>0x40007000</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5049,7 +5253,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt1_Enable</name>
                 <addressOffset>0x4</addressOffset>
-                <absoluteAddress>0x40000004</absoluteAddress>
+                <absoluteAddress>0x40007004</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5064,7 +5268,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt2_Enable</name>
                 <addressOffset>0x8</addressOffset>
-                <absoluteAddress>0x40000008</absoluteAddress>
+                <absoluteAddress>0x40007008</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5079,7 +5283,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt3_Enable</name>
                 <addressOffset>0xC</addressOffset>
-                <absoluteAddress>0x4000000C</absoluteAddress>
+                <absoluteAddress>0x4000700C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5094,7 +5298,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt4_Enable</name>
                 <addressOffset>0x10</addressOffset>
-                <absoluteAddress>0x40000010</absoluteAddress>
+                <absoluteAddress>0x40007010</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5109,7 +5313,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt5_Enable</name>
                 <addressOffset>0x14</addressOffset>
-                <absoluteAddress>0x40000014</absoluteAddress>
+                <absoluteAddress>0x40007014</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5124,7 +5328,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt6_Enable</name>
                 <addressOffset>0x18</addressOffset>
-                <absoluteAddress>0x40000018</absoluteAddress>
+                <absoluteAddress>0x40007018</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5139,7 +5343,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt7_Enable</name>
                 <addressOffset>0x1C</addressOffset>
-                <absoluteAddress>0x4000001C</absoluteAddress>
+                <absoluteAddress>0x4000701C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5154,7 +5358,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt0_Reason</name>
                 <addressOffset>0x20</addressOffset>
-                <absoluteAddress>0x40000020</absoluteAddress>
+                <absoluteAddress>0x40007020</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5337,7 +5541,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt1_Reason</name>
                 <addressOffset>0x24</addressOffset>
-                <absoluteAddress>0x40000024</absoluteAddress>
+                <absoluteAddress>0x40007024</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5352,7 +5556,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt2_Reason</name>
                 <addressOffset>0x28</addressOffset>
-                <absoluteAddress>0x40000028</absoluteAddress>
+                <absoluteAddress>0x40007028</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5367,7 +5571,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt3_Reason</name>
                 <addressOffset>0x2C</addressOffset>
-                <absoluteAddress>0x4000002C</absoluteAddress>
+                <absoluteAddress>0x4000702C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5382,7 +5586,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt4_Reason</name>
                 <addressOffset>0x30</addressOffset>
-                <absoluteAddress>0x40000030</absoluteAddress>
+                <absoluteAddress>0x40007030</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5397,7 +5601,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt5_Reason</name>
                 <addressOffset>0x34</addressOffset>
-                <absoluteAddress>0x40000034</absoluteAddress>
+                <absoluteAddress>0x40007034</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5412,7 +5616,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt6_Reason</name>
                 <addressOffset>0x38</addressOffset>
-                <absoluteAddress>0x40000038</absoluteAddress>
+                <absoluteAddress>0x40007038</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5427,7 +5631,7 @@ There is one APB3 Master interface.
               <register>
                 <name>Interrupt7_Reason</name>
                 <addressOffset>0x3C</addressOffset>
-                <absoluteAddress>0x4000003C</absoluteAddress>
+                <absoluteAddress>0x4000703C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5442,7 +5646,7 @@ There is one APB3 Master interface.
               <register>
                 <name>InterruptMode</name>
                 <addressOffset>0x40</addressOffset>
-                <absoluteAddress>0x40000040</absoluteAddress>
+                <absoluteAddress>0x40007040</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5473,7 +5677,7 @@ There is one APB3 Master interface.
               <register>
                 <name>WDOGVALUE</name>
                 <addressOffset>0x0</addressOffset>
-                <absoluteAddress>0x40000000</absoluteAddress>
+                <absoluteAddress>0x40006000</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5488,7 +5692,7 @@ There is one APB3 Master interface.
               <register>
                 <name>WDOGLOAD</name>
                 <addressOffset>0x4</addressOffset>
-                <absoluteAddress>0x40000004</absoluteAddress>
+                <absoluteAddress>0x40006004</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5503,7 +5707,7 @@ There is one APB3 Master interface.
               <register>
                 <name>WDOGMVRP</name>
                 <addressOffset>0x8</addressOffset>
-                <absoluteAddress>0x40000008</absoluteAddress>
+                <absoluteAddress>0x40006008</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5518,7 +5722,7 @@ There is one APB3 Master interface.
               <register>
                 <name>WDOGREFRESH</name>
                 <addressOffset>0xC</addressOffset>
-                <absoluteAddress>0x4000000C</absoluteAddress>
+                <absoluteAddress>0x4000600C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5526,7 +5730,7 @@ There is one APB3 Master interface.
               <register>
                 <name>WDOGENABLE</name>
                 <addressOffset>0x10</addressOffset>
-                <absoluteAddress>0x40000010</absoluteAddress>
+                <absoluteAddress>0x40006010</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5541,7 +5745,7 @@ There is one APB3 Master interface.
               <register>
                 <name>WDOGCONTROL</name>
                 <addressOffset>0x14</addressOffset>
-                <absoluteAddress>0x40000014</absoluteAddress>
+                <absoluteAddress>0x40006014</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5570,7 +5774,7 @@ There is one APB3 Master interface.
               <register>
                 <name>WDOGSTATUS</name>
                 <addressOffset>0x18</addressOffset>
-                <absoluteAddress>0x40000018</absoluteAddress>
+                <absoluteAddress>0x40006018</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5585,7 +5789,7 @@ There is one APB3 Master interface.
               <register>
                 <name>WDOGRIS</name>
                 <addressOffset>0x1C</addressOffset>
-                <absoluteAddress>0x4000001C</absoluteAddress>
+                <absoluteAddress>0x4000601C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5607,7 +5811,7 @@ There is one APB3 Master interface.
               <register>
                 <name>WDOGMIS</name>
                 <addressOffset>0x20</addressOffset>
-                <absoluteAddress>0x40000020</absoluteAddress>
+                <absoluteAddress>0x40006020</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5645,7 +5849,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM1VALUE</name>
                 <addressOffset>0x0</addressOffset>
-                <absoluteAddress>0x40000000</absoluteAddress>
+                <absoluteAddress>0x40005000</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5660,7 +5864,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIME1LOADVAL</name>
                 <addressOffset>0x4</addressOffset>
-                <absoluteAddress>0x40000004</absoluteAddress>
+                <absoluteAddress>0x40005004</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5675,7 +5879,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM1BGLOADVAL</name>
                 <addressOffset>0x8</addressOffset>
-                <absoluteAddress>0x40000008</absoluteAddress>
+                <absoluteAddress>0x40005008</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5690,7 +5894,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM1CONTROL</name>
                 <addressOffset>0xC</addressOffset>
-                <absoluteAddress>0x4000000C</absoluteAddress>
+                <absoluteAddress>0x4000500C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5719,7 +5923,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM1RIS</name>
                 <addressOffset>0x10</addressOffset>
-                <absoluteAddress>0x40000010</absoluteAddress>
+                <absoluteAddress>0x40005010</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5734,7 +5938,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM1MIS</name>
                 <addressOffset>0x14</addressOffset>
-                <absoluteAddress>0x40000014</absoluteAddress>
+                <absoluteAddress>0x40005014</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5749,7 +5953,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM2VALUE</name>
                 <addressOffset>0x18</addressOffset>
-                <absoluteAddress>0x40000018</absoluteAddress>
+                <absoluteAddress>0x40005018</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5764,7 +5968,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM2LOADVAL</name>
                 <addressOffset>0x1C</addressOffset>
-                <absoluteAddress>0x4000001C</absoluteAddress>
+                <absoluteAddress>0x4000501C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5779,7 +5983,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM2BGLOADVAL</name>
                 <addressOffset>0x20</addressOffset>
-                <absoluteAddress>0x40000020</absoluteAddress>
+                <absoluteAddress>0x40005020</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5794,7 +5998,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM2CONTROL</name>
                 <addressOffset>0x24</addressOffset>
-                <absoluteAddress>0x40000024</absoluteAddress>
+                <absoluteAddress>0x40005024</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5823,7 +6027,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM2RIS</name>
                 <addressOffset>0x28</addressOffset>
-                <absoluteAddress>0x40000028</absoluteAddress>
+                <absoluteAddress>0x40005028</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5838,7 +6042,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM2MIS</name>
                 <addressOffset>0x2C</addressOffset>
-                <absoluteAddress>0x4000002C</absoluteAddress>
+                <absoluteAddress>0x4000502C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5853,7 +6057,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM64ValueU</name>
                 <addressOffset>0x30</addressOffset>
-                <absoluteAddress>0x40000030</absoluteAddress>
+                <absoluteAddress>0x40005030</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5868,7 +6072,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM64ValueL</name>
                 <addressOffset>0x34</addressOffset>
-                <absoluteAddress>0x40000034</absoluteAddress>
+                <absoluteAddress>0x40005034</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5883,7 +6087,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM64LOADVALU</name>
                 <addressOffset>0x38</addressOffset>
-                <absoluteAddress>0x40000038</absoluteAddress>
+                <absoluteAddress>0x40005038</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5898,7 +6102,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM64LOADVALL</name>
                 <addressOffset>0x3C</addressOffset>
-                <absoluteAddress>0x4000003C</absoluteAddress>
+                <absoluteAddress>0x4000503C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5913,7 +6117,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM64BGLOADVALU</name>
                 <addressOffset>0x40</addressOffset>
-                <absoluteAddress>0x40000040</absoluteAddress>
+                <absoluteAddress>0x40005040</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5928,7 +6132,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM64BGLOADVALL</name>
                 <addressOffset>0x44</addressOffset>
-                <absoluteAddress>0x40000044</absoluteAddress>
+                <absoluteAddress>0x40005044</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5943,7 +6147,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM64CONTROL</name>
                 <addressOffset>0x48</addressOffset>
-                <absoluteAddress>0x40000048</absoluteAddress>
+                <absoluteAddress>0x40005048</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5972,7 +6176,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM64RIS</name>
                 <addressOffset>0x4C</addressOffset>
-                <absoluteAddress>0x4000004C</absoluteAddress>
+                <absoluteAddress>0x4000504C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -5987,7 +6191,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM64MIS</name>
                 <addressOffset>0x50</addressOffset>
-                <absoluteAddress>0x40000050</absoluteAddress>
+                <absoluteAddress>0x40005050</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6002,7 +6206,7 @@ There is one APB3 Master interface.
               <register>
                 <name>TIM64MODE</name>
                 <addressOffset>0x54</addressOffset>
-                <absoluteAddress>0x40000054</absoluteAddress>
+                <absoluteAddress>0x40005054</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6033,7 +6237,7 @@ There is one APB3 Master interface.
               <register>
                 <name>RATIO_HIGH_LOW</name>
                 <addressOffset>0x0</addressOffset>
-                <absoluteAddress>0x40000000</absoluteAddress>
+                <absoluteAddress>0x40004000</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6055,7 +6259,7 @@ There is one APB3 Master interface.
               <register>
                 <name>BUFFER_STATUS</name>
                 <addressOffset>0x4</addressOffset>
-                <absoluteAddress>0x40000004</absoluteAddress>
+                <absoluteAddress>0x40004004</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6182,7 +6386,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL0_CONTROL</name>
                 <addressOffset>0x20</addressOffset>
-                <absoluteAddress>0x40000020</absoluteAddress>
+                <absoluteAddress>0x40004020</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6281,7 +6485,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL0_STATUS</name>
                 <addressOffset>0x24</addressOffset>
-                <absoluteAddress>0x40000024</absoluteAddress>
+                <absoluteAddress>0x40004024</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6317,7 +6521,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL0_BUFFERA_SRC_ADDR</name>
                 <addressOffset>0x28</addressOffset>
-                <absoluteAddress>0x40000028</absoluteAddress>
+                <absoluteAddress>0x40004028</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6332,7 +6536,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL0_BUFFERA_DEST_ADDR</name>
                 <addressOffset>0x2C</addressOffset>
-                <absoluteAddress>0x4000002C</absoluteAddress>
+                <absoluteAddress>0x4000402C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6347,7 +6551,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL0_BUFFERA_XFER_COUNT</name>
                 <addressOffset>0x30</addressOffset>
-                <absoluteAddress>0x40000030</absoluteAddress>
+                <absoluteAddress>0x40004030</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6362,7 +6566,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL0_BUFFERB_SRC_ADDR</name>
                 <addressOffset>0x34</addressOffset>
-                <absoluteAddress>0x40000034</absoluteAddress>
+                <absoluteAddress>0x40004034</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6377,7 +6581,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL0_BUFFERB_DEST_ADDR</name>
                 <addressOffset>0x38</addressOffset>
-                <absoluteAddress>0x40000038</absoluteAddress>
+                <absoluteAddress>0x40004038</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6392,7 +6596,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL0_BUFFERB_XFER_COUNT</name>
                 <addressOffset>0x3C</addressOffset>
-                <absoluteAddress>0x4000003C</absoluteAddress>
+                <absoluteAddress>0x4000403C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6407,7 +6611,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL1_CONTROL</name>
                 <addressOffset>0x40</addressOffset>
-                <absoluteAddress>0x40000040</absoluteAddress>
+                <absoluteAddress>0x40004040</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6506,7 +6710,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL1_STATUS</name>
                 <addressOffset>0x44</addressOffset>
-                <absoluteAddress>0x40000044</absoluteAddress>
+                <absoluteAddress>0x40004044</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6542,7 +6746,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL1_BUFFERA_SRC_ADDR</name>
                 <addressOffset>0x48</addressOffset>
-                <absoluteAddress>0x40000048</absoluteAddress>
+                <absoluteAddress>0x40004048</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6557,7 +6761,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL1_BUFFERA_DEST_ADDR</name>
                 <addressOffset>0x4C</addressOffset>
-                <absoluteAddress>0x4000004C</absoluteAddress>
+                <absoluteAddress>0x4000404C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6572,7 +6776,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL1_BUFFERA_XFER_COUNT</name>
                 <addressOffset>0x50</addressOffset>
-                <absoluteAddress>0x40000050</absoluteAddress>
+                <absoluteAddress>0x40004050</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6587,7 +6791,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL1_BUFFERB_SRC_ADDR</name>
                 <addressOffset>0x54</addressOffset>
-                <absoluteAddress>0x40000054</absoluteAddress>
+                <absoluteAddress>0x40004054</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6602,7 +6806,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL1_BUFFERB_DEST_ADDR</name>
                 <addressOffset>0x58</addressOffset>
-                <absoluteAddress>0x40000058</absoluteAddress>
+                <absoluteAddress>0x40004058</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6617,7 +6821,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL1_BUFFERB_XFER_COUNT</name>
                 <addressOffset>0x5C</addressOffset>
-                <absoluteAddress>0x4000005C</absoluteAddress>
+                <absoluteAddress>0x4000405C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6632,7 +6836,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL2_CONTROL</name>
                 <addressOffset>0x60</addressOffset>
-                <absoluteAddress>0x40000060</absoluteAddress>
+                <absoluteAddress>0x40004060</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6731,7 +6935,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL2_STATUS</name>
                 <addressOffset>0x64</addressOffset>
-                <absoluteAddress>0x40000064</absoluteAddress>
+                <absoluteAddress>0x40004064</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6767,7 +6971,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL2_BUFFERA_SRC_ADDR</name>
                 <addressOffset>0x68</addressOffset>
-                <absoluteAddress>0x40000068</absoluteAddress>
+                <absoluteAddress>0x40004068</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6782,7 +6986,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL2_BUFFERA_DEST_ADDR</name>
                 <addressOffset>0x6C</addressOffset>
-                <absoluteAddress>0x4000006C</absoluteAddress>
+                <absoluteAddress>0x4000406C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6797,7 +7001,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL2_BUFFERA_XFER_COUNT</name>
                 <addressOffset>0x70</addressOffset>
-                <absoluteAddress>0x40000070</absoluteAddress>
+                <absoluteAddress>0x40004070</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6812,7 +7016,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL2_BUFFERB_SRC_ADDR</name>
                 <addressOffset>0x74</addressOffset>
-                <absoluteAddress>0x40000074</absoluteAddress>
+                <absoluteAddress>0x40004074</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6827,7 +7031,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL2_BUFFERB_DEST_ADDR</name>
                 <addressOffset>0x78</addressOffset>
-                <absoluteAddress>0x40000078</absoluteAddress>
+                <absoluteAddress>0x40004078</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6842,7 +7046,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL2_BUFFERB_XFER_COUNT</name>
                 <addressOffset>0x7C</addressOffset>
-                <absoluteAddress>0x4000007C</absoluteAddress>
+                <absoluteAddress>0x4000407C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6857,7 +7061,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL3_CONTROL</name>
                 <addressOffset>0x80</addressOffset>
-                <absoluteAddress>0x40000080</absoluteAddress>
+                <absoluteAddress>0x40004080</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6956,7 +7160,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL3_STATUS</name>
                 <addressOffset>0x84</addressOffset>
-                <absoluteAddress>0x40000084</absoluteAddress>
+                <absoluteAddress>0x40004084</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -6992,7 +7196,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL3_BUFFERA_SRC_ADDR</name>
                 <addressOffset>0x88</addressOffset>
-                <absoluteAddress>0x40000088</absoluteAddress>
+                <absoluteAddress>0x40004088</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7007,7 +7211,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL3_BUFFERA_DEST_ADDR</name>
                 <addressOffset>0x8C</addressOffset>
-                <absoluteAddress>0x4000008C</absoluteAddress>
+                <absoluteAddress>0x4000408C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7022,7 +7226,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL3_BUFFERA_XFER_COUNT</name>
                 <addressOffset>0x90</addressOffset>
-                <absoluteAddress>0x40000090</absoluteAddress>
+                <absoluteAddress>0x40004090</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7037,7 +7241,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL3_BUFFERB_SRC_ADDR</name>
                 <addressOffset>0x94</addressOffset>
-                <absoluteAddress>0x40000094</absoluteAddress>
+                <absoluteAddress>0x40004094</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7052,7 +7256,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL3_BUFFERB_DEST_ADDR</name>
                 <addressOffset>0x98</addressOffset>
-                <absoluteAddress>0x40000098</absoluteAddress>
+                <absoluteAddress>0x40004098</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7067,7 +7271,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL3_BUFFERB_XFER_COUNT</name>
                 <addressOffset>0x9C</addressOffset>
-                <absoluteAddress>0x4000009C</absoluteAddress>
+                <absoluteAddress>0x4000409C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7082,7 +7286,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL4_CONTROL</name>
                 <addressOffset>0xA0</addressOffset>
-                <absoluteAddress>0x400000A0</absoluteAddress>
+                <absoluteAddress>0x400040A0</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7181,7 +7385,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL4_STATUS</name>
                 <addressOffset>0xA4</addressOffset>
-                <absoluteAddress>0x400000A4</absoluteAddress>
+                <absoluteAddress>0x400040A4</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7217,7 +7421,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL4_BUFFERA_SRC_ADDR</name>
                 <addressOffset>0xA8</addressOffset>
-                <absoluteAddress>0x400000A8</absoluteAddress>
+                <absoluteAddress>0x400040A8</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7232,7 +7436,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL4_BUFFERA_DEST_ADDR</name>
                 <addressOffset>0xAC</addressOffset>
-                <absoluteAddress>0x400000AC</absoluteAddress>
+                <absoluteAddress>0x400040AC</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7247,7 +7451,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL4_BUFFERA_XFER_COUNT</name>
                 <addressOffset>0xB0</addressOffset>
-                <absoluteAddress>0x400000B0</absoluteAddress>
+                <absoluteAddress>0x400040B0</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7262,7 +7466,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL4_BUFFERB_SRC_ADDR</name>
                 <addressOffset>0xB4</addressOffset>
-                <absoluteAddress>0x400000B4</absoluteAddress>
+                <absoluteAddress>0x400040B4</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7277,7 +7481,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL4_BUFFERB_DEST_ADDR</name>
                 <addressOffset>0xB8</addressOffset>
-                <absoluteAddress>0x400000B8</absoluteAddress>
+                <absoluteAddress>0x400040B8</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7292,7 +7496,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL4_BUFFERB_XFER_COUNT</name>
                 <addressOffset>0xBC</addressOffset>
-                <absoluteAddress>0x400000BC</absoluteAddress>
+                <absoluteAddress>0x400040BC</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7307,7 +7511,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL5_CONTROL</name>
                 <addressOffset>0xC0</addressOffset>
-                <absoluteAddress>0x400000C0</absoluteAddress>
+                <absoluteAddress>0x400040C0</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7406,7 +7610,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL5_STATUS</name>
                 <addressOffset>0xC4</addressOffset>
-                <absoluteAddress>0x400000C4</absoluteAddress>
+                <absoluteAddress>0x400040C4</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7442,7 +7646,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL5_BUFFERA_SRC_ADDR</name>
                 <addressOffset>0xC8</addressOffset>
-                <absoluteAddress>0x400000C8</absoluteAddress>
+                <absoluteAddress>0x400040C8</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7457,7 +7661,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL5_BUFFERA_DEST_ADDR</name>
                 <addressOffset>0xCC</addressOffset>
-                <absoluteAddress>0x400000CC</absoluteAddress>
+                <absoluteAddress>0x400040CC</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7472,7 +7676,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL5_BUFFERA_XFER_COUNT</name>
                 <addressOffset>0xD0</addressOffset>
-                <absoluteAddress>0x400000D0</absoluteAddress>
+                <absoluteAddress>0x400040D0</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7487,7 +7691,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL5_BUFFERB_SRC_ADDR</name>
                 <addressOffset>0xD4</addressOffset>
-                <absoluteAddress>0x400000D4</absoluteAddress>
+                <absoluteAddress>0x400040D4</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7502,7 +7706,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL5_BUFFERB_DEST_ADDR</name>
                 <addressOffset>0xD8</addressOffset>
-                <absoluteAddress>0x400000D8</absoluteAddress>
+                <absoluteAddress>0x400040D8</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7517,7 +7721,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL5_BUFFERB_XFER_COUNT</name>
                 <addressOffset>0xDC</addressOffset>
-                <absoluteAddress>0x400000DC</absoluteAddress>
+                <absoluteAddress>0x400040DC</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7532,7 +7736,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL6_CONTROL</name>
                 <addressOffset>0xE0</addressOffset>
-                <absoluteAddress>0x400000E0</absoluteAddress>
+                <absoluteAddress>0x400040E0</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7631,7 +7835,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL6_STATUS</name>
                 <addressOffset>0xE4</addressOffset>
-                <absoluteAddress>0x400000E4</absoluteAddress>
+                <absoluteAddress>0x400040E4</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7667,7 +7871,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL6_BUFFERA_SRC_ADDR</name>
                 <addressOffset>0xE8</addressOffset>
-                <absoluteAddress>0x400000E8</absoluteAddress>
+                <absoluteAddress>0x400040E8</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7682,7 +7886,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL6_BUFFERA_DEST_ADDR</name>
                 <addressOffset>0xEC</addressOffset>
-                <absoluteAddress>0x400000EC</absoluteAddress>
+                <absoluteAddress>0x400040EC</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7697,7 +7901,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL6_BUFFERA_XFER_COUNT</name>
                 <addressOffset>0xF0</addressOffset>
-                <absoluteAddress>0x400000F0</absoluteAddress>
+                <absoluteAddress>0x400040F0</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7712,7 +7916,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL6_BUFFERB_SRC_ADDR</name>
                 <addressOffset>0xF4</addressOffset>
-                <absoluteAddress>0x400000F4</absoluteAddress>
+                <absoluteAddress>0x400040F4</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7727,7 +7931,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL6_BUFFERB_DEST_ADDR</name>
                 <addressOffset>0xF8</addressOffset>
-                <absoluteAddress>0x400000F8</absoluteAddress>
+                <absoluteAddress>0x400040F8</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7742,7 +7946,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL6_BUFFERB_XFER_COUNT</name>
                 <addressOffset>0xFC</addressOffset>
-                <absoluteAddress>0x400000FC</absoluteAddress>
+                <absoluteAddress>0x400040FC</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7757,7 +7961,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL7_CONTROL</name>
                 <addressOffset>0x100</addressOffset>
-                <absoluteAddress>0x40000100</absoluteAddress>
+                <absoluteAddress>0x40004100</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7856,7 +8060,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL7_STATUS</name>
                 <addressOffset>0x104</addressOffset>
-                <absoluteAddress>0x40000104</absoluteAddress>
+                <absoluteAddress>0x40004104</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7892,7 +8096,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL7_BUFFERA_SRC_ADDR</name>
                 <addressOffset>0x108</addressOffset>
-                <absoluteAddress>0x40000108</absoluteAddress>
+                <absoluteAddress>0x40004108</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7907,7 +8111,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL7_BUFFERA_DEST_ADDR</name>
                 <addressOffset>0x10C</addressOffset>
-                <absoluteAddress>0x4000010C</absoluteAddress>
+                <absoluteAddress>0x4000410C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7922,7 +8126,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL7_BUFFERA_XFER_COUNT</name>
                 <addressOffset>0x110</addressOffset>
-                <absoluteAddress>0x40000110</absoluteAddress>
+                <absoluteAddress>0x40004110</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7937,7 +8141,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL7_BUFFERB_SRC_ADDR</name>
                 <addressOffset>0x114</addressOffset>
-                <absoluteAddress>0x40000114</absoluteAddress>
+                <absoluteAddress>0x40004114</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7952,7 +8156,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL7_BUFFERB_DEST_ADDR</name>
                 <addressOffset>0x118</addressOffset>
-                <absoluteAddress>0x40000118</absoluteAddress>
+                <absoluteAddress>0x40004118</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7967,7 +8171,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CHANNEL7_BUFFERB_XFER_COUNT</name>
                 <addressOffset>0x11C</addressOffset>
-                <absoluteAddress>0x4000011C</absoluteAddress>
+                <absoluteAddress>0x4000411C</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -7998,7 +8202,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR0_BUSMODE</name>
                 <addressOffset>0x0</addressOffset>
-                <absoluteAddress>0x40000000</absoluteAddress>
+                <absoluteAddress>0x40003000</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8055,7 +8259,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR1_TX_POLL_DEMAND</name>
                 <addressOffset>0x8</addressOffset>
-                <absoluteAddress>0x40000008</absoluteAddress>
+                <absoluteAddress>0x40003008</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8070,7 +8274,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR2_RX_POLL_DEMAND</name>
                 <addressOffset>0x10</addressOffset>
-                <absoluteAddress>0x40000010</absoluteAddress>
+                <absoluteAddress>0x40003010</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8085,7 +8289,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR3_RX_LIST_ADDRESS</name>
                 <addressOffset>0x18</addressOffset>
-                <absoluteAddress>0x40000018</absoluteAddress>
+                <absoluteAddress>0x40003018</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8100,7 +8304,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR4_TX_LIST_ADDRESS</name>
                 <addressOffset>0x20</addressOffset>
-                <absoluteAddress>0x40000020</absoluteAddress>
+                <absoluteAddress>0x40003020</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8115,7 +8319,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR5_STATUS</name>
                 <addressOffset>0x28</addressOffset>
-                <absoluteAddress>0x40000028</absoluteAddress>
+                <absoluteAddress>0x40003028</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8221,7 +8425,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR6_OPERATION_MODE</name>
                 <addressOffset>0x30</addressOffset>
-                <absoluteAddress>0x40000030</absoluteAddress>
+                <absoluteAddress>0x40003030</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8320,7 +8524,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR7_INTERRUPT_ENABLE</name>
                 <addressOffset>0x38</addressOffset>
-                <absoluteAddress>0x40000038</absoluteAddress>
+                <absoluteAddress>0x40003038</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8412,7 +8616,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR8_MISS_COUNTERS</name>
                 <addressOffset>0x40</addressOffset>
-                <absoluteAddress>0x40000040</absoluteAddress>
+                <absoluteAddress>0x40003040</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8448,7 +8652,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR9_MII_MGMT</name>
                 <addressOffset>0x48</addressOffset>
-                <absoluteAddress>0x40000048</absoluteAddress>
+                <absoluteAddress>0x40003048</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8512,7 +8716,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR10_RESERVED</name>
                 <addressOffset>0x50</addressOffset>
-                <absoluteAddress>0x40000050</absoluteAddress>
+                <absoluteAddress>0x40003050</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>
@@ -8527,7 +8731,7 @@ There is one APB3 Master interface.
               <register>
                 <name>CSR11_TIMINT_CONTROL</name>
                 <addressOffset>0x58</addressOffset>
-                <absoluteAddress>0x40000058</absoluteAddress>
+                <absoluteAddress>0x40003058</absoluteAddress>
                 <size>32</size>
                 <access>R/W</access>
                 <resetValue>0x0</resetValue>

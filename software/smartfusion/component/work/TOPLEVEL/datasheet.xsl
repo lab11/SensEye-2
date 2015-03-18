@@ -632,7 +632,7 @@
             <li>
                 <div class="content">
                     <a href="#{name} Memory Map">
-                        <xsl:value-of select="node()"/>
+                        <xsl:value-of select="name"/>
                     </a>
                 </div>
             </li>
@@ -715,9 +715,12 @@
                 <tr>
                     <th cellspace="0" colspan="1">
                         <b>
-                            <a class="toplinks" href="#{name}_{memoryMap/name} Register">
-                                <xsl:value-of select="name"/> : <xsl:value-of select="memoryMap/name"/>
-                            </a>
+                          <a class="toplinks" href="#{name}_{memoryMap/name} Register">
+                            <xsl:value-of select="name"/>
+                            <xsl:if test="memoryMap/name">
+                              : <xsl:value-of select="memoryMap/name"/>
+                            </xsl:if>
+                          </a>
                         </b>
                     </th>
                     <xsl:for-each select="fullAddressSpace">
@@ -725,6 +728,15 @@
                             <xsl:value-of select="text()"/>
                         </td>
                     </xsl:for-each>
+                    <xsl:if test="combinedAddressSpace">
+                      <td align="center">
+                        <xsl:for-each select="combinedAddressSpace">
+                          <xsl:value-of select="text()"/>
+                          <br/>
+
+                        </xsl:for-each>
+                      </td>
+                    </xsl:if>
                 </tr>
             </xsl:for-each>
 
@@ -736,7 +748,21 @@
             <h3>
                 <a name="{name}_{memoryMap/name} Register">
                     <xsl:value-of select="name"/> : <xsl:value-of select="memoryMap/name"/> Memory Map [
-                    <xsl:value-of select="fullAddressSpace"/> ]
+                    <xsl:if test="fullAddressSpace">
+                      <xsl:value-of select="fullAddressSpace"/> ]
+                    </xsl:if>
+
+                    <xsl:if test="combinedAddressSpace">
+                      <br/>
+                      <xsl:for-each select="combinedAddressSpace">
+                        <xsl:value-of select="text()"/>
+                        <xsl:choose>
+                          <xsl:when test="position() != last()">
+                            <br/>
+                          </xsl:when>
+                        </xsl:choose>
+                      </xsl:for-each> ]
+                    </xsl:if>
                 </a>
             </h3>
         </div>

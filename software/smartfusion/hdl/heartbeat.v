@@ -8,7 +8,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////// 
 `timescale 1ns / 1ps
 
-`define CLK_FREQ (32'd20000000)
+`define CLK_FREQ (32'd5000000)
 
 module heartbeat (
     input wire clk_in,

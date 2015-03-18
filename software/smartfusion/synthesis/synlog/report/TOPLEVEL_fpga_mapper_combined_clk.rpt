@@ -3,19 +3,15 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-1 non-gated/non-generated clock tree(s) driving 769 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 1045 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
-============================== Non-Gated/Non-Generated Clocks ===============================
-Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance      
----------------------------------------------------------------------------------------------
-@K:CKID0001       MSS_CORE3_MSS_0     hierarchy              769        heartbeat_0.pulse_out
-=============================================================================================
-===== Gated/Generated Clocks =====
-************** None **************
-----------------------------------
-==================================
+==================================== Non-Gated/Non-Generated Clocks ====================================
+Clock Tree ID     Driving Element     Drive Element Type                Fanout     Sample Instance      
+--------------------------------------------------------------------------------------------------------
+@K:CKID0001       MSS_CORE3_MSS_0     clock definition on hierarchy     1045       heartbeat_0.pulse_out
+========================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]

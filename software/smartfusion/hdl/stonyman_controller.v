@@ -98,6 +98,7 @@ module stonyman (
     // Frame mask address
     output reg [6:0] mask_pixel_row,
     output reg [6:0] mask_pixel_col
+    //output reg [3:0] main_state
     );
 
     // State registers

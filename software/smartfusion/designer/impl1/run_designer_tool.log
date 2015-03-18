@@ -1,22 +1,34 @@
 Microsemi Libero Software
-Version: 11.2.1.8
-Release: v11.2 SP1
+Version: 11.5.0.26
+Release: v11.5
 
 'IDE_DESIGNERVIEW_ROOTDIR' set to
-'C:\Users\brghena\workspace\SensEye-2\software\smartfusion\designer'
-Info: The design TOPLEVEL.adb was last modified by software version 11.2.1.8.
-Opened an existing Libero design TOPLEVEL.adb.
-WARNING: DEFUSR table not loaded - file: C:\Users\brghena\AppData\Roaming\Actel/designer.def
+'C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\designer'
+Error: Design
+       "C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.ad\
+       b" is locked.
+       Cannot resolve lock when in non-interactive mode.
+Error: Failure when executing Tcl script. [ Line 2 ]
 
-The Execute Script command succeeded ( 00:00:19 )
-This program can detect if an updated version of the software is available by
-checking the Actel web-site.
-
-Would you like to have this check automatically done when you startup the program?
-
-(To change this setting later, go to the File menu and select Preferences.
-From the Updates tab, you can change your selection.) [YES]
+The Execute Script command failed ( 00:00:00 )
 Checking for software updates...
 This software version is up to date.
+Warning: A lock has been established on this design.
+         This lock may be due from a previous aborted session or
+         the design may currently be in use by another session.
+         
+             Locked by: Samuel
+             Date: Tue Mar 17 19:38:53 2015
+             Hostname: YORKPATTY
+             ExecutableID: C:\Microsemi\Libero_v11.5\Designer\bin\designer.exe
+         
+         Would you like to continue opening this design? [OK]
+Info: The design
+      C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.adb
+      was last modified by software version 11.5.0.26.
+Opened an existing Libero design
+C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.adb.
+Design saved to file
+C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.adb.
 Design closed.
 

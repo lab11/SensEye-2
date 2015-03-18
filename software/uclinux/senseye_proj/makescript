@@ -1,5 +1,5 @@
 #!/bin/sh
 rm senseye_proj.uImage
 make
-cp senseye_proj.uImage ~/tftpboot/
+cp senseye_proj.uImage /tftpboot/
 

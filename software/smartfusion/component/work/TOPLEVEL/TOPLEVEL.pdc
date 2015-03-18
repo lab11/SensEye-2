@@ -1,9 +1,9 @@
 # Microsemi I/O Physical Design Constraints file
 # Auto Generated User I/O Constraints file
 
-# Version: v11.2 SP1 11.2.1.8
+# Version: v11.5 11.5.0.26
 # Family: SmartFusion , Die: A2F500M3G , Package: 484 FBGA
-# Date generated: Sun Feb 02 15:01:49 2014 
+# Date generated: Wed Mar 18 18:42:31 2015 
 
 
 # 
@@ -49,100 +49,63 @@ define_group -name MAC_RMII_PHY_MGMT_PADs
 # the other listed attributes have been applied
 # 
 
-set_io MAC_CRSDV          \
-    -iostd LVTTL          \
-    -RES_PULL None        \
-    -SCHMITT_TRIGGER Off  \
+set_io MAC_CRSDV      \
+    -iostd LVTTL      \
     -DIRECTION INPUT
 
 
 set_io MAC_MDC         \
     -iostd LVTTL       \
-    -OUT_LOAD 35       \
-    -RES_PULL None     \
-    -SKEW Off          \
-    -SLEW High         \
     -DIRECTION OUTPUT
 
 
-set_io MAC_MDIO           \
-    -iostd LVTTL          \
-    -OUT_LOAD 35          \
-    -RES_PULL None        \
-    -SCHMITT_TRIGGER Off  \
-    -SKEW Off             \
-    -SLEW High            \
+set_io MAC_MDIO       \
+    -iostd LVTTL      \
     -DIRECTION INOUT
 
 
-set_io {MAC_RXD[0]}       \
-    -iostd LVTTL          \
-    -RES_PULL None        \
-    -SCHMITT_TRIGGER Off  \
+set_io {MAC_RXD[0]}   \
+    -iostd LVTTL      \
     -DIRECTION INPUT
 
 
-set_io {MAC_RXD[1]}       \
-    -iostd LVTTL          \
-    -RES_PULL None        \
-    -SCHMITT_TRIGGER Off  \
+set_io {MAC_RXD[1]}   \
+    -iostd LVTTL      \
     -DIRECTION INPUT
 
 
-set_io MAC_RXER           \
-    -iostd LVTTL          \
-    -RES_PULL None        \
-    -SCHMITT_TRIGGER Off  \
+set_io MAC_RXER       \
+    -iostd LVTTL      \
     -DIRECTION INPUT
 
 
 set_io {MAC_TXD[0]}    \
     -iostd LVTTL       \
-    -OUT_LOAD 35       \
-    -RES_PULL None     \
-    -SKEW Off          \
-    -SLEW High         \
     -DIRECTION OUTPUT
 
 
 set_io {MAC_TXD[1]}    \
     -iostd LVTTL       \
-    -OUT_LOAD 35       \
-    -RES_PULL None     \
-    -SKEW Off          \
-    -SLEW High         \
     -DIRECTION OUTPUT
 
 
 set_io MAC_TXEN        \
     -iostd LVTTL       \
-    -OUT_LOAD 35       \
-    -RES_PULL None     \
-    -SKEW Off          \
-    -SLEW High         \
     -DIRECTION OUTPUT
 
 
-set_io MSS_RESET_N        \
-    -iostd LVTTL          \
-    -RES_PULL None        \
-    -SCHMITT_TRIGGER Off  \
+set_io MSS_RESET_N    \
+    -iostd LVTTL      \
     -DIRECTION INPUT
 
 
-set_io UART_0_RXD         \
-    -iostd LVTTL          \
-    -RES_PULL None        \
-    -SCHMITT_TRIGGER Off  \
+set_io UART_0_RXD     \
+    -iostd LVTTL      \
     -DIRECTION INPUT
 
 
 set_io UART_0_TXD      \
     -iostd LVTTL       \
-    -OUT_LOAD 35       \
-    -RES_PULL None     \
-    -SKEW Off          \
-    -SLEW High         \
     -DIRECTION OUTPUT
 
 
@@ -156,3 +119,15 @@ set_io UART_0_TXD      \
 # Old IO constraints, commented out for reference
 #
 
+# set_io MAC_CRSDV -iostd LVTTL -DIRECTION INPUT 
+# set_io MAC_MDC -iostd LVTTL -DIRECTION OUTPUT 
+# set_io MAC_MDIO -iostd LVTTL -DIRECTION INOUT 
+# set_io {MAC_RXD[0]} -iostd LVTTL -DIRECTION INPUT 
+# set_io {MAC_RXD[1]} -iostd LVTTL -DIRECTION INPUT 
+# set_io MAC_RXER -iostd LVTTL -DIRECTION INPUT 
+# set_io {MAC_TXD[0]} -iostd LVTTL -DIRECTION OUTPUT 
+# set_io {MAC_TXD[1]} -iostd LVTTL -DIRECTION OUTPUT 
+# set_io MAC_TXEN -iostd LVTTL -DIRECTION OUTPUT 
+# set_io MSS_RESET_N -iostd LVTTL -DIRECTION INPUT 
+# set_io UART_0_RXD -iostd LVTTL -DIRECTION INPUT 
+# set_io UART_0_TXD -iostd LVTTL -DIRECTION OUTPUT 

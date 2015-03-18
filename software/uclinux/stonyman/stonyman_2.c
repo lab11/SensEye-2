@@ -103,14 +103,16 @@ static inline void gpio_clear_irq(uint8_t pin) {
 static inline void apply_settings(uint8_t cam_id, uint8_t vref, uint8_t config,
          uint8_t nbias, uint8_t aobias, uint8_t vsw, uint8_t hsw, uint16_t val_offset) {
 
+   //printk(KERN_INFO "start apply settings\n");
    REG_W_CAM_SETTINGS1(cam_id) = (((vref   & 0x3F) << 24) |
                                   ((config & 0x3F) << 16) |
                                   ((nbias  & 0x3F) <<  8) |
                                   ((aobias & 0x3F) <<  0));
-
    REG_W_CAM_SETTINGS2(cam_id) = (((val_offset & 0xFFF) << 16) |
                                   ((vsw        & 0xFF)  <<  8) |
                                   ((hsw        & 0xFF)  <<  0));
+   //printk(KERN_INFO "cam settings applied\n");
+
 }
 
 // Inlineable function that applies timing settings to the verilog controller
@@ -172,7 +174,7 @@ static int stonyman_init(void) {
    frames_overrun = 0;
 
    initialization_status = 0;
-   printk(KERN_INFO "stonyman: loading...\n");
+   printk(KERN_INFO "stonyman: loading check...\n");
 
    // dynamic device number allocation
    error_code = alloc_chrdev_region(&stonyman_dev_num, MINOR_START, NUM_CAMS, DEVICE_NAME);
@@ -207,6 +209,7 @@ static int stonyman_init(void) {
          return -1;
       }
    }
+  // printk(KERN_INFO "after devices created\n");
 
    // initialize buffer status
    spin_lock_init(img_buf_lock);
@@ -222,6 +225,7 @@ static int stonyman_init(void) {
       }
    }
 
+   //printk(KERN_INFO "before buffer space\n");
    // malloc buffer space
    initialization_status++;
    for (i=0; i<NUM_CAMS; i++) {
@@ -235,14 +239,18 @@ static int stonyman_init(void) {
       }
    }
 
+   //printk(KERN_INFO "before timing\n");
    // apply timing configuration to imager
    apply_timing(IMG_TRACK_COUNTS, IMG_PULSE_COUNTS);
+  // printk(KERN_INFO "after apply timing\n");
 
    // apply configuration settings to cameras
    for (i=0; i<NUM_CAMS; i++) {
+     // printk(KERN_INFO "camera being set\n");
       // currently assumes that all cameras can use the same settings
       apply_settings(i, IMG_VREF, IMG_CONFIG, IMG_NBIAS, IMG_AOBIAS,
             IMG_VSW, IMG_HSW, IMG_OFFSET);
+     // printk(KERN_INFO "camera set\n");
    }
 
    // restart the stonyman controller
@@ -250,8 +258,10 @@ static int stonyman_init(void) {
       REG_W_GLOB_RESET = (1 << i);
    }
    
+   //printk(KERN_INFO "controller reset\n");
    // do not continue until the restart is complete
    while (REG_R_GLOB_STATUS != 0);
+   //printk(KERN_INFO "after while\n");
 
    // install frame_done handlers
    irq_count = 0;

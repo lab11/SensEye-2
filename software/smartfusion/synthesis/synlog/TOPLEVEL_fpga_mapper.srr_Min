@@ -1,7 +1,7 @@
 
 
-##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Feb 02 15:03:13 2014
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Mar 18 18:43:47 2015
 #
 
 
@@ -11,7 +11,7 @@ Requested Frequency:    40.0 MHz
 Wire load mode:         top
 Wire load model:        smartfusion
 Paths requested:        5
-Constraint File(s):    C:\Users\brghena\workspace\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell_syn.sdc
+Constraint File(s):    C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell_syn.sdc
                        
 @N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
 
@@ -28,7 +28,7 @@ Worst slack in design: 0.225
                    Requested     Estimated     Requested     Estimated                 Clock        Clock          
 Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group          
 -------------------------------------------------------------------------------------------------------------------
-FAB_CLK            40.0 MHz      23.0 MHz      25.000        43.394        -18.394     declared     clk_group_0    
+FAB_CLK            40.0 MHz      23.8 MHz      25.000        42.077        -17.077     declared     clk_group_0    
 FCLK               40.0 MHz      NA            25.000        NA            NA          declared     clk_group_0    
 System             80.0 MHz      171.5 MHz     12.500        5.831         6.669       system       system_clkgroup
 ===================================================================================================================
@@ -44,7 +44,7 @@ Starting  Ending   |  constraint  slack  |  constraint  slack  |  constraint  sl
 ---------------------------------------------------------------------------------------------------------
 System    System   |  0.000       0.225  |  No paths    -      |  No paths    -      |  No paths    -    
 System    FAB_CLK  |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
-FAB_CLK   System   |  0.000       1.145  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   System   |  0.000       0.851  |  No paths    -      |  No paths    -      |  No paths    -    
 FAB_CLK   FAB_CLK  |  0.000       False  |  No paths    -      |  No paths    -      |  No paths    -    
 =========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -68,41 +68,41 @@ Detailed Report for Clock: FAB_CLK
 Starting Points with Worst Slack
 ********************************
 
-                                                               Starting                                                                Arrival          
-Instance                                                       Reference     Type       Pin     Net                                    Time        Slack
-                                                               Clock                                                                                    
---------------------------------------------------------------------------------------------------------------------------------------------------------
-imager_0.fifo_pixel_data_0.DFN1C0_cam0_fifo_afull              FAB_CLK       DFN1C0     Q       cam0_fifo_afull_c                      0.580       1.387
-imager_0.stonyman0.frame_capture_done                          FAB_CLK       DFN1       Q       cam0_frame_capture_done_c              0.580       1.387
-CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI0Il.CAHBLTII1     FAB_CLK       DFN1C0     Q       CAHBLTII1                              0.737       2.176
-psram_cr_0.ahb0.hrdata_reg[0]                                  FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[0]     0.580       2.779
-psram_cr_0.ahb0.hrdata_reg[1]                                  FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[1]     0.580       2.779
-psram_cr_0.ahb0.hrdata_reg[2]                                  FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[2]     0.580       2.779
-psram_cr_0.ahb0.hrdata_reg[3]                                  FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[3]     0.580       2.779
-psram_cr_0.ahb0.hrdata_reg[4]                                  FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[4]     0.580       2.779
-psram_cr_0.ahb0.hrdata_reg[5]                                  FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[5]     0.580       2.779
-psram_cr_0.ahb0.hrdata_reg[6]                                  FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[6]     0.580       2.779
-========================================================================================================================================================
+                                                      Starting                                                                   Arrival          
+Instance                                              Reference     Type         Pin     Net                                     Time        Slack
+                                                      Clock                                                                                       
+--------------------------------------------------------------------------------------------------------------------------------------------------
+imager_0.stonyman0.frame_capture_done                 FAB_CLK       DFN1C1       Q       cam0_frame_capture_done_c               0.580       0.851
+imager_0.fifo_pixel_data_0.DFN1C0_cam0_fifo_afull     FAB_CLK       DFN1C0       Q       cam0_fifo_afull_c                       0.580       1.145
+psram_cr_0.ahb0.hrdata_reg[0]                         FAB_CLK       DFN1E1       Q       CoreAHBLite_0_AHBmslave5_HRDATA[0]      0.580       1.597
+psram_cr_0.ahb0.hrdata_reg[1]                         FAB_CLK       DFN1E1       Q       CoreAHBLite_0_AHBmslave5_HRDATA[1]      0.580       1.597
+psram_cr_0.ahb0.hrdata_reg[2]                         FAB_CLK       DFN1E1       Q       CoreAHBLite_0_AHBmslave5_HRDATA[2]      0.580       1.597
+psram_cr_0.ahb0.hrdata_reg[3]                         FAB_CLK       DFN1E1       Q       CoreAHBLite_0_AHBmslave5_HRDATA[3]      0.580       1.597
+psram_cr_0.ahb0.hrdata_reg[4]                         FAB_CLK       DFN1E1       Q       CoreAHBLite_0_AHBmslave5_HRDATA[4]      0.580       1.597
+psram_cr_0.ahb0.hrdata_reg[5]                         FAB_CLK       DFN1E1       Q       CoreAHBLite_0_AHBmslave5_HRDATA[5]      0.580       1.597
+psram_cr_0.ahb0.hrdata_reg[6]                         FAB_CLK       DFN1E1       Q       CoreAHBLite_0_AHBmslave5_HRDATA[6]      0.580       1.597
+COREAHBTOAPB3_0.CAHBtoAPB3lll.HRDATA[16]              FAB_CLK       DFN1E1C0     Q       CoreAHBLite_0_AHBmslave6_HRDATA[16]     0.737       1.839
+==================================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                   Starting                                                                                     Required          
-Instance                           Reference     Type        Pin              Net                                               Time         Slack
-                                   Clock                                                                                                          
---------------------------------------------------------------------------------------------------------------------------------------------------
-MSS_CORE3_MSS_0.MSSINT_GPI_0       FAB_CLK       MSSINT      A                cam0_frame_capture_done_c                         0.000        1.145
-MSS_CORE3_MSS_0.MSSINT_GPI_1       FAB_CLK       MSSINT      A                cam0_fifo_afull_c                                 0.000        1.145
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRESP         MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRESP_0       0.000        1.964
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[0]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[0]     0.000        2.490
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[1]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[1]     0.000        2.490
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[2]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[2]     0.000        2.490
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[3]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[3]     0.000        2.490
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[4]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[4]     0.000        2.490
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[5]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[5]     0.000        2.490
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[6]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[6]     0.000        2.490
-==================================================================================================================================================
+                                   Starting                                                                                      Required          
+Instance                           Reference     Type        Pin               Net                                               Time         Slack
+                                   Clock                                                                                                           
+---------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORE3_MSS_0.MSSINT_GPI_0       FAB_CLK       MSSINT      A                 cam0_frame_capture_done_c                         0.000        0.851
+MSS_CORE3_MSS_0.MSSINT_GPI_1       FAB_CLK       MSSINT      A                 cam0_fifo_afull_c                                 0.000        1.145
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[0]      MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[0]     0.000        1.597
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[1]      MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[1]     0.000        1.597
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[2]      MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[2]     0.000        1.597
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[3]      MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[3]     0.000        1.597
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[4]      MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[4]     0.000        1.597
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[5]      MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[5]     0.000        1.597
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[6]      MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[6]     0.000        1.597
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[16]     CAHBLTl00I_RNIQTQ94[5]                            0.000        1.839
+===================================================================================================================================================
 
 
 
@@ -111,27 +111,27 @@ Worst Path Information
 
 
 Path information for path number 1: 
-    Propagation time:                        1.145
+    Propagation time:                        0.851
     + Clock delay at starting point:         0.000 (ideal)
     - Requested Period:                      0.000
     - Hold time:                             0.000
     - Clock delay at ending point:           0.000 (ideal)
 0.000
-    = Slack (non-critical) :                 1.145
+    = Slack (non-critical) :                 0.851
 
     Number of logic level(s):                0
-    Starting point:                          imager_0.fifo_pixel_data_0.DFN1C0_cam0_fifo_afull / Q
-    Ending point:                            MSS_CORE3_MSS_0.MSSINT_GPI_1 / A
+    Starting point:                          imager_0.stonyman0.frame_capture_done / Q
+    Ending point:                            MSS_CORE3_MSS_0.MSSINT_GPI_0 / A
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            System [rising]
 
-Instance / Net                                                   Pin      Pin               Arrival     No. of    
-Name                                                  Type       Name     Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------------------------
-imager_0.fifo_pixel_data_0.DFN1C0_cam0_fifo_afull     DFN1C0     Q        Out     0.580     0.580       -         
-cam0_fifo_afull_c                                     Net        -        -       0.565     -           3         
-MSS_CORE3_MSS_0.MSSINT_GPI_1                          MSSINT     A        In      -         1.145       -         
-==================================================================================================================
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+imager_0.stonyman0.frame_capture_done     DFN1C1     Q        Out     0.580     0.580       -         
+cam0_frame_capture_done_c                 Net        -        -       0.270     -           2         
+MSS_CORE3_MSS_0.MSSINT_GPI_0              MSSINT     A        In      -         0.851       -         
+======================================================================================================
 
 
 
@@ -149,12 +149,12 @@ Starting Points with Worst Slack
 Instance                               Reference     Type           Pin        Net                       Time        Slack
                                        Clock                                                                              
 --------------------------------------------------------------------------------------------------------------------------
-MSS_CORE3_MSS_0.MSSINT_GPI_0           System        MSSINT         Y          MSSINT_GPI_0_Y            0.000       0.322
-MSS_CORE3_MSS_0.MSSINT_GPI_1           System        MSSINT         Y          MSSINT_GPI_1_Y            0.000       0.322
-MSS_CORE3_MSS_0.MSSINT_GPI_2           System        MSSINT         Y          MSSINT_GPI_2_Y            0.000       0.322
-MSS_CORE3_MSS_0.MSSINT_GPI_3           System        MSSINT         Y          MSSINT_GPI_3_Y            0.000       0.322
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        EMCCLK     MSS_ADLIB_INST_EMCCLK     0.000       0.322
-MSS_CORE3_MSS_0.MSS_CCC_0.I_XTLOSC     System        MSS_XTLOSC     CLKOUT     N_CLKA_XTLOSC             0.000       5.831
+MSS_CORE3_MSS_0.MSSINT_GPI_0           System        MSSINT         Y          MSSINT_GPI_0_Y            0.000       0.225
+MSS_CORE3_MSS_0.MSSINT_GPI_1           System        MSSINT         Y          MSSINT_GPI_1_Y            0.000       0.225
+MSS_CORE3_MSS_0.MSSINT_GPI_2           System        MSSINT         Y          MSSINT_GPI_2_Y            0.000       0.225
+MSS_CORE3_MSS_0.MSSINT_GPI_3           System        MSSINT         Y          MSSINT_GPI_3_Y            0.000       0.225
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        EMCCLK     MSS_ADLIB_INST_EMCCLK     0.000       0.225
+MSS_CORE3_MSS_0.MSS_CCC_0.I_XTLOSC     System        MSS_XTLOSC     CLKOUT     N_CLKA_XTLOSC             0.000       5.638
 ==========================================================================================================================
 
 

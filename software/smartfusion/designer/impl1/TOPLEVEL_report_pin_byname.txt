@@ -1,8 +1,8 @@
 *****************************************************************
-Pin Report - Date: Sun Feb 02 15:06:12 2014 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Wed Mar 18 18:47:59 2015 Pinchecksum: NOT-AVAILABLE
 Product: Designer
-Release: v11.2 SP1
-Version: 11.2.1.8
+Release: v11.5
+Version: 11.5.0.26
 Design Name: TOPLEVEL
 Family: SmartFusion
 Die: A2F500M3G
@@ -12,18 +12,19 @@ Port                    |Pin  |Fixed |Function                     |I/O Std |Out
 ------------------------|-----|------|-----------------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
 cam0_adc_capture_done    A17   Yes    IO16NDB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam0_adc_capture_start   C7    Yes    IO03PPB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam0_cs_n                K4    Yes    IO74PPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+cam0_cs_n                J21   Yes    GCC1/IO35PPB1V0               LVTTL    12                 High  None           ---              No    35                No           No
 cam0_fifo_afull          C8    Yes    IO04NPB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam0_fifo_empty          D8    Yes    IO03NPB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam0_fifo_full           A18   Yes    IO16PDB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam0_frame_capture_done  B7    Yes    IO04PPB0V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam0_incp                L1    Yes    IO73PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam0_incv                G2    Yes    GFB0/IO82NPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
-cam0_inphi               K17   Yes    IO37NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam0_resp                L2    Yes    IO73NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam0_resv                J17   Yes    IO37PDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam0_sclk                L6    Yes    IO75NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam0_sdata               K6    Yes    IO75PDB5V0                    LVTTL    ---                ---   None           No               ---   ---               No           No
+cam0_incp                F20   Yes    IO31PDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+cam0_incv                L3    Yes    IO72PPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+cam0_inphi               G4    Yes    GFC1/IO83PPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+cam0_resp                F21   Yes    IO31NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+cam0_resv                E22   Yes    IO32NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+cam0_sclk                J19   Yes    GCA0/IO36NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+cam0_sdata               J22   Yes    GCB1/IO34PDB1V0               LVTTL    ---                ---   None           No               ---   ---               No           No
+clock                    E1    Yes    GFC2/IO84PPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
 MAC_CLK                  T6    Yes    MAC_CLK                       LVTTL    ---                ---   None           No               ---   ---               No           Yes
 MAC_CRSDV                W4    Yes    MAC_CRSDV/IO60RSB4V0          LVTTL    ---                ---   None           No               ---   ---               No           Yes
 MAC_MDC                  AA3   Yes    MAC_MDC/IO57RSB4V0            LVTTL    8                  High  None           ---              No    35                No           Yes
@@ -85,5 +86,6 @@ psram_noe0               D10   Yes    EMC_OEN0_N/IO08NDB0V0         LVTTL    12 
 psram_noe1               C10   Yes    EMC_OEN1_N/IO08PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
 psram_nwe                B6    Yes    EMC_RW_N/GAA1/IO02PDB0V0      LVTTL    12                 High  None           ---              No    35                No           No
 pulse_out                M1    Yes    IO71PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+reset                    H6    Yes    GFA1/IO81PDB5V0               LVTTL    12                 High  None           ---              No    35                No           No
 UART_0_RXD               U18   Yes    UART_0_RXD/GPIO_21            LVTTL    ---                ---   None           No               ---   ---               No           Yes
 UART_0_TXD               Y22   Yes    UART_0_TXD/GPIO_20            LVTTL    8                  High  None           ---              No    35                No           Yes

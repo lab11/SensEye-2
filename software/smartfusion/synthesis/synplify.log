@@ -1,8 +1,8 @@
 
-Starting:    C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1\win64\mbin\synbatch.exe
-Install:     C:\Microsemi\Libero_v11.2\Synopsys\synplify_H201303MSP1-1
-Date:        Sun Feb 02 15:02:02 2014
-Version:     H-2013.03M-SP1-1 
+Starting:    C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\win64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1
+Date:        Wed Mar 18 18:42:48 2015
+Version:     I-2014.03M-SP1
 
 Arguments:   -product synplify_pro  -licensetype synplifypro_actel -batch -log synplify.log TOPLEVEL_syn.tcl
 ProductType: synplify_pro
@@ -15,10 +15,9 @@ License Option: actel_oem
 Running in Vendor Mode
 
 
+auto_infer_blackbox is not supported in current product.
 
-log file: "C:\Users\brghena\workspace\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srr"
-
-
+log file: "C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srr"
 
 
 
@@ -33,22 +32,38 @@ Running: Compile Process on TOPLEVEL_syn|synthesis
 
 Running: Compile Input on TOPLEVEL_syn|synthesis
 
-Copied C:\Users\brghena\workspace\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_comp.srs to C:\Users\brghena\workspace\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srs
+Copied C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_comp.srs to C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srs
+
 
 compiler Completed with warnings
 Return Code: 1
-Run Time:0h:00m:19s
+Run Time:0h:00m:10s
 
+
+Running: Multi-srs Generator on TOPLEVEL_syn|synthesis
+
+Copied C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_comp.srs to C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_s.srs
+
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:02s
+
+Copied C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_mult.srs to C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srs
 
 Complete: Compile Process on TOPLEVEL_syn|synthesis
 
 
-Running: Premap on TOPLEVEL_syn|synthesis
+Running: Pre-mapping on TOPLEVEL_syn|synthesis
+
+Copied C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.sap to C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_s.sap
+
+Copied C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.fse to C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_s.fse
+
 
 premap Completed
 Return Code: 0
-Run Time:0h:00m:01s
-
+Run Time:0h:00m:02s
 
 Complete: Compile on TOPLEVEL_syn|synthesis
 
@@ -58,10 +73,12 @@ Running: Map on TOPLEVEL_syn|synthesis
 
 Running: Map & Optimize on TOPLEVEL_syn|synthesis
 
+Copied C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_m.srm to C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srm
+
+
 fpga_mapper Completed with warnings
 Return Code: 1
-Run Time:0h:00m:52s
-
+Run Time:0h:00m:45s
 
 Complete: Map on TOPLEVEL_syn|synthesis
 
@@ -71,9 +88,7 @@ TCL script complete: "TOPLEVEL_syn.tcl"
 
 exit status=0
 
-
 exit status=0
-
 
 License checkin: synplifypro_actel
 

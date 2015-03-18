@@ -37,6 +37,9 @@ module imager (
     output wire cam0_fifo_full,
     output wire cam0_fifo_overflow,
 
+    //testing state machine
+    //output wire [3:0]   main_state_0,
+
     // Cam1
     // Input pins
     input wire cam1_sdata,
@@ -57,6 +60,10 @@ module imager (
     output wire cam1_fifo_empty,
     output wire cam1_fifo_full,
     output wire cam1_fifo_overflow,
+
+    //testing state machine
+    //output wire [3:0]   main_state_1,
+
 
     // Bus interface
     input wire         PSEL,
@@ -150,6 +157,7 @@ module imager (
         .inphi                  (cam0_inphi),
         .mask_pixel_row         (cam0_mask_pixel_row),
         .mask_pixel_col         (cam0_mask_pixel_col)
+    //   .main_state             (main_state_0)
     );
 
     // Framemask
@@ -257,6 +265,8 @@ module imager (
         .inphi                  (cam1_inphi),
         .mask_pixel_row         (cam1_mask_pixel_row),
         .mask_pixel_col         (cam1_mask_pixel_col)
+    //    .main_state             (main_state_1)
+
     );
 
     // Framemask
