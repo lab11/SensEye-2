@@ -43,14 +43,14 @@ Open senseye.prjx (you will get errors: "Unable to find..."")
 Double click TOPLEVEL in the Design Hierarchy area to open it in the main window
 
 Double click MSS\_CORE3\_MSS\_0 to open it in a new tab  
-Click the Generate Component button in the main window (yellow cylinder with gear)
+Click the Generate Component button in the main window (yellow cylinder with gear). 
 
 Go to TOPLEVEL tab  
 Click the Generate Programming Data button in the Design Flow area (green arrow)
 
 Project should build appropriately
 
-Note: Ensure reset line into imager is inverted (in toplevel)
+Note: Ensure all of the MSS components are updated by clicking the Catalog tab then the "Download them now!" button (Libero should show the message "New cores are available"). Also ensure reset line into imager is inverted (in TOPLEVEL).
 
 
 ### uCLinux Build Environment
@@ -109,3 +109,16 @@ After the device has booted run
     mount -t nfs -o proto=tcp,nolock,port=2049 <server ip address>:/<server nfs folder> /mnt
 
 A script to do this has been included as nfs.sh
+
+
+### Load Stonyman
+Run following commands on senseye version of uCLinux
+
+    ./load_stonyman.sh
+    ./senseye_serv
+
+The Stonyman controller software should now be loaded and ready to begin reading in images.
+
+
+### Setting up client
+Download and install OpenCV
