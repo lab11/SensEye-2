@@ -25,6 +25,7 @@ Note: Libero can be installed on linux, but has been found to be problematic
 
 ## Setup
 ### Git
+Note: this step not necessary if committing entire Libero project (current status).
 Navigate to the smartfusion/ directory
 
 Run the following commands:
@@ -114,7 +115,10 @@ A script to do this has been included as nfs.sh
 
 
 ### Load Stonyman
-Run following commands on senseye version of uCLinux
+Navigate to the SensEye-2/software/uclinux/senseye_proj/ directory and run:
+    ./makescript
+
+Run following commands on Senseye version of uCLinux
 
     ./load_stonyman.sh
     ./senseye_serv
@@ -124,3 +128,8 @@ The Stonyman controller software should now be loaded and ready to begin reading
 
 ### Setting up client
 Download and install OpenCV
+
+Navigate to SensEye-2/software/client/senseye_client/ directory and run:
+    make
+
+
