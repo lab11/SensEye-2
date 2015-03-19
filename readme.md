@@ -129,10 +129,12 @@ The Stonyman controller software should now be loaded and ready to begin reading
 
 
 ### Setting up client
-Download and install OpenCV
+Download and install OpenCV. Ensure OpenCV installed in /usr/local/include/
 
 Navigate to SensEye-2/software/client/senseye_client/ directory and run:
   
     make
+    ./senseye_client
 
+Note: while senseye_serv is running on the SmartFusion it waits for a connection from the client which is created by running senseye_client, then images should appear on the screen if a Stonyman is connected correctly.
 

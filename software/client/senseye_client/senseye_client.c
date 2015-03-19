@@ -59,8 +59,8 @@ int main(int argc, char** argv) {
    uint8_t* frame_buf [NUM_CAMS];
    uint8_t save_masks[NUM_CAMS] = {0, 0};
 
-   struct timespec time, timeprevious;
-   double fpsinstant, fpsmin, fpsmax;
+   //struct timespec time, timeprevious;
+   //double fpsinstant, fpsmin, fpsmax;
 
    // initialize the frames
    IplImage* framedouble = NULL;
