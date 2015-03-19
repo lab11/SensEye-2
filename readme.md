@@ -42,16 +42,18 @@ then commit.)
 
 
 ### Libero Project
-Open senseye.prjx (you will get errors: "Unable to find..."")
+1. Open senseye.prjx (you will get errors: "Unable to find..."")
 
-Double click TOPLEVEL in the Design Hierarchy area to open it in the main window
+2. Double click TOPLEVEL in the Design Hierarchy area to open it in the main window
 
-Double click MSS\_CORE3\_MSS\_0 to open it in a new tab  
-Double click the ENVM block, then right click the first client listed and select modify client. Change the location of the memory file to your_SensEye-2_location\SensEye-2\software\smartfusion\Emcraft_Firmware\u-boot.hex
-Click the Generate Component button in the main window (yellow cylinder with gear). 
+3. Double click MSS\_CORE3\_MSS\_0 to open it in a new tab  
+    1. Double click the ENVM block
+    2. Right click the first client listed and select modify client.
+    3. Change the location of the memory file to your_SensEye-2_location\SensEye-2\software\smartfusion\Emcraft_Firmware\u-boot.hex . 
+    4. Click the Generate Component button in the main window (yellow cylinder with gear). 
 
-Go to TOPLEVEL tab  
-Click the Generate Programming Data button in the Design Flow area (green arrow)
+4. Go to TOPLEVEL tab  
+5. Click the Generate Programming Data button in the Design Flow area (green arrow)
 
 Project should build appropriately
 

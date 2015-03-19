@@ -1101,8 +1101,14 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Program Device:TOPLEVEL_program.log
+SmartDesign;TOPLEVEL;0
+HDL;component\work\TOPLEVEL\TOPLEVEL.pdc;0
+HDL;constraint\senseye_constraints.pdc;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+SmartDesign;MSS_CORE3_MSS;0
+ACTIVEVIEW;MSS_CORE3_MSS
 ENDLIST
 LIST ModuleSubBlockList
 LIST "adc_controller::work","hdl\adc_controller.v","FALSE","FALSE"
