@@ -7,25 +7,23 @@ Based on the original SensEye design by Russ Bielawaski:  [repo](https://github.
 ## Installation
 ### A note on operating systems
 My installation uses Windows for Libero and Linux for uCLinux compilation. 
-Specifically, 64-bit Windows 7 and 32-bit Ubuntu 12.04. Other options may be
+Specifically, 64-bit Windows 8 and 32-bit Ubuntu 14.04 LTS. Other options may be
 successful
 
 
 ### Libero SoC
-Download libero from the following link:
+1. Download Libero from the following [link](http://www.microsemi.com/products/fpga-soc/design-resources/design-software/libero-soc#downloads).
 
-    http://www.microsemi.com/products/fpga-soc/design-resources/design-software/libero-soc#downloads
+2. Register for free gold 1-year disk ID locked license, follow instructions in email  
 
-(Currently on version 11.2 SP1, but it shouldn't matter)  
-Register for free gold 1-year disk ID locked license, follow instructions in email  
-Install service pack update  
-If on Windows 8, you may need to disable driver signatures in order to install the FlashPro driver  
-Note: Libero can be installed on linux, but has been found to be problematic
+3. Install service pack update (if on Windows 8, you may need to disable driver signatures in order to install the FlashPro driver)
+
+**Note**: Libero can be installed on Linux, but has been found to be problematic
 
 
 ## Setup
 ### Git
-Note: this step not necessary if committing entire Libero project (current status).
+**Note**: this step not necessary if committing entire Libero project (current status).
 
 Navigate to the smartfusion/ directory
 
@@ -36,20 +34,20 @@ Run the following commands:
     git update-index --no-assume-unchanged constraint/senseye_constraints.pdc
     git update-index --no-assume-unchanged Emcraft_Firmware/u-boot.hex
 
-(Note: these stop git from noticing changes in the libero files. If you want
+**Note**: these stop git from noticing changes in the libero files. If you want
 to commit changes, you will need to --no-assume-unchanged all those files, and
-then commit.)
+then commit.
 
 
 ### Libero Project
-1. Open senseye.prjx (you will get errors: "Unable to find..."")
+1. Open `senseye.prjx` (you will get errors: "Unable to find..."")
 
 2. Double click TOPLEVEL in the Design Hierarchy area to open it in the main window
 
 3. Double click MSS\_CORE3\_MSS\_0 to open it in a new tab  
     1. Double click the ENVM block
-    2. Right click the first client listed and select modify client.
-    3. Change the location of the memory file to your_SensEye-2_location\SensEye-2\software\smartfusion\Emcraft_Firmware\u-boot.hex . 
+    2. Right click the first client listed and select Modify Client.
+    3. Change the location of the memory file to `your_SensEye-2_location\SensEye-2\software\smartfusion\Emcraft_Firmware\u-boot.hex`. 
     4. Click the Generate Component button in the main window (yellow cylinder with gear). 
 
 4. Go to TOPLEVEL tab  
@@ -57,28 +55,26 @@ then commit.)
 
 Project should build appropriately
 
-Note: Ensure all of the MSS components are updated by clicking the Catalog tab then the "Download them now!" button (Libero should show the message "New cores are available"). Also ensure reset line into imager is inverted (in TOPLEVEL).
+**Note**: Ensure all of the MSS components are updated by clicking the Catalog tab then the `Download them now!` button (Libero should show the message `New cores are available`). Also ensure reset line into imager is inverted (in TOPLEVEL).
 
 
 ### uCLinux Build Environment
-Open the Linux Cortex M User Manual available from emcraft's Smartfusion webpage  
+Open the Linux Cortex M User Manual available from Emcraft's SmartFusion webpage  
 Follow the directions in Section 4.1
 
-The linux-cortexm-1.12.0/ folder should be extracted to the same location as the git repo  
-(To get a new version of the cross-compiler, go to 
-http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/arm-uclinux.html
-but you should probably stick with the one given by emcraft)  
-Note: the cross compiler tools work for me on 64-bit fedora, but not in a shared folder. You may need to install ia32-libs or equivalent if you are on a 64-bit system
+The `linux-cortexm-1.12.0/` folder should be extracted to the same location as the git repo  
+(To get a new version of the cross-compiler, click [here](http://www.mentor.com/embedded-software/sourcery-tools/sourcery-codebench/editions/lite-edition/arm-uclinux.html), but you should probably stick with the one given by emcraft)  
 
-.bashrc will need to be updated to run the following:
+`.bashrc` will need to be updated to run the following:
 
     cd <linux install directory>
     . ACTIVATE.sh
     cd -
 
+**Note**: the cross compiler tools work for me on 64-bit fedora, but not in a shared folder. You may need to install ia32-libs or equivalent if you are on a 64-bit system
 
 ### TFTP Server
-Follow instructions online to install a tftp server and enable it
+Follow instructions online to install a TFTP server and enable it
 
 Test that the server is working by running:
 
@@ -90,14 +86,14 @@ Test that the server is working by running:
 The get request should complete immediately without an issue
 
 Open a serial connection at 115200 baud  
-Find device ip address, from U-Boot:
+Find device IP address, from U-Boot:
 
     run flashboot
     udhcpc
     ifconfig
     reboot
 
-Modify the environment variables on the smartfusion board, from U-Boot:
+Modify the environment variables on the SmartFusion board, from U-Boot:
 
     setenv netmask 255.255.255.0
     setenv gatewayip <device ip address top 24 bits>.1
@@ -109,21 +105,21 @@ Modify the environment variables on the smartfusion board, from U-Boot:
 
 
 ### NFS Server
-Follow instructions online to install an nfs server and enable it
+Follow instructions online to install an NFS server and enable it
 
 After the device has booted run
     
     mount -t nfs -o proto=tcp,nolock,port=2049 <server ip address>:/<server nfs folder> /mnt
 
-A script to do this has been included as nfs.sh
+A script to do this has been included as `nfs.sh`
 
 
 ### Load Stonyman
-Navigate to the SensEye-2/software/uclinux/senseye_proj/ directory and run:
+Navigate to the `SensEye-2/software/uclinux/senseye_proj/` directory and runs
     
     ./makescript
 
-Run following commands on Senseye version of uCLinux
+Run following commands on device
 
     ./load_stonyman.sh
     ./senseye_serv
@@ -132,16 +128,16 @@ The Stonyman controller software should now be loaded and ready to begin reading
 
 
 ### Setting up client
-Download and install OpenCV. Ensure OpenCV installed in /usr/local/include/
+Download and install OpenCV. Ensure OpenCV installed in `/usr/local/include/`
 
-Change address of SmartFusion board in SensEye-2/software/client/senseye_client/senseye_client.c to current IP address (shown below):
+Change address of SmartFusion board in `SensEye-2/software/client/senseye_client/senseye_client.c` to current IP address (shown below):
 
     #define INSIGHT_SERV_ADDR     ("141.212.11.133") 
 
-Navigate to SensEye-2/software/client/senseye_client/ directory and run:
+Navigate to the `SensEye-2/software/client/senseye_client/` directory and run
   
     make
     ./senseye_client
 
-Note: while senseye_serv is running on the SmartFusion it waits for a connection from the client which is created by running senseye_client, then images should appear on the screen if a Stonyman is connected correctly.
+**Note**: while `senseye_serv` is running on the SmartFusion it waits for a connection from the client which is created by running `senseye_client`, then images should appear on the screen if a Stonyman is connected correctly.
 
