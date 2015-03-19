@@ -47,6 +47,7 @@ Open senseye.prjx (you will get errors: "Unable to find..."")
 Double click TOPLEVEL in the Design Hierarchy area to open it in the main window
 
 Double click MSS\_CORE3\_MSS\_0 to open it in a new tab  
+Double click the ENVM block, then right click the first client listed and select modify client. Change the location of the memory file to your_SensEye-2_location\SensEye-2\software\smartfusion\Emcraft_Firmware\u-boot.hex
 Click the Generate Component button in the main window (yellow cylinder with gear). 
 
 Go to TOPLEVEL tab  
