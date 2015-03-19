@@ -1,6 +1,8 @@
 # SensEye-2
 Low Power Real-Time Gaze Detection
 
+Based on the original SensEye design by Russ Bielawaski:  [repo](https://github.com/downbeat/senseye) 
+
 
 ## Installation
 ### A note on operating systems
