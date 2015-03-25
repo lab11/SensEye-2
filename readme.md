@@ -134,7 +134,7 @@ Change address of SmartFusion board in `SensEye-2/software/client/senseye_client
 
     #define INSIGHT_SERV_ADDR     ("141.212.11.133") 
 
-Navigate to the `SensEye-2/software/client/senseye_client/` directory and run
+Navigate to the `SensEye-2/software/client/` directory and run
   
     make
     ./senseye_client
