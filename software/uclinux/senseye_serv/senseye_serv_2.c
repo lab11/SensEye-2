@@ -155,11 +155,17 @@ void transmit_data( ) {
    }
 
    // Read from both cameras and transmit data to client
-   fprintf(stderr, "Sending frames\n");
    while (1) {
+      //Shows how many frames are sent
+      fprintf(stderr, "Sending frames before\n");
+
       send_frame(0);
-      //send_frame(0);
-      send_frame(1);
+      fprintf(stderr, "Sent frames 0\n");
+      
+      //commented out because both cameras are not connected
+      //send_frame(1);
+      // fprintf(stderr, "Sent frames 1\n");
+
    }
 }
 
@@ -180,6 +186,8 @@ void send_frame(uint8_t cam_id) {
    fprintf(stderr, "Reading frame from cam[%d], fd=%d\n", cam_id, stony_fd[cam_id]);
    int px_read = 0;
    while (px_read < frame_resolution[cam_id]) {
+      //fprintf(stderr, "px_read while loop\n");
+
       int ret_val = read(stony_fd[cam_id], &(img_buf[HEADER_SIZE]), frame_resolution[cam_id]);
       if (ret_val < 0) {
          perror("Couldn't read from stonyman device");
@@ -191,8 +199,10 @@ void send_frame(uint8_t cam_id) {
    }
 
 if (cam_id == 0) {
+   fprintf(stderr, "Cam 0 id increment\n");   
    send0_counts++;
 } else {
+   fprintf(stderr, "Cam 1 id increment\n");
    send1_counts++;
 }
 

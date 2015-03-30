@@ -85,7 +85,12 @@ Test that the server is working by running:
 
 The get request should complete immediately without an issue
 
-Open a serial connection at 115200 baud  
+Open a serial connection at 115200 baud. An example of this is below (assuming it is `ttyUSB0`)
+	
+	screen /tty/USB0 115200  
+
+**Note**: Sometimes it is necessary to run this with `sudo` . Also if there is only a blank screen press `Enter` a few times and if that doesn't work, press `Ctrl-C` to kill the current program and reboot.
+
 Find device IP address, from U-Boot:
 
     run flashboot
@@ -115,7 +120,11 @@ A script to do this has been included as `nfs.sh`
 
 
 ### Load Stonyman
-Navigate to the `SensEye-2/software/uclinux/senseye_proj/` directory and runs
+Navigate to the `SensEye-2/software/uclinux/senseye_proj/` directory and edit `makescript`
+
+	cp senseye_proj.uImage <your tftpboot directory>
+
+Then run
     
     ./makescript
 
@@ -134,7 +143,7 @@ Change address of SmartFusion board in `SensEye-2/software/client/senseye_client
 
     #define INSIGHT_SERV_ADDR     ("141.212.11.133") 
 
-Navigate to the `SensEye-2/software/client/` directory and run
+Navigate to the `SensEye-2/software/client/senseye_client` directory and run
   
     make
     ./senseye_client
