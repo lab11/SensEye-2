@@ -1,4 +1,4 @@
-update=3/23/2015 6:48:08 PM
+update=4/10/2015 5:43:01 PM
 version=1
 last_client=kicad
 [eeschema]
@@ -62,8 +62,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -77,3 +75,5 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[general]
+version=1
