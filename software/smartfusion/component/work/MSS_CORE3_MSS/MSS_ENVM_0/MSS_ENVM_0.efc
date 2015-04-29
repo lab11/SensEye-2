@@ -18,7 +18,7 @@
         </version>
     </header>
     <nvm>
-        <region name="Program" address="0x000000" retrieveAddressFromFile="false" size="94324" format="HEX" type="Data Storage" wordSize="8" numberWords="94324" memFile="C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\Emcraft_Firmware\u-boot.hex" memType="INTELHEX" memFileTimeStamp="1423521050" clientType="public" program="true">
+        <region name="Program" address="0x000000" retrieveAddressFromFile="false" size="94324" format="HEX" type="Data Storage" wordSize="8" numberWords="94324" memFile="C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\Emcraft_Firmware\u-boot.hex" memType="INTELHEX" memFileTimeStamp="1428704386" clientType="public" program="true">
             0000012075030000a1020000a1020000a1020000a1020000a1020000a102
             0000a1020000a1020000a1020000a1020000a1020000a1020000a1020000
             a1020000a1020000a1020000a1020000a1020000a1020000a1020000a102

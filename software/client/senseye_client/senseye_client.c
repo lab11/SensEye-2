@@ -238,11 +238,15 @@ static void get_frame (int sd, uint8_t* recv_buf, uint16_t frame_size,
    for (i=0; i<frame_size; i++) {
       signed int val = (signed int)((signed int)recv_buf[i] + (signed char)MASK_ARRAY[cam_id][i]);
       if (val < 0) {
-         val = 0;
+        val = 0;
       } else if (val > 255) {
-         val = 255;
+        val = 255;
       }
-      frame_buf[cam_id][i] = (unsigned char)val;
+      //buffer on
+     // frame_buf[cam_id][i] = (unsigned char)val;
+      
+     //buffer off
+     frame_buf[cam_id][i] = (unsigned char)recv_buf[i];
    }
 
    if (save_masks[cam_id]) {

@@ -938,10 +938,10 @@ State machine has 8 reachable states with original encodings of:
 @W: CL159 :"C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":332:0:332:9|Input CAHBLTlIlI is unused
 @END
 
-At c_ver Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 112MB peak: 131MB)
+At c_ver Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 112MB peak: 131MB)
 
-Process took 0h:00m:09s realtime, 0h:00m:08s cputime
-# Wed Mar 18 18:42:57 2015
+Process took 0h:00m:11s realtime, 0h:00m:10s cputime
+# Fri Apr 10 18:26:57 2015
 
 ###########################################################]
 Synopsys Netlist Linker, version comp201403sp1p1, Build 095R, built Oct  9 2014
@@ -951,7 +951,7 @@ File C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\synw
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 85MB peak: 86MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Mar 18 18:43:00 2015
+# Fri Apr 10 18:26:59 2015
 
 ###########################################################]
 Pre-mapping Report
@@ -1075,7 +1075,7 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 60MB peak: 132MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Mar 18 18:43:01 2015
+# Fri Apr 10 18:27:00 2015
 
 ###########################################################]
 Map & Optimize Report
@@ -1295,28 +1295,28 @@ Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; M
 Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 140MB peak: 151MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 143MB peak: 205MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 143MB peak: 205MB)
 
 
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 145MB peak: 205MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:39s; Memory used current: 186MB peak: 205MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:00m:44s; Memory used current: 186MB peak: 205MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:40s; Memory used current: 185MB peak: 205MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:00m:44s; Memory used current: 185MB peak: 205MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:40s; Memory used current: 185MB peak: 205MB)
+Finished preparing to map (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:44s; Memory used current: 185MB peak: 205MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:41s; Memory used current: 181MB peak: 227MB)
+Finished technology mapping (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:45s; Memory used current: 181MB peak: 227MB)
 
 @N: FP130 |Promoting Net reset_c on CLKINT  I_366 
 @N: FP130 |Promoting Net imager_0.un1_reset on CLKINT  I_367 
 @N: FP130 |Promoting Net imager_0.un1_reset_1 on CLKINT  I_368 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:42s; CPU Time elapsed 0h:00m:41s; Memory used current: 181MB peak: 227MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:46s; Memory used current: 181MB peak: 227MB)
 
 
 Added 0 Buffers
@@ -1324,7 +1324,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:42s; CPU Time elapsed 0h:00m:41s; Memory used current: 182MB peak: 227MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:46s; Memory used current: 182MB peak: 227MB)
 
 
 
@@ -1346,16 +1346,16 @@ Clock Tree ID     Driving Element     Drive Element Type                Fanout  
 
 Writing Analyst data base C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:42s; Memory used current: 172MB peak: 227MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:47s; Memory used current: 172MB peak: 227MB)
 
 Writing Analyst data base C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:43s; Memory used current: 172MB peak: 227MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:48s; Memory used current: 172MB peak: 227MB)
 
 Writing EDIF Netlist and constraint files
 I-2014.03M-SP1
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:00m:44s; Memory used current: 178MB peak: 227MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:49s; CPU Time elapsed 0h:00m:49s; Memory used current: 178MB peak: 227MB)
 
 @W: MT246 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_core3_mss.v":642:7:642:18|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT246 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":96:15:96:22|Blackbox MSS_XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
@@ -1364,7 +1364,7 @@ Found clock FCLK with period 25.00ns
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Mar 18 18:43:46 2015
+# Timing Report written on Fri Apr 10 18:27:50 2015
 #
 
 
@@ -2253,9 +2253,9 @@ Block Rams : 8 of 24 (33%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:44s; Memory used current: 62MB peak: 227MB)
+At Mapper Exit (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:49s; Memory used current: 62MB peak: 227MB)
 
-Process took 0h:00m:45s realtime, 0h:00m:44s cputime
-# Wed Mar 18 18:43:47 2015
+Process took 0h:00m:50s realtime, 0h:00m:49s cputime
+# Fri Apr 10 18:27:50 2015
 
 ###########################################################]

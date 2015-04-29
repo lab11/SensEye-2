@@ -34,25 +34,25 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Wed Mar 18 18:45:30 2015
+Timing-driven Placer Started: Fri Apr 10 18:33:09 2015
 
-Placer Finished: Wed Mar 18 18:46:39 2015
-Total Placer CPU Time:     00:01:09
+Placer Finished: Fri Apr 10 18:34:25 2015
+Total Placer CPU Time:     00:01:16
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: TOPLEVEL                        Started: Wed Mar 18 18:46:55 2015
+Design: TOPLEVEL                        Started: Fri Apr 10 18:34:38 2015
 
  
 
 Timing-driven Router completed successfully.
 
 Design: TOPLEVEL                        
-Finished: Wed Mar 18 18:47:34 2015
+Finished: Fri Apr 10 18:35:17 2015
 Total CPU Time:     00:00:38            Total Elapsed Time: 00:00:39
-Total Memory Usage: 337.0 Mbytes
+Total Memory Usage: 336.9 Mbytes
                         o - o - o - o - o - o
 
 Warning: PLC503: Instance MSS_CORE3_MSS_0/MSS_ADLIB_INST_RNI81B9/U_CLKSRC/U_GL is using the
@@ -67,7 +67,7 @@ Finished loading the Timing data.
 TIMER: Max delay timing requirements have been met.
 TIMER: Min delay timing requirements have been met.
 
-The Layout command succeeded ( 00:02:34 )
+The Layout command succeeded ( 00:02:29 )
 Wrote status report to file: TOPLEVEL_place_and_route_report.txt
 
 The Report command succeeded ( 00:00:00 )
@@ -89,6 +89,6 @@ The Report command succeeded ( 00:00:01 )
 Design saved to file
 C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.adb.
 
-The Execute Script command succeeded ( 00:02:46 )
+The Execute Script command succeeded ( 00:02:37 )
 Design closed.
 

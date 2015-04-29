@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version I-2014.03M-SP1
 #--  Project file C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\run_options.txt
-#--  Written on Wed Mar 18 18:42:48 2015
+#--  Written on Fri Apr 10 18:26:46 2015
 
 
 #project files

@@ -1,0 +1,23 @@
+!SESSION 2015-04-10 18:20:50.884 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\SoftConsole\MSS_CORE3_MSS_MSS_CM3_0\projects\MSS_CORE3_MSS_MSS_CM3_0_hw_platform
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/SoftConsole/MSS_CORE3_MSS_MSS_CM3_0 -import C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\SoftConsole\MSS_CORE3_MSS_MSS_CM3_0\projects\MSS_CORE3_MSS_MSS_CM3_0_hw_platform
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-04-10 18:20:53.578
+!MESSAGE Indexed 'MSS_CORE3_MSS_MSS_CM3_0_hw_platform' (14 sources, 55 headers) in 0.71 sec: 3,211 declarations; 7,829 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+!SESSION 2015-04-10 18:20:54.796 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\SoftConsole\MSS_CORE3_MSS_MSS_CM3_0\projects\MSS_CORE3_MSS_MSS_CM3_0_app
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/SoftConsole/MSS_CORE3_MSS_MSS_CM3_0 -import C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\SoftConsole\MSS_CORE3_MSS_MSS_CM3_0\projects\MSS_CORE3_MSS_MSS_CM3_0_app
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-04-10 18:20:55.569
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-04-10 18:20:56.537
+!MESSAGE Indexed 'MSS_CORE3_MSS_MSS_CM3_0_app' (1 sources, 8 headers) in 0.13 sec: 1 declarations; 0 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

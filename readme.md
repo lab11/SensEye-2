@@ -87,7 +87,7 @@ The get request should complete immediately without an issue
 
 Open a serial connection at 115200 baud. An example of this is below (assuming it is `ttyUSB0`)
 	
-	screen /tty/USB0 115200  
+	screen /dev/ttyUSB0 115200  
 
 **Note**: Sometimes it is necessary to run this with `sudo` . Also if there is only a blank screen press `Enter` a few times and if that doesn't work, press `Ctrl-C` to kill the current program and reboot.
 
