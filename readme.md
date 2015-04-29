@@ -6,7 +6,7 @@ Based on the original SensEye design by Russ Bielawaski:  [repo](https://github.
 
 ## Installation
 ### A note on operating systems
-My installation uses Windows for Libero and Linux for uCLinux compilation. 
+This installation uses Windows for Libero and Linux for uCLinux compilation. 
 Specifically, 64-bit Windows 8 and 32-bit Ubuntu 14.04 LTS. Other options may be
 successful
 
@@ -25,7 +25,7 @@ successful
 ### Git
 **Note**: this step not necessary if committing entire Libero project (current status).
 
-Navigate to the smartfusion/ directory
+Navigate to the `smartfusion/` directory
 
 Run the following commands:
 
@@ -53,7 +53,7 @@ then commit.
 4. Go to TOPLEVEL tab  
 5. Click the Generate Programming Data button in the Design Flow area (green arrow)
 
-Project should build appropriately
+Project should build appropriately.
 
 **Note**: Ensure all of the MSS components are updated by clicking the Catalog tab then the `Download them now!` button (Libero should show the message `New cores are available`). Also ensure reset line into imager is inverted (in TOPLEVEL).
 
@@ -74,7 +74,7 @@ The `linux-cortexm-1.12.0/` folder should be extracted to the same location as t
 **Note**: the cross compiler tools work for me on 64-bit fedora, but not in a shared folder. You may need to install ia32-libs or equivalent if you are on a 64-bit system
 
 ### TFTP Server
-Follow instructions online to install a TFTP server and enable it
+Follow instructions online to install a TFTP server and enable it.
 
 Test that the server is working by running:
 
@@ -139,7 +139,7 @@ The Stonyman controller software should now be loaded and ready to begin reading
 ### Setting up client
 Download and install OpenCV. Ensure OpenCV installed in `/usr/local/include/`
 
-Change address of SmartFusion board in `SensEye-2/software/client/senseye_client/senseye_client.c` to current IP address (shown below):
+Change address of SmartFusion board in `SensEye-2/software/client/senseye_client/senseye_client.c` to current IP address (found by running `getenv` on the SmartFusion board):
 
     #define INSIGHT_SERV_ADDR     ("141.212.11.133") 
 
