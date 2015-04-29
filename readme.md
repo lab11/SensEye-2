@@ -1,5 +1,5 @@
 # SensEye-2
-Low Power Real-Time Gaze Detection
+**Sight-Guided Search and Depth Detection using Low Power Gaze Detection**
 
 Based on the original SensEye design by Russ Bielawaski:  [repo](https://github.com/downbeat/senseye) 
 
