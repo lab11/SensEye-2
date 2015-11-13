@@ -7,7 +7,7 @@ Based on the original SensEye design by Russ Bielawaski:  [repo](https://github.
 ## Installation
 ### A note on operating systems
 This installation uses Windows for Libero and Linux for uCLinux compilation. 
-Specifically, 64-bit Windows 8 and 32-bit Ubuntu 14.04 LTS. Other options may be
+Specifically, 64-bit Windows 8 and 64-bit Ubuntu 14.04 LTS. Other options may be
 successful
 
 
@@ -152,3 +152,9 @@ Navigate to the `SensEye-2/software/client/senseye_client` directory and run
 
 **Note**: while `senseye_serv` is running on the SmartFusion it waits for a connection from the client which is created by running `senseye_client`, then images should appear on the screen if a Stonyman is connected correctly.
 
+
+### Hardware Configuration
+The hardware can be somewhat tricky to configure correctly. First, build the circuit specified in `hardware/schematics/stonyman_breakout.pdf` . Ensure to tie a resistor (10k) to ground from the analog out (AN) of the Stonyman, and place a capacitor across the power supply rails.
+
+
+**Calibration:** The configuration of the parameters in `software/uclinux/stonyman/stonyman_2.h` is dependent on whether the system is run at 3.3 Volts or 5 Volts. As of now the system is configured for 3.3 V. This can be changed by modifying the `define` statements based on empirical evidence.
