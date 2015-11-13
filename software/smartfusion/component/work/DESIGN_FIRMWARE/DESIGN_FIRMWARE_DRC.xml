@@ -3,17 +3,73 @@
 <drcreport>
   <header>DESIGN_FIRMWARE</header>
   <drc>
-    <status>C:\Microsemi\Libero_v11.1\Designer/data/drcreport\error.png</status>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Missing Core Definition</message>
+    <detail>Core 'Actel:Firmware:HAL:2.2.102 ' is missing from the vault.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/DESIGN_FIRMWARE/instances/HAL_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
     <StatusMessage>Error</StatusMessage>
     <message>Missing Core Definition</message>
     <detail>Core 'Actel:Firmware:MSS_Ethernet_MAC_Driver:2.0.103 ' is missing from the vault.</detail>
     <crossprobe>liberoaction://cross_probe/smartdesign/DESIGN_FIRMWARE/instances/MSS_Ethernet_MAC_Driver_0</crossprobe>
   </drc>
   <drc>
-    <status>C:\Microsemi\Libero_v11.1\Designer/data/drcreport\error.png</status>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Missing Core Definition</message>
+    <detail>Core 'Actel:Firmware:MSS_GPIO_Driver:2.0.105 ' is missing from the vault.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/DESIGN_FIRMWARE/instances/MSS_GPIO_Driver_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Missing Core Definition</message>
+    <detail>Core 'Actel:Firmware:MSS_NVM_Driver:2.2.102 ' is missing from the vault.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/DESIGN_FIRMWARE/instances/MSS_NVM_Driver_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Missing Core Definition</message>
+    <detail>Core 'Actel:Firmware:MSS_PDMA_Driver:2.0.102 ' is missing from the vault.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/DESIGN_FIRMWARE/instances/MSS_PDMA_Driver_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Missing Core Definition</message>
+    <detail>Core 'Actel:Firmware:MSS_RTC_Driver:2.0.100 ' is missing from the vault.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/DESIGN_FIRMWARE/instances/MSS_RTC_Driver_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Missing Core Definition</message>
+    <detail>Core 'Actel:Firmware:MSS_Timer_Driver:2.1.101 ' is missing from the vault.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/DESIGN_FIRMWARE/instances/MSS_Timer_Driver_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Missing Core Definition</message>
+    <detail>Core 'Actel:Firmware:MSS_UART_Driver:2.3.101 ' is missing from the vault.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/DESIGN_FIRMWARE/instances/MSS_UART_Driver_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
     <StatusMessage>Error</StatusMessage>
     <message>Missing Core Definition</message>
     <detail>Core 'Actel:Firmware:MSS_Watchdog_Driver:2.0.107 ' is missing from the vault.</detail>
     <crossprobe>liberoaction://cross_probe/smartdesign/DESIGN_FIRMWARE/instances/MSS_Watchdog_Driver_0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Missing Core Definition</message>
+    <detail>Core 'Actel:Firmware:SmartFusion_CMSIS_PAL:2.3.103 ' is missing from the vault.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/DESIGN_FIRMWARE/instances/SmartFusion_CMSIS_PAL_0</crossprobe>
   </drc>
 </drcreport>

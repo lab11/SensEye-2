@@ -498,7 +498,7 @@ static int stonyman_ioctl(struct inode* inode, struct file* filp,
          break;
 
       case STONYMAN_IOC_RESET_IMAGER:
-         //printk(KERN_INFO "stonyman: ioctl reset\n");
+         printk(KERN_INFO "stonyman: ioctl reset\n");
 
          // restart the stonyman controller immediately
          REG_W_GLOB_RESET = (1 << cam_id);

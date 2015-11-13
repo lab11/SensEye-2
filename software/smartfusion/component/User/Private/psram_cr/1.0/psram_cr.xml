@@ -144,6 +144,7 @@
   <spirit:vendorExtensions>
     <actel-cc:type typeName="IP"/>
     <actel-cc:instantiateOnCreation value="false"/>
+    <actel-cc:diveInPermission value="READ_WRITE"/>
     <actel-cc:categories categoryName="OS" style="hidden">
       <actel-cc:category name="PC">
       </actel-cc:category>

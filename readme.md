@@ -1,5 +1,5 @@
 # SensEye-2
-**Sight-Guided Search and Depth Detection using Low Power Gaze Detection**
+**Sight-Guided Search and Depth Detection**
 
 Based on the original SensEye design by Russ Bielawaski:  [repo](https://github.com/downbeat/senseye) 
 
@@ -83,6 +83,8 @@ Test that the server is working by running:
     get foo
     quit
 
+**Note**: sometimes it is necessary to run this with `sudo`. 
+
 The get request should complete immediately without an issue
 
 Open a serial connection at 115200 baud. An example of this is below (assuming it is `ttyUSB0`)
@@ -139,7 +141,7 @@ The Stonyman controller software should now be loaded and ready to begin reading
 ### Setting up client
 Download and install OpenCV. Ensure OpenCV installed in `/usr/local/include/`
 
-Change address of SmartFusion board in `SensEye-2/software/client/senseye_client/senseye_client.c` to current IP address (found by running `getenv` on the SmartFusion board):
+Change address of SmartFusion board in `SensEye-2/software/client/senseye_client/senseye_client.c` to current IP address (found by running `printenv` on the SmartFusion board):
 
     #define INSIGHT_SERV_ADDR     ("141.212.11.133") 
 

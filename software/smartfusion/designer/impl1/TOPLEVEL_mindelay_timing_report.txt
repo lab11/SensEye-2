@@ -1,21 +1,21 @@
 Timing Report Min Delay Analysis
 
-SmartTime Version v11.5
-Microsemi Corporation - Microsemi Libero Software Release v11.5 (Version 11.5.0.26)
-Date: Fri Apr 10 18:35:47 2015
+SmartTime Version v11.6
+Microsemi Corporation - Microsemi Libero Software Release v11.6 (Version 11.6.0.34)
+Date: Wed Nov 11 13:54:17 2015
 
 
 Design: TOPLEVEL
 Family: SmartFusion
 Die: A2F500M3G
 Package: 484 FBGA
-Temperature: -40 25 100
-Voltage: COM
+Temperature Range: -40 - 100 C
+Voltage Range: 1.425 - 1.575 V
 Speed Grade: STD
 Design State: Post-Layout
 Data source: Silicon verified
-Min Operating Condition: BEST
-Max Operating Condition: WORST
+Min Operating Conditions: BEST - 1.575 V - -40 C
+Max Operating Conditions: WORST - 1.425 V - 100 C
 Using Enhanced Min Delay Analysis
 Scenario for Timing Analysis: Primary
 
@@ -70,18 +70,18 @@ Required Period (ns):       N/A
 Required Frequency (MHz):   N/A
 External Setup (ns):        -1.677
 External Hold (ns):         1.215
-Min Clock-To-Out (ns):      6.333
-Max Clock-To-Out (ns):      14.993
+Min Clock-To-Out (ns):      5.083
+Max Clock-To-Out (ns):      12.153
 
 Clock Domain:               mss_ccc_glb
-Period (ns):                55.146
-Frequency (MHz):            18.134
+Period (ns):                58.903
+Frequency (MHz):            16.977
 Required Period (ns):       N/A
 Required Frequency (MHz):   N/A
-External Setup (ns):        9.249
-External Hold (ns):         -0.797
-Min Clock-To-Out (ns):      2.002
-Max Clock-To-Out (ns):      9.599
+External Setup (ns):        9.832
+External Hold (ns):         -0.801
+Min Clock-To-Out (ns):      1.977
+Max Clock-To-Out (ns):      10.447
 
 Clock Domain:               MSS_CORE3_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT
 Period (ns):                N/A
@@ -90,8 +90,8 @@ Required Period (ns):       N/A
 Required Frequency (MHz):   N/A
 External Setup (ns):        N/A
 External Hold (ns):         N/A
-Min Clock-To-Out (ns):      5.127
-Max Clock-To-Out (ns):      9.661
+Min Clock-To-Out (ns):      5.133
+Max Clock-To-Out (ns):      9.676
 
 Clock Domain:               MSS_CORE_0/MSS_CCC_0/I_XTLOSC:CLKOUT
 Period (ns):                N/A
@@ -384,17 +384,17 @@ SET Clock to Output
 Path 1
   From:                        MSS_CORE3_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
   To:                          reset
-  Delay (ns):                  6.121
+  Delay (ns):                  4.871
   Slack (ns):
-  Arrival (ns):                6.333
+  Arrival (ns):                5.083
   Required (ns):
-  Clock to Out (ns):           6.333
+  Clock to Out (ns):           5.083
 
 
 Expanded Path 1
   From: MSS_CORE3_MSS_0/MSS_ADLIB_INST/U_CORE:FCLK
   To: reset
-  data arrival time                              6.333
+  data arrival time                              5.083
   data required time                         -   N/C
   slack                                          N/C
   ________________________________________________________
@@ -410,22 +410,18 @@ Expanded Path 1
   1.755                        MSS_CORE3_MSS_0/MSS_ADLIB_INST/U_46:PIN2INT (r)
                +     0.042          cell: ADLIB:MSS_IF
   1.797                        MSS_CORE3_MSS_0/MSS_ADLIB_INST/U_46:PIN2 (r)
-               +     2.189          net: MSS_CORE3_MSS_0/MSS_ADLIB_INST_M2FRESETn
-  3.986                        MSS_CORE3_MSS_0/MSS_ADLIB_INST_RNI81B9/U_CLKSRC:A (r)
-               +     0.704          cell: ADLIB:CLKSRC
-  4.690                        MSS_CORE3_MSS_0/MSS_ADLIB_INST_RNI81B9/U_CLKSRC:Y (r)
-               +     0.309          net: reset_c
-  4.999                        reset_pad/U0/U1:D (r)
+               +     1.952          net: reset_c
+  3.749                        reset_pad/U0/U1:D (r)
                +     0.265          cell: ADLIB:IOTRI_OB_EB
-  5.264                        reset_pad/U0/U1:DOUT (r)
+  4.014                        reset_pad/U0/U1:DOUT (r)
                +     0.000          net: reset_pad/U0/NET1
-  5.264                        reset_pad/U0/U0:D (r)
+  4.014                        reset_pad/U0/U0:D (r)
                +     1.069          cell: ADLIB:IOPAD_TRI
-  6.333                        reset_pad/U0/U0:PAD (r)
+  5.083                        reset_pad/U0/U0:PAD (r)
                +     0.000          net: reset
-  6.333                        reset (r)
+  5.083                        reset (r)
                                     
-  6.333                        data arrival time
+  5.083                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          mss_ccc_gla0
@@ -468,55 +464,55 @@ Clock Domain mss_ccc_glb
 SET Register to Register
 
 Path 1
-  From:                        COREAHBTOAPB3_0/CAHBtoAPB3Oll/HREADYOUT:CLK
-  To:                          CoreAHBLite_0/CAHBLTO1I0l/CAHBLTl1O0l/CAHBLTIO0l[0]:E
-  Delay (ns):                  0.398
+  From:                        imager_0/fifo_pixel_data_0/DFN1C0_DVLDI:CLK
+  To:                          imager_0/fifo_pixel_data_0/DFN1C0_cam0_fifo_data_valid:D
+  Delay (ns):                  0.377
   Slack (ns):
-  Arrival (ns):                0.709
+  Arrival (ns):                0.701
   Required (ns):
   Hold (ns):                   0.000
 
 Path 2
-  From:                        psram_cr_0/ahb0/hready_reg:CLK
-  To:                          CoreAHBLite_0/CAHBLTO1I0l/CAHBLTI1O0l/CAHBLTIO0l[0]:E
-  Delay (ns):                  0.415
+  From:                        imager_0/fifo_pixel_data_1/DFN1C0_MEM_WADDR[9]:CLK
+  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[31]:ADDRA9
+  Delay (ns):                  0.512
   Slack (ns):
-  Arrival (ns):                0.739
+  Arrival (ns):                0.840
   Required (ns):
   Hold (ns):                   0.000
 
 Path 3
-  From:                        imager_0/fifo_pixel_data_1/DFN1C0_MEM_WADDR[0]:CLK
-  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[29]:ADDRA0
-  Delay (ns):                  0.514
+  From:                        imager_0/fifo_pixel_data_1/DFN1C0_MEM_WADDR[7]:CLK
+  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[31]:ADDRA7
+  Delay (ns):                  0.515
   Slack (ns):
-  Arrival (ns):                0.834
+  Arrival (ns):                0.843
   Required (ns):
   Hold (ns):                   0.000
 
 Path 4
-  From:                        imager_0/fifo_pixel_data_1/DFN1C0_RBINSYNCSHIFT[7]:CLK
-  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[27]:ADDRB5
-  Delay (ns):                  0.521
+  From:                        imager_0/fifo_pixel_data_1/DFN1C0_MEM_WADDR[8]:CLK
+  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[31]:ADDRA8
+  Delay (ns):                  0.549
   Slack (ns):
-  Arrival (ns):                0.847
+  Arrival (ns):                0.877
   Required (ns):
   Hold (ns):                   0.000
 
 Path 5
-  From:                        imager_0/fifo_pixel_data_1/DFN1C0_MEM_WADDR[1]:CLK
-  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[25]:ADDRA1
-  Delay (ns):                  0.539
+  From:                        imager_0/fifo_pixel_data_1/DFN1C0_MEM_WADDR[0]:CLK
+  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[25]:ADDRA0
+  Delay (ns):                  0.541
   Slack (ns):
-  Arrival (ns):                0.865
+  Arrival (ns):                0.881
   Required (ns):
   Hold (ns):                   0.000
 
 
 Expanded Path 1
-  From: COREAHBTOAPB3_0/CAHBtoAPB3Oll/HREADYOUT:CLK
-  To: CoreAHBLite_0/CAHBLTO1I0l/CAHBLTl1O0l/CAHBLTIO0l[0]:E
-  data arrival time                              0.709
+  From: imager_0/fifo_pixel_data_0/DFN1C0_DVLDI:CLK
+  To: imager_0/fifo_pixel_data_0/DFN1C0_cam0_fifo_data_valid:D
+  data arrival time                              0.701
   data required time                         -   N/C
   slack                                          N/C
   ________________________________________________________
@@ -528,14 +524,14 @@ Expanded Path 1
   0.000                        MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   0.000                        MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
-               +     0.311          net: FAB_CLK
-  0.311                        COREAHBTOAPB3_0/CAHBtoAPB3Oll/HREADYOUT:CLK (r)
-               +     0.236          cell: ADLIB:DFN1P0
-  0.547                        COREAHBTOAPB3_0/CAHBtoAPB3Oll/HREADYOUT:Q (r)
-               +     0.162          net: CoreAHBLite_0_AHBmslave6_HREADY
-  0.709                        CoreAHBLite_0/CAHBLTO1I0l/CAHBLTl1O0l/CAHBLTIO0l[0]:E (r)
+               +     0.324          net: FAB_CLK
+  0.324                        imager_0/fifo_pixel_data_0/DFN1C0_DVLDI:CLK (r)
+               +     0.236          cell: ADLIB:DFN1C0
+  0.560                        imager_0/fifo_pixel_data_0/DFN1C0_DVLDI:Q (r)
+               +     0.141          net: imager_0/fifo_pixel_data_0/DVLDI
+  0.701                        imager_0/fifo_pixel_data_0/DFN1C0_cam0_fifo_data_valid:D (r)
                                     
-  0.709                        data arrival time
+  0.701                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          mss_ccc_glb
@@ -546,9 +542,9 @@ Expanded Path 1
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   N/C                          MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
                +     0.342          net: FAB_CLK
-  N/C                          CoreAHBLite_0/CAHBLTO1I0l/CAHBLTl1O0l/CAHBLTIO0l[0]:CLK (r)
-               +     0.000          Library hold time: ADLIB:DFN1E1C0
-  N/C                          CoreAHBLite_0/CAHBLTO1I0l/CAHBLTl1O0l/CAHBLTIO0l[0]:E
+  N/C                          imager_0/fifo_pixel_data_0/DFN1C0_cam0_fifo_data_valid:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1C0
+  N/C                          imager_0/fifo_pixel_data_0/DFN1C0_cam0_fifo_data_valid:D
 
 
 END SET Register to Register
@@ -558,83 +554,83 @@ END SET Register to Register
 SET External Hold
 
 Path 1
-  From:                        psram_data[7]
-  To:                          psram_cr_0/cr_int_i0/data_out[7]:D
+  From:                        psram_data[5]
+  To:                          psram_cr_0/cr_int_i0/data_out[5]:D
   Delay (ns):                  1.180
   Slack (ns):
   Arrival (ns):                1.180
   Required (ns):
   Hold (ns):                   0.000
-  External Hold (ns):          -0.797
+  External Hold (ns):          -0.801
 
 Path 2
-  From:                        psram_data[2]
-  To:                          psram_cr_0/cr_int_i0/data_out[2]:D
-  Delay (ns):                  1.185
+  From:                        psram_data[10]
+  To:                          psram_cr_0/cr_int_i0/data_out[10]:D
+  Delay (ns):                  1.181
   Slack (ns):
-  Arrival (ns):                1.185
+  Arrival (ns):                1.181
   Required (ns):
   Hold (ns):                   0.000
-  External Hold (ns):          -0.802
+  External Hold (ns):          -0.804
 
 Path 3
-  From:                        psram_data[0]
-  To:                          psram_cr_0/cr_int_i0/data_out[0]:D
-  Delay (ns):                  1.184
+  From:                        psram_data[11]
+  To:                          psram_cr_0/cr_int_i0/data_out[11]:D
+  Delay (ns):                  1.181
   Slack (ns):
-  Arrival (ns):                1.184
+  Arrival (ns):                1.181
   Required (ns):
   Hold (ns):                   0.000
-  External Hold (ns):          -0.810
+  External Hold (ns):          -0.813
 
 Path 4
-  From:                        psram_data[4]
-  To:                          psram_cr_0/cr_int_i0/data_out[4]:D
-  Delay (ns):                  1.180
+  From:                        psram_data[9]
+  To:                          psram_cr_0/cr_int_i0/data_out[9]:D
+  Delay (ns):                  1.219
   Slack (ns):
-  Arrival (ns):                1.180
+  Arrival (ns):                1.219
   Required (ns):
   Hold (ns):                   0.000
-  External Hold (ns):          -0.814
+  External Hold (ns):          -0.834
 
 Path 5
-  From:                        psram_data[8]
-  To:                          psram_cr_0/cr_int_i0/data_out[8]:D
-  Delay (ns):                  1.192
+  From:                        psram_data[7]
+  To:                          psram_cr_0/cr_int_i0/data_out[7]:D
+  Delay (ns):                  1.518
   Slack (ns):
-  Arrival (ns):                1.192
+  Arrival (ns):                1.518
   Required (ns):
   Hold (ns):                   0.000
-  External Hold (ns):          -0.819
+  External Hold (ns):          -1.126
 
 
 Expanded Path 1
-  From: psram_data[7]
-  To: psram_cr_0/cr_int_i0/data_out[7]:D
+  From: psram_data[5]
+  To: psram_cr_0/cr_int_i0/data_out[5]:D
   data arrival time                              1.180
   data required time                         -   N/C
   slack                                          N/C
   ________________________________________________________
   Data arrival time calculation
-  0.000                        psram_data[7] (f)
-               +     0.000          net: psram_data[7]
-  0.000                        psram_data_pad[7]/U0/U0:PAD (f)
+  0.000                        psram_data[5] (f)
+               +     0.000          net: psram_data[5]
+  0.000                        psram_data_pad[5]/U0/U0:PAD (f)
                +     0.280          cell: ADLIB:IOPAD_BI
-  0.280                        psram_data_pad[7]/U0/U0:Y (f)
-               +     0.000          net: psram_data_pad[7]/U0/NET3
-  0.280                        psram_data_pad[7]/U0/U1:YIN (f)
+  0.280                        psram_data_pad[5]/U0/U0:Y (f)
+               +     0.000          net: psram_data_pad[5]/U0/NET3
+  0.280                        psram_data_pad[5]/U0/U1:YIN (f)
                +     0.016          cell: ADLIB:IOBI_IB_OB_EB
-  0.296                        psram_data_pad[7]/U0/U1:Y (f)
-               +     0.142          net: psram_data_in[7]
-  0.438                        psram_cr_0/cr_int_i0/data_out_RNO_0[7]:B (f)
+  0.296                        psram_data_pad[5]/U0/U1:Y (f)
+               +     0.142          net: psram_data_in[5]
+  0.438                        psram_cr_0/cr_int_i0/data_out_RNO_0[5]:B (f)
                +     0.255          cell: ADLIB:MX2
-  0.693                        psram_cr_0/cr_int_i0/data_out_RNO_0[7]:Y (f)
-               +     0.132          net: psram_cr_0/cr_int_i0/N_245
-  0.825                        psram_cr_0/cr_int_i0/data_out_RNO[7]:A (f)
+  0.693                        psram_cr_0/cr_int_i0/data_out_RNO_0[5]:Y (f)
+               +     0.132          net: psram_cr_0/cr_int_i0/N_243
+  0.825                        psram_cr_0/cr_int_i0/data_out_RNO[5]:A (f)
                +     0.212          cell: ADLIB:NOR2B
-  1.037                        psram_cr_0/cr_int_i0/data_out_RNO[7]:Y (f)
-               +     0.143          net: psram_cr_0/cr_int_i0/data_out_RNO_0[7]
-  1.180                        psram_cr_0/cr_int_i0/data_out[7]:D (f)
+  1.037                        psram_cr_0/cr_int_i0/data_out_RNO[5]:Y (f)
+               +     0.143          net: psram_cr_0/cr_int_i0/data_out_RNO_0[5]
+  1.180                        psram_cr_0/cr_int_i0/data_out[5]:D (f)
                                     
   1.180                        data arrival time
   ________________________________________________________
@@ -646,10 +642,10 @@ Expanded Path 1
   N/C                          MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   N/C                          MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
-               +     0.383          net: FAB_CLK
-  N/C                          psram_cr_0/cr_int_i0/data_out[7]:CLK (r)
+               +     0.379          net: FAB_CLK
+  N/C                          psram_cr_0/cr_int_i0/data_out[5]:CLK (r)
                +     0.000          Library hold time: ADLIB:DFN1
-  N/C                          psram_cr_0/cr_int_i0/data_out[7]:D
+  N/C                          psram_cr_0/cr_int_i0/data_out[5]:D
 
 
 END SET External Hold
@@ -659,55 +655,55 @@ END SET External Hold
 SET Clock to Output
 
 Path 1
-  From:                        imager_0/stonyman0/resv:CLK
-  To:                          cam0_resv
+  From:                        imager_0/stonyman0/resp:CLK
+  To:                          cam0_resp
   Delay (ns):                  1.681
   Slack (ns):
-  Arrival (ns):                2.002
+  Arrival (ns):                1.977
   Required (ns):
-  Clock to Out (ns):           2.002
+  Clock to Out (ns):           1.977
 
 Path 2
-  From:                        psram_cr_0/cr_int_i0/data_reg[4]:CLK
-  To:                          psram_data[4]
-  Delay (ns):                  1.988
+  From:                        imager_0/stonyman0/incp:CLK
+  To:                          cam0_incp
+  Delay (ns):                  1.682
   Slack (ns):
-  Arrival (ns):                2.307
+  Arrival (ns):                1.978
   Required (ns):
-  Clock to Out (ns):           2.307
+  Clock to Out (ns):           1.978
 
 Path 3
-  From:                        psram_cr_0/cr_int_i0/data_reg[5]:CLK
-  To:                          psram_data[5]
-  Delay (ns):                  2.026
-  Slack (ns):
-  Arrival (ns):                2.337
-  Required (ns):
-  Clock to Out (ns):           2.337
-
-Path 4
   From:                        heartbeat_0/pulse_out:CLK
   To:                          pulse_out
-  Delay (ns):                  2.028
+  Delay (ns):                  1.710
   Slack (ns):
-  Arrival (ns):                2.350
+  Arrival (ns):                2.032
   Required (ns):
-  Clock to Out (ns):           2.350
+  Clock to Out (ns):           2.032
+
+Path 4
+  From:                        psram_cr_0/cr_int_i0/data_reg[5]:CLK
+  To:                          psram_data[5]
+  Delay (ns):                  1.710
+  Slack (ns):
+  Arrival (ns):                2.036
+  Required (ns):
+  Clock to Out (ns):           2.036
 
 Path 5
-  From:                        psram_cr_0/cr_int_i0/data_reg[2]:CLK
-  To:                          psram_data[2]
-  Delay (ns):                  2.034
+  From:                        psram_cr_0/cr_int_i0/data_reg[6]:CLK
+  To:                          psram_data[6]
+  Delay (ns):                  1.710
   Slack (ns):
-  Arrival (ns):                2.353
+  Arrival (ns):                2.036
   Required (ns):
-  Clock to Out (ns):           2.353
+  Clock to Out (ns):           2.036
 
 
 Expanded Path 1
-  From: imager_0/stonyman0/resv:CLK
-  To: cam0_resv
-  data arrival time                              2.002
+  From: imager_0/stonyman0/resp:CLK
+  To: cam0_resp
+  data arrival time                              1.977
   data required time                         -   N/C
   slack                                          N/C
   ________________________________________________________
@@ -719,29 +715,29 @@ Expanded Path 1
   0.000                        MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   0.000                        MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
-               +     0.321          net: FAB_CLK
-  0.321                        imager_0/stonyman0/resv:CLK (r)
+               +     0.296          net: FAB_CLK
+  0.296                        imager_0/stonyman0/resp:CLK (r)
                +     0.236          cell: ADLIB:DFN1C1
-  0.557                        imager_0/stonyman0/resv:Q (r)
-               +     0.141          net: cam0_resv_c
-  0.698                        cam0_resv_pad/U0/U1:D (r)
+  0.532                        imager_0/stonyman0/resp:Q (r)
+               +     0.141          net: cam0_resp_c
+  0.673                        cam0_resp_pad/U0/U1:D (r)
                +     0.265          cell: ADLIB:IOTRI_OB_EB
-  0.963                        cam0_resv_pad/U0/U1:DOUT (r)
-               +     0.000          net: cam0_resv_pad/U0/NET1
-  0.963                        cam0_resv_pad/U0/U0:D (r)
+  0.938                        cam0_resp_pad/U0/U1:DOUT (r)
+               +     0.000          net: cam0_resp_pad/U0/NET1
+  0.938                        cam0_resp_pad/U0/U0:D (r)
                +     1.039          cell: ADLIB:IOPAD_TRI
-  2.002                        cam0_resv_pad/U0/U0:PAD (r)
-               +     0.000          net: cam0_resv
-  2.002                        cam0_resv (r)
+  1.977                        cam0_resp_pad/U0/U0:PAD (r)
+               +     0.000          net: cam0_resp
+  1.977                        cam0_resp (r)
                                     
-  2.002                        data arrival time
+  1.977                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          mss_ccc_glb
                +     0.000          Clock source
   N/C                          MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:GLB (r)
                                     
-  N/C                          cam0_resv (r)
+  N/C                          cam0_resp (r)
 
 
 END SET Clock to Output
@@ -752,59 +748,59 @@ SET Register to Asynchronous
 
 Path 1
   From:                        imager_0/img_apb/cam1_reset:CLK
-  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[31]:RESET
-  Delay (ns):                  2.156
+  To:                          imager_0/stonyman1/mask_pixel_col[2]/U1:CLR
+  Delay (ns):                  1.201
   Slack (ns):
-  Arrival (ns):                2.458
+  Arrival (ns):                1.528
   Required (ns):
-  Removal (ns):                0.186
-  Skew (ns):                   -0.107
+  Removal (ns):                0.000
+  Skew (ns):                   0.003
 
 Path 2
   From:                        imager_0/img_apb/cam1_reset:CLK
-  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[25]:RESET
-  Delay (ns):                  2.160
+  To:                          imager_0/stonyman1/reg_value_0_[5]/U1:CLR
+  Delay (ns):                  1.201
   Slack (ns):
-  Arrival (ns):                2.462
+  Arrival (ns):                1.528
   Required (ns):
-  Removal (ns):                0.186
-  Skew (ns):                   -0.107
+  Removal (ns):                0.000
+  Skew (ns):                   0.003
 
 Path 3
-  From:                        imager_0/img_apb/cam1_reset:CLK
-  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[29]:RESET
-  Delay (ns):                  2.164
+  From:                        imager_0/img_apb/cam0_reset:CLK
+  To:                          imager_0/stonyman0/incv:CLR
+  Delay (ns):                  1.242
   Slack (ns):
-  Arrival (ns):                2.466
+  Arrival (ns):                1.568
   Required (ns):
-  Removal (ns):                0.186
-  Skew (ns):                   -0.108
+  Removal (ns):                0.000
+  Skew (ns):                   -0.024
 
 Path 4
   From:                        imager_0/img_apb/cam1_reset:CLK
-  To:                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[27]:RESET
-  Delay (ns):                  2.168
+  To:                          imager_0/stonyman1/reg_value_7_[7]/U1:CLR
+  Delay (ns):                  1.317
   Slack (ns):
-  Arrival (ns):                2.470
+  Arrival (ns):                1.644
   Required (ns):
-  Removal (ns):                0.186
-  Skew (ns):                   -0.111
+  Removal (ns):                0.000
+  Skew (ns):                   0.023
 
 Path 5
   From:                        imager_0/img_apb/cam1_reset:CLK
-  To:                          imager_0/fifo_pixel_data_1/DFN1E1C0_cam0_fifo_read_data[17]:CLR
-  Delay (ns):                  2.073
+  To:                          imager_0/stonyman1/mask_pixel_col[0]/U1:CLR
+  Delay (ns):                  1.352
   Slack (ns):
-  Arrival (ns):                2.375
+  Arrival (ns):                1.679
   Required (ns):
   Removal (ns):                0.000
-  Skew (ns):                   -0.043
+  Skew (ns):                   0.003
 
 
 Expanded Path 1
   From: imager_0/img_apb/cam1_reset:CLK
-  To: imager_0/fifo_pixel_data_1/RAM4K9_QXI[31]:RESET
-  data arrival time                              2.458
+  To: imager_0/stonyman1/mask_pixel_col[2]/U1:CLR
+  data arrival time                              1.528
   data required time                         -   N/C
   slack                                          N/C
   ________________________________________________________
@@ -816,22 +812,18 @@ Expanded Path 1
   0.000                        MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   0.000                        MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
-               +     0.302          net: FAB_CLK
-  0.302                        imager_0/img_apb/cam1_reset:CLK (r)
+               +     0.327          net: FAB_CLK
+  0.327                        imager_0/img_apb/cam1_reset:CLK (r)
                +     0.304          cell: ADLIB:DFN1
-  0.606                        imager_0/img_apb/cam1_reset:Q (f)
-               +     0.681          net: imager_0/img_apb/cam1_reset
-  1.287                        imager_0/img_apb/cam1_reset_RNIRDDL:B (f)
+  0.631                        imager_0/img_apb/cam1_reset:Q (f)
+               +     0.143          net: imager_0/img_apb/cam1_reset
+  0.774                        imager_0/img_apb/cam1_reset_RNIRDDL:B (f)
                +     0.268          cell: ADLIB:OR2A
-  1.555                        imager_0/img_apb/cam1_reset_RNIRDDL:Y (f)
-               +     0.144          net: imager_0/img_apb/cam1_reset_RNIRDDL
-  1.699                        imager_0/img_apb/cam1_reset_RNIRDDL_0/U_CLKSRC:A (f)
-               +     0.378          cell: ADLIB:CLKSRC
-  2.077                        imager_0/img_apb/cam1_reset_RNIRDDL_0/U_CLKSRC:Y (f)
-               +     0.381          net: imager_0/cam1_reset_RNIRDDL_0
-  2.458                        imager_0/fifo_pixel_data_1/RAM4K9_QXI[31]:RESET (f)
+  1.042                        imager_0/img_apb/cam1_reset_RNIRDDL:Y (f)
+               +     0.486          net: imager_0/cam1_reset_RNIRDDL
+  1.528                        imager_0/stonyman1/mask_pixel_col[2]/U1:CLR (f)
                                     
-  2.458                        data arrival time
+  1.528                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          mss_ccc_glb
@@ -841,10 +833,10 @@ Expanded Path 1
   N/C                          MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   N/C                          MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
-               +     0.409          net: FAB_CLK
-  N/C                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[31]:CLKB (r)
-               +     0.186          Library removal time: ADLIB:RAM4K9
-  N/C                          imager_0/fifo_pixel_data_1/RAM4K9_QXI[31]:RESET
+               +     0.324          net: FAB_CLK
+  N/C                          imager_0/stonyman1/mask_pixel_col[2]/U1:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1C1
+  N/C                          imager_0/stonyman1/mask_pixel_col[2]/U1:CLR
 
 
 END SET Register to Asynchronous
@@ -890,17 +882,17 @@ SET Clock to Output
 Path 1
   From:                        MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
   To:                          clock
-  Delay (ns):                  5.127
+  Delay (ns):                  5.133
   Slack (ns):
-  Arrival (ns):                5.127
+  Arrival (ns):                5.133
   Required (ns):
-  Clock to Out (ns):           5.127
+  Clock to Out (ns):           5.133
 
 
 Expanded Path 1
   From: MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_MSSCCC:CLKA
   To: clock
-  data arrival time                              5.127
+  data arrival time                              5.133
   data required time                         -   N/C
   slack                                          N/C
   ________________________________________________________
@@ -916,18 +908,18 @@ Expanded Path 1
   3.496                        MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   3.496                        MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2:PIN5 (r)
-               +     0.297          net: FAB_CLK
-  3.793                        clock_pad/U0/U1:D (r)
+               +     0.303          net: FAB_CLK
+  3.799                        clock_pad/U0/U1:D (r)
                +     0.265          cell: ADLIB:IOTRI_OB_EB
-  4.058                        clock_pad/U0/U1:DOUT (r)
+  4.064                        clock_pad/U0/U1:DOUT (r)
                +     0.000          net: clock_pad/U0/NET1
-  4.058                        clock_pad/U0/U0:D (r)
+  4.064                        clock_pad/U0/U0:D (r)
                +     1.069          cell: ADLIB:IOPAD_TRI
-  5.127                        clock_pad/U0/U0:PAD (r)
+  5.133                        clock_pad/U0/U0:PAD (r)
                +     0.000          net: clock
-  5.127                        clock (r)
+  5.133                        clock (r)
                                     
-  5.127                        data arrival time
+  5.133                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          MSS_CORE3_MSS_0/MSS_CCC_0/I_XTLOSC:CLKOUT

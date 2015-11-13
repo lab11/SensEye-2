@@ -23,15 +23,15 @@
 #define STONYMAN_IOC_STATISTICS     _IO(STONYMAN_IOC_MAGIC, 5)
 #define STONYMAN_IOC_CMD_CNT        (6)
 
-// configuration defines (determined empirically)
+// configuration defines (determined empirically) based on 3.3 V camera
 #define IMG_TRACK_COUNTS 16
 #define IMG_PULSE_COUNTS 1
 #define IMG_VREF    40
 #define IMG_CONFIG  17
-#define IMG_NBIAS   55
-#define IMG_AOBIAS  55
+#define IMG_NBIAS   50
+#define IMG_AOBIAS  50
 #define IMG_VSW     0
 #define IMG_HSW     0
-#define IMG_OFFSET  510
+#define IMG_OFFSET  200
 
 #endif

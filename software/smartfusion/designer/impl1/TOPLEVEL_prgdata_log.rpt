@@ -1,22 +1,22 @@
 Microsemi Libero Software
-Version: 11.5.0.26
-Release: v11.5
+Version: 11.6.0.34
+Release: v11.6
 
 Info: The design
-      C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb
-      was last modified by software version 11.5.0.26.
+      C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb was
+      last modified by software version 11.6.0.34.
 Opened an existing Libero design
-C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb.
+C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb.
 
-The Export-map command succeeded ( 00:00:12 )
-CHECKSUM: 4A1B
+The Export-map command succeeded ( 00:00:11 )
+CHECKSUM: 29EC
 Wrote to the file:
-C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.fdb
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.fdb
 
-The Export command succeeded ( 00:00:17 )
+The Export command succeeded ( 00:00:15 )
 Design saved to file
-C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb.
+C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb.
 
-The Execute Script command succeeded ( 00:00:21 )
+The Execute Script command succeeded ( 00:00:17 )
 Design closed.
 

@@ -20,15 +20,15 @@ KEY IDE_DES_BLOCK_PUBLISH "FALSE"
 KEY IDE_DES_BA_EXPORTED "FALSE"
 KEY IDE_DES_INTERACTIVE "FALSE"
 KEY IDE_DES_ERROR_FOUND "FALSE"
-KEY IDE_DES_ADB_PATH "C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.adb"
+KEY IDE_DES_ADB_PATH "C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.adb"
 LIST SOURCE_FILES
-VALUE "C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.edn;edn"
-VALUE "C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.pdc;pdc"
-VALUE "C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\constraint\senseye_constraints.pdc;pdc"
+VALUE "C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.edn;edn"
+VALUE "C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.pdc;pdc"
+VALUE "C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\constraint\senseye_constraints.pdc;pdc"
 ENDLIST
 LIST OPTIONAL_FILES
-VALUE "C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.pdc;Used"
-VALUE "C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL_sdc.sdc;Skipped"
+VALUE "C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.pdc;Used"
+VALUE "C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL_sdc.sdc;Skipped"
 ENDLIST
 LIST VCD_FILES
 ENDLIST

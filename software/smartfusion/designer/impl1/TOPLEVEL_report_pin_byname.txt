@@ -1,8 +1,8 @@
 *****************************************************************
-Pin Report - Date: Fri Apr 10 18:35:36 2015 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Wed Nov 11 13:54:03 2015 Pinchecksum: NOT-AVAILABLE
 Product: Designer
-Release: v11.5
-Version: 11.5.0.26
+Release: v11.6
+Version: 11.6.0.34
 Design Name: TOPLEVEL
 Family: SmartFusion
 Die: A2F500M3G

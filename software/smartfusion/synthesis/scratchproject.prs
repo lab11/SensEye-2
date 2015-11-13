@@ -1,44 +1,44 @@
 #--  Synopsys, Inc.
-#--  Version I-2014.03M-SP1
-#--  Project file C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\scratchproject.prs
+#--  Version J-2015.03M-3
+#--  Project file C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/COREAHBTOAPB3/2.0.116/rtl/vlog/core_obfuscated/ahbtoapbsm.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/COREAHBTOAPB3/2.0.116/rtl/vlog/core_obfuscated/penablescheduler.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/COREAHBTOAPB3/2.0.116/rtl/vlog/core_obfuscated/apbaddrdata.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/COREAHBTOAPB3/2.0.116/rtl/vlog/core_obfuscated/coreahbtoapb3.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/hdl/heartbeat.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/hdl/adc_controller.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/hdl/stonyman_controller.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/hdl/framemask.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/hdl/fifo_pixel_data.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/hdl/imager_apb_interface.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/hdl/imager.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/mss_tshell.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_CCC_0/MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_CORE3_MSS.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/hdl/ahb.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/hdl/cr_int.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/hdl/psram_cr.v"
-add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_addrdec.v"
-add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_defaultslavesm.v"
-add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_masterstage.v"
-add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_slavearbiter.v"
-add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_slavestage.v"
-add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_initcfg_awrap.v"
-add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_initcfg.v"
-add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_matrix2x16.v"
-add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAPB3/3.0.103/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAPB3/3.0.103/rtl/vlog/core_obfuscated/coreapb3.v"
-add_file -verilog "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/TOPLEVEL/TOPLEVEL.v"
-add_file -constraint "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/mss_tshell_syn.sdc"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/COREAHBTOAPB3/2.0.116/rtl/vlog/core_obfuscated/penablescheduler.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/COREAHBTOAPB3/2.0.116/rtl/vlog/core_obfuscated/ahbtoapbsm.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/COREAHBTOAPB3/2.0.116/rtl/vlog/core_obfuscated/apbaddrdata.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/COREAHBTOAPB3/2.0.116/rtl/vlog/core_obfuscated/coreahbtoapb3.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/SmartFusionMSS/MSS/2.5.106/mss_comps.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/mss_tshell.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_CCC_0/MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_CORE3_MSS.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/heartbeat.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/adc_controller.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/fifo_pixel_data.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/framemask.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager_apb_interface.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_controller.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/ahb.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/cr_int.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/psram_cr.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_addrdec.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_defaultslavesm.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_masterstage.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_slavearbiter.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_slavestage.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_initcfg_awrap.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_initcfg.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite_matrix2x16.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAHBLite/3.1.102/rtl/vlog/core_obfuscated/coreahblite.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAPB3/3.0.103/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/Actel/DirectCore/CoreAPB3/3.0.103/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/TOPLEVEL/TOPLEVEL.v"
+add_file -constraint "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/mss_tshell_syn.sdc"
 
 
 
 #implementation: "synthesis"
-impl -add C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis -type fpga
+impl -add C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis -type fpga
 
 #
 #implementation attributes
@@ -63,7 +63,7 @@ set_option -write_vhdl 0
 set_option -srs_instrumentation 1
 
 # actel_options
-set_option -RWCheckOnRam 0
+set_option -rw_check_on_ram 0
 
 # Microsemi 500K
 set_option -run_prop_extract 1
@@ -76,7 +76,7 @@ set_option -update_models_cp 0
 set_option -preserve_registers 0
 
 # Microsemi 500K
-set_option -globalthreshold 50
+set_option -globalthreshold 5000
 
 # sequential_optimization_options
 set_option -symbolic_fsm_compiler 1
@@ -92,5 +92,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/synthesis/TOPLEVEL.edn"
+project -result_file "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/synthesis/TOPLEVEL.edn"
 impl -active "synthesis"

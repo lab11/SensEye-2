@@ -1,2 +1,2 @@
-@E:Internal Error in c_ver.exe
+@E|No component with name TOPLEVEL to synthesize
 

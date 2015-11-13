@@ -1,6 +1,6 @@
-Synopsys Microsemi Technology Mapper, Version mapact, Build 1346R, Built Oct 10 2014 11:20:09
-Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
-Product Version I-2014.03M-SP1
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1522R, Built Jun  4 2015 12:04:36
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-3
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
@@ -16,225 +16,203 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
 
-@W: MO111 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO111 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO111 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":850:0:850:3|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":850:0:850:3|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO111 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W: BN132 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\cr_int.v":170:0:170:5|Removing sequential instance psram_cr_0.cr_int_i0.ncs0,  because it is equivalent to instance psram_cr_0.cr_int_i0.nbyte_en_1[0]
+@W: BN132 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\cr_int.v":170:0:170:5|Removing sequential instance psram_cr_0.cr_int_i0.ncs0,  because it is equivalent to instance psram_cr_0.cr_int_i0.nbyte_en_1[0]
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 122MB)
 
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreapb3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":883:0:883:3|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":732:0:735:0|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":620:0:623:0|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":273:0:273:4|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":732:0:735:0|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":620:0:623:0|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":273:0:273:4|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":244:0:244:3|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":244:0:244:3|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":200:8:200:9|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":200:8:200:9|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":109:8:109:9|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":291:8:291:9|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":200:8:200:9|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":200:8:200:9|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":109:8:109:9|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO228 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":291:8:291:9|Optimizing internal tristate to a wire based on don't care (X) analysis
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[31] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[30] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[29] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[28] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[27] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[26] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[25] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[24] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[23] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[22] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[21] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[20] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1581:0:1581:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTl00I[4] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOO0I[2] is always 0, optimizing ...
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":220:0:220:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3OOl[30] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":220:0:220:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3OOl[31] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[12] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[13] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[14] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[15] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[16] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[17] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[18] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[19] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[20] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[21] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[22] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[23] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[12] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[13] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[14] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[15] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[16] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[17] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[18] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[19] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[20] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[21] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[22] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[23] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-Encoding state machine CAHBLTllOI[7:0] (view:COREAHBLITE_LIB.CAHBLTlI1_CoreAHBLite_0_CAHBLTO1I0l_CAHBLTI1O0l_CAHBLTlI0l(verilog))
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[31] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[30] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[29] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[28] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[27] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[26] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[25] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[24] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[23] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[22] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[21] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI[20] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1581:0:1581:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTl00I[4] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOO0I[2] is always 0, optimizing ...
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":220:0:220:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3OOl[30] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":220:0:220:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3OOl[31] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[12] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[13] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[14] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[15] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[16] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[17] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[18] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[19] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[20] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[21] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[22] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[23] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[12] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[13] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[14] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[15] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[16] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[17] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[18] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[19] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[20] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[21] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[22] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[23] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+Encoding state machine CAHBLTllOI[7:0] (view:COREAHBLITE_LIB.CAHBLTlI1_1(verilog))
 original code -> new code
-   000 -> 00000000
-   001 -> 00000011
-   010 -> 00000101
-   011 -> 00001001
-   100 -> 00010001
-   101 -> 00100001
-   110 -> 01000001
-   111 -> 10000001
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Register bit CAHBLTllOI[1] is always 0, optimizing ...
-Encoding state machine CAHBLTllOI[7:0] (view:COREAHBLITE_LIB.CAHBLTlI1_CoreAHBLite_0_CAHBLTO1I0l_CAHBLTl1O0l_CAHBLTlI0l(verilog))
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Register bit CAHBLTllOI[1] is always 0, optimizing ...
+Encoding state machine CAHBLTllOI[7:0] (view:COREAHBLITE_LIB.CAHBLTlI1_0(verilog))
 original code -> new code
-   000 -> 00000000
-   001 -> 00000011
-   010 -> 00000101
-   011 -> 00001001
-   100 -> 00010001
-   101 -> 00100001
-   110 -> 01000001
-   111 -> 10000001
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Register bit CAHBLTllOI[1] is always 0, optimizing ...
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Register bit CAHBLTllOI[1] is always 0, optimizing ...
 Encoding state machine CAHBtoAPB3IOI[4:0] (view:work.CAHBtoAPB3O(verilog))
 original code -> new code
-   000 -> 00000
-   001 -> 00011
-   010 -> 00101
-   011 -> 01001
-   100 -> 10001
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
 Encoding state machine CAHBtoAPB3OIl[2:0] (view:work.CAHBtoAPB3IOl(verilog))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
-@N:"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\heartbeat.v":26:4:26:9|Found counter in view:work.heartbeat(verilog) inst count[32:0]
-@N:"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":199:4:199:9|Found counter in view:work.adc_controller_adc0(verilog) inst timer[7:0]
-Encoding state machine adc_state[4:0] (view:work.adc_controller_adc0(verilog))
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\heartbeat.v":26:4:26:9|Found counter in view:work.heartbeat(verilog) inst count[32:0]
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":199:4:199:9|Found counter in view:work.adc_controller_1(verilog) inst timer[7:0]
+Encoding state machine adc_state[4:0] (view:work.adc_controller_1(verilog))
 original code -> new code
    000 -> 00000
    001 -> 00011
    010 -> 00101
    011 -> 01001
    100 -> 10001
-@N: MF184 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":108:20:108:41|Found 12 by 12 bit subtractor, 'tmp_data_0_0[11:0]'
+@N: MF184 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":108:20:108:41|Found 12 by 12 bit subtractor, 'tmp_data_0_0[11:0]'
 @N: MF176 |Default generator successful 
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:20:146:45|Found 9 bit by 9 bit '<' comparator, 'un1_timer_2'
-@N: MF239 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:30:146:44|Found 9-bit decrementor, 'un1_track_counts[8:0]'
-@N:"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Found counter in view:work.stonyman_stonyman0(verilog) inst mask_pixel_row[6:0]
-@N:"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Found counter in view:work.stonyman_stonyman0(verilog) inst mask_pixel_col[6:0]
-Encoding state machine main_state[11:0] (view:work.stonyman_stonyman0(verilog))
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:20:146:45|Found 9 bit by 9 bit '<' comparator, 'un1_timer_2'
+@N: MF239 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:30:146:44|Found 9-bit decrementor, 'un1_track_counts[8:0]'
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Found counter in view:work.stonyman_1(verilog) inst mask_pixel_row[6:0]
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Found counter in view:work.stonyman_1(verilog) inst mask_pixel_col[6:0]
+Encoding state machine main_state[11:0] (view:work.stonyman_1(verilog))
 original code -> new code
-   0000 -> 000000000000
-   0001 -> 000000000011
-   0010 -> 000000000101
-   0011 -> 000000001001
-   0100 -> 000000010001
-   0101 -> 000000100001
-   0110 -> 000001000001
-   0111 -> 000010000001
-   1000 -> 000100000001
-   1001 -> 001000000001
-   1010 -> 010000000001
-   1011 -> 100000000001
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
-@N: MF238 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":218:39:218:61|Found 8-bit incrementor, 'un44_reg_value_nxt[7:0]'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt287'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt312'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_0\.pulse_pin_state_nxt84'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_1\.pulse_pin_state_nxt121'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_2\.pulse_pin_state_nxt156'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_3\.pulse_pin_state_nxt191'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Register bit sub_state[3] is always 0, optimizing ...
-@N:"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":199:4:199:9|Found counter in view:work.adc_controller_adc1(verilog) inst timer[7:0]
-Encoding state machine adc_state[4:0] (view:work.adc_controller_adc1(verilog))
+   0000 -> 000000000001
+   0001 -> 000000000010
+   0010 -> 000000000100
+   0011 -> 000000001000
+   0100 -> 000000010000
+   0101 -> 000000100000
+   0110 -> 000001000000
+   0111 -> 000010000000
+   1000 -> 000100000000
+   1001 -> 001000000000
+   1010 -> 010000000000
+   1011 -> 100000000000
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
+@N: MF238 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":218:39:218:61|Found 8-bit incrementor, 'un44_reg_value_nxt[7:0]'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt287'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt312'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_0\.pulse_pin_state_nxt84'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_1\.pulse_pin_state_nxt121'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_2\.pulse_pin_state_nxt156'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_3\.pulse_pin_state_nxt191'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Register bit sub_state[3] is always 0, optimizing ...
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":199:4:199:9|Found counter in view:work.adc_controller_0(verilog) inst timer[7:0]
+Encoding state machine adc_state[4:0] (view:work.adc_controller_0(verilog))
 original code -> new code
    000 -> 00000
    001 -> 00011
    010 -> 00101
    011 -> 01001
    100 -> 10001
-@N: MF184 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":108:20:108:41|Found 12 by 12 bit subtractor, 'tmp_data_0_0[11:0]'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:20:146:45|Found 9 bit by 9 bit '<' comparator, 'un1_timer_2'
-@N: MF239 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:30:146:44|Found 9-bit decrementor, 'un1_track_counts[8:0]'
-@N:"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Found counter in view:work.stonyman_stonyman1(verilog) inst mask_pixel_row[6:0]
-@N:"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Found counter in view:work.stonyman_stonyman1(verilog) inst mask_pixel_col[6:0]
-Encoding state machine main_state[11:0] (view:work.stonyman_stonyman1(verilog))
+@N: MF184 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":108:20:108:41|Found 12 by 12 bit subtractor, 'tmp_data_0_0[11:0]'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:20:146:45|Found 9 bit by 9 bit '<' comparator, 'un1_timer_2'
+@N: MF239 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:30:146:44|Found 9-bit decrementor, 'un1_track_counts[8:0]'
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Found counter in view:work.stonyman_0(verilog) inst mask_pixel_row[6:0]
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Found counter in view:work.stonyman_0(verilog) inst mask_pixel_col[6:0]
+Encoding state machine main_state[11:0] (view:work.stonyman_0(verilog))
 original code -> new code
-   0000 -> 000000000000
-   0001 -> 000000000011
-   0010 -> 000000000101
-   0011 -> 000000001001
-   0100 -> 000000010001
-   0101 -> 000000100001
-   0110 -> 000001000001
-   0111 -> 000010000001
-   1000 -> 000100000001
-   1001 -> 001000000001
-   1010 -> 010000000001
-   1011 -> 100000000001
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
-@N: MF238 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":218:39:218:61|Found 8-bit incrementor, 'un44_reg_value_nxt[7:0]'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt287'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt312'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_0\.pulse_pin_state_nxt84'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_1\.pulse_pin_state_nxt121'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_2\.pulse_pin_state_nxt156'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_3\.pulse_pin_state_nxt191'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
-@N: MF179 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Register bit sub_state[3] is always 0, optimizing ...
-@N:"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\cr_int.v":116:0:116:5|Found counter in view:work.cr_int(verilog) inst ac_counter[3:0]
-@N:"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\hdl\cr_int.v":91:0:91:5|Found counter in view:work.cr_int(verilog) inst op_counter[3:0]
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1581:0:1581:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTl00I[16] is always 0, optimizing ...
-@W: MO160 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1610:0:1610:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIlIl is always 0, optimizing ...
-@W: BN132 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":646:0:646:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3Oll.PWRITE,  because it is equivalent to instance COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3IOI[2]
-@W: BN132 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v":152:0:152:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3Ill.PENABLE,  because it is equivalent to instance COREAHBTOAPB3_0.CAHBtoAPB3Ill.CAHBtoAPB3OIl[1]
+   0000 -> 000000000001
+   0001 -> 000000000010
+   0010 -> 000000000100
+   0011 -> 000000001000
+   0100 -> 000000010000
+   0101 -> 000000100000
+   0110 -> 000001000000
+   0111 -> 000010000000
+   1000 -> 000100000000
+   1001 -> 001000000000
+   1010 -> 010000000000
+   1011 -> 100000000000
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
+@N: MF238 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":218:39:218:61|Found 8-bit incrementor, 'un44_reg_value_nxt[7:0]'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt287'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt312'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_0\.pulse_pin_state_nxt84'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_1\.pulse_pin_state_nxt121'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_2\.pulse_pin_state_nxt156'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_3\.pulse_pin_state_nxt191'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Register bit sub_state[3] is always 0, optimizing ...
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\cr_int.v":116:0:116:5|Found counter in view:work.cr_int(verilog) inst ac_counter[3:0]
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\cr_int.v":91:0:91:5|Found counter in view:work.cr_int(verilog) inst op_counter[3:0]
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1581:0:1581:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTl00I[16] is always 0, optimizing ...
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1610:0:1610:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIlIl is always 0, optimizing ...
+@W: BN132 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":646:0:646:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3Oll.PWRITE,  because it is equivalent to instance COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3IOI[2]
+@W: BN132 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v":152:0:152:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3Ill.PENABLE,  because it is equivalent to instance COREAHBTOAPB3_0.CAHBtoAPB3Ill.CAHBtoAPB3OIl[1]
 
-Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 149MB peak: 151MB)
-
-
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 140MB peak: 151MB)
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 148MB peak: 153MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 143MB peak: 205MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 139MB peak: 153MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 145MB peak: 205MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 150MB peak: 211MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:00m:44s; Memory used current: 186MB peak: 205MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 152MB peak: 211MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:00m:44s; Memory used current: 185MB peak: 205MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:27s; Memory used current: 188MB peak: 211MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:44s; Memory used current: 185MB peak: 205MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:27s; Memory used current: 186MB peak: 211MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:45s; Memory used current: 181MB peak: 227MB)
+Finished preparing to map (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:27s; Memory used current: 186MB peak: 211MB)
 
-@N: FP130 |Promoting Net reset_c on CLKINT  I_366 
-@N: FP130 |Promoting Net imager_0.un1_reset on CLKINT  I_367 
-@N: FP130 |Promoting Net imager_0.un1_reset_1 on CLKINT  I_368 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:46s; Memory used current: 181MB peak: 227MB)
+Finished technology mapping (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:28s; Memory used current: 181MB peak: 229MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:29s; Memory used current: 181MB peak: 229MB)
 
 
 Added 0 Buffers
@@ -242,7 +220,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:46s; Memory used current: 182MB peak: 227MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:29s; Memory used current: 182MB peak: 229MB)
 
 
 
@@ -262,27 +240,29 @@ Clock Tree ID     Driving Element     Drive Element Type                Fanout  
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
-Writing Analyst data base C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:47s; Memory used current: 172MB peak: 227MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:29s; Memory used current: 167MB peak: 229MB)
 
-Writing Analyst data base C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_m.srm
+Writing Analyst data base C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:48s; Memory used current: 172MB peak: 227MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:30s; Memory used current: 174MB peak: 229MB)
 
 Writing EDIF Netlist and constraint files
-I-2014.03M-SP1
+J-2015.03M-3
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:49s; CPU Time elapsed 0h:00m:49s; Memory used current: 178MB peak: 227MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:30s; Memory used current: 180MB peak: 229MB)
 
-@W: MT246 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_core3_mss.v":642:7:642:18|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
-@W: MT246 :"c:\users\samuel\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":96:15:96:22|Blackbox MSS_XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
-Found clock FAB_CLK with period 25.00ns 
+
+Start final timing analysis (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 174MB peak: 229MB)
+
+@W: MT246 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_core3_mss.v":642:7:642:18|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":96:15:96:22|Blackbox MSS_XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 Found clock FCLK with period 25.00ns 
+Found clock FAB_CLK with period 25.00ns 
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Fri Apr 10 18:27:50 2015
+# Timing Report written on Wed Nov 11 13:51:16 2015
 #
 
 
@@ -293,7 +273,7 @@ Requested Frequency:    40.0 MHz
 Wire load mode:         top
 Wire load model:        smartfusion
 Paths requested:        5
-Constraint File(s):    C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell_syn.sdc
+Constraint File(s):    C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell_syn.sdc
                        
 @N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
 
@@ -305,15 +285,16 @@ Performance Summary
 *******************
 
 
-Worst slack in design: -17.077
+Worst slack in design: -17.012
 
                    Requested     Estimated     Requested     Estimated                 Clock        Clock          
 Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group          
 -------------------------------------------------------------------------------------------------------------------
-FAB_CLK            40.0 MHz      23.8 MHz      25.000        42.077        -17.077     declared     clk_group_0    
+FAB_CLK            40.0 MHz      23.8 MHz      25.000        42.012        -17.012     declared     clk_group_0    
 FCLK               40.0 MHz      NA            25.000        NA            NA          declared     clk_group_0    
 System             80.0 MHz      171.5 MHz     12.500        5.831         6.669       system       system_clkgroup
 ===================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
 
 
 
@@ -327,9 +308,9 @@ Clocks             |    rise  to  rise     |    fall  to  fall   |    rise  to  
 Starting  Ending   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 -----------------------------------------------------------------------------------------------------------
 System    System   |  12.500      6.669    |  No paths    -      |  No paths    -      |  No paths    -    
-System    FAB_CLK  |  25.000      3.950    |  No paths    -      |  No paths    -      |  No paths    -    
-FAB_CLK   System   |  25.000      14.639   |  No paths    -      |  No paths    -      |  No paths    -    
-FAB_CLK   FAB_CLK  |  25.000      -17.077  |  No paths    -      |  No paths    -      |  No paths    -    
+System    FAB_CLK  |  25.000      3.371    |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   System   |  25.000      14.625   |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  25.000      -17.012  |  No paths    -      |  No paths    -      |  No paths    -    
 ===========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -356,16 +337,16 @@ Starting Points with Worst Slack
 Instance                               Reference     Type         Pin     Net                 Time        Slack  
                                        Clock                                                                     
 -----------------------------------------------------------------------------------------------------------------
-imager_0.stonyman1.ptr_value[2]        FAB_CLK       DFN1E0C1     Q       ptr_value[2]        0.737       -17.077
-imager_0.stonyman0.ptr_value[2]        FAB_CLK       DFN1E0C1     Q       ptr_value[2]        0.737       -16.230
-imager_0.stonyman1.ptr_value[1]        FAB_CLK       DFN1E0C1     Q       ptr_value[1]        0.737       -15.565
-imager_0.stonyman1.reg_value_0_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_0_[1]     0.737       -14.934
-imager_0.stonyman1.reg_value_1_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_1_[1]     0.737       -14.927
-imager_0.stonyman1.reg_value_5_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_5_[1]     0.737       -14.807
-imager_0.stonyman0.ptr_value[1]        FAB_CLK       DFN1E0C1     Q       ptr_value[1]        0.737       -14.755
-imager_0.stonyman1.reg_value_2_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_2_[1]     0.737       -14.711
-imager_0.stonyman1.reg_value_4_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_4_[1]     0.737       -14.711
-imager_0.stonyman1.reg_value_3_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_3_[1]     0.737       -14.705
+imager_0.stonyman1.ptr_value[2]        FAB_CLK       DFN1E0C1     Q       ptr_value[2]        0.737       -17.012
+imager_0.stonyman0.ptr_value[2]        FAB_CLK       DFN1E0C1     Q       ptr_value[2]        0.737       -15.650
+imager_0.stonyman1.ptr_value[1]        FAB_CLK       DFN1E0C1     Q       ptr_value[1]        0.737       -15.512
+imager_0.stonyman1.reg_value_0_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_0_[1]     0.737       -14.869
+imager_0.stonyman1.reg_value_1_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_1_[1]     0.737       -14.862
+imager_0.stonyman1.reg_value_2_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_2_[1]     0.737       -14.647
+imager_0.stonyman1.reg_value_4_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_4_[1]     0.737       -14.647
+imager_0.stonyman1.reg_value_3_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_3_[1]     0.737       -14.640
+imager_0.stonyman1.reg_value_5_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_5_[1]     0.737       -14.640
+imager_0.stonyman1.reg_value_6_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_6_[1]     0.737       -14.640
 =================================================================================================================
 
 
@@ -376,16 +357,16 @@ Ending Points with Worst Slack
 Instance                                 Reference     Type         Pin     Net                           Time         Slack  
                                          Clock                                                                                
 ------------------------------------------------------------------------------------------------------------------------------
-imager_0.stonyman1.sub_state[0]          FAB_CLK       DFN1E0C1     D       sub_state_nxt[0]              24.461       -17.077
-imager_0.stonyman0.sub_state[0]          FAB_CLK       DFN1E0C1     D       sub_state_nxt[0]              24.461       -16.230
-imager_0.stonyman1.sub_state[1]          FAB_CLK       DFN1E0C1     D       sub_state_nxt[1]              24.461       -16.013
-imager_0.stonyman0.sub_state[1]          FAB_CLK       DFN1E0C1     D       sub_state_nxt[1]              24.461       -15.836
-imager_0.stonyman0.sub_state[0]          FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.243
-imager_0.stonyman0.sub_state[1]          FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.243
-imager_0.stonyman0.sub_state[2]          FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.243
-imager_0.stonyman0.mask_pixel_col[0]     FAB_CLK       DFN1E1C1     E       mask_pixel_cole               24.600       -15.004
-imager_0.stonyman0.mask_pixel_col[1]     FAB_CLK       DFN1E1C1     E       mask_pixel_cole               24.600       -15.004
-imager_0.stonyman0.mask_pixel_col[2]     FAB_CLK       DFN1E1C1     E       mask_pixel_cole               24.600       -15.004
+imager_0.stonyman1.sub_state[2]          FAB_CLK       DFN1E0C1     D       sub_state_nxt[2]              24.461       -17.012
+imager_0.stonyman1.sub_state[0]          FAB_CLK       DFN1E0C1     D       sub_state_nxt[0]              24.461       -16.729
+imager_0.stonyman1.sub_state[0]          FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.730
+imager_0.stonyman1.sub_state[1]          FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.730
+imager_0.stonyman1.sub_state[2]          FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.730
+imager_0.stonyman0.sub_state[0]          FAB_CLK       DFN1E0C1     D       sub_state_nxt[0]              24.461       -15.650
+imager_0.stonyman0.sub_state[1]          FAB_CLK       DFN1E0C1     D       sub_state_nxt[1]              24.461       -15.036
+imager_0.stonyman1.sub_state[1]          FAB_CLK       DFN1E0C1     D       sub_state_nxt[1]              24.461       -15.023
+imager_0.stonyman0.mask_pixel_row[0]     FAB_CLK       DFN1E1C1     E       mask_pixel_rowe               24.392       -14.640
+imager_0.stonyman0.mask_pixel_row[1]     FAB_CLK       DFN1E1C1     E       mask_pixel_rowe               24.392       -14.640
 ==============================================================================================================================
 
 
@@ -400,13 +381,13 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         24.461
 
-    - Propagation time:                      41.538
+    - Propagation time:                      41.474
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -17.077
+    = Slack (critical) :                     -17.012
 
     Number of logic level(s):                28
     Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
-    Ending point:                            imager_0.stonyman1.sub_state[0] / D
+    Ending point:                            imager_0.stonyman1.sub_state[2] / D
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
@@ -438,70 +419,70 @@ imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y 
 DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
 imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.871      -         
 imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.437      -         
-pulse_pin_state_nxt311                                           Net          -        -       1.994     -           12        
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_1[0]                NOR2A        A        In      -         16.430      -         
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_1[0]                NOR2A        Y        Out     0.516     16.947      -         
-pulse_pin_state_RNI9L0912_1[0]                                   Net          -        -       0.386     -           2         
-imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  OR2A         B        In      -         17.332      -         
-imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  OR2A         Y        Out     0.514     17.847      -         
+pulse_pin_state_nxt311                                           Net          -        -       2.082     -           14        
+imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  AO1C         B        In      -         16.519      -         
+imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  AO1C         Y        Out     0.454     16.973      -         
 un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
-imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         C        In      -         18.168      -         
-imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         Y        Out     0.655     18.823      -         
-un1_reg_value_nxt_3                                              Net          -        -       3.226     -           52        
-imager_0.stonyman1.reg_value_7__RNIUSQ9G5[2]                     MX2          S        In      -         22.049      -         
-imager_0.stonyman1.reg_value_7__RNIUSQ9G5[2]                     MX2          Y        Out     0.480     22.529      -         
-N_1014                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.reg_value_7__RNIPJSJI7[2]                     MX2          A        In      -         22.850      -         
-imager_0.stonyman1.reg_value_7__RNIPJSJI7[2]                     MX2          Y        Out     0.568     23.419      -         
-reg_value_nxt_7__56[2]                                           Net          -        -       0.386     -           2         
-imager_0.stonyman1.ptr_value_RNIC7AC5F[2]                        MX2          B        In      -         23.804      -         
-imager_0.stonyman1.ptr_value_RNIC7AC5F[2]                        MX2          Y        Out     0.586     24.390      -         
-N_1120                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIG6B0301[1]                       MX2          B        In      -         24.712      -         
-imager_0.stonyman1.ptr_value_RNIG6B0301[1]                       MX2          Y        Out     0.586     25.297      -         
-N_1128                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNILUKO802[0]                       MX2          B        In      -         25.619      -         
-imager_0.stonyman1.ptr_value_RNILUKO802[0]                       MX2          Y        Out     0.586     26.204      -         
-un1_reg_value_nxt_0__0[2]                                        Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIJITR802[2]                  XOR2         A        In      -         26.526      -         
-imager_0.stonyman1.mask_pixel_col_RNIJITR802[2]                  XOR2         Y        Out     0.408     26.934      -         
-un1_mask_pixel_col_2                                             Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIPDFGV1[3]                   XO1          C        In      -         27.256      -         
-imager_0.stonyman1.mask_pixel_col_RNIPDFGV1[3]                   XO1          Y        Out     0.490     27.746      -         
-un1_mask_pixel_col_NE_2                                          Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIMDVH5Q3[0]                  OR3          C        In      -         28.067      -         
-imager_0.stonyman1.mask_pixel_col_RNIMDVH5Q3[0]                  OR3          Y        Out     0.751     28.818      -         
-un1_mask_pixel_col_NE_5                                          Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIOCR5A6[4]                   OR3          C        In      -         29.140      -         
-imager_0.stonyman1.mask_pixel_col_RNIOCR5A6[4]                   OR3          Y        Out     0.751     29.891      -         
-state_nxt14                                                      Net          -        -       2.172     -           16        
-imager_0.stonyman1.main_state_RNI9UOJV71[11]                     MX2C         B        In      -         32.063      -         
-imager_0.stonyman1.main_state_RNI9UOJV71[11]                     MX2C         Y        Out     0.572     32.635      -         
-main_state_nxt_1_sn_N_6_mux                                      Net          -        -       1.526     -           7         
-imager_0.stonyman1.main_state_RNIP9OF65[11]                      MX2B         S        In      -         34.161      -         
-imager_0.stonyman1.main_state_RNIP9OF65[11]                      MX2B         Y        Out     0.480     34.641      -         
-main_state_nxt_1[3]                                              Net          -        -       0.386     -           2         
-imager_0.stonyman1.main_state_RNI9URM75[11]                      XOR2         B        In      -         35.026      -         
-imager_0.stonyman1.main_state_RNI9URM75[11]                      XOR2         Y        Out     0.937     35.963      -         
-N_1713                                                           Net          -        -       1.279     -           5         
-imager_0.stonyman1.sub_state_RNO_16[0]                           NOR3B        A        In      -         37.242      -         
-imager_0.stonyman1.sub_state_RNO_16[0]                           NOR3B        Y        Out     0.666     37.908      -         
-sub_state_RNO_16[0]                                              Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_10[0]                           NOR3A        C        In      -         38.229      -         
-imager_0.stonyman1.sub_state_RNO_10[0]                           NOR3A        Y        Out     0.641     38.871      -         
-sub_m6_2_6                                                       Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_6[0]                            OA1A         C        In      -         39.192      -         
-imager_0.stonyman1.sub_state_RNO_6[0]                            OA1A         Y        Out     0.405     39.597      -         
-sub_m6_2_7                                                       Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_1[0]                            AOI1B        C        In      -         39.919      -         
-imager_0.stonyman1.sub_state_RNO_1[0]                            AOI1B        Y        Out     0.405     40.323      -         
-N_1184                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO[0]                              MX2C         B        In      -         40.645      -         
-imager_0.stonyman1.sub_state_RNO[0]                              MX2C         Y        Out     0.572     41.217      -         
-sub_state_nxt[0]                                                 Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state[0]                                  DFN1E0C1     D        In      -         41.538      -         
+imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         C        In      -         17.294      -         
+imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         Y        Out     0.655     17.949      -         
+un1_reg_value_nxt_3                                              Net          -        -       3.201     -           50        
+imager_0.stonyman1.reg_value_7__RNIQTVAC5[1]                     MX2          S        In      -         21.151      -         
+imager_0.stonyman1.reg_value_7__RNIQTVAC5[1]                     MX2          Y        Out     0.480     21.630      -         
+N_1013                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.reg_value_7__RNIKJ1LE7[1]                     MX2          A        In      -         21.952      -         
+imager_0.stonyman1.reg_value_7__RNIKJ1LE7[1]                     MX2          Y        Out     0.568     22.520      -         
+reg_value_nxt_7__56[1]                                           Net          -        -       0.386     -           2         
+imager_0.stonyman1.ptr_value_RNI27KETE[2]                        MX2          B        In      -         22.906      -         
+imager_0.stonyman1.ptr_value_RNI27KETE[2]                        MX2          Y        Out     0.586     23.492      -         
+N_1119                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIFOE0BV[1]                        MX2          B        In      -         23.813      -         
+imager_0.stonyman1.ptr_value_RNIFOE0BV[1]                        MX2          Y        Out     0.586     24.399      -         
+N_1127                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIJ2SOOU1[0]                       MX2          B        In      -         24.720      -         
+imager_0.stonyman1.ptr_value_RNIJ2SOOU1[0]                       MX2          Y        Out     0.586     25.306      -         
+un1_reg_value_nxt_0__0[1]                                        Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNIGL4SOU1[1]                  XOR2         A        In      -         25.628      -         
+imager_0.stonyman1.mask_pixel_col_RNIGL4SOU1[1]                  XOR2         Y        Out     0.408     26.036      -         
+un1_mask_pixel_col_1                                             Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNIN7DA1V3[2]                  XO1          C        In      -         26.358      -         
+imager_0.stonyman1.mask_pixel_col_RNIN7DA1V3[2]                  XO1          Y        Out     0.490     26.848      -         
+un1_mask_pixel_col_NE_5_0                                        Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNI6CHMMQ3[0]                  OR2          B        In      -         27.169      -         
+imager_0.stonyman1.mask_pixel_col_RNI6CHMMQ3[0]                  OR2          Y        Out     0.646     27.816      -         
+un1_mask_pixel_col_NE_5                                          Net          -        -       1.423     -           6         
+imager_0.stonyman1.mask_pixel_col_RNI1PVFVG[4]                   OR2          A        In      -         29.239      -         
+imager_0.stonyman1.mask_pixel_col_RNI1PVFVG[4]                   OR2          Y        Out     0.507     29.746      -         
+state_nxt14                                                      Net          -        -       1.776     -           11        
+imager_0.stonyman1.pulse_pin_state_RNII16N0H[0]                  XNOR2        B        In      -         31.523      -         
+imager_0.stonyman1.pulse_pin_state_RNII16N0H[0]                  XNOR2        Y        Out     0.937     32.459      -         
+pulse_pin_state_RNII16N0H[0]                                     Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNIATULTI1[0]                 MX2C         B        In      -         32.781      -         
+imager_0.stonyman1.pulse_pin_state_RNIATULTI1[0]                 MX2C         Y        Out     0.586     33.367      -         
+N_1170                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNI1474E1[0]                  MX2B         A        In      -         33.688      -         
+imager_0.stonyman1.pulse_pin_state_RNI1474E1[0]                  MX2B         Y        Out     0.579     34.267      -         
+main_state_nxt_1[1]                                              Net          -        -       0.322     -           1         
+imager_0.stonyman1.main_state_RNI0TQMF1[6]                       XOR2         B        In      -         34.588      -         
+imager_0.stonyman1.main_state_RNI0TQMF1[6]                       XOR2         Y        Out     0.937     35.525      -         
+N_1711                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.main_state_RNICJHIHB[1]                       XAI1         C        In      -         35.846      -         
+imager_0.stonyman1.main_state_RNICJHIHB[1]                       XAI1         Y        Out     0.525     36.371      -         
+un1_main_state_nxt_1_NE_1                                        Net          -        -       1.279     -           5         
+imager_0.stonyman1.main_state_RNI4EM8B82[1]                      OR2          A        In      -         37.650      -         
+imager_0.stonyman1.main_state_RNI4EM8B82[1]                      OR2          Y        Out     0.507     38.158      -         
+un1_main_state_nxt_1_NE                                          Net          -        -       0.806     -           3         
+imager_0.stonyman1.sub_state_RNO_1[2]                            NOR3B        C        In      -         38.964      -         
+imager_0.stonyman1.sub_state_RNO_1[2]                            NOR3B        Y        Out     0.488     39.453      -         
+sub_state_nxt_9_sqmuxa                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state_RNO_0[2]                            MX2          A        In      -         39.774      -         
+imager_0.stonyman1.sub_state_RNO_0[2]                            MX2          Y        Out     0.568     40.342      -         
+N_1193                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state_RNO[2]                              NOR2B        A        In      -         40.664      -         
+imager_0.stonyman1.sub_state_RNO[2]                              NOR2B        Y        Out     0.488     41.152      -         
+sub_state_nxt[2]                                                 Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state[2]                                  DFN1E0C1     D        In      -         41.474      -         
 ===============================================================================================================================
-Total path delay (propagation time + setup) of 42.077 is 18.128(43.1%) logic and 23.949(56.9%) route.
+Total path delay (propagation time + setup) of 42.012 is 18.142(43.2%) logic and 23.871(56.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -511,124 +492,13 @@ Path information for path number 2:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         24.461
 
-    - Propagation time:                      41.531
+    - Propagation time:                      41.467
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.070
+    = Slack (non-critical) :                 -17.005
 
     Number of logic level(s):                28
     Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
-    Ending point:                            imager_0.stonyman1.sub_state[0] / D
-    The start point is clocked by            FAB_CLK [rising] on pin CLK
-    The end   point is clocked by            FAB_CLK [rising] on pin CLK
-
-Instance / Net                                                                Pin      Pin               Arrival     No. of    
-Name                                                             Type         Name     Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------------------------------
-imager_0.stonyman1.ptr_value[2]                                  DFN1E0C1     Q        Out     0.737     0.737       -         
-ptr_value[2]                                                     Net          -        -       3.964     -           115       
-imager_0.stonyman1.reg_value_5__RNI2MCE_0[1]                     MX2          S        In      -         4.701       -         
-imager_0.stonyman1.reg_value_5__RNI2MCE_0[1]                     MX2          Y        Out     0.396     5.098       -         
-N_1264                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIDBCK1[1]                         MX2          A        In      -         5.419       -         
-imager_0.stonyman1.ptr_value_RNIDBCK1[1]                         MX2          Y        Out     0.579     5.998       -         
-N_1280                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIQKQU3[0]                         MX2          B        In      -         6.319       -         
-imager_0.stonyman1.ptr_value_RNIQKQU3[0]                         MX2          Y        Out     0.572     6.891       -         
-un45_reg_value_nxt[1]                                            Net          -        -       2.522     -           26        
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         B        In      -         9.413       -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         Y        Out     0.646     10.059      -         
-N_2_9                                                            Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         C        In      -         10.381      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         Y        Out     0.633     11.013      -         
-N_8_8                                                            Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         B        In      -         11.335      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         Y        Out     0.902     12.237      -         
-N_11_8                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          A        In      -         12.558      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y        Out     0.984     13.542      -         
-DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.864      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.430      -         
-pulse_pin_state_nxt311                                           Net          -        -       1.994     -           12        
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_1[0]                NOR2A        A        In      -         16.424      -         
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_1[0]                NOR2A        Y        Out     0.516     16.940      -         
-pulse_pin_state_RNI9L0912_1[0]                                   Net          -        -       0.386     -           2         
-imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  OR2A         B        In      -         17.326      -         
-imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  OR2A         Y        Out     0.514     17.840      -         
-un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
-imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         C        In      -         18.161      -         
-imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         Y        Out     0.655     18.817      -         
-un1_reg_value_nxt_3                                              Net          -        -       3.226     -           52        
-imager_0.stonyman1.reg_value_7__RNIUSQ9G5[2]                     MX2          S        In      -         22.042      -         
-imager_0.stonyman1.reg_value_7__RNIUSQ9G5[2]                     MX2          Y        Out     0.480     22.522      -         
-N_1014                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.reg_value_7__RNIPJSJI7[2]                     MX2          A        In      -         22.843      -         
-imager_0.stonyman1.reg_value_7__RNIPJSJI7[2]                     MX2          Y        Out     0.568     23.412      -         
-reg_value_nxt_7__56[2]                                           Net          -        -       0.386     -           2         
-imager_0.stonyman1.ptr_value_RNIC7AC5F[2]                        MX2          B        In      -         23.797      -         
-imager_0.stonyman1.ptr_value_RNIC7AC5F[2]                        MX2          Y        Out     0.586     24.383      -         
-N_1120                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIG6B0301[1]                       MX2          B        In      -         24.705      -         
-imager_0.stonyman1.ptr_value_RNIG6B0301[1]                       MX2          Y        Out     0.586     25.290      -         
-N_1128                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNILUKO802[0]                       MX2          B        In      -         25.612      -         
-imager_0.stonyman1.ptr_value_RNILUKO802[0]                       MX2          Y        Out     0.586     26.198      -         
-un1_reg_value_nxt_0__0[2]                                        Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIJITR802[2]                  XOR2         A        In      -         26.519      -         
-imager_0.stonyman1.mask_pixel_col_RNIJITR802[2]                  XOR2         Y        Out     0.408     26.927      -         
-un1_mask_pixel_col_2                                             Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIPDFGV1[3]                   XO1          C        In      -         27.249      -         
-imager_0.stonyman1.mask_pixel_col_RNIPDFGV1[3]                   XO1          Y        Out     0.490     27.739      -         
-un1_mask_pixel_col_NE_2                                          Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIMDVH5Q3[0]                  OR3          C        In      -         28.061      -         
-imager_0.stonyman1.mask_pixel_col_RNIMDVH5Q3[0]                  OR3          Y        Out     0.751     28.811      -         
-un1_mask_pixel_col_NE_5                                          Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIOCR5A6[4]                   OR3          C        In      -         29.133      -         
-imager_0.stonyman1.mask_pixel_col_RNIOCR5A6[4]                   OR3          Y        Out     0.751     29.884      -         
-state_nxt14                                                      Net          -        -       2.172     -           16        
-imager_0.stonyman1.main_state_RNI9UOJV71[11]                     MX2C         B        In      -         32.056      -         
-imager_0.stonyman1.main_state_RNI9UOJV71[11]                     MX2C         Y        Out     0.572     32.628      -         
-main_state_nxt_1_sn_N_6_mux                                      Net          -        -       1.526     -           7         
-imager_0.stonyman1.main_state_RNIP9OF65[11]                      MX2B         S        In      -         34.154      -         
-imager_0.stonyman1.main_state_RNIP9OF65[11]                      MX2B         Y        Out     0.480     34.634      -         
-main_state_nxt_1[3]                                              Net          -        -       0.386     -           2         
-imager_0.stonyman1.main_state_RNI9URM75[11]                      XOR2         B        In      -         35.019      -         
-imager_0.stonyman1.main_state_RNI9URM75[11]                      XOR2         Y        Out     0.937     35.956      -         
-N_1713                                                           Net          -        -       1.279     -           5         
-imager_0.stonyman1.sub_state_RNO_16[0]                           NOR3B        A        In      -         37.235      -         
-imager_0.stonyman1.sub_state_RNO_16[0]                           NOR3B        Y        Out     0.666     37.901      -         
-sub_state_RNO_16[0]                                              Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_10[0]                           NOR3A        C        In      -         38.222      -         
-imager_0.stonyman1.sub_state_RNO_10[0]                           NOR3A        Y        Out     0.641     38.864      -         
-sub_m6_2_6                                                       Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_6[0]                            OA1A         C        In      -         39.185      -         
-imager_0.stonyman1.sub_state_RNO_6[0]                            OA1A         Y        Out     0.405     39.590      -         
-sub_m6_2_7                                                       Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_1[0]                            AOI1B        C        In      -         39.912      -         
-imager_0.stonyman1.sub_state_RNO_1[0]                            AOI1B        Y        Out     0.405     40.316      -         
-N_1184                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO[0]                              MX2C         B        In      -         40.638      -         
-imager_0.stonyman1.sub_state_RNO[0]                              MX2C         Y        Out     0.572     41.210      -         
-sub_state_nxt[0]                                                 Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state[0]                                  DFN1E0C1     D        In      -         41.531      -         
-===============================================================================================================================
-Total path delay (propagation time + setup) of 42.070 is 18.121(43.1%) logic and 23.949(56.9%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 3: 
-      Requested Period:                      25.000
-    - Setup time:                            0.539
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         24.461
-
-    - Propagation time:                      41.531
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.070
-
-    Number of logic level(s):                28
-    Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
-    Ending point:                            imager_0.stonyman1.sub_state[0] / D
+    Ending point:                            imager_0.stonyman1.sub_state[2] / D
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
@@ -660,70 +530,181 @@ imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y 
 DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
 imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.864      -         
 imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.430      -         
-pulse_pin_state_nxt311                                           Net          -        -       1.994     -           12        
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_1[0]                NOR2A        A        In      -         16.424      -         
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_1[0]                NOR2A        Y        Out     0.516     16.940      -         
-pulse_pin_state_RNI9L0912_1[0]                                   Net          -        -       0.386     -           2         
-imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  OR2A         B        In      -         17.326      -         
-imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  OR2A         Y        Out     0.514     17.840      -         
+pulse_pin_state_nxt311                                           Net          -        -       2.082     -           14        
+imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  AO1C         B        In      -         16.512      -         
+imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  AO1C         Y        Out     0.454     16.966      -         
 un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
-imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         C        In      -         18.161      -         
-imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         Y        Out     0.655     18.817      -         
-un1_reg_value_nxt_3                                              Net          -        -       3.226     -           52        
-imager_0.stonyman1.reg_value_7__RNIUSQ9G5[2]                     MX2          S        In      -         22.042      -         
-imager_0.stonyman1.reg_value_7__RNIUSQ9G5[2]                     MX2          Y        Out     0.480     22.522      -         
-N_1014                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.reg_value_7__RNIPJSJI7[2]                     MX2          A        In      -         22.843      -         
-imager_0.stonyman1.reg_value_7__RNIPJSJI7[2]                     MX2          Y        Out     0.568     23.412      -         
-reg_value_nxt_7__56[2]                                           Net          -        -       0.386     -           2         
-imager_0.stonyman1.ptr_value_RNIC7AC5F[2]                        MX2          B        In      -         23.797      -         
-imager_0.stonyman1.ptr_value_RNIC7AC5F[2]                        MX2          Y        Out     0.586     24.383      -         
-N_1120                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIG6B0301[1]                       MX2          B        In      -         24.705      -         
-imager_0.stonyman1.ptr_value_RNIG6B0301[1]                       MX2          Y        Out     0.586     25.290      -         
-N_1128                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNILUKO802[0]                       MX2          B        In      -         25.612      -         
-imager_0.stonyman1.ptr_value_RNILUKO802[0]                       MX2          Y        Out     0.586     26.198      -         
-un1_reg_value_nxt_0__0[2]                                        Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIJITR802[2]                  XOR2         A        In      -         26.519      -         
-imager_0.stonyman1.mask_pixel_col_RNIJITR802[2]                  XOR2         Y        Out     0.408     26.927      -         
-un1_mask_pixel_col_2                                             Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIPDFGV1[3]                   XO1          C        In      -         27.249      -         
-imager_0.stonyman1.mask_pixel_col_RNIPDFGV1[3]                   XO1          Y        Out     0.490     27.739      -         
-un1_mask_pixel_col_NE_2                                          Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIMDVH5Q3[0]                  OR3          C        In      -         28.061      -         
-imager_0.stonyman1.mask_pixel_col_RNIMDVH5Q3[0]                  OR3          Y        Out     0.751     28.811      -         
-un1_mask_pixel_col_NE_5                                          Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIOCR5A6[4]                   OR3          C        In      -         29.133      -         
-imager_0.stonyman1.mask_pixel_col_RNIOCR5A6[4]                   OR3          Y        Out     0.751     29.884      -         
-state_nxt14                                                      Net          -        -       2.172     -           16        
-imager_0.stonyman1.main_state_RNI9UOJV71[11]                     MX2C         B        In      -         32.056      -         
-imager_0.stonyman1.main_state_RNI9UOJV71[11]                     MX2C         Y        Out     0.572     32.628      -         
-main_state_nxt_1_sn_N_6_mux                                      Net          -        -       1.526     -           7         
-imager_0.stonyman1.main_state_RNIP9OF65[11]                      MX2B         S        In      -         34.154      -         
-imager_0.stonyman1.main_state_RNIP9OF65[11]                      MX2B         Y        Out     0.480     34.634      -         
-main_state_nxt_1[3]                                              Net          -        -       0.386     -           2         
-imager_0.stonyman1.main_state_RNI9URM75[11]                      XOR2         B        In      -         35.019      -         
-imager_0.stonyman1.main_state_RNI9URM75[11]                      XOR2         Y        Out     0.937     35.956      -         
-N_1713                                                           Net          -        -       1.279     -           5         
-imager_0.stonyman1.sub_state_RNO_16[0]                           NOR3B        A        In      -         37.235      -         
-imager_0.stonyman1.sub_state_RNO_16[0]                           NOR3B        Y        Out     0.666     37.901      -         
-sub_state_RNO_16[0]                                              Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_10[0]                           NOR3A        C        In      -         38.222      -         
-imager_0.stonyman1.sub_state_RNO_10[0]                           NOR3A        Y        Out     0.641     38.864      -         
-sub_m6_2_6                                                       Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_6[0]                            OA1A         C        In      -         39.185      -         
-imager_0.stonyman1.sub_state_RNO_6[0]                            OA1A         Y        Out     0.405     39.590      -         
-sub_m6_2_7                                                       Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_1[0]                            AOI1B        C        In      -         39.912      -         
-imager_0.stonyman1.sub_state_RNO_1[0]                            AOI1B        Y        Out     0.405     40.316      -         
-N_1184                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO[0]                              MX2C         B        In      -         40.638      -         
-imager_0.stonyman1.sub_state_RNO[0]                              MX2C         Y        Out     0.572     41.210      -         
-sub_state_nxt[0]                                                 Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state[0]                                  DFN1E0C1     D        In      -         41.531      -         
+imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         C        In      -         17.287      -         
+imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         Y        Out     0.655     17.942      -         
+un1_reg_value_nxt_3                                              Net          -        -       3.201     -           50        
+imager_0.stonyman1.reg_value_7__RNIQTVAC5[1]                     MX2          S        In      -         21.144      -         
+imager_0.stonyman1.reg_value_7__RNIQTVAC5[1]                     MX2          Y        Out     0.480     21.624      -         
+N_1013                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.reg_value_7__RNIKJ1LE7[1]                     MX2          A        In      -         21.945      -         
+imager_0.stonyman1.reg_value_7__RNIKJ1LE7[1]                     MX2          Y        Out     0.568     22.513      -         
+reg_value_nxt_7__56[1]                                           Net          -        -       0.386     -           2         
+imager_0.stonyman1.ptr_value_RNI27KETE[2]                        MX2          B        In      -         22.899      -         
+imager_0.stonyman1.ptr_value_RNI27KETE[2]                        MX2          Y        Out     0.586     23.485      -         
+N_1119                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIFOE0BV[1]                        MX2          B        In      -         23.806      -         
+imager_0.stonyman1.ptr_value_RNIFOE0BV[1]                        MX2          Y        Out     0.586     24.392      -         
+N_1127                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIJ2SOOU1[0]                       MX2          B        In      -         24.714      -         
+imager_0.stonyman1.ptr_value_RNIJ2SOOU1[0]                       MX2          Y        Out     0.586     25.299      -         
+un1_reg_value_nxt_0__0[1]                                        Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNIGL4SOU1[1]                  XOR2         A        In      -         25.621      -         
+imager_0.stonyman1.mask_pixel_col_RNIGL4SOU1[1]                  XOR2         Y        Out     0.408     26.029      -         
+un1_mask_pixel_col_1                                             Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNIN7DA1V3[2]                  XO1          C        In      -         26.351      -         
+imager_0.stonyman1.mask_pixel_col_RNIN7DA1V3[2]                  XO1          Y        Out     0.490     26.841      -         
+un1_mask_pixel_col_NE_5_0                                        Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNI6CHMMQ3[0]                  OR2          B        In      -         27.162      -         
+imager_0.stonyman1.mask_pixel_col_RNI6CHMMQ3[0]                  OR2          Y        Out     0.646     27.809      -         
+un1_mask_pixel_col_NE_5                                          Net          -        -       1.423     -           6         
+imager_0.stonyman1.mask_pixel_col_RNI1PVFVG[4]                   OR2          A        In      -         29.232      -         
+imager_0.stonyman1.mask_pixel_col_RNI1PVFVG[4]                   OR2          Y        Out     0.507     29.740      -         
+state_nxt14                                                      Net          -        -       1.776     -           11        
+imager_0.stonyman1.pulse_pin_state_RNII16N0H[0]                  XNOR2        B        In      -         31.516      -         
+imager_0.stonyman1.pulse_pin_state_RNII16N0H[0]                  XNOR2        Y        Out     0.937     32.452      -         
+pulse_pin_state_RNII16N0H[0]                                     Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNIATULTI1[0]                 MX2C         B        In      -         32.774      -         
+imager_0.stonyman1.pulse_pin_state_RNIATULTI1[0]                 MX2C         Y        Out     0.586     33.360      -         
+N_1170                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNI1474E1[0]                  MX2B         A        In      -         33.681      -         
+imager_0.stonyman1.pulse_pin_state_RNI1474E1[0]                  MX2B         Y        Out     0.579     34.260      -         
+main_state_nxt_1[1]                                              Net          -        -       0.322     -           1         
+imager_0.stonyman1.main_state_RNI0TQMF1[6]                       XOR2         B        In      -         34.581      -         
+imager_0.stonyman1.main_state_RNI0TQMF1[6]                       XOR2         Y        Out     0.937     35.518      -         
+N_1711                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.main_state_RNICJHIHB[1]                       XAI1         C        In      -         35.840      -         
+imager_0.stonyman1.main_state_RNICJHIHB[1]                       XAI1         Y        Out     0.525     36.364      -         
+un1_main_state_nxt_1_NE_1                                        Net          -        -       1.279     -           5         
+imager_0.stonyman1.main_state_RNI4EM8B82[1]                      OR2          A        In      -         37.644      -         
+imager_0.stonyman1.main_state_RNI4EM8B82[1]                      OR2          Y        Out     0.507     38.151      -         
+un1_main_state_nxt_1_NE                                          Net          -        -       0.806     -           3         
+imager_0.stonyman1.sub_state_RNO_1[2]                            NOR3B        C        In      -         38.957      -         
+imager_0.stonyman1.sub_state_RNO_1[2]                            NOR3B        Y        Out     0.488     39.446      -         
+sub_state_nxt_9_sqmuxa                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state_RNO_0[2]                            MX2          A        In      -         39.767      -         
+imager_0.stonyman1.sub_state_RNO_0[2]                            MX2          Y        Out     0.568     40.335      -         
+N_1193                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state_RNO[2]                              NOR2B        A        In      -         40.657      -         
+imager_0.stonyman1.sub_state_RNO[2]                              NOR2B        Y        Out     0.488     41.145      -         
+sub_state_nxt[2]                                                 Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state[2]                                  DFN1E0C1     D        In      -         41.467      -         
 ===============================================================================================================================
-Total path delay (propagation time + setup) of 42.070 is 18.121(43.1%) logic and 23.949(56.9%) route.
+Total path delay (propagation time + setup) of 42.005 is 18.135(43.2%) logic and 23.871(56.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      25.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         24.461
+
+    - Propagation time:                      41.467
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -17.005
+
+    Number of logic level(s):                28
+    Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
+    Ending point:                            imager_0.stonyman1.sub_state[2] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                Pin      Pin               Arrival     No. of    
+Name                                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+imager_0.stonyman1.ptr_value[2]                                  DFN1E0C1     Q        Out     0.737     0.737       -         
+ptr_value[2]                                                     Net          -        -       3.964     -           115       
+imager_0.stonyman1.reg_value_5__RNI2MCE[1]                       MX2          S        In      -         4.701       -         
+imager_0.stonyman1.reg_value_5__RNI2MCE[1]                       MX2          Y        Out     0.396     5.098       -         
+N_1264                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIDBCK1[1]                         MX2          A        In      -         5.419       -         
+imager_0.stonyman1.ptr_value_RNIDBCK1[1]                         MX2          Y        Out     0.579     5.998       -         
+N_1280                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIQKQU3[0]                         MX2          B        In      -         6.319       -         
+imager_0.stonyman1.ptr_value_RNIQKQU3[0]                         MX2          Y        Out     0.572     6.891       -         
+un45_reg_value_nxt[1]                                            Net          -        -       2.522     -           26        
+imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         B        In      -         9.413       -         
+imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         Y        Out     0.646     10.059      -         
+N_2_9                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         C        In      -         10.381      -         
+imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         Y        Out     0.633     11.013      -         
+N_8_8                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         B        In      -         11.335      -         
+imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         Y        Out     0.902     12.237      -         
+N_11_8                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          A        In      -         12.558      -         
+imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y        Out     0.984     13.542      -         
+DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
+imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.864      -         
+imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.430      -         
+pulse_pin_state_nxt311                                           Net          -        -       2.082     -           14        
+imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  AO1C         B        In      -         16.512      -         
+imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  AO1C         Y        Out     0.454     16.966      -         
+un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         C        In      -         17.287      -         
+imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         Y        Out     0.655     17.942      -         
+un1_reg_value_nxt_3                                              Net          -        -       3.201     -           50        
+imager_0.stonyman1.reg_value_7__RNIQTVAC5[1]                     MX2          S        In      -         21.144      -         
+imager_0.stonyman1.reg_value_7__RNIQTVAC5[1]                     MX2          Y        Out     0.480     21.624      -         
+N_1013                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.reg_value_7__RNIKJ1LE7[1]                     MX2          A        In      -         21.945      -         
+imager_0.stonyman1.reg_value_7__RNIKJ1LE7[1]                     MX2          Y        Out     0.568     22.513      -         
+reg_value_nxt_7__56[1]                                           Net          -        -       0.386     -           2         
+imager_0.stonyman1.ptr_value_RNI27KETE[2]                        MX2          B        In      -         22.899      -         
+imager_0.stonyman1.ptr_value_RNI27KETE[2]                        MX2          Y        Out     0.586     23.485      -         
+N_1119                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIFOE0BV[1]                        MX2          B        In      -         23.806      -         
+imager_0.stonyman1.ptr_value_RNIFOE0BV[1]                        MX2          Y        Out     0.586     24.392      -         
+N_1127                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIJ2SOOU1[0]                       MX2          B        In      -         24.714      -         
+imager_0.stonyman1.ptr_value_RNIJ2SOOU1[0]                       MX2          Y        Out     0.586     25.299      -         
+un1_reg_value_nxt_0__0[1]                                        Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNIGL4SOU1[1]                  XOR2         A        In      -         25.621      -         
+imager_0.stonyman1.mask_pixel_col_RNIGL4SOU1[1]                  XOR2         Y        Out     0.408     26.029      -         
+un1_mask_pixel_col_1                                             Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNIN7DA1V3[2]                  XO1          C        In      -         26.351      -         
+imager_0.stonyman1.mask_pixel_col_RNIN7DA1V3[2]                  XO1          Y        Out     0.490     26.841      -         
+un1_mask_pixel_col_NE_5_0                                        Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNI6CHMMQ3[0]                  OR2          B        In      -         27.162      -         
+imager_0.stonyman1.mask_pixel_col_RNI6CHMMQ3[0]                  OR2          Y        Out     0.646     27.809      -         
+un1_mask_pixel_col_NE_5                                          Net          -        -       1.423     -           6         
+imager_0.stonyman1.mask_pixel_col_RNI1PVFVG[4]                   OR2          A        In      -         29.232      -         
+imager_0.stonyman1.mask_pixel_col_RNI1PVFVG[4]                   OR2          Y        Out     0.507     29.740      -         
+state_nxt14                                                      Net          -        -       1.776     -           11        
+imager_0.stonyman1.pulse_pin_state_RNII16N0H[0]                  XNOR2        B        In      -         31.516      -         
+imager_0.stonyman1.pulse_pin_state_RNII16N0H[0]                  XNOR2        Y        Out     0.937     32.452      -         
+pulse_pin_state_RNII16N0H[0]                                     Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNIATULTI1[0]                 MX2C         B        In      -         32.774      -         
+imager_0.stonyman1.pulse_pin_state_RNIATULTI1[0]                 MX2C         Y        Out     0.586     33.360      -         
+N_1170                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNI1474E1[0]                  MX2B         A        In      -         33.681      -         
+imager_0.stonyman1.pulse_pin_state_RNI1474E1[0]                  MX2B         Y        Out     0.579     34.260      -         
+main_state_nxt_1[1]                                              Net          -        -       0.322     -           1         
+imager_0.stonyman1.main_state_RNI0TQMF1[6]                       XOR2         B        In      -         34.581      -         
+imager_0.stonyman1.main_state_RNI0TQMF1[6]                       XOR2         Y        Out     0.937     35.518      -         
+N_1711                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.main_state_RNICJHIHB[1]                       XAI1         C        In      -         35.840      -         
+imager_0.stonyman1.main_state_RNICJHIHB[1]                       XAI1         Y        Out     0.525     36.364      -         
+un1_main_state_nxt_1_NE_1                                        Net          -        -       1.279     -           5         
+imager_0.stonyman1.main_state_RNI4EM8B82[1]                      OR2          A        In      -         37.644      -         
+imager_0.stonyman1.main_state_RNI4EM8B82[1]                      OR2          Y        Out     0.507     38.151      -         
+un1_main_state_nxt_1_NE                                          Net          -        -       0.806     -           3         
+imager_0.stonyman1.sub_state_RNO_1[2]                            NOR3B        C        In      -         38.957      -         
+imager_0.stonyman1.sub_state_RNO_1[2]                            NOR3B        Y        Out     0.488     39.446      -         
+sub_state_nxt_9_sqmuxa                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state_RNO_0[2]                            MX2          A        In      -         39.767      -         
+imager_0.stonyman1.sub_state_RNO_0[2]                            MX2          Y        Out     0.568     40.335      -         
+N_1193                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state_RNO[2]                              NOR2B        A        In      -         40.657      -         
+imager_0.stonyman1.sub_state_RNO[2]                              NOR2B        Y        Out     0.488     41.145      -         
+sub_state_nxt[2]                                                 Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state[2]                                  DFN1E0C1     D        In      -         41.467      -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 42.005 is 18.135(43.2%) logic and 23.871(56.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -733,13 +714,13 @@ Path information for path number 4:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         24.461
 
-    - Propagation time:                      41.524
+    - Propagation time:                      41.460
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.063
+    = Slack (non-critical) :                 -16.999
 
     Number of logic level(s):                28
     Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
-    Ending point:                            imager_0.stonyman1.sub_state[0] / D
+    Ending point:                            imager_0.stonyman1.sub_state[2] / D
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
@@ -771,70 +752,70 @@ imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y 
 DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
 imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.857      -         
 imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.423      -         
-pulse_pin_state_nxt311                                           Net          -        -       1.994     -           12        
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_1[0]                NOR2A        A        In      -         16.417      -         
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_1[0]                NOR2A        Y        Out     0.516     16.933      -         
-pulse_pin_state_RNI9L0912_1[0]                                   Net          -        -       0.386     -           2         
-imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  OR2A         B        In      -         17.319      -         
-imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  OR2A         Y        Out     0.514     17.833      -         
+pulse_pin_state_nxt311                                           Net          -        -       2.082     -           14        
+imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  AO1C         B        In      -         16.505      -         
+imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  AO1C         Y        Out     0.454     16.959      -         
 un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
-imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         C        In      -         18.154      -         
-imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         Y        Out     0.655     18.810      -         
-un1_reg_value_nxt_3                                              Net          -        -       3.226     -           52        
-imager_0.stonyman1.reg_value_7__RNIUSQ9G5[2]                     MX2          S        In      -         22.035      -         
-imager_0.stonyman1.reg_value_7__RNIUSQ9G5[2]                     MX2          Y        Out     0.480     22.515      -         
-N_1014                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.reg_value_7__RNIPJSJI7[2]                     MX2          A        In      -         22.837      -         
-imager_0.stonyman1.reg_value_7__RNIPJSJI7[2]                     MX2          Y        Out     0.568     23.405      -         
-reg_value_nxt_7__56[2]                                           Net          -        -       0.386     -           2         
-imager_0.stonyman1.ptr_value_RNIC7AC5F[2]                        MX2          B        In      -         23.791      -         
-imager_0.stonyman1.ptr_value_RNIC7AC5F[2]                        MX2          Y        Out     0.586     24.376      -         
-N_1120                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIG6B0301[1]                       MX2          B        In      -         24.698      -         
-imager_0.stonyman1.ptr_value_RNIG6B0301[1]                       MX2          Y        Out     0.586     25.284      -         
-N_1128                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNILUKO802[0]                       MX2          B        In      -         25.605      -         
-imager_0.stonyman1.ptr_value_RNILUKO802[0]                       MX2          Y        Out     0.586     26.191      -         
-un1_reg_value_nxt_0__0[2]                                        Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIJITR802[2]                  XOR2         A        In      -         26.512      -         
-imager_0.stonyman1.mask_pixel_col_RNIJITR802[2]                  XOR2         Y        Out     0.408     26.921      -         
-un1_mask_pixel_col_2                                             Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIPDFGV1[3]                   XO1          C        In      -         27.242      -         
-imager_0.stonyman1.mask_pixel_col_RNIPDFGV1[3]                   XO1          Y        Out     0.490     27.732      -         
-un1_mask_pixel_col_NE_2                                          Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIMDVH5Q3[0]                  OR3          C        In      -         28.054      -         
-imager_0.stonyman1.mask_pixel_col_RNIMDVH5Q3[0]                  OR3          Y        Out     0.751     28.805      -         
-un1_mask_pixel_col_NE_5                                          Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIOCR5A6[4]                   OR3          C        In      -         29.126      -         
-imager_0.stonyman1.mask_pixel_col_RNIOCR5A6[4]                   OR3          Y        Out     0.751     29.877      -         
-state_nxt14                                                      Net          -        -       2.172     -           16        
-imager_0.stonyman1.main_state_RNI9UOJV71[11]                     MX2C         B        In      -         32.049      -         
-imager_0.stonyman1.main_state_RNI9UOJV71[11]                     MX2C         Y        Out     0.572     32.621      -         
-main_state_nxt_1_sn_N_6_mux                                      Net          -        -       1.526     -           7         
-imager_0.stonyman1.main_state_RNIP9OF65[11]                      MX2B         S        In      -         34.147      -         
-imager_0.stonyman1.main_state_RNIP9OF65[11]                      MX2B         Y        Out     0.480     34.627      -         
-main_state_nxt_1[3]                                              Net          -        -       0.386     -           2         
-imager_0.stonyman1.main_state_RNI9URM75[11]                      XOR2         B        In      -         35.013      -         
-imager_0.stonyman1.main_state_RNI9URM75[11]                      XOR2         Y        Out     0.937     35.949      -         
-N_1713                                                           Net          -        -       1.279     -           5         
-imager_0.stonyman1.sub_state_RNO_16[0]                           NOR3B        A        In      -         37.228      -         
-imager_0.stonyman1.sub_state_RNO_16[0]                           NOR3B        Y        Out     0.666     37.894      -         
-sub_state_RNO_16[0]                                              Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_10[0]                           NOR3A        C        In      -         38.215      -         
-imager_0.stonyman1.sub_state_RNO_10[0]                           NOR3A        Y        Out     0.641     38.857      -         
-sub_m6_2_6                                                       Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_6[0]                            OA1A         C        In      -         39.178      -         
-imager_0.stonyman1.sub_state_RNO_6[0]                            OA1A         Y        Out     0.405     39.583      -         
-sub_m6_2_7                                                       Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_1[0]                            AOI1B        C        In      -         39.905      -         
-imager_0.stonyman1.sub_state_RNO_1[0]                            AOI1B        Y        Out     0.405     40.310      -         
-N_1184                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO[0]                              MX2C         B        In      -         40.631      -         
-imager_0.stonyman1.sub_state_RNO[0]                              MX2C         Y        Out     0.572     41.203      -         
-sub_state_nxt[0]                                                 Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state[0]                                  DFN1E0C1     D        In      -         41.524      -         
+imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         C        In      -         17.280      -         
+imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         Y        Out     0.655     17.936      -         
+un1_reg_value_nxt_3                                              Net          -        -       3.201     -           50        
+imager_0.stonyman1.reg_value_7__RNIQTVAC5[1]                     MX2          S        In      -         21.137      -         
+imager_0.stonyman1.reg_value_7__RNIQTVAC5[1]                     MX2          Y        Out     0.480     21.617      -         
+N_1013                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.reg_value_7__RNIKJ1LE7[1]                     MX2          A        In      -         21.938      -         
+imager_0.stonyman1.reg_value_7__RNIKJ1LE7[1]                     MX2          Y        Out     0.568     22.506      -         
+reg_value_nxt_7__56[1]                                           Net          -        -       0.386     -           2         
+imager_0.stonyman1.ptr_value_RNI27KETE[2]                        MX2          B        In      -         22.892      -         
+imager_0.stonyman1.ptr_value_RNI27KETE[2]                        MX2          Y        Out     0.586     23.478      -         
+N_1119                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIFOE0BV[1]                        MX2          B        In      -         23.799      -         
+imager_0.stonyman1.ptr_value_RNIFOE0BV[1]                        MX2          Y        Out     0.586     24.385      -         
+N_1127                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIJ2SOOU1[0]                       MX2          B        In      -         24.707      -         
+imager_0.stonyman1.ptr_value_RNIJ2SOOU1[0]                       MX2          Y        Out     0.586     25.292      -         
+un1_reg_value_nxt_0__0[1]                                        Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNIGL4SOU1[1]                  XOR2         A        In      -         25.614      -         
+imager_0.stonyman1.mask_pixel_col_RNIGL4SOU1[1]                  XOR2         Y        Out     0.408     26.022      -         
+un1_mask_pixel_col_1                                             Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNIN7DA1V3[2]                  XO1          C        In      -         26.344      -         
+imager_0.stonyman1.mask_pixel_col_RNIN7DA1V3[2]                  XO1          Y        Out     0.490     26.834      -         
+un1_mask_pixel_col_NE_5_0                                        Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNI6CHMMQ3[0]                  OR2          B        In      -         27.155      -         
+imager_0.stonyman1.mask_pixel_col_RNI6CHMMQ3[0]                  OR2          Y        Out     0.646     27.802      -         
+un1_mask_pixel_col_NE_5                                          Net          -        -       1.423     -           6         
+imager_0.stonyman1.mask_pixel_col_RNI1PVFVG[4]                   OR2          A        In      -         29.225      -         
+imager_0.stonyman1.mask_pixel_col_RNI1PVFVG[4]                   OR2          Y        Out     0.507     29.733      -         
+state_nxt14                                                      Net          -        -       1.776     -           11        
+imager_0.stonyman1.pulse_pin_state_RNII16N0H[0]                  XNOR2        B        In      -         31.509      -         
+imager_0.stonyman1.pulse_pin_state_RNII16N0H[0]                  XNOR2        Y        Out     0.937     32.446      -         
+pulse_pin_state_RNII16N0H[0]                                     Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNIATULTI1[0]                 MX2C         B        In      -         32.767      -         
+imager_0.stonyman1.pulse_pin_state_RNIATULTI1[0]                 MX2C         Y        Out     0.586     33.353      -         
+N_1170                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNI1474E1[0]                  MX2B         A        In      -         33.674      -         
+imager_0.stonyman1.pulse_pin_state_RNI1474E1[0]                  MX2B         Y        Out     0.579     34.253      -         
+main_state_nxt_1[1]                                              Net          -        -       0.322     -           1         
+imager_0.stonyman1.main_state_RNI0TQMF1[6]                       XOR2         B        In      -         34.574      -         
+imager_0.stonyman1.main_state_RNI0TQMF1[6]                       XOR2         Y        Out     0.937     35.511      -         
+N_1711                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.main_state_RNICJHIHB[1]                       XAI1         C        In      -         35.833      -         
+imager_0.stonyman1.main_state_RNICJHIHB[1]                       XAI1         Y        Out     0.525     36.357      -         
+un1_main_state_nxt_1_NE_1                                        Net          -        -       1.279     -           5         
+imager_0.stonyman1.main_state_RNI4EM8B82[1]                      OR2          A        In      -         37.637      -         
+imager_0.stonyman1.main_state_RNI4EM8B82[1]                      OR2          Y        Out     0.507     38.144      -         
+un1_main_state_nxt_1_NE                                          Net          -        -       0.806     -           3         
+imager_0.stonyman1.sub_state_RNO_1[2]                            NOR3B        C        In      -         38.950      -         
+imager_0.stonyman1.sub_state_RNO_1[2]                            NOR3B        Y        Out     0.488     39.439      -         
+sub_state_nxt_9_sqmuxa                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state_RNO_0[2]                            MX2          A        In      -         39.760      -         
+imager_0.stonyman1.sub_state_RNO_0[2]                            MX2          Y        Out     0.568     40.328      -         
+N_1193                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state_RNO[2]                              NOR2B        A        In      -         40.650      -         
+imager_0.stonyman1.sub_state_RNO[2]                              NOR2B        Y        Out     0.488     41.138      -         
+sub_state_nxt[2]                                                 Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state[2]                                  DFN1E0C1     D        In      -         41.460      -         
 ===============================================================================================================================
-Total path delay (propagation time + setup) of 42.063 is 18.114(43.1%) logic and 23.949(56.9%) route.
+Total path delay (propagation time + setup) of 41.999 is 18.128(43.2%) logic and 23.871(56.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -844,13 +825,13 @@ Path information for path number 5:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         24.461
 
-    - Propagation time:                      41.521
+    - Propagation time:                      41.456
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.060
+    = Slack (non-critical) :                 -16.995
 
     Number of logic level(s):                28
     Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
-    Ending point:                            imager_0.stonyman1.sub_state[0] / D
+    Ending point:                            imager_0.stonyman1.sub_state[2] / D
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
@@ -882,70 +863,70 @@ imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y 
 DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
 imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.871      -         
 imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.437      -         
-pulse_pin_state_nxt311                                           Net          -        -       1.994     -           12        
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_1[0]                NOR2A        A        In      -         16.430      -         
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_1[0]                NOR2A        Y        Out     0.516     16.947      -         
-pulse_pin_state_RNI9L0912_1[0]                                   Net          -        -       0.386     -           2         
-imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  OR2A         B        In      -         17.332      -         
-imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  OR2A         Y        Out     0.514     17.847      -         
+pulse_pin_state_nxt311                                           Net          -        -       2.082     -           14        
+imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  AO1C         B        In      -         16.519      -         
+imager_0.stonyman1.pulse_pin_state_RNIIJNM13[0]                  AO1C         Y        Out     0.454     16.973      -         
 un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
-imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         C        In      -         18.168      -         
-imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         Y        Out     0.655     18.823      -         
-un1_reg_value_nxt_3                                              Net          -        -       3.226     -           52        
-imager_0.stonyman1.reg_value_6__RNISKE1G5[2]                     MX2          S        In      -         22.049      -         
-imager_0.stonyman1.reg_value_6__RNISKE1G5[2]                     MX2          Y        Out     0.480     22.529      -         
-N_994                                                            Net          -        -       0.322     -           1         
-imager_0.stonyman1.reg_value_6__RNIM7A7I7[2]                     MX2          A        In      -         22.850      -         
-imager_0.stonyman1.reg_value_6__RNIM7A7I7[2]                     MX2          Y        Out     0.568     23.419      -         
-reg_value_nxt_6__56[2]                                           Net          -        -       0.386     -           2         
-imager_0.stonyman1.ptr_value_RNI6F5J4F[2]                        MX2          B        In      -         23.804      -         
-imager_0.stonyman1.ptr_value_RNI6F5J4F[2]                        MX2          Y        Out     0.586     24.390      -         
-N_1096                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI1AFH501[1]                       MX2          B        In      -         24.712      -         
-imager_0.stonyman1.ptr_value_RNI1AFH501[1]                       MX2          Y        Out     0.586     25.297      -         
-N_1104                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNILUKO802[0]                       MX2          A        In      -         25.619      -         
-imager_0.stonyman1.ptr_value_RNILUKO802[0]                       MX2          Y        Out     0.568     26.187      -         
-un1_reg_value_nxt_0__0[2]                                        Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIJITR802[2]                  XOR2         A        In      -         26.509      -         
-imager_0.stonyman1.mask_pixel_col_RNIJITR802[2]                  XOR2         Y        Out     0.408     26.917      -         
-un1_mask_pixel_col_2                                             Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIPDFGV1[3]                   XO1          C        In      -         27.238      -         
-imager_0.stonyman1.mask_pixel_col_RNIPDFGV1[3]                   XO1          Y        Out     0.490     27.729      -         
-un1_mask_pixel_col_NE_2                                          Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIMDVH5Q3[0]                  OR3          C        In      -         28.050      -         
-imager_0.stonyman1.mask_pixel_col_RNIMDVH5Q3[0]                  OR3          Y        Out     0.751     28.801      -         
-un1_mask_pixel_col_NE_5                                          Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNIOCR5A6[4]                   OR3          C        In      -         29.122      -         
-imager_0.stonyman1.mask_pixel_col_RNIOCR5A6[4]                   OR3          Y        Out     0.751     29.873      -         
-state_nxt14                                                      Net          -        -       2.172     -           16        
-imager_0.stonyman1.main_state_RNI9UOJV71[11]                     MX2C         B        In      -         32.046      -         
-imager_0.stonyman1.main_state_RNI9UOJV71[11]                     MX2C         Y        Out     0.572     32.618      -         
-main_state_nxt_1_sn_N_6_mux                                      Net          -        -       1.526     -           7         
-imager_0.stonyman1.main_state_RNIP9OF65[11]                      MX2B         S        In      -         34.144      -         
-imager_0.stonyman1.main_state_RNIP9OF65[11]                      MX2B         Y        Out     0.480     34.623      -         
-main_state_nxt_1[3]                                              Net          -        -       0.386     -           2         
-imager_0.stonyman1.main_state_RNI9URM75[11]                      XOR2         B        In      -         35.009      -         
-imager_0.stonyman1.main_state_RNI9URM75[11]                      XOR2         Y        Out     0.937     35.946      -         
-N_1713                                                           Net          -        -       1.279     -           5         
-imager_0.stonyman1.sub_state_RNO_16[0]                           NOR3B        A        In      -         37.225      -         
-imager_0.stonyman1.sub_state_RNO_16[0]                           NOR3B        Y        Out     0.666     37.890      -         
-sub_state_RNO_16[0]                                              Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_10[0]                           NOR3A        C        In      -         38.212      -         
-imager_0.stonyman1.sub_state_RNO_10[0]                           NOR3A        Y        Out     0.641     38.853      -         
-sub_m6_2_6                                                       Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_6[0]                            OA1A         C        In      -         39.175      -         
-imager_0.stonyman1.sub_state_RNO_6[0]                            OA1A         Y        Out     0.405     39.580      -         
-sub_m6_2_7                                                       Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO_1[0]                            AOI1B        C        In      -         39.901      -         
-imager_0.stonyman1.sub_state_RNO_1[0]                            AOI1B        Y        Out     0.405     40.306      -         
-N_1184                                                           Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state_RNO[0]                              MX2C         B        In      -         40.627      -         
-imager_0.stonyman1.sub_state_RNO[0]                              MX2C         Y        Out     0.572     41.199      -         
-sub_state_nxt[0]                                                 Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state[0]                                  DFN1E0C1     D        In      -         41.521      -         
+imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         C        In      -         17.294      -         
+imager_0.stonyman1.pulse_pin_state_RNIR8OV25[0]                  AO1A         Y        Out     0.655     17.949      -         
+un1_reg_value_nxt_3                                              Net          -        -       3.201     -           50        
+imager_0.stonyman1.reg_value_6__RNIOLJ2C5[1]                     MX2          S        In      -         21.151      -         
+imager_0.stonyman1.reg_value_6__RNIOLJ2C5[1]                     MX2          Y        Out     0.480     21.630      -         
+N_993                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman1.reg_value_6__RNIH7F8E7[1]                     MX2          A        In      -         21.952      -         
+imager_0.stonyman1.reg_value_6__RNIH7F8E7[1]                     MX2          Y        Out     0.568     22.520      -         
+reg_value_nxt_6__56[1]                                           Net          -        -       0.386     -           2         
+imager_0.stonyman1.ptr_value_RNISEFLSE[2]                        MX2          B        In      -         22.906      -         
+imager_0.stonyman1.ptr_value_RNISEFLSE[2]                        MX2          Y        Out     0.586     23.492      -         
+N_1095                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNI0SIHDV[1]                        MX2          B        In      -         23.813      -         
+imager_0.stonyman1.ptr_value_RNI0SIHDV[1]                        MX2          Y        Out     0.586     24.399      -         
+N_1103                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.ptr_value_RNIJ2SOOU1[0]                       MX2          A        In      -         24.720      -         
+imager_0.stonyman1.ptr_value_RNIJ2SOOU1[0]                       MX2          Y        Out     0.568     25.289      -         
+un1_reg_value_nxt_0__0[1]                                        Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNIGL4SOU1[1]                  XOR2         A        In      -         25.610      -         
+imager_0.stonyman1.mask_pixel_col_RNIGL4SOU1[1]                  XOR2         Y        Out     0.408     26.019      -         
+un1_mask_pixel_col_1                                             Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNIN7DA1V3[2]                  XO1          C        In      -         26.340      -         
+imager_0.stonyman1.mask_pixel_col_RNIN7DA1V3[2]                  XO1          Y        Out     0.490     26.830      -         
+un1_mask_pixel_col_NE_5_0                                        Net          -        -       0.322     -           1         
+imager_0.stonyman1.mask_pixel_col_RNI6CHMMQ3[0]                  OR2          B        In      -         27.152      -         
+imager_0.stonyman1.mask_pixel_col_RNI6CHMMQ3[0]                  OR2          Y        Out     0.646     27.798      -         
+un1_mask_pixel_col_NE_5                                          Net          -        -       1.423     -           6         
+imager_0.stonyman1.mask_pixel_col_RNI1PVFVG[4]                   OR2          A        In      -         29.222      -         
+imager_0.stonyman1.mask_pixel_col_RNI1PVFVG[4]                   OR2          Y        Out     0.507     29.729      -         
+state_nxt14                                                      Net          -        -       1.776     -           11        
+imager_0.stonyman1.pulse_pin_state_RNII16N0H[0]                  XNOR2        B        In      -         31.505      -         
+imager_0.stonyman1.pulse_pin_state_RNII16N0H[0]                  XNOR2        Y        Out     0.937     32.442      -         
+pulse_pin_state_RNII16N0H[0]                                     Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNIATULTI1[0]                 MX2C         B        In      -         32.763      -         
+imager_0.stonyman1.pulse_pin_state_RNIATULTI1[0]                 MX2C         Y        Out     0.586     33.349      -         
+N_1170                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.pulse_pin_state_RNI1474E1[0]                  MX2B         A        In      -         33.671      -         
+imager_0.stonyman1.pulse_pin_state_RNI1474E1[0]                  MX2B         Y        Out     0.579     34.249      -         
+main_state_nxt_1[1]                                              Net          -        -       0.322     -           1         
+imager_0.stonyman1.main_state_RNI0TQMF1[6]                       XOR2         B        In      -         34.571      -         
+imager_0.stonyman1.main_state_RNI0TQMF1[6]                       XOR2         Y        Out     0.937     35.508      -         
+N_1711                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.main_state_RNICJHIHB[1]                       XAI1         C        In      -         35.829      -         
+imager_0.stonyman1.main_state_RNICJHIHB[1]                       XAI1         Y        Out     0.525     36.354      -         
+un1_main_state_nxt_1_NE_1                                        Net          -        -       1.279     -           5         
+imager_0.stonyman1.main_state_RNI4EM8B82[1]                      OR2          A        In      -         37.633      -         
+imager_0.stonyman1.main_state_RNI4EM8B82[1]                      OR2          Y        Out     0.507     38.140      -         
+un1_main_state_nxt_1_NE                                          Net          -        -       0.806     -           3         
+imager_0.stonyman1.sub_state_RNO_1[2]                            NOR3B        C        In      -         38.947      -         
+imager_0.stonyman1.sub_state_RNO_1[2]                            NOR3B        Y        Out     0.488     39.435      -         
+sub_state_nxt_9_sqmuxa                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state_RNO_0[2]                            MX2          A        In      -         39.757      -         
+imager_0.stonyman1.sub_state_RNO_0[2]                            MX2          Y        Out     0.568     40.325      -         
+N_1193                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state_RNO[2]                              NOR2B        A        In      -         40.646      -         
+imager_0.stonyman1.sub_state_RNO[2]                              NOR2B        Y        Out     0.488     41.135      -         
+sub_state_nxt[2]                                                 Net          -        -       0.322     -           1         
+imager_0.stonyman1.sub_state[2]                                  DFN1E0C1     D        In      -         41.456      -         
 ===============================================================================================================================
-Total path delay (propagation time + setup) of 42.060 is 18.110(43.1%) logic and 23.949(56.9%) route.
+Total path delay (propagation time + setup) of 41.995 is 18.124(43.2%) logic and 23.871(56.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -964,14 +945,14 @@ Starting Points with Worst Slack
 Instance                               Reference     Type           Pin              Net                                               Time        Slack 
                                        Clock                                                                                                             
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[18]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[18]     0.000       3.950 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[16]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[16]     0.000       4.202 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[17]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[17]     0.000       4.310 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[19]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[19]     0.000       4.418 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHTRANS[1]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HTRANS[1]     0.000       6.350 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[18]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[18]     0.000       3.371 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[16]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[16]     0.000       3.527 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[17]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[17]     0.000       3.635 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[19]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[19]     0.000       3.887 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        M2FRESETn        reset_c                                           0.000       5.643 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHTRANS[1]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HTRANS[1]     0.000       5.771 
 MSS_CORE3_MSS_0.MSS_CCC_0.I_XTLOSC     System        MSS_XTLOSC     CLKOUT           N_CLKA_XTLOSC                                     0.000       6.669 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHLOCK         MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HLOCK         0.000       8.783 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        M2FRESETn        MSS_ADLIB_INST_M2FRESETn                          0.000       11.699
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHLOCK         MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HLOCK         0.000       8.204 
 MSS_CORE3_MSS_0.MSSINT_GPI_0           System        MSSINT         Y                MSSINT_GPI_0_Y                                    0.000       12.179
 MSS_CORE3_MSS_0.MSSINT_GPI_1           System        MSSINT         Y                MSSINT_GPI_1_Y                                    0.000       12.179
 =========================================================================================================================================================
@@ -984,16 +965,16 @@ Ending Points with Worst Slack
 Instance                                           Reference     Type         Pin     Net                        Time         Slack
                                                    Clock                                                                           
 -----------------------------------------------------------------------------------------------------------------------------------
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[0]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.950
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[1]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.950
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[2]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.950
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[3]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.950
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[4]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.950
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[5]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.950
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[6]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.950
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[7]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.950
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[8]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.950
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[9]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.950
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[0]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.371
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[1]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.371
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[2]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.371
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[3]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.371
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[4]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.371
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[5]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.371
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[6]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.371
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[7]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.371
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[8]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.371
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[9]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.371
 ===================================================================================================================================
 
 
@@ -1008,10 +989,10 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         24.392
 
-    - Propagation time:                      20.442
+    - Propagation time:                      21.021
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 3.950
+    = Slack (non-critical) :                 3.371
 
     Number of logic level(s):                11
     Starting point:                          MSS_CORE3_MSS_0.MSS_ADLIB_INST / MSSHADDR[18]
@@ -1044,93 +1025,99 @@ CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNI0DM85[0]         
 N_85                                                                            Net          -                -       0.386     -           2         
 CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNI259UA[2]         OR3B         A                In      -         9.905       -         
 CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNI259UA[2]         OR3B         Y                Out     0.525     10.429      -         
-CAHBLTOO0l[1]                                                                   Net          -                -       2.263     -           18        
-COREAHBTOAPB3_0.CAHBtoAPB3Oll.HREADYOUT_RNIMTJPN                                NOR3B        B                In      -         12.692      -         
-COREAHBTOAPB3_0.CAHBtoAPB3Oll.HREADYOUT_RNIMTJPN                                NOR3B        Y                Out     0.607     13.299      -         
-CAHBtoAPB3l4                                                                    Net          -                -       1.639     -           8         
-COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3IOI_RNIONR4Q[2]                         NOR2         B                In      -         14.938      -         
-COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3IOI_RNIONR4Q[2]                         NOR2         Y                Out     0.646     15.584      -         
+CAHBLTOO0l[1]                                                                   Net          -                -       2.218     -           17        
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.HREADYOUT_RNIMTJPN                                NOR3B        B                In      -         12.647      -         
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.HREADYOUT_RNIMTJPN                                NOR3B        Y                Out     0.607     13.254      -         
+CAHBtoAPB3l4                                                                    Net          -                -       2.263     -           18        
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3IOI_RNIONR4Q[2]                         NOR2         B                In      -         15.517      -         
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3IOI_RNIONR4Q[2]                         NOR2         Y                Out     0.646     16.163      -         
 N_179                                                                           Net          -                -       1.184     -           4         
-COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3lII_RNIJ1FBQ                            NOR2B        A                In      -         16.768      -         
-COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3lII_RNIJ1FBQ                            NOR2B        Y                Out     0.488     17.256      -         
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3lII_RNIJ1FBQ                            NOR2B        A                In      -         17.347      -         
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3lII_RNIJ1FBQ                            NOR2B        Y                Out     0.488     17.835      -         
 CAHBtoAPB3Ol                                                                    Net          -                -       0.806     -           3         
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I_1_sqmuxa                            NOR2A        B                In      -         18.063      -         
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I_1_sqmuxa                            NOR2A        Y                Out     0.386     18.448      -         
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I_1_sqmuxa                            NOR2A        B                In      -         18.641      -         
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I_1_sqmuxa                            NOR2A        Y                Out     0.386     19.027      -         
 CAHBtoAPB3I1I_1_sqmuxa                                                          Net          -                -       1.994     -           12        
-COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[0]                                  DFN1E0C0     E                In      -         20.442      -         
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[0]                                  DFN1E0C0     E                In      -         21.021      -         
 ======================================================================================================================================================
-Total path delay (propagation time + setup) of 21.050 is 6.588(31.3%) logic and 14.462(68.7%) route.
+Total path delay (propagation time + setup) of 21.629 is 6.588(30.5%) logic and 15.041(69.5%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 
 ##### END OF TIMING REPORT #####]
 
+
+Finished final timing analysis (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 174MB peak: 229MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 174MB peak: 229MB)
+
 --------------------------------------------------------------------------------
 Target Part: A2F500M3G_FBGA484_STD
 Report for cell TOPLEVEL.verilog
   Core Cell usage:
               cell count     area count*area
-              AND2   130      1.0      130.0
+              AND2   124      1.0      124.0
              AND2A    22      1.0       22.0
               AND3    36      1.0       36.0
-               AO1   394      1.0      394.0
+               AO1   327      1.0      327.0
               AO13    20      1.0       20.0
-              AO1A   212      1.0      212.0
-              AO1B     3      1.0        3.0
-              AO1C   101      1.0      101.0
-              AO1D    14      1.0       14.0
-              AOI1    19      1.0       19.0
+              AO1A   173      1.0      173.0
+              AO1B     4      1.0        4.0
+              AO1C   104      1.0      104.0
+              AO1D    13      1.0       13.0
+              AOI1    21      1.0       21.0
              AOI1A    20      1.0       20.0
-             AOI1B   151      1.0      151.0
-               AX1     5      1.0        5.0
-              AX1A     5      1.0        5.0
-              AX1C    14      1.0       14.0
-              AX1D     1      1.0        1.0
+             AOI1B   137      1.0      137.0
+               AX1     3      1.0        3.0
+              AX1A     6      1.0        6.0
+              AX1B     1      1.0        1.0
+              AX1C     6      1.0        6.0
+              AX1D     2      1.0        2.0
               AX1E     1      1.0        1.0
-             AXOI7     1      1.0        1.0
-            CLKINT     3      0.0        0.0
+             AXOI4     1      1.0        1.0
                GND    32      0.0        0.0
                INV    30      1.0       30.0
             MSSINT     4      0.0        0.0
            MSS_AHB     1      0.0        0.0
            MSS_CCC     1      0.0        0.0
-               MX2  1432      1.0     1432.0
-              MX2A    32      1.0       32.0
-              MX2B    25      1.0       25.0
-              MX2C    32      1.0       32.0
+               MX2  1409      1.0     1409.0
+              MX2A    38      1.0       38.0
+              MX2B    27      1.0       27.0
+              MX2C    31      1.0       31.0
              NAND2     4      1.0        4.0
             NAND3A    12      1.0       12.0
-              NOR2    88      1.0       88.0
-             NOR2A   550      1.0      550.0
-             NOR2B   939      1.0      939.0
-              NOR3    69      1.0       69.0
-             NOR3A   106      1.0      106.0
-             NOR3B   194      1.0      194.0
-             NOR3C   135      1.0      135.0
-               OA1    53      1.0       53.0
-              OA1A   109      1.0      109.0
-              OA1B    56      1.0       56.0
-              OA1C    20      1.0       20.0
+              NOR2   117      1.0      117.0
+             NOR2A   489      1.0      489.0
+             NOR2B   941      1.0      941.0
+              NOR3    59      1.0       59.0
+             NOR3A   155      1.0      155.0
+             NOR3B   207      1.0      207.0
+             NOR3C   137      1.0      137.0
+               OA1   128      1.0      128.0
+              OA1A   122      1.0      122.0
+              OA1B    60      1.0       60.0
+              OA1C    29      1.0       29.0
               OAI1     7      1.0        7.0
-               OR2   158      1.0      158.0
-              OR2A   239      1.0      239.0
-              OR2B    48      1.0       48.0
-               OR3   174      1.0      174.0
-              OR3A    26      1.0       26.0
-              OR3B     6      1.0        6.0
+               OR2   172      1.0      172.0
+              OR2A   228      1.0      228.0
+              OR2B    49      1.0       49.0
+               OR3   248      1.0      248.0
+              OR3A    23      1.0       23.0
+              OR3B    11      1.0       11.0
               OR3C     3      1.0        3.0
                VCC    32      0.0        0.0
-               XA1    26      1.0       26.0
-              XA1A    24      1.0       24.0
-              XA1B    21      1.0       21.0
-              XA1C     4      1.0        4.0
-              XAI1     3      1.0        3.0
+               XA1    39      1.0       39.0
+              XA1A     8      1.0        8.0
+              XA1B    25      1.0       25.0
+              XA1C     2      1.0        2.0
+              XAI1     2      1.0        2.0
              XAI1A     1      1.0        1.0
              XNOR2   117      1.0      117.0
-             XNOR3     3      1.0        3.0
-               XO1    23      1.0       23.0
-              XOR2   238      1.0      238.0
+             XNOR3     2      1.0        2.0
+               XO1    22      1.0       22.0
+              XOR2   235      1.0      235.0
               XOR3    18      1.0       18.0
 
 
@@ -1147,7 +1134,7 @@ Report for cell TOPLEVEL.verilog
             DFN1P1     2      1.0        2.0
             RAM4K9     8      0.0        0.0
                    -----          ----------
-             TOTAL  7284              7203.0
+             TOTAL  7335              7257.0
 
 
   IO Cell usage:
@@ -1163,7 +1150,7 @@ Report for cell TOPLEVEL.verilog
              TOTAL    79
 
 
-Core Cells         : 7203 of 11520 (63%)
+Core Cells         : 7257 of 11520 (63%)
 IO Cells           : 79
 
   RAM/ROM Usage Summary
@@ -1171,9 +1158,9 @@ Block Rams : 8 of 24 (33%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:49s; Memory used current: 62MB peak: 227MB)
+At Mapper Exit (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 61MB peak: 229MB)
 
-Process took 0h:00m:50s realtime, 0h:00m:49s cputime
-# Fri Apr 10 18:27:50 2015
+Process took 0h:00m:32s realtime, 0h:00m:31s cputime
+# Wed Nov 11 13:51:16 2015
 
 ###########################################################]

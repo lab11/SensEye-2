@@ -1,9 +1,9 @@
-@P:  Worst Slack : -17.077
+@P:  Worst Slack : -17.012
 @P:  FAB_CLK - Estimated Frequency : 23.8 MHz
 @P:  FAB_CLK - Requested Frequency : 40.0 MHz
-@P:  FAB_CLK - Estimated Period : 42.077
+@P:  FAB_CLK - Estimated Period : 42.012
 @P:  FAB_CLK - Requested Period : 25.000
-@P:  FAB_CLK - Slack : -17.077
+@P:  FAB_CLK - Slack : -17.012
 @P:  FCLK - Estimated Frequency : NA
 @P:  FCLK - Requested Frequency : 40.0 MHz
 @P:  FCLK - Estimated Period : NA
@@ -17,9 +17,9 @@
 @P:  Worst Slack(min analysis) : 0.225
 @P:  FAB_CLK - Estimated Frequency(min analysis) : 23.8 MHz
 @P:  FAB_CLK - Requested Frequency(min analysis) : 40.0 MHz
-@P:  FAB_CLK - Estimated Period(min analysis) : 42.077
+@P:  FAB_CLK - Estimated Period(min analysis) : 42.012
 @P:  FAB_CLK - Requested Period(min analysis) : 25.000
-@P:  FAB_CLK - Slack(min analysis) : -17.077
+@P:  FAB_CLK - Slack(min analysis) : -17.012
 @P:  FCLK - Estimated Frequency(min analysis) : NA
 @P:  FCLK - Requested Frequency(min analysis) : 40.0 MHz
 @P:  FCLK - Estimated Period(min analysis) : NA
@@ -30,37 +30,37 @@
 @P:  System - Estimated Period(min analysis) : 5.831
 @P:  System - Requested Period(min analysis) : 12.500
 @P:  System - Slack(min analysis) : 6.669
-@P:  Total Area : 7203.0
-@P:  Total Area : 856.0
-@P:  Total Area : 297.0
-@P:  Total Area : 559.0
+@P:  Total Area : 7257.0
+@P:  Total Area : 863.0
+@P:  Total Area : 302.0
+@P:  Total Area : 561.0
 @P:  Total Area : 0.0
 @P:  Total Area : 0.0
-@P:  Total Area : 5598.0
-@P:  Total Area : 818.0
+@P:  Total Area : 5643.0
+@P:  Total Area : 846.0
 @P:  Total Area : 310.0
 @P:  Total Area : 2.0
-@P:  Total Area : 1883.0
-@P:  Total Area : 213.0
+@P:  Total Area : 1890.0
+@P:  Total Area : 214.0
 @P:  Total Area : 310.0
 @P:  Total Area : 2.0
-@P:  Total Area : 1826.0
-@P:  Total Area : 234.0
+@P:  Total Area : 1832.0
+@P:  Total Area : 237.0
 @P:  Total Area : 122.0
 @P:  Total Area : 36.0
 @P:  Total Area : 33.0
-@P:  Total Area : 151.0
+@P:  Total Area : 153.0
 @P:  Total Area : 99.0
 @P:  Total Area : 6.0
-@P:  Total Area : 46.0
+@P:  Total Area : 48.0
 @P:  Total Area : 439.0
 @P:  Total Area : 439.0
 @P:  Total Area : 75.0
-@P:  Total Area : 42.0
-@P:  Total Area : 76.0
 @P:  Total Area : 41.0
-@P:  Total Area : 288.0
+@P:  Total Area : 75.0
+@P:  Total Area : 40.0
+@P:  Total Area : 289.0
 @P:  Total Area : 26.0
 @P:  Total Area : 34.0
-@P:  Total Area : 7203.0
-@P:  CPU Time : 0h:00m:49s
+@P:  Total Area : 7257.0
+@P:  CPU Time : 0h:00m:31s

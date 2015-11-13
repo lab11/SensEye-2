@@ -11,48 +11,48 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/TOPLEVEL</location>
-    <state>GENERATED ( Fri Apr 10 18:26:10 2015 )</state>
-    <swide-toolchain>SoftConsole workspace generated to C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\SoftConsole</swide-toolchain>
+    <location>C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/TOPLEVEL</location>
+    <state>GENERATED ( Wed Nov 11 13:50:17 2015 )</state>
+    <swide-toolchain>SoftConsole workspace generated to C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\SoftConsole</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\ahb.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\cr_int.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\framemask.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\heartbeat.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\psram_cr.v</file>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\ahb.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\cr_int.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\framemask.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\heartbeat.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\psram_cr.v</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v</file>
   </fileset>
   <fileset>
     <name>Flash Memory File(s)</name>
-    <file>C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\component\work\C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_ENVM_0/MSS_ENVM_0.efc</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_ENVM_0/MSS_ENVM_0.efc</file>
   </fileset>
   <io>
     <port-name>cam0_adc_capture_start</port-name>
@@ -1202,205 +1202,50 @@ There is one APB3 Master interface.
   <core type="ComponentModule">
     <core-type>ComponentModule</core-type>
     <core-exttype>HierSpiritDesign</core-exttype>
-    <core-location>C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS</core-location>
+    <core-location>C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS</core-location>
     <core-name>MSS_CORE3_MSS_0</core-name>
   </core>
   <core>
     <core-name>psram_cr_0</core-name>
   </core>
-  <firmware_core type="FirmWareModule">
+  <firmware_core>
     <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>HAL</core-intname>
-    <core-ver>2.2.102</core-ver>
-    <core-desc>The Hardware Abstraction Layer is used by drivers to access the hardware. It also allows the control of interrupts. The HAL is normally required when using bare metal drivers as part of your application.</core-desc>
-    <core-param>
-      <param-name>Memory Model:</param-name>
-      <param-value>Small</param-value>
-      <param-hdlname>MemoryModel</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Processor:</param-name>
-      <param-value>Cortex-M3</param-value>
-      <param-hdlname>Processor</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Software Tool Chain:</param-name>
-      <param-value>SoftConsole</param-value>
-      <param-hdlname>ToolChain</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
     <core-name>HAL_0</core-name>
   </firmware_core>
-  <firmware_core type="FirmWareModule">
+  <firmware_core>
     <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_Ethernet_MAC_Driver</core-intname>
-    <core-ver>2.0.103</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) Ethernet  MAC bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.
-</core-desc>
-    <core-param>
-      <param-name>Bus arbitration scheme:</param-name>
-      <param-value>Receive has priority</param-value>
-      <param-hdlname>BUS_ARBITRATION_SCHEME</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Maximum DMA burst length:</param-name>
-      <param-value>Unlimited</param-value>
-      <param-hdlname>PROGRAMMABLE_BURST_LENGTH</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Receive ring size:</param-name>
-      <param-value>4</param-value>
-      <param-hdlname>RX_RING_SIZE</param-hdlname>
-      <param-hdlvalue>4</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Setup frame timeout (ms):</param-name>
-      <param-value>10000</param-value>
-      <param-hdlname>SETUP_FRAME_TIME_OUT</param-hdlname>
-      <param-hdlvalue>10000</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>State change timeout (ms):</param-name>
-      <param-value>10000</param-value>
-      <param-hdlname>STATE_CHANGE_TIME_OUT</param-hdlname>
-      <param-hdlvalue>10000</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
-    <core-param>
-      <param-name>Transmit buffer ring size:</param-name>
-      <param-value>2</param-value>
-      <param-hdlname>TX_RING_SIZE</param-hdlname>
-      <param-hdlvalue>2</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
     <core-name>MSS_Ethernet_MAC_Driver_0</core-name>
   </firmware_core>
-  <firmware_core type="FirmWareModule">
+  <firmware_core>
     <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_GPIO_Driver</core-intname>
-    <core-ver>2.0.105</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) GPIO bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
     <core-name>MSS_GPIO_Driver_0</core-name>
   </firmware_core>
-  <firmware_core type="FirmWareModule">
+  <firmware_core>
     <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_NVM_Driver</core-intname>
-    <core-ver>2.2.102</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) eNVM bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
     <core-name>MSS_NVM_Driver_0</core-name>
   </firmware_core>
-  <firmware_core type="FirmWareModule">
+  <firmware_core>
     <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_PDMA_Driver</core-intname>
-    <core-ver>2.0.102</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS)  Peripheral DMA bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
     <core-name>MSS_PDMA_Driver_0</core-name>
   </firmware_core>
-  <firmware_core type="FirmWareModule">
+  <firmware_core>
     <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_RTC_Driver</core-intname>
-    <core-ver>2.0.100</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) RTC bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
     <core-name>MSS_RTC_Driver_0</core-name>
   </firmware_core>
-  <firmware_core type="FirmWareModule">
+  <firmware_core>
     <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_Timer_Driver</core-intname>
-    <core-ver>2.1.101</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) Timer bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
     <core-name>MSS_Timer_Driver_0</core-name>
   </firmware_core>
-  <firmware_core type="FirmWareModule">
+  <firmware_core>
     <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_UART_Driver</core-intname>
-    <core-ver>2.3.101</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) UART bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
     <core-name>MSS_UART_Driver_0</core-name>
   </firmware_core>
-  <firmware_core type="FirmWareModule">
+  <firmware_core>
     <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>MSS_Watchdog_Driver</core-intname>
-    <core-ver>2.0.107</core-ver>
-    <core-desc>SmartFusion microcontroller subsystem (MSS) Watchdog bare metal software driver.
-
-This driver requires the SmartFusion CMSIS-PAL to build correctly.</core-desc>
     <core-name>MSS_Watchdog_Driver_0</core-name>
   </firmware_core>
-  <firmware_core type="FirmWareModule">
+  <firmware_core>
     <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>SmartFusion_CMSIS_PAL</core-intname>
-    <core-ver>2.3.103</core-ver>
-    <core-desc>SmartFusion Cortex Microcontroller Software Interface Standard - Peripheral Access Layer (CMSIS-PAL).
-
-The CMSIS provides:
-- startup code.
-- standard naming for exception and interrupt handlers.
-- standard functions for controlling the Cortex-M3 Nested Vectored Interrupt Controller (NVIC).
-- peripherals registers description.
-
-These files are required by the SmartFusion bare metal peripheral drivers to build correctly.</core-desc>
-    <core-param>
-      <param-name>Software Tool Chain</param-name>
-      <param-value>SoftConsole</param-value>
-      <param-hdlname>ToolChain</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
-      <param-tag>actel-cc:variantParameter</param-tag>
-    </core-param>
     <core-name>SmartFusion_CMSIS_PAL_0</core-name>
   </firmware_core>
   <memorysystem>

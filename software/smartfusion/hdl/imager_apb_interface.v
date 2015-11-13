@@ -48,8 +48,8 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 // Default camera settings
-//`define VIN_3V3
-`define VIN_5V0
+`define VIN_3V3
+//`define VIN_5V0
 
 `define VAL_VREF_5V0   (40)
 `define VAL_NBIAS_5V0  (55)

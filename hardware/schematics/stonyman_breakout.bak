@@ -99,9 +99,9 @@ F 3 "" H 3700 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 8400 1500 0    60   ~ 0
-P10:7
+P12:7
 Text Notes 8400 1850 0    60   ~ 0
-P10:9
+P12:9
 Text Notes 6100 4650 0    60   ~ 0
 6, CS
 Text Notes 5950 5050 0    60   ~ 0
@@ -276,17 +276,17 @@ F 3 "" H 3750 4150 60  0000 C CNN
 $EndComp
 Connection ~ 3750 3650
 Text Notes 8400 2150 0    60   ~ 0
-P10:13
+P12:13
 Text Notes 8400 2450 0    60   ~ 0
-P10:14
+P12:14
 Text Notes 8400 2750 0    60   ~ 0
-P10:17
+P12:17
 Text Notes 8400 3050 0    60   ~ 0
-P10:18
+P12:18
 Text Notes 8400 3350 0    60   ~ 0
-P10:19
+P12:19
 Text Notes 8400 3650 0    60   ~ 0
-P10:20
+P12:20
 Text Notes 8400 4100 0    60   Italic 12
 SmartFusion\nBoard
 Connection ~ 8650 4400

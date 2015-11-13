@@ -1,6 +1,6 @@
 <project name="TOPLEVEL" version="1.1">
     <ProjectDirectory>
-        C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL_fp
+        C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
@@ -9,17 +9,17 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        C:/Users/Samuel/Dropbox/lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL_fp/TOPLEVEL.log
+        C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL_fp/TOPLEVEL.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
     <programmer status="enable" type="FlashPro4" revision="UndefRev" connection="usb2.0">
         <name>
-            81512
+            82663
         </name>
         <id>
-            81512
+            82663
         </id>
     </programmer>
     <configuration>
@@ -81,7 +81,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                C:\Users\Samuel\Dropbox\lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pdb
+                C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pdb
             </filename>
             <local>
                 projectData\TOPLEVEL.pdb
