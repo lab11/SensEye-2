@@ -1,0 +1,152 @@
+cp -f /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/initramfs-list-min.stub \
+		/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/initramfs-list-min
+rm -f /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/usr/initramfs_data.cpio \
+		/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/usr/initramfs_data.cpio.gz
+cp -f senseye_proj.kernel.A2F /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/.config
+make -C /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux vmlinux
+make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+scripts/kconfig/conf -s arch/arm/Kconfig
+make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+  CHK     include/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[2]: `include/generated/mach-types.h' is up to date.
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  GEN     usr/initramfs_data.cpio
+  AS      usr/initramfs_data.o
+  LD      usr/built-in.o
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  LD      vmlinux
+  SYSMAP  System.map
+make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+make -C /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux modules
+make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+  CHK     include/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[2]: `include/generated/mach-types.h' is up to date.
+  CALL    scripts/checksyscalls.sh
+  Building modules, stage 2.
+  MODPOST 0 modules
+make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+CFLAGS="-Os -mcpu=cortex-m3 -mthumb -I/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/root/usr/include" LDFLAGS="-mcpu=cortex-m3 -mthumb -L/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/root/usr/lib" make -C ../stonyman all
+make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/stonyman'
+make -C /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux M=`pwd` modules CFLAGS="" LDFLAGS=""
+make[2]: Entering directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+  Building modules, stage 2.
+  MODPOST 1 modules
+make[2]: Leaving directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/stonyman'
+CFLAGS="-Os -mcpu=cortex-m3 -mthumb -I/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/root/usr/include" LDFLAGS="-mcpu=cortex-m3 -mthumb -L/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/root/usr/lib" make -C ../senseye_serv all
+make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/senseye_serv'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/senseye_serv'
+cp -f senseye_proj.busybox /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/busybox/.config
+make -C /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/busybox
+make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/busybox'
+scripts/kconfig/conf -s Config.in
+#
+# using defaults found in .config
+#
+  SPLIT   include/autoconf.h -> include/config/*
+  GEN     include/bbconfigopts.h
+  HOSTCC  applets/usage
+applets/usage.c: In function ‘main’:
+applets/usage.c:52:8: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+   write(STDOUT_FILENO, usage_array[i].usage, strlen(usage_array[i].usage) + 1);
+        ^
+  GEN     include/usage_compressed.h
+  HOSTCC  applets/applet_tables
+applets/applet_tables.c: In function ‘main’:
+applets/applet_tables.c:138:9: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+    fgets(line_old, sizeof(line_old), fp);
+         ^
+  GEN     include/applet_tables.h
+  CC      applets/applets.o
+  LD      applets/built-in.o
+  HOSTCC  applets/usage_pod
+applets/usage_pod.c: In function ‘main’:
+applets/usage_pod.c:74:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   printf(usage_array[i].aname);
+   ^
+  GEN     include/usage_compressed.h
+  CC      libbb/appletlib.o
+  AR      libbb/lib.a
+  LINK    busybox_unstripped
+Trying libraries: crypt m
+ Library crypt is needed, can't exclude it (yet)
+ Library m is not needed, excluding it
+ Library crypt is needed, can't exclude it (yet)
+Final link with: crypt
+  DOC     busybox.pod
+  DOC     BusyBox.txt
+  DOC     BusyBox.1
+  DOC     BusyBox.html
+make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/busybox'
+cp -f senseye_proj.initramfs /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/initramfs-list-min
+rm -f /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/usr/initramfs_data.cpio \
+		/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/usr/initramfs_data.cpio.gz
+cp -f senseye_proj.kernel.A2F /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/.config
+cp -f /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/arch/arm/kernel/vmlinux.lds.S.good \
+		/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/arch/arm/kernel/vmlinux.lds.S
+([ -e senseye_proj.lds.A2F ] && \
+		cp -f senseye_proj.lds.A2F \
+		/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/arch/arm/kernel/vmlinux.lds.S) || \
+	true;
+make -C /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux uImage SAMPLE=senseye_proj
+make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+scripts/kconfig/conf -s arch/arm/Kconfig
+make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+  CHK     include/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[2]: `include/generated/mach-types.h' is up to date.
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  GEN     usr/initramfs_data.cpio
+  AS      usr/initramfs_data.o
+  LD      usr/built-in.o
+  LDS     arch/arm/kernel/vmlinux.lds
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  LD      vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm/boot/Image
+  Kernel: arch/arm/boot/Image is ready
+  UIMAGE  arch/arm/boot/uImage
+Image Name:   Linux-2.6.33-arm1
+Created:      Mon Nov 30 13:42:57 2015
+Image Type:   ARM Linux Kernel Image (uncompressed)
+Data Size:    1442496 Bytes = 1408.69 kB = 1.38 MB
+Load Address: 70008000
+Entry Point:  70008001
+  Image arch/arm/boot/uImage is ready
+make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+cp -f /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/arch/arm/boot/uImage senseye_proj.uImage
+rm -f .envm_log
+(grep "CONFIG_KERNEL_IN_ENVM=y" senseye_proj.kernel.A2F > \
+		.envm_log || true)
+([ -s .envm_log ] && \
+	(make -C /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux vImage SAMPLE=senseye_proj; \
+	cp -f /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux/arch/arm/boot/vImage \
+		senseye_proj.vImage; \
+	cp senseye_proj.uImage senseye_proj.eImage; \
+	grep CONFIG_KERNEL_IN_ENVM_OFFSET senseye_proj.kernel.A2F | \
+		cut -d "=" -f 2 > .envm_log1; \
+	grep CONFIG_IMAGE_IN_ENVM_OFFSET senseye_proj.kernel.A2F | \
+		cut -d "=" -f 2 > .envm_log2; \
+	expr `cat .envm_log1` - `cat .envm_log2` > .envm_log; \
+	dd if=senseye_proj.vImage of=senseye_proj.uImage obs=1K \
+		seek=`cat .envm_log`)) || true;
+rm -f .envm_log .envm_log1 .envm_log2

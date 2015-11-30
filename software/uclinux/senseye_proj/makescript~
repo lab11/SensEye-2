@@ -1,4 +1,4 @@
-#open#!/bin/sh
+open#!/bin/sh
 rm senseye_proj.uImage
-make &> compile.log
+make
 cp senseye_proj.uImage /tftpboot/

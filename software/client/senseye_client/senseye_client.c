@@ -4,7 +4,7 @@
 // Reads packets from the senseye device and displays images
 //******************************************************************************
 
-// includes
+// includes  
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -198,8 +198,8 @@ int main(int argc, char** argv) {
       cvResize(framedouble,framedoublescaledup, CV_INTER_LINEAR);
 
       // display images
-      cvShowImage("CamCapDoubleWide", framedoublescaledup);
-      cvShowImage("CamCapDoubleWideSmall", framedouble);
+      cvShowImage("Cam_ScaledUp", framedoublescaledup);
+      cvShowImage("Cam_Original", framedouble);
       char cc = cvWaitKey(1);
 
       // check for key presses

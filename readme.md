@@ -130,7 +130,7 @@ Then run
     
     ./makescript
 
-Run following commands on device
+This should redirect all compile messages to the `compile.log` file. Run following commands on device
 
     ./load_stonyman.sh
     ./senseye_serv
@@ -145,10 +145,11 @@ Change address of SmartFusion board in `SensEye-2/software/client/senseye_client
 
     #define INSIGHT_SERV_ADDR     ("141.212.11.133") 
 
-Navigate to the `SensEye-2/software/client/senseye_client` directory and run
+Navigate to the `SensEye-2/software/client/senseye_client` directory and run. 
   
-    make
-    ./senseye_client
+    ./makescript
+
+This should redirect all compile messages to the file `compile.out`
 
 **Note**: while `senseye_serv` is running on the SmartFusion it waits for a connection from the client which is created by running `senseye_client`, then images should appear on the screen if a Stonyman is connected correctly.
 
