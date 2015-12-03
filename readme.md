@@ -20,6 +20,19 @@ successful
 
 **Note**: Libero can be installed on Linux, but has been found to be problematic
 
+##System Architecture
+
+See the diagram below for an overview of the hardware and software stack for SensEye-2:
+
+
+![alt tag](/software/system_architecture/overview.png) 
+
+The following slides describe in detail how the MMIO, File Interface, and TCP Socket function:
+
+![alt tag](/software/system_architecture/mmio.png) 
+![alt tag](/software/system_architecture/file.png) 
+![alt tag](/software/system_architecture/tcp_socket.png) 
+
 
 ## Setup
 ### Git
