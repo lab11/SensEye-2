@@ -3,6 +3,13 @@
 
 Based on the original SensEye design by Russ Bielawaski:  [repo](https://github.com/downbeat/senseye) 
 
+##System Architecture
+
+See the diagram below for an overview of the hardware and software stack for SensEye-2:
+
+
+![alt tag](/software/system_architecture/overview.png) 
+
 
 ## Installation
 ### A note on operating systems
@@ -19,20 +26,6 @@ successful
 3. Install service pack update (if on Windows 8, you may need to disable driver signatures in order to install the FlashPro driver)
 
 **Note**: Libero can be installed on Linux, but has been found to be problematic
-
-##System Architecture
-
-See the diagram below for an overview of the hardware and software stack for SensEye-2:
-
-
-![alt tag](/software/system_architecture/overview.png) 
-
-The following slides describe in detail how the MMIO, File Interface, and TCP Socket function:
-
-![alt tag](/software/system_architecture/mmio.png) 
-![alt tag](/software/system_architecture/file.png) 
-![alt tag](/software/system_architecture/tcp_socket.png) 
-
 
 ## Setup
 ### Git
