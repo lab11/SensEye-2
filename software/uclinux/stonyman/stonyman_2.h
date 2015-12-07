@@ -34,7 +34,7 @@
 #define IMG_CONFIG  16  //  bypasses amplifier
 #define IMG_NBIAS   48  //  set column offset (determined experimentally)
 #define IMG_AOBIAS  50  //   amplifier setting
-#define IMG_OFFSET  245 //used to set voltage offset of camera
+#define IMG_OFFSET  245 //   used to set voltage offset of camera
 
 //used for binning (reducing size of image further)
 #define IMG_VSW     0

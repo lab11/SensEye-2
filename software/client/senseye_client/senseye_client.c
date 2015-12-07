@@ -198,7 +198,7 @@ int main(int argc, char** argv) {
       cvResize(framedouble,framedoublescaledup, CV_INTER_LINEAR);
 
       // display images
-      cvShowImage("Cam_ScaledUp", framedoublescaledup);
+      cvShowImage("Cam_Doubled", framedoublescaledup);
       cvShowImage("Cam_Original", framedouble);
       char cc = cvWaitKey(1);
 
@@ -243,10 +243,10 @@ static void get_frame (int sd, uint8_t* recv_buf, uint16_t frame_size,
         val = 255;
       }
       //buffer on
-     // frame_buf[cam_id][i] = (unsigned char)val;
+     frame_buf[cam_id][i] = (unsigned char)val;
       
      //buffer off
-     frame_buf[cam_id][i] = (unsigned char)recv_buf[i];
+     //frame_buf[cam_id][i] = (unsigned char)recv_buf[i];
    }
 
    if (save_masks[cam_id]) {
@@ -338,8 +338,8 @@ static void terminate(int xx) {
    //if (framedoublescaledup != NULL) {
    //   cvReleaseImage(&framedoublescaledup);
    //}
-   cvDestroyWindow("CamCapDoubleWide");
-   cvDestroyWindow("CamCapDoubleWideSmall");
+   cvDestroyWindow("Cam_Doubled");
+   cvDestroyWindow("Cam_Original");
 
    exit(1);
 }
