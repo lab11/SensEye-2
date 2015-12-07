@@ -28,14 +28,15 @@
 #define IMG_TRACK_COUNTS 16
 #define IMG_PULSE_COUNTS 1
 
-//initialized by imager_apb_interface.v but set here
-#define IMG_VREF    40
-#define IMG_CONFIG  17
-#define IMG_NBIAS   50
-#define IMG_AOBIAS  50
-#define IMG_OFFSET  200
+//initialized by imager_apb_interface.v but set here by kernel
+	// by writing into registers
+#define IMG_VREF    32  // 	amplifier setting
+#define IMG_CONFIG  16  //  bypasses amplifier
+#define IMG_NBIAS   48  //  set column offset (determined experimentally)
+#define IMG_AOBIAS  50  //   amplifier setting
+#define IMG_OFFSET  245 //used to set voltage offset of camera
 
-//offset of second camera wrt first camera
+//used for binning (reducing size of image further)
 #define IMG_VSW     0
 #define IMG_HSW     0
 
