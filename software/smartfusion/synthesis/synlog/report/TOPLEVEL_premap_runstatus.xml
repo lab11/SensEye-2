@@ -13,7 +13,7 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>86</data>
+<data>79</data>
 <report_link name="more">
 <data>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synlog\report\TOPLEVEL_premap_notes.txt</data>
 </report_link>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>133MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1447267843</data>
+<data type="timestamp">1450116318</data>
 </info>
 </job_info>
 </job_run_status>

@@ -87,9 +87,9 @@
 @W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":137:9:137:15|Pruning instance AND2_22 -- not in use ...
 @W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":126:9:126:14|Pruning instance AND2_2 -- not in use ...
 @W: CL189 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Register bit PSLVERR is always 0, optimizing ...
-@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":182:14:182:26|No assignment to wire TP_PADDR_BIT2
-@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":212:14:212:28|No assignment to wire PADDRS0_slice_0
-@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":213:14:213:28|No assignment to wire PADDRS0_slice_1
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":224:14:224:26|No assignment to wire TP_PADDR_BIT2
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":267:14:267:28|No assignment to wire PADDRS0_slice_0
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":268:14:268:28|No assignment to wire PADDRS0_slice_1
 @W: CL260 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\cr_int.v":170:0:170:5|Pruning register bit 1 of nbyte_en[1:0] 
 @W: CL246 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\cr_int.v":24:13:24:20|Input port bits 31 to 25 of max_addr[31:0] are unused
 @W: CL246 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\cr_int.v":25:13:25:20|Input port bits 31 to 16 of reg_addr[31:0] are unused

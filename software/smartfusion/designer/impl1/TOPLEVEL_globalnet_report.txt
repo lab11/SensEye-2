@@ -5,7 +5,7 @@
 Product: Designer
 Release: v11.6
 Version: 11.6.0.34
-Date: Wed Nov 11 13:54:01 2015
+Date: Mon Dec 14 13:11:58 2015
 Design Name: TOPLEVEL  Family: SmartFusion  Die: A2F500M3G  Package: 484 FBGA
 
 
@@ -20,7 +20,7 @@ Global Nets Information:
         |-----------------------------------------------------|
         |Name                |Core      |IO        |RAM       |
         |-----------------------------------------------------|
-        |FAB_CLK             |     1029 |        1 |      256 |
+        |FAB_CLK             |     1036 |        1 |      256 |
         |-----------------------------------------------------|
 
 Summary of Global Net Placement:

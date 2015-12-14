@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Wed Nov 11 13:54:03 2015 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Mon Dec 14 13:12:01 2015 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.6
 Version: 11.6.0.34
@@ -103,7 +103,7 @@ C2                               Not Bonded                    Unconnected
 C3                               Not Bonded                    Unconnected
 C4                               IO01NDB0V0                    Unassigned
 C5                               IO01PDB0V0                    Unassigned
-C6                               EMC_CLK/GAA0/IO02NDB0V0       Special
+C6      cam1_adc_capture_done    EMC_CLK/GAA0/IO02NDB0V0       Special      LVTTL    12                 High  None           ---              No    35                No           No
 C7      cam0_adc_capture_start   IO03PPB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
 C8      cam0_fifo_afull          IO04NPB0V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
 C9      psram_nbyte_en[1]        EMC_BYTEN[1]/GAC1/IO07PDB0V0  Special      LVTTL    12                 High  None           ---              No    35                No           No
@@ -187,7 +187,7 @@ F20     cam0_incp                IO31PDB1V0                    Fixed        LVTT
 F21     cam0_resp                IO31NDB1V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
 F22                              IO32PDB1V0                    Unassigned
 G1                               GND                           Reserved
-G2                               GFB0/IO82NPB5V0               Special
+G2      cam1_incv                GFB0/IO82NPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
 G3      psram_data[9]            EMC_DB[9]/GEC1/IO80PDB5V0     Special      LVTTL    12                 High  None           No               No    35                No           No
 G4      cam0_inphi               GFC1/IO83PPB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
 G5      psram_data[11]           EMC_DB[11]/IO86PPB5V0         Fixed        LVTTL    12                 High  None           No               No    35                No           No
@@ -235,7 +235,7 @@ J2      psram_data[5]            EMC_DB[5]/GEA1/IO78PDB5V0     Special      LVTT
 J3      psram_data[4]            EMC_DB[4]/GEA0/IO78NDB5V0     Special      LVTTL    12                 High  None           No               No    35                No           No
 J4      psram_data[3]            EMC_DB[3]/GEC2/IO77PPB5V0     Special      LVTTL    12                 High  None           No               No    35                No           No
 J5                               VCCFPGAIOB5                   Reserved
-J6                               GFA0/IO81NDB5V0               Special
+J6      cam1_adc_capture_start   GFA0/IO81NDB5V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
 J7                               VCCFPGAIOB5                   Reserved
 J8                               GND                           Reserved
 J9                               VCC                           Reserved
@@ -246,7 +246,7 @@ J13                              VCC                           Reserved
 J14                              GND                           Reserved
 J15                              VCC                           Reserved
 J16                              GND                           Reserved
-J17                              IO37PDB1V0                    Unassigned
+J17     cam1_resv                IO37PDB1V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
 J18                              VCCFPGAIOB1                   Reserved
 J19     cam0_sclk                GCA0/IO36NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
 J20                              GCA1/IO36PDB1V0               Special
@@ -255,9 +255,9 @@ J22     cam0_sdata               GCB1/IO34PDB1V0               Special      LVTT
 K1                               GND                           Reserved
 K2      psram_data[0]            EMC_DB[0]/GEA2/IO76NDB5V0     Special      LVTTL    12                 High  None           No               No    35                No           No
 K3      psram_data[1]            EMC_DB[1]/GEB2/IO76PDB5V0     Special      LVTTL    12                 High  None           No               No    35                No           No
-K4                               IO74PPB5V0                    Unassigned
+K4      cam1_cs_n                IO74PPB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
 K5      psram_data[2]            EMC_DB[2]/IO77NPB5V0          Fixed        LVTTL    12                 High  None           No               No    35                No           No
-K6                               IO75PDB5V0                    Unassigned
+K6      cam1_sdata               IO75PDB5V0                    Fixed        LVTTL    ---                ---   None           No               ---   ---               No           No
 K7                               GND                           Reserved
 K8                               VCC                           Reserved
 K9                               GND                           Reserved
@@ -268,18 +268,18 @@ K13                              GND                           Reserved
 K14                              VCC                           Reserved
 K15                              GND                           Reserved
 K16                              VCCFPGAIOB1                   Reserved
-K17                              IO37NDB1V0                    Unassigned
+K17     cam1_inphi               IO37NDB1V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
 K18                              GDA1/IO40PDB1V0               Special
 K19                              GDA0/IO40NDB1V0               Special
 K20                              GDC1/IO38PDB1V0               Special
 K21                              GDC0/IO38NDB1V0               Special
 K22                              GND                           Reserved
-L1                               IO73PDB5V0                    Unassigned
-L2                               IO73NDB5V0                    Unassigned
+L1      cam1_incp                IO73PDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
+L2      cam1_resp                IO73NDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
 L3      cam0_incv                IO72PPB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
 L4                               GND                           Reserved
 L5                               IO74NPB5V0                    Unassigned
-L6                               IO75NDB5V0                    Unassigned
+L6      cam1_sclk                IO75NDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
 L7                               VCCFPGAIOB5                   Reserved
 L8                               GND                           Reserved
 L9                               VCC                           Reserved
@@ -297,9 +297,9 @@ L20                              GDB1/IO39PDB1V0               Special
 L21                              GDB0/IO39NDB1V0               Special
 L22                              GDC2/IO41PDB1V0               Special
 M1      pulse_out                IO71PDB5V0                    Fixed        LVTTL    12                 High  None           ---              No    35                No           No
-M2                               IO71NDB5V0                    Unassigned
+M2      cam1_fifo_empty          IO71NDB5V0                    Assigned     LVTTL    12                 High  None           ---              No    35                No           No
 M3                               VCCFPGAIOB5                   Reserved
-M4                               IO72NPB5V0                    Unassigned
+M4      cam1_fifo_full           IO72NPB5V0                    Assigned     LVTTL    12                 High  None           ---              No    35                No           No
 M5                               GNDQ                          Reserved
 M6                               IO68PDB5V0                    Unassigned
 M7                               GND                           Reserved
@@ -323,7 +323,7 @@ N2                               IO70PDB5V0                    Unassigned
 N3                               IO70NDB5V0                    Unassigned
 N4                               VCCRCOSC                      Reserved
 N5                               VCCFPGAIOB5                   Reserved
-N6                               IO68NDB5V0                    Unassigned
+N6      cam1_frame_capture_done  IO68NDB5V0                    Assigned     LVTTL    12                 High  None           ---              No    35                No           No
 N7                               VCCFPGAIOB5                   Reserved
 N8                               GND                           Reserved
 N9                               VCC                           Reserved
@@ -340,7 +340,7 @@ N19                              VCCENVM                       Reserved
 N20                              GNDENVM                       Reserved
 N21                              Not Bonded                    Unconnected
 N22                              GND                           Reserved
-P1                               IO69NDB5V0                    Unassigned
+P1      cam1_fifo_afull          IO69NDB5V0                    Assigned     LVTTL    12                 High  None           ---              No    35                No           No
 P2                               IO69PDB5V0                    Unassigned
 P3                               GNDRCOSC                      Reserved
 P4                               GND                           Reserved

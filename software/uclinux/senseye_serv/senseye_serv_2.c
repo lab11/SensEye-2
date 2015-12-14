@@ -163,8 +163,8 @@ void transmit_data( ) {
       fprintf(stderr, "Sent frames 0\n");
       
       //commented out because both cameras are not connected
-      //send_frame(1);
-      // fprintf(stderr, "Sent frames 1\n");
+      send_frame(1);
+      fprintf(stderr, "Sent frames 1\n");
 
    }
 }
@@ -186,7 +186,6 @@ void send_frame(uint8_t cam_id) {
    fprintf(stderr, "Reading frame from cam[%d], fd=%d\n", cam_id, stony_fd[cam_id]);
    int px_read = 0;
    while (px_read < frame_resolution[cam_id]) {
-      //fprintf(stderr, "px_read while loop\n");
 
       int ret_val = read(stony_fd[cam_id], &(img_buf[HEADER_SIZE]), frame_resolution[cam_id]);
       if (ret_val < 0) {
@@ -200,6 +199,11 @@ void send_frame(uint8_t cam_id) {
       //fprintf(stderr, "%d ,", img_buf[HEADER_SIZE + 1000] );
       //fprintf(stderr, "%d \n", img_buf[HEADER_SIZE + 8000] );
       px_read += ret_val;
+
+      //fprintf(stderr, "Px_read val: %d, ", px_read);
+      //fprintf(stderr, "Ret val: %d, ", ret_val);
+      //fprintf(stderr, "frame_res: %d, \n", frame_resolution[cam_id]);
+
    }
 
 if (cam_id == 0) {

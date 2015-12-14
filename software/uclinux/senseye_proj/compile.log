@@ -39,15 +39,14 @@ CFLAGS="-Os -mcpu=cortex-m3 -mthumb -I/home/srohrer/Dropbox/Lab11/release/linux-
 make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/stonyman'
 make -C /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux M=`pwd` modules CFLAGS="" LDFLAGS=""
 make[2]: Entering directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
-  CC [M]  /home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/stonyman/stonyman_2.o
   Building modules, stage 2.
   MODPOST 1 modules
-  LD [M]  /home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/stonyman/stonyman_2.ko
 make[2]: Leaving directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
 make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/stonyman'
 CFLAGS="-Os -mcpu=cortex-m3 -mthumb -I/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/root/usr/include" LDFLAGS="-mcpu=cortex-m3 -mthumb -L/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/root/usr/lib" make -C ../senseye_serv all
 make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/senseye_serv'
-make[1]: Nothing to be done for `all'.
+arm-uclinuxeabi-gcc -Os -mcpu=cortex-m3 -mthumb -I/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/root/usr/include -I ../stonyman   -c -o senseye_serv_2.o senseye_serv_2.c
+arm-uclinuxeabi-gcc -mcpu=cortex-m3 -mthumb -L/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/root/usr/lib -o senseye_serv_2 senseye_serv_2.o 
 make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/senseye_serv'
 cp -f senseye_proj.busybox /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/busybox/.config
 make -C /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/busybox
@@ -128,7 +127,7 @@ make[2]: `include/generated/mach-types.h' is up to date.
   Kernel: arch/arm/boot/Image is ready
   UIMAGE  arch/arm/boot/uImage
 Image Name:   Linux-2.6.33-arm1
-Created:      Mon Dec  7 13:32:38 2015
+Created:      Mon Dec 14 13:22:09 2015
 Image Type:   ARM Linux Kernel Image (uncompressed)
 Data Size:    1442496 Bytes = 1408.69 kB = 1.38 MB
 Load Address: 70008000

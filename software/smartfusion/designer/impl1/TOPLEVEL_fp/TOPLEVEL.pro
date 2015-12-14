@@ -66,14 +66,6 @@
                 <ClkMode>
                     FreeRunningClk
                 </ClkMode>
-            </FlashPro5>
-            <FlashPro5>
-                <TCK>
-                    4000000
-                </TCK>
-                <ClkMode>
-                    FreeRunningClk
-                </ClkMode>
                 <ProgrammingMode>
                     JTAGMode
                 </ProgrammingMode>

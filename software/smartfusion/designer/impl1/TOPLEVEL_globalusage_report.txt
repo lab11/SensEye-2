@@ -5,7 +5,7 @@
 Product: Designer
 Release: v11.6
 Version: 11.6.0.34
-Date: Wed Nov 11 13:54:02 2015
+Date: Mon Dec 14 13:11:58 2015
 Design Name: TOPLEVEL  Family: SmartFusion  Die: A2F500M3G  Package: 484 FBGA
 Design State: Post-Layout
 
@@ -13,7 +13,7 @@ The following nets have been routed to a chip global resource:
 
     Fanout            Name
     ----------------------
-    1047              Net   : FAB_CLK
+    1054              Net   : FAB_CLK
                       Driver: MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2
 
 
