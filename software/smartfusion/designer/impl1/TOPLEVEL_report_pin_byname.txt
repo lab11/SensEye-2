@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Mon Dec 14 13:12:00 2015 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Wed Jan 13 15:34:20 2016 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.6
 Version: 11.6.0.34
@@ -24,13 +24,13 @@ cam0_resp                F21   Yes    IO31NDB1V0                    LVTTL    12 
 cam0_resv                E22   Yes    IO32NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam0_sclk                J19   Yes    GCA0/IO36NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
 cam0_sdata               J22   Yes    GCB1/IO34PDB1V0               LVTTL    ---                ---   None           No               ---   ---               No           No
-cam1_adc_capture_done    C6    No     EMC_CLK/GAA0/IO02NDB0V0       LVTTL    12                 High  None           ---              No    35                No           No
-cam1_adc_capture_start   J6    No     GFA0/IO81NDB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+cam1_adc_capture_done    J6    No     GFA0/IO81NDB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+cam1_adc_capture_start   F1    No     GFB1/IO82PPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
 cam1_cs_n                K4    Yes    IO74PPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam1_fifo_afull          P1    No     IO69NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam1_fifo_empty          M2    No     IO71NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+cam1_fifo_afull          M6    No     IO68PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+cam1_fifo_empty          L5    No     IO74NPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam1_fifo_full           M4    No     IO72NPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam1_frame_capture_done  N6    No     IO68NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+cam1_frame_capture_done  M2    No     IO71NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam1_incp                L1    Yes    IO73PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam1_incv                G2    Yes    GFB0/IO82NPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
 cam1_inphi               K17   Yes    IO37NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No

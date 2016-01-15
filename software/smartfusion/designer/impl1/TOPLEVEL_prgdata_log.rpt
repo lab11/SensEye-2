@@ -8,8 +8,8 @@ Info: The design
 Opened an existing Libero design
 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb.
 
-The Export-map command succeeded ( 00:00:13 )
-CHECKSUM: 689E
+The Export-map command succeeded ( 00:00:12 )
+CHECKSUM: 16F6
 Wrote to the file:
 C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.fdb
 
@@ -17,6 +17,6 @@ The Export command succeeded ( 00:00:15 )
 Design saved to file
 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/designer/impl1/TOPLEVEL.adb.
 
-The Execute Script command succeeded ( 00:00:18 )
+The Execute Script command succeeded ( 00:00:17 )
 Design closed.
 

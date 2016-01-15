@@ -1,7 +1,7 @@
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Dec 14 13:06:11 2015
+# Timing Report written on Wed Jan 13 15:31:39 2016
 #
 
 
@@ -28,7 +28,7 @@ Worst slack in design: 0.225
                    Requested     Estimated     Requested     Estimated                 Clock        Clock          
 Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group          
 -------------------------------------------------------------------------------------------------------------------
-FAB_CLK            40.0 MHz      23.5 MHz      25.000        42.489        -17.489     declared     clk_group_0    
+FAB_CLK            40.0 MHz      23.8 MHz      25.000        42.070        -17.070     declared     clk_group_0    
 FCLK               40.0 MHz      NA            25.000        NA            NA          declared     clk_group_0    
 System             80.0 MHz      171.5 MHz     12.500        5.831         6.669       system       system_clkgroup
 ===================================================================================================================
@@ -154,6 +154,8 @@ MSS_CORE3_MSS_0.MSSINT_GPI_0           System        MSSINT         Y          M
 MSS_CORE3_MSS_0.MSSINT_GPI_1           System        MSSINT         Y          MSSINT_GPI_1_Y            0.000       0.225
 MSS_CORE3_MSS_0.MSSINT_GPI_2           System        MSSINT         Y          MSSINT_GPI_2_Y            0.000       0.225
 MSS_CORE3_MSS_0.MSSINT_GPI_3           System        MSSINT         Y          MSSINT_GPI_3_Y            0.000       0.225
+MSS_CORE3_MSS_0.MSSINT_GPI_4           System        MSSINT         Y          MSSINT_GPI_4_Y            0.000       0.225
+MSS_CORE3_MSS_0.MSSINT_GPI_5           System        MSSINT         Y          MSSINT_GPI_5_Y            0.000       0.225
 MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        EMCCLK     MSS_ADLIB_INST_EMCCLK     0.000       0.225
 MSS_CORE3_MSS_0.MSS_CCC_0.I_XTLOSC     System        MSS_XTLOSC     CLKOUT     N_CLKA_XTLOSC             0.000       5.638
 ==========================================================================================================================
@@ -171,6 +173,8 @@ MSS_CORE3_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[0]        MSSIN
 MSS_CORE3_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[1]        MSSINT_GPI_1_Y             0.000        0.225
 MSS_CORE3_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[2]        MSSINT_GPI_2_Y             0.000        0.225
 MSS_CORE3_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[3]        MSSINT_GPI_3_Y             0.000        0.225
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[4]        MSSINT_GPI_4_Y             0.000        0.225
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     GPI[5]        MSSINT_GPI_5_Y             0.000        0.225
 MSS_CORE3_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     PLLLOCK       MSS_ADLIB_INST_PLLLOCK     0.000        5.638
 ========================================================================================================================
 

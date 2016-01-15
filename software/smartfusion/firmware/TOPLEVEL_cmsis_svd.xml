@@ -2,7 +2,7 @@
 <device>
   <name>TOPLEVEL</name>
   <version>1.0</version>
-  <description>CMSIS description for TOPLEVEL.  Created by Microsemi SmartDesign on Mon Dec 14 13:04:57 2015</description>
+  <description>CMSIS description for TOPLEVEL.  Created by Microsemi SmartDesign on Wed Jan 13 15:30:09 2016</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>

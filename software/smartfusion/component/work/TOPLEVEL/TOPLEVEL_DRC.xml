@@ -3,10 +3,17 @@
 <drcreport>
   <header>TOPLEVEL</header>
   <drc>
-    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin TOPLEVEL:F2M_GPI_3</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/TOPLEVEL/pins/TOPLEVEL:F2M_GPI_3</crossprobe>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin MSS_CORE3_MSS_0:F2M_GPI_5</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TOPLEVEL/pins/MSS_CORE3_MSS_0:F2M_GPI_5</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_v11.6\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin MSS_CORE3_MSS_0:F2M_GPI_4</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TOPLEVEL/pins/MSS_CORE3_MSS_0:F2M_GPI_4</crossprobe>
   </drc>
 </drcreport>

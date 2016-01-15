@@ -54,13 +54,13 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116292"
+TIME="1452717004"
 SIZE="3714"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1450116292"
+TIME="1452717004"
 SIZE="2649"
 PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
 IS_READONLY="TRUE"
@@ -157,13 +157,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\COREAHBTOAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116292"
+TIME="1452717004"
 SIZE="2540"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1450116292"
+TIME="1452717004"
 SIZE="328"
 PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\COREAHBTOAPB3.cxf"
 IS_READONLY="TRUE"
@@ -243,13 +243,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116292"
+TIME="1452717004"
 SIZE="2278"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1450116292"
+TIME="1452717004"
 SIZE="886"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
 IS_READONLY="TRUE"
@@ -290,7 +290,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS\2.5.106\MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116186"
+TIME="1452533023"
 SIZE="945"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
@@ -308,97 +308,97 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CCC\2.0.106\MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116181"
+TIME="1452533018"
 SIZE="252"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116181"
+TIME="1452533018"
 SIZE="252"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_COM\1.0.200\MSS_COM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116181"
+TIME="1452533018"
 SIZE="252"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_DMA\1.0.101\MSS_DMA.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116181"
+TIME="1452533018"
 SIZE="252"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_ENVM\2.3.102\MSS_ENVM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="253"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIC\1.0.101\MSS_FIC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="252"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_FIO\1.0.203\MSS_FIO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="252"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_GPIO\1.0.101\MSS_GPIO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="253"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_INTR\1.0.101\MSS_INTR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="253"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_MAC\2.1.101\MSS_MAC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="252"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RESET\1.0.101\MSS_RESET.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="254"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_RTC\1.0.100\MSS_RTC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="252"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_TIMER\1.0.100\MSS_TIMER.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="254"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UART\1.0.101\MSS_UART.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="253"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_UFROM\1.0.100\MSS_UFROM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="254"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\SmartFusionMSS\MSS_WATCHDOG\1.0.101\MSS_WATCHDOG.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="257"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
@@ -414,39 +414,39 @@ SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116181"
+TIME="1452533017"
 SIZE="493"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
 VALUE "<project>\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v,hdl"
 STATE="utd"
-TIME="1450116181"
+TIME="1452533017"
 SIZE="2943"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116187"
-SIZE="16044"
+TIME="1452533024"
+SIZE="16356"
 ENDFILE
 VALUE "<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v,hdl"
 STATE="utd"
-TIME="1450116186"
-SIZE="24926"
+TIME="1452533023"
+SIZE="25462"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\MSS_CORE3_MSS\MSS_ENVM_0\MSS_ENVM_0.efc,efc"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="16173"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\MSS_CORE3_MSS\mss_tshell.v,hdl"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="12560"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -458,7 +458,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\MSS_CORE3_MSS\mss_tshell_syn.sdc,sdc"
 STATE="utd"
-TIME="1450116183"
+TIME="1452533019"
 SIZE="196"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -470,13 +470,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\TOPLEVEL\TOPLEVEL.cxf,actgen_cxf"
 STATE="utd"
-TIME="1450116298"
+TIME="1452717010"
 SIZE="13980"
 ENDFILE
 VALUE "<project>\component\work\TOPLEVEL\TOPLEVEL.pdc,pdc"
 STATE="utd"
-TIME="1450116291"
-SIZE="2536"
+TIME="1452717003"
+SIZE="1609"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 BEGIN_USE_CONSTRAINT
 TOOL_CONSTRAINT_TYPE="ideDESIGNER"
@@ -486,8 +486,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\TOPLEVEL\TOPLEVEL.v,hdl"
 STATE="utd"
-TIME="1450116292"
-SIZE="50071"
+TIME="1452717005"
+SIZE="50141"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -508,18 +508,18 @@ SIZE="329"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.adb,adb"
 STATE="utd"
-TIME="1447268077"
-SIZE="18543616"
+TIME="1450116757"
+SIZE="18746880"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.fdb,fdb"
 STATE="utd"
-TIME="1450116756"
-SIZE="207494"
+TIME="1452717292"
+SIZE="205594"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.ide_des,ide_des"
 STATE="utd"
-TIME="1447268078"
-SIZE="1441"
+TIME="1450116758"
+SIZE="1442"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_ba.sdf,ba_sdf"
 STATE="ood"
@@ -528,8 +528,8 @@ SIZE="1369522"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_compile_log.rpt,log"
 STATE="utd"
-TIME="1450116398"
-SIZE="323766"
+TIME="1452717129"
+SIZE="119871"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_floorplan_log.rpt,log"
 STATE="utd"
@@ -538,32 +538,32 @@ SIZE="1056"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\projectData\TOPLEVEL.pdb,pdb"
 STATE="utd"
-TIME="1446487258"
-SIZE="289339"
+TIME="1450116844"
+SIZE="213052"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pdb,pdb"
-STATE="utd"
-TIME="1446487258"
-SIZE="289339"
+STATE="ood"
+TIME="1450116844"
+SIZE="213052"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pro,pro"
 STATE="utd"
-TIME="1446487396"
-SIZE="2644"
+TIME="1450116844"
+SIZE="2426"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1450116722"
+TIME="1452717262"
 SIZE="2654"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1450116758"
+TIME="1452717293"
 SIZE="752"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1450116739"
+TIME="1452717274"
 SIZE="1192"
 ENDFILE
 VALUE "<project>\designer\impl1\VersionROM.ide_des,ide_des"
@@ -611,10 +611,20 @@ STATE="utd"
 TIME="1447454331"
 SIZE="16385"
 ENDFILE
+VALUE "<project>\hdl\img_search.v,hdl"
+STATE="utd"
+TIME="1452704365"
+SIZE="515"
+ENDFILE
 VALUE "<project>\hdl\psram_cr.v,hdl"
 STATE="utd"
 TIME="1446487259"
 SIZE="2460"
+ENDFILE
+VALUE "<project>\hdl\pupil_detect.v,hdl"
+STATE="utd"
+TIME="1452704378"
+SIZE="507"
 ENDFILE
 VALUE "<project>\hdl\stonyman_controller.v,hdl"
 STATE="utd"
@@ -683,13 +693,13 @@ SIZE="1672"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1450116292"
+TIME="1452717005"
 SIZE="662"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 ENDFILE
 VALUE "<project>\simulation\test.bfm,sim"
 STATE="utd"
-TIME="1450116182"
+TIME="1452533018"
 SIZE="5497"
 PARENT="<project>\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.cxf"
 ENDFILE
@@ -711,12 +721,12 @@ SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.edn,syn_edn"
 STATE="utd"
-TIME="1447267876"
-SIZE="4080056"
+TIME="1450116370"
+SIZE="3904690"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.so,so"
 STATE="utd"
-TIME="1447267876"
+TIME="1450116370"
 SIZE="243"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.v,syn_hdl"
@@ -731,12 +741,12 @@ SIZE="25309"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1447267876"
+TIME="1450116370"
 SIZE="546"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL_syn.prj,prj"
 STATE="utd"
-TIME="1447267877"
+TIME="1450116371"
 SIZE="6019"
 ENDFILE
 ENDLIST
@@ -1042,10 +1052,10 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Program Device:TOPLEVEL_program.log
-StartPage;StartPage;0
+ReportsCurrentItem;Generate Programming Data:TOPLEVEL_prgdata_log.rpt
 SmartDesign;TOPLEVEL;0
 SmartDesign;MSS_CORE3_MSS;0
+HDL;hdl\imager.v;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
@@ -1101,6 +1111,8 @@ SUBBLOCK "imager_apb_interface::work","hdl\imager_apb_interface.v","FALSE","FALS
 SUBBLOCK "stonyman::work","hdl\stonyman_controller.v","FALSE","FALSE"
 ENDLIST
 LIST "imager_apb_interface::work","hdl\imager_apb_interface.v","FALSE","FALSE"
+ENDLIST
+LIST "img_search::work","hdl\img_search.v","FALSE","FALSE"
 ENDLIST
 LIST "INBUF_LVDS_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
 ENDLIST
@@ -1158,6 +1170,8 @@ ENDLIST
 LIST "psram_cr::work","hdl\psram_cr.v","FALSE","FALSE"
 SUBBLOCK "AHB::work","hdl\ahb.v","FALSE","FALSE"
 SUBBLOCK "cr_int::work","hdl\cr_int.v","FALSE","FALSE"
+ENDLIST
+LIST "pupil_detect::work","hdl\pupil_detect.v","FALSE","FALSE"
 ENDLIST
 LIST "SmartFusion_CMSIS_PAL::work","","FALSE","FALSE"
 ENDLIST

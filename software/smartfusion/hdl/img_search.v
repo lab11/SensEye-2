@@ -1,0 +1,25 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// Company: University of Michigan
+//
+// File: img_search.v
+//
+// Description:
+//  using hint from pupil_detect.v, determines depth of image where user looking
+//
+// Targeted device: <Family::SmartFusion> <Die::A2F500M3G> <Package::484 FBGA>
+// Author: Samuel Rohrer
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+module img_search ( 
+
+
+
+
+	);
+
+
+
+endmodule 
