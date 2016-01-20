@@ -36,7 +36,7 @@ params.filterByInertia = True
 params.minInertiaRatio = 0.01
 
 # Create a detector with the parameters
-detector = cv2.SimpleBlobDetector(params)
+detector = cv2.SimpleBlobDetector_create(params)
 
 # Detect blobs.
 keypoints = detector.detect(im)
@@ -51,6 +51,6 @@ im_with_keypoints = cv2.drawKeypoints(im, keypoints, np.array([]), (0,0,255), cv
 cv2.imshow("Keypoints", im_with_keypoints)
 
 elapsedTime = time.time()-startTime
-print("Runtime of Blob Detection:" + str(elapsedTime))
+print("Runtime of Blob Detection: " + str(elapsedTime) + " seconds")
 
 cv2.waitKey(0)

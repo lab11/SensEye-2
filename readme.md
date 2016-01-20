@@ -10,6 +10,23 @@ See the diagram below for an overview of the hardware and software stack for Sen
 
 ![alt tag](/software/system_architecture/overview.png) 
 
+##OpenCV Image Processing
+There are currently two python scripts written to implement OpenCV functions on top of images captured from the system. They are located in `software/client/opencv_detection` and also have the ability to measure run-time. Examples are shown below:
+### Blob Detection 
+Used to find the location of the pupil on the inward facing camera.
+
+	python blob_detect.py
+	Runtime of Blob Detection: 0.161993980408 seconds
+
+
+### Depth Detection
+Used to calculate the depth of the image based on the disparity between the two outward facing cameras.
+
+	python disparity.py
+	Runtime of Depth Detection: 0.360285043716 seconds
+
+To complete this processing in real-time on the host computer, the run-time would have to be on the order of `0.04 seconds` as the imager captures images at a rate of approximately `25 hertz`.   
+
 
 ## Installation
 ### A note on operating systems
