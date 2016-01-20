@@ -36,7 +36,7 @@ params.filterByInertia = True
 params.minInertiaRatio = 0.01
 
 # Create a detector with the parameters
-detector = cv2.SimpleBlobDetector_create(params)
+detector = cv2.SimpleBlobDetector(params)
 
 # Detect blobs.
 keypoints = detector.detect(im)
