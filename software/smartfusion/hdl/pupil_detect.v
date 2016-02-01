@@ -14,7 +14,11 @@
 
 module pupil_detect(
 
+	input img_buf;
 
+
+
+	output reg [8:0] pupil_location;
 
 
 

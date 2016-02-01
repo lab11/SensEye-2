@@ -213,6 +213,7 @@ postsynth = postsynth
 
 
 
+
 syncad_vhdl_lib = C:\Microsemi\Libero_v11.6\Designer/lib/actel/syncad_vhdl_lib
 
 [vcom]

@@ -508,8 +508,8 @@ SIZE="329"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.adb,adb"
 STATE="utd"
-TIME="1450116757"
-SIZE="18746880"
+TIME="1452717292"
+SIZE="18738176"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.fdb,fdb"
 STATE="utd"
@@ -518,7 +518,7 @@ SIZE="205594"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.ide_des,ide_des"
 STATE="utd"
-TIME="1450116758"
+TIME="1452717293"
 SIZE="1442"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_ba.sdf,ba_sdf"
@@ -613,8 +613,8 @@ SIZE="16385"
 ENDFILE
 VALUE "<project>\hdl\img_search.v,hdl"
 STATE="utd"
-TIME="1452704365"
-SIZE="515"
+TIME="1453481582"
+SIZE="729"
 ENDFILE
 VALUE "<project>\hdl\psram_cr.v,hdl"
 STATE="utd"
@@ -623,8 +623,8 @@ SIZE="2460"
 ENDFILE
 VALUE "<project>\hdl\pupil_detect.v,hdl"
 STATE="utd"
-TIME="1452704378"
-SIZE="507"
+TIME="1453322405"
+SIZE="559"
 ENDFILE
 VALUE "<project>\hdl\stonyman_controller.v,hdl"
 STATE="utd"
@@ -721,12 +721,12 @@ SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.edn,syn_edn"
 STATE="utd"
-TIME="1450116370"
-SIZE="3904690"
+TIME="1452717099"
+SIZE="3908239"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.so,so"
 STATE="utd"
-TIME="1450116370"
+TIME="1452717099"
 SIZE="243"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.v,syn_hdl"
@@ -741,12 +741,12 @@ SIZE="25309"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1450116370"
+TIME="1452717099"
 SIZE="546"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL_syn.prj,prj"
 STATE="utd"
-TIME="1450116371"
+TIME="1452717100"
 SIZE="6019"
 ENDFILE
 ENDLIST
@@ -773,6 +773,17 @@ VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\test\
 VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\test\amba_bfm\bfm_apbslave.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\test\amba_bfm\bfm_apbslaveext.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
 ENDLIST
 ENDLIST
 LIST "MSS_CORE3_MSS::work"
@@ -840,6 +851,17 @@ LIST AssociatedStimulus
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\coreparameters.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\test\user\testbench.v,tb_hdl"
 ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST "CoreAHBLite::COREAHBLITE_LIB"
 FILE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v,hdl"
@@ -855,6 +877,17 @@ ENDLIST
 LIST AssociatedStimulus
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\coreparameters.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
 ENDLIST
 ENDLIST
 ENDLIST
@@ -977,8 +1010,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -1011,6 +1044,17 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "COREAHBTOAPB3::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 LIST "TOPLEVEL::work"
 LIST Impl1
 LiberoState=Post_Layout
@@ -1038,6 +1082,28 @@ VALUE "<project>\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pro,pro"
 ENDUsed_File_List
 ENDLIST
 ENDLIST
+LIST "CoreAPB3::COREAPB3_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "CoreAHBLite::COREAHBLITE_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -1052,10 +1118,11 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Generate Programming Data:TOPLEVEL_prgdata_log.rpt
+ReportsCurrentItem;Place and Route:TOPLEVEL_place_and_route_report.txt
 SmartDesign;TOPLEVEL;0
 SmartDesign;MSS_CORE3_MSS;0
 HDL;hdl\imager.v;0
+StartPage;StartPage;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
@@ -1111,8 +1178,6 @@ SUBBLOCK "imager_apb_interface::work","hdl\imager_apb_interface.v","FALSE","FALS
 SUBBLOCK "stonyman::work","hdl\stonyman_controller.v","FALSE","FALSE"
 ENDLIST
 LIST "imager_apb_interface::work","hdl\imager_apb_interface.v","FALSE","FALSE"
-ENDLIST
-LIST "img_search::work","hdl\img_search.v","FALSE","FALSE"
 ENDLIST
 LIST "INBUF_LVDS_MCCC::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
 ENDLIST
@@ -1170,8 +1235,6 @@ ENDLIST
 LIST "psram_cr::work","hdl\psram_cr.v","FALSE","FALSE"
 SUBBLOCK "AHB::work","hdl\ahb.v","FALSE","FALSE"
 SUBBLOCK "cr_int::work","hdl\cr_int.v","FALSE","FALSE"
-ENDLIST
-LIST "pupil_detect::work","hdl\pupil_detect.v","FALSE","FALSE"
 ENDLIST
 LIST "SmartFusion_CMSIS_PAL::work","","FALSE","FALSE"
 ENDLIST
