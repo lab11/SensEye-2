@@ -3487,53 +3487,30 @@ To use, set global attributes TITLE, AUTHOR and REV in your schematic.</descript
 <wire x1="152.4" y1="134.62" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!CS1" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="!CS"/>
-<wire x1="152.4" y1="127" x2="137.16" y2="127" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="!CS"/>
-<wire x1="137.16" y1="88.9" x2="152.4" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="88.9" x2="152.4" y2="127" width="0.1524" layer="91"/>
-<junction x="152.4" y="127"/>
-<pinref part="JP6" gate="G$1" pin="16"/>
-<wire x1="152.4" y1="127" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="132.08" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SCLK" class="0">
+<net name="SCLK1" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SCLK"/>
-<wire x1="137.16" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="116.84" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="116.84" x2="157.48" y2="127" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SCLK"/>
-<wire x1="137.16" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="154.94" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
-<junction x="147.32" y="116.84"/>
+<wire x1="137.16" y1="116.84" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="SCLK"/>
 <wire x1="137.16" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="78.74" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="20"/>
+<wire x1="157.48" y1="116.84" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="121.92" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
 <junction x="157.48" y="116.84"/>
-<pinref part="JP6" gate="G$1" pin="18"/>
-<wire x1="157.48" y1="127" x2="231.14" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SDATA" class="0">
+<net name="SDATA1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SDATA"/>
 <pinref part="U2" gate="G$1" pin="SDATA"/>
-<wire x1="137.16" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="121.92" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="160.02" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<junction x="149.86" y="121.92"/>
+<wire x1="137.16" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="SDATA"/>
 <wire x1="137.16" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="83.82" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="121.92" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="19"/>
+<wire x1="154.94" y1="124.46" x2="231.14" y2="124.46" width="0.1524" layer="91"/>
 <junction x="154.94" y="121.92"/>
-<pinref part="JP6" gate="G$1" pin="17"/>
-<wire x1="154.94" y1="129.54" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3565,9 +3542,39 @@ To use, set global attributes TITLE, AUTHOR and REV in your schematic.</descript
 <pinref part="D2" gate="G$1" pin="CATHODE"/>
 <wire x1="220.98" y1="106.68" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="101.6" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="19"/>
-<wire x1="220.98" y1="106.68" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="124.46" x2="231.14" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="106.68" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="22"/>
+<wire x1="220.98" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCLK0" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SCLK"/>
+<wire x1="137.16" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="154.94" x2="147.32" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="17"/>
+<wire x1="147.32" y1="129.54" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="!CS"/>
+<pinref part="U3" gate="G$1" pin="!CS"/>
+<wire x1="137.16" y1="88.9" x2="152.4" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="88.9" x2="152.4" y2="127" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="127" x2="137.16" y2="127" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="18"/>
+<wire x1="152.4" y1="127" x2="231.14" y2="127" width="0.1524" layer="91"/>
+<junction x="152.4" y="127"/>
+</segment>
+</net>
+<net name="SDATA0" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="16"/>
+<wire x1="231.14" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="132.08" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="SDATA"/>
+<wire x1="149.86" y1="160.02" x2="137.16" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
