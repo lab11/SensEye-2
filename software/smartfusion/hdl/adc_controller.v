@@ -69,7 +69,7 @@ module adc_controller (
  	// provides a line of the image at a time to pupil_detect
 	//top bit img_buf_newline is set to 0xFF when
 	//  line capture complete
-	output wire [8:0] img_buf_newline [MAX_RESOLUTION:0]
+	output wire [8:0] img_buf_newline [`MAX_RESOLUTION:0]
 
     );
 

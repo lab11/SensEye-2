@@ -31,7 +31,7 @@ module pupil_detect(
 	//top bit img_buf_newline is set to 0xFF when
 	//  line capture complete
 	input wire [8:0] img_buf_newline [`MAX_RESOLUTION:0],
-	input wire cam_frame_capture_start,
+	input wire frame_capture_start,
 	//from system
 	input wire clock,
 	input wire reset,
@@ -72,7 +72,7 @@ module pupil_detect(
 		case (state)
 		//wait for cam_frame_capture_start
 		`WAIT: begin
-			if(cam_frame_capture_start)
+			if(frame_capture_start)
 				next_state = `COMPARE_PIXELS;
 			else begin
 				next_state = `WAIT;

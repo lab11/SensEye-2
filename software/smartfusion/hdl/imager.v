@@ -11,6 +11,8 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
+//define max resolution
+`define MAX_RESOLUTION 112
 
 module imager (
     input wire clk,
@@ -117,6 +119,25 @@ module imager (
     wire [9:0]  cam0_mask_addr;
     wire [15:0] cam0_mask_data;
 
+    //control and line output
+    wire cam0_newline_sample;
+    //anyway to avoid this declaration? (lots of memory)
+    output wire [8:0] cam0_img_buf_newline [`MAX_RESOLUTION:0];
+    wire [7:0] pupil_loc_h;
+    wire [7:0] pupil_loc_v;
+
+    // pupil detection module
+    pupil_detect blob_detect (
+    	.img_buf_newline           (cam0_img_buf_newline),
+    	.frame_capture_start       (cam0_frame_capture_start),
+    	.clock                     (clk),
+    	.reset                     (reset),
+    	//where to put these signals?
+    	.pupil_location_horizontal (pupil_loc_h),
+    	.pupil_location_vertical   (pupil_loc_v)
+
+    );
+
     // ADC controller
     adc_controller adc0 (
         .clk                (clk),
@@ -126,11 +147,13 @@ module imager (
         .track_counts       (track_counts),
         .val_offset         (cam0_val_offset),
         .sdata              (cam0_sdata),
+        .newline_sample     (cam0_newline_sample),
         .adc_capture_done   (cam0_adc_capture_done),
         .fifo_write_enable  (cam0_fifo_write_enable),
         .fifo_write_data    (cam0_fifo_write_data),
         .sclk               (cam0_sclk),
-        .cs_n               (cam0_cs_n)
+        .cs_n               (cam0_cs_n),
+        .img_buf_newline    (cam0_newline_sample)
     );
 
     // Stonyman controller
@@ -156,7 +179,8 @@ module imager (
         .incv                   (cam0_incv),
         .inphi                  (cam0_inphi),
         .mask_pixel_row         (cam0_mask_pixel_row),
-        .mask_pixel_col         (cam0_mask_pixel_col)
+        .mask_pixel_col         (cam0_mask_pixel_col),
+        .newline_sample         (cam0_newline_sample)
     //   .main_state             (main_state_0)
     );
 
@@ -213,6 +237,11 @@ module imager (
     wire [5:0] cam1_config_value;
     wire [5:0] cam1_nbias_value;
     wire [5:0] cam1_aobias_value;
+    //control and line output
+    wire cam1_newline_sample;
+    //anyway to avoid this declaration? (lots of memory)
+    output wire [8:0] cam1_img_buf_newline [`MAX_RESOLUTION:0];
+
 
     // ADC settings
     wire [11:0] cam11_val_offset;
@@ -234,11 +263,13 @@ module imager (
         .track_counts       (track_counts),
         .val_offset         (cam11_val_offset),
         .sdata              (cam1_sdata),
+        .newline_sample     (cam1_newline_sample),
         .adc_capture_done   (cam1_adc_capture_done),
         .fifo_write_enable  (cam1_fifo_write_enable),
         .fifo_write_data    (cam1_fifo_write_data),
         .sclk               (cam1_sclk),
-        .cs_n               (cam1_cs_n)
+        .cs_n               (cam1_cs_n),
+        .img_buf_newline	(cam1_img_buf_newline)
     );
 
     // Stonyman controller
@@ -264,7 +295,8 @@ module imager (
         .incv                   (cam1_incv),
         .inphi                  (cam1_inphi),
         .mask_pixel_row         (cam1_mask_pixel_row),
-        .mask_pixel_col         (cam1_mask_pixel_col)
+        .mask_pixel_col         (cam1_mask_pixel_col),
+        .newline_sample			(cam1_newline_sample)
     //    .main_state             (main_state_1)
 
     );
