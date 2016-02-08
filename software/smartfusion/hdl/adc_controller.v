@@ -34,6 +34,9 @@
 // Probably don't need to modify unless you aren't running at 5v
 `define BIT_OFFSET 1
 
+//Max Resolution (used for sending lines)
+`define MAX_RESOLUTION 112
+
 module adc_controller (
     input wire clk,
     input wire reset,
@@ -51,6 +54,9 @@ module adc_controller (
     // ADC Data
     input wire sdata,
 
+    //high when a new line is being sampled, low otherwise 
+    input wire newline_sample,
+
     // Status signal
     output reg adc_capture_done,
     output reg fifo_write_enable,
@@ -58,7 +64,13 @@ module adc_controller (
 
     // ADC Control
     output reg sclk,
-    output reg cs_n
+    output reg cs_n,
+
+ 	// provides a line of the image at a time to pupil_detect
+	//top bit img_buf_newline is set to 0xFF when
+	//  line capture complete
+	output wire [8:0] img_buf_newline [`MAX_RESOLUTION:0]
+
     );
 
     reg [`STATE_BITS-1:0] adc_state;
@@ -78,6 +90,9 @@ module adc_controller (
     reg adc_capture_done_nxt;
     reg sclk_nxt;
     reg cs_n_nxt;
+
+    // count pixels
+    reg [7:0] pixel_increment = 0;
 
     task FIFO;
     begin
@@ -112,6 +127,13 @@ module adc_controller (
             fifo_write_data = ~(8'hFF);
         end else begin
             fifo_write_data = ~(tmp_data[7+`BIT_OFFSET:0+`BIT_OFFSET]);
+        end
+
+        //write data into a buffer to be passed to pupil_detect
+        if(pixel_increment == `MAX_RESOLUTION ) begin
+        	img_buf_newline[pixel_increment] = ~(8'h00);
+        end else if (pixel_increment < `MAX_RESOLUTION) begin
+        	img_buf_newline[pixel_increment] = fifo_write_data;
         end
 
         adc_capture_done_nxt = 0;
@@ -197,6 +219,13 @@ module adc_controller (
     end
 
     always @(posedge clk) begin
+        //used to control the pixel_increment based on newlines
+		if (newline_sample) begin
+        	pixel_increment = 0;
+        end else begin
+        	pixel_increment = pixel_increment + 1;
+        end
+
         if (reset) begin
             adc_state <= `IDLE;
 
@@ -210,12 +239,15 @@ module adc_controller (
             sclk <= 1;
             cs_n <= 1;
 
+            //reset pixel increment (new line/reset)
+            pixel_increment = 0;
         end else begin
             adc_state <= adc_state_nxt;
 
             capture_requested <= capture_requested_nxt;
 
             timer <= timer_nxt;
+
             adc_data <= adc_data_nxt;
 
             fifo_write_enable <= fifo_write_enable_nxt;

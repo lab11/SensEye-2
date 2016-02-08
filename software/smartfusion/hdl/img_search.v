@@ -23,7 +23,7 @@ module img_search (
 
 
 	//only store ~100 pixels of each image and do compare all at one
-	//then sum up and quickly find the disparity?? -- pass that value up
+	//then sum up and quickly find the disparity??  -- pass that value up
 
 	);
 

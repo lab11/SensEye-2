@@ -613,8 +613,8 @@ SIZE="16385"
 ENDFILE
 VALUE "<project>\hdl\img_search.v,hdl"
 STATE="utd"
-TIME="1453481582"
-SIZE="729"
+TIME="1454340725"
+SIZE="730"
 ENDFILE
 VALUE "<project>\hdl\psram_cr.v,hdl"
 STATE="utd"
@@ -1117,13 +1117,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Place and Route:TOPLEVEL_place_and_route_report.txt
-SmartDesign;TOPLEVEL;0
-SmartDesign;MSS_CORE3_MSS;0
-HDL;hdl\imager.v;0
 StartPage;StartPage;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "adc_controller::work","hdl\adc_controller.v","FALSE","FALSE"
