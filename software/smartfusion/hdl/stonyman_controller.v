@@ -97,8 +97,12 @@ module stonyman (
 
     // Frame mask address
     output reg [6:0] mask_pixel_row,
-    output reg [6:0] mask_pixel_col
+    output reg [6:0] mask_pixel_col,
     //output reg [3:0] main_state
+
+    //Line sampled completely (for adc_controller -> pupil_detect)
+    output reg newline_sample
+
     );
 
     // State registers
@@ -301,18 +305,24 @@ module stonyman (
             // Continue iterating across the row
             mask_pixel_col_nxt = mask_pixel_col+1;
             sub_state_nxt = `SET_COL_VAL;
+            //still iterating across row
+            newline_sample = 0;
         end else begin
             if (reg_value_nxt[`ROWSEL_PTR] < (`ROW_RESOLUTION-1)) begin
                 // Move to next row
                 mask_pixel_col_nxt = 0;
                 mask_pixel_row_nxt = mask_pixel_row+1;
                 sub_state_nxt = `SET_ROW_PTR;
+                //newline being sampled
+                newline_sample = 1;
             end else begin
                 // Finished!
                 mask_pixel_col_nxt = 0;
                 mask_pixel_row_nxt = 0;
                 main_state_nxt = `IDLE;
                 frame_capture_done_nxt = 1;
+                //done so no new line
+                newline_sample = 0;
             end
         end
     end
