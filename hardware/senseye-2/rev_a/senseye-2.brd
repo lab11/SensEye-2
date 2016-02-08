@@ -1189,7 +1189,6 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="R3" pad="2"/>
 <contactref element="JP2" pad="9"/>
 <contactref element="JP6" pad="1" route="any" routetag="G$1.1"/>
-<via x="140.0175" y="-13.6525" extent="1-16" drill="0.254"/>
 <wire x1="139.955" y1="-15.895" x2="141.9025" y2="-15.895" width="0.1524" layer="16"/>
 <wire x1="141.9025" y1="-15.895" x2="142.24" y2="-15.5575" width="0.1524" layer="16"/>
 <wire x1="142.24" y1="-15.5575" x2="142.24" y2="-15.11" width="0.1524" layer="16"/>
@@ -1226,15 +1225,17 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="61.2775" y1="-7.9375" x2="60.96" y2="-7.62" width="0.1524" layer="16"/>
 <wire x1="60.96" y1="-7.62" x2="60.6725" y2="-7.62" width="0.1524" layer="16"/>
 <contactref element="JP4" pad="2"/>
-<wire x1="140.0175" y1="-15.8325" x2="140.0175" y2="-13.6525" width="0.1524" layer="16"/>
-<wire x1="142.455" y1="-27.395" x2="142.455" y2="-26.67" width="0.1524" layer="16"/>
 <wire x1="142.455" y1="-25.895" x2="142.455" y2="-19.7875" width="0.1524" layer="16"/>
 <wire x1="142.455" y1="-19.7875" x2="144.4625" y2="-17.78" width="0.1524" layer="16"/>
 <via x="144.4625" y="-17.78" extent="1-16" drill="0.254"/>
 <wire x1="50.00625" y1="-7.46125" x2="51.7525" y2="-5.715" width="0.1524" layer="16"/>
 <contactref element="JP6" pad="21"/>
 <wire x1="139.955" y1="-25.895" x2="142.455" y2="-25.895" width="0.1524" layer="16"/>
-<wire x1="142.455" y1="-25.895" x2="142.455" y2="-26.67" width="0.1524" layer="16"/>
+<wire x1="142.455" y1="-25.895" x2="142.455" y2="-27.395" width="0.1524" layer="16"/>
+<wire x1="142.24" y1="-15.11" x2="142.24" y2="-14.9225" width="0.1524" layer="16"/>
+<wire x1="142.24" y1="-14.9225" x2="142.875" y2="-14.9225" width="0.1524" layer="16"/>
+<wire x1="142.875" y1="-14.9225" x2="143.8275" y2="-13.97" width="0.1524" layer="16"/>
+<via x="143.8275" y="-13.97" extent="1-16" drill="0.2032"/>
 </signal>
 <signal name="VCC">
 <contactref element="JP1" pad="8"/>
