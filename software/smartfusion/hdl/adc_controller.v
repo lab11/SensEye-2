@@ -69,7 +69,7 @@ module adc_controller (
  	// provides a line of the image at a time to pupil_detect
 	//top bit img_buf_newline is set to 0xFF when
 	//  line capture complete
-	output wire [8:0] img_buf_newline [`MAX_RESOLUTION:0]
+	output reg [`MAX_RESOLUTION*9:0] img_buf_newline 
 
     );
 
@@ -131,9 +131,9 @@ module adc_controller (
 
         //write data into a buffer to be passed to pupil_detect
         if(pixel_increment == `MAX_RESOLUTION ) begin
-        	img_buf_newline[pixel_increment] = ~(8'h00);
+        	img_buf_newline[9*(pixel_increment) -: 9] = ~(8'h00);
         end else if (pixel_increment < `MAX_RESOLUTION) begin
-        	img_buf_newline[pixel_increment] = fifo_write_data;
+        	img_buf_newline[9*pixel_increment -: 9] = fifo_write_data;
         end
 
         adc_capture_done_nxt = 0;

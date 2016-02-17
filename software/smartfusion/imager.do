@@ -3,17 +3,27 @@
 ##################################
 
 # 1) Create a library for working in
+mkdir imagerSim
+cd imagerSim
 vlib work
 
-# 2) Compile the half adder
-vcom -93 -explicit -work work HalfAdder.vhd
+# 2) Compile the imager
+#vcom -check_synthesis ../hdl/imager_apb_interface.v
+vcom -check_synthesis ../hdl/fifo_pixel_data.v
+vcom -check_synthesis ../hdl/framemask.v
+vcom -check_synthesis ../hdl/stonyman_controller.v
+vcom -check_synthesis ../hdl/adc_controller.v
+vcom -check_synthesis ../hdl/pupil_detect.v
+vcom -check_synthesis ../hdl/imager.v
+vcom -check_synthesis ../hdl/stonyman_2_testbench/imager_tb.v
 
 # 3) Load it for simulation
-vsim HalfAdder
+vsim &
 
 # 4) Open some selected windows for viewing
-view structure
-view signals
+view objects
+view locals
+view source
 view wave
 
 # 5) Show some of the signals in the wave window
@@ -23,22 +33,3 @@ add wave -noupdate b
 add wave -noupdate -divider -height 32 Outputs
 add wave -noupdate s
 add wave -noupdate c
-
-# 6) Set some test patterns
-
-# a = 0, b = 0 at 0 ns
-force a 0 0
-force b 0 0
-
-# a = 1, b = 0 at 10 ns
-force a 1 10
-
-# a = 0, b = 1 at 20 ns
-force a 0 20
-force b 1 20
-
-# a = 1, b = 1 at 30 ns
-force a 1 30
-
-# 7) Run the simulation for 40 ns
-run 40

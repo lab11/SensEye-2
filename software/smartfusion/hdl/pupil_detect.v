@@ -30,7 +30,7 @@ module pupil_detect(
 	//INPUTS
 	//top bit img_buf_newline is set to 0xFF when
 	//  line capture complete
-	input wire [8:0] img_buf_newline [`MAX_RESOLUTION:0],
+	input wire [`MAX_RESOLUTION*9:0] img_buf_newline ,
 	input wire frame_capture_start,
 	//from system
 	input wire clock,
@@ -44,8 +44,8 @@ module pupil_detect(
 
 	//INTERNAL WIRES
 	// states for state machine
-	reg [1:0] state = WAIT;
-	reg [1:0] next_state = WAIT;
+	reg [1:0] state = `WAIT;
+	reg [1:0] next_state = `WAIT;
 	//regs for writing coordinates (chose 8 bit as 2^7 = 128 > MAX_RESOLUTION)
 	reg [7:0] line_number = -1;
 	reg [7:0] begin_blob = -1;
@@ -59,9 +59,9 @@ module pupil_detect(
 	//check for reset, otherwise go to next state
 	always@(posedge clock)
 	begin
-		if(reset)
+		if(reset) begin
 			state = `WAIT;
-		else begin
+		end else begin
 			state = next_state;
 		end
 	end
@@ -72,9 +72,9 @@ module pupil_detect(
 		case (state)
 		//wait for cam_frame_capture_start
 		`WAIT: begin
-			if(frame_capture_start)
+			if(frame_capture_start) begin
 				next_state = `COMPARE_PIXELS;
-			else begin
+			end else begin
 				next_state = `WAIT;
 			end
 		end
@@ -87,7 +87,7 @@ module pupil_detect(
 			//look for beginning of blob
 			else if(!found_begin_blob) begin
 				//subtract second pixel from first because of grayscale values
-				if((img_buf_newline[pixel_inc] - img_buf_newline[pixel_inc+1]) > `THRESHOLD) begin
+				if((img_buf_newline[(pixel_inc+1)*9 -: 9] - img_buf_newline[9*(pixel_inc+2) -: 9] > `THRESHOLD)) begin
 					found_begin_blob = 1;
 					begin_blob = pixel_inc;
 				end 
@@ -95,7 +95,7 @@ module pupil_detect(
 			//look for end of blob
 			else if(found_begin_blob && !found_end_blob) begin
 				//subtract first pixel from second because of grayscale values
-				if((img_buf_newline[pixel_inc+1] - img_buf_newline[pixel_inc]) > `THRESHOLD) begin
+				if((img_buf_newline[9*(pixel_inc+2) -: 9] - img_buf_newline[9*(pixel_inc+1) -: 9]) > `THRESHOLD) begin
 					found_end_blob = 1;
 					end_blob = pixel_inc;
 				end				
@@ -138,9 +138,11 @@ module pupil_detect(
 			line_number = 0;
 
 			//move to wait state
-			next_state = `WAIT;		
+			next_state = `WAIT;	
 		end
 
+	endcase 
 	end
+
 
 endmodule

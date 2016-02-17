@@ -66,6 +66,9 @@ module imager (
     //testing state machine
     //output wire [3:0]   main_state_1,
 
+    //used to debug pupil detect
+    output wire [7:0] pupil_loc_h,
+    output wire [7:0] pupil_loc_v,
 
     // Bus interface
     input wire         PSEL,
@@ -121,10 +124,11 @@ module imager (
 
     //control and line output
     wire cam0_newline_sample;
+    
     //anyway to avoid this declaration? (lots of memory)
-    output wire [8:0] cam0_img_buf_newline [`MAX_RESOLUTION:0];
-    wire [7:0] pupil_loc_h;
-    wire [7:0] pupil_loc_v;
+    wire [`MAX_RESOLUTION*9:0] cam0_img_buf_newline ;
+   // wire [7:0] pupil_loc_h;
+   // wire [7:0] pupil_loc_v;
 
     // pupil detection module
     pupil_detect blob_detect (
@@ -153,7 +157,7 @@ module imager (
         .fifo_write_data    (cam0_fifo_write_data),
         .sclk               (cam0_sclk),
         .cs_n               (cam0_cs_n),
-        .img_buf_newline    (cam0_newline_sample)
+        .img_buf_newline    (cam0_img_buf_newline)
     );
 
     // Stonyman controller
@@ -240,7 +244,7 @@ module imager (
     //control and line output
     wire cam1_newline_sample;
     //anyway to avoid this declaration? (lots of memory)
-    output wire [8:0] cam1_img_buf_newline [`MAX_RESOLUTION:0];
+    wire [`MAX_RESOLUTION*9:0] cam1_img_buf_newline ;
 
 
     // ADC settings
