@@ -44,23 +44,15 @@ successful
 
 **Note**: Libero can be installed on Linux, but has been found to be problematic
 
+### OpenCV
+1. Download and install OpenCV, this [link](http://milq.github.io/install-opencv-ubuntu-debian/) worked well.
+2. Ensure OpenCV installed in `/usr/local/include/`
+
+### TFTP Server
+1. Download and install a TFTP server, this [link](https://mohammadthalif.wordpress.com/2010/03/05/installing-and-testing-tftpd-in-ubuntudebian/) worked well.
+
+
 ## Setup
-### Git
-**Note**: this step not necessary if committing entire Libero project (current status).
-
-Navigate to the `smartfusion/` directory
-
-Run the following commands:
-
-    git -ls-files | tr '\n' ' ' | xargs git update-index --assume-unchanged
-    git -ls-files hdl/ | tr '\n' ' ' | xargs git update-index --no-assume-unchanged
-    git update-index --no-assume-unchanged constraint/senseye_constraints.pdc
-    git update-index --no-assume-unchanged Emcraft_Firmware/u-boot.hex
-
-**Note**: these stop git from noticing changes in the libero files. If you want
-to commit changes, you will need to --no-assume-unchanged all those files, and
-then commit.
-
 
 ### Libero Project
 1. Open `senseye.prjx` (you will get errors: "Unable to find..."")
@@ -97,8 +89,6 @@ The `linux-cortexm-1.12.0/` folder should be extracted to the same location as t
 **Note**: the cross compiler tools work for me on 64-bit fedora, but not in a shared folder. You may need to install ia32-libs or equivalent if you are on a 64-bit system
 
 ### TFTP Server
-Follow instructions online to install a TFTP server and enable it.
-
 Test that the server is working by running:
 
     touch <tftpboot directory>/foo
@@ -162,11 +152,11 @@ The Stonyman controller software should now be loaded and ready to begin reading
 
 
 ### Setting up client
-Download and install OpenCV. Ensure OpenCV installed in `/usr/local/include/`
+Ensure OpenCV installed in `/usr/local/include/`
 
 Change address of SmartFusion board in `SensEye-2/software/client/senseye_client/senseye_client.c` to current IP address (found by running `printenv` on the SmartFusion board):
 
-    #define INSIGHT_SERV_ADDR     ("141.212.11.133") 
+    #define INSIGHT_SERV_ADDR     ("141.212.11.215") 
 
 Navigate to the `SensEye-2/software/client/senseye_client` directory and run. 
   
@@ -178,7 +168,7 @@ This should redirect all compile messages to the file `compile.out`
 
 
 ### Hardware Configuration
-The hardware can be somewhat tricky to configure correctly. First, build the circuit specified in `hardware/schematics/stonyman_breakout.pdf` . Ensure to tie a resistor (10k) to ground from the analog out (AN) of the Stonyman, and place a capacitor across the power supply rails.
+The hardware can be somewhat tricky to configure correctly. First, build the circuit specified in `hardware/schematics/stonyman_breakout.pdf`. Ensure to tie a resistor (30k) to ground from the analog out (AN) of the Stonyman, and place a capacitor across the power supply rails.
 
 
-**Calibration:** The configuration of the parameters in `software/uclinux/stonyman/stonyman_2.h` is dependent on whether the system is run at 3.3 Volts or 5 Volts. As of now the system is configured for 3.3 V. This can be changed by modifying the `define` statements based on empirical evidence.
+**Calibration:** The configuration of the parameters in `software/uclinux/stonyman/stonyman_2.h` is dependent on whether the system is run at 3.3 Volts or 5 Volts. As of now the system is configured for 3.3 V. This can be changed by modifying the `define` statements based on empirical evidence. 

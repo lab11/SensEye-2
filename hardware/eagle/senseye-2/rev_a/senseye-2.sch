@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3101,14 +3101,14 @@ To use, set global attributes TITLE, AUTHOR and REV in your schematic.</descript
 <part name="D1" library="passives" deviceset="DIODE" device="0603"/>
 <part name="D2" library="passives" deviceset="DIODE" device="0603"/>
 <part name="JP3" library="senseye" deviceset="STONYMAN" device=""/>
-<part name="R3" library="passives" deviceset="RESISTOR" device="0402_RES" value="10k"/>
+<part name="R3" library="passives" deviceset="RESISTOR" device="0402_RES" value="30k"/>
 <part name="JP5" library="senseye" deviceset="FH19SC-22S-0.5SH(05)" device=""/>
-<part name="R4" library="passives" deviceset="RESISTOR" device="0402_RES" value="10k"/>
+<part name="R4" library="passives" deviceset="RESISTOR" device="0402_RES" value="30k"/>
 <part name="C1" library="passives" deviceset="CAPACITOR" device="" value="1u"/>
 <part name="C2" library="passives" deviceset="CAPACITOR" device="" value="1u"/>
 <part name="C3" library="passives" deviceset="CAPACITOR" device="" value="1u"/>
 <part name="U3" library="chips" deviceset="ADC121S101" device=""/>
-<part name="R5" library="passives" deviceset="RESISTOR" device="0402_RES" value="10k"/>
+<part name="R5" library="passives" deviceset="RESISTOR" device="0402_RES" value="30k"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
 <part name="R1" library="passives" deviceset="RESISTOR" device="0402_RES" value="470"/>

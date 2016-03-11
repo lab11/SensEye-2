@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1024,6 +1024,9 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -1136,11 +1139,11 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="NAME" x="9.525" y="29.0195" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center"/>
 </element>
 <element name="JP3" library="senseye" package="1X09" value="STONYMAN" x="23.8125" y="50.4825" smashed="yes"/>
-<element name="R3" library="passives" package="0402_RES" value="10k" x="62.23" y="46.99" smashed="yes" rot="MR90">
+<element name="R3" library="passives" package="0402_RES" value="30k" x="62.23" y="46.99" smashed="yes" rot="MR90">
 <attribute name="NAME" x="61.595" y="46.0375" size="1.27" layer="26" font="vector" ratio="10" rot="MR180" align="bottom-center"/>
 </element>
 <element name="JP5" library="senseye" package="FH19SC-22S-0.5SH(05)" value="FH19SC-22S-0.5SH(05)" x="139.955" y="34.735" rot="MR270"/>
-<element name="R4" library="passives" package="0402_RES" value="10k" x="23.495" y="5.08" smashed="yes" rot="MR90">
+<element name="R4" library="passives" package="0402_RES" value="30k" x="23.495" y="5.08" smashed="yes" rot="MR90">
 <attribute name="NAME" x="24.765" y="5.7785" size="1.27" layer="26" font="vector" ratio="10" rot="MR0" align="bottom-center"/>
 </element>
 <element name="C1" library="passives" package="0402_CAP" value="1u" x="83.5025" y="44.1325" smashed="yes" rot="MR0">
@@ -1158,7 +1161,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="DIGIKEY" value="ADC121S101CIMF/NOPBCT-ND " x="6.985" y="58.42" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="16.8275" y="51.435" size="1.27" layer="26" font="vector" ratio="10" rot="MR0"/>
 </element>
-<element name="R5" library="passives" package="0402_RES" value="10k" x="19.685" y="49.2125" smashed="yes" rot="MR90">
+<element name="R5" library="passives" package="0402_RES" value="30k" x="19.685" y="49.2125" smashed="yes" rot="MR90">
 <attribute name="NAME" x="19.685" y="50.2285" size="1.27" layer="26" font="vector" ratio="10" rot="MR0" align="bottom-center"/>
 </element>
 <element name="JP4" library="SparkFun-Connectors" package="1X02" value="" x="7.9375" y="33.655" smashed="yes" rot="R90">

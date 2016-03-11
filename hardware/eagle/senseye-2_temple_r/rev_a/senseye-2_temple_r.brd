@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -225,8 +225,8 @@
 <text x="34.29" y="30.1625" size="0.8128" layer="26" font="vector" rot="MR0">RP1</text>
 <text x="31.75" y="30.1625" size="0.8128" layer="26" font="vector" rot="MR0">RV1</text>
 <text x="29.5275" y="30.1625" size="0.8128" layer="26" font="vector" rot="MR0">IPH1</text>
-<text x="26.67" y="30.1625" size="0.8128" layer="26" font="vector" rot="MR0">CS0</text>
-<text x="24.13" y="30.1625" size="0.8128" layer="26" font="vector" rot="MR0">SC0</text>
+<text x="26.67" y="30.1625" size="0.8128" layer="26" font="vector" rot="MR0">SC0</text>
+<text x="24.13" y="30.1625" size="0.8128" layer="26" font="vector" rot="MR0">CS0</text>
 <text x="21.59" y="30.1625" size="0.8128" layer="26" font="vector" rot="MR0">SD1</text>
 <text x="19.05" y="30.1625" size="0.8128" layer="26" font="vector" rot="MR0">GND</text>
 </plain>
@@ -479,6 +479,9 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
