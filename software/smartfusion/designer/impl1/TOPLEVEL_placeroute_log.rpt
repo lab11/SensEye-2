@@ -34,25 +34,25 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Wed Jan 13 15:32:18 2016
+Timing-driven Placer Started: Wed Mar 09 15:12:52 2016
 
-Placer Finished: Wed Jan 13 15:33:27 2016
-Total Placer CPU Time:     00:01:09
+Placer Finished: Wed Mar 09 15:14:14 2016
+Total Placer CPU Time:     00:01:22
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: TOPLEVEL                        Started: Wed Jan 13 15:33:35 2016
+Design: TOPLEVEL                        Started: Wed Mar 09 15:14:22 2016
 
  
 
 Timing-driven Router completed successfully.
 
 Design: TOPLEVEL                        
-Finished: Wed Jan 13 15:34:11 2016
-Total CPU Time:     00:00:35            Total Elapsed Time: 00:00:36
-Total Memory Usage: 338.1 Mbytes
+Finished: Wed Mar 09 15:15:01 2016
+Total CPU Time:     00:00:38            Total Elapsed Time: 00:00:39
+Total Memory Usage: 342.5 Mbytes
                         o - o - o - o - o - o
 
 Loading the Timing data for the design.
@@ -60,7 +60,7 @@ Finished loading the Timing data.
 TIMER: Max delay timing requirements have been met.
 TIMER: Min delay timing requirements have been met.
 
-The Layout command succeeded ( 00:02:04 )
+The Layout command succeeded ( 00:02:21 )
 Wrote status report to file: TOPLEVEL_place_and_route_report.txt
 
 The Report command succeeded ( 00:00:00 )
@@ -69,19 +69,19 @@ Wrote globalnet report to file: TOPLEVEL_globalnet_report.txt
 The Report command succeeded ( 00:00:00 )
 Wrote globalusage report to file: TOPLEVEL_globalusage_report.txt
 
-The Report command succeeded ( 00:00:00 )
+The Report command succeeded ( 00:00:01 )
 Wrote iobank report to file: TOPLEVEL_iobank_report.txt
 
-The Report command succeeded ( 00:00:01 )
+The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: TOPLEVEL_report_pin_byname.txt
 
-The Report command succeeded ( 00:00:00 )
+The Report command succeeded ( 00:00:02 )
 Wrote pin report to file: TOPLEVEL_report_pin_bynumber.txt
 
-The Report command succeeded ( 00:00:01 )
+The Report command succeeded ( 00:00:00 )
 Design saved to file
 C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.adb.
 
-The Execute Script command succeeded ( 00:02:11 )
+The Execute Script command succeeded ( 00:02:29 )
 Design closed.
 

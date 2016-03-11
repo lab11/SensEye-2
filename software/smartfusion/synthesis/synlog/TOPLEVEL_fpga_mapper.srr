@@ -14,7 +14,7 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 120MB)
 
 @W: MO111 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
 @W: MO111 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC) 
@@ -23,9 +23,13 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":221:4:221:9|Removing sequential instance pixel_increment[7:0] of view:PrimLib.dff(prim) in hierarchy view:work.adc_controller_1(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":221:4:221:9|Boundary register pixel_increment[7:0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":221:4:221:9|Removing sequential instance pixel_increment[7:0] of view:PrimLib.dff(prim) in hierarchy view:work.adc_controller_0(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":221:4:221:9|Boundary register pixel_increment[7:0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
 @W: BN132 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\cr_int.v":170:0:170:5|Removing sequential instance psram_cr_0.cr_int_i0.ncs0,  because it is equivalent to instance psram_cr_0.cr_int_i0.nbyte_en_1[0]
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 122MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 125MB)
 
 @W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1581:0:1581:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTl00I[4] is always 0, optimizing ...
 @W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTOO0I[2] is always 0, optimizing ...
@@ -102,7 +106,7 @@ original code -> new code
    01 -> 01
    10 -> 10
 @N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\heartbeat.v":26:4:26:9|Found counter in view:work.heartbeat(verilog) inst count[32:0]
-@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":199:4:199:9|Found counter in view:work.adc_controller(verilog) inst timer[7:0]
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":221:4:221:9|Found counter in view:work.adc_controller(verilog) inst timer[7:0]
 Encoding state machine adc_state[4:0] (view:work.adc_controller(verilog))
 original code -> new code
    000 -> 00000
@@ -110,13 +114,13 @@ original code -> new code
    010 -> 00101
    011 -> 01001
    100 -> 10001
-@N: MF184 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":108:20:108:41|Found 12 by 12 bit subtractor, 'tmp_data_0_0[11:0]'
+@N: MF184 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":123:20:123:41|Found 12 by 12 bit subtractor, 'tmp_data_0_0[11:0]'
 @N: MF176 |Default generator successful 
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:20:146:45|Found 9 bit by 9 bit '<' comparator, 'un1_timer_2'
-@N: MF239 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:30:146:44|Found 9-bit decrementor, 'un1_track_counts[8:0]'
-@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Found counter in view:work.stonyman(verilog) inst mask_pixel_row[6:0]
-@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Found counter in view:work.stonyman(verilog) inst mask_pixel_col[6:0]
-Encoding state machine main_state[11:0] (view:work.stonyman(verilog))
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":168:20:168:45|Found 9 bit by 9 bit '<' comparator, 'un1_timer_22'
+@N: MF239 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":168:30:168:44|Found 9-bit decrementor, 'un1_track_counts[8:0]'
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":478:4:478:9|Found counter in view:work.stonyman_1(verilog) inst mask_pixel_row[6:0]
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":478:4:478:9|Found counter in view:work.stonyman_1(verilog) inst mask_pixel_col[6:0]
+Encoding state machine main_state[11:0] (view:work.stonyman_1(verilog))
 original code -> new code
    0000 -> 000000000001
    0001 -> 000000000010
@@ -130,18 +134,46 @@ original code -> new code
    1001 -> 001000000000
    1010 -> 010000000000
    1011 -> 100000000000
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
-@N: MF238 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":218:39:218:61|Found 8-bit incrementor, 'un44_reg_value_nxt[7:0]'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt287'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt312'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_0\.pulse_pin_state_nxt84'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_1\.pulse_pin_state_nxt121'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_2\.pulse_pin_state_nxt156'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_3\.pulse_pin_state_nxt191'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
-@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":468:4:468:9|Register bit sub_state[3] is always 0, optimizing ...
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":281:12:281:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'
+@N: MF238 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":222:39:222:61|Found 8-bit incrementor, 'un44_reg_value_nxt[7:0]'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":221:8:284:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt287'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":221:8:284:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt312'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_0\.pulse_pin_state_nxt84'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_1\.pulse_pin_state_nxt121'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_2\.pulse_pin_state_nxt156'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_3\.pulse_pin_state_nxt191'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":281:12:281:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":478:4:478:9|Register bit sub_state[3] is always 0, optimizing ...
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":478:4:478:9|Found counter in view:work.stonyman_0(verilog) inst mask_pixel_row[6:0]
+@N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":478:4:478:9|Found counter in view:work.stonyman_0(verilog) inst mask_pixel_col[6:0]
+Encoding state machine main_state[11:0] (view:work.stonyman_0(verilog))
+original code -> new code
+   0000 -> 000000000001
+   0001 -> 000000000010
+   0010 -> 000000000100
+   0011 -> 000000001000
+   0100 -> 000000010000
+   0101 -> 000000100000
+   0110 -> 000001000000
+   0111 -> 000010000000
+   1000 -> 000100000000
+   1001 -> 001000000000
+   1010 -> 010000000000
+   1011 -> 100000000000
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":281:12:281:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'
+@N: MF238 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":222:39:222:61|Found 8-bit incrementor, 'un44_reg_value_nxt[7:0]'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":221:8:284:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt287'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":221:8:284:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt312'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_0\.pulse_pin_state_nxt84'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_1\.pulse_pin_state_nxt121'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_2\.pulse_pin_state_nxt156'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_3\.pulse_pin_state_nxt191'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":281:12:281:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
+@W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":478:4:478:9|Register bit sub_state[3] is always 0, optimizing ...
 @N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\cr_int.v":116:0:116:5|Found counter in view:work.cr_int(verilog) inst ac_counter[3:0]
 @N:"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\cr_int.v":91:0:91:5|Found counter in view:work.cr_int(verilog) inst op_counter[3:0]
 @W: MO160 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1581:0:1581:5|Register bit CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTl00I[16] is always 0, optimizing ...
@@ -149,31 +181,33 @@ original code -> new code
 @W: BN132 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v":646:0:646:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3Oll.PWRITE,  because it is equivalent to instance COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3IOI[2]
 @W: BN132 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v":152:0:152:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3Ill.PENABLE,  because it is equivalent to instance COREAHBTOAPB3_0.CAHBtoAPB3Ill.CAHBtoAPB3OIl[1]
 
-Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 158MB peak: 159MB)
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:04s; Memory used current: 157MB peak: 158MB)
+
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":359:8:359:11|Removing sequential instance imager_0.stonyman0.newline_sample of view:PrimLib.lat(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":359:8:359:11|Removing sequential instance imager_0.stonyman1.newline_sample of view:PrimLib.lat(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 145MB peak: 158MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 147MB peak: 159MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 167MB peak: 208MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 146MB peak: 203MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 168MB peak: 208MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 147MB peak: 203MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:38s; Memory used current: 188MB peak: 208MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:45s; Memory used current: 216MB peak: 217MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:38s; Memory used current: 187MB peak: 208MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:46s; Memory used current: 214MB peak: 217MB)
+Finished preparing to map (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:39s; Memory used current: 186MB peak: 208MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:47s; CPU Time elapsed 0h:00m:46s; Memory used current: 215MB peak: 217MB)
+Finished technology mapping (Real Time elapsed 0h:00m:42s; CPU Time elapsed 0h:00m:40s; Memory used current: 181MB peak: 230MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:47s; Memory used current: 205MB peak: 230MB)
-
-
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:47s; Memory used current: 205MB peak: 230MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:42s; CPU Time elapsed 0h:00m:41s; Memory used current: 181MB peak: 230MB)
 
 
 Added 0 Buffers
@@ -181,7 +215,7 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:47s; Memory used current: 206MB peak: 230MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:41s; Memory used current: 183MB peak: 230MB)
 
 
 
@@ -202,19 +236,19 @@ Clock Tree ID     Driving Element     Drive Element Type                Fanout  
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:48s; CPU Time elapsed 0h:00m:48s; Memory used current: 184MB peak: 230MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:41s; Memory used current: 163MB peak: 230MB)
 
 Writing Analyst data base C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:49s; CPU Time elapsed 0h:00m:48s; Memory used current: 190MB peak: 230MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:44s; CPU Time elapsed 0h:00m:42s; Memory used current: 171MB peak: 230MB)
 
 Writing EDIF Netlist and constraint files
 J-2015.03M-3
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:49s; Memory used current: 196MB peak: 230MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:43s; Memory used current: 178MB peak: 230MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:49s; Memory used current: 190MB peak: 230MB)
+Start final timing analysis (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:43s; Memory used current: 172MB peak: 230MB)
 
 @W: MT246 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_core3_mss.v":666:7:666:18|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT246 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\work\mss_core3_mss\mss_ccc_0\mss_core3_mss_tmp_mss_ccc_0_mss_ccc.v":96:15:96:22|Blackbox MSS_XTLOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
@@ -223,7 +257,7 @@ Found clock FAB_CLK with period 25.00ns
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Jan 13 15:31:39 2016
+# Timing Report written on Wed Mar 09 15:09:36 2016
 #
 
 
@@ -246,15 +280,17 @@ Performance Summary
 *******************
 
 
-Worst slack in design: -17.070
+Worst slack in design: -15.680
 
-                   Requested     Estimated     Requested     Estimated                 Clock        Clock          
-Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group          
--------------------------------------------------------------------------------------------------------------------
-FAB_CLK            40.0 MHz      23.8 MHz      25.000        42.070        -17.070     declared     clk_group_0    
-FCLK               40.0 MHz      NA            25.000        NA            NA          declared     clk_group_0    
-System             80.0 MHz      171.5 MHz     12.500        5.831         6.669       system       system_clkgroup
-===================================================================================================================
+                                                          Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                                            Frequency     Frequency     Period        Period        Slack       Type         Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+FAB_CLK                                                   40.0 MHz      24.6 MHz      25.000        40.679        -15.680     declared     clk_group_0        
+FCLK                                                      40.0 MHz      NA            25.000        NA            NA          declared     clk_group_0        
+stonyman_0|un1_newline_sample_0_sqmuxa_inferred_clock     80.0 MHz      NA            12.500        NA            NA          inferred     Inferred_clkgroup_0
+stonyman_1|un1_newline_sample_0_sqmuxa_inferred_clock     80.0 MHz      NA            12.500        NA            NA          inferred     Inferred_clkgroup_1
+System                                                    80.0 MHz      171.5 MHz     12.500        5.831         6.669       system       system_clkgroup    
+==============================================================================================================================================================
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
 
 
@@ -269,9 +305,9 @@ Clocks             |    rise  to  rise     |    fall  to  fall   |    rise  to  
 Starting  Ending   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 -----------------------------------------------------------------------------------------------------------
 System    System   |  12.500      6.669    |  No paths    -      |  No paths    -      |  No paths    -    
-System    FAB_CLK  |  25.000      5.224    |  No paths    -      |  No paths    -      |  No paths    -    
-FAB_CLK   System   |  25.000      15.057   |  No paths    -      |  No paths    -      |  No paths    -    
-FAB_CLK   FAB_CLK  |  25.000      -17.070  |  No paths    -      |  No paths    -      |  No paths    -    
+System    FAB_CLK  |  25.000      3.694    |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   System   |  25.000      14.625   |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  25.000      -15.680  |  No paths    -      |  No paths    -      |  No paths    -    
 ===========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -298,16 +334,16 @@ Starting Points with Worst Slack
 Instance                               Reference     Type         Pin     Net                 Time        Slack  
                                        Clock                                                                     
 -----------------------------------------------------------------------------------------------------------------
-imager_0.stonyman1.ptr_value[2]        FAB_CLK       DFN1E1C1     Q       ptr_value[2]        0.737       -17.070
-imager_0.stonyman0.ptr_value[2]        FAB_CLK       DFN1E0C1     Q       ptr_value[2]        0.737       -15.829
-imager_0.stonyman1.ptr_value[1]        FAB_CLK       DFN1E1C1     Q       ptr_value[1]        0.737       -15.683
-imager_0.stonyman1.ptr_value[0]        FAB_CLK       DFN1E1C1     Q       N_1763_i_1          0.737       -14.567
-imager_0.stonyman1.reg_value_0_[1]     FAB_CLK       DFN1E0C1     Q       reg_value_0_[1]     0.737       -14.515
-imager_0.stonyman1.reg_value_1_[1]     FAB_CLK       DFN1E0C1     Q       reg_value_1_[1]     0.737       -14.508
-imager_0.stonyman1.reg_value_2_[1]     FAB_CLK       DFN1E0C1     Q       reg_value_2_[1]     0.737       -14.413
-imager_0.stonyman1.reg_value_4_[1]     FAB_CLK       DFN1E0C1     Q       reg_value_4_[1]     0.737       -14.413
-imager_0.stonyman1.reg_value_3_[1]     FAB_CLK       DFN1E0C1     Q       reg_value_3_[1]     0.737       -14.406
-imager_0.stonyman1.reg_value_5_[1]     FAB_CLK       DFN1E0C1     Q       reg_value_5_[1]     0.737       -14.406
+imager_0.stonyman0.ptr_value[2]        FAB_CLK       DFN1E0C1     Q       ptr_value[2]        0.737       -15.680
+imager_0.stonyman1.ptr_value[2]        FAB_CLK       DFN1E0C1     Q       ptr_value[2]        0.737       -15.598
+imager_0.stonyman0.ptr_value[1]        FAB_CLK       DFN1E0C1     Q       ptr_value[1]        0.737       -14.157
+imager_0.stonyman1.ptr_value[1]        FAB_CLK       DFN1E0C1     Q       ptr_value[1]        0.737       -14.067
+imager_0.stonyman0.reg_value_0_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_0_[1]     0.737       -13.389
+imager_0.stonyman0.reg_value_1_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_1_[1]     0.737       -13.382
+imager_0.stonyman1.reg_value_0_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_0_[1]     0.737       -13.344
+imager_0.stonyman1.reg_value_1_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_1_[1]     0.737       -13.337
+imager_0.stonyman0.reg_value_2_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_2_[1]     0.737       -13.279
+imager_0.stonyman0.reg_value_4_[1]     FAB_CLK       DFN1E1C1     Q       reg_value_4_[1]     0.737       -13.279
 =================================================================================================================
 
 
@@ -318,16 +354,16 @@ Ending Points with Worst Slack
 Instance                            Reference     Type         Pin     Net                           Time         Slack  
                                     Clock                                                                                
 -------------------------------------------------------------------------------------------------------------------------
-imager_0.stonyman1.sub_state[2]     FAB_CLK       DFN1E0C1     D       N_251                         24.461       -17.070
-imager_0.stonyman1.sub_state[0]     FAB_CLK       DFN1E0C1     D       sub_state_nxt[0]              24.461       -16.834
-imager_0.stonyman1.sub_state[0]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -16.227
-imager_0.stonyman1.sub_state[1]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -16.227
-imager_0.stonyman1.sub_state[2]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -16.227
-imager_0.stonyman0.sub_state[0]     FAB_CLK       DFN1E0C1     D       sub_state_nxt[0]              24.461       -15.829
-imager_0.stonyman1.sub_state[1]     FAB_CLK       DFN1E0C1     D       sub_N_10_mux                  24.461       -15.309
-imager_0.stonyman0.sub_state[0]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.247
-imager_0.stonyman0.sub_state[1]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.247
-imager_0.stonyman0.sub_state[2]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.247
+imager_0.stonyman0.sub_state[1]     FAB_CLK       DFN1E0C1     D       sub_state_nxt[1]              24.461       -15.680
+imager_0.stonyman1.sub_state[1]     FAB_CLK       DFN1E0C1     D       sub_state_nxt[1]              24.461       -15.598
+imager_0.stonyman0.sub_state[0]     FAB_CLK       DFN1E0C1     D       sub_state_nxt[0]              24.461       -15.504
+imager_0.stonyman1.sub_state[0]     FAB_CLK       DFN1E0C1     D       sub_N_11_mux_1                24.461       -15.327
+imager_0.stonyman0.sub_state[0]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.153
+imager_0.stonyman0.sub_state[1]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.153
+imager_0.stonyman0.sub_state[2]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -15.153
+imager_0.stonyman1.sub_state[0]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -14.845
+imager_0.stonyman1.sub_state[1]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -14.845
+imager_0.stonyman1.sub_state[2]     FAB_CLK       DFN1E0C1     E       sub_state_nxt_0_sqmuxa_11     24.566       -14.845
 =========================================================================================================================
 
 
@@ -342,105 +378,105 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         24.461
 
-    - Propagation time:                      41.531
+    - Propagation time:                      40.141
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -17.070
+    = Slack (critical) :                     -15.679
 
     Number of logic level(s):                27
-    Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
-    Ending point:                            imager_0.stonyman1.sub_state[2] / D
+    Starting point:                          imager_0.stonyman0.ptr_value[2] / Q
+    Ending point:                            imager_0.stonyman0.sub_state[1] / D
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
-Instance / Net                                                                         Pin      Pin               Arrival     No. of    
-Name                                                                      Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------
-imager_0.stonyman1.ptr_value[2]                                           DFN1E1C1     Q        Out     0.737     0.737       -         
-ptr_value[2]                                                              Net          -        -       4.016     -           121       
-imager_0.stonyman1.reg_value_4__RNI0E061[1]                               MX2          S        In      -         4.753       -         
-imager_0.stonyman1.reg_value_4__RNI0E061[1]                               MX2          Y        Out     0.396     5.150       -         
-N_1289                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI9RJ32[1]                                  MX2          A        In      -         5.471       -         
-imager_0.stonyman1.ptr_value_RNI9RJ32[1]                                  MX2          Y        Out     0.579     6.050       -         
-N_1305                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIQKQU3[0]                                  MX2          A        In      -         6.371       -         
-imager_0.stonyman1.ptr_value_RNIQKQU3[0]                                  MX2          Y        Out     0.579     6.950       -         
-un45_reg_value_nxt[1]                                                     Net          -        -       2.522     -           26        
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14              OR2A         B        In      -         9.472       -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14              OR2A         Y        Out     0.646     10.118      -         
-N_2_9                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20              AO1C         C        In      -         10.440      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20              AO1C         Y        Out     0.633     11.072      -         
-N_8_8                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23              OA1A         B        In      -         11.394      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23              OA1A         Y        Out     0.902     12.296      -         
-N_11_8                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24              OA1          A        In      -         12.617      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24              OA1          Y        Out     0.984     13.601      -         
-DWACT_COMP0_E_8[2]                                                        Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25              AO1          B        In      -         13.923      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25              AO1          Y        Out     0.567     14.489      -         
-pulse_pin_state_nxt311                                                    Net          -        -       1.708     -           10        
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_2[0]                         NOR2A        A        In      -         16.198      -         
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_2[0]                         NOR2A        Y        Out     0.516     16.714      -         
-reg_N_6                                                                   Net          -        -       1.669     -           9         
-imager_0.stonyman1.pulse_pin_state_RNI117B23[0]                           NOR3A        C        In      -         18.382      -         
-imager_0.stonyman1.pulse_pin_state_RNI117B23[0]                           NOR3A        Y        Out     0.641     19.023      -         
-reg_m2_2_1                                                                Net          -        -       0.322     -           1         
-imager_0.stonyman1.pulse_pin_state_RNIAM7K35_1[0]                         NOR2A        A        In      -         19.345      -         
-imager_0.stonyman1.pulse_pin_state_RNIAM7K35_1[0]                         NOR2A        Y        Out     0.627     19.972      -         
-reg_N_4_mux_0                                                             Net          -        -       1.639     -           8         
-imager_0.stonyman1.reg_value_2__RNIAOQR35[4]                              NOR2         B        In      -         21.611      -         
-imager_0.stonyman1.reg_value_2__RNIAOQR35[4]                              NOR2         Y        Out     0.646     22.258      -         
-N_1395                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.reg_value_2__RNIUV8ARA[4]                              AO1D         C        In      -         22.579      -         
-imager_0.stonyman1.reg_value_2__RNIUV8ARA[4]                              AO1D         Y        Out     0.655     23.235      -         
-N_428                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNITAQGNM[2]                                 MX2C         A        In      -         23.556      -         
-imager_0.stonyman1.ptr_value_RNITAQGNM[2]                                 MX2C         Y        Out     0.568     24.124      -         
-N_1183                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI2BJI2L1[0]                                MX2B         A        In      -         24.446      -         
-imager_0.stonyman1.ptr_value_RNI2BJI2L1[0]                                MX2B         Y        Out     0.579     25.025      -         
-ptr_value_RNI2BJI2L1[0]                                                   Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI43A0RB2[0]                                MX2          A        In      -         25.346      -         
-imager_0.stonyman1.ptr_value_RNI43A0RB2[0]                                MX2          Y        Out     0.579     25.925      -         
-un1_reg_value_nxt_0_[4]                                                   Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNITD3B221[4]                           XO1          B        In      -         26.246      -         
-imager_0.stonyman1.mask_pixel_col_RNITD3B221[4]                           XO1          Y        Out     0.824     27.070      -         
-un1_mask_pixel_col_NE_4_0                                                 Net          -        -       1.279     -           5         
-imager_0.stonyman1.mask_pixel_col_RNIENRFQM1[4]                           OR2          B        In      -         28.349      -         
-imager_0.stonyman1.mask_pixel_col_RNIENRFQM1[4]                           OR2          Y        Out     0.646     28.996      -         
-un1_mask_pixel_col_NE_4                                                   Net          -        -       1.994     -           12        
-imager_0.stonyman1.mask_pixel_col_RNIUSM3CE3[4]                           AO1D         C        In      -         30.989      -         
-imager_0.stonyman1.mask_pixel_col_RNIUSM3CE3[4]                           AO1D         Y        Out     0.633     31.622      -         
-r_N_6                                                                     Net          -        -       0.386     -           2         
-imager_0.stonyman1.GOTO_VAL_1\.un1_mask_pixel_col_NE_5_0_0_RNILS2M391     AO1D         A        In      -         32.008      -         
-imager_0.stonyman1.GOTO_VAL_1\.un1_mask_pixel_col_NE_5_0_0_RNILS2M391     AO1D         Y        Out     0.480     32.487      -         
-N_71                                                                      Net          -        -       1.279     -           5         
-imager_0.stonyman1.main_state_RNINB8R491[1]                               OR2A         A        In      -         33.766      -         
-imager_0.stonyman1.main_state_RNINB8R491[1]                               OR2A         Y        Out     0.537     34.303      -         
-N_760                                                                     Net          -        -       1.184     -           4         
-imager_0.stonyman1.pulse_pin_state_RNI87FFHJ1[0]                          MX2C         S        In      -         35.487      -         
-imager_0.stonyman1.pulse_pin_state_RNI87FFHJ1[0]                          MX2C         Y        Out     0.480     35.967      -         
-pulse_pin_state_RNI87FFHJ1[0]                                             Net          -        -       0.322     -           1         
-imager_0.stonyman1.main_state_RNITP1QIJ1[3]                               XNOR2        A        In      -         36.288      -         
-imager_0.stonyman1.main_state_RNITP1QIJ1[3]                               XNOR2        Y        Out     0.488     36.776      -         
-N_1770                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.main_state_RNINJ6POR2[5]                               XAI1         C        In      -         37.098      -         
-imager_0.stonyman1.main_state_RNINJ6POR2[5]                               XAI1         Y        Out     0.525     37.623      -         
-un1_main_state_nxt_1_NE_0                                                 Net          -        -       0.386     -           2         
-imager_0.stonyman1.main_state_RNIOUT30C[5]                                OR2          B        In      -         38.008      -         
-imager_0.stonyman1.main_state_RNIOUT30C[5]                                OR2          Y        Out     0.646     38.655      -         
-un1_main_state_nxt_1_NE                                                   Net          -        -       0.806     -           3         
-imager_0.stonyman1.main_state_RNIV9DR783[11]                              OR2          B        In      -         39.461      -         
-imager_0.stonyman1.main_state_RNIV9DR783[11]                              OR2          Y        Out     0.646     40.108      -         
-N_727                                                                     Net          -        -       0.386     -           2         
-imager_0.stonyman1.sub_state_RNO[2]                                       NOR3A        C        In      -         40.494      -         
-imager_0.stonyman1.sub_state_RNO[2]                                       NOR3A        Y        Out     0.716     41.210      -         
-N_251                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state[2]                                           DFN1E0C1     D        In      -         41.531      -         
-========================================================================================================================================
-Total path delay (propagation time + setup) of 42.070 is 17.994(42.8%) logic and 24.076(57.2%) route.
+Instance / Net                                                                Pin      Pin               Arrival     No. of    
+Name                                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+imager_0.stonyman0.ptr_value[2]                                  DFN1E0C1     Q        Out     0.737     0.737       -         
+ptr_value[2]                                                     Net          -        -       3.999     -           119       
+imager_0.stonyman0.reg_value_4__RNIT01U[1]                       MX2          S        In      -         4.736       -         
+imager_0.stonyman0.reg_value_4__RNIT01U[1]                       MX2          Y        Out     0.396     5.132       -         
+N_1308                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.ptr_value_RNI2K6J1[1]                         MX2          A        In      -         5.454       -         
+imager_0.stonyman0.ptr_value_RNI2K6J1[1]                         MX2          Y        Out     0.579     6.032       -         
+N_1324                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.ptr_value_RNIBPHD3[0]                         MX2          A        In      -         6.354       -         
+imager_0.stonyman0.ptr_value_RNIBPHD3[0]                         MX2          Y        Out     0.579     6.933       -         
+un45_reg_value_nxt[1]                                            Net          -        -       2.522     -           26        
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         B        In      -         9.454       -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         Y        Out     0.646     10.101      -         
+N_2_9                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         C        In      -         10.422      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         Y        Out     0.633     11.055      -         
+N_8_8                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         B        In      -         11.377      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         Y        Out     0.902     12.278      -         
+N_11_8                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          A        In      -         12.600      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y        Out     0.984     13.584      -         
+DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.905      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.472      -         
+pulse_pin_state_nxt311                                           Net          -        -       0.806     -           3         
+imager_0.stonyman0.pulse_pin_state_RNIKIU4S2[0]                  AO1C         B        In      -         15.278      -         
+imager_0.stonyman0.pulse_pin_state_RNIKIU4S2[0]                  AO1C         Y        Out     0.454     15.732      -         
+un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.pulse_pin_state_RNIU00OP4[0]                  AO1A         C        In      -         16.053      -         
+imager_0.stonyman0.pulse_pin_state_RNIU00OP4[0]                  AO1A         Y        Out     0.655     16.708      -         
+un1_reg_value_nxt_3                                              Net          -        -       3.377     -           64        
+imager_0.stonyman0.reg_value_0__RNIUE8O85[3]                     MX2          S        In      -         20.085      -         
+imager_0.stonyman0.reg_value_0__RNIUE8O85[3]                     MX2          Y        Out     0.396     20.482      -         
+N_1272                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNIGCS977[3]                     MX2          A        In      -         20.803      -         
+imager_0.stonyman0.reg_value_0__RNIGCS977[3]                     MX2          Y        Out     0.579     21.382      -         
+reg_value_nxt_0__56[3]                                           Net          -        -       0.806     -           3         
+imager_0.stonyman0.reg_value_0__RNI2C66BE[2]                     OR2B         B        In      -         22.188      -         
+imager_0.stonyman0.reg_value_0__RNI2C66BE[2]                     OR2B         Y        Out     0.627     22.816      -         
+mask_pixel_col_nxt21lt3_1                                        Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNI27JDJ31[4]                    OA1B         B        In      -         23.137      -         
+imager_0.stonyman0.reg_value_0__RNI27JDJ31[4]                    OA1B         Y        Out     0.984     24.121      -         
+mask_pixel_col_nxt21lt6                                          Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNI0BA5JI1[4]                    OR2          B        In      -         24.442      -         
+imager_0.stonyman0.reg_value_0__RNI0BA5JI1[4]                    OR2          Y        Out     0.514     24.957      -         
+mask_pixel_col_nxt21lt7                                          Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNIOTI58Q1[7]                    NOR2A        A        In      -         25.278      -         
+imager_0.stonyman0.reg_value_0__RNIOTI58Q1[7]                    NOR2A        Y        Out     0.516     25.794      -         
+mask_pixel_col_nxt21                                             Net          -        -       0.386     -           2         
+imager_0.stonyman0.reg_value_0__RNIKT978Q1_0[7]                  NOR2         A        In      -         26.180      -         
+imager_0.stonyman0.reg_value_0__RNIKT978Q1_0[7]                  NOR2         Y        Out     0.363     26.543      -         
+mask_pixel_col_nxt_1_sqmuxa_2                                    Net          -        -       0.386     -           2         
+imager_0.stonyman0.reg_value_1__RNIJVSKGM3[7]                    NOR2A        A        In      -         26.929      -         
+imager_0.stonyman0.reg_value_1__RNIJVSKGM3[7]                    NOR2A        Y        Out     0.627     27.556      -         
+sub_state_nxt_1_sqmuxa_10                                        Net          -        -       1.526     -           7         
+imager_0.stonyman0.sub_state_RNI7SE7HM3[2]                       NOR2B        B        In      -         29.082      -         
+imager_0.stonyman0.sub_state_RNI7SE7HM3[2]                       NOR2B        Y        Out     0.627     29.710      -         
+G_m2_0_a2_0                                                      Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI42SJHA2[11]                     OA1A         A        In      -         30.031      -         
+imager_0.stonyman0.main_state_RNI42SJHA2[11]                     OA1A         Y        Out     0.933     30.965      -         
+main_state_RNI42SJHA2[11]                                        Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNIIAUSOJ2[11]                     NOR3A        C        In      -         31.286      -         
+imager_0.stonyman0.main_state_RNIIAUSOJ2[11]                     NOR3A        Y        Out     0.641     31.927      -         
+main_state_RNIIAUSOJ2[11]                                        Net          -        -       1.526     -           7         
+imager_0.stonyman0.main_state_RNIIL33313[7]                      OA1A         A        In      -         33.453      -         
+imager_0.stonyman0.main_state_RNIIL33313[7]                      OA1A         Y        Out     0.933     34.387      -         
+N_1376                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI438FH8[7]                       MX2B         B        In      -         34.708      -         
+imager_0.stonyman0.main_state_RNI438FH8[7]                       MX2B         Y        Out     0.553     35.261      -         
+main_state_nxt_1[2]                                              Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNII8RAI8[5]                       XOR2         A        In      -         35.582      -         
+imager_0.stonyman0.main_state_RNII8RAI8[5]                       XOR2         Y        Out     0.488     36.071      -         
+N_1791                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI5UQTOV2[5]                      XAI1         C        In      -         36.392      -         
+imager_0.stonyman0.main_state_RNI5UQTOV2[5]                      XAI1         Y        Out     0.525     36.917      -         
+un1_main_state_nxt_1_NE_2                                        Net          -        -       1.279     -           5         
+imager_0.stonyman0.sub_state_RNO_0[1]                            NOR3A        C        In      -         38.196      -         
+imager_0.stonyman0.sub_state_RNO_0[1]                            NOR3A        Y        Out     0.716     38.912      -         
+N_1260                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.sub_state_RNO[1]                              MX2          B        In      -         39.234      -         
+imager_0.stonyman0.sub_state_RNO[1]                              MX2          Y        Out     0.586     39.819      -         
+sub_state_nxt[1]                                                 Net          -        -       0.322     -           1         
+imager_0.stonyman0.sub_state[1]                                  DFN1E0C1     D        In      -         40.141      -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 40.679 is 18.279(44.9%) logic and 22.400(55.1%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -450,105 +486,105 @@ Path information for path number 2:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         24.461
 
-    - Propagation time:                      41.524
+    - Propagation time:                      40.134
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.063
+    = Slack (non-critical) :                 -15.673
 
     Number of logic level(s):                27
-    Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
-    Ending point:                            imager_0.stonyman1.sub_state[2] / D
+    Starting point:                          imager_0.stonyman0.ptr_value[2] / Q
+    Ending point:                            imager_0.stonyman0.sub_state[1] / D
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
-Instance / Net                                                                         Pin      Pin               Arrival     No. of    
-Name                                                                      Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------
-imager_0.stonyman1.ptr_value[2]                                           DFN1E1C1     Q        Out     0.737     0.737       -         
-ptr_value[2]                                                              Net          -        -       4.016     -           121       
-imager_0.stonyman1.reg_value_5__RNI2MCE[1]                                MX2          S        In      -         4.753       -         
-imager_0.stonyman1.reg_value_5__RNI2MCE[1]                                MX2          Y        Out     0.396     5.150       -         
-N_1313                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIDBCK1[1]                                  MX2          A        In      -         5.471       -         
-imager_0.stonyman1.ptr_value_RNIDBCK1[1]                                  MX2          Y        Out     0.579     6.050       -         
-N_1329                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIQKQU3[0]                                  MX2          B        In      -         6.371       -         
-imager_0.stonyman1.ptr_value_RNIQKQU3[0]                                  MX2          Y        Out     0.572     6.943       -         
-un45_reg_value_nxt[1]                                                     Net          -        -       2.522     -           26        
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14              OR2A         B        In      -         9.465       -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14              OR2A         Y        Out     0.646     10.111      -         
-N_2_9                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20              AO1C         C        In      -         10.433      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20              AO1C         Y        Out     0.633     11.066      -         
-N_8_8                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23              OA1A         B        In      -         11.387      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23              OA1A         Y        Out     0.902     12.289      -         
-N_11_8                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24              OA1          A        In      -         12.611      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24              OA1          Y        Out     0.984     13.594      -         
-DWACT_COMP0_E_8[2]                                                        Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25              AO1          B        In      -         13.916      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25              AO1          Y        Out     0.567     14.482      -         
-pulse_pin_state_nxt311                                                    Net          -        -       1.708     -           10        
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_2[0]                         NOR2A        A        In      -         16.191      -         
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_2[0]                         NOR2A        Y        Out     0.516     16.707      -         
-reg_N_6                                                                   Net          -        -       1.669     -           9         
-imager_0.stonyman1.pulse_pin_state_RNI117B23[0]                           NOR3A        C        In      -         18.375      -         
-imager_0.stonyman1.pulse_pin_state_RNI117B23[0]                           NOR3A        Y        Out     0.641     19.017      -         
-reg_m2_2_1                                                                Net          -        -       0.322     -           1         
-imager_0.stonyman1.pulse_pin_state_RNIAM7K35_1[0]                         NOR2A        A        In      -         19.338      -         
-imager_0.stonyman1.pulse_pin_state_RNIAM7K35_1[0]                         NOR2A        Y        Out     0.627     19.965      -         
-reg_N_4_mux_0                                                             Net          -        -       1.639     -           8         
-imager_0.stonyman1.reg_value_2__RNIAOQR35[4]                              NOR2         B        In      -         21.604      -         
-imager_0.stonyman1.reg_value_2__RNIAOQR35[4]                              NOR2         Y        Out     0.646     22.251      -         
-N_1395                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.reg_value_2__RNIUV8ARA[4]                              AO1D         C        In      -         22.572      -         
-imager_0.stonyman1.reg_value_2__RNIUV8ARA[4]                              AO1D         Y        Out     0.655     23.228      -         
-N_428                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNITAQGNM[2]                                 MX2C         A        In      -         23.549      -         
-imager_0.stonyman1.ptr_value_RNITAQGNM[2]                                 MX2C         Y        Out     0.568     24.117      -         
-N_1183                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI2BJI2L1[0]                                MX2B         A        In      -         24.439      -         
-imager_0.stonyman1.ptr_value_RNI2BJI2L1[0]                                MX2B         Y        Out     0.579     25.018      -         
-ptr_value_RNI2BJI2L1[0]                                                   Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI43A0RB2[0]                                MX2          A        In      -         25.339      -         
-imager_0.stonyman1.ptr_value_RNI43A0RB2[0]                                MX2          Y        Out     0.579     25.918      -         
-un1_reg_value_nxt_0_[4]                                                   Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNITD3B221[4]                           XO1          B        In      -         26.239      -         
-imager_0.stonyman1.mask_pixel_col_RNITD3B221[4]                           XO1          Y        Out     0.824     27.063      -         
-un1_mask_pixel_col_NE_4_0                                                 Net          -        -       1.279     -           5         
-imager_0.stonyman1.mask_pixel_col_RNIENRFQM1[4]                           OR2          B        In      -         28.342      -         
-imager_0.stonyman1.mask_pixel_col_RNIENRFQM1[4]                           OR2          Y        Out     0.646     28.989      -         
-un1_mask_pixel_col_NE_4                                                   Net          -        -       1.994     -           12        
-imager_0.stonyman1.mask_pixel_col_RNIUSM3CE3[4]                           AO1D         C        In      -         30.982      -         
-imager_0.stonyman1.mask_pixel_col_RNIUSM3CE3[4]                           AO1D         Y        Out     0.633     31.615      -         
-r_N_6                                                                     Net          -        -       0.386     -           2         
-imager_0.stonyman1.GOTO_VAL_1\.un1_mask_pixel_col_NE_5_0_0_RNILS2M391     AO1D         A        In      -         32.001      -         
-imager_0.stonyman1.GOTO_VAL_1\.un1_mask_pixel_col_NE_5_0_0_RNILS2M391     AO1D         Y        Out     0.480     32.480      -         
-N_71                                                                      Net          -        -       1.279     -           5         
-imager_0.stonyman1.main_state_RNINB8R491[1]                               OR2A         A        In      -         33.760      -         
-imager_0.stonyman1.main_state_RNINB8R491[1]                               OR2A         Y        Out     0.537     34.297      -         
-N_760                                                                     Net          -        -       1.184     -           4         
-imager_0.stonyman1.pulse_pin_state_RNI87FFHJ1[0]                          MX2C         S        In      -         35.480      -         
-imager_0.stonyman1.pulse_pin_state_RNI87FFHJ1[0]                          MX2C         Y        Out     0.480     35.960      -         
-pulse_pin_state_RNI87FFHJ1[0]                                             Net          -        -       0.322     -           1         
-imager_0.stonyman1.main_state_RNITP1QIJ1[3]                               XNOR2        A        In      -         36.281      -         
-imager_0.stonyman1.main_state_RNITP1QIJ1[3]                               XNOR2        Y        Out     0.488     36.770      -         
-N_1770                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.main_state_RNINJ6POR2[5]                               XAI1         C        In      -         37.091      -         
-imager_0.stonyman1.main_state_RNINJ6POR2[5]                               XAI1         Y        Out     0.525     37.616      -         
-un1_main_state_nxt_1_NE_0                                                 Net          -        -       0.386     -           2         
-imager_0.stonyman1.main_state_RNIOUT30C[5]                                OR2          B        In      -         38.002      -         
-imager_0.stonyman1.main_state_RNIOUT30C[5]                                OR2          Y        Out     0.646     38.648      -         
-un1_main_state_nxt_1_NE                                                   Net          -        -       0.806     -           3         
-imager_0.stonyman1.main_state_RNIV9DR783[11]                              OR2          B        In      -         39.455      -         
-imager_0.stonyman1.main_state_RNIV9DR783[11]                              OR2          Y        Out     0.646     40.101      -         
-N_727                                                                     Net          -        -       0.386     -           2         
-imager_0.stonyman1.sub_state_RNO[2]                                       NOR3A        C        In      -         40.487      -         
-imager_0.stonyman1.sub_state_RNO[2]                                       NOR3A        Y        Out     0.716     41.203      -         
-N_251                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state[2]                                           DFN1E0C1     D        In      -         41.524      -         
-========================================================================================================================================
-Total path delay (propagation time + setup) of 42.063 is 17.987(42.8%) logic and 24.076(57.2%) route.
+Instance / Net                                                                Pin      Pin               Arrival     No. of    
+Name                                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+imager_0.stonyman0.ptr_value[2]                                  DFN1E0C1     Q        Out     0.737     0.737       -         
+ptr_value[2]                                                     Net          -        -       3.999     -           119       
+imager_0.stonyman0.reg_value_5__RNIV8DM[1]                       MX2          S        In      -         4.736       -         
+imager_0.stonyman0.reg_value_5__RNIV8DM[1]                       MX2          Y        Out     0.396     5.132       -         
+N_1332                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.ptr_value_RNI64VJ1[1]                         MX2          A        In      -         5.454       -         
+imager_0.stonyman0.ptr_value_RNI64VJ1[1]                         MX2          Y        Out     0.579     6.032       -         
+N_1348                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.ptr_value_RNIBPHD3[0]                         MX2          B        In      -         6.354       -         
+imager_0.stonyman0.ptr_value_RNIBPHD3[0]                         MX2          Y        Out     0.572     6.926       -         
+un45_reg_value_nxt[1]                                            Net          -        -       2.522     -           26        
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         B        In      -         9.447       -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         Y        Out     0.646     10.094      -         
+N_2_9                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         C        In      -         10.416      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         Y        Out     0.633     11.048      -         
+N_8_8                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         B        In      -         11.370      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         Y        Out     0.902     12.272      -         
+N_11_8                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          A        In      -         12.593      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y        Out     0.984     13.577      -         
+DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.898      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.465      -         
+pulse_pin_state_nxt311                                           Net          -        -       0.806     -           3         
+imager_0.stonyman0.pulse_pin_state_RNIKIU4S2[0]                  AO1C         B        In      -         15.271      -         
+imager_0.stonyman0.pulse_pin_state_RNIKIU4S2[0]                  AO1C         Y        Out     0.454     15.725      -         
+un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.pulse_pin_state_RNIU00OP4[0]                  AO1A         C        In      -         16.046      -         
+imager_0.stonyman0.pulse_pin_state_RNIU00OP4[0]                  AO1A         Y        Out     0.655     16.701      -         
+un1_reg_value_nxt_3                                              Net          -        -       3.377     -           64        
+imager_0.stonyman0.reg_value_0__RNIUE8O85[3]                     MX2          S        In      -         20.078      -         
+imager_0.stonyman0.reg_value_0__RNIUE8O85[3]                     MX2          Y        Out     0.396     20.475      -         
+N_1272                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNIGCS977[3]                     MX2          A        In      -         20.796      -         
+imager_0.stonyman0.reg_value_0__RNIGCS977[3]                     MX2          Y        Out     0.579     21.375      -         
+reg_value_nxt_0__56[3]                                           Net          -        -       0.806     -           3         
+imager_0.stonyman0.reg_value_0__RNI2C66BE[2]                     OR2B         B        In      -         22.181      -         
+imager_0.stonyman0.reg_value_0__RNI2C66BE[2]                     OR2B         Y        Out     0.627     22.809      -         
+mask_pixel_col_nxt21lt3_1                                        Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNI27JDJ31[4]                    OA1B         B        In      -         23.130      -         
+imager_0.stonyman0.reg_value_0__RNI27JDJ31[4]                    OA1B         Y        Out     0.984     24.114      -         
+mask_pixel_col_nxt21lt6                                          Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNI0BA5JI1[4]                    OR2          B        In      -         24.435      -         
+imager_0.stonyman0.reg_value_0__RNI0BA5JI1[4]                    OR2          Y        Out     0.514     24.950      -         
+mask_pixel_col_nxt21lt7                                          Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNIOTI58Q1[7]                    NOR2A        A        In      -         25.271      -         
+imager_0.stonyman0.reg_value_0__RNIOTI58Q1[7]                    NOR2A        Y        Out     0.516     25.787      -         
+mask_pixel_col_nxt21                                             Net          -        -       0.386     -           2         
+imager_0.stonyman0.reg_value_0__RNIKT978Q1_0[7]                  NOR2         A        In      -         26.173      -         
+imager_0.stonyman0.reg_value_0__RNIKT978Q1_0[7]                  NOR2         Y        Out     0.363     26.536      -         
+mask_pixel_col_nxt_1_sqmuxa_2                                    Net          -        -       0.386     -           2         
+imager_0.stonyman0.reg_value_1__RNIJVSKGM3[7]                    NOR2A        A        In      -         26.922      -         
+imager_0.stonyman0.reg_value_1__RNIJVSKGM3[7]                    NOR2A        Y        Out     0.627     27.549      -         
+sub_state_nxt_1_sqmuxa_10                                        Net          -        -       1.526     -           7         
+imager_0.stonyman0.sub_state_RNI7SE7HM3[2]                       NOR2B        B        In      -         29.076      -         
+imager_0.stonyman0.sub_state_RNI7SE7HM3[2]                       NOR2B        Y        Out     0.627     29.703      -         
+G_m2_0_a2_0                                                      Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI42SJHA2[11]                     OA1A         A        In      -         30.024      -         
+imager_0.stonyman0.main_state_RNI42SJHA2[11]                     OA1A         Y        Out     0.933     30.958      -         
+main_state_RNI42SJHA2[11]                                        Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNIIAUSOJ2[11]                     NOR3A        C        In      -         31.279      -         
+imager_0.stonyman0.main_state_RNIIAUSOJ2[11]                     NOR3A        Y        Out     0.641     31.921      -         
+main_state_RNIIAUSOJ2[11]                                        Net          -        -       1.526     -           7         
+imager_0.stonyman0.main_state_RNIIL33313[7]                      OA1A         A        In      -         33.447      -         
+imager_0.stonyman0.main_state_RNIIL33313[7]                      OA1A         Y        Out     0.933     34.380      -         
+N_1376                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI438FH8[7]                       MX2B         B        In      -         34.701      -         
+imager_0.stonyman0.main_state_RNI438FH8[7]                       MX2B         Y        Out     0.553     35.254      -         
+main_state_nxt_1[2]                                              Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNII8RAI8[5]                       XOR2         A        In      -         35.575      -         
+imager_0.stonyman0.main_state_RNII8RAI8[5]                       XOR2         Y        Out     0.488     36.064      -         
+N_1791                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI5UQTOV2[5]                      XAI1         C        In      -         36.385      -         
+imager_0.stonyman0.main_state_RNI5UQTOV2[5]                      XAI1         Y        Out     0.525     36.910      -         
+un1_main_state_nxt_1_NE_2                                        Net          -        -       1.279     -           5         
+imager_0.stonyman0.sub_state_RNO_0[1]                            NOR3A        C        In      -         38.189      -         
+imager_0.stonyman0.sub_state_RNO_0[1]                            NOR3A        Y        Out     0.716     38.905      -         
+N_1260                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.sub_state_RNO[1]                              MX2          B        In      -         39.227      -         
+imager_0.stonyman0.sub_state_RNO[1]                              MX2          Y        Out     0.586     39.812      -         
+sub_state_nxt[1]                                                 Net          -        -       0.322     -           1         
+imager_0.stonyman0.sub_state[1]                                  DFN1E0C1     D        In      -         40.134      -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 40.673 is 18.272(44.9%) logic and 22.400(55.1%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -558,105 +594,105 @@ Path information for path number 3:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         24.461
 
-    - Propagation time:                      41.524
+    - Propagation time:                      40.134
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.063
+    = Slack (non-critical) :                 -15.673
 
     Number of logic level(s):                27
-    Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
-    Ending point:                            imager_0.stonyman1.sub_state[2] / D
+    Starting point:                          imager_0.stonyman0.ptr_value[2] / Q
+    Ending point:                            imager_0.stonyman0.sub_state[1] / D
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
-Instance / Net                                                                         Pin      Pin               Arrival     No. of    
-Name                                                                      Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------
-imager_0.stonyman1.ptr_value[2]                                           DFN1E1C1     Q        Out     0.737     0.737       -         
-ptr_value[2]                                                              Net          -        -       4.016     -           121       
-imager_0.stonyman1.reg_value_2__RNI4UOM[1]                                MX2          S        In      -         4.753       -         
-imager_0.stonyman1.reg_value_2__RNI4UOM[1]                                MX2          Y        Out     0.396     5.150       -         
-N_1297                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI9RJ32[1]                                  MX2          B        In      -         5.471       -         
-imager_0.stonyman1.ptr_value_RNI9RJ32[1]                                  MX2          Y        Out     0.572     6.043       -         
-N_1305                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIQKQU3[0]                                  MX2          A        In      -         6.364       -         
-imager_0.stonyman1.ptr_value_RNIQKQU3[0]                                  MX2          Y        Out     0.579     6.943       -         
-un45_reg_value_nxt[1]                                                     Net          -        -       2.522     -           26        
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14              OR2A         B        In      -         9.465       -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14              OR2A         Y        Out     0.646     10.111      -         
-N_2_9                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20              AO1C         C        In      -         10.433      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20              AO1C         Y        Out     0.633     11.066      -         
-N_8_8                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23              OA1A         B        In      -         11.387      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23              OA1A         Y        Out     0.902     12.289      -         
-N_11_8                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24              OA1          A        In      -         12.611      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24              OA1          Y        Out     0.984     13.594      -         
-DWACT_COMP0_E_8[2]                                                        Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25              AO1          B        In      -         13.916      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25              AO1          Y        Out     0.567     14.482      -         
-pulse_pin_state_nxt311                                                    Net          -        -       1.708     -           10        
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_2[0]                         NOR2A        A        In      -         16.191      -         
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_2[0]                         NOR2A        Y        Out     0.516     16.707      -         
-reg_N_6                                                                   Net          -        -       1.669     -           9         
-imager_0.stonyman1.pulse_pin_state_RNI117B23[0]                           NOR3A        C        In      -         18.375      -         
-imager_0.stonyman1.pulse_pin_state_RNI117B23[0]                           NOR3A        Y        Out     0.641     19.017      -         
-reg_m2_2_1                                                                Net          -        -       0.322     -           1         
-imager_0.stonyman1.pulse_pin_state_RNIAM7K35_1[0]                         NOR2A        A        In      -         19.338      -         
-imager_0.stonyman1.pulse_pin_state_RNIAM7K35_1[0]                         NOR2A        Y        Out     0.627     19.965      -         
-reg_N_4_mux_0                                                             Net          -        -       1.639     -           8         
-imager_0.stonyman1.reg_value_2__RNIAOQR35[4]                              NOR2         B        In      -         21.604      -         
-imager_0.stonyman1.reg_value_2__RNIAOQR35[4]                              NOR2         Y        Out     0.646     22.251      -         
-N_1395                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.reg_value_2__RNIUV8ARA[4]                              AO1D         C        In      -         22.572      -         
-imager_0.stonyman1.reg_value_2__RNIUV8ARA[4]                              AO1D         Y        Out     0.655     23.228      -         
-N_428                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNITAQGNM[2]                                 MX2C         A        In      -         23.549      -         
-imager_0.stonyman1.ptr_value_RNITAQGNM[2]                                 MX2C         Y        Out     0.568     24.117      -         
-N_1183                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI2BJI2L1[0]                                MX2B         A        In      -         24.439      -         
-imager_0.stonyman1.ptr_value_RNI2BJI2L1[0]                                MX2B         Y        Out     0.579     25.018      -         
-ptr_value_RNI2BJI2L1[0]                                                   Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI43A0RB2[0]                                MX2          A        In      -         25.339      -         
-imager_0.stonyman1.ptr_value_RNI43A0RB2[0]                                MX2          Y        Out     0.579     25.918      -         
-un1_reg_value_nxt_0_[4]                                                   Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNITD3B221[4]                           XO1          B        In      -         26.239      -         
-imager_0.stonyman1.mask_pixel_col_RNITD3B221[4]                           XO1          Y        Out     0.824     27.063      -         
-un1_mask_pixel_col_NE_4_0                                                 Net          -        -       1.279     -           5         
-imager_0.stonyman1.mask_pixel_col_RNIENRFQM1[4]                           OR2          B        In      -         28.342      -         
-imager_0.stonyman1.mask_pixel_col_RNIENRFQM1[4]                           OR2          Y        Out     0.646     28.989      -         
-un1_mask_pixel_col_NE_4                                                   Net          -        -       1.994     -           12        
-imager_0.stonyman1.mask_pixel_col_RNIUSM3CE3[4]                           AO1D         C        In      -         30.982      -         
-imager_0.stonyman1.mask_pixel_col_RNIUSM3CE3[4]                           AO1D         Y        Out     0.633     31.615      -         
-r_N_6                                                                     Net          -        -       0.386     -           2         
-imager_0.stonyman1.GOTO_VAL_1\.un1_mask_pixel_col_NE_5_0_0_RNILS2M391     AO1D         A        In      -         32.001      -         
-imager_0.stonyman1.GOTO_VAL_1\.un1_mask_pixel_col_NE_5_0_0_RNILS2M391     AO1D         Y        Out     0.480     32.480      -         
-N_71                                                                      Net          -        -       1.279     -           5         
-imager_0.stonyman1.main_state_RNINB8R491[1]                               OR2A         A        In      -         33.760      -         
-imager_0.stonyman1.main_state_RNINB8R491[1]                               OR2A         Y        Out     0.537     34.297      -         
-N_760                                                                     Net          -        -       1.184     -           4         
-imager_0.stonyman1.pulse_pin_state_RNI87FFHJ1[0]                          MX2C         S        In      -         35.480      -         
-imager_0.stonyman1.pulse_pin_state_RNI87FFHJ1[0]                          MX2C         Y        Out     0.480     35.960      -         
-pulse_pin_state_RNI87FFHJ1[0]                                             Net          -        -       0.322     -           1         
-imager_0.stonyman1.main_state_RNITP1QIJ1[3]                               XNOR2        A        In      -         36.281      -         
-imager_0.stonyman1.main_state_RNITP1QIJ1[3]                               XNOR2        Y        Out     0.488     36.770      -         
-N_1770                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.main_state_RNINJ6POR2[5]                               XAI1         C        In      -         37.091      -         
-imager_0.stonyman1.main_state_RNINJ6POR2[5]                               XAI1         Y        Out     0.525     37.616      -         
-un1_main_state_nxt_1_NE_0                                                 Net          -        -       0.386     -           2         
-imager_0.stonyman1.main_state_RNIOUT30C[5]                                OR2          B        In      -         38.002      -         
-imager_0.stonyman1.main_state_RNIOUT30C[5]                                OR2          Y        Out     0.646     38.648      -         
-un1_main_state_nxt_1_NE                                                   Net          -        -       0.806     -           3         
-imager_0.stonyman1.main_state_RNIV9DR783[11]                              OR2          B        In      -         39.455      -         
-imager_0.stonyman1.main_state_RNIV9DR783[11]                              OR2          Y        Out     0.646     40.101      -         
-N_727                                                                     Net          -        -       0.386     -           2         
-imager_0.stonyman1.sub_state_RNO[2]                                       NOR3A        C        In      -         40.487      -         
-imager_0.stonyman1.sub_state_RNO[2]                                       NOR3A        Y        Out     0.716     41.203      -         
-N_251                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state[2]                                           DFN1E0C1     D        In      -         41.524      -         
-========================================================================================================================================
-Total path delay (propagation time + setup) of 42.063 is 17.987(42.8%) logic and 24.076(57.2%) route.
+Instance / Net                                                                Pin      Pin               Arrival     No. of    
+Name                                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+imager_0.stonyman0.ptr_value[2]                                  DFN1E0C1     Q        Out     0.737     0.737       -         
+ptr_value[2]                                                     Net          -        -       3.999     -           119       
+imager_0.stonyman0.reg_value_2__RNI1HPE[1]                       MX2          S        In      -         4.736       -         
+imager_0.stonyman0.reg_value_2__RNI1HPE[1]                       MX2          Y        Out     0.396     5.132       -         
+N_1316                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.ptr_value_RNI2K6J1[1]                         MX2          B        In      -         5.454       -         
+imager_0.stonyman0.ptr_value_RNI2K6J1[1]                         MX2          Y        Out     0.572     6.026       -         
+N_1324                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.ptr_value_RNIBPHD3[0]                         MX2          A        In      -         6.347       -         
+imager_0.stonyman0.ptr_value_RNIBPHD3[0]                         MX2          Y        Out     0.579     6.926       -         
+un45_reg_value_nxt[1]                                            Net          -        -       2.522     -           26        
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         B        In      -         9.447       -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         Y        Out     0.646     10.094      -         
+N_2_9                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         C        In      -         10.416      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         Y        Out     0.633     11.048      -         
+N_8_8                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         B        In      -         11.370      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         Y        Out     0.902     12.272      -         
+N_11_8                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          A        In      -         12.593      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y        Out     0.984     13.577      -         
+DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.898      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.465      -         
+pulse_pin_state_nxt311                                           Net          -        -       0.806     -           3         
+imager_0.stonyman0.pulse_pin_state_RNIKIU4S2[0]                  AO1C         B        In      -         15.271      -         
+imager_0.stonyman0.pulse_pin_state_RNIKIU4S2[0]                  AO1C         Y        Out     0.454     15.725      -         
+un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.pulse_pin_state_RNIU00OP4[0]                  AO1A         C        In      -         16.046      -         
+imager_0.stonyman0.pulse_pin_state_RNIU00OP4[0]                  AO1A         Y        Out     0.655     16.701      -         
+un1_reg_value_nxt_3                                              Net          -        -       3.377     -           64        
+imager_0.stonyman0.reg_value_0__RNIUE8O85[3]                     MX2          S        In      -         20.078      -         
+imager_0.stonyman0.reg_value_0__RNIUE8O85[3]                     MX2          Y        Out     0.396     20.475      -         
+N_1272                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNIGCS977[3]                     MX2          A        In      -         20.796      -         
+imager_0.stonyman0.reg_value_0__RNIGCS977[3]                     MX2          Y        Out     0.579     21.375      -         
+reg_value_nxt_0__56[3]                                           Net          -        -       0.806     -           3         
+imager_0.stonyman0.reg_value_0__RNI2C66BE[2]                     OR2B         B        In      -         22.181      -         
+imager_0.stonyman0.reg_value_0__RNI2C66BE[2]                     OR2B         Y        Out     0.627     22.809      -         
+mask_pixel_col_nxt21lt3_1                                        Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNI27JDJ31[4]                    OA1B         B        In      -         23.130      -         
+imager_0.stonyman0.reg_value_0__RNI27JDJ31[4]                    OA1B         Y        Out     0.984     24.114      -         
+mask_pixel_col_nxt21lt6                                          Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNI0BA5JI1[4]                    OR2          B        In      -         24.435      -         
+imager_0.stonyman0.reg_value_0__RNI0BA5JI1[4]                    OR2          Y        Out     0.514     24.950      -         
+mask_pixel_col_nxt21lt7                                          Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNIOTI58Q1[7]                    NOR2A        A        In      -         25.271      -         
+imager_0.stonyman0.reg_value_0__RNIOTI58Q1[7]                    NOR2A        Y        Out     0.516     25.787      -         
+mask_pixel_col_nxt21                                             Net          -        -       0.386     -           2         
+imager_0.stonyman0.reg_value_0__RNIKT978Q1_0[7]                  NOR2         A        In      -         26.173      -         
+imager_0.stonyman0.reg_value_0__RNIKT978Q1_0[7]                  NOR2         Y        Out     0.363     26.536      -         
+mask_pixel_col_nxt_1_sqmuxa_2                                    Net          -        -       0.386     -           2         
+imager_0.stonyman0.reg_value_1__RNIJVSKGM3[7]                    NOR2A        A        In      -         26.922      -         
+imager_0.stonyman0.reg_value_1__RNIJVSKGM3[7]                    NOR2A        Y        Out     0.627     27.549      -         
+sub_state_nxt_1_sqmuxa_10                                        Net          -        -       1.526     -           7         
+imager_0.stonyman0.sub_state_RNI7SE7HM3[2]                       NOR2B        B        In      -         29.076      -         
+imager_0.stonyman0.sub_state_RNI7SE7HM3[2]                       NOR2B        Y        Out     0.627     29.703      -         
+G_m2_0_a2_0                                                      Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI42SJHA2[11]                     OA1A         A        In      -         30.024      -         
+imager_0.stonyman0.main_state_RNI42SJHA2[11]                     OA1A         Y        Out     0.933     30.958      -         
+main_state_RNI42SJHA2[11]                                        Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNIIAUSOJ2[11]                     NOR3A        C        In      -         31.279      -         
+imager_0.stonyman0.main_state_RNIIAUSOJ2[11]                     NOR3A        Y        Out     0.641     31.921      -         
+main_state_RNIIAUSOJ2[11]                                        Net          -        -       1.526     -           7         
+imager_0.stonyman0.main_state_RNIIL33313[7]                      OA1A         A        In      -         33.447      -         
+imager_0.stonyman0.main_state_RNIIL33313[7]                      OA1A         Y        Out     0.933     34.380      -         
+N_1376                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI438FH8[7]                       MX2B         B        In      -         34.701      -         
+imager_0.stonyman0.main_state_RNI438FH8[7]                       MX2B         Y        Out     0.553     35.254      -         
+main_state_nxt_1[2]                                              Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNII8RAI8[5]                       XOR2         A        In      -         35.575      -         
+imager_0.stonyman0.main_state_RNII8RAI8[5]                       XOR2         Y        Out     0.488     36.064      -         
+N_1791                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI5UQTOV2[5]                      XAI1         C        In      -         36.385      -         
+imager_0.stonyman0.main_state_RNI5UQTOV2[5]                      XAI1         Y        Out     0.525     36.910      -         
+un1_main_state_nxt_1_NE_2                                        Net          -        -       1.279     -           5         
+imager_0.stonyman0.sub_state_RNO_0[1]                            NOR3A        C        In      -         38.189      -         
+imager_0.stonyman0.sub_state_RNO_0[1]                            NOR3A        Y        Out     0.716     38.905      -         
+N_1260                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.sub_state_RNO[1]                              MX2          B        In      -         39.227      -         
+imager_0.stonyman0.sub_state_RNO[1]                              MX2          Y        Out     0.586     39.812      -         
+sub_state_nxt[1]                                                 Net          -        -       0.322     -           1         
+imager_0.stonyman0.sub_state[1]                                  DFN1E0C1     D        In      -         40.134      -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 40.673 is 18.272(44.9%) logic and 22.400(55.1%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -666,105 +702,105 @@ Path information for path number 4:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         24.461
 
-    - Propagation time:                      41.517
+    - Propagation time:                      40.127
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.056
+    = Slack (non-critical) :                 -15.666
 
     Number of logic level(s):                27
-    Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
-    Ending point:                            imager_0.stonyman1.sub_state[2] / D
+    Starting point:                          imager_0.stonyman0.ptr_value[2] / Q
+    Ending point:                            imager_0.stonyman0.sub_state[1] / D
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
-Instance / Net                                                                         Pin      Pin               Arrival     No. of    
-Name                                                                      Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------
-imager_0.stonyman1.ptr_value[2]                                           DFN1E1C1     Q        Out     0.737     0.737       -         
-ptr_value[2]                                                              Net          -        -       4.016     -           121       
-imager_0.stonyman1.reg_value_3__RNI665V_0[1]                              MX2          S        In      -         4.753       -         
-imager_0.stonyman1.reg_value_3__RNI665V_0[1]                              MX2          Y        Out     0.396     5.150       -         
-N_1321                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIDBCK1[1]                                  MX2          B        In      -         5.471       -         
-imager_0.stonyman1.ptr_value_RNIDBCK1[1]                                  MX2          Y        Out     0.572     6.043       -         
-N_1329                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIQKQU3[0]                                  MX2          B        In      -         6.364       -         
-imager_0.stonyman1.ptr_value_RNIQKQU3[0]                                  MX2          Y        Out     0.572     6.936       -         
-un45_reg_value_nxt[1]                                                     Net          -        -       2.522     -           26        
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14              OR2A         B        In      -         9.458       -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14              OR2A         Y        Out     0.646     10.105      -         
-N_2_9                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20              AO1C         C        In      -         10.426      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20              AO1C         Y        Out     0.633     11.059      -         
-N_8_8                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23              OA1A         B        In      -         11.380      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23              OA1A         Y        Out     0.902     12.282      -         
-N_11_8                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24              OA1          A        In      -         12.604      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24              OA1          Y        Out     0.984     13.587      -         
-DWACT_COMP0_E_8[2]                                                        Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25              AO1          B        In      -         13.909      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25              AO1          Y        Out     0.567     14.475      -         
-pulse_pin_state_nxt311                                                    Net          -        -       1.708     -           10        
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_2[0]                         NOR2A        A        In      -         16.184      -         
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_2[0]                         NOR2A        Y        Out     0.516     16.700      -         
-reg_N_6                                                                   Net          -        -       1.669     -           9         
-imager_0.stonyman1.pulse_pin_state_RNI117B23[0]                           NOR3A        C        In      -         18.368      -         
-imager_0.stonyman1.pulse_pin_state_RNI117B23[0]                           NOR3A        Y        Out     0.641     19.010      -         
-reg_m2_2_1                                                                Net          -        -       0.322     -           1         
-imager_0.stonyman1.pulse_pin_state_RNIAM7K35_1[0]                         NOR2A        A        In      -         19.331      -         
-imager_0.stonyman1.pulse_pin_state_RNIAM7K35_1[0]                         NOR2A        Y        Out     0.627     19.959      -         
-reg_N_4_mux_0                                                             Net          -        -       1.639     -           8         
-imager_0.stonyman1.reg_value_2__RNIAOQR35[4]                              NOR2         B        In      -         21.598      -         
-imager_0.stonyman1.reg_value_2__RNIAOQR35[4]                              NOR2         Y        Out     0.646     22.244      -         
-N_1395                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.reg_value_2__RNIUV8ARA[4]                              AO1D         C        In      -         22.566      -         
-imager_0.stonyman1.reg_value_2__RNIUV8ARA[4]                              AO1D         Y        Out     0.655     23.221      -         
-N_428                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNITAQGNM[2]                                 MX2C         A        In      -         23.542      -         
-imager_0.stonyman1.ptr_value_RNITAQGNM[2]                                 MX2C         Y        Out     0.568     24.110      -         
-N_1183                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI2BJI2L1[0]                                MX2B         A        In      -         24.432      -         
-imager_0.stonyman1.ptr_value_RNI2BJI2L1[0]                                MX2B         Y        Out     0.579     25.011      -         
-ptr_value_RNI2BJI2L1[0]                                                   Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI43A0RB2[0]                                MX2          A        In      -         25.332      -         
-imager_0.stonyman1.ptr_value_RNI43A0RB2[0]                                MX2          Y        Out     0.579     25.911      -         
-un1_reg_value_nxt_0_[4]                                                   Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNITD3B221[4]                           XO1          B        In      -         26.232      -         
-imager_0.stonyman1.mask_pixel_col_RNITD3B221[4]                           XO1          Y        Out     0.824     27.056      -         
-un1_mask_pixel_col_NE_4_0                                                 Net          -        -       1.279     -           5         
-imager_0.stonyman1.mask_pixel_col_RNIENRFQM1[4]                           OR2          B        In      -         28.335      -         
-imager_0.stonyman1.mask_pixel_col_RNIENRFQM1[4]                           OR2          Y        Out     0.646     28.982      -         
-un1_mask_pixel_col_NE_4                                                   Net          -        -       1.994     -           12        
-imager_0.stonyman1.mask_pixel_col_RNIUSM3CE3[4]                           AO1D         C        In      -         30.975      -         
-imager_0.stonyman1.mask_pixel_col_RNIUSM3CE3[4]                           AO1D         Y        Out     0.633     31.608      -         
-r_N_6                                                                     Net          -        -       0.386     -           2         
-imager_0.stonyman1.GOTO_VAL_1\.un1_mask_pixel_col_NE_5_0_0_RNILS2M391     AO1D         A        In      -         31.994      -         
-imager_0.stonyman1.GOTO_VAL_1\.un1_mask_pixel_col_NE_5_0_0_RNILS2M391     AO1D         Y        Out     0.480     32.473      -         
-N_71                                                                      Net          -        -       1.279     -           5         
-imager_0.stonyman1.main_state_RNINB8R491[1]                               OR2A         A        In      -         33.753      -         
-imager_0.stonyman1.main_state_RNINB8R491[1]                               OR2A         Y        Out     0.537     34.290      -         
-N_760                                                                     Net          -        -       1.184     -           4         
-imager_0.stonyman1.pulse_pin_state_RNI87FFHJ1[0]                          MX2C         S        In      -         35.473      -         
-imager_0.stonyman1.pulse_pin_state_RNI87FFHJ1[0]                          MX2C         Y        Out     0.480     35.953      -         
-pulse_pin_state_RNI87FFHJ1[0]                                             Net          -        -       0.322     -           1         
-imager_0.stonyman1.main_state_RNITP1QIJ1[3]                               XNOR2        A        In      -         36.274      -         
-imager_0.stonyman1.main_state_RNITP1QIJ1[3]                               XNOR2        Y        Out     0.488     36.763      -         
-N_1770                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.main_state_RNINJ6POR2[5]                               XAI1         C        In      -         37.084      -         
-imager_0.stonyman1.main_state_RNINJ6POR2[5]                               XAI1         Y        Out     0.525     37.609      -         
-un1_main_state_nxt_1_NE_0                                                 Net          -        -       0.386     -           2         
-imager_0.stonyman1.main_state_RNIOUT30C[5]                                OR2          B        In      -         37.995      -         
-imager_0.stonyman1.main_state_RNIOUT30C[5]                                OR2          Y        Out     0.646     38.641      -         
-un1_main_state_nxt_1_NE                                                   Net          -        -       0.806     -           3         
-imager_0.stonyman1.main_state_RNIV9DR783[11]                              OR2          B        In      -         39.448      -         
-imager_0.stonyman1.main_state_RNIV9DR783[11]                              OR2          Y        Out     0.646     40.094      -         
-N_727                                                                     Net          -        -       0.386     -           2         
-imager_0.stonyman1.sub_state_RNO[2]                                       NOR3A        C        In      -         40.480      -         
-imager_0.stonyman1.sub_state_RNO[2]                                       NOR3A        Y        Out     0.716     41.196      -         
-N_251                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state[2]                                           DFN1E0C1     D        In      -         41.517      -         
-========================================================================================================================================
-Total path delay (propagation time + setup) of 42.056 is 17.980(42.8%) logic and 24.076(57.2%) route.
+Instance / Net                                                                Pin      Pin               Arrival     No. of    
+Name                                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+imager_0.stonyman0.ptr_value[2]                                  DFN1E0C1     Q        Out     0.737     0.737       -         
+ptr_value[2]                                                     Net          -        -       3.999     -           119       
+imager_0.stonyman0.reg_value_3__RNI3P5N[1]                       MX2          S        In      -         4.736       -         
+imager_0.stonyman0.reg_value_3__RNI3P5N[1]                       MX2          Y        Out     0.396     5.132       -         
+N_1340                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.ptr_value_RNI64VJ1[1]                         MX2          B        In      -         5.454       -         
+imager_0.stonyman0.ptr_value_RNI64VJ1[1]                         MX2          Y        Out     0.572     6.026       -         
+N_1348                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.ptr_value_RNIBPHD3[0]                         MX2          B        In      -         6.347       -         
+imager_0.stonyman0.ptr_value_RNIBPHD3[0]                         MX2          Y        Out     0.572     6.919       -         
+un45_reg_value_nxt[1]                                            Net          -        -       2.522     -           26        
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         B        In      -         9.441       -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         Y        Out     0.646     10.087      -         
+N_2_9                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         C        In      -         10.409      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         Y        Out     0.633     11.041      -         
+N_8_8                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         B        In      -         11.363      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         Y        Out     0.902     12.265      -         
+N_11_8                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          A        In      -         12.586      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y        Out     0.984     13.570      -         
+DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.891      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.458      -         
+pulse_pin_state_nxt311                                           Net          -        -       0.806     -           3         
+imager_0.stonyman0.pulse_pin_state_RNIKIU4S2[0]                  AO1C         B        In      -         15.264      -         
+imager_0.stonyman0.pulse_pin_state_RNIKIU4S2[0]                  AO1C         Y        Out     0.454     15.718      -         
+un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.pulse_pin_state_RNIU00OP4[0]                  AO1A         C        In      -         16.039      -         
+imager_0.stonyman0.pulse_pin_state_RNIU00OP4[0]                  AO1A         Y        Out     0.655     16.695      -         
+un1_reg_value_nxt_3                                              Net          -        -       3.377     -           64        
+imager_0.stonyman0.reg_value_0__RNIUE8O85[3]                     MX2          S        In      -         20.072      -         
+imager_0.stonyman0.reg_value_0__RNIUE8O85[3]                     MX2          Y        Out     0.396     20.468      -         
+N_1272                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNIGCS977[3]                     MX2          A        In      -         20.789      -         
+imager_0.stonyman0.reg_value_0__RNIGCS977[3]                     MX2          Y        Out     0.579     21.368      -         
+reg_value_nxt_0__56[3]                                           Net          -        -       0.806     -           3         
+imager_0.stonyman0.reg_value_0__RNI2C66BE[2]                     OR2B         B        In      -         22.174      -         
+imager_0.stonyman0.reg_value_0__RNI2C66BE[2]                     OR2B         Y        Out     0.627     22.802      -         
+mask_pixel_col_nxt21lt3_1                                        Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNI27JDJ31[4]                    OA1B         B        In      -         23.123      -         
+imager_0.stonyman0.reg_value_0__RNI27JDJ31[4]                    OA1B         Y        Out     0.984     24.107      -         
+mask_pixel_col_nxt21lt6                                          Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNI0BA5JI1[4]                    OR2          B        In      -         24.428      -         
+imager_0.stonyman0.reg_value_0__RNI0BA5JI1[4]                    OR2          Y        Out     0.514     24.943      -         
+mask_pixel_col_nxt21lt7                                          Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNIOTI58Q1[7]                    NOR2A        A        In      -         25.264      -         
+imager_0.stonyman0.reg_value_0__RNIOTI58Q1[7]                    NOR2A        Y        Out     0.516     25.780      -         
+mask_pixel_col_nxt21                                             Net          -        -       0.386     -           2         
+imager_0.stonyman0.reg_value_0__RNIKT978Q1_0[7]                  NOR2         A        In      -         26.166      -         
+imager_0.stonyman0.reg_value_0__RNIKT978Q1_0[7]                  NOR2         Y        Out     0.363     26.529      -         
+mask_pixel_col_nxt_1_sqmuxa_2                                    Net          -        -       0.386     -           2         
+imager_0.stonyman0.reg_value_1__RNIJVSKGM3[7]                    NOR2A        A        In      -         26.915      -         
+imager_0.stonyman0.reg_value_1__RNIJVSKGM3[7]                    NOR2A        Y        Out     0.627     27.543      -         
+sub_state_nxt_1_sqmuxa_10                                        Net          -        -       1.526     -           7         
+imager_0.stonyman0.sub_state_RNI7SE7HM3[2]                       NOR2B        B        In      -         29.069      -         
+imager_0.stonyman0.sub_state_RNI7SE7HM3[2]                       NOR2B        Y        Out     0.627     29.696      -         
+G_m2_0_a2_0                                                      Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI42SJHA2[11]                     OA1A         A        In      -         30.017      -         
+imager_0.stonyman0.main_state_RNI42SJHA2[11]                     OA1A         Y        Out     0.933     30.951      -         
+main_state_RNI42SJHA2[11]                                        Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNIIAUSOJ2[11]                     NOR3A        C        In      -         31.272      -         
+imager_0.stonyman0.main_state_RNIIAUSOJ2[11]                     NOR3A        Y        Out     0.641     31.914      -         
+main_state_RNIIAUSOJ2[11]                                        Net          -        -       1.526     -           7         
+imager_0.stonyman0.main_state_RNIIL33313[7]                      OA1A         A        In      -         33.440      -         
+imager_0.stonyman0.main_state_RNIIL33313[7]                      OA1A         Y        Out     0.933     34.373      -         
+N_1376                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI438FH8[7]                       MX2B         B        In      -         34.694      -         
+imager_0.stonyman0.main_state_RNI438FH8[7]                       MX2B         Y        Out     0.553     35.247      -         
+main_state_nxt_1[2]                                              Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNII8RAI8[5]                       XOR2         A        In      -         35.569      -         
+imager_0.stonyman0.main_state_RNII8RAI8[5]                       XOR2         Y        Out     0.488     36.057      -         
+N_1791                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI5UQTOV2[5]                      XAI1         C        In      -         36.378      -         
+imager_0.stonyman0.main_state_RNI5UQTOV2[5]                      XAI1         Y        Out     0.525     36.903      -         
+un1_main_state_nxt_1_NE_2                                        Net          -        -       1.279     -           5         
+imager_0.stonyman0.sub_state_RNO_0[1]                            NOR3A        C        In      -         38.182      -         
+imager_0.stonyman0.sub_state_RNO_0[1]                            NOR3A        Y        Out     0.716     38.898      -         
+N_1260                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.sub_state_RNO[1]                              MX2          B        In      -         39.220      -         
+imager_0.stonyman0.sub_state_RNO[1]                              MX2          Y        Out     0.586     39.806      -         
+sub_state_nxt[1]                                                 Net          -        -       0.322     -           1         
+imager_0.stonyman0.sub_state[1]                                  DFN1E0C1     D        In      -         40.127      -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 40.666 is 18.265(44.9%) logic and 22.400(55.1%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -774,105 +810,105 @@ Path information for path number 5:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         24.461
 
-    - Propagation time:                      41.403
+    - Propagation time:                      40.069
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -16.941
+    = Slack (non-critical) :                 -15.608
 
     Number of logic level(s):                27
-    Starting point:                          imager_0.stonyman1.ptr_value[2] / Q
-    Ending point:                            imager_0.stonyman1.sub_state[2] / D
+    Starting point:                          imager_0.stonyman0.ptr_value[2] / Q
+    Ending point:                            imager_0.stonyman0.sub_state[1] / D
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
-Instance / Net                                                                         Pin      Pin               Arrival     No. of    
-Name                                                                      Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------
-imager_0.stonyman1.ptr_value[2]                                           DFN1E1C1     Q        Out     0.737     0.737       -         
-ptr_value[2]                                                              Net          -        -       4.016     -           121       
-imager_0.stonyman1.reg_value_4__RNIUB061[0]                               MX2          S        In      -         4.753       -         
-imager_0.stonyman1.reg_value_4__RNIUB061[0]                               MX2          Y        Out     0.396     5.150       -         
-N_1288                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI5NJ32[1]                                  MX2          A        In      -         5.471       -         
-imager_0.stonyman1.ptr_value_RNI5NJ32[1]                                  MX2          Y        Out     0.579     6.050       -         
-N_1304                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNIICQU3[0]                                  MX2          A        In      -         6.371       -         
-imager_0.stonyman1.ptr_value_RNIICQU3[0]                                  MX2          Y        Out     0.579     6.950       -         
-un45_reg_value_nxt[0]                                                     Net          -        -       2.579     -           28        
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_16              NOR2A        B        In      -         9.529       -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_16              NOR2A        Y        Out     0.407     9.936       -         
-N_4_9                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_18              AO1C         C        In      -         10.257      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_18              AO1C         Y        Out     0.655     10.913      -         
-N_6_9                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23              OA1A         A        In      -         11.234      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23              OA1A         Y        Out     0.933     12.167      -         
-N_11_8                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24              OA1          A        In      -         12.489      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24              OA1          Y        Out     0.984     13.473      -         
-DWACT_COMP0_E_8[2]                                                        Net          -        -       0.322     -           1         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25              AO1          B        In      -         13.794      -         
-imager_0.stonyman1.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25              AO1          Y        Out     0.567     14.361      -         
-pulse_pin_state_nxt311                                                    Net          -        -       1.708     -           10        
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_2[0]                         NOR2A        A        In      -         16.069      -         
-imager_0.stonyman1.pulse_pin_state_RNI9L0912_2[0]                         NOR2A        Y        Out     0.516     16.585      -         
-reg_N_6                                                                   Net          -        -       1.669     -           9         
-imager_0.stonyman1.pulse_pin_state_RNI117B23[0]                           NOR3A        C        In      -         18.254      -         
-imager_0.stonyman1.pulse_pin_state_RNI117B23[0]                           NOR3A        Y        Out     0.641     18.895      -         
-reg_m2_2_1                                                                Net          -        -       0.322     -           1         
-imager_0.stonyman1.pulse_pin_state_RNIAM7K35_1[0]                         NOR2A        A        In      -         19.216      -         
-imager_0.stonyman1.pulse_pin_state_RNIAM7K35_1[0]                         NOR2A        Y        Out     0.627     19.844      -         
-reg_N_4_mux_0                                                             Net          -        -       1.639     -           8         
-imager_0.stonyman1.reg_value_2__RNIAOQR35[4]                              NOR2         B        In      -         21.483      -         
-imager_0.stonyman1.reg_value_2__RNIAOQR35[4]                              NOR2         Y        Out     0.646     22.129      -         
-N_1395                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.reg_value_2__RNIUV8ARA[4]                              AO1D         C        In      -         22.451      -         
-imager_0.stonyman1.reg_value_2__RNIUV8ARA[4]                              AO1D         Y        Out     0.655     23.106      -         
-N_428                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNITAQGNM[2]                                 MX2C         A        In      -         23.427      -         
-imager_0.stonyman1.ptr_value_RNITAQGNM[2]                                 MX2C         Y        Out     0.568     23.996      -         
-N_1183                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI2BJI2L1[0]                                MX2B         A        In      -         24.317      -         
-imager_0.stonyman1.ptr_value_RNI2BJI2L1[0]                                MX2B         Y        Out     0.579     24.896      -         
-ptr_value_RNI2BJI2L1[0]                                                   Net          -        -       0.322     -           1         
-imager_0.stonyman1.ptr_value_RNI43A0RB2[0]                                MX2          A        In      -         25.217      -         
-imager_0.stonyman1.ptr_value_RNI43A0RB2[0]                                MX2          Y        Out     0.579     25.796      -         
-un1_reg_value_nxt_0_[4]                                                   Net          -        -       0.322     -           1         
-imager_0.stonyman1.mask_pixel_col_RNITD3B221[4]                           XO1          B        In      -         26.118      -         
-imager_0.stonyman1.mask_pixel_col_RNITD3B221[4]                           XO1          Y        Out     0.824     26.941      -         
-un1_mask_pixel_col_NE_4_0                                                 Net          -        -       1.279     -           5         
-imager_0.stonyman1.mask_pixel_col_RNIENRFQM1[4]                           OR2          B        In      -         28.221      -         
-imager_0.stonyman1.mask_pixel_col_RNIENRFQM1[4]                           OR2          Y        Out     0.646     28.867      -         
-un1_mask_pixel_col_NE_4                                                   Net          -        -       1.994     -           12        
-imager_0.stonyman1.mask_pixel_col_RNIUSM3CE3[4]                           AO1D         C        In      -         30.861      -         
-imager_0.stonyman1.mask_pixel_col_RNIUSM3CE3[4]                           AO1D         Y        Out     0.633     31.493      -         
-r_N_6                                                                     Net          -        -       0.386     -           2         
-imager_0.stonyman1.GOTO_VAL_1\.un1_mask_pixel_col_NE_5_0_0_RNILS2M391     AO1D         A        In      -         31.879      -         
-imager_0.stonyman1.GOTO_VAL_1\.un1_mask_pixel_col_NE_5_0_0_RNILS2M391     AO1D         Y        Out     0.480     32.359      -         
-N_71                                                                      Net          -        -       1.279     -           5         
-imager_0.stonyman1.main_state_RNINB8R491[1]                               OR2A         A        In      -         33.638      -         
-imager_0.stonyman1.main_state_RNINB8R491[1]                               OR2A         Y        Out     0.537     34.175      -         
-N_760                                                                     Net          -        -       1.184     -           4         
-imager_0.stonyman1.pulse_pin_state_RNI87FFHJ1[0]                          MX2C         S        In      -         35.358      -         
-imager_0.stonyman1.pulse_pin_state_RNI87FFHJ1[0]                          MX2C         Y        Out     0.480     35.838      -         
-pulse_pin_state_RNI87FFHJ1[0]                                             Net          -        -       0.322     -           1         
-imager_0.stonyman1.main_state_RNITP1QIJ1[3]                               XNOR2        A        In      -         36.160      -         
-imager_0.stonyman1.main_state_RNITP1QIJ1[3]                               XNOR2        Y        Out     0.488     36.648      -         
-N_1770                                                                    Net          -        -       0.322     -           1         
-imager_0.stonyman1.main_state_RNINJ6POR2[5]                               XAI1         C        In      -         36.969      -         
-imager_0.stonyman1.main_state_RNINJ6POR2[5]                               XAI1         Y        Out     0.525     37.494      -         
-un1_main_state_nxt_1_NE_0                                                 Net          -        -       0.386     -           2         
-imager_0.stonyman1.main_state_RNIOUT30C[5]                                OR2          B        In      -         37.880      -         
-imager_0.stonyman1.main_state_RNIOUT30C[5]                                OR2          Y        Out     0.646     38.526      -         
-un1_main_state_nxt_1_NE                                                   Net          -        -       0.806     -           3         
-imager_0.stonyman1.main_state_RNIV9DR783[11]                              OR2          B        In      -         39.333      -         
-imager_0.stonyman1.main_state_RNIV9DR783[11]                              OR2          Y        Out     0.646     39.979      -         
-N_727                                                                     Net          -        -       0.386     -           2         
-imager_0.stonyman1.sub_state_RNO[2]                                       NOR3A        C        In      -         40.365      -         
-imager_0.stonyman1.sub_state_RNO[2]                                       NOR3A        Y        Out     0.716     41.081      -         
-N_251                                                                     Net          -        -       0.322     -           1         
-imager_0.stonyman1.sub_state[2]                                           DFN1E0C1     D        In      -         41.403      -         
-========================================================================================================================================
-Total path delay (propagation time + setup) of 41.941 is 17.808(42.5%) logic and 24.133(57.5%) route.
+Instance / Net                                                                Pin      Pin               Arrival     No. of    
+Name                                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+imager_0.stonyman0.ptr_value[2]                                  DFN1E0C1     Q        Out     0.737     0.737       -         
+ptr_value[2]                                                     Net          -        -       3.999     -           119       
+imager_0.stonyman0.reg_value_4__RNIT01U[1]                       MX2          S        In      -         4.736       -         
+imager_0.stonyman0.reg_value_4__RNIT01U[1]                       MX2          Y        Out     0.396     5.132       -         
+N_1308                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.ptr_value_RNI2K6J1[1]                         MX2          A        In      -         5.454       -         
+imager_0.stonyman0.ptr_value_RNI2K6J1[1]                         MX2          Y        Out     0.579     6.032       -         
+N_1324                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.ptr_value_RNIBPHD3[0]                         MX2          A        In      -         6.354       -         
+imager_0.stonyman0.ptr_value_RNIBPHD3[0]                         MX2          Y        Out     0.579     6.933       -         
+un45_reg_value_nxt[1]                                            Net          -        -       2.522     -           26        
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         B        In      -         9.454       -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_14     OR2A         Y        Out     0.646     10.101      -         
+N_2_9                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         C        In      -         10.422      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_20     AO1C         Y        Out     0.633     11.055      -         
+N_8_8                                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         B        In      -         11.377      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_23     OA1A         Y        Out     0.902     12.278      -         
+N_11_8                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          A        In      -         12.600      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_24     OA1          Y        Out     0.984     13.584      -         
+DWACT_COMP0_E_8[2]                                               Net          -        -       0.322     -           1         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          B        In      -         13.905      -         
+imager_0.stonyman0.GOTO_VAL_1\.pulse_pin_state_nxt311_0.I_25     AO1          Y        Out     0.567     14.472      -         
+pulse_pin_state_nxt311                                           Net          -        -       0.806     -           3         
+imager_0.stonyman0.pulse_pin_state_RNIKIU4S2[0]                  AO1C         B        In      -         15.278      -         
+imager_0.stonyman0.pulse_pin_state_RNIKIU4S2[0]                  AO1C         Y        Out     0.454     15.732      -         
+un1_reg_value_nxt_0_0                                            Net          -        -       0.322     -           1         
+imager_0.stonyman0.pulse_pin_state_RNIU00OP4[0]                  AO1A         C        In      -         16.053      -         
+imager_0.stonyman0.pulse_pin_state_RNIU00OP4[0]                  AO1A         Y        Out     0.655     16.708      -         
+un1_reg_value_nxt_3                                              Net          -        -       3.377     -           64        
+imager_0.stonyman0.reg_value_0__RNIUE8O85[3]                     MX2          S        In      -         20.085      -         
+imager_0.stonyman0.reg_value_0__RNIUE8O85[3]                     MX2          Y        Out     0.396     20.482      -         
+N_1272                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNIGCS977[3]                     MX2          A        In      -         20.803      -         
+imager_0.stonyman0.reg_value_0__RNIGCS977[3]                     MX2          Y        Out     0.579     21.382      -         
+reg_value_nxt_0__56[3]                                           Net          -        -       0.806     -           3         
+imager_0.stonyman0.reg_value_0__RNI2C66BE[2]                     OR2B         B        In      -         22.188      -         
+imager_0.stonyman0.reg_value_0__RNI2C66BE[2]                     OR2B         Y        Out     0.627     22.816      -         
+mask_pixel_col_nxt21lt3_1                                        Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNI27JDJ31[4]                    OA1B         B        In      -         23.137      -         
+imager_0.stonyman0.reg_value_0__RNI27JDJ31[4]                    OA1B         Y        Out     0.984     24.121      -         
+mask_pixel_col_nxt21lt6                                          Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNI0BA5JI1[4]                    OR2          B        In      -         24.442      -         
+imager_0.stonyman0.reg_value_0__RNI0BA5JI1[4]                    OR2          Y        Out     0.514     24.957      -         
+mask_pixel_col_nxt21lt7                                          Net          -        -       0.322     -           1         
+imager_0.stonyman0.reg_value_0__RNIOTI58Q1[7]                    NOR2A        A        In      -         25.278      -         
+imager_0.stonyman0.reg_value_0__RNIOTI58Q1[7]                    NOR2A        Y        Out     0.516     25.794      -         
+mask_pixel_col_nxt21                                             Net          -        -       0.386     -           2         
+imager_0.stonyman0.reg_value_0__RNIKT978Q1_0[7]                  NOR2         A        In      -         26.180      -         
+imager_0.stonyman0.reg_value_0__RNIKT978Q1_0[7]                  NOR2         Y        Out     0.363     26.543      -         
+mask_pixel_col_nxt_1_sqmuxa_2                                    Net          -        -       0.386     -           2         
+imager_0.stonyman0.reg_value_1__RNIJVSKGM3[7]                    NOR2A        A        In      -         26.929      -         
+imager_0.stonyman0.reg_value_1__RNIJVSKGM3[7]                    NOR2A        Y        Out     0.627     27.556      -         
+sub_state_nxt_1_sqmuxa_10                                        Net          -        -       1.526     -           7         
+imager_0.stonyman0.sub_state_RNI7SE7HM3[2]                       NOR2B        B        In      -         29.082      -         
+imager_0.stonyman0.sub_state_RNI7SE7HM3[2]                       NOR2B        Y        Out     0.627     29.710      -         
+G_m2_0_a2_0                                                      Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI42SJHA2[11]                     OA1A         A        In      -         30.031      -         
+imager_0.stonyman0.main_state_RNI42SJHA2[11]                     OA1A         Y        Out     0.933     30.965      -         
+main_state_RNI42SJHA2[11]                                        Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNIIAUSOJ2[11]                     NOR3A        C        In      -         31.286      -         
+imager_0.stonyman0.main_state_RNIIAUSOJ2[11]                     NOR3A        Y        Out     0.641     31.927      -         
+main_state_RNIIAUSOJ2[11]                                        Net          -        -       1.526     -           7         
+imager_0.stonyman0.main_state_RNIIL33313[7]                      OA1A         A        In      -         33.453      -         
+imager_0.stonyman0.main_state_RNIIL33313[7]                      OA1A         Y        Out     0.933     34.387      -         
+N_1376                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI438FH8[7]                       MX2B         B        In      -         34.708      -         
+imager_0.stonyman0.main_state_RNI438FH8[7]                       MX2B         Y        Out     0.553     35.261      -         
+main_state_nxt_1[2]                                              Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNII8RAI8[5]                       XOR2         A        In      -         35.582      -         
+imager_0.stonyman0.main_state_RNII8RAI8[5]                       XOR2         Y        Out     0.488     36.071      -         
+N_1791                                                           Net          -        -       0.322     -           1         
+imager_0.stonyman0.main_state_RNI5UQTOV2[5]                      XAI1         C        In      -         36.392      -         
+imager_0.stonyman0.main_state_RNI5UQTOV2[5]                      XAI1         Y        Out     0.525     36.917      -         
+un1_main_state_nxt_1_NE_2                                        Net          -        -       1.279     -           5         
+imager_0.stonyman0.sub_state_RNO_1[1]                            OR3          C        In      -         38.196      -         
+imager_0.stonyman0.sub_state_RNO_1[1]                            OR3          Y        Out     0.751     38.947      -         
+sub_state_nxt_sn_N_3                                             Net          -        -       0.322     -           1         
+imager_0.stonyman0.sub_state_RNO[1]                              MX2          S        In      -         39.268      -         
+imager_0.stonyman0.sub_state_RNO[1]                              MX2          Y        Out     0.480     39.748      -         
+sub_state_nxt[1]                                                 Net          -        -       0.322     -           1         
+imager_0.stonyman0.sub_state[1]                                  DFN1E0C1     D        In      -         40.069      -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 40.608 is 18.208(44.8%) logic and 22.400(55.2%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -891,14 +927,14 @@ Starting Points with Worst Slack
 Instance                               Reference     Type           Pin              Net                                               Time        Slack 
                                        Clock                                                                                                             
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        M2FRESETn        reset_c                                           0.000       5.224 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[19]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[19]     0.000       5.424 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[18]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[18]     0.000       5.542 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[16]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[16]     0.000       5.547 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[17]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[17]     0.000       5.563 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[18]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[18]     0.000       3.694 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[19]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[19]     0.000       3.917 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[16]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[16]     0.000       3.946 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHADDR[17]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[17]     0.000       4.150 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHTRANS[1]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HTRANS[1]     0.000       5.604 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        M2FRESETn        reset_c                                           0.000       5.700 
 MSS_CORE3_MSS_0.MSS_CCC_0.I_XTLOSC     System        MSS_XTLOSC     CLKOUT           N_CLKA_XTLOSC                                     0.000       6.669 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHTRANS[1]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HTRANS[1]     0.000       7.416 
-MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHLOCK         MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HLOCK         0.000       9.418 
+MSS_CORE3_MSS_0.MSS_ADLIB_INST         System        MSS_AHB        MSSHLOCK         MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HLOCK         0.000       7.643 
 MSS_CORE3_MSS_0.MSSINT_GPI_0           System        MSSINT         Y                MSSINT_GPI_0_Y                                    0.000       12.179
 MSS_CORE3_MSS_0.MSSINT_GPI_1           System        MSSINT         Y                MSSINT_GPI_1_Y                                    0.000       12.179
 =========================================================================================================================================================
@@ -907,21 +943,21 @@ MSS_CORE3_MSS_0.MSSINT_GPI_1           System        MSSINT         Y           
 Ending Points with Worst Slack
 ******************************
 
-                           Starting                                   Required          
-Instance                   Reference     Type       Pin     Net       Time         Slack
-                           Clock                                                        
-----------------------------------------------------------------------------------------
-imager_0.adc0.timer[1]     System        DFN1E0     D       N_35      24.427       5.224
-imager_0.adc0.timer[2]     System        DFN1E0     D       N_37      24.427       5.224
-imager_0.adc0.timer[3]     System        DFN1E0     D       N_39      24.427       5.224
-imager_0.adc0.timer[4]     System        DFN1E0     D       N_41      24.427       5.224
-imager_0.adc0.timer[5]     System        DFN1E0     D       N_43      24.427       5.224
-imager_0.adc0.timer[6]     System        DFN1E0     D       N_45      24.427       5.224
-imager_0.adc0.timer[0]     System        DFN1E0     D       N_140     24.427       5.309
-imager_0.adc0.timer[7]     System        DFN1E0     D       N_47      24.427       5.309
-imager_0.adc1.timer[1]     System        DFN1E0     D       N_35      24.427       5.342
-imager_0.adc1.timer[2]     System        DFN1E0     D       N_37      24.427       5.342
-========================================================================================
+                                                   Starting                                                      Required          
+Instance                                           Reference     Type         Pin     Net                        Time         Slack
+                                                   Clock                                                                           
+-----------------------------------------------------------------------------------------------------------------------------------
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[0]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.694
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[1]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.694
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[2]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.694
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[3]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.694
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[4]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.694
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[5]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.694
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[6]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.694
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[7]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.694
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[8]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.694
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[9]     System        DFN1E0C0     E       CAHBtoAPB3I1I_1_sqmuxa     24.392       3.694
+===================================================================================================================================
 
 
 
@@ -931,47 +967,59 @@ Worst Path Information
 
 Path information for path number 1: 
       Requested Period:                      25.000
-    - Setup time:                            0.573
+    - Setup time:                            0.608
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         24.427
+    = Required time:                         24.392
 
-    - Propagation time:                      19.203
+    - Propagation time:                      20.697
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 5.224
+    = Slack (non-critical) :                 3.694
 
-    Number of logic level(s):                6
-    Starting point:                          MSS_CORE3_MSS_0.MSS_ADLIB_INST / M2FRESETn
-    Ending point:                            imager_0.adc0.timer[1] / D
+    Number of logic level(s):                10
+    Starting point:                          MSS_CORE3_MSS_0.MSS_ADLIB_INST / MSSHADDR[18]
+    Ending point:                            COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[0] / E
     The start point is clocked by            System [rising]
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
-Instance / Net                                        Pin           Pin               Arrival     No. of    
-Name                                      Type        Name          Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------------------
-MSS_CORE3_MSS_0.MSS_ADLIB_INST            MSS_AHB     M2FRESETn     Out     0.000     0.000       -         
-reset_c                                   Net         -             -       7.771     -           553       
-imager_0.img_apb.cam0_reset_RNIQ7UG       OR2A        A             In      -         7.771       -         
-imager_0.img_apb.cam0_reset_RNIQ7UG       OR2A        Y             Out     0.466     8.236       -         
-cam0_reset_RNIQ7UG                        Net         -             -       4.102     -           131       
-imager_0.adc0.adc_state_RNI56RV[3]        NOR2A       B             In      -         12.338      -         
-imager_0.adc0.adc_state_RNI56RV[3]        NOR2A       Y             Out     0.386     12.724      -         
-N_167                                     Net         -             -       1.184     -           4         
-imager_0.adc0.adc_state_RNIH5OE1[4]       NOR2B       A             In      -         13.907      -         
-imager_0.adc0.adc_state_RNIH5OE1[4]       NOR2B       Y             Out     0.514     14.422      -         
-N_149                                     Net         -             -       0.322     -           1         
-imager_0.adc0.adc_state_i_RNIS3VO6[0]     OR3         C             In      -         14.743      -         
-imager_0.adc0.adc_state_i_RNIS3VO6[0]     OR3         Y             Out     0.751     15.494      -         
-un1_timer_nxt_2_sqmuxa_0_1                Net         -             -       0.322     -           1         
-imager_0.adc0.adc_state_RNICF5HA2[1]      OR3         B             In      -         15.816      -         
-imager_0.adc0.adc_state_RNICF5HA2[1]      OR3         Y             Out     0.714     16.530      -         
-un1_timer_nxt_2_sqmuxa                    Net         -             -       1.639     -           8         
-imager_0.adc0.timer_RNO[1]                XA1         C             In      -         18.169      -         
-imager_0.adc0.timer_RNO[1]                XA1         Y             Out     0.713     18.881      -         
-N_35                                      Net         -             -       0.322     -           1         
-imager_0.adc0.timer[1]                    DFN1E0      D             In      -         19.203      -         
-============================================================================================================
-Total path delay (propagation time + setup) of 19.776 is 4.117(20.8%) logic and 15.659(79.2%) route.
+Instance / Net                                                                               Pin              Pin               Arrival     No. of    
+Name                                                                            Type         Name             Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORE3_MSS_0.MSS_ADLIB_INST                                                  MSS_AHB      MSSHADDR[18]     Out     0.000     0.000       -         
+MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HADDR[18]                                   Net          -                -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNITTKO[18]                    MX2          A                In      -         0.386       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTI1lI_RNITTKO[18]                    MX2          Y                Out     0.579     0.965       -         
+CAHBLTI0ll[18]                                                                  Net          -                -       1.184     -           4         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_29_sqmuxa_0_a2_0     NOR2A        A                In      -         2.148       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_29_sqmuxa_0_a2_0     NOR2A        Y                Out     0.627     2.776       -         
+N_80                                                                            Net          -                -       1.526     -           7         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_21_sqmuxa_0_a2       NOR2B        B                In      -         4.301       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTO0Il.CAHBLTIO0_21_sqmuxa_0_a2       NOR2B        Y                Out     0.627     4.929       -         
+CAHBLTlI0I[6]                                                                   Net          -                -       0.806     -           3         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNIGQ1U3_0                     NOR2B        A                In      -         5.735       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTIlO0l.CAHBLTIO0I_RNIGQ1U3_0                     NOR2B        Y                Out     0.514     6.250       -         
+N_12                                                                            Net          -                -       1.639     -           8         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNI9MM85[7]         OA1C         A                In      -         7.889       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNI9MM85[7]         OA1C         Y                Out     0.931     8.820       -         
+N_100                                                                           Net          -                -       0.386     -           2         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNI259UA[2]         OR3B         B                In      -         9.206       -         
+CoreAHBLite_0.CAHBLTO1I0l.CAHBLTl1O0l.CAHBLTlI0l.CAHBLTllOI_RNI259UA[2]         OR3B         Y                Out     0.624     9.830       -         
+CAHBLTOO0l[1]                                                                   Net          -                -       2.263     -           18        
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.HREADYOUT_RNIMTJPN                                NOR3B        B                In      -         12.093      -         
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.HREADYOUT_RNIMTJPN                                NOR3B        Y                Out     0.607     12.699      -         
+CAHBtoAPB3l4                                                                    Net          -                -       2.494     -           25        
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3IOI_RNIONR4Q[2]                         NOR2         B                In      -         15.193      -         
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3IOI_RNIONR4Q[2]                         NOR2         Y                Out     0.646     15.840      -         
+N_179                                                                           Net          -                -       1.184     -           4         
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3lII_RNIJ1FBQ                            NOR2B        A                In      -         17.023      -         
+COREAHBTOAPB3_0.CAHBtoAPB3Oll.CAHBtoAPB3lII_RNIJ1FBQ                            NOR2B        Y                Out     0.488     17.512      -         
+CAHBtoAPB3Ol                                                                    Net          -                -       0.806     -           3         
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I_1_sqmuxa                            NOR2A        B                In      -         18.318      -         
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I_1_sqmuxa                            NOR2A        Y                Out     0.386     18.704      -         
+CAHBtoAPB3I1I_1_sqmuxa                                                          Net          -                -       1.994     -           12        
+COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[0]                                  DFN1E0C0     E                In      -         20.697      -         
+======================================================================================================================================================
+Total path delay (propagation time + setup) of 21.306 is 6.639(31.2%) logic and 14.667(68.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -979,91 +1027,89 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 ##### END OF TIMING REPORT #####]
 
 
-Finished final timing analysis (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:49s; Memory used current: 190MB peak: 230MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:43s; Memory used current: 172MB peak: 230MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:49s; Memory used current: 190MB peak: 230MB)
+Finished timing report (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:43s; Memory used current: 172MB peak: 230MB)
 
 --------------------------------------------------------------------------------
 Target Part: A2F500M3G_FBGA484_STD
 Report for cell TOPLEVEL.verilog
   Core Cell usage:
               cell count     area count*area
-              AND2   131      1.0      131.0
+              AND2   130      1.0      130.0
              AND2A    22      1.0       22.0
               AND3    36      1.0       36.0
-               AO1   321      1.0      321.0
+               AO1   325      1.0      325.0
               AO13    20      1.0       20.0
-              AO1A   297      1.0      297.0
-              AO1B     7      1.0        7.0
-              AO1C   106      1.0      106.0
-              AO1D    39      1.0       39.0
-              AOI1    20      1.0       20.0
+              AO1A   193      1.0      193.0
+              AO1B     5      1.0        5.0
+              AO1C   103      1.0      103.0
+              AO1D     5      1.0        5.0
+              AOI1    18      1.0       18.0
              AOI1A    20      1.0       20.0
-             AOI1B    83      1.0       83.0
-               AX1     1      1.0        1.0
-              AX1A     7      1.0        7.0
-              AX1C     9      1.0        9.0
-              AX1D     1      1.0        1.0
-              AX1E     1      1.0        1.0
+             AOI1B   148      1.0      148.0
+              AX1A     4      1.0        4.0
+              AX1C    15      1.0       15.0
+              AX1E     2      1.0        2.0
                GND    32      0.0        0.0
                INV    30      1.0       30.0
             MSSINT     6      0.0        0.0
            MSS_AHB     1      0.0        0.0
            MSS_CCC     1      0.0        0.0
-               MX2  1055      1.0     1055.0
-              MX2A    45      1.0       45.0
-              MX2B    25      1.0       25.0
-              MX2C    77      1.0       77.0
+               MX2  1455      1.0     1455.0
+              MX2A    24      1.0       24.0
+              MX2B    28      1.0       28.0
+              MX2C    25      1.0       25.0
              NAND2     4      1.0        4.0
             NAND3A    12      1.0       12.0
-              NOR2   117      1.0      117.0
-             NOR2A   572      1.0      572.0
-             NOR2B   807      1.0      807.0
-              NOR3   120      1.0      120.0
-             NOR3A   135      1.0      135.0
-             NOR3B   189      1.0      189.0
-             NOR3C   124      1.0      124.0
-               OA1    59      1.0       59.0
-              OA1A    87      1.0       87.0
-              OA1B    75      1.0       75.0
-              OA1C   104      1.0      104.0
-              OAI1     8      1.0        8.0
-               OR2   178      1.0      178.0
-              OR2A   251      1.0      251.0
-              OR2B    49      1.0       49.0
-               OR3   152      1.0      152.0
-              OR3A    58      1.0       58.0
-              OR3B    13      1.0       13.0
-              OR3C     2      1.0        2.0
+              NOR2    97      1.0       97.0
+             NOR2A   492      1.0      492.0
+             NOR2B  1081      1.0     1081.0
+              NOR3    92      1.0       92.0
+             NOR3A   136      1.0      136.0
+             NOR3B   155      1.0      155.0
+             NOR3C   188      1.0      188.0
+               OA1    55      1.0       55.0
+              OA1A   105      1.0      105.0
+              OA1B    57      1.0       57.0
+              OA1C    26      1.0       26.0
+              OAI1     7      1.0        7.0
+               OR2   126      1.0      126.0
+              OR2A   195      1.0      195.0
+              OR2B    41      1.0       41.0
+               OR3   229      1.0      229.0
+              OR3A    21      1.0       21.0
+              OR3B    10      1.0       10.0
+              OR3C     1      1.0        1.0
                VCC    32      0.0        0.0
-               XA1    34      1.0       34.0
-              XA1A    12      1.0       12.0
-              XA1B    16      1.0       16.0
+               XA1    41      1.0       41.0
+              XA1A     3      1.0        3.0
+              XA1B    23      1.0       23.0
               XA1C     4      1.0        4.0
-              XAI1     4      1.0        4.0
-             XAI1A     2      1.0        2.0
-             XNOR2   115      1.0      115.0
+              XAI1     2      1.0        2.0
+             XAI1A     1      1.0        1.0
+             XNOR2   113      1.0      113.0
              XNOR3     2      1.0        2.0
-               XO1    19      1.0       19.0
-              XOR2   230      1.0      230.0
+               XO1    21      1.0       21.0
+              XOR2   242      1.0      242.0
               XOR3    18      1.0       18.0
 
 
               DFN1   485      1.0      485.0
             DFN1C0    74      1.0       74.0
-            DFN1C1    37      1.0       37.0
+            DFN1C1    38      1.0       38.0
             DFN1E0    16      1.0       16.0
           DFN1E0C0    69      1.0       69.0
-          DFN1E0C1    74      1.0       74.0
+          DFN1E0C1    12      1.0       12.0
             DFN1E1    36      1.0       36.0
           DFN1E1C0   142      1.0      142.0
-          DFN1E1C1    95      1.0       95.0
+          DFN1E1C1   156      1.0      156.0
             DFN1P0     6      1.0        6.0
             DFN1P1     2      1.0        2.0
             RAM4K9     8      0.0        0.0
                    -----          ----------
-             TOTAL  7041              6961.0
+             TOTAL  7324              7244.0
 
 
   IO Cell usage:
@@ -1079,7 +1125,7 @@ Report for cell TOPLEVEL.verilog
              TOTAL    93
 
 
-Core Cells         : 6961 of 11520 (60%)
+Core Cells         : 7244 of 11520 (63%)
 IO Cells           : 93
 
   RAM/ROM Usage Summary
@@ -1087,9 +1133,9 @@ Block Rams : 8 of 24 (33%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:50s; CPU Time elapsed 0h:00m:50s; Memory used current: 63MB peak: 230MB)
+At Mapper Exit (Real Time elapsed 0h:00m:45s; CPU Time elapsed 0h:00m:43s; Memory used current: 62MB peak: 230MB)
 
-Process took 0h:00m:50s realtime, 0h:00m:50s cputime
-# Wed Jan 13 15:31:40 2016
+Process took 0h:00m:45s realtime, 0h:00m:43s cputime
+# Wed Mar 09 15:09:36 2016
 
 ###########################################################]

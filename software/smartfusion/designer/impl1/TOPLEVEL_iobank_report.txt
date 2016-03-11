@@ -5,7 +5,7 @@
 Product: Designer
 Release: v11.6
 Version: 11.6.0.34
-Date: Wed Jan 13 15:34:20 2016
+Date: Wed Mar 09 15:15:11 2016
 Design Name: TOPLEVEL  Family: SmartFusion  Die: A2F500M3G  Package: 484 FBGA
 
 
@@ -33,12 +33,12 @@ I/O Bank Resource Usage:
           |-------|-------|------|-------|-------|--------|------|-------|----------
           | Vcci  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins
     ------|-------|-------|------|-------|-------|--------|------|-------|----------
-    Bank0 | 3.30v | N/A   | 38   | 50    | 0     | 25     | N/A  | N/A   | N/A
+    Bank0 | 3.30v | N/A   | 39   | 50    | 0     | 25     | N/A  | N/A   | N/A
     Bank1 | 3.30v | N/A   | 8    | 36    | 0     | 18     | N/A  | N/A   | N/A
     Bank2 | MSS   | N/A   | N/A  | N/A   | N/A   | N/A    | N/A  | N/A   | N/A
     Bank3 | ANALOG| N/A   | N/A  | N/A   | N/A   | N/A    | N/A  | N/A   | N/A
     Bank4 | MSS   | N/A   | N/A  | N/A   | N/A   | N/A    | N/A  | N/A   | N/A
-    Bank5 | 3.30v | N/A   | 33   | 42    | 0     | 21     | N/A  | N/A   | N/A
+    Bank5 | 3.30v | N/A   | 32   | 42    | 0     | 21     | N/A  | N/A   | N/A
 
 I/O Voltage Usage:
 

@@ -16,6 +16,7 @@ add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/fifo_pixel_data.v"
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/framemask.v"
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager_apb_interface.v"
+add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/pupil_detect.v"
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_controller.v"
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager.v"
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/ahb.v"

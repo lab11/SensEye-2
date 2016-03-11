@@ -1,7 +1,7 @@
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Jan 13 15:31:39 2016
+# Timing Report written on Wed Mar 09 15:09:36 2016
 #
 
 
@@ -25,13 +25,15 @@ Performance Summary
 
 Worst slack in design: 0.225
 
-                   Requested     Estimated     Requested     Estimated                 Clock        Clock          
-Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group          
--------------------------------------------------------------------------------------------------------------------
-FAB_CLK            40.0 MHz      23.8 MHz      25.000        42.070        -17.070     declared     clk_group_0    
-FCLK               40.0 MHz      NA            25.000        NA            NA          declared     clk_group_0    
-System             80.0 MHz      171.5 MHz     12.500        5.831         6.669       system       system_clkgroup
-===================================================================================================================
+                                                          Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                                            Frequency     Frequency     Period        Period        Slack       Type         Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+FAB_CLK                                                   40.0 MHz      24.6 MHz      25.000        40.679        -15.680     declared     clk_group_0        
+FCLK                                                      40.0 MHz      NA            25.000        NA            NA          declared     clk_group_0        
+stonyman_0|un1_newline_sample_0_sqmuxa_inferred_clock     80.0 MHz      NA            12.500        NA            NA          inferred     Inferred_clkgroup_0
+stonyman_1|un1_newline_sample_0_sqmuxa_inferred_clock     80.0 MHz      NA            12.500        NA            NA          inferred     Inferred_clkgroup_1
+System                                                    80.0 MHz      171.5 MHz     12.500        5.831         6.669       system       system_clkgroup    
+==============================================================================================================================================================
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
 
 

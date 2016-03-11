@@ -17,12 +17,24 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>FAB_CLK</data>
 <data>40.0 MHz</data>
-<data>23.8 MHz</data>
-<data>-17.070</data>
+<data>24.6 MHz</data>
+<data>-15.680</data>
 </row>
 <row>
 <data>FCLK</data>
 <data>40.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>stonyman_0|un1_newline_sample_0_sqmuxa_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>stonyman_1|un1_newline_sample_0_sqmuxa_inferred_clock</data>
+<data>80.0 MHz</data>
 <data>NA</data>
 <data>NA</data>
 </row>

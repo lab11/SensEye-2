@@ -506,30 +506,40 @@ STATE="utd"
 TIME="1446487257"
 SIZE="329"
 ENDFILE
+VALUE "<project>\designer\impl1\TOPLEVEL (New iMac's conflicted copy 2016-03-04).fdb,fdb"
+STATE="utd"
+TIME="1434069234"
+SIZE="209138"
+ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.adb,adb"
-STATE="ood"
-TIME="1452717292"
-SIZE="18738176"
+STATE="utd"
+TIME="1456515808"
+SIZE="18783744"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.fdb,fdb"
-STATE="ood"
-TIME="1452717292"
-SIZE="205594"
+STATE="utd"
+TIME="1457554544"
+SIZE="209001"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.ide_des,ide_des"
 STATE="utd"
-TIME="1452717293"
-SIZE="1442"
+TIME="1456515813"
+SIZE="1439"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_ba.sdf,ba_sdf"
 STATE="ood"
 TIME="1446487257"
 SIZE="1369522"
 ENDFILE
+VALUE "<project>\designer\impl1\TOPLEVEL_compile_log (New iMac's conflicted copy 2016-03-05).rpt,log"
+STATE="utd"
+TIME="1434069234"
+SIZE="38791"
+ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_compile_log.rpt,log"
 STATE="utd"
-TIME="1452717129"
-SIZE="119871"
+TIME="1457554201"
+SIZE="39273"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_floorplan_log.rpt,log"
 STATE="utd"
@@ -542,7 +552,7 @@ TIME="1450116844"
 SIZE="213052"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pdb,pdb"
-STATE="ood"
+STATE="utd"
 TIME="1450116844"
 SIZE="213052"
 ENDFILE
@@ -551,19 +561,29 @@ STATE="utd"
 TIME="1450116844"
 SIZE="2426"
 ENDFILE
+VALUE "<project>\designer\impl1\TOPLEVEL_placeroute_log (New iMac's conflicted copy 2016-03-05).rpt,log"
+STATE="utd"
+TIME="1434069234"
+SIZE="3196"
+ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1452717262"
+TIME="1457554515"
 SIZE="2654"
+ENDFILE
+VALUE "<project>\designer\impl1\TOPLEVEL_prgdata_log (New iMac's conflicted copy 2016-03-05).rpt,log"
+STATE="utd"
+TIME="1434069234"
+SIZE="764"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1452717293"
+TIME="1457554546"
 SIZE="752"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1452717274"
+TIME="1457554526"
 SIZE="1192"
 ENDFILE
 VALUE "<project>\designer\impl1\VersionROM.ide_des,ide_des"
@@ -573,8 +593,8 @@ SIZE="232"
 ENDFILE
 VALUE "<project>\hdl\adc_controller.v,hdl"
 STATE="utd"
-TIME="1454955889"
-SIZE="7728"
+TIME="1455552460"
+SIZE="7740"
 ENDFILE
 VALUE "<project>\hdl\ahb.v,hdl"
 STATE="utd"
@@ -603,8 +623,13 @@ SIZE="1034"
 ENDFILE
 VALUE "<project>\hdl\imager.v,hdl"
 STATE="utd"
-TIME="1455130487"
-SIZE="14127"
+TIME="1455552504"
+SIZE="14122"
+ENDFILE
+VALUE "<project>\hdl\imager_apb_interface (New iMac's conflicted copy 2016-03-04).v,hdl"
+STATE="utd"
+TIME="1434069234"
+SIZE="16385"
 ENDFILE
 VALUE "<project>\hdl\imager_apb_interface.v,hdl"
 STATE="utd"
@@ -623,8 +648,8 @@ SIZE="2460"
 ENDFILE
 VALUE "<project>\hdl\pupil_detect.v,hdl"
 STATE="utd"
-TIME="1454956229"
-SIZE="3789"
+TIME="1455553013"
+SIZE="3859"
 ENDFILE
 VALUE "<project>\hdl\stonyman_controller.v,hdl"
 STATE="utd"
@@ -682,7 +707,7 @@ PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
 ENDFILE
 VALUE "<project>\simulation\master.bfm,sim"
 STATE="utd"
-TIME="1445638156"
+TIME="1434069234"
 SIZE="2823"
 PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\COREAHBTOAPB3.cxf"
 ENDFILE
@@ -720,13 +745,13 @@ TIME="1446487263"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.edn,syn_edn"
-STATE="ood"
-TIME="1452717099"
-SIZE="3908239"
+STATE="utd"
+TIME="1456515782"
+SIZE="4083998"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.so,so"
 STATE="utd"
-TIME="1452717099"
+TIME="1456515782"
 SIZE="243"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.v,syn_hdl"
@@ -740,14 +765,14 @@ TIME="1446487262"
 SIZE="25309"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL_sdc.sdc,syn_sdc"
-STATE="ood"
-TIME="1452717099"
+STATE="utd"
+TIME="1456515781"
 SIZE="546"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL_syn.prj,prj"
 STATE="utd"
-TIME="1452717100"
-SIZE="6019"
+TIME="1456515783"
+SIZE="6117"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -807,6 +832,9 @@ VALUE "<project>\component\work\MSS_CORE3_MSS\mss_tshell_syn.sdc,sdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\TOPLEVEL.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\TOPLEVEL.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -828,6 +856,10 @@ VALUE "<project>\designer\impl1\TOPLEVEL.stp,stp"
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pro,pro"
 ENDUsed_File_List
 ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\TOPLEVEL_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\TOPLEVEL_report_pin_bynumber.txt,log"
 ENDLIST
 ENDLIST
 LIST "CoreAPB3::COREAPB3_LIB"
@@ -1003,8 +1035,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -1050,6 +1082,9 @@ ENDLIST
 ENDLIST
 LIST "TOPLEVEL::work"
 LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\TOPLEVEL.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\TOPLEVEL.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -1108,14 +1143,16 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Place and Route:TOPLEVEL_place_and_route_report.txt
+ReportsCurrentItem;Program Device:TOPLEVEL_program.log
 SmartDesign;TOPLEVEL;0
 SmartDesign;MSS_CORE3_MSS;0
 HDL;hdl\imager.v;0
 StartPage;StartPage;0
-ACTIVEVIEW;TOPLEVEL
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
+LIST "adc_controller::work","hdl\adc_controller.v","FALSE","FALSE"
+ENDLIST
 LIST "AHB::work","hdl\ahb.v","FALSE","FALSE"
 ENDLIST
 LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
@@ -1158,7 +1195,13 @@ LIST "HAL::work","","FALSE","FALSE"
 ENDLIST
 LIST "heartbeat::work","hdl\heartbeat.v","FALSE","FALSE"
 ENDLIST
-LIST "imager::work","","FALSE","FALSE"
+LIST "imager::work","hdl\imager.v","FALSE","FALSE"
+SUBBLOCK "adc_controller::work","hdl\adc_controller.v","FALSE","FALSE"
+SUBBLOCK "fifo_pixel_data::work","hdl\fifo_pixel_data.v","FALSE","FALSE"
+SUBBLOCK "framemask::work","hdl\framemask.v","FALSE","FALSE"
+SUBBLOCK "imager_apb_interface::work","hdl\imager_apb_interface.v","FALSE","FALSE"
+SUBBLOCK "pupil_detect::work","hdl\pupil_detect.v","FALSE","FALSE"
+SUBBLOCK "stonyman::work","hdl\stonyman_controller.v","FALSE","FALSE"
 ENDLIST
 LIST "imager_apb_interface::work","hdl\imager_apb_interface.v","FALSE","FALSE"
 ENDLIST
@@ -1219,6 +1262,8 @@ LIST "psram_cr::work","hdl\psram_cr.v","FALSE","FALSE"
 SUBBLOCK "AHB::work","hdl\ahb.v","FALSE","FALSE"
 SUBBLOCK "cr_int::work","hdl\cr_int.v","FALSE","FALSE"
 ENDLIST
+LIST "pupil_detect::work","hdl\pupil_detect.v","FALSE","FALSE"
+ENDLIST
 LIST "SmartFusion_CMSIS_PAL::work","","FALSE","FALSE"
 ENDLIST
 LIST "stonyman::work","hdl\stonyman_controller.v","FALSE","FALSE"
@@ -1227,7 +1272,7 @@ LIST "TOPLEVEL::work","component\work\TOPLEVEL\TOPLEVEL.v","TRUE","FALSE"
 SUBBLOCK "COREAHBTOAPB3::work","component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v","FALSE","FALSE"
 SUBBLOCK "MSS_CORE3_MSS::work","component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v","TRUE","FALSE"
 SUBBLOCK "heartbeat::work","hdl\heartbeat.v","FALSE","FALSE"
-SUBBLOCK "imager::work","","FALSE","FALSE"
+SUBBLOCK "imager::work","hdl\imager.v","FALSE","FALSE"
 SUBBLOCK "psram_cr::work","hdl\psram_cr.v","FALSE","FALSE"
 SUBBLOCK "CoreAHBLite::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v","FALSE","FALSE"
 SUBBLOCK "CoreAPB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v","FALSE","FALSE"

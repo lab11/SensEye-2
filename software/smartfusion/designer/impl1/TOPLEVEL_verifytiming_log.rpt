@@ -14,7 +14,7 @@ Opened an existing Libero design TOPLEVEL.adb.
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
 Wrote timing report to file: TOPLEVEL_maxdelay_timing_report.txt
 
-The Report command succeeded ( 00:00:06 )
+The Report command succeeded ( 00:00:07 )
 Wrote timing report to file: TOPLEVEL_mindelay_timing_report.txt
 
 The Report command succeeded ( 00:00:02 )

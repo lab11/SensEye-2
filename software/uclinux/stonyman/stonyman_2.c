@@ -62,6 +62,13 @@
 #define DEVICE_CLASS_NAME  ("imaging")
 #define MINOR_START        (0)
 
+//added to cycle through
+int newIMG_OFFSET = IMG_OFFSET;
+int configStep = 1;
+int configMax = 2^12;
+int configMin = 0;
+
+
 // Inlineable function that configures and enables interrupts on GPIO
 static inline void gpio_enable_irq(uint8_t pin) {
    // Herein I explain the magic from top to bottom:
@@ -249,7 +256,7 @@ static int stonyman_init(void) {
      // printk(KERN_INFO "camera being set\n");
       // currently assumes that all cameras can use the same settings
       apply_settings(i, IMG_VREF, IMG_CONFIG, IMG_NBIAS, IMG_AOBIAS,
-            IMG_VSW, IMG_HSW, IMG_OFFSET);
+            IMG_VSW, IMG_HSW,newIMG_OFFSET);
      // printk(KERN_INFO "camera set\n");
    }
 
@@ -635,7 +642,18 @@ static ssize_t stonyman_read(struct file* filp, char __user* buff,
 
             REG_W_GLOB_START = (1 << cam_id);
          }
-
+         
+         //test the img_offset
+        /* REG_W_GLOB_START = ( 0 << cam_id);
+         newIMG_OFFSET += configStep;
+         if(newIMG_OFFSET == configMax){
+             configStep = -1;
+         }
+         if(newIMG_OFFSET == configMin){
+             configStep = 1;
+         }
+        REG_W_GLOB_START = (1 << cam_id);
+        */
          // advance frame
          frames_read++;
          img_buf_has_data[cam_id][img_buf_tail_idx[cam_id]] = 0;

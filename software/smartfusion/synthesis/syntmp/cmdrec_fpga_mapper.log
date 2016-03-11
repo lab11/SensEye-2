@@ -1,16 +1,16 @@
 C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis   -part A2F500M3G  -package FBGA484  -grade STD    -globalthreshold 5000 -maxfan 3000 -opcond COMWC -report_path 0 -RWCheckOnRam 0 -summaryfile C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synlog\report\TOPLEVEL_fpga_mapper.xml  -top_level_module  TOPLEVEL  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.edn   -freq 80.000   -tcl  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell_syn.sdc  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_prem.srd  -sap  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.sap  -otap  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.tap  -omap  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.map  -devicelib  C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\proasic\smartfusion.v  -sap  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.sap  -ologparam  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\syntmp\TOPLEVEL.plg  -osyn  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srm  -prjdir  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\  -prjname  TOPLEVEL_syn  -log  C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synlog\TOPLEVEL_fpga_mapper.srr 
 rc:1 success:1
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\scratchproject.prs|o|1450116304|6145
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.edn|o|1452717099|3908239
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\scratchproject.prs|o|1456515723|6243
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.edn|o|1457554176|4083997
 C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\mss_tshell_syn.sdc|i|1452533019|196
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_prem.srd|i|1452717048|273127
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.sap|o|1452717049|67941
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synwork\TOPLEVEL_prem.srd|i|1457554130|338355
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.sap|o|1457554131|69295
 C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.tap|o|0|0
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.map|o|1452717100|28
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.map|o|1457554176|28
 C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\proasic\smartfusion.v|i|1431615984|72817
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.sap|o|1452717049|67941
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\syntmp\TOPLEVEL.plg|o|1452717100|2302
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srm|o|1452717098|91926
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synlog\TOPLEVEL_fpga_mapper.srr|o|1452717100|111712
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.sap|o|1457554131|69295
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\syntmp\TOPLEVEL.plg|o|1457554176|4142
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.srm|o|1457554175|92452
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synlog\TOPLEVEL_fpga_mapper.srr|o|1457554176|116413
 C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\m_proasic.exe|i|1433439386|9280512
 C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\m_proasic.exe|i|1433441158|11753984

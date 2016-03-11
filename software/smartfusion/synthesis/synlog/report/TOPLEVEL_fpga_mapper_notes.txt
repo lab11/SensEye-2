@@ -1,5 +1,7 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":221:4:221:9|Removing sequential instance pixel_increment[7:0] of view:PrimLib.dff(prim) in hierarchy view:work.adc_controller_1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":221:4:221:9|Removing sequential instance pixel_increment[7:0] of view:PrimLib.dff(prim) in hierarchy view:work.adc_controller_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":220:0:220:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3OOl[30] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":220:0:220:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3OOl[31] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[12] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
@@ -26,21 +28,34 @@
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[21] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[22] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":178:0:178:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3l1I[23] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
-@N: MF184 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":108:20:108:41|Found 12 by 12 bit subtractor, 'tmp_data_0_0[11:0]'
+@N: MF184 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":123:20:123:41|Found 12 by 12 bit subtractor, 'tmp_data_0_0[11:0]'
 @N: MF176 |Default generator successful 
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:20:146:45|Found 9 bit by 9 bit '<' comparator, 'un1_timer_2'
-@N: MF239 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":146:30:146:44|Found 9-bit decrementor, 'un1_track_counts[8:0]'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":277:12:277:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
-@N: MF238 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":218:39:218:61|Found 8-bit incrementor, 'un44_reg_value_nxt[7:0]'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt287'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":217:8:280:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt312'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_0\.pulse_pin_state_nxt84'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_1\.pulse_pin_state_nxt121'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_2\.pulse_pin_state_nxt156'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_3\.pulse_pin_state_nxt191'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
-@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":257:12:257:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":168:20:168:45|Found 9 bit by 9 bit '<' comparator, 'un1_timer_22'
+@N: MF239 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":168:30:168:44|Found 9-bit decrementor, 'un1_track_counts[8:0]'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":281:12:281:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'
+@N: MF238 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":222:39:222:61|Found 8-bit incrementor, 'un44_reg_value_nxt[7:0]'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":221:8:284:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt287'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":221:8:284:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt312'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_0\.pulse_pin_state_nxt84'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_1\.pulse_pin_state_nxt121'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_2\.pulse_pin_state_nxt156'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_3\.pulse_pin_state_nxt191'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":281:12:281:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":281:12:281:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'
+@N: MF238 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":222:39:222:61|Found 8-bit incrementor, 'un44_reg_value_nxt[7:0]'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":221:8:284:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt287'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":221:8:284:55|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt312'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_0\.pulse_pin_state_nxt84'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_1\.pulse_pin_state_nxt121'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_2\.pulse_pin_state_nxt156'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_3\.pulse_pin_state_nxt191'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
+@N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":281:12:281:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":359:8:359:11|Removing sequential instance imager_0.stonyman0.newline_sample of view:PrimLib.lat(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":359:8:359:11|Removing sequential instance imager_0.stonyman1.newline_sample of view:PrimLib.lat(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
 @N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
 @N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

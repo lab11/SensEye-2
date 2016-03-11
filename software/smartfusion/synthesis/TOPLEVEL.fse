@@ -1,43 +1,43 @@
 
-fsm_encoding {2649404945} onehot
+fsm_encoding {2749404945} onehot
 
-fsm_state_encoding {2649404945} CAHBLTl01 {00000001}
+fsm_state_encoding {2749404945} CAHBLTl01 {00000001}
 
-fsm_state_encoding {2649404945} CAHBLTO11 {00000010}
+fsm_state_encoding {2749404945} CAHBLTO11 {00000010}
 
-fsm_state_encoding {2649404945} CAHBLTI11 {00000100}
+fsm_state_encoding {2749404945} CAHBLTI11 {00000100}
 
-fsm_state_encoding {2649404945} CAHBLTl11 {00001000}
+fsm_state_encoding {2749404945} CAHBLTl11 {00001000}
 
-fsm_state_encoding {2649404945} CAHBLTOOOI {00010000}
+fsm_state_encoding {2749404945} CAHBLTOOOI {00010000}
 
-fsm_state_encoding {2649404945} CAHBLTIOOI {00100000}
+fsm_state_encoding {2749404945} CAHBLTIOOI {00100000}
 
-fsm_state_encoding {2649404945} CAHBLTlOOI {01000000}
+fsm_state_encoding {2749404945} CAHBLTlOOI {01000000}
 
-fsm_state_encoding {2649404945} CAHBLTOIOI {10000000}
+fsm_state_encoding {2749404945} CAHBLTOIOI {10000000}
 
-fsm_registers {2649404945} {CAHBLTllOI[7]}  {CAHBLTllOI[6]}  {CAHBLTllOI[5]}  {CAHBLTllOI[4]}  {CAHBLTllOI[3]}  {CAHBLTllOI[2]}  {CAHBLTllOI[1]}  {CAHBLTllOI[0]} 
+fsm_registers {2749404945} {CAHBLTllOI[7]}  {CAHBLTllOI[6]}  {CAHBLTllOI[5]}  {CAHBLTllOI[4]}  {CAHBLTllOI[3]}  {CAHBLTllOI[2]}  {CAHBLTllOI[1]}  {CAHBLTllOI[0]} 
 
-fsm_encoding {2649404945} onehot
+fsm_encoding {2749404945} onehot
 
-fsm_state_encoding {2649404945} CAHBLTl01 {00000001}
+fsm_state_encoding {2749404945} CAHBLTl01 {00000001}
 
-fsm_state_encoding {2649404945} CAHBLTO11 {00000010}
+fsm_state_encoding {2749404945} CAHBLTO11 {00000010}
 
-fsm_state_encoding {2649404945} CAHBLTI11 {00000100}
+fsm_state_encoding {2749404945} CAHBLTI11 {00000100}
 
-fsm_state_encoding {2649404945} CAHBLTl11 {00001000}
+fsm_state_encoding {2749404945} CAHBLTl11 {00001000}
 
-fsm_state_encoding {2649404945} CAHBLTOOOI {00010000}
+fsm_state_encoding {2749404945} CAHBLTOOOI {00010000}
 
-fsm_state_encoding {2649404945} CAHBLTIOOI {00100000}
+fsm_state_encoding {2749404945} CAHBLTIOOI {00100000}
 
-fsm_state_encoding {2649404945} CAHBLTlOOI {01000000}
+fsm_state_encoding {2749404945} CAHBLTlOOI {01000000}
 
-fsm_state_encoding {2649404945} CAHBLTOIOI {10000000}
+fsm_state_encoding {2749404945} CAHBLTOIOI {10000000}
 
-fsm_registers {2649404945} {CAHBLTllOI[7]}  {CAHBLTllOI[6]}  {CAHBLTllOI[5]}  {CAHBLTllOI[4]}  {CAHBLTllOI[3]}  {CAHBLTllOI[2]}  {CAHBLTllOI[1]}  {CAHBLTllOI[0]} 
+fsm_registers {2749404945} {CAHBLTllOI[7]}  {CAHBLTllOI[6]}  {CAHBLTllOI[5]}  {CAHBLTllOI[4]}  {CAHBLTllOI[3]}  {CAHBLTllOI[2]}  {CAHBLTllOI[1]}  {CAHBLTllOI[0]} 
 
 fsm_encoding {664606464} onehot
 
@@ -63,44 +63,72 @@ fsm_state_encoding {515201523} CAHBtoAPB3lOl {10}
 
 fsm_registers {515201523} {CAHBtoAPB3OIl[1]}  {CAHBtoAPB3OIl[0]} 
 
-fsm_encoding {1419941992} onehot
+fsm_encoding {1422142212} onehot
 
-fsm_state_encoding {1419941992} 000 {00000}
+fsm_state_encoding {1422142212} 000 {00000}
 
-fsm_state_encoding {1419941992} 001 {00011}
+fsm_state_encoding {1422142212} 001 {00011}
 
-fsm_state_encoding {1419941992} 010 {00101}
+fsm_state_encoding {1422142212} 010 {00101}
 
-fsm_state_encoding {1419941992} 011 {01001}
+fsm_state_encoding {1422142212} 011 {01001}
 
-fsm_state_encoding {1419941992} 100 {10001}
+fsm_state_encoding {1422142212} 100 {10001}
 
-fsm_registers {1419941992} {adc_state[4]}  {adc_state[3]}  {adc_state[2]}  {adc_state[1]}  {adc_state_i[0]} 
+fsm_registers {1422142212} {adc_state[4]}  {adc_state[3]}  {adc_state[2]}  {adc_state[1]}  {adc_state_i[0]} 
 
-fsm_encoding {1846844681} onehot
+fsm_encoding {1947844781} onehot
 
-fsm_state_encoding {1846844681} 0000 {000000000001}
+fsm_state_encoding {1947844781} 0000 {000000000001}
 
-fsm_state_encoding {1846844681} 0001 {000000000010}
+fsm_state_encoding {1947844781} 0001 {000000000010}
 
-fsm_state_encoding {1846844681} 0010 {000000000100}
+fsm_state_encoding {1947844781} 0010 {000000000100}
 
-fsm_state_encoding {1846844681} 0011 {000000001000}
+fsm_state_encoding {1947844781} 0011 {000000001000}
 
-fsm_state_encoding {1846844681} 0100 {000000010000}
+fsm_state_encoding {1947844781} 0100 {000000010000}
 
-fsm_state_encoding {1846844681} 0101 {000000100000}
+fsm_state_encoding {1947844781} 0101 {000000100000}
 
-fsm_state_encoding {1846844681} 0110 {000001000000}
+fsm_state_encoding {1947844781} 0110 {000001000000}
 
-fsm_state_encoding {1846844681} 0111 {000010000000}
+fsm_state_encoding {1947844781} 0111 {000010000000}
 
-fsm_state_encoding {1846844681} 1000 {000100000000}
+fsm_state_encoding {1947844781} 1000 {000100000000}
 
-fsm_state_encoding {1846844681} 1001 {001000000000}
+fsm_state_encoding {1947844781} 1001 {001000000000}
 
-fsm_state_encoding {1846844681} 1010 {010000000000}
+fsm_state_encoding {1947844781} 1010 {010000000000}
 
-fsm_state_encoding {1846844681} 1011 {100000000000}
+fsm_state_encoding {1947844781} 1011 {100000000000}
 
-fsm_registers {1846844681} {main_state[11]}  {main_state[10]}  {main_state[9]}  {main_state[8]}  {main_state[7]}  {main_state[6]}  {main_state[5]}  {main_state[4]}  {main_state[3]}  {main_state[2]}  {main_state[1]}  {main_state[0]} 
+fsm_registers {1947844781} {main_state[11]}  {main_state[10]}  {main_state[9]}  {main_state[8]}  {main_state[7]}  {main_state[6]}  {main_state[5]}  {main_state[4]}  {main_state[3]}  {main_state[2]}  {main_state[1]}  {main_state[0]} 
+
+fsm_encoding {1947844781} onehot
+
+fsm_state_encoding {1947844781} 0000 {000000000001}
+
+fsm_state_encoding {1947844781} 0001 {000000000010}
+
+fsm_state_encoding {1947844781} 0010 {000000000100}
+
+fsm_state_encoding {1947844781} 0011 {000000001000}
+
+fsm_state_encoding {1947844781} 0100 {000000010000}
+
+fsm_state_encoding {1947844781} 0101 {000000100000}
+
+fsm_state_encoding {1947844781} 0110 {000001000000}
+
+fsm_state_encoding {1947844781} 0111 {000010000000}
+
+fsm_state_encoding {1947844781} 1000 {000100000000}
+
+fsm_state_encoding {1947844781} 1001 {001000000000}
+
+fsm_state_encoding {1947844781} 1010 {010000000000}
+
+fsm_state_encoding {1947844781} 1011 {100000000000}
+
+fsm_registers {1947844781} {main_state[11]}  {main_state[10]}  {main_state[9]}  {main_state[8]}  {main_state[7]}  {main_state[6]}  {main_state[5]}  {main_state[4]}  {main_state[3]}  {main_state[2]}  {main_state[1]}  {main_state[0]} 

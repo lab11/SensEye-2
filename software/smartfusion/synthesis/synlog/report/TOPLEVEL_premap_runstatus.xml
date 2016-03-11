@@ -13,13 +13,13 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>79</data>
+<data>2100</data>
 <report_link name="more">
 <data>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synlog\report\TOPLEVEL_premap_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>0</data>
+<data>2</data>
 <report_link name="more">
 <data>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synlog\report\TOPLEVEL_premap_warnings.txt</data>
 </report_link>
@@ -31,16 +31,16 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:00s</data>
+<data>0h:00m:05s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:00s</data>
+<data>0h:00m:06s</data>
 </info>
 <info name="Peak Memory">
-<data>133MB</data>
+<data>177MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1452717049</data>
+<data type="timestamp">1457554130</data>
 </info>
 </job_info>
 </job_run_status>

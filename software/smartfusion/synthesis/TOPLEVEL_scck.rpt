@@ -1,7 +1,7 @@
 # Synopsys Constraint Checker(syntax only), version mapact, Build 1522R, built Jun  4 2015
 # Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
 
-# Written on Wed Jan 13 15:30:48 2016
+# Written on Wed Mar 09 15:08:44 2016
 
 
 ##### DESIGN INFO #######################################################
@@ -21,9 +21,11 @@ No issues found in constraint syntax.
 Clock Summary
 *************
 
-Start       Requested     Requested     Clock        Clock      
-Clock       Frequency     Period        Type         Group      
-----------------------------------------------------------------
-FAB_CLK     40.0 MHz      25.000        declared     clk_group_0
-FCLK        40.0 MHz      25.000        declared     clk_group_0
-================================================================
+Start                                                     Requested     Requested     Clock        Clock              
+Clock                                                     Frequency     Period        Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+FAB_CLK                                                   40.0 MHz      25.000        declared     clk_group_0        
+FCLK                                                      40.0 MHz      25.000        declared     clk_group_0        
+stonyman_0|un1_newline_sample_0_sqmuxa_inferred_clock     80.0 MHz      12.500        inferred     Inferred_clkgroup_0
+stonyman_1|un1_newline_sample_0_sqmuxa_inferred_clock     80.0 MHz      12.500        inferred     Inferred_clkgroup_1
+======================================================================================================================
