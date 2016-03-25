@@ -68,7 +68,7 @@ module stonyman (
     input wire adc_capture_done,
 
     // Timing
-    input wire [7:0] pulse_counts,
+    //input wire [7:0] pulse_counts,
 
     // Register settings
     //  settings are configured by the user through a kernel ioctl, but are
@@ -502,6 +502,8 @@ module stonyman (
             reg_value[5] <= 0;
             reg_value[6] <= 0;
             reg_value[7] <= 0;
+
+            newline_sample = 0;
         end else begin
             // Update states
             main_state      <= main_state_nxt;

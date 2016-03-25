@@ -167,7 +167,7 @@ module imager (
     stonyman stonyman0 (
         .clk                    (clk),
         .reset                  (reset | cam0_reset),
-        .pulse_counts           (pulse_counts),
+        //.pulse_counts           (pulse_counts),
         .frame_capture_start    (cam0_frame_capture_start),
         .adc_capture_done       (cam0_adc_capture_done),
         .vsw_value              (cam0_vsw_value),
@@ -283,7 +283,7 @@ module imager (
     stonyman stonyman1 (
         .clk                    (clk),
         .reset                  (reset | cam1_reset),
-        .pulse_counts           (pulse_counts),
+       // .pulse_counts           (pulse_counts),
         .frame_capture_start    (cam1_frame_capture_start),
         .adc_capture_done       (cam1_adc_capture_done),
         .vsw_value              (cam1_vsw_value),

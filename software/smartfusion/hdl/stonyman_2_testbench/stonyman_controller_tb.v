@@ -39,6 +39,9 @@ module stonyman_tb();
     wire [6:0] mask_pixel_row;
     wire [6:0] mask_pixel_col;
 
+    wire controller_busy;
+    wire newline_sample;
+
     integer adc_count;
 
     stonyman uut (
@@ -61,7 +64,9 @@ module stonyman_tb();
         .incv                   (incv),
         .inphi                  (inphi),
         .mask_pixel_row         (mask_pixel_row),
-        .mask_pixel_col         (mask_pixel_col)
+        .mask_pixel_col         (mask_pixel_col),
+        .controller_busy        (controller_busy),
+        .newline_sample         (newline_sample)
     );
 
     initial begin
@@ -125,13 +130,12 @@ module stonyman_tb();
         #4000;
         SHOW_MODEL();
 
-        $finish;
         frame_capture_start = 1;
         #10;
         frame_capture_start = 0;
 
         @(negedge frame_capture_done);
-        //#1000;
+        #1000;
         #12;
         SHOW_MODEL();
         $display("ADC Count: %d", adc_count);
