@@ -25,7 +25,8 @@
 #include <opencv/highgui.h>
 
 // defines / constants
-#define INSIGHT_SERV_ADDR     ("141.212.11.215") //changes based on where connected
+#define INSIGHT_SERV_ADDR     ("141.212.11.197") //changes based on where connected
+//test glasses cam on .215, breadboard cam on .197
 #define INSIGHT_SERV_PORT     (80)
 const char REQUEST[] = "GET\r\n";
 

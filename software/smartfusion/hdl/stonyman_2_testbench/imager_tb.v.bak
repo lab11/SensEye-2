@@ -113,6 +113,7 @@ module imager_tb ();
 		//bus interface
 		.PSEL                      (PSEL),
 		.PENABLE                   (PENABLE),
+		.PWRITE					   (PWRITE),
 		.PADDR                     (PADDR),
 		.PWDATA                    (PWDATA),
 		.PREADY                    (PREADY),
@@ -154,18 +155,13 @@ module imager_tb ();
     	#50 clk = ~clk;
     end
 
-    always @(posedge clk) begin
-        $display ("\t%4d\t%b\t%b\t%b\t%b\t%d\t%d",
-            $time, reset, clk, cam0_sdata, cam1_sdata, pupil_loc_v, pupil_loc_h);
-    end
-
     initial begin
-    	$display ("\ttime\treset\tclock\tcam0_sdata\tcam1_sdata\tpupil_vert\tpupil_horiz");
+    	$display ("\ttime\treset\tclock\tcam0_sdata\t\tcam1_sdata\t\tpupil_vert\t\tpupil_horiz");
 
     	//loops through line numbers (vertical)
-    	for(line_num = 0; line_num < MAX_RESOLUTION; line_num = line_num + 1) begin
+    	for(line_num = 0; line_num < `MAX_RESOLUTION; line_num = line_num + 1) begin
     		//loops through pixel numbers (horizontal)
-    		for(pixel_num = 0; pixel_num < MAX_RESOLUTION; pixel_num = pixel_num + 1) begin
+    		for(pixel_num = 0; pixel_num < `MAX_RESOLUTION; pixel_num = pixel_num + 1) begin
     			//checks if line num in range to make centered black square
     			if(line_num > 45 && line_num < 65) begin
     				//check if pixel num in range 
@@ -176,10 +172,14 @@ module imager_tb ();
     			end else begin
    					cam0_sdata = 255; //white pixel
    				end
-    		end
-    		#100; //wait at each pixel for 100 ns (one clock cycle) 
+    		    //print output
+                    $display ("\t%4d\t%b\t%b\t%b\t\t%b\t\t%d\t\t%d", $time, reset,
+                        clk, cam0_sdata, cam1_sdata, pupil_loc_v, pupil_loc_h);
+
+                end
+    		#1000; //wait at each pixel for 1000 ns (about same as imager) 
     	end 
-    	$finish;
+    	//$finish;
     end
 
 endmodule

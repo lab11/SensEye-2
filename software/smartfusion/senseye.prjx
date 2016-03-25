@@ -512,19 +512,19 @@ TIME="1434069234"
 SIZE="209138"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.adb,adb"
-STATE="utd"
-TIME="1456515808"
-SIZE="18783744"
+STATE="ood"
+TIME="1457554545"
+SIZE="19048448"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.fdb,fdb"
-STATE="utd"
-TIME="1457554544"
+STATE="ood"
+TIME="1457554587"
 SIZE="209001"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.ide_des,ide_des"
 STATE="utd"
-TIME="1456515813"
-SIZE="1439"
+TIME="1457554546"
+SIZE="1442"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_ba.sdf,ba_sdf"
 STATE="ood"
@@ -548,17 +548,17 @@ SIZE="1056"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\projectData\TOPLEVEL.pdb,pdb"
 STATE="utd"
-TIME="1450116844"
-SIZE="213052"
+TIME="1457554635"
+SIZE="214571"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pdb,pdb"
-STATE="utd"
-TIME="1450116844"
-SIZE="213052"
+STATE="ood"
+TIME="1457554635"
+SIZE="214571"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pro,pro"
 STATE="utd"
-TIME="1450116844"
+TIME="1457554635"
 SIZE="2426"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_placeroute_log (New iMac's conflicted copy 2016-03-05).rpt,log"
@@ -623,13 +623,8 @@ SIZE="1034"
 ENDFILE
 VALUE "<project>\hdl\imager.v,hdl"
 STATE="utd"
-TIME="1455552504"
-SIZE="14122"
-ENDFILE
-VALUE "<project>\hdl\imager_apb_interface (New iMac's conflicted copy 2016-03-04).v,hdl"
-STATE="utd"
-TIME="1434069234"
-SIZE="16385"
+TIME="1458744044"
+SIZE="14297"
 ENDFILE
 VALUE "<project>\hdl\imager_apb_interface.v,hdl"
 STATE="utd"
@@ -745,13 +740,13 @@ TIME="1446487263"
 SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.edn,syn_edn"
-STATE="utd"
-TIME="1456515782"
-SIZE="4083998"
+STATE="ood"
+TIME="1457554176"
+SIZE="4083997"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.so,so"
 STATE="utd"
-TIME="1456515782"
+TIME="1457554176"
 SIZE="243"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.v,syn_hdl"
@@ -765,13 +760,13 @@ TIME="1446487262"
 SIZE="25309"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL_sdc.sdc,syn_sdc"
-STATE="utd"
-TIME="1456515781"
+STATE="ood"
+TIME="1457554176"
 SIZE="546"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL_syn.prj,prj"
 STATE="utd"
-TIME="1456515783"
+TIME="1457554177"
 SIZE="6117"
 ENDFILE
 ENDLIST
@@ -832,9 +827,6 @@ VALUE "<project>\component\work\MSS_CORE3_MSS\mss_tshell_syn.sdc,sdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-LiberoState=Post_Layout
-ideSYNTHESIS(<project>\synthesis\TOPLEVEL.edn,syn_edn)=StateSuccess
-ideDESIGNER(<project>\designer\impl1\TOPLEVEL.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -856,10 +848,6 @@ VALUE "<project>\designer\impl1\TOPLEVEL.stp,stp"
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pro,pro"
 ENDUsed_File_List
 ENDLIST
-ENDLIST
-LIST PinReports
-VALUE "<project>\designer\impl1\TOPLEVEL_report_pin_byname.txt,log"
-VALUE "<project>\designer\impl1\TOPLEVEL_report_pin_bynumber.txt,log"
 ENDLIST
 ENDLIST
 LIST "CoreAPB3::COREAPB3_LIB"
@@ -1035,8 +1023,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -1082,9 +1070,6 @@ ENDLIST
 ENDLIST
 LIST "TOPLEVEL::work"
 LIST Impl1
-LiberoState=Post_Layout
-ideSYNTHESIS(<project>\synthesis\TOPLEVEL.edn,syn_edn)=StateSuccess
-ideDESIGNER(<project>\designer\impl1\TOPLEVEL.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -1197,7 +1182,6 @@ LIST "heartbeat::work","hdl\heartbeat.v","FALSE","FALSE"
 ENDLIST
 LIST "imager::work","hdl\imager.v","FALSE","FALSE"
 SUBBLOCK "adc_controller::work","hdl\adc_controller.v","FALSE","FALSE"
-SUBBLOCK "fifo_pixel_data::work","hdl\fifo_pixel_data.v","FALSE","FALSE"
 SUBBLOCK "framemask::work","hdl\framemask.v","FALSE","FALSE"
 SUBBLOCK "imager_apb_interface::work","hdl\imager_apb_interface.v","FALSE","FALSE"
 SUBBLOCK "pupil_detect::work","hdl\pupil_detect.v","FALSE","FALSE"
@@ -1272,10 +1256,10 @@ LIST "TOPLEVEL::work","component\work\TOPLEVEL\TOPLEVEL.v","TRUE","FALSE"
 SUBBLOCK "COREAHBTOAPB3::work","component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\coreahbtoapb3.v","FALSE","FALSE"
 SUBBLOCK "MSS_CORE3_MSS::work","component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v","TRUE","FALSE"
 SUBBLOCK "heartbeat::work","hdl\heartbeat.v","FALSE","FALSE"
-SUBBLOCK "imager::work","hdl\imager.v","FALSE","FALSE"
 SUBBLOCK "psram_cr::work","hdl\psram_cr.v","FALSE","FALSE"
 SUBBLOCK "CoreAHBLite::COREAHBLITE_LIB","component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v","FALSE","FALSE"
 SUBBLOCK "CoreAPB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v","FALSE","FALSE"
+SUBBLOCK "imager::work","hdl\imager.v","FALSE","FALSE"
 ENDLIST
 LIST "TRIBUFF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v","FALSE","FALSE"
 ENDLIST

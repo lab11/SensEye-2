@@ -128,7 +128,7 @@ make[2]: `include/generated/mach-types.h' is up to date.
   Kernel: arch/arm/boot/Image is ready
   UIMAGE  arch/arm/boot/uImage
 Image Name:   Linux-2.6.33-arm1
-Created:      Wed Mar  9 14:45:06 2016
+Created:      Wed Mar 16 13:50:50 2016
 Image Type:   ARM Linux Kernel Image (uncompressed)
 Data Size:    1442496 Bytes = 1408.69 kB = 1.38 MB
 Load Address: 70008000

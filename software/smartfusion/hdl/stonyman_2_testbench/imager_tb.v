@@ -29,11 +29,12 @@ module imager_tb ();
 	wire        cam0_incv;
 	wire        cam0_inphi;
 	wire        cam0_frame_capture_done;
+        reg         cam0_frame_capture_start;
 	wire        cam0_fifo_afull;
-	wire        cam0_adc_capture_start;
+        reg         cam0_adc_capture_start;
 	wire        cam0_adc_capture_done;
 	wire        cam0_fifo_empty;
-	wire        cam0_fifo_full;
+	wire         cam0_fifo_full;
 	wire        cam0_fifo_overflow;
 
 	//cam1 initialization
@@ -91,8 +92,10 @@ module imager_tb ();
 		.cam0_adc_capture_done     (cam0_adc_capture_done),
 		.cam0_fifo_empty           (cam0_fifo_empty),
 		.cam0_fifo_full            (cam0_fifo_full),
-		.cam0_fifo_overflow		   (cam0_fifo_overflow),
-		
+		.cam0_fifo_overflow	       (cam0_fifo_overflow),
+		//added for debgugging usually controlled by apb
+                .cam0_frame_capture_start  (cam0_frame_capture_start),
+
 		//cam1 connections
 		.cam1_sdata                (cam1_sdata),
 		.cam1_sclk                 (cam1_sclk),
@@ -108,11 +111,12 @@ module imager_tb ();
 		.cam1_adc_capture_done     (cam1_adc_capture_done),
 		.cam1_fifo_empty           (cam1_fifo_empty),
 		.cam1_fifo_full            (cam1_fifo_full),
-		.cam1_fifo_overflow		   (cam1_fifo_overflow),
+		.cam1_fifo_overflow	       (cam1_fifo_overflow),
 
 		//bus interface
 		.PSEL                      (PSEL),
 		.PENABLE                   (PENABLE),
+		.PWRITE			           (PWRITE),
 		.PADDR                     (PADDR),
 		.PWDATA                    (PWDATA),
 		.PREADY                    (PREADY),
@@ -147,23 +151,40 @@ module imager_tb ();
     	PWRITE = 0;
     	PADDR = 0;
     	PWDATA = 0;
+        //add in controls for adc/stonyman to enable here
+        //adc controls
+        cam0_adc_capture_start = 0;
+        //cam0_fifo_full = 0;
+        //stonyman controls
+        cam0_frame_capture_start = 0;
+        //cam0_adc_capture_done = 0;
+    
     end
 
     always begin
     	//creates a 20 MHz clock
     	#50 clk = ~clk;
     end
-
-    always @(posedge clk) begin
-        $display ("\t%4d\t%b\t%b\t%b\t%b\t%d\t%d",
-            $time, reset, clk, cam0_sdata, cam1_sdata, pupil_loc_v, pupil_loc_h);
-    end
+    
+    /*integer i;
+    always @(posedge cam0_adc_capture_start) begin
+        for(i = 0; i < 0+1; i = i+1 ) begin
+            @(posedge clk);
+        end
+        cam0_adc_capture_done = 1;
+        @(posedge clk);
+        cam0_adc_capture_done = 0;
+    end*/
 
     initial begin
-    	$display ("\ttime\treset\tclock\tcam0_sdata\tcam1_sdata\tpupil_vert\tpupil_horiz");
+    	$display ("\ttime\treset\tclock\tcam0_sdata\t\tcam1_sdata\t\tpupil_vert\t\tpupil_horiz");
 
     	//loops through line numbers (vertical)
-    	for(line_num = 0; line_num < `MAX_RESOLUTION; line_num = line_num + 1) begin
+        //
+        //add in enabling adc /(stonyman!!!) here
+    	reset = 0;
+        
+        for(line_num = 0; line_num < `MAX_RESOLUTION; line_num = line_num + 1) begin
     		//loops through pixel numbers (horizontal)
     		for(pixel_num = 0; pixel_num < `MAX_RESOLUTION; pixel_num = pixel_num + 1) begin
     			//checks if line num in range to make centered black square
@@ -176,8 +197,17 @@ module imager_tb ();
     			end else begin
    					cam0_sdata = 255; //white pixel
    				end
-    		end
-    		#1000; //wait at each pixel for 1000 ns (about same as imager) 
+    		    //print output
+                    $display ("\t%4d\t%b\t%b\t%b\t\t%b\t\t%d\t\t%d", $time, reset,
+                        clk, cam0_sdata, cam1_sdata, pupil_loc_v, pupil_loc_h);
+
+                end
+    		cam0_adc_capture_start = 1;
+                cam0_frame_capture_start = 1;
+                #100;
+                cam0_adc_capture_start = 0; //tells adc to capture data and convert
+                cam0_frame_capture_start = 0;
+                #(1000-100); //wait at each pixel for 1000 ns (about same as imager) 
     	end 
     	$finish;
     end

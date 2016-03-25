@@ -79,6 +79,10 @@
         <spirit:direction>out</spirit:direction>
       </spirit:signal>
       <spirit:signal>
+        <spirit:name>cam0_frame_capture_start</spirit:name>
+        <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
         <spirit:name>cam0_fifo_afull</spirit:name>
         <spirit:direction>out</spirit:direction>
       </spirit:signal>
@@ -161,6 +165,18 @@
       <spirit:signal>
         <spirit:name>cam1_fifo_overflow</spirit:name>
         <spirit:direction>out</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>pupil_loc_h</spirit:name>
+        <spirit:direction>out</spirit:direction>
+        <spirit:left>7</spirit:left>
+        <spirit:right>0</spirit:right>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>pupil_loc_v</spirit:name>
+        <spirit:direction>out</spirit:direction>
+        <spirit:left>7</spirit:left>
+        <spirit:right>0</spirit:right>
       </spirit:signal>
       <spirit:signal>
         <spirit:name>PSEL</spirit:name>
