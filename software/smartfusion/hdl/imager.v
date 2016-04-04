@@ -129,7 +129,7 @@ module imager (
     wire cam0_newline_sample;
     
     //anyway to avoid this declaration? (lots of memory)
-    wire [`MAX_RESOLUTION*9:0] cam0_img_buf_newline ;
+    wire [(`MAX_RESOLUTION-1)*8 + 1 :0] cam0_img_buf_newline ;
    // wire [7:0] pupil_loc_h;
    // wire [7:0] pupil_loc_v;
 
@@ -247,7 +247,7 @@ module imager (
     //control and line output
     wire cam1_newline_sample;
     //anyway to avoid this declaration? (lots of memory)
-    wire [`MAX_RESOLUTION*9:0] cam1_img_buf_newline ;
+    wire [(`MAX_RESOLUTION-1)*8 + 1 :0] cam1_img_buf_newline ;
 
 
     // ADC settings

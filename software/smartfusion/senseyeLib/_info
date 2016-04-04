@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vadc_controller
-Z0 !s110 1458931519
+Z0 !s110 1459798237
 !i10b 1
 !s100 AQn8Q^TW^]0?alE1MTc=23
 Il8DU[WmaI2n>g;iMY:l1<0
@@ -23,14 +23,14 @@ Z3 OW;L;10.3c;59
 r1
 !s85 0
 31
-!s108 1458931518.999000
+!s108 1459798237.786000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/adc_controller.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|senseyeLib|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/adc_controller.v|
 !s101 -O0
 !i113 1
 Z4 o-work senseyeLib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 vadc_controller_tb
-R0
+Z5 !s110 1459798238
 !i10b 1
 !s100 2bH6SbCmA17Okg?hkm5:43
 I@J7@6`kWn]NZ38P^z0>UW3
@@ -39,17 +39,17 @@ R2
 w1458929667
 8C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/adc_controller_tb.v
 FC:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/adc_controller_tb.v
-Z5 L0 16
+Z6 L0 16
 R3
 r1
 !s85 0
 31
-!s108 1458931519.731000
+!s108 1459798238.300000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/adc_controller_tb.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/adc_controller_tb.v|
 !s101 -O0
 !i113 1
-Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 vAHB
 R0
 !i10b 1
@@ -57,15 +57,15 @@ R0
 If7iz<^F@`8;]MKZoV`IV11
 R1
 R2
-Z7 w1446490859
+Z8 w1446490859
 8C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/ahb.v
 FC:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/ahb.v
-Z8 L0 12
+Z9 L0 12
 R3
 r1
 !s85 0
 31
-!s108 1458931519.055000
+!s108 1459798237.860000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/ahb.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|senseyeLib|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/ahb.v|
 !s101 -O0
@@ -73,21 +73,21 @@ r1
 R4
 n@a@h@b
 vcr_int
-!s110 1458931518
+R0
 !i10b 1
 !s100 mKi<Ik:9T^TgnEnZ1QYA40
 IQc8_IBPnMdZYHie93X:L03
 R1
 R2
-R7
+R8
 8C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/cr_int.v
 FC:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/cr_int.v
-R8
+R9
 R3
 r1
 !s85 0
 31
-!s108 1458931518.942000
+!s108 1459798237.598000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/cr_int.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|senseyeLib|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/cr_int.v|
 !s101 -O0
@@ -100,28 +100,28 @@ R0
 IGekh=;@EzR29=IClg>]ak0
 R1
 R2
-R7
+R8
 8C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/framemask.v
 FC:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/framemask.v
-R5
+R6
 R3
 r1
 !s85 0
 31
-!s108 1458931519.415000
+!s108 1459798237.968000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/framemask.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|senseyeLib|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/framemask.v|
 !s101 -O0
 !i113 1
 R4
 vheartbeat
-R0
+R5
 !i10b 1
 !s100 [EMLd`O=LPJmJKKQJaKgJ0
 InHoWAz64MR3C2]4Zd:Oo83
 R1
 R2
-R7
+R8
 8C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/heartbeat.v
 FC:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/heartbeat.v
 L0 13
@@ -129,28 +129,28 @@ R3
 r1
 !s85 0
 31
-!s108 1458931519.465000
+!s108 1459798238.020000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/heartbeat.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|senseyeLib|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/heartbeat.v|
 !s101 -O0
 !i113 1
 R4
 vimager
-R0
+R5
 !i10b 1
-!s100 1VkoM6E:a`lF6B0eB;W@12
-IUokO^APYA:3THcIDI?n?h2
+!s100 M9bW[Mm:[48U?R]N4TKh?1
+IW?2b?nW39Qf>cMdc@`LAJ0
 R1
 R2
-w1458931330
+w1458932073
 8C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager.v
 FC:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager.v
-L0 17
+Z10 L0 17
 R3
 r1
 !s85 0
 31
-!s108 1458931519.524000
+!s108 1459798238.075000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|senseyeLib|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager.v|
 !s101 -O0
@@ -171,41 +171,41 @@ R3
 r1
 !s85 0
 31
-!s108 1458931519.351000
+!s108 1459798237.913000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager_apb_interface.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|senseyeLib|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager_apb_interface.v|
 !s101 -O0
 !i113 1
 R4
 vpsram_cr
-R0
+R5
 !i10b 1
 !s100 dlFIVW7WN?3L4PEHCV55L2
 I6J685?RTZ2=Nh>Phcd=D]0
 R1
 R2
-R7
+R8
 8C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/psram_cr.v
 FC:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/psram_cr.v
-R8
+R9
 R3
 r1
 !s85 0
 31
-!s108 1458931519.630000
+!s108 1459798238.185000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/psram_cr.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|senseyeLib|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/psram_cr.v|
 !s101 -O0
 !i113 1
 R4
 vpupil_detect
-R0
+R5
 !i10b 1
-!s100 oNNST28A^Qbm;f7O:GM530
-ISC175:aY7O;OmoEBCBfOn1
+!s100 FSPTGgO>lJ@6IVGeNz=N[3
+I3W4Tnd=a72f5mYHOb__TM0
 R1
 R2
-w1455556613
+w1459798230
 8C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/pupil_detect.v
 FC:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/pupil_detect.v
 L0 28
@@ -213,14 +213,36 @@ R3
 r1
 !s85 0
 31
-!s108 1458931519.679000
+!s108 1459798238.243000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/pupil_detect.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|senseyeLib|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/pupil_detect.v|
 !s101 -O0
 !i113 1
 R4
+vpupilDetect_tb
+R5
+!i10b 1
+!s100 Q^@=c5K_Dc=T@7zjIF:890
+I82e_^TEBZ2<U@W0de05T51
+R1
+R2
+w1459797917
+8C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/pupilDetect_tb.v
+FC:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/pupilDetect_tb.v
+R10
+R3
+r1
+!s85 0
+31
+!s108 1459798238.488000
+!s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/pupilDetect_tb.v|
+!s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/pupilDetect_tb.v|
+!s101 -O0
+!i113 1
+R7
+npupil@detect_tb
 vstonyman
-R0
+R5
 !i10b 1
 !s100 ;F`DKDg5RElhGhnSHb4kZ0
 IWOlEmUIZ;eU0iD?eSSdZb2
@@ -234,14 +256,14 @@ R3
 r1
 !s85 0
 31
-!s108 1458931519.576000
+!s108 1459798238.130000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_controller.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|senseyeLib|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_controller.v|
 !s101 -O0
 !i113 1
 R4
 vstonyman_tb
-R0
+R5
 !i10b 1
 !s100 Cl:nnj7W4NH2SzRW=cLa]1
 IcT:`QjHNRYSk^nji;7_i`2
@@ -255,9 +277,9 @@ R3
 r1
 !s85 0
 31
-!s108 1458931519.808000
+!s108 1459798238.355000
 !s107 C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/stonyman_controller_tb.v|
 !s90 -##implicit##push_minusfile_path##|C:/Modeltech_pe_edu_10.4a/examples/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|-stats=none|C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/stonyman_controller_tb.v|
 !s101 -O0
 !i113 1
-R6
+R7

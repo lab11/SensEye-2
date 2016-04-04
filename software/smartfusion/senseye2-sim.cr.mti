@@ -12,6 +12,15 @@ Model Technology ModelSim Microsemi vlog 10.3c Compiler 2014.07 Jul 19 2014
 Top level modules:
 	psram_cr
 
+} {} {}} C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/pupilDetect_tb.v {2 {vlog -work work -stats=none C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/pupilDetect_tb.v
+Model Technology ModelSim Microsemi vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module pupilDetect_tb
+** Warning: C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/stonyman_2_testbench/pupilDetect_tb.v(45): (vlog-2643) Unterminated string literal continues onto next line.
+
+
+Top level modules:
+	pupilDetect_tb
+
 } {} {}} C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/heartbeat.v {1 {vlog -work senseyeLib -stats=none C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/heartbeat.v
 Model Technology ModelSim Microsemi vlog 10.3c Compiler 2014.07 Jul 19 2014
 -- Compiling module heartbeat
