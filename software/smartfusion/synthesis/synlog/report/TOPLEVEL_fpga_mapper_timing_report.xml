@@ -17,12 +17,684 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>FAB_CLK</data>
 <data>40.0 MHz</data>
-<data>24.6 MHz</data>
-<data>-15.680</data>
+<data>25.1 MHz</data>
+<data>-14.814</data>
 </row>
 <row>
 <data>FCLK</data>
 <data>40.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_12_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_13_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_14_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_15_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_16_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_17_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_18_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_19_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_20_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_21_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_22_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_23_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_24_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_25_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_26_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_27_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_28_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_29_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_30_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_31_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_32_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_33_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_34_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_35_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_36_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_37_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_38_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_39_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_40_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_41_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_42_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_43_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_44_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_45_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_46_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_47_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_48_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_49_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_50_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_51_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_52_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_53_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_54_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_55_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_56_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_57_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_58_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_60_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_61_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_62_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_63_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_64_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_65_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_66_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_67_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_68_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_69_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_70_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_71_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_72_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_73_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_74_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_75_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_76_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_77_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_78_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_79_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_80_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_81_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_82_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_83_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_84_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_85_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_86_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_87_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_88_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_89_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_90_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_91_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_92_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_93_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_94_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_95_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_96_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_97_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_98_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_99_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_100_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_101_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_102_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_103_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_104_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_105_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_106_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_107_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_108_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_109_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_110_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_111_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_112_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_113_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_114_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_115_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_116_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_117_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_118_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_119_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_120_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_121_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_122_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_123_inferred_clock</data>
+<data>80.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>adc_controller_1|img_buf_newline_1_sqmuxa_inferred_clock</data>
+<data>80.0 MHz</data>
 <data>NA</data>
 <data>NA</data>
 </row>

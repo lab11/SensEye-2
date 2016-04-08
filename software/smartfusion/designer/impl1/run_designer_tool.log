@@ -9,6 +9,19 @@ Opened an existing Libero design TOPLEVEL.adb.
 
 The Execute Script command succeeded ( 00:00:19 )
 Checking for software updates...
-This software version is up to date.
+Design saved to file
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.adb.
+Wrote pin report to file:
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_report_pin_by\
+name.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file:
+C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_report_pin_by\
+number.txt
+
+The Report command succeeded ( 00:00:00 )
+
+The Execute Script command succeeded ( 00:00:01 )
 Design closed.
 

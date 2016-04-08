@@ -5,7 +5,7 @@
 Product: Designer
 Release: v11.6
 Version: 11.6.0.34
-Date: Wed Mar 09 15:15:11 2016
+Date: Fri Apr 08 12:08:30 2016
 Design Name: TOPLEVEL  Family: SmartFusion  Die: A2F500M3G  Package: 484 FBGA
 Design State: Post-Layout
 
@@ -13,8 +13,20 @@ The following nets have been routed to a chip global resource:
 
     Fanout            Name
     ----------------------
-    1054              Net   : FAB_CLK
+    850               Net   : FAB_CLK
                       Driver: MSS_CORE3_MSS_0/MSS_CCC_0/I_MSSCCC/U_TILE2
+    8                 Net   : imager_0/adc0/img_buf_newline_1_sqmuxa_115
+                      Driver: imager_0/adc0/pixel_increment_RNICM46_2[4]/U_CLKSRC/U_GL
+    8                 Net   : imager_0/adc0/img_buf_newline_1_sqmuxa_117
+                      Driver: imager_0/adc0/pixel_increment_RNICM46_4[4]/U_CLKSRC/U_GL
+    8                 Net   : imager_0/adc0/img_buf_newline_1_sqmuxa_62
+                      Driver: imager_0/adc0/pixel_increment_RNICM46_3[4]/U_CLKSRC/U_GL
+
+Instance imager_0/adc0/pixel_increment_RNICM46_2[4]/U_CLKSRC/U_GL is using the A2F500M3G fabric CCC/PLL GLA output.
+This resource is using the glitchless mux (NGMUX) connected to the GLA output of the fabric CCC/PLL. In order for the NGMUX to operate correctly, the signal driving this instance must be a free-running clock signal.
+Refer to SmartFusion Microcontroller Subsystem User Guide for more details.
+Verify that this signal is a continuous clock signal.
+
 
 
 

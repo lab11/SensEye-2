@@ -1,41 +1,40 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\synthesis\\synwork\\TOPLEVEL_comp.srs|-top|TOPLEVEL|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\synthesis\\|-I|C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
-#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\bin64\\c_ver.exe":1431625188
-#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\proasic\\smartfusion.v":1431615984
-#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\vlog\\hypermods.v":1431624842
-#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\vlog\\umr_capim.v":1431624842
-#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\vlog\\scemi_objects.v":1431624842
-#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\vlog\\scemi_pipes.svh":1431624842
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vlog\\core_obfuscated\\penablescheduler.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vlog\\core_obfuscated\\ahbtoapbsm.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vlog\\core_obfuscated\\apbaddrdata.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vlog\\core_obfuscated\\coreahbtoapb3.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.106\\mss_comps.v":1447267779
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\work\\MSS_CORE3_MSS\\mss_tshell.v":1452533019
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\work\\MSS_CORE3_MSS\\MSS_CCC_0\\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":1452533017
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\work\\MSS_CORE3_MSS\\MSS_CORE3_MSS.v":1452533023
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\heartbeat.v":1446487259
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\adc_controller.v":1455552460
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\fifo_pixel_data.v":1446487259
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\framemask.v":1446487259
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\imager_apb_interface.v":1447454331
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\pupil_detect.v":1455553013
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\stonyman_controller.v":1454955135
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\imager.v":1455552504
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\ahb.v":1446487259
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\cr_int.v":1446487259
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\psram_cr.v":1446487259
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_addrdec.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_defaultslavesm.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_masterstage.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_slavearbiter.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_slavestage.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_initcfg_awrap.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_initcfg.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_matrix2x16.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite.v":1445634556
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1445634557
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1445634557
-#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\work\\TOPLEVEL\\TOPLEVEL.v":1452717005
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\synthesis\\synwork\\TOPLEVEL_comp.srs|-top|TOPLEVEL|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\synthesis\\|-I|C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\bin64\\c_ver.exe":1431628788
+#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\proasic\\smartfusion.v":1431619584
+#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\vlog\\hypermods.v":1431628442
+#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\vlog\\umr_capim.v":1431628442
+#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\vlog\\scemi_objects.v":1431628442
+#CUR:"C:\\Microsemi\\Libero_v11.6\\Synopsys\\fpga_J-2015.03M-3\\lib\\vlog\\scemi_pipes.svh":1431628442
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vlog\\core_obfuscated\\penablescheduler.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vlog\\core_obfuscated\\ahbtoapbsm.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vlog\\core_obfuscated\\apbaddrdata.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\2.0.116\\rtl\\vlog\\core_obfuscated\\coreahbtoapb3.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.106\\mss_comps.v":1447271379
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\work\\MSS_CORE3_MSS\\mss_tshell.v":1452536619
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\work\\MSS_CORE3_MSS\\MSS_CCC_0\\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":1452536617
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\work\\MSS_CORE3_MSS\\MSS_CORE3_MSS.v":1452536623
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\heartbeat.v":1446490859
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\adc_controller.v":1458929989
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\framemask.v":1446490859
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\imager_apb_interface.v":1447457931
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\pupil_detect.v":1459798328
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\stonyman_controller.v":1459957011
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\imager.v":1459956634
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\ahb.v":1446490859
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\cr_int.v":1446490859
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\hdl\\psram_cr.v":1446490859
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_addrdec.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_defaultslavesm.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_masterstage.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_slavearbiter.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_slavestage.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_initcfg_awrap.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_initcfg.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite_matrix2x16.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAHBLite\\3.1.102\\rtl\\vlog\\core_obfuscated\\coreahblite.v":1445638156
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1445638157
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\Actel\\DirectCore\\CoreAPB3\\3.0.103\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1445638157
+#CUR:"C:\\Users\\Sam\\Dropbox\\Lab11\\SensEye-2\\software\\smartfusion\\component\\work\\TOPLEVEL\\TOPLEVEL.v":1459957021
 0			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\penablescheduler.v" verilog
 1			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\ahbtoapbsm.v" verilog
 2			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v" verilog
@@ -46,27 +45,26 @@
 7			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CORE3_MSS.v" verilog
 8			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\heartbeat.v" verilog
 9			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v" verilog
-10			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v" verilog
-11			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\framemask.v" verilog
-12			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v" verilog
-13			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v" verilog
-14			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v" verilog
-15			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v" verilog
-16			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\ahb.v" verilog
-17			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\cr_int.v" verilog
-18			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\psram_cr.v" verilog
-19			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v" verilog
-20			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v" verilog
-21			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v" verilog
-22			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v" verilog
-23			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v" verilog
-24			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v" verilog
-25			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v" verilog
-26			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v" verilog
-27			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v" verilog
-28			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
-29			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v" verilog
-30			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v" verilog
+10			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\framemask.v" verilog
+11			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v" verilog
+12			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v" verilog
+13			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v" verilog
+14			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v" verilog
+15			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\ahb.v" verilog
+16			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\cr_int.v" verilog
+17			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\psram_cr.v" verilog
+18			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v" verilog
+19			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_defaultslavesm.v" verilog
+20			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v" verilog
+21			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v" verilog
+22			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v" verilog
+23			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v" verilog
+24			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v" verilog
+25			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v" verilog
+26			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite.v" verilog
+27			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
+28			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v" verilog
+29			"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 -1
@@ -82,77 +80,74 @@
 11 -1
 12 -1
 13 -1
-14 -1
-15 12 10 11 14 9 13
+14 11 10 13 9 12
+15 -1
 16 -1
-17 -1
-18 17 16
+17 16 15
+18 -1
 19 -1
-20 -1
-21 20 19
-22 -1
-23 22
-24 -1
-25 24 22
-26 25 23 21
-27 26
-28 -1
-29 28
-30 18 7 15 8 29 3 27
+20 19 18
+21 -1
+22 21
+23 -1
+24 23 21
+25 24 22 20
+26 25
+27 -1
+28 27
+29 17 7 14 8 28 3 26
 #Dependency Lists(Users Of)
 0 3
 1 3
 2 3
-3 30
+3 29
 4 7 6
 5 7
 6 7
-7 30
-8 30
-9 15
-10 15
-11 15
-12 15
-13 15
-14 15
-15 30
-16 18
-17 18
-18 30
-19 21
-20 21
-21 26
-22 25 23
-23 26
+7 29
+8 29
+9 14
+10 14
+11 14
+12 14
+13 14
+14 29
+15 17
+16 17
+17 29
+18 20
+19 20
+20 25
+21 24 22
+22 25
+23 24
 24 25
 25 26
-26 27
-27 30
+26 29
+27 28
 28 29
-29 30
-30 -1
+29 -1
 #Design Unit to File Association
-module COREAPB3_LIB CoreAPB3 29
-module COREAPB3_LIB CAPB3O 28
-module COREAHBLITE_LIB CoreAHBLite 27
-module COREAHBLITE_LIB CAHBLTlOl0 26
-module COREAHBLITE_LIB CAHBLTllO0 25
-module COREAHBLITE_LIB CAHBLTOl0l 24
-module COREAHBLITE_LIB CAHBLTl0Il 23
-module COREAHBLITE_LIB CAHBLTlI1 22
-module COREAHBLITE_LIB CAHBLTO0OI 21
-module COREAHBLITE_LIB CAHBLTO10 20
-module COREAHBLITE_LIB CAHBLTO 19
-module work TOPLEVEL 30
-module work psram_cr 18
-module work cr_int 17
-module work AHB 16
-module work imager 15
-module work stonyman 14
-module work pupil_detect 13
-module work imager_apb_interface 12
-module work framemask 11
-module work fifo_pixel_data 10
+module COREAPB3_LIB CoreAPB3 28
+module COREAPB3_LIB CAPB3O 27
+module COREAHBLITE_LIB CoreAHBLite 26
+module COREAHBLITE_LIB CAHBLTlOl0 25
+module COREAHBLITE_LIB CAHBLTllO0 24
+module COREAHBLITE_LIB CAHBLTOl0l 23
+module COREAHBLITE_LIB CAHBLTl0Il 22
+module COREAHBLITE_LIB CAHBLTlI1 21
+module COREAHBLITE_LIB CAHBLTO0OI 20
+module COREAHBLITE_LIB CAHBLTO10 19
+module COREAHBLITE_LIB CAHBLTO 18
+module work TOPLEVEL 29
+module work psram_cr 17
+module work cr_int 16
+module work AHB 15
+module work imager 14
+module work stonyman 13
+module work pupil_detect 12
+module work imager_apb_interface 11
+module work framemask 10
 module work adc_controller 9
 module work heartbeat 8
 module work MSS_CORE3_MSS 7

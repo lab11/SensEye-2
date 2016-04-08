@@ -12,7 +12,7 @@
     <project-description>
     </project-description>
     <location>C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/TOPLEVEL</location>
-    <state>GENERATED ( Wed Jan 13 15:30:09 2016 )</state>
+    <state>GENERATED ( Wed Apr 06 11:37:06 2016 )</state>
     <swide-toolchain>SoftConsole workspace generated to C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\SoftConsole</swide-toolchain>
   </project-settings>
   <site-map>
@@ -54,10 +54,16 @@
   </fileset>
   <fileset>
     <name>Flash Memory File(s)</name>
-    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_ENVM_0/MSS_ENVM_0.efc</file>
+    <file>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\./MSS_ENVM_0/MSS_ENVM_0.efc</file>
   </fileset>
   <io>
     <port-name>cam0_adc_capture_start</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_h[2]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -111,6 +117,12 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
+    <port-name>pupil_loc_v[0]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
     <port-name>cam1_fifo_empty</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
@@ -118,6 +130,12 @@
   </io>
   <io>
     <port-name>cam1_cs_n</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_v[4]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -201,7 +219,19 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
+    <port-name>pupil_loc_h[3]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
     <port-name>cam0_fifo_empty</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_v[1]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -231,7 +261,19 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
+    <port-name>pupil_loc_v[7]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
     <port-name>psram_address[2]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_v[6]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -274,6 +316,12 @@
   </io>
   <io>
     <port-name>psram_address[23]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_v[2]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -363,6 +411,12 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
+    <port-name>pupil_loc_h[4]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
     <port-name>psram_address[3]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
@@ -376,6 +430,12 @@
   </io>
   <io>
     <port-name>cam1_incv</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_v[5]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -435,6 +495,12 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
+    <port-name>pupil_loc_h[0]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
     <port-name>cam1_sdata</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
@@ -454,6 +520,18 @@
   </io>
   <io>
     <port-name>psram_ncs0</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_h[6]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_h[5]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -497,6 +575,18 @@
   <io>
     <port-name>psram_data[11]</port-name>
     <direction>INOUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_v[3]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_h[7]</port-name>
+    <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
@@ -592,6 +682,12 @@
   </io>
   <io>
     <port-name>psram_address[21]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>pupil_loc_h[1]</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>

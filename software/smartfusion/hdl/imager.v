@@ -30,12 +30,9 @@ module imager (
     output wire cam0_incv,
     output wire cam0_inphi,
     // Interrupts
-    //changed cam0_frame_capture_start to input for simulation
     output wire cam0_frame_capture_done,
-    //output wire cam0_frame_capture_start,
     output wire cam0_fifo_afull,
     // Test points
-    //changed cam0_adc_capture_start to input for simulation
     output wire cam0_adc_capture_start,
     output wire cam0_adc_capture_done,
     output wire cam0_fifo_empty,
@@ -130,13 +127,10 @@ module imager (
     
     //anyway to avoid this declaration? (lots of memory)
     wire [(`MAX_RESOLUTION-1)*8 + 1 :0] cam0_img_buf_newline ;
-   // wire [7:0] pupil_loc_h;
-   // wire [7:0] pupil_loc_v;
 
     // pupil detection module
     pupil_detect blob_detect (
     	.img_buf_newline           (cam0_img_buf_newline),
-    	.frame_capture_start       (cam0_frame_capture_start),
     	.clock                     (clk),
     	.reset                     (reset),
     	//where to put these signals?

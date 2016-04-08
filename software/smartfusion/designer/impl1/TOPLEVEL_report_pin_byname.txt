@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Wed Mar 09 15:15:13 2016 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Fri Apr 08 12:08:32 2016 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.6
 Version: 11.6.0.34
@@ -24,20 +24,19 @@ cam0_resp                F21   Yes    IO31NDB1V0                    LVTTL    12 
 cam0_resv                E22   Yes    IO32NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam0_sclk                J19   Yes    GCA0/IO36NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
 cam0_sdata               J22   Yes    GCB1/IO34PDB1V0               LVTTL    ---                ---   None           No               ---   ---               No           No
-cam1_adc_capture_done    H5    No     GFC0/IO83NPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
-cam1_adc_capture_start   C6    No     EMC_CLK/GAA0/IO02NDB0V0       LVTTL    12                 High  None           ---              No    35                No           No
+cam1_adc_capture_done    J6    No     GFA0/IO81NDB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+cam1_adc_capture_start   M4    No     IO72NPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam1_cs_n                K4    Yes    IO74PPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam1_fifo_afull          M4    No     IO72NPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam1_fifo_empty          L5    No     IO74NPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam1_fifo_full           M2    No     IO71NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam1_frame_capture_done  N6    No     IO68NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+cam1_fifo_afull          L21   No     GDB0/IO39NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+cam1_fifo_empty          H20   No     GCC0/IO35NPB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+cam1_fifo_full           N2    No     IO70PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+cam1_frame_capture_done  L5    No     IO74NPB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam1_incp                L1    Yes    IO73PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam1_incv                G2    Yes    GFB0/IO82NPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
 cam1_inphi               K17   Yes    IO37NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam1_resp                L2    Yes    IO73NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam1_resv                J17   Yes    IO37PDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
 cam1_sclk                L6    Yes    IO75NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
-cam1_sdata               K6    Yes    IO75PDB5V0                    LVTTL    ---                ---   None           No               ---   ---               No           No
 clock                    E1    Yes    GFC2/IO84PPB5V0               LVTTL    12                 High  None           ---              No    35                No           No
 MAC_CLK                  T6    Yes    MAC_CLK                       LVTTL    ---                ---   None           No               ---   ---               No           Yes
 MAC_CRSDV                W4    Yes    MAC_CRSDV/IO60RSB4V0          LVTTL    ---                ---   None           No               ---   ---               No           Yes
@@ -100,6 +99,22 @@ psram_noe0               D10   Yes    EMC_OEN0_N/IO08NDB0V0         LVTTL    12 
 psram_noe1               C10   Yes    EMC_OEN1_N/IO08PDB0V0         LVTTL    12                 High  None           ---              No    35                No           No
 psram_nwe                B6    Yes    EMC_RW_N/GAA1/IO02PDB0V0      LVTTL    12                 High  None           ---              No    35                No           No
 pulse_out                M1    Yes    IO71PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_h[0]           M18   Yes    GDB2/IO42PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_h[1]           N6    Yes    IO68NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_h[2]           M6    Yes    IO68PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_h[3]           P1    Yes    IO69NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_h[4]           F3    Yes    GFB2/IO85NDB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_h[5]           N3    Yes    IO70NDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_h[6]           P2    Yes    IO69PDB5V0                    LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_h[7]           E3    Yes    GFA2/IO85PDB5V0               LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_v[0]           M22   Yes    IO41NDB1V0                    LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_v[1]           L22   Yes    GDC2/IO41PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_v[2]           L18   Yes    GDA2/IO42NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_v[3]           K18   Yes    GDA1/IO40PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_v[4]           K19   Yes    GDA0/IO40NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_v[5]           L20   Yes    GDB1/IO39PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_v[6]           K20   Yes    GDC1/IO38PDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
+pupil_loc_v[7]           K21   Yes    GDC0/IO38NDB1V0               LVTTL    12                 High  None           ---              No    35                No           No
 reset                    H6    Yes    GFA1/IO81PDB5V0               LVTTL    12                 High  None           ---              No    35                No           No
 UART_0_RXD               U18   Yes    UART_0_RXD/GPIO_21            LVTTL    ---                ---   None           No               ---   ---               No           Yes
 UART_0_TXD               Y22   Yes    UART_0_TXD/GPIO_20            LVTTL    8                  High  None           ---              No    35                No           Yes

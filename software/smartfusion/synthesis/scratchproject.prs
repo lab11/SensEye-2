@@ -13,7 +13,6 @@ add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/com
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/component/work/MSS_CORE3_MSS/MSS_CORE3_MSS.v"
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/heartbeat.v"
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/adc_controller.v"
-add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/fifo_pixel_data.v"
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/framemask.v"
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/imager_apb_interface.v"
 add_file -verilog "C:/Users/Sam/Dropbox/Lab11/SensEye-2/software/smartfusion/hdl/pupil_detect.v"

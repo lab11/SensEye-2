@@ -1,2 +1,2 @@
-@E|No component with name TOPLEVEL to synthesize
+@E: CL172 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":104:15:104:28|Only one always block can assign a given variable newline_sample
 

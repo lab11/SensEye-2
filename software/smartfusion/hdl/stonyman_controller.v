@@ -503,7 +503,8 @@ module stonyman (
             reg_value[6] <= 0;
             reg_value[7] <= 0;
 
-            newline_sample = 0;
+           // newline_sample = 0;
+           // this means theres undefined behavior at reset, but necessary for compile
         end else begin
             // Update states
             main_state      <= main_state_nxt;

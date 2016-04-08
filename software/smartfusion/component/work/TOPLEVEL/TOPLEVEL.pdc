@@ -3,7 +3,7 @@
 
 # Version: v11.6 11.6.0.34
 # Family: SmartFusion , Die: A2F500M3G , Package: 484 FBGA
-# Date generated: Wed Jan 13 15:30:03 2016 
+# Date generated: Wed Apr 06 11:37:00 2016 
 
 
 # 
@@ -48,6 +48,66 @@ define_group -name MAC_RMII_PHY_MGMT_PADs
 # The I/Os in this section are unplaced or placed but are not locked
 # the other listed attributes have been applied
 # 
+
+set_io MAC_CRSDV      \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io MAC_MDC         \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_MDIO       \
+    -iostd LVTTL      \
+    -DIRECTION INOUT
+
+
+set_io {MAC_RXD[0]}   \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io {MAC_RXD[1]}   \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io MAC_RXER       \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io {MAC_TXD[0]}    \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io {MAC_TXD[1]}    \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io MAC_TXEN        \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
+
+set_io MSS_RESET_N    \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io UART_0_RXD     \
+    -iostd LVTTL      \
+    -DIRECTION INPUT
+
+
+set_io UART_0_TXD      \
+    -iostd LVTTL       \
+    -DIRECTION OUTPUT
+
 
 
 #

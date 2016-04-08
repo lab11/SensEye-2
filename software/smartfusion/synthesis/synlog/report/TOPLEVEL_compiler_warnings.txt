@@ -5,145 +5,9 @@
 @W: CG133 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_addrdec.v":329:0:329:8|No assignment to CAHBLTl1l
 @W: CL169 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAHBLite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":349:0:349:5|Pruning register CAHBLTIl1l 
 @W: CG775 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
-@W: CG296 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":70:10:70:14|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":88:12:88:27|Referenced variable found_begin_blob is not in sensitivity list
-@W: CG290 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":96:32:96:45|Referenced variable found_end_blob is not in sensitivity list
-@W: CG290 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":90:8:90:22|Referenced variable img_buf_newline is not in sensitivity list
-@W: CG290 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":75:6:75:24|Referenced variable frame_capture_start is not in sensitivity list
-@W: CG290 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":118:18:118:28|Referenced variable line_number is not in sensitivity list
-@W: CG290 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":113:6:113:15|Referenced variable max_length is not in sensitivity list
-@W: CG290 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":84:6:84:14|Referenced variable pixel_inc is not in sensitivity list
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|Latch generated from always block for signal found_end_blob; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|Latch generated from always block for signal found_begin_blob; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|Latch generated from always block for signal end_blob[7:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|Latch generated from always block for signal begin_blob[7:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|Latch generated from always block for signal pupil_location_vertical[7:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|Latch generated from always block for signal pixel_inc[7:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|Latch generated from always block for signal next_state[1:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|Latch generated from always block for signal line_number[7:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|Latch generated from always block for signal max_length[7:0]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|Latch generated from always block for signal pupil_location_horizontal[7:0]; possible missing assignment in an if or case statement.
-@W: CL208 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":72:2:72:5|All reachable assignments to bit 7 of pupil_location_horizontal[7:0] assign 0, register removed by optimization.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[1008]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[1007]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[1006]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[1005]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[1004]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[1003]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[1002]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[1001]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[1000]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[999]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[998]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[997]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[996]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[995]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[994]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[993]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[992]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[991]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[990]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[989]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[988]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[987]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[986]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[985]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[984]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[983]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[982]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[981]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[980]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[979]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[978]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[977]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[976]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[975]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[974]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[973]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[972]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[971]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[970]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[969]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[968]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[967]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[966]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[965]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[964]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[963]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[962]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[961]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[960]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[959]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[958]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[957]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[956]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[955]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[954]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[953]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[952]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[951]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[950]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[949]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[948]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[947]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[946]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[945]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[944]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[943]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[942]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[941]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[940]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[939]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[938]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[937]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[936]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[935]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[934]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[933]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[932]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[931]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[930]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[929]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[928]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[927]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[926]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[925]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[924]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[923]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[922]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[921]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[920]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[919]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[918]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[917]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[916]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[915]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[914]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[913]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[912]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[911]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[910]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[909]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[908]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[907]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[906]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[905]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[904]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[903]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[902]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[901]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[900]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[899]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[898]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[897]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[896]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[895]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[894]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[893]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[892]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[891]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[890]; possible missing assignment in an if or case statement.
-@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[889]; possible missing assignment in an if or case statement.
+@W: CL169 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":63:1:63:6|Pruning register state[2:0] 
+@W: CL189 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":63:1:63:6|Register bit next_state[2] is always 0, optimizing ...
+@W: CL260 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":63:1:63:6|Pruning register bit 2 of next_state[2:0] 
 @W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[888]; possible missing assignment in an if or case statement.
 @W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[887]; possible missing assignment in an if or case statement.
 @W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[886]; possible missing assignment in an if or case statement.
@@ -1033,92 +897,25 @@
 @W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[2]; possible missing assignment in an if or case statement.
 @W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[1]; possible missing assignment in an if or case statement.
 @W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[0]; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Latch generated from always block for signal img_buf_newline[889]; possible missing assignment in an if or case statement.
 @W: CL118 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":359:8:359:11|Latch generated from always block for signal newline_sample; possible missing assignment in an if or case statement.
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":827:9:827:15|Pruning instance AND2_25 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":826:9:826:15|Pruning instance AND2_28 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":817:9:817:15|Pruning instance XOR2_74 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":816:9:816:15|Pruning instance XOR2_36 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":811:9:811:15|Pruning instance XOR2_42 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":808:9:808:15|Pruning instance AND2_37 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":772:11:772:25|Pruning instance DFN1C0_WGRY[4] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":770:9:770:15|Pruning instance AND2_21 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":766:11:766:25|Pruning instance DFN1C0_RGRY[0] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":751:9:751:15|Pruning instance XOR2_28 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":746:9:746:15|Pruning instance XOR2_73 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":744:9:744:15|Pruning instance XOR2_17 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":738:9:738:15|Pruning instance AND2_56 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":737:9:737:15|Pruning instance XOR2_66 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":733:9:733:15|Pruning instance XOR2_51 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":725:9:725:15|Pruning instance XOR2_39 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":723:11:723:25|Pruning instance DFN1C0_RGRY[3] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":713:11:713:25|Pruning instance DFN1C0_WGRY[8] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":709:9:709:15|Pruning instance AND2_42 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":707:9:707:15|Pruning instance XOR2_50 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":705:9:705:15|Pruning instance AND2_40 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":698:9:698:15|Pruning instance AND2_59 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":690:9:690:15|Pruning instance AND2_45 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":689:9:689:15|Pruning instance AND2_48 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":655:9:655:15|Pruning instance AND2_17 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":652:9:652:15|Pruning instance XOR2_69 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":648:9:648:15|Pruning instance AND2_41 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":643:11:643:25|Pruning instance DFN1C0_WGRY[1] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":630:9:630:15|Pruning instance AND2_33 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":618:11:618:25|Pruning instance DFN1C0_RGRY[7] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":614:11:614:26|Pruning instance DFN1C0_WGRY[10] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":602:11:602:25|Pruning instance DFN1C0_RGRY[5] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":567:11:567:25|Pruning instance DFN1C0_WGRY[2] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":530:11:530:25|Pruning instance DFN1C0_RGRY[6] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":509:9:509:15|Pruning instance XOR2_32 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":495:8:495:12|Pruning instance AO1_6 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":471:9:471:15|Pruning instance XOR2_11 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":465:9:465:15|Pruning instance AND2_50 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":463:9:463:15|Pruning instance XOR2_14 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":454:9:454:15|Pruning instance XOR2_27 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":451:9:451:15|Pruning instance AND2_69 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":449:11:449:25|Pruning instance DFN1C0_RGRY[4] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":447:9:447:15|Pruning instance AND2_55 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":438:11:438:25|Pruning instance DFN1C0_WGRY[9] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":424:9:424:15|Pruning instance XOR2_48 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":412:9:412:15|Pruning instance XOR2_13 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":408:9:408:15|Pruning instance AND2_19 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":398:11:398:25|Pruning instance DFN1C0_RGRY[8] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":394:9:394:15|Pruning instance AND2_23 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":392:9:392:15|Pruning instance XOR2_59 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":384:11:384:25|Pruning instance DFN1C0_WGRY[0] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":345:9:345:15|Pruning instance AND2_35 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":337:9:337:14|Pruning instance XOR2_8 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":335:11:335:25|Pruning instance DFN1C0_WGRY[3] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":333:11:333:25|Pruning instance DFN1C0_RGRY[1] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":299:8:299:13|Pruning instance AO1_34 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":293:9:293:15|Pruning instance AND2_31 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":286:9:286:15|Pruning instance AND2_24 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":276:8:276:13|Pruning instance AO1_14 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":267:9:267:15|Pruning instance AND2_62 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":265:11:265:25|Pruning instance DFN1C0_RGRY[2] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":261:9:261:15|Pruning instance XOR2_61 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":260:9:260:15|Pruning instance AND2_60 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":244:8:244:13|Pruning instance AO1_24 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":241:9:241:15|Pruning instance AND2_68 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":240:9:240:15|Pruning instance XOR2_60 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":238:9:238:15|Pruning instance XOR2_16 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":224:9:224:15|Pruning instance XOR2_21 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":216:11:216:25|Pruning instance DFN1C0_WGRY[7] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":200:11:200:25|Pruning instance DFN1C0_WGRY[5] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":199:9:199:15|Pruning instance AND2_12 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":192:9:192:15|Pruning instance XOR2_63 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":183:9:183:15|Pruning instance AND2_49 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":176:9:176:14|Pruning instance AND2_1 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":168:9:168:15|Pruning instance XOR2_45 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":163:9:163:15|Pruning instance AND2_18 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":161:11:161:25|Pruning instance DFN1C0_WGRY[6] -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":150:9:150:15|Pruning instance XOR2_47 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":142:9:142:15|Pruning instance AND2_44 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":137:9:137:15|Pruning instance AND2_22 -- not in use ...
-@W: CL168 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\fifo_pixel_data.v":126:9:126:14|Pruning instance AND2_2 -- not in use ...
 @W: CL189 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Register bit PSLVERR is always 0, optimizing ...
-@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":224:14:224:26|No assignment to wire TP_PADDR_BIT2
-@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":267:14:267:28|No assignment to wire PADDRS0_slice_0
-@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":268:14:268:28|No assignment to wire PADDRS0_slice_1
+@W: CG781 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":132:17:132:27|Undriven input frame_capture_done on instance blob_detect, tying to 0
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":34:16:34:30|No assignment to wire cam0_fifo_afull
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":38:16:38:30|No assignment to wire cam0_fifo_empty
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":39:16:39:29|No assignment to wire cam0_fifo_full
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":40:16:40:33|No assignment to wire cam0_fifo_overflow
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":58:16:58:30|No assignment to wire cam1_fifo_afull
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":62:16:62:30|No assignment to wire cam1_fifo_empty
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":63:16:63:29|No assignment to wire cam1_fifo_full
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":64:16:64:33|No assignment to wire cam1_fifo_overflow
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":102:16:102:34|No assignment to wire cam0_fifo_read_data
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":103:9:103:28|No assignment to wire cam0_fifo_data_valid
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":230:16:230:34|No assignment to wire cam1_fifo_read_data
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":231:9:231:28|No assignment to wire cam1_fifo_data_valid
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":230:14:230:26|No assignment to wire TP_PADDR_BIT2
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":275:14:275:28|No assignment to wire PADDRS0_slice_0
+@W: CG360 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\TOPLEVEL\TOPLEVEL.v":276:14:276:28|No assignment to wire PADDRS0_slice_1
 @W: CL260 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\cr_int.v":170:0:170:5|Pruning register bit 1 of nbyte_en[1:0] 
 @W: CL246 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\cr_int.v":24:13:24:20|Input port bits 31 to 25 of max_addr[31:0] are unused
 @W: CL246 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\cr_int.v":25:13:25:20|Input port bits 31 to 16 of reg_addr[31:0] are unused
@@ -1143,6 +940,28 @@
 @W: CL159 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused
 @W: CL159 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused
 @W: CL159 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\work\MSS_CORE3_MSS\MSS_CCC_0\MSS_CORE3_MSS_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":39:16:39:29|*Input cam0_fifo_full to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":63:16:63:29|*Input cam1_fifo_full to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":38:16:38:30|*Input cam0_fifo_empty to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":34:16:34:30|*Input cam0_fifo_afull to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":39:16:39:29|*Input cam0_fifo_full to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":40:16:40:33|*Input cam0_fifo_overflow to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":102:16:102:34|*Input cam0_fifo_read_data[31:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":103:9:103:28|*Input cam0_fifo_data_valid to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":62:16:62:30|*Input cam1_fifo_empty to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":58:16:58:30|*Input cam1_fifo_afull to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":63:16:63:29|*Input cam1_fifo_full to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":64:16:64:33|*Input cam1_fifo_overflow to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":230:16:230:34|*Input cam1_fifo_read_data[31:0] to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL156 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":231:9:231:28|*Input cam1_fifo_data_valid to expression [instance] has undriven bits that are tied to 0 -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":34:16:34:30|*Output cam0_fifo_afull has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":38:16:38:30|*Output cam0_fifo_empty has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":39:16:39:29|*Output cam0_fifo_full has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":40:16:40:33|*Output cam0_fifo_overflow has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":58:16:58:30|*Output cam1_fifo_afull has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":62:16:62:30|*Output cam1_fifo_empty has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":63:16:63:29|*Output cam1_fifo_full has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager.v":64:16:64:33|*Output cam1_fifo_overflow has undriven bits -- simulation mismatch possible.
 @W: CL246 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":121:22:121:26|Input port bits 31 to 8 of PADDR[31:0] are unused
 @W: CL247 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":122:22:122:27|Input port bit 31 of PWDATA[31:0] is unused
 @W: CL159 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\imager_apb_interface.v":134:15:134:37|Input cam0_frame_capture_done is unused
@@ -1152,7 +971,7 @@
 @W: CL159 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\framemask.v":22:22:22:25|Input data is unused
 @W: CL159 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\framemask.v":24:21:24:29|Input pixel_row is unused
 @W: CL159 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\framemask.v":25:21:25:29|Input pixel_col is unused
-@W: CL159 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\stonyman_controller.v":71:21:71:32|Input pulse_counts is unused
+@W: CL247 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\hdl\pupil_detect.v":33:43:33:57|Input port bit 889 of img_buf_newline[889:0] is unused
 @W: CL246 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":217:0:217:4|Input port bits 23 to 12 of PADDR[23:0] are unused
 @W: CL159 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":208:0:208:6|Input PRESETN is unused
 @W: CL159 :"C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\component\Actel\DirectCore\CoreAPB3\3.0.103\rtl\vlog\core_obfuscated\coreapb3.v":210:0:210:3|Input PCLK is unused

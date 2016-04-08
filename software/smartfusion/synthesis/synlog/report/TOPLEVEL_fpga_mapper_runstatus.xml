@@ -13,13 +13,13 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>64</data>
+<data>75</data>
 <report_link name="more">
 <data>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synlog\report\TOPLEVEL_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>28</data>
+<data>220</data>
 <report_link name="more">
 <data>C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\synlog\report\TOPLEVEL_fpga_mapper_warnings.txt</data>
 </report_link>
@@ -31,16 +31,16 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:43s</data>
+<data>0h:00m:53s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:45s</data>
+<data>0h:00m:54s</data>
 </info>
 <info name="Peak Memory">
-<data>230MB</data>
+<data>240MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1457554176</data>
+<data type="timestamp">1459957100</data>
 </info>
 </job_info>
 </job_run_status>

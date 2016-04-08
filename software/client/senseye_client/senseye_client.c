@@ -17,6 +17,7 @@
 #include <unistd.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
+#include <getopt.h>
 
 #include "senseye_defs.h"
 
@@ -25,7 +26,7 @@
 #include <opencv/highgui.h>
 
 // defines / constants
-#define INSIGHT_SERV_ADDR     ("141.212.11.197") //changes based on where connected
+//#define INSIGHT_SERV_ADDR     ("141.212.11.197") //changes based on where connected
 //test glasses cam on .215, breadboard cam on .197
 #define INSIGHT_SERV_PORT     (80)
 const char REQUEST[] = "GET\r\n";
@@ -51,6 +52,13 @@ static void save_mask(uint8_t* buf, uint16_t frame_size, uint8_t cam_id);
 static void terminate(int signum);
 
 // main
+//struct for command line arguments specifying port
+static struct option long_options[] ={
+      {"ipaddr", required_argument, NULL, 'i' },
+      {"help", no_argument, NULL, 'h'},
+      {NULL, 0, NULL, 0}
+};
+
 int main(int argc, char** argv) {
    int i, j;
 
@@ -59,6 +67,22 @@ int main(int argc, char** argv) {
    uint8_t recv_buf[256*1024];    // huge because I am a lazy man
    uint8_t* frame_buf [NUM_CAMS];
    uint8_t save_masks[NUM_CAMS] = {0, 0};
+
+   //get opt
+   char * INSIGHT_SERV_ADDR = "";
+   int idx = 0;
+   char c;
+   while((c= getopt_long(argc, argv, "i:h", long_options, &idx)) != -1){
+      switch(c){
+         case 'i':
+            INSIGHT_SERV_ADDR = optarg;
+            fprintf(stdout, "Set IP address, waiting to connect ...\n");
+            break;
+         case 'h':
+            fprintf(stdout, "Provide IP Address of the form xxx.xxx.xx.xxx\n");
+            break;
+      }
+   }
 
    //struct timespec time, timeprevious;
    //double fpsinstant, fpsmin, fpsmax;
