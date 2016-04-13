@@ -10,14 +10,11 @@ Printing clock  summary report in "C:\Users\Sam\Dropbox\Lab11\SensEye-2\software
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled 
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 128MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 129MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 128MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 129MB)
 
-@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":222:4:222:9|Removing sequential instance fifo_write_enable of view:PrimLib.sdffr(prim) in hierarchy view:work.adc_controller_1(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Removing sequential instance img_buf_newline_1[889] of view:PrimLib.lat(prim) in hierarchy view:work.adc_controller_1(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":222:4:222:9|Removing sequential instance fifo_write_enable of view:PrimLib.sdffr(prim) in hierarchy view:work.adc_controller_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Removing sequential instance img_buf_newline_1[0] of view:PrimLib.lat(prim) in hierarchy view:work.adc_controller_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Removing sequential instance img_buf_newline_1[1] of view:PrimLib.lat(prim) in hierarchy view:work.adc_controller_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Removing sequential instance img_buf_newline_1[2] of view:PrimLib.lat(prim) in hierarchy view:work.adc_controller_0(verilog) because there are no references to its outputs 
@@ -909,16 +906,15 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Removing sequential instance img_buf_newline_1[888] of view:PrimLib.lat(prim) in hierarchy view:work.adc_controller_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Removing sequential instance img_buf_newline_1[889] of view:PrimLib.lat(prim) in hierarchy view:work.adc_controller_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance pulse_counts[7:0] of view:PrimLib.sdffpatre(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam0_fifo_read_enable of view:PrimLib.dff(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam0_mask_write_enable of view:PrimLib.dff(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam0_mask_addr[9:0] of view:PrimLib.sdffr(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam0_mask_data[15:0] of view:PrimLib.sdffr(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam1_fifo_read_enable of view:PrimLib.dff(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam1_mask_write_enable of view:PrimLib.dff(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam1_mask_addr[9:0] of view:PrimLib.sdffr(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam1_mask_data[15:0] of view:PrimLib.sdffr(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CAHBLTl1lI of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTO0OI_1_0_0_0_1_0_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_masterstage.v":1319:0:1319:5|Removing sequential instance CAHBLTOO0I[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTO0OI_1_0_0_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Removing sequential instance img_buf_newline_1[889] of view:PrimLib.lat(prim) in hierarchy view:work.adc_controller_1(verilog) because there are no references to its outputs 
 @N: BN115 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":15034:0:15034:10|Removing instance CAHBLTOlO0l of view:COREAHBLITE_LIB.CAHBLTO0OI_1_0_0_0_1_0_0(verilog) because there are no references to its outputs 
 @N: BN115 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":16041:0:16041:10|Removing instance CAHBLTllO0l of view:COREAHBLITE_LIB.CAHBLTl0Il_16(verilog) because there are no references to its outputs 
 @N: BN115 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":16219:0:16219:10|Removing instance CAHBLTO0O0l of view:COREAHBLITE_LIB.CAHBLTl0Il_15(verilog) because there are no references to its outputs 
@@ -938,7 +934,6 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 @N: BN115 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_matrix2x16.v":19084:0:19084:10|Removing instance CAHBLTI0I0l of view:COREAHBLITE_LIB.CAHBLTllO0_1_0_0_4294967280s_0_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":349:0:349:5|Removing sequential instance CAHBLTl11l[15:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTOl0l_1_0_1_2_3_0_1_0_1_2(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg_awrap.v":349:0:349:5|Removing sequential instance CAHBLTI11l[11:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTOl0l_1_0_1_2_3_0_1_0_1_2(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":222:4:222:9|Removing sequential instance adc_data[11:0] of view:PrimLib.sdffre(prim) in hierarchy view:work.adc_controller_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":202:0:202:5|Removing sequential instance CAHBLTIO0l[1:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTl0Il_16(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":202:0:202:5|Removing sequential instance CAHBLTIO0l[1:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTl0Il_15(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":202:0:202:5|Removing sequential instance CAHBLTIO0l[1:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTl0Il_14(verilog) because there are no references to its outputs 
@@ -971,7 +966,6 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 @N: BN115 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":232:0:232:9|Removing instance CAHBLTlI0l of view:COREAHBLITE_LIB.CAHBLTlI1_1_13(verilog) because there are no references to its outputs 
 @N: BN115 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":232:0:232:9|Removing instance CAHBLTlI0l of view:COREAHBLITE_LIB.CAHBLTlI1_1_14(verilog) because there are no references to its outputs 
 @N: BN115 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavestage.v":232:0:232:9|Removing instance CAHBLTlI0l of view:COREAHBLITE_LIB.CAHBLTlI1_1_15(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam1_val_offset[11:0] of view:PrimLib.sdffpatre(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_initcfg.v":691:0:691:5|Removing sequential instance CAHBLTIO0l[1:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTllO0_1_0_0_4294967280s_0_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Removing sequential instance CAHBLTllOI[7:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTlI1_0(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Removing sequential instance CAHBLTllOI[7:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTlI1_1_0(verilog) because there are no references to its outputs 
@@ -989,7 +983,7 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Removing sequential instance CAHBLTllOI[7:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTlI1_1_14(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahblite\3.1.102\rtl\vlog\core_obfuscated\coreahblite_slavearbiter.v":494:0:494:5|Removing sequential instance CAHBLTllOI[7:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.CAHBLTlI1_1_15(verilog) because there are no references to its outputs 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 141MB)
 
 
 
@@ -1233,18 +1227,12 @@ stonyman_1|un1_newline_sample_0_sqmuxa_inferred_clock            80.0 MHz      1
 @W: MT530 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Found inferred clock adc_controller_1|img_buf_newline_1_sqmuxa_46_inferred_clock which controls 8 sequential elements including imager_0.adc0.img_buf_newline_1[888]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
-@W: MO111 :|Tristate driver cam0_fifo_afull_t on net cam0_fifo_afull has its enable tied to GND (module TOPLEVEL) 
-@W: MO111 :|Tristate driver cam0_fifo_empty_t on net cam0_fifo_empty has its enable tied to GND (module TOPLEVEL) 
-@W: MO111 :|Tristate driver cam0_fifo_full_t on net cam0_fifo_full has its enable tied to GND (module TOPLEVEL) 
-@W: MO111 :|Tristate driver cam1_fifo_afull_t on net cam1_fifo_afull has its enable tied to GND (module TOPLEVEL) 
-@W: MO111 :|Tristate driver cam1_fifo_empty_t on net cam1_fifo_empty has its enable tied to GND (module TOPLEVEL) 
-@W: MO111 :|Tristate driver cam1_fifo_full_t on net cam1_fifo_full has its enable tied to GND (module TOPLEVEL) 
 @N: BN225 |Writing default property annotation file C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\synthesis\TOPLEVEL.sap.
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 65MB peak: 140MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 66MB peak: 141MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Apr 06 11:37:25 2016
+# Wed Apr 13 14:14:09 2016
 
 ###########################################################]

@@ -1,7 +1,7 @@
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Wed Apr 06 11:38:20 2016
+# Timing Report written on Wed Apr 13 14:14:54 2016
 #
 
 
@@ -28,7 +28,7 @@ Worst slack in design: 0.225
                                                                  Requested     Estimated     Requested     Estimated                 Clock        Clock                
 Starting Clock                                                   Frequency     Frequency     Period        Period        Slack       Type         Group                
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FAB_CLK                                                          40.0 MHz      25.1 MHz      25.000        39.814        -14.814     declared     clk_group_0          
+FAB_CLK                                                          40.0 MHz      24.0 MHz      25.000        41.698        -16.698     declared     clk_group_0          
 FCLK                                                             40.0 MHz      NA            25.000        NA            NA          declared     clk_group_0          
 adc_controller_1|img_buf_newline_1_sqmuxa_12_inferred_clock      80.0 MHz      NA            12.500        NA            NA          inferred     Inferred_clkgroup_57 
 adc_controller_1|img_buf_newline_1_sqmuxa_13_inferred_clock      80.0 MHz      NA            12.500        NA            NA          inferred     Inferred_clkgroup_90 
@@ -409,21 +409,21 @@ Detailed Report for Clock: FAB_CLK
 Starting Points with Worst Slack
 ********************************
 
-                                          Starting                                                                Arrival          
-Instance                                  Reference     Type       Pin     Net                                    Time        Slack
-                                          Clock                                                                                    
------------------------------------------------------------------------------------------------------------------------------------
-imager_0.stonyman0.frame_capture_done     FAB_CLK       DFN1C1     Q       cam0_frame_capture_done_c              0.580       0.851
-imager_0.stonyman1.frame_capture_done     FAB_CLK       DFN1C1     Q       cam1_frame_capture_done_c              0.580       0.851
-psram_cr_0.ahb0.hrdata_reg[2]             FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[2]     0.580       1.655
-psram_cr_0.ahb0.hrdata_reg[3]             FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[3]     0.580       1.655
-psram_cr_0.ahb0.hrdata_reg[4]             FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[4]     0.580       1.655
-psram_cr_0.ahb0.hrdata_reg[5]             FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[5]     0.580       1.655
-psram_cr_0.ahb0.hrdata_reg[6]             FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[6]     0.580       1.655
-psram_cr_0.ahb0.hrdata_reg[7]             FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[7]     0.580       1.655
-psram_cr_0.ahb0.hrdata_reg[8]             FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[8]     0.580       1.655
-psram_cr_0.ahb0.hrdata_reg[9]             FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[9]     0.580       1.655
-===================================================================================================================================
+                                                      Starting                                                                Arrival          
+Instance                                              Reference     Type       Pin     Net                                    Time        Slack
+                                                      Clock                                                                                    
+-----------------------------------------------------------------------------------------------------------------------------------------------
+imager_0.stonyman1.frame_capture_done                 FAB_CLK       DFN1C1     Q       cam1_frame_capture_done_c              0.580       0.851
+imager_0.stonyman0.frame_capture_done                 FAB_CLK       DFN1C1     Q       cam0_frame_capture_done_c              0.580       0.851
+imager_0.fifo_pixel_data_0.DFN1C0_cam0_fifo_afull     FAB_CLK       DFN1C0     Q       cam0_fifo_afull_c                      0.580       1.145
+imager_0.fifo_pixel_data_1.DFN1C0_cam0_fifo_afull     FAB_CLK       DFN1C0     Q       cam1_fifo_afull_c                      0.580       1.145
+psram_cr_0.ahb0.hrdata_reg[0]                         FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[0]     0.580       1.550
+psram_cr_0.ahb0.hrdata_reg[1]                         FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[1]     0.580       1.550
+psram_cr_0.ahb0.hrdata_reg[2]                         FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[2]     0.580       1.550
+psram_cr_0.ahb0.hrdata_reg[3]                         FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[3]     0.580       1.550
+psram_cr_0.ahb0.hrdata_reg[4]                         FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[4]     0.580       1.550
+psram_cr_0.ahb0.hrdata_reg[5]                         FAB_CLK       DFN1E1     Q       CoreAHBLite_0_AHBmslave5_HRDATA[5]     0.580       1.550
+===============================================================================================================================================
 
 
 Ending Points with Worst Slack
@@ -435,14 +435,14 @@ Instance                           Reference     Type        Pin              Ne
 --------------------------------------------------------------------------------------------------------------------------------------------------
 MSS_CORE3_MSS_0.MSSINT_GPI_0       FAB_CLK       MSSINT      A                cam0_frame_capture_done_c                         0.000        0.851
 MSS_CORE3_MSS_0.MSSINT_GPI_2       FAB_CLK       MSSINT      A                cam1_frame_capture_done_c                         0.000        0.851
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[2]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[2]     0.000        1.655
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[3]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[3]     0.000        1.655
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[4]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[4]     0.000        1.655
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[5]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[5]     0.000        1.655
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[6]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[6]     0.000        1.655
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[7]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[7]     0.000        1.655
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[8]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[8]     0.000        1.655
-MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[9]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[9]     0.000        1.655
+MSS_CORE3_MSS_0.MSSINT_GPI_1       FAB_CLK       MSSINT      A                cam0_fifo_afull_c                                 0.000        1.145
+MSS_CORE3_MSS_0.MSSINT_GPI_3       FAB_CLK       MSSINT      A                cam1_fifo_afull_c                                 0.000        1.145
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[0]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[0]     0.000        1.550
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[1]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[1]     0.000        1.550
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[2]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[2]     0.000        1.550
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[3]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[3]     0.000        1.550
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[4]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[4]     0.000        1.550
+MSS_CORE3_MSS_0.MSS_ADLIB_INST     FAB_CLK       MSS_AHB     MSSHRDATA[5]     MSS_CORE3_MSS_0_MSS_MASTER_AHB_LITE_HRDATA[5]     0.000        1.550
 ==================================================================================================================================================
 
 
@@ -461,17 +461,17 @@ Path information for path number 1:
     = Slack (non-critical) :                 0.851
 
     Number of logic level(s):                0
-    Starting point:                          imager_0.stonyman0.frame_capture_done / Q
-    Ending point:                            MSS_CORE3_MSS_0.MSSINT_GPI_0 / A
+    Starting point:                          imager_0.stonyman1.frame_capture_done / Q
+    Ending point:                            MSS_CORE3_MSS_0.MSSINT_GPI_2 / A
     The start point is clocked by            FAB_CLK [rising] on pin CLK
     The end   point is clocked by            System [rising]
 
 Instance / Net                                       Pin      Pin               Arrival     No. of    
 Name                                      Type       Name     Dir     Delay     Time        Fan Out(s)
 ------------------------------------------------------------------------------------------------------
-imager_0.stonyman0.frame_capture_done     DFN1C1     Q        Out     0.580     0.580       -         
-cam0_frame_capture_done_c                 Net        -        -       0.270     -           2         
-MSS_CORE3_MSS_0.MSSINT_GPI_0              MSSINT     A        In      -         0.851       -         
+imager_0.stonyman1.frame_capture_done     DFN1C1     Q        Out     0.580     0.580       -         
+cam1_frame_capture_done_c                 Net        -        -       0.270     -           2         
+MSS_CORE3_MSS_0.MSSINT_GPI_2              MSSINT     A        In      -         0.851       -         
 ======================================================================================================
 
 

@@ -112,9 +112,3 @@
 @W: MT530 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Found inferred clock adc_controller_1|img_buf_newline_1_sqmuxa_52_inferred_clock which controls 8 sequential elements including imager_0.adc0.img_buf_newline_1[872]. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MT530 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Found inferred clock adc_controller_1|img_buf_newline_1_sqmuxa_23_inferred_clock which controls 8 sequential elements including imager_0.adc0.img_buf_newline_1[880]. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MT530 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":133:8:133:9|Found inferred clock adc_controller_1|img_buf_newline_1_sqmuxa_46_inferred_clock which controls 8 sequential elements including imager_0.adc0.img_buf_newline_1[888]. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MO111 :|Tristate driver cam0_fifo_afull_t on net cam0_fifo_afull has its enable tied to GND (module TOPLEVEL) 
-@W: MO111 :|Tristate driver cam0_fifo_empty_t on net cam0_fifo_empty has its enable tied to GND (module TOPLEVEL) 
-@W: MO111 :|Tristate driver cam0_fifo_full_t on net cam0_fifo_full has its enable tied to GND (module TOPLEVEL) 
-@W: MO111 :|Tristate driver cam1_fifo_afull_t on net cam1_fifo_afull has its enable tied to GND (module TOPLEVEL) 
-@W: MO111 :|Tristate driver cam1_fifo_empty_t on net cam1_fifo_empty has its enable tied to GND (module TOPLEVEL) 
-@W: MO111 :|Tristate driver cam1_fifo_full_t on net cam1_fifo_full has its enable tied to GND (module TOPLEVEL) 

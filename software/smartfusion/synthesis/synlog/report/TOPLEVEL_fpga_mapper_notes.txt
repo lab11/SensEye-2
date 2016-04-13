@@ -1,8 +1,6 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":222:4:222:9|Removing sequential instance pixel_increment[7:0] of view:PrimLib.dff(prim) in hierarchy view:work.adc_controller_0(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam1_requested_data of view:PrimLib.sdffse(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
-@N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\imager_apb_interface.v":209:4:209:9|Removing sequential instance cam0_requested_data of view:PrimLib.sdffse(prim) in hierarchy view:work.imager_apb_interface(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":220:0:220:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3OOl[30] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":220:0:220:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3OOl[31] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
 @N: BN362 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\component\actel\directcore\coreahbtoapb3\2.0.116\rtl\vlog\core_obfuscated\apbaddrdata.v":105:0:105:5|Removing sequential instance COREAHBTOAPB3_0.CAHBtoAPB3lll.CAHBtoAPB3I1I[12] of view:PrimLib.dffr(prim) in hierarchy view:work.TOPLEVEL(verilog) because there are no references to its outputs 
@@ -50,6 +48,7 @@
 @N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_4\.pulse_pin_state_nxt219'
 @N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":261:12:261:46|Found 8 bit by 8 bit '<' comparator, 'SET_VAL_5\.pulse_pin_state_nxt254'
 @N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":281:12:281:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_0\.pulse_pin_state_nxt286'
+@N: MF184 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":123:20:123:41|Found 12 by 12 bit subtractor, 'tmp_data_0_0[11:0]'
 @N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":169:20:169:45|Found 9 bit by 9 bit '<' comparator, 'un1_timer_132'
 @N: MF239 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\adc_controller.v":169:30:169:44|Found 9-bit decrementor, 'un1_track_counts[8:0]'
 @N: MF179 :"c:\users\sam\dropbox\lab11\senseye-2\software\smartfusion\hdl\stonyman_controller.v":281:12:281:46|Found 8 bit by 8 bit '<' comparator, 'GOTO_VAL_1\.pulse_pin_state_nxt311'

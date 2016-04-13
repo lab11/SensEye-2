@@ -3,14 +3,14 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-1 non-gated/non-generated clock tree(s) driving 848 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 1136 clock pin(s) of sequential element(s)
 113 gated/generated clock tree(s) driving 890 clock pin(s) of sequential element(s)
 0 instances converted, 890 sequential instances remain driven by gated/generated clocks
 
 ==================================== Non-Gated/Non-Generated Clocks ====================================
 Clock Tree ID     Driving Element     Drive Element Type                Fanout     Sample Instance      
 --------------------------------------------------------------------------------------------------------
-@K:CKID0114       MSS_CORE3_MSS_0     clock definition on hierarchy     848        heartbeat_0.pulse_out
+@K:CKID0114       MSS_CORE3_MSS_0     clock definition on hierarchy     1136       heartbeat_0.pulse_out
 ========================================================================================================
 ================================================================================== Gated/Generated Clocks ==================================================================================
 Clock Tree ID     Driving Element                                                       Drive Element Type     Fanout     Sample Instance                          Explanation              
@@ -127,7 +127,7 @@ Clock Tree ID     Driving Element                                               
 @K:CKID0110       imager_0.adc0.pixel_increment_RNICM46[4]                              NOR3B                  8          imager_0.adc0.img_buf_newline_1[89]      No clocks found on inputs
 @K:CKID0111       imager_0.adc0.pixel_increment_RNICM46_1[4]                            NOR3B                  8          imager_0.adc0.img_buf_newline_1[100]     No clocks found on inputs
 @K:CKID0112       imager_0.adc0.img_buf_newline_1_sqmuxa_111_inferred_clock_RNO         NOR3C                  1          imager_0.adc0.img_buf_newline_1[0]       No clocks found on inputs
-@K:CKID0113       imager_0.stonyman0.un1_newline_sample_0_sqmuxa_inferred_clock_RNO     OR2                    1          imager_0.stonyman0.newline_sample        No clocks found on inputs
+@K:CKID0113       imager_0.stonyman0.un1_newline_sample_0_sqmuxa_inferred_clock_RNO     AO1                    1          imager_0.stonyman0.newline_sample        No clocks found on inputs
 ============================================================================================================================================================================================
 
 

@@ -199,7 +199,7 @@ module imager (
 
     // FIFO
     //TODO: Play with depth and almost full threshold
-  /*  fifo_pixel_data fifo_pixel_data_0(
+    fifo_pixel_data fifo_pixel_data_0(
         .clk                    (clk),
         .reset                  (reset | cam0_reset),
         .cam0_fifo_write_data   (cam0_fifo_write_data),
@@ -211,7 +211,7 @@ module imager (
         .cam0_fifo_afull        (cam0_fifo_afull),
         .cam0_fifo_full         (cam0_fifo_full),
         .cam0_fifo_overflow     (cam0_fifo_overflow)
-    );*/
+    );
 
     // Control signals
     wire cam1_reset;
@@ -316,7 +316,7 @@ module imager (
 
     // FIFO
     //TODO: Play with depth and almost full threshold
-   /* fifo_pixel_data fifo_pixel_data_1(
+    fifo_pixel_data fifo_pixel_data_1(
         .clk                    (clk),
         .reset                  (reset | cam1_reset),
         .cam0_fifo_write_data   (cam1_fifo_write_data),
@@ -328,7 +328,7 @@ module imager (
         .cam0_fifo_afull        (cam1_fifo_afull),
         .cam0_fifo_full         (cam1_fifo_full),
         .cam0_fifo_overflow     (cam1_fifo_overflow)
-    );*/
+    );
 
     // Bus Interface
     imager_apb_interface img_apb (

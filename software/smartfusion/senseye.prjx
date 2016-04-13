@@ -54,13 +54,13 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf,actgen_cxf"
 STATE="utd"
-TIME="1459957021"
+TIME="1460571222"
 SIZE="3714"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1459957021"
+TIME="1460571222"
 SIZE="2649"
 PARENT="<project>\component\Actel\DirectCore\CoreAHBLite\3.1.102\CoreAHBLite.cxf"
 IS_READONLY="TRUE"
@@ -157,13 +157,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\COREAHBTOAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1459957021"
+TIME="1460571222"
 SIZE="2540"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1459957021"
+TIME="1460571222"
 SIZE="328"
 PARENT="<project>\component\Actel\DirectCore\COREAHBTOAPB3\2.0.116\COREAHBTOAPB3.cxf"
 IS_READONLY="TRUE"
@@ -243,13 +243,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1459957021"
+TIME="1460571222"
 SIZE="2278"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1459957021"
+TIME="1460571222"
 SIZE="886"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\3.0.103\CoreAPB3.cxf"
 IS_READONLY="TRUE"
@@ -470,12 +470,12 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\TOPLEVEL\TOPLEVEL.cxf,actgen_cxf"
 STATE="utd"
-TIME="1459957027"
+TIME="1460571228"
 SIZE="14358"
 ENDFILE
 VALUE "<project>\component\work\TOPLEVEL\TOPLEVEL.pdc,pdc"
 STATE="utd"
-TIME="1459957020"
+TIME="1460571221"
 SIZE="2536"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 BEGIN_USE_CONSTRAINT
@@ -486,7 +486,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\TOPLEVEL\TOPLEVEL.v,hdl"
 STATE="utd"
-TIME="1459957021"
+TIME="1460571222"
 SIZE="50719"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 IS_READONLY="TRUE"
@@ -501,50 +501,75 @@ STATE="utd"
 TIME="1446487257"
 SIZE="14471"
 ENDFILE
+VALUE "<project>\designer\impl1\AHB.ide_des,ide_des"
+STATE="utd"
+TIME="1446487257"
+SIZE="182"
+ENDFILE
+VALUE "<project>\designer\impl1\apb.ide_des,ide_des"
+STATE="utd"
+TIME="1446487257"
+SIZE="186"
+ENDFILE
+VALUE "<project>\designer\impl1\cr_int.ide_des,ide_des"
+STATE="utd"
+TIME="1446487257"
+SIZE="189"
+ENDFILE
+VALUE "<project>\designer\impl1\INBUF_LVDS_MCCC.ide_des,ide_des"
+STATE="utd"
+TIME="1446487257"
+SIZE="347"
+ENDFILE
 VALUE "<project>\designer\impl1\MSS_CORE2.ide_des,ide_des"
 STATE="utd"
 TIME="1446487257"
 SIZE="329"
 ENDFILE
-VALUE "<project>\designer\impl1\TOPLEVEL (New iMac's conflicted copy 2016-03-04).fdb,fdb"
+VALUE "<project>\designer\impl1\psram_cr.ide_des,ide_des"
 STATE="utd"
-TIME="1434069234"
-SIZE="209138"
+TIME="1446487257"
+SIZE="191"
 ENDFILE
-VALUE "<project>\designer\impl1\TOPLEVEL (New iMac's conflicted copy 2016-03-04).ide_des,ide_des"
+VALUE "<project>\designer\impl1\test_led_1.ide_des,ide_des"
 STATE="utd"
-TIME="1459955864"
-SIZE="1368"
+TIME="1446487257"
+SIZE="226"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP.adb,adb"
+STATE="utd"
+TIME="1446487257"
+SIZE="115712"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP.ide_des,ide_des"
+STATE="utd"
+TIME="1446487257"
+SIZE="1358"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.adb,adb"
 STATE="utd"
-TIME="1459958792"
-SIZE="19683328"
+TIME="1460570890"
+SIZE="20822016"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.fdb,fdb"
 STATE="utd"
-TIME="1460131748"
-SIZE="232918"
+TIME="1460571604"
+SIZE="246434"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL.ide_des,ide_des"
 STATE="utd"
-TIME="1459959017"
-SIZE="1438"
+TIME="1460571087"
+SIZE="1439"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_ba.sdf,ba_sdf"
 STATE="ood"
 TIME="1446487257"
 SIZE="1369522"
 ENDFILE
-VALUE "<project>\designer\impl1\TOPLEVEL_compile_log (New iMac's conflicted copy 2016-03-05).rpt,log"
-STATE="utd"
-TIME="1434069234"
-SIZE="38791"
-ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_compile_log.rpt,log"
 STATE="utd"
-TIME="1459957134"
-SIZE="349852"
+TIME="1460571319"
+SIZE="40014"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_floorplan_log.rpt,log"
 STATE="utd"
@@ -553,43 +578,33 @@ SIZE="1056"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\projectData\TOPLEVEL.pdb,pdb"
 STATE="utd"
-TIME="1457554635"
-SIZE="214571"
+TIME="1460133327"
+SIZE="238484"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pdb,pdb"
 STATE="utd"
-TIME="1457554635"
-SIZE="214571"
+TIME="1460133327"
+SIZE="238484"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_fp\TOPLEVEL.pro,pro"
 STATE="utd"
-TIME="1457554635"
+TIME="1460133327"
 SIZE="2426"
-ENDFILE
-VALUE "<project>\designer\impl1\TOPLEVEL_placeroute_log (New iMac's conflicted copy 2016-03-05).rpt,log"
-STATE="utd"
-TIME="1434069234"
-SIZE="3196"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1460131715"
-SIZE="95331"
-ENDFILE
-VALUE "<project>\designer\impl1\TOPLEVEL_prgdata_log (New iMac's conflicted copy 2016-03-05).rpt,log"
-STATE="utd"
-TIME="1434069234"
-SIZE="764"
+TIME="1460571569"
+SIZE="94947"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1460131750"
+TIME="1460571606"
 SIZE="752"
 ENDFILE
 VALUE "<project>\designer\impl1\TOPLEVEL_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1460131730"
-SIZE="16539"
+TIME="1460571586"
+SIZE="16475"
 ENDFILE
 VALUE "<project>\designer\impl1\VersionROM.ide_des,ide_des"
 STATE="utd"
@@ -628,8 +643,8 @@ SIZE="1034"
 ENDFILE
 VALUE "<project>\hdl\imager.v,hdl"
 STATE="utd"
-TIME="1459956634"
-SIZE="14032"
+TIME="1460570618"
+SIZE="14419"
 ENDFILE
 VALUE "<project>\hdl\imager_apb_interface.v,hdl"
 STATE="utd"
@@ -718,7 +733,7 @@ SIZE="1672"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1459957021"
+TIME="1460571222"
 SIZE="662"
 PARENT="<project>\component\work\TOPLEVEL\TOPLEVEL.cxf"
 ENDFILE
@@ -751,12 +766,12 @@ SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.edn,syn_edn"
 STATE="utd"
-TIME="1459957099"
-SIZE="5331811"
+TIME="1460570858"
+SIZE="6015826"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.so,so"
 STATE="utd"
-TIME="1459957099"
+TIME="1460570858"
 SIZE="243"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL.v,syn_hdl"
@@ -771,13 +786,13 @@ SIZE="25309"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1459957099"
+TIME="1460570857"
 SIZE="546"
 ENDFILE
 VALUE "<project>\synthesis\TOPLEVEL_syn.prj,prj"
 STATE="utd"
-TIME="1459957101"
-SIZE="6016"
+TIME="1460570859"
+SIZE="6117"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -1040,8 +1055,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -1148,7 +1163,7 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Synthesize:TOPLEVEL.srr
+ReportsCurrentItem;Program Device:TOPLEVEL_program.log
 SmartDesign;TOPLEVEL;0
 SmartDesign;MSS_CORE3_MSS;0
 HDL;hdl\imager.v;0
@@ -1202,6 +1217,7 @@ LIST "heartbeat::work","hdl\heartbeat.v","FALSE","FALSE"
 ENDLIST
 LIST "imager::work","hdl\imager.v","FALSE","FALSE"
 SUBBLOCK "adc_controller::work","hdl\adc_controller.v","FALSE","FALSE"
+SUBBLOCK "fifo_pixel_data::work","hdl\fifo_pixel_data.v","FALSE","FALSE"
 SUBBLOCK "framemask::work","hdl\framemask.v","FALSE","FALSE"
 SUBBLOCK "imager_apb_interface::work","hdl\imager_apb_interface.v","FALSE","FALSE"
 SUBBLOCK "pupil_detect::work","hdl\pupil_detect.v","FALSE","FALSE"

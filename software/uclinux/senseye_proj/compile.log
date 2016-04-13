@@ -16,7 +16,6 @@ make[2]: `include/generated/mach-types.h' is up to date.
   GEN     usr/initramfs_data.cpio
   AS      usr/initramfs_data.o
   LD      usr/built-in.o
-  LDS     arch/arm/kernel/vmlinux.lds
   LD      vmlinux.o
   MODPOST vmlinux.o
   GEN     .version
@@ -40,8 +39,10 @@ CFLAGS="-Os -mcpu=cortex-m3 -mthumb -I/home/srohrer/Dropbox/Lab11/release/linux-
 make[1]: Entering directory `/home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/stonyman'
 make -C /home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux M=`pwd` modules CFLAGS="" LDFLAGS=""
 make[2]: Entering directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
+  CC [M]  /home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/stonyman/stonyman_2.o
   Building modules, stage 2.
   MODPOST 1 modules
+  LD [M]  /home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/stonyman/stonyman_2.ko
 make[2]: Leaving directory `/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/linux'
 make[1]: Leaving directory `/home/srohrer/Dropbox/Lab11/SensEye-2/software/uclinux/stonyman'
 CFLAGS="-Os -mcpu=cortex-m3 -mthumb -I/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/root/usr/include" LDFLAGS="-mcpu=cortex-m3 -mthumb -L/home/srohrer/Dropbox/Lab11/release/linux-cortexm-1.13.0/A2F/root/usr/lib" make -C ../senseye_serv all
@@ -127,7 +128,7 @@ make[2]: `include/generated/mach-types.h' is up to date.
   Kernel: arch/arm/boot/Image is ready
   UIMAGE  arch/arm/boot/uImage
 Image Name:   Linux-2.6.33-arm1
-Created:      Fri Apr  8 12:28:15 2016
+Created:      Wed Apr 13 14:06:38 2016
 Image Type:   ARM Linux Kernel Image (uncompressed)
 Data Size:    1442496 Bytes = 1408.69 kB = 1.38 MB
 Load Address: 70008000
