@@ -194,15 +194,15 @@ void send_frame(uint8_t cam_id) {
          // Shut down cameras and exit
          terminate(0);
       }
-      fprintf(stderr, "%d ,", img_buf[HEADER_SIZE + 1] );
+      /*fprintf(stderr, "%d ,", img_buf[HEADER_SIZE + 1] );
       fprintf(stderr, "%d , ", img_buf[HEADER_SIZE + 150] );
       fprintf(stderr, "%d ,", img_buf[HEADER_SIZE + 1000] );
-      fprintf(stderr, "%d \n", img_buf[HEADER_SIZE + 8000] );
+      fprintf(stderr, "%d \n", img_buf[HEADER_SIZE + 8000] );*/
       px_read += ret_val;
 
-      fprintf(stderr, "Px_read val: %d, ", px_read);
+      /*fprintf(stderr, "Px_read val: %d, ", px_read);
       fprintf(stderr, "Ret val: %d, ", ret_val);
-      fprintf(stderr, "frame_res: %d, \n", frame_resolution[cam_id]);
+      fprintf(stderr, "frame_res: %d, \n", frame_resolution[cam_id]);*/
 
    }
 

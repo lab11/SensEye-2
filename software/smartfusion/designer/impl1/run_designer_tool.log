@@ -7,21 +7,7 @@ Release: v11.6
 Info: The design TOPLEVEL.adb was last modified by software version 11.6.0.34.
 Opened an existing Libero design TOPLEVEL.adb.
 
-The Execute Script command succeeded ( 00:00:19 )
+The Execute Script command succeeded ( 00:00:14 )
 Checking for software updates...
-Design saved to file
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL.adb.
-Wrote pin report to file:
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_report_pin_by\
-name.txt
-
-The Report command succeeded ( 00:00:01 )
-Wrote pin report to file:
-C:\Users\Sam\Dropbox\Lab11\SensEye-2\software\smartfusion\designer\impl1\TOPLEVEL_report_pin_by\
-number.txt
-
-The Report command succeeded ( 00:00:00 )
-
-The Execute Script command succeeded ( 00:00:01 )
 Design closed.
 

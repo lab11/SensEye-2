@@ -17,12 +17,13 @@
 `define MAX_RESOLUTION 112
 
 //Threshold (used to determine if pixels different colors)
-`define THRESHOLD 80
+`define THRESHOLD 64
+// notes: seems stange at threshold of 62 becomes unstable and incorrect 
+//   at threshold of 62, but performs normally at 64
 
 //define states
 `define WAIT 0
-`define COMPARE_PIXELS 1
-`define BLOB_INCREMENT 2
+`define COMPARE_PIXELS 1`define BLOB_INCREMENT 2
 `define WRITE_COORDINATES 3
 
 module pupil_detect(

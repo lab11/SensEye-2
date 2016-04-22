@@ -56,31 +56,29 @@ module pupilDetect_tb ();
     	frame_capture_done = 0;
 
 
-    	/*img_buf_newline = 0;
-    	#10;
-    	img_buf_newline[ 600 -: 300] = 300'hFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
-    	#1130;
     	img_buf_newline = 0;
     	#10;
-    	img_buf_newline[ 550 -: 200] = 200'hFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
-    	#1130;*/
-    	img_buf_newline = 0;
+    	img_buf_newline[888 : 0] = 889'h7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F;
     	#10;
     	img_buf_newline[ 500 -: 100] = 100'hFFFFFFFFFFFFFFFFFFFFFFFFF;
     	#1130;
-    	img_buf_newline = 0;
-    	#10;
+    	//img_buf_newline = 0;
+    	img_buf_newline[888 : 0] = 889'h7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F;    	
+ 		#10;
     	img_buf_newline[ 650 -: 400 ] = 400'hFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
     	#1130;
-    	img_buf_newline = 0;
+    	//img_buf_newline = 0;
+    	img_buf_newline[888 : 0] = 889'h7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F;    	  
     	#10;
     	img_buf_newline[ 600 -: 300] = 300'hFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
     	#1130;
-    	img_buf_newline = 0;
+    	//img_buf_newline = 0;
+    	img_buf_newline[888 : 0] = 889'h7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F;    		
     	#10;
     	img_buf_newline[ 550 -: 200] = 200'hFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
     	#1130;
-    	img_buf_newline = 0;
+    //	img_buf_newline = 0;
+    	img_buf_newline[888 : 0] = 889'h7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F;   
     	#10;
     	img_buf_newline[ 500 -: 100] = 100'hFFFFFFFFFFFFFFFFFFFFFFFFF;
     	#1130;
@@ -100,6 +98,14 @@ module pupilDetect_tb ();
     	#1130;
     	img_buf_newline = 0;
     	#10;
+    	img_buf_newline[ 550 -: 200] = 200'hFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
+    	#1130;
+        img_buf_newline = 0;
+    	#10;
+    	img_buf_newline[ 600 -: 300] = 300'hFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
+    	#1130;	
+    	img_buf_newline = 0;
+    	#10;
     	img_buf_newline[ 750 -: 400 ] = 400'hFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF;
     	#1130;
     	img_buf_newline = 0;
@@ -115,11 +121,11 @@ module pupilDetect_tb ();
     	img_buf_newline[ 500 -: 100] = 100'hFFFFFFFFFFFFFFFFFFFFFFFFF;
     	#1130;
 
-    	$finish;
+    	$stop;
     end
 
     always @(posedge clock) begin
-        $display ("\t%4d\t%b\t%b\t%b\t%b\t%b",
+        $display ("\t%4d\t%b\t%b\t%b\t%d\t%d",
             $time, reset, clock, frame_capture_done, 
             pupil_location_vertical, pupil_location_horizontal);
     end
